@@ -1,0 +1,18 @@
+第三方组件与发布说明
+
+本仓库包含下列第三方运行时组件，用于加载 Little Goody Two Shoes 简体中文汉化补丁：
+
+1. BepInEx 5.4.23.5
+   项目地址：https://github.com/BepInEx/BepInEx
+   许可证：LGPL-2.1-or-later / MIT（以其原始发布包中的许可证为准）。
+
+2. XUnity.AutoTranslator 5.6.1
+   项目地址：https://github.com/bbepis/XUnity.AutoTranslator
+   许可证：MIT（以其原始发布包中的许可证为准）。
+
+3. arialuni_sdf_u2019
+   本补丁用于 TextMeshPro 中文显示的字体资源。该资源仅随运行时汉化补丁分发，用于显示中文文本。
+
+本仓库不包含 Little Goody Two Shoes 游戏本体、原始资源包、存档或其他受游戏发行版保护的文件。游戏本体及其角色、文本、美术、音乐与其他内容的版权归原权利人所有。
+
+本汉化项目的插件源代码、翻译数据、配置和说明按仓库后续声明的项目许可发布；第三方组件仍分别受其原始许可证约束。

@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    LGTS 中文插件构建工程 (BepInEx 5.x, Mono, x64)
+    构建前提: 安装 .NET SDK; 游戏已装 BepInEx 5.x 并至少运行过一次(生成 interop/Managed 引用)。
+    构建: 在本目录执行  dotnet build -c Release
+    产物: bin/Release/net472/LGTSChinese.dll  →  复制到  游戏/BepInEx/plugins/LGTSChinese/
+    再把 translation/ 与 font/ 子目录一并放到该插件目录下。
+  -->
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>LGTSChinese</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <!-- 构建前通过环境变量或命令行指定 GameDir，例如：dotnet build -c Release -p:GameDir="D:\\Games\\Little Goody Two Shoes" -->
+    <GameDir Condition="'$(GameDir)' == ''">D:\Games\Little Goody Two Shoes</GameDir>
+    <ManagedDir>$(GameDir)\LGTS_Data\Managed</ManagedDir>
+    <BepInExCore>$(GameDir)\BepInEx\core</BepInExCore>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- BepInEx / Harmony -->
+    <Reference Include="BepInEx"><HintPath>$(BepInExCore)\BepInEx.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(BepInExCore)\0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <!-- Unity -->
+    <Reference Include="UnityEngine"><HintPath>$(ManagedDir)\UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(ManagedDir)\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.AssetBundleModule"><HintPath>$(ManagedDir)\UnityEngine.AssetBundleModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.TextRenderingModule"><HintPath>$(ManagedDir)\UnityEngine.TextRenderingModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>$(ManagedDir)\UnityEngine.UI.dll</HintPath><Private>false</Private></Reference>
+    <!-- 游戏本地化与 TMP -->
+    <Reference Include="Assembly-CSharp"><HintPath>$(ManagedDir)\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.TextMeshPro"><HintPath>$(ManagedDir)\Unity.TextMeshPro.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
