@@ -1,4 +1,4 @@
-Little Goody Two Shoes 简体中文汉化补丁 v1.3.7
+Little Goody Two Shoes 简体中文汉化补丁 v1.3.9
 
 一、补丁说明
 
@@ -11,7 +11,7 @@ Little Goody Two Shoes 简体中文汉化补丁 v1.3.7
 3. TextMeshPro 中文字体回退，以及旧版 UGUI Text 的系统中文字体替换。
 4. 道具获取复合弹窗、日期时段文本、彩色富文本等运行时显示路径的兼容处理。
 
-当前实装版本：LGTS Simplified Chinese v1.3.7。
+当前实装版本：LGTS Simplified Chinese v1.3.9。
 
 二、安装方法
 
@@ -42,7 +42,7 @@ BepInEx/LogOutput.log
 
 日志中应包含类似内容：
 
-Loading [LGTS Simplified Chinese 1.3.7]
+Loading [LGTS Simplified Chinese 1.3.9]
 LGTS 中文插件已加载
 Loaded fallback font for TextMesh Pro: arialuni_sdf_u2019
 
