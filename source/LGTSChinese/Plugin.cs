@@ -18,7 +18,7 @@ namespace LGTSChinese
     [BepInPlugin("com.hanhua.lgts.chinese", "LGTS Simplified Chinese", Plugin.VER)]
     public class Plugin : BaseUnityPlugin
     {
-        public const string VER = "1.3.9";
+        public const string VER = "1.3.10";
         internal static ManualLogSource Log;
         internal static Dictionary<string, string> Zh = new Dictionary<string, string>(StringComparer.Ordinal);
         internal static int Hits, Miss;
@@ -140,7 +140,14 @@ namespace LGTSChinese
         }
 
         // TMP 渲染层前置: __0 = 即将显示的文本; __instance = TMP 组件(取路径供诊断)。
+        // v1.3.10: 热钩子顶层 try/catch 纵深防御 —— 钩内任何异常不得中断游戏写入流程(P2-3)。
+        private static int HookErr;
         private static void Tmp_Prefix(ref string __0, object __instance)
+        {
+            try { Tmp_PrefixCore(ref __0, __instance); }
+            catch (Exception e) { if (HookErr < 20) { HookErr++; D("[HOOK ERR] TMP: " + e.Message); } }
+        }
+        private static void Tmp_PrefixCore(ref string __0, object __instance)
         {
             if (Runner == null) EnsureRunner();   // 宿主被销毁则借热路径重建 (v1.3.5)
             string s = __0;
@@ -439,6 +446,11 @@ namespace LGTSChinese
         // 不判语言会在玩家切换语言后仍强制中文, 造成混语界面。
         private static void DoLocalize_Prefix(object __0, ref string __1)
         {
+            try { DoLocalize_PrefixCore(__0, ref __1); }
+            catch (Exception e) { if (HookErr < 20) { HookErr++; D("[HOOK ERR] DoLoc: " + e.Message); } }
+        }
+        private static void DoLocalize_PrefixCore(object __0, ref string __1)
+        {
             if (string.IsNullOrEmpty(__1)) return;
             if (!I2LangIsEnglish()) return;
             string term = null;
@@ -675,6 +687,11 @@ namespace LGTSChinese
         // v1.3.7 (B2): 非英语言不注入。
         private static void GetTranslation_Postfix(ref string __result, string __0)
         {
+            try { GetTranslation_PostfixCore(ref __result, __0); }
+            catch (Exception e) { if (HookErr < 20) { HookErr++; D("[HOOK ERR] GT: " + e.Message); } }
+        }
+        private static void GetTranslation_PostfixCore(ref string __result, string __0)
+        {
             string Term = __0;
             if (string.IsNullOrEmpty(Term)) return;
             if (string.IsNullOrEmpty(__result)) { Miss++; LogTerm(Term, false, "GT"); return; }
@@ -690,6 +707,11 @@ namespace LGTSChinese
         // v1.3.7 (B2): 非英语言不注入。
         private static void TryGetTranslation_Postfix(string __0, ref string __1, ref bool __result)
         {
+            try { TryGetTranslation_PostfixCore(__0, ref __1, ref __result); }
+            catch (Exception e) { if (HookErr < 20) { HookErr++; D("[HOOK ERR] TRY: " + e.Message); } }
+        }
+        private static void TryGetTranslation_PostfixCore(string __0, ref string __1, ref bool __result)
+        {
             string Term = __0;
             if (string.IsNullOrEmpty(Term) || !__result) return;
             if (!I2LangIsEnglish()) return;
@@ -703,6 +725,11 @@ namespace LGTSChinese
         // v1.3.6 加固: 原返回为空(该语言无译文)时不注入, 保持原语义。
         // v1.3.7 (B2): 非英语言不注入。
         private static void TermData_Postfix(object __instance, ref string __result)
+        {
+            try { TermData_PostfixCore(__instance, ref __result); }
+            catch (Exception e) { if (HookErr < 20) { HookErr++; D("[HOOK ERR] TD: " + e.Message); } }
+        }
+        private static void TermData_PostfixCore(object __instance, ref string __result)
         {
             if (__instance == null || TermField == null) return;
             if (string.IsNullOrEmpty(__result)) return;
