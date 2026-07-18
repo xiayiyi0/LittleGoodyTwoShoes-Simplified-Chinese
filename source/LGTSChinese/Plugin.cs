@@ -18,7 +18,7 @@ namespace LGTSChinese
     [BepInPlugin("com.hanhua.lgts.chinese", "LGTS Simplified Chinese", Plugin.VER)]
     public class Plugin : BaseUnityPlugin
     {
-        public const string VER = "1.3.10";
+        public const string VER = "1.3.14";
         internal static ManualLogSource Log;
         internal static Dictionary<string, string> Zh = new Dictionary<string, string>(StringComparer.Ordinal);
         internal static int Hits, Miss;
@@ -33,6 +33,7 @@ namespace LGTSChinese
             var harmony = new Harmony("com.hanhua.lgts.chinese");
             PatchGetTranslation(harmony);
             PatchDoLocalize(harmony);
+            PatchLocalizeGuard(harmony);
             PatchTmp(harmony);
             // 本作会在启动早期销毁 BepInEx 的插件宿主(DIAG 中 [HOST DESTROYED] 紧跟启动即证据),
             // 挂在本组件上的协程活不过第一帧, 因此协程一律放到自愈的独立 Runner 上,
@@ -671,6 +672,64 @@ namespace LGTSChinese
             else Log.LogInfo("共挂钩 " + n + " 个取词方法");
         }
 
+        // ---- v1.3.14 选择器护栏: I2 "按名选资源"型 Localize 目标不得注入中文 ----
+        // I2 的 LocalizeTarget_UnityStandard_{Child,Prefab,MeshRenderer,SpriteRenderer,AudioSource}
+        // 把 mainTranslation 当作【子物体名/资源名查找键】用(child.name==text /
+        // FindTranslatedObject<T>(mainTranslation)), 而非显示文本。若我们的取词后钩把英文键
+        // 改成中文, 查找必然失配 → 选错/选空物体, 可能表现为谜题机关失灵或过场卡死。
+        // Localize.OnLocalize 内的调用顺序(反编译 Assembly-CSharp): 先 GetTranslation(FinalTerm)
+        // 取词(此时 CurrentLocalizeComponent 尚未赋值), 之后才 DoLocalize —— 因此无法在取词后钩里
+        // 反查调用方类型。护栏做法: 在 OnLocalize 外层包一对 prefix/finalizer, prefix 判断本组件的
+        // mLocalizeTarget 是否为上述"对象选择器", 是则置抑制标志; finalizer 恢复(异常也恢复,
+        // 支持嵌套 save/restore)。三个取词后钩(GT/TRY/TD)在标志置位时一律不注入。
+        // 文本型目标(TextMeshPro_Label/_UGUI/TextMesh)不置标志, 照常翻译。
+        [ThreadStatic] internal static bool SuppressTermInject;
+        private static HashSet<string> ObjSelectorTypeNames = new HashSet<string>(StringComparer.Ordinal)
+        {
+            "I2.Loc.LocalizeTarget_UnityStandard_Child",
+            "I2.Loc.LocalizeTarget_UnityStandard_Prefab",
+            "I2.Loc.LocalizeTarget_UnityStandard_MeshRenderer",
+            "I2.Loc.LocalizeTarget_UnityStandard_SpriteRenderer",
+            "I2.Loc.LocalizeTarget_UnityStandard_AudioSource",
+        };
+        private static FieldInfo LocTargetField;   // I2.Loc.Localize.mLocalizeTarget
+        private static int GuardHits;
+        private void PatchLocalizeGuard(Harmony harmony)
+        {
+            Type loc = AccessTools.TypeByName("I2.Loc.Localize");
+            if (loc == null) { Log.LogWarning("护栏: 未找到 I2.Loc.Localize"); D("[GUARD] Localize 类缺失, 护栏未挂"); return; }
+            LocTargetField = loc.GetField("mLocalizeTarget", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+            if (LocTargetField == null) { Log.LogWarning("护栏: 未找到 mLocalizeTarget 字段"); D("[GUARD] mLocalizeTarget 字段缺失, 护栏未挂"); return; }
+            var m = AccessTools.Method(loc, "OnLocalize", new Type[] { typeof(bool) })
+                    ?? AccessTools.Method(loc, "OnLocalize");
+            if (m == null) { Log.LogWarning("护栏: 未找到 Localize.OnLocalize"); D("[GUARD] OnLocalize 方法缺失, 护栏未挂"); return; }
+            var pre = new HarmonyMethod(typeof(Plugin).GetMethod("OnLocalize_Prefix", BindingFlags.Static | BindingFlags.NonPublic));
+            pre.priority = Priority.First;
+            var fin = new HarmonyMethod(typeof(Plugin).GetMethod("OnLocalize_Finalizer", BindingFlags.Static | BindingFlags.NonPublic));
+            try { harmony.Patch(m, prefix: pre, finalizer: fin); Log.LogInfo("已挂钩 Localize.OnLocalize 选择器护栏"); D("[GUARD] OnLocalize 护栏已挂"); }
+            catch (Exception e) { Log.LogWarning("护栏挂钩失败: " + e.Message); D("[GUARD] 挂钩失败: " + e.Message); }
+        }
+
+        // __state 保存进入前的抑制标志值以支持嵌套; 本组件目标为对象选择器则置位。
+        private static void OnLocalize_Prefix(object __instance, out bool __state)
+        {
+            __state = SuppressTermInject;
+            try
+            {
+                object tgt = LocTargetField != null ? LocTargetField.GetValue(__instance) : null;
+                if (tgt != null && ObjSelectorTypeNames.Contains(tgt.GetType().FullName))
+                {
+                    SuppressTermInject = true;
+                    if (GuardHits < 50) { GuardHits++; D("[GUARD] 抑制注入 target=" + tgt.GetType().Name); }
+                }
+            }
+            catch { /* 护栏自身异常绝不可影响游戏本地化 */ }
+        }
+        private static void OnLocalize_Finalizer(bool __state)
+        {
+            SuppressTermInject = __state;
+        }
+
         private static void LogTerm(string term, bool hit, string src)
         {
             if (Logged.Count < 400 && Logged.Add(src + ":" + term))
@@ -696,6 +755,7 @@ namespace LGTSChinese
             if (string.IsNullOrEmpty(Term)) return;
             if (string.IsNullOrEmpty(__result)) { Miss++; LogTerm(Term, false, "GT"); return; }
             if (!I2LangIsEnglish()) return;
+            if (SuppressTermInject) return;   // v1.3.14: 对象选择器取词, 键不可译
             string zh;
             bool hit = Zh.TryGetValue(RefKey(Term), out zh) && !string.IsNullOrEmpty(zh);
             if (hit) { __result = zh; Hits++; } else Miss++;
@@ -715,6 +775,7 @@ namespace LGTSChinese
             string Term = __0;
             if (string.IsNullOrEmpty(Term) || !__result) return;
             if (!I2LangIsEnglish()) return;
+            if (SuppressTermInject) return;   // v1.3.14: 对象选择器取词, 键不可译
             string zh;
             if (Zh.TryGetValue(RefKey(Term), out zh) && !string.IsNullOrEmpty(zh))
             { __1 = zh; Hits++; LogTerm(Term, true, "TRY"); }
@@ -734,6 +795,7 @@ namespace LGTSChinese
             if (__instance == null || TermField == null) return;
             if (string.IsNullOrEmpty(__result)) return;
             if (!I2LangIsEnglish()) return;
+            if (SuppressTermInject) return;   // v1.3.14: 对象选择器取词, 键不可译
             string Term = TermField.GetValue(__instance) as string;
             if (string.IsNullOrEmpty(Term)) return;
             string zh;
