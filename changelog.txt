@@ -1,6 +1,23 @@
 Little Goody Two Shoes 简体中文汉化补丁 — 更新日志
 ====================================================
 
+v1.3.16 (2026-07-28)
+- 修复对象选择器护栏漏项：补充 `I2.Loc.LocalizeTarget_UnityUI_Image` 与
+  `I2.Loc.LocalizeTarget_UnityUI_RawImage`。这两类目标同样把 `mainTranslation` 当作
+  Sprite/Texture 资源名查找；此前可能因中文注入导致 UI 图片或纹理查找失败。
+- 修复所有文本目标的 secondaryTerm 资源键污染：I2 的 TMP/UGUI/TextMesh 目标会把
+  `secondaryTranslation` 当作字体或材质名查找；此前通用取词后钩可能把这些名称翻成中文。
+  现已同时挂钩 4 类文本目标，并在显示层恢复英语字体/材质资源名，主文本中文不受影响。
+- 修复 `UI_System.txt` 的 Data Engineer 与 HOLLE CINEMATIC staff 译文 `<b>` 标签未闭合，避免
+  AutoTranslator 兜底路径出现后续文本持续加粗或富文本解析异常。
+- 按 XUnity.AutoTranslator 再分发要求，将 `MaxCharactersPerTranslation` 从 1000 收紧为 400；
+  在线翻译端点继续保持禁用，并恢复 TLS 证书校验（`DisableCertificateValidation=False`）。
+- 补充 `arialuni_sdf_u2019` 的上游 TMP 字体包来源与许可证边界说明，避免将
+  XUnity.AutoTranslator 代码的 MIT 许可证误套用于字体资源；同时按 BepInEx `v5-lts`
+  官方 LICENSE 将 BepInEx 许可证说明纠正为 MIT。
+- 安装说明中的插件加载日志示例同步为 1.3.16。
+- 插件 LGTSChinese.dll 升级至 1.3.16；构建零警告、零错误。
+
 v1.3.15 (2026-07-19)
 - 全量中英对照审查(25194+24704+536条)后修正1处代词错误:
   * DLG_3_5_HBY_02_031: "bring Him" 指代实体, "给他"→"给祂"(三层词典同步修正)。

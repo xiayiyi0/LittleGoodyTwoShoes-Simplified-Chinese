@@ -18,7 +18,7 @@ namespace LGTSChinese
     [BepInPlugin("com.hanhua.lgts.chinese", "LGTS Simplified Chinese", Plugin.VER)]
     public class Plugin : BaseUnityPlugin
     {
-        public const string VER = "1.3.15";
+        public const string VER = "1.3.16";
         internal static ManualLogSource Log;
         internal static Dictionary<string, string> Zh = new Dictionary<string, string>(StringComparer.Ordinal);
         internal static int Hits, Miss;
@@ -423,12 +423,17 @@ namespace LGTSChinese
             {
                 LocFinalTerm = loc.GetField("FinalTerm", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
                 LocMTerm = loc.GetField("mTerm", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                LocFinalSecondaryTerm = loc.GetField("FinalSecondaryTerm", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                LocMTermSecondary = loc.GetField("mTermSecondary", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
             }
             var pre = new HarmonyMethod(typeof(Plugin).GetMethod("DoLocalize_Prefix",
                 BindingFlags.Static | BindingFlags.NonPublic));
+            pre.priority = Priority.First;
             int n = 0;
             foreach (var tn in new[] { "I2.Loc.LocalizeTarget_TextMeshPro_Label",
-                                       "I2.Loc.LocalizeTarget_TextMeshPro_UGUI" })
+                                       "I2.Loc.LocalizeTarget_TextMeshPro_UGUI",
+                                       "I2.Loc.LocalizeTarget_UnityUI_Text",
+                                       "I2.Loc.LocalizeTarget_UnityStandard_TextMesh" })
             {
                 Type t = AccessTools.TypeByName(tn);
                 if (t == null) { Log.LogWarning("未找到 " + tn); continue; }
@@ -438,40 +443,68 @@ namespace LGTSChinese
                 catch (Exception e) { Log.LogWarning("挂钩 " + tn + ".DoLocalize 失败: " + e.Message); }
             }
             Log.LogInfo("DoLocalize 显示层挂钩: " + n + " 个");
-            D("DoLocalize hooks=" + n + " LocFinalTerm=" + (LocFinalTerm != null) + " LocMTerm=" + (LocMTerm != null));
+            D("DoLocalize hooks=" + n + " LocFinalTerm=" + (LocFinalTerm != null) + " LocMTerm=" + (LocMTerm != null)
+              + " LocFinalSecondaryTerm=" + (LocFinalSecondaryTerm != null) + " LocMTermSecondary=" + (LocMTermSecondary != null));
         }
 
         // cmp = Localize 组件; mainTranslation = 即将写入 TMP 的文本
         // v1.3.7 加固: (B3) 原查询为空(该词条无译文)时不注入, 对齐三个取词后缀的
         // "原查询失败不注入"语义; (B2) I2 当前语言非英语时不注入 —— 词条键与语言无关,
         // 不判语言会在玩家切换语言后仍强制中文, 造成混语界面。
-        private static void DoLocalize_Prefix(object __0, ref string __1)
+        private static void DoLocalize_Prefix(object __0, ref string __1, ref string __2)
         {
-            try { DoLocalize_PrefixCore(__0, ref __1); }
+            try { DoLocalize_PrefixCore(__0, ref __1, ref __2); }
             catch (Exception e) { if (HookErr < 20) { HookErr++; D("[HOOK ERR] DoLoc: " + e.Message); } }
         }
-        private static void DoLocalize_PrefixCore(object __0, ref string __1)
+        private static void DoLocalize_PrefixCore(object __0, ref string __1, ref string __2)
         {
-            if (string.IsNullOrEmpty(__1)) return;
             if (!I2LangIsEnglish()) return;
-            string term = null;
+            if (!string.IsNullOrEmpty(__1))
+            {
+                string term = null;
+                try
+                {
+                    if (LocFinalTerm != null) term = LocFinalTerm.GetValue(__0) as string;
+                    if (string.IsNullOrEmpty(term) && LocMTerm != null) term = LocMTerm.GetValue(__0) as string;
+                }
+                catch { }
+                string zh;
+                if (!string.IsNullOrEmpty(term) && Zh.TryGetValue(RefKey(term), out zh) && !string.IsNullOrEmpty(zh))
+                {
+                    if (DoLocHit < 300) D("DoLoc HIT  term=" + term + " was=" + Trunc(__1));
+                    __1 = zh; DoLocHit++;
+                }
+                else
+                {
+                    if (DoLocMiss < 300)
+                        D("DoLoc MISS term=" + (term ?? "<null>") + " text=" + Trunc(__1));
+                    DoLocMiss++;
+                }
+            }
+
+            // Text/TMP 目标的 secondaryTranslation 是字体或材质资源名，而不是显示文本。
+            // I2 会用它调用 GetSecondaryTranslatedObj<T>/FindTranslatedObject<T>；若被取词后钩翻成中文，
+            // 字体/材质查找会失败。因此对这些文本显示目标恢复英语资源键，主文本翻译不受影响。
+            string secondaryTerm = null;
             try
             {
-                if (LocFinalTerm != null) term = LocFinalTerm.GetValue(__0) as string;
-                if (string.IsNullOrEmpty(term) && LocMTerm != null) term = LocMTerm.GetValue(__0) as string;
+                if (LocFinalSecondaryTerm != null) secondaryTerm = LocFinalSecondaryTerm.GetValue(__0) as string;
+                if (string.IsNullOrEmpty(secondaryTerm) && LocMTermSecondary != null)
+                    secondaryTerm = LocMTermSecondary.GetValue(__0) as string;
             }
             catch { }
-            string zh;
-            if (!string.IsNullOrEmpty(term) && Zh.TryGetValue(RefKey(term), out zh) && !string.IsNullOrEmpty(zh))
+            if (!string.IsNullOrEmpty(secondaryTerm))
             {
-                if (DoLocHit < 300) D("DoLoc HIT  term=" + term + " was=" + Trunc(__1));
-                __1 = zh; DoLocHit++;
-            }
-            else
-            {
-                if (DoLocMiss < 300)
-                    D("DoLoc MISS term=" + (term ?? "<null>") + " text=" + Trunc(__1));
-                DoLocMiss++;
+                string resourceName = GetEnglishTranslation(secondaryTerm);
+                if (!string.IsNullOrEmpty(resourceName) && resourceName != __2)
+                {
+                    if (SecondaryGuardHits < 50)
+                    {
+                        SecondaryGuardHits++;
+                        D("[SECONDARY GUARD] term=" + secondaryTerm + " restored=" + Trunc(resourceName));
+                    }
+                    __2 = resourceName;
+                }
             }
         }
 
@@ -497,6 +530,38 @@ namespace LGTSChinese
             if (s == null) return "<null>";
             s = s.Replace("\n", "\\n");
             return s.Length > 60 ? s.Substring(0, 60) : s;
+        }
+
+        private static string GetEnglishTranslation(string term)
+        {
+            if (GetTranslationMethod == null || string.IsNullOrEmpty(term)) return null;
+            bool previousSuppress = SuppressTermInject;
+            try
+            {
+                // 调用同一个 I2 取词方法会再次经过本插件后钩；临时抑制，确保拿到原始英语资源名。
+                SuppressTermInject = true;
+                var ps = GetTranslationMethod.GetParameters();
+                var args = new object[ps.Length];
+                args[0] = term;
+                for (int i = 1; i < ps.Length; i++)
+                {
+                    if (ps[i].ParameterType == typeof(string)
+                        && string.Equals(ps[i].Name, "overrideLanguage", StringComparison.OrdinalIgnoreCase))
+                        args[i] = "English";
+                    else if (ps[i].HasDefaultValue) args[i] = ps[i].DefaultValue;
+                    else args[i] = ps[i].ParameterType.IsValueType ? Activator.CreateInstance(ps[i].ParameterType) : null;
+                }
+                return GetTranslationMethod.Invoke(null, args) as string;
+            }
+            catch (Exception e)
+            {
+                if (HookErr < 20) { HookErr++; D("[SECONDARY GUARD] 英语资源键恢复失败: " + e.Message); }
+                return null;
+            }
+            finally
+            {
+                SuppressTermInject = previousSuppress;
+            }
         }
 
 
@@ -577,9 +642,10 @@ namespace LGTSChinese
 
         // ---- Harmony 补丁: 后置钩 I2 取词 ----
         internal static FieldInfo TermField;
-        internal static FieldInfo LocFinalTerm, LocMTerm;
+        internal static FieldInfo LocFinalTerm, LocMTerm, LocFinalSecondaryTerm, LocMTermSecondary;
+        internal static MethodInfo GetTranslationMethod;
         internal static System.IO.StreamWriter Diag;
-        internal static int DoLocHit, DoLocMiss;
+        internal static int DoLocHit, DoLocMiss, SecondaryGuardHits;
         internal static int TmpSeen, TmpFixed, TmpMiss, TmpCjkSkip;
         private static readonly HashSet<string> SeenHit = new HashSet<string>(StringComparer.Ordinal);
         private static readonly HashSet<string> SeenMiss = new HashSet<string>(StringComparer.Ordinal);
@@ -626,7 +692,24 @@ namespace LGTSChinese
             if (lm == null) { Log.LogError("未找到 I2.Loc.LocalizationManager"); return; }
             // v1.3.7 (B2): 语言门所需的 I2 当前语言码
             try { I2LangCodeProp = lm.GetProperty("CurrentLanguageCode", BindingFlags.Public | BindingFlags.Static); } catch { }
-            D("I2 语言门: CurrentLanguageCode 属性=" + (I2LangCodeProp != null ? "已取得" : "缺失(默认按英语)"));
+            // 缓存一个 GetTranslation(string, ...) 重载，用于恢复 Text/TMP secondaryTerm 的英语资源名。
+            // 通过显式传入 "English" 获取资源键；调用期间 SuppressTermInject 会抑制本插件的取词后钩。
+            foreach (var candidate in lm.GetMethods(BindingFlags.Public | BindingFlags.Static))
+            {
+                var cps = candidate.GetParameters();
+                if (candidate.Name == "GetTranslation" && candidate.ReturnType == typeof(string)
+                    && cps.Length >= 1 && cps[0].ParameterType == typeof(string))
+                {
+                    bool hasOverrideLanguage = false;
+                    for (int pi = 1; pi < cps.Length; pi++)
+                        if (cps[pi].ParameterType == typeof(string)
+                            && string.Equals(cps[pi].Name, "overrideLanguage", StringComparison.OrdinalIgnoreCase))
+                        { hasOverrideLanguage = true; break; }
+                    if (hasOverrideLanguage) { GetTranslationMethod = candidate; break; }
+                }
+            }
+            D("I2 语言门: CurrentLanguageCode 属性=" + (I2LangCodeProp != null ? "已取得" : "缺失(默认按英语)")
+              + " 英语资源键取词=" + (GetTranslationMethod != null ? "已取得" : "缺失"));
             var post = new HarmonyMethod(typeof(Plugin).GetMethod("GetTranslation_Postfix",
                 BindingFlags.Static | BindingFlags.NonPublic));
             var postTry = new HarmonyMethod(typeof(Plugin).GetMethod("TryGetTranslation_Postfix",
@@ -672,11 +755,10 @@ namespace LGTSChinese
             else Log.LogInfo("共挂钩 " + n + " 个取词方法");
         }
 
-        // ---- v1.3.14 选择器护栏: I2 "按名选资源"型 Localize 目标不得注入中文 ----
-        // I2 的 LocalizeTarget_UnityStandard_{Child,Prefab,MeshRenderer,SpriteRenderer,AudioSource}
-        // 把 mainTranslation 当作【子物体名/资源名查找键】用(child.name==text /
-        // FindTranslatedObject<T>(mainTranslation)), 而非显示文本。若我们的取词后钩把英文键
-        // 改成中文, 查找必然失配 → 选错/选空物体, 可能表现为谜题机关失灵或过场卡死。
+        // ---- v1.3.16 选择器护栏: I2 "按名选资源"型 Localize 目标不得注入中文 ----
+        // I2 的对象选择目标会把 mainTranslation 当作【子物体名/资源名查找键】用
+        // (child.name==text / FindTranslatedObject<T>(mainTranslation)), 而非显示文本。若我们的取词后钩把英文键
+        // 改成中文, 查找必然失配 → 选错/选空物体, 可能表现为谜题机关失灵、UI 图片消失或过场卡死。
         // Localize.OnLocalize 内的调用顺序(反编译 Assembly-CSharp): 先 GetTranslation(FinalTerm)
         // 取词(此时 CurrentLocalizeComponent 尚未赋值), 之后才 DoLocalize —— 因此无法在取词后钩里
         // 反查调用方类型。护栏做法: 在 OnLocalize 外层包一对 prefix/finalizer, prefix 判断本组件的
@@ -691,6 +773,8 @@ namespace LGTSChinese
             "I2.Loc.LocalizeTarget_UnityStandard_MeshRenderer",
             "I2.Loc.LocalizeTarget_UnityStandard_SpriteRenderer",
             "I2.Loc.LocalizeTarget_UnityStandard_AudioSource",
+            "I2.Loc.LocalizeTarget_UnityUI_Image",
+            "I2.Loc.LocalizeTarget_UnityUI_RawImage",
         };
         private static FieldInfo LocTargetField;   // I2.Loc.Localize.mLocalizeTarget
         private static int GuardHits;
@@ -755,7 +839,7 @@ namespace LGTSChinese
             if (string.IsNullOrEmpty(Term)) return;
             if (string.IsNullOrEmpty(__result)) { Miss++; LogTerm(Term, false, "GT"); return; }
             if (!I2LangIsEnglish()) return;
-            if (SuppressTermInject) return;   // v1.3.14: 对象选择器取词, 键不可译
+            if (SuppressTermInject) return;   // v1.3.16: 对象选择器取词, 键不可译
             string zh;
             bool hit = Zh.TryGetValue(RefKey(Term), out zh) && !string.IsNullOrEmpty(zh);
             if (hit) { __result = zh; Hits++; } else Miss++;
@@ -775,7 +859,7 @@ namespace LGTSChinese
             string Term = __0;
             if (string.IsNullOrEmpty(Term) || !__result) return;
             if (!I2LangIsEnglish()) return;
-            if (SuppressTermInject) return;   // v1.3.14: 对象选择器取词, 键不可译
+            if (SuppressTermInject) return;   // v1.3.16: 对象选择器取词, 键不可译
             string zh;
             if (Zh.TryGetValue(RefKey(Term), out zh) && !string.IsNullOrEmpty(zh))
             { __1 = zh; Hits++; LogTerm(Term, true, "TRY"); }
@@ -795,7 +879,7 @@ namespace LGTSChinese
             if (__instance == null || TermField == null) return;
             if (string.IsNullOrEmpty(__result)) return;
             if (!I2LangIsEnglish()) return;
-            if (SuppressTermInject) return;   // v1.3.14: 对象选择器取词, 键不可译
+            if (SuppressTermInject) return;   // v1.3.16: 对象选择器取词, 键不可译
             string Term = TermField.GetValue(__instance) as string;
             if (string.IsNullOrEmpty(Term)) return;
             string zh;

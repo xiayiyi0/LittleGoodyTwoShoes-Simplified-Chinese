@@ -4,14 +4,14 @@
 
 1. BepInEx 5.4.23.5
    项目地址：https://github.com/BepInEx/BepInEx
-   许可证：LGPL-2.1-or-later / MIT（以其原始发布包中的许可证为准）。
+   许可证：MIT（以其原始发布包中的许可证为准）。
 
 2. XUnity.AutoTranslator 5.6.1
    项目地址：https://github.com/bbepis/XUnity.AutoTranslator
    许可证：MIT（以其原始发布包中的许可证为准）。
 
 3. arialuni_sdf_u2019
-   本补丁用于 TextMeshPro 中文显示的字体资源。该资源仅随运行时汉化补丁分发，用于显示中文文本。
+   本补丁用于 TextMeshPro 中文显示的字体资源。资源来源：XUnity.AutoTranslator 官方 Release 提供的 TMP_Font_AssetBundles（https://github.com/bbepis/XUnity.AutoTranslator/releases/tag/v5.5.0）。上游 Release 页面未单独声明该字体 AssetBundle 或其基础字库采用 MIT 许可证，因此本项目不将 XUnity.AutoTranslator 的 MIT 许可证延伸解释为该字体资源的许可证；相关权利仍归原权利人所有。该资源仅随运行时汉化补丁分发，用于显示中文文本。
 
 本仓库不包含 Little Goody Two Shoes 游戏本体、原始资源包、存档或其他受游戏发行版保护的文件。游戏本体及其角色、文本、美术、音乐与其他内容的版权归原权利人所有。
 
