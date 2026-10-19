@@ -1,4 +1,4 @@
-Little Goody Two Shoes 简体中文汉化补丁 v1.3.16
+Little Goody Two Shoes 简体中文汉化补丁 v1.3.20
 
 一、补丁说明
 
@@ -11,7 +11,7 @@ Little Goody Two Shoes 简体中文汉化补丁 v1.3.16
 3. TextMeshPro 中文字体回退，以及旧版 UGUI Text 的系统中文字体替换。
 4. 道具获取复合弹窗、日期时段文本、彩色富文本等运行时显示路径的兼容处理。
 
-当前实装版本：LGTS Simplified Chinese v1.3.16。
+当前实装版本：LGTS Simplified Chinese v1.3.20。
 
 二、安装方法
 
@@ -42,9 +42,23 @@ BepInEx/LogOutput.log
 
 日志中应包含类似内容：
 
-Loading [LGTS Simplified Chinese 1.3.16]
+Loading [LGTS Simplified Chinese 1.3.20]
 LGTS 中文插件已加载
 Loaded fallback font for TextMesh Pro: arialuni_sdf_u2019
+
+版本自检（反馈问题前请先完成以下三条，并在反馈中附上结果）：
+
+1. 插件版本：在文件管理器中右键 BepInEx/plugins/LGTSChinese/LGTSChinese.dll，
+   选“属性”→“详细信息”，文件版本应为 1.3.20.0。
+2. 诊断日志首行：用记事本打开 BepInEx/plugins/LGTSChinese/DIAG.txt（运行过一次
+   游戏后生成），首行应为 “=== LGTS DIAG v1.3.20 启动 ===”。
+3. 文件完整性：对照发布包内的 SHA256SUMS.txt，可用命令
+   certutil -hashfile "文件路径" SHA256
+   逐条核对（至少核对 LGTSChinese.dll 与两个 translation 词典）。
+
+反馈问题时请随附 BepInEx/plugins/LGTSChinese/DIAG.txt 与 BepInEx/LogOutput.log，
+并在正文中注明：游戏版本（Steam 客户端可见）、补丁版本（上述第 1/2 条）、
+复现步骤、截图或录屏。
 
 四、暂停菜单丝带文字验收
 

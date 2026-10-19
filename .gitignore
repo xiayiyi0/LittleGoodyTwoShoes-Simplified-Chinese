@@ -1,4 +1,10 @@
+# 发布包不进 git 历史（挂 Release 附件）
+*.zip
+# csc 中间产物
 source/LGTSChinese/build/
 source/LGTSChinese/bin/
 source/LGTSChinese/obj/
-LGTS-SimplifiedChinese-v*.zip
+# 本地杂项
+*.bak
+__pycache__/
+Thumbs.db

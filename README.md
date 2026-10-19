@@ -1,6 +1,9 @@
 Little Goody Two Shoes 简体中文汉化补丁
 
-当前版本：v1.3.16
+当前版本：v1.3.20 ![version](https://img.shields.io/badge/version-1.3.20-blue)
+
+> **下载请到 [Releases](../../releases)**，选择 `LGTS-SimplifiedChinese-v1.3.20.zip`。
+> 本仓库包含完整发布树、插件源码与词典源文件，也可直接使用或自行构建。
 
 这是适用于 Windows 版 Little Goody Two Shoes 的简体中文运行时汉化补丁。
 

@@ -18,7 +18,7 @@ namespace LGTSChinese
     [BepInPlugin("com.hanhua.lgts.chinese", "LGTS Simplified Chinese", Plugin.VER)]
     public class Plugin : BaseUnityPlugin
     {
-        public const string VER = "1.3.16";
+        public const string VER = "1.3.20";
         internal static ManualLogSource Log;
         internal static Dictionary<string, string> Zh = new Dictionary<string, string>(StringComparer.Ordinal);
         internal static int Hits, Miss;
@@ -30,6 +30,7 @@ namespace LGTSChinese
             LoadTable();
             OpenDiag();
             LoadDisplayDict();
+            LoadItemNames();
             var harmony = new Harmony("com.hanhua.lgts.chinese");
             PatchGetTranslation(harmony);
             PatchDoLocalize(harmony);
@@ -110,6 +111,26 @@ namespace LGTSChinese
                 Log.LogInfo("显示词典载入: " + Disp.Count + " 条 (AT 文本退回)");
             }
             catch (Exception e) { D("显示词典载入失败: " + e); Log.LogWarning("显示词典载入失败: " + e.Message); }
+        }
+
+        // v1.3.18 (F1): 道具名专用映射 —— ITEM GET 弹窗的道具英文短名与角色名牌共用
+        // 同一英文串(Lebkuchen 既是角色"斯佩尔特"又是食品"姜饼"), display 词典在弹窗
+        // 上下文无从区分, 旧版弹窗因此把姜饼显示成"斯佩尔特"。此表由离线脚本
+        // (fix_batches_*/batch6_gen_item_names.py)从 Gridly ITM_*_N_* 名称记录 ×
+        // refkey 译文生成, 键归一规则与 Norm() 一致。文件缺失时静默降级(空表),
+        // TryItemGet 回退 display 词典, 行为与旧版完全一致。
+        private void LoadItemNames()
+        {
+            try
+            {
+                string dir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+                string js = Path.Combine(dir, "translation", "lgts_item_names.json");
+                if (!File.Exists(js)) { D("道具名映射(lgts_item_names.json)不存在, 跳过"); return; }
+                ParseFlatJson(File.ReadAllText(js, System.Text.Encoding.UTF8), ItemNames);
+                D("道具名映射(lgts_item_names.json)载入: " + ItemNames.Count + " 键");
+                Log.LogInfo("道具名映射载入: " + ItemNames.Count + " 条 (lgts_item_names.json)");
+            }
+            catch (Exception e) { D("道具名映射载入失败: " + e.Message); Log.LogWarning("道具名映射载入失败: " + e.Message); }
         }
 
         // 尝试挂钩 TMP 文本入口(base set_text 在本作会 IL 失败; SetText 方法多半可挂)。
@@ -335,7 +356,10 @@ namespace LGTSChinese
                     string colorOpen = m.Groups[2].Value;   // <color=red> 或 ""
                     string name = m.Groups[3].Value;
                     string zhName, nk = Norm(name);
-                    if (!(Disp.TryGetValue(nk, out zhName) && !string.IsNullOrEmpty(zhName)))
+                    // v1.3.18 (F1): 道具上下文优先查专用映射 —— Lebkuchen 在道具弹窗
+                    // 是"姜饼"而非角色名"斯佩尔特"; 未命中再回退 display 词典。
+                    if (!(ItemNames.TryGetValue(nk, out zhName) && !string.IsNullOrEmpty(zhName)) &&
+                        !(Disp.TryGetValue(nk, out zhName) && !string.IsNullOrEmpty(zhName)))
                     { zhName = name; D("[ITEM_NAME MISS] " + Trunc(name)); }
                     string colorClose = string.IsNullOrEmpty(colorOpen) ? "" : "</color>";
                     lines[i] = "获得了 " + cnt + " 个 " + colorOpen + zhName + colorClose;
@@ -532,26 +556,43 @@ namespace LGTSChinese
             return s.Length > 60 ? s.Substring(0, 60) : s;
         }
 
+        // v1.3.17 (C6): 英语资源键缓存与参数模板 —— 此前每次 DoLocalize 都 GetParameters()
+        // + Activator.CreateInstance 全量反射; 现仅首个 term 构造一次参数模板, 且每个
+        // secondaryTerm 只反射一次, 之后全部走缓存。secondaryTerm 为有限资源名集合, 缓存无界风险可忽略。
+        internal static readonly Dictionary<string, string> EngResCache = new Dictionary<string, string>(StringComparer.Ordinal);
+        internal static ParameterInfo[] EngInvokeParams;
+        internal static object[] EngInvokeArgs;
+
         private static string GetEnglishTranslation(string term)
         {
             if (GetTranslationMethod == null || string.IsNullOrEmpty(term)) return null;
+            string cached;
+            if (EngResCache.TryGetValue(term, out cached)) return cached;   // (C6) 命中缓存零反射
             bool previousSuppress = SuppressTermInject;
             try
             {
                 // 调用同一个 I2 取词方法会再次经过本插件后钩；临时抑制，确保拿到原始英语资源名。
                 SuppressTermInject = true;
-                var ps = GetTranslationMethod.GetParameters();
-                var args = new object[ps.Length];
-                args[0] = term;
-                for (int i = 1; i < ps.Length; i++)
+                if (EngInvokeParams == null)
                 {
-                    if (ps[i].ParameterType == typeof(string)
-                        && string.Equals(ps[i].Name, "overrideLanguage", StringComparison.OrdinalIgnoreCase))
-                        args[i] = "English";
-                    else if (ps[i].HasDefaultValue) args[i] = ps[i].DefaultValue;
-                    else args[i] = ps[i].ParameterType.IsValueType ? Activator.CreateInstance(ps[i].ParameterType) : null;
+                    EngInvokeParams = GetTranslationMethod.GetParameters();
+                    EngInvokeArgs = new object[EngInvokeParams.Length];
+                    for (int i = 1; i < EngInvokeParams.Length; i++)
+                    {
+                        if (EngInvokeParams[i].ParameterType == typeof(string)
+                            && string.Equals(EngInvokeParams[i].Name, "overrideLanguage", StringComparison.OrdinalIgnoreCase))
+                            EngInvokeArgs[i] = "English";
+                        else if (EngInvokeParams[i].HasDefaultValue) EngInvokeArgs[i] = EngInvokeParams[i].DefaultValue;
+                        else EngInvokeArgs[i] = EngInvokeParams[i].ParameterType.IsValueType ? Activator.CreateInstance(EngInvokeParams[i].ParameterType) : null;
+                    }
                 }
-                return GetTranslationMethod.Invoke(null, args) as string;
+                EngInvokeArgs[0] = term;
+                string result = GetTranslationMethod.Invoke(null, EngInvokeArgs) as string;
+                // v1.3.19 (P2-2): 空结果不入缓存 —— I2 源未就绪时首查得 null, 负缓存会使
+                // 该 term 的 secondary 资源键修复终身失效(v1.3.16 行为可晚恢复);
+                // 仅缓存非空结果, null 每次重查直至源就绪。
+                if (!string.IsNullOrEmpty(result)) EngResCache[term] = result;
+                return result;
             }
             catch (Exception e)
             {
@@ -594,6 +635,8 @@ namespace LGTSChinese
                     char c = s[i++];
                     if (c == '\\')
                     {
+                        // v1.3.17 (C5): 孤立尾部反斜杠不越界, 按字面量输出
+                        if (i >= n) { sb.Append(c); break; }
                         char e = s[i++];
                         switch (e)
                         {
@@ -604,7 +647,13 @@ namespace LGTSChinese
                             case '\\': sb.Append('\\'); break;
                             case '/': sb.Append('/'); break;
                             case 'u':
-                                sb.Append((char)Convert.ToInt32(s.Substring(i, 4), 16)); i += 4; break;
+                                // v1.3.17 (C5): \u 转义边界保护 —— 剩余不足 4 位或非十六进制
+                                // 时降级为字面 'u', 不再抛 ArgumentOutOfRangeException/FormatException
+                                // (此前畸形转义会让整张译文表加载失败)。
+                                if (i + 4 <= n && IsHex4(s, i))
+                                { sb.Append((char)Convert.ToInt32(s.Substring(i, 4), 16)); i += 4; }
+                                else sb.Append(e);
+                                break;
                             default: sb.Append(e); break;
                         }
                     }
@@ -630,6 +679,18 @@ namespace LGTSChinese
                 if (i < n && s[i] == ',') { i++; continue; }
                 if (i < n && s[i] == '}') break;
             }
+        }
+
+        // v1.3.17 (C5): 判 s[pos..pos+4) 是否全为十六进制字符
+        private static bool IsHex4(string s, int pos)
+        {
+            for (int k = pos; k < pos + 4; k++)
+            {
+                char h = s[k];
+                bool ok = (h >= '0' && h <= '9') || (h >= 'a' && h <= 'f') || (h >= 'A' && h <= 'F');
+                if (!ok) return false;
+            }
+            return true;
         }
 
         // ---- RefKey 归一: I2 term key = "Category/RefKey"; 取 '/' 之后 ----
@@ -685,6 +746,8 @@ namespace LGTSChinese
             { "ITEM GET", "Acquired", "Tinderbox", "What if it was that", "Sat. Evening", "light the fire" };
         // 显示词典: 去标签英文(归一) -> 中文。用于在 TMP 渲染层直接替换游戏自绘/AT漏掉的文本。
         internal static Dictionary<string, string> Disp = new Dictionary<string, string>(StringComparer.Ordinal);
+        // v1.3.18 (F1): 道具名专用映射(ITEM GET 弹窗上下文), 查询优先于 Disp。
+        internal static Dictionary<string, string> ItemNames = new Dictionary<string, string>(StringComparer.Ordinal);
 
         private void PatchGetTranslation(Harmony harmony)
         {
@@ -795,13 +858,26 @@ namespace LGTSChinese
         }
 
         // __state 保存进入前的抑制标志值以支持嵌套; 本组件目标为对象选择器则置位。
+        // v1.3.17 (C6): 窄窗口加固 —— Localize.OnLocalize 内 GetTranslation(行154) 先于
+        // FindTarget(行164) 执行, 而 FindTarget 正是 mLocalizeTarget 从 null 解析出来的
+        // 地方(Awake 曾解析过, 但 target 失效重建/首次场景加载可能仍为 null)。此窗口里
+        // 前缀查不到 target 类型, 护栏静默失效。权衡: null 时一律抑制(宁可该次显示英文,
+        // 不可把中文注进"按名选资源"的查找键导致选错物体/机关失灵)。若本组件实为文本
+        // 目标, 行164 FindTarget 会把 mLocalizeTarget 解析好, 下次 OnLocalize 即恢复正常
+        // 翻译 —— 错杀代价(一帧英文、可自愈)远小于漏杀代价(谜题失灵/图片消失)。
         private static void OnLocalize_Prefix(object __instance, out bool __state)
         {
             __state = SuppressTermInject;
             try
             {
                 object tgt = LocTargetField != null ? LocTargetField.GetValue(__instance) : null;
-                if (tgt != null && ObjSelectorTypeNames.Contains(tgt.GetType().FullName))
+                if (tgt == null)
+                {
+                    SuppressTermInject = true;
+                    if (GuardHits < 50) { GuardHits++; D("[GUARD] mLocalizeTarget==null, 保守抑制 (窄窗口)"); }
+                    return;
+                }
+                if (ObjSelectorTypeNames.Contains(tgt.GetType().FullName))
                 {
                     SuppressTermInject = true;
                     if (GuardHits < 50) { GuardHits++; D("[GUARD] 抑制注入 target=" + tgt.GetType().Name); }
