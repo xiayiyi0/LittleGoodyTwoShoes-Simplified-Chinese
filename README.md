@@ -1,9 +1,6 @@
 Little Goody Two Shoes 简体中文汉化补丁
 
-当前版本：v1.3.20 ![version](https://img.shields.io/badge/version-1.3.20-blue)
-
-> **下载请到 [Releases](../../releases)**，选择 `LGTS-SimplifiedChinese-v1.3.20.zip`。
-> 本仓库包含完整发布树、插件源码与词典源文件，也可直接使用或自行构建。
+当前版本：v1.3.21
 
 这是适用于 Windows 版 Little Goody Two Shoes 的简体中文运行时汉化补丁。
 
@@ -16,13 +13,13 @@ Little Goody Two Shoes 简体中文汉化补丁
 
 安装后，游戏根目录应存在 winhttp.dll、doorstop_config.ini、arialuni_sdf_u2019 和 BepInEx 文件夹。
 
-本补丁包含剧情与系统文本翻译、TextMeshPro 中文字体回退，以及旧版 UGUI 菜单文字的中文字体覆盖。暂停菜单右侧丝带应显示“道具、地图、设置、读取、标题画面”。
+本补丁包含剧情与系统文本翻译、TextMeshPro 中文字体回退（含全角标点字形），以及旧版 UGUI 菜单文字的中文字体覆盖。暂停菜单右侧丝带应显示“道具、地图、设置、读取、标题画面”。
 
 更多安装、更新、卸载与排错说明请阅读 安装说明_README.txt。
 
 文件安全说明
 
-本仓库不包含游戏本体、存档、运行日志、缓存或临时分析文件。补丁通过 BepInEx 在运行时加载，不直接修改游戏资源文件。
+本仓库不包含游戏本体、存档、运行日志、缓存或临时分析文件。补丁通过 BepInEx 在运行时加载；除替换 TextMeshPro 字体资源 arialuni_sdf_u2019（新增全角标点字形）外，不修改其他游戏资源文件。
 
 问题反馈
 

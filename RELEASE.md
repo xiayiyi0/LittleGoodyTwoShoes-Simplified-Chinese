@@ -1,7 +1,8 @@
 # LGTS 简体中文汉化 — 发布流程（RELEASE）
 
 > 适用版本：v1.3.17 起（v1.3.18 增补 F4 术语表与 F3 口径规则；v1.3.19 增补 AT
-> 非权威层声明；v1.3.20 增补全角形式区禁用红线）。本文件固化"改动 → 构建 → 部署 → 打包 → 校验"全流程，
+> 非权威层声明；v1.3.20 增补全角形式区禁用红线；v1.3.21 起全角标点正式启用、
+> 旧红线废止）。本文件固化"改动 → 构建 → 部署 → 打包 → 校验"全流程，
 > 每次发布新版本时必须逐项走完本清单，全部通过后才能分发 zip。
 > 与 BUILDING.md（构建环境与原理）配套阅读。
 
@@ -12,9 +13,9 @@
 | 规范名 | 路径（相对游戏根目录） | 说明 |
 |---|---|---|
 | **live 实机树** | `BepInEx/plugins/LGTSChinese/` + `BepInEx/Translation/zh/Text/` | 当前实机运行中的插件与词典 |
-| **stage 发布树** | `temp_work_result/dist/stage_v1316/` | zip 打包唯一来源。历史文档曾称 "dist/stage"、"stage_v1316"，均同指本目录，v1.3.18 起统一称 **stage 发布树**（`temp_work_result/dist/stage/` 是 v1.3.14/15 时代的旧工作区，与发布树无关，勿混） |
+| **stage 发布树** | `temp_work_result/dist/stage_v1321/` | zip 打包唯一来源。历史文档曾称 "dist/stage"、"stage_v1321"，均同指本目录，v1.3.18 起统一称 **stage 发布树**（`temp_work_result/dist/stage/` 是 v1.3.14/15 时代的旧工作区，与发布树无关，勿混） |
 | **zip 发布包** | `LGTS-SimplifiedChinese-vX.Y.Z.zip`（位于发布树内） | 分发给玩家的最终产物 |
-| 源码 | `temp_work_result/dist/stage_v1316/source/LGTSChinese/` | 与发布 DLL 同版本的源码快照 |
+| 源码 | `temp_work_result/dist/stage_v1321/source/LGTSChinese/` | 与发布 DLL 同版本的源码快照 |
 | 批次工作区 | `temp_work_result/fix_batches_YYYYMMDD/` | 当次修复的脚本、日志、裁决记录 |
 
 **发布前"三树一致性"检查** = 上述 live / stage / zip 三处的关键文件（DLL、三词典、两 AT 文件）SHA256 逐字节一致。
@@ -36,8 +37,8 @@
 
 发布树是打包唯一来源，部署顺序固定为：
 
-1. `LGTSChinese.dll` → live / stage / stage_v1316 三处 `plugins/LGTSChinese/`；
-2. 词典与 AT 文件 → 同上三处（stage_v1316 内含 `BepInEx/Translation/zh/Text/`）；
+1. `LGTSChinese.dll` → live / stage / stage_v1321 三处 `plugins/LGTSChinese/`；
+2. 词典与 AT 文件 → 同上三处（stage_v1321 内含 `BepInEx/Translation/zh/Text/`）；
 3. `source/` 源码树同步为当次发布版本的源码（消除源码-产物漂移）；
 4. 文档版本号联动更新：`changelog.txt`（新增版本段落）、`安装说明_README.txt`
    标题与正文版本、`README.md`、`BUILDING.md` 中的统计数字（以当次实际重算值为准）。
@@ -67,9 +68,9 @@
 - [ ] zip 内含 `arialuni_sdf_u2019`（31MB 字体，最易漏项）
 - [ ] zip 条目数 = 71（或与基线差异已在 changelog 记录）
 - [ ] **统计口径分列**（F3 规则）：AT 与 UI_System 行数必须分列报告
-      （当前 AT 24,703 行 / UI_System 546 行），禁用合并数字。
+      （当前 AT 24,700 条 / UI_System 537 行），禁用合并数字。
       **AT/XUAT 为非权威兜底层**（v1.3.19 P2-1 定案）：display 优先命中，
-      display↔AT 历史实质差（265 条）不批量同步，仅逐条裁决后个别同步
+      v1.3.21 起 display/AT 已按 v5 全量对齐（17,355 / 17,354 值），历史差异不再保留
 - [ ] `BepInEx/LogOutput.log` 无 `NullReferenceException`、无
       `GuardHits` 超限告警（C6 护栏日志上限 50 次）
 - [ ] ParseFlatJson 畸形输入回归用例通过（孤立尾部反斜杠 / 不足 4 位的
@@ -93,3 +94,4 @@
 | 1.3.18 | 2026-10-19 | 验收 F1 道具弹窗专用映射（item_names 79 键）、F2 AT 面包坊同步、F3 口径分列、F4 三树术语统一；zip 70→71 |
 | 1.3.19 | 2026-10-19 | 审查 P1 三项文本热修（术语/♪/人称）、P2 负缓存+漂移+颜色方言、P3 称谓/面包房/去重/文档；AT 24,703 |
 | 1.3.20 | 2026-10-19 | 授权歌词润色（SUB 54 键三载体）、全角标点规范化 19 处、错别字×1；DLL 1.3.20 |
+| 1.3.21 | 2026-10-21 | v5 全表标点规范化（18,805 纯标点 + 1,206 修订）；字体注入 8 个全角标点字形；三层词典全量对齐；DLL 1.3.21 |
