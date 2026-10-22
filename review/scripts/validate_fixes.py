@@ -17,21 +17,25 @@ import sys
 from collections import Counter, defaultdict, OrderedDict
 
 sys.path.insert(0, os.path.dirname(__file__))
-from lgts_common import (COL_KEY, COL_ZH, COL_EN, FINDINGS_DIR, load_rows, rows_by_key, norm, tags_of,
-                         placeholders_of, is_explained, TAG_RE)
+from lgts_common import (COL_KEY, COL_ZH, COL_EN, FINDINGS_DIR, REVIEW, load_rows, rows_by_key, norm, tags_of,
+                         placeholders_of, is_explained, load_manifest, TAG_RE)
 
 HALF = re.compile(r'[,\.\?!:;\(\)"]')
 
 
 def load_findings():
+    """findings/ 与 minor/ 一起校验（小偏差的建议同样不能新造显示层冲突）。"""
     out = []
-    for fn in sorted(os.listdir(FINDINGS_DIR)):
-        if fn.endswith('.jsonl'):
-            for n, line in enumerate(open(os.path.join(FINDINGS_DIR, fn), encoding='utf-8'), 1):
-                if line.strip():
-                    d = json.loads(line)
-                    d['_src'] = '%s:%d' % (fn, n)
-                    out.append(d)
+    for sub in (FINDINGS_DIR, os.path.join(os.path.dirname(FINDINGS_DIR), 'minor')):
+        if not os.path.isdir(sub):
+            continue
+        for fn in sorted(os.listdir(sub)):
+            if fn.endswith('.jsonl'):
+                for n, line in enumerate(open(os.path.join(sub, fn), encoding='utf-8'), 1):
+                    if line.strip():
+                        d = json.loads(line)
+                        d['_src'] = '%s/%s:%d' % (os.path.basename(sub), fn, n)
+                        out.append(d)
     return out
 
 
@@ -76,6 +80,14 @@ def main():
     for r in rows:
         if r[COL_EN].strip():
             groups[norm(r[COL_EN])].append(r[COL_KEY])
+    man = load_manifest()
+    done = set()
+    lp = os.path.join(REVIEW, 'ledger.md')
+    if os.path.exists(lp):
+        for line in open(lp, encoding='utf-8'):
+            m = re.match(r'^\|\s*(\d{3})\s*\|', line)
+            if m:
+                done.add(m.group(1))
     fs = load_findings()
     by_key = defaultdict(list)
     for d in fs:
@@ -118,9 +130,13 @@ def main():
             if unfixed:
                 msg += '（未给建议的同键行：%s）' % ','.join(unfixed[:6])
             src = by_key[k][0]['_src']
-            # 类别标为显示层冲突且明确交人工的，降为警告
+            fixed_variants = set(norm(by_key[x][0]['fix']) for x in ks if x in by_key)
+            pending = [x for x in unfixed if man.get(x, {}).get('批次号') not in done]
+            # 1) 明确交人工的显示层冲突 → 提示；2) 已给的建议彼此一致、只差尚未读到的批次 → 待补提示；否则错误
             if all(dd['cat'] == '显示层冲突' and '人工' in dd['why'] for x in ks if x in by_key for dd in by_key[x]):
                 warns.append((src, k, msg))
+            elif len(fixed_variants) == 1 and unfixed and len(pending) == len(unfixed):
+                warns.append((src, k, '待后续批次补齐：' + msg))
             else:
                 errors.append((src, k, msg))
         else:

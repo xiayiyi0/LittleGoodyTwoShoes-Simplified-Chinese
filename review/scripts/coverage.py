@@ -1,7 +1,7 @@
 """覆盖率证明（任务书 4.7）。
 
   1) manifest 覆盖 CSV 全部记录键，且每键只属于一个批次；
-  2) 批次「已完成」= ledger.md 有该批记录且 findings/<批次号>.jsonl 存在（无问题也要有空文件）；
+  2) 批次「已完成」= ledger.md 有该批记录，且 findings/ 与 minor/ 下都有 <批次号>.jsonl（无问题也要有空文件）；
   3) 输出 已完成批次覆盖的行数 / 总行数，以及未完成批次清单。
 全部完成时退出码 0，否则 1。
 """
@@ -30,7 +30,9 @@ def main():
             m = re.match(r'^\|\s*(\d{3})\s*\|', line)
             if m:
                 ledger.add(m.group(1))
-    done = [b for b in bats if b in ledger and os.path.exists(os.path.join(FINDINGS_DIR, '%s.jsonl' % b))]
+    minor_dir = os.path.join(REVIEW, 'minor')
+    done = [b for b in bats if b in ledger and os.path.exists(os.path.join(FINDINGS_DIR, '%s.jsonl' % b))
+            and os.path.exists(os.path.join(minor_dir, '%s.jsonl' % b))]
     covered = sum(cnt[b] for b in done)
     todo = [b for b in bats if b not in done]
     print('记录键 %d，manifest %d，批次 %d' % (len(keys), len(man), len(bats)))

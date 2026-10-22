@@ -7,7 +7,8 @@
 
 裁决列合并规则（每次复跑都重新计算）：
   1) verdicts.csv 里有显式裁决的，用显式裁决；
-  2) 否则若该行所在批次已完成（ledger.md 有记录）：findings 里有该键 → 「成立→findings」，否则「已核无误」；
+  2) 否则若该行所在批次已完成（ledger.md 有记录）：findings/ 或 minor/ 里有该键 → 「成立→已记录」，
+     D1 显示层冲突 → 「逐行已读，待 4.5 组裁决」，其余「已核无误」；
   3) 否则留空（待核）。
 """
 import csv
@@ -132,15 +133,17 @@ def completed_batches():
 
 
 def finding_keys():
+    """findings/ 与 minor/ 两处记录过的键 → ['P1/误译', '小偏差/标点格式', …]"""
     ks = defaultdict(list)
-    if os.path.isdir(FINDINGS_DIR):
-        for fn in sorted(os.listdir(FINDINGS_DIR)):
-            if fn.endswith('.jsonl'):
-                for line in open(os.path.join(FINDINGS_DIR, fn), encoding='utf-8'):
-                    line = line.strip()
-                    if line:
-                        d = json.loads(line)
-                        ks[d['key']].append('%s/%s' % (d['sev'], d['cat']))
+    for d in (FINDINGS_DIR, os.path.join(REVIEW, 'minor')):
+        if os.path.isdir(d):
+            for fn in sorted(os.listdir(d)):
+                if fn.endswith('.jsonl'):
+                    for line in open(os.path.join(d, fn), encoding='utf-8'):
+                        line = line.strip()
+                        if line:
+                            rec = json.loads(line)
+                            ks[rec['key']].append('%s/%s' % (rec['sev'], rec['cat']))
     return ks
 
 
@@ -334,6 +337,22 @@ def main():
         if m and not re.search(r'(\b\w+\b)[\s,!?.…-]*\1', ens, re.I):
             add('R2相邻重复', r, '「%s」相邻重复' % m.group(0), pre)
 
+        # S 小偏差候选（rules.md §10.3）：句末省略号/标点增删、结巴未保留
+        et = re.sub(r'[\)）」』"”’\']+$', '', ens.strip()).strip()
+        zt = re.sub(r'[\)）」』"”’\']+$', '', zhs_.strip()).strip()
+        if et and zt:
+            if re.search(r'(\.\.\.|…)\s*[!?]$', et) and not re.search(r'……[！？]+$', zt):
+                add('S1句末省略号删减', r, '原文以「...%s」收尾，译文句末无「……」' % et[-1], pre)
+            elif re.search(r'(\.\.\.|…)$', et) and not zt.endswith('……'):
+                add('S1句末省略号删减', r, '原文以「...」收尾，译文句末无「……」', pre)
+            if re.search(r'[^.…]!$', et) and not re.search(r'[！]$', zt):
+                add('S2句末标点改变', r, '原文以「!」收尾，译文以「%s」收尾' % zt[-1], pre)
+            elif re.search(r'[^.…!]\?$', et) and not re.search(r'[？]$', zt) \
+                    and not re.search(r"\b(is|isn't|was|wasn't|are|aren't|do|don't|does|doesn't|did|didn't|can|can't|could|couldn't|will|won't|would|wouldn't|have|haven't|has|hasn't|should|shouldn't|right|eh|huh|yes|no)\s*(it|he|she|they|we|you|I|there|that|this|not)?\??$", et, re.I):
+                add('S2句末标点改变', r, '原文以「?」收尾（非附加问句），译文以「%s」收尾' % zt[-1], pre)
+        if re.search(r"\b([A-Za-z]{1,3})-\1", ens, re.I) and '、' not in zhs_:
+            add('S3结巴未保留', r, '原文有结巴（%s），译文无「、」' % re.search(r"\b([A-Za-z]{1,3})-\1\w*", ens, re.I).group(0), pre)
+
         by_zh[zhs_.strip()].append(r)
 
     # L1 长度比例：取两端约 0.5%
@@ -374,7 +393,7 @@ def main():
             v = verd[cid][0] + (('：' + verd[cid][1]) if verd[cid][1] else '')
         elif c['批次号'] in done:
             if c['记录键'] in fk:
-                v = '成立→findings（%s）' % ','.join(fk[c['记录键']])
+                v = '成立→已记录（%s）' % ','.join(fk[c['记录键']])
             elif c['检查项'].startswith('D1'):
                 v = '逐行已读，待 4.5 组裁决'
             else:
