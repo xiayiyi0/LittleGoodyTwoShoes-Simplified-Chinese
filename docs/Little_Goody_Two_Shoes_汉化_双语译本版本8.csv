@@ -83,7 +83,7 @@ DLG_2_1_VSQ_02_019,凡事都不好说得太满，丫头！,,,81,主线对白DLG,
 DLG_2_1_VSQ_02_020,不管怎样——我这就进屋去了，各位。,,,82,主线对白DLG,2月1日,VSQ,,已译,"Anyhow — I'll be heading inside now, folks."
 DLG_2_1_VSQ_02_021,但愿今晚能睡个安稳觉！,已修订,但愿今晚能睡个安稳觉！,83,主线对白DLG,2月1日,VSQ,[仲裁执行·B9] 句末语气按原文（!，还原「！」）（D5：以原文语气为准）（仲裁表 #243）; [整合] 采用A：D5 以原文句末语气为准；B 以本地化微调为由驳回，未采用,已译,Let us hope for a better night's sleep this evening!
 DLG_2_1_VSQ_02_022,但愿主能听见你这话，威廉。,,,84,主线对白DLG,2月1日,VSQ,,已译,"May the Lord hear you, Wilhelm."
-DLG_2_1_VSQ_02_023,（敲门声呢……）,已修订,（敲门声呢……）,85,主线对白DLG,2月1日,VSQ,"[语境修复] 优化括号内心独白句尾, huh的机械反问“、是吧/是吗”，还原自言自语的沉思语气",已译,"(Knocking on folks' doors, huh?)"
+DLG_2_1_VSQ_02_023,（挨家挨户地敲门呢……）,已修订,（挨家挨户地敲门呢……）,85,主线对白DLG,2月1日,VSQ,"[语境修复] 优化括号内心独白句尾, huh的机械反问“、是吧/是吗”，还原自言自语的沉思语气; [v8收官·漏译] knocking on folks' doors 是挨家挨户敲门（传言女巫敲门），不只是「敲门声」",已译,"(Knocking on folks' doors, huh?)"
 DLG_2_1_VSQ_02_024,（我倒觉得，真正的<color=#934494><b>女巫</b></color>该有更要紧的事要忙吧！）,,,86,主线对白DLG,2月1日,VSQ,,已译,"(A proper <color=#934494><b>witch</b></color> would have better things to do, I'd say!)"
 DLG_2_1_VSQ_02_025,小巷子那边可真是遭了大殃……,已修订,小巷子那边可真是遭了大殃……,87,主线对白DLG,2月1日,VSQ,[v8口头禅·for certain] that's for certain 并入句中（可真是/确实/肯定），不再硬对「这是肯定的/准没错」,已译,"The alleys took a beating, that's for certain..."
 DLG_2_1_VSQ_02_026,大伙都说风从烟囱里灌了一整晚，呼呼直叫。,,,88,主线对白DLG,2月1日,VSQ,,已译,Folks say they had the wind howling down their chimneys all night long.
@@ -226,7 +226,7 @@ DLG_2_2_VIN_01_018,那你们打算怎么在不被人看见的情况下动手？,
 DLG_2_2_VIN_01_019,呃，我们……那个……,,,225,主线对白DLG,2月2日,VIN,,已译,"Uh, we... Um..."
 DLG_2_2_VIN_01_020,这个嘛……,,,226,主线对白DLG,2月2日,VIN,,已译,Well...
 DLG_2_2_VIN_01_021,饶了我吧！,已修订,饶了我吧！,227,主线对白DLG,2月2日,VIN,[语境修复] 解除TM省略号覆写：还原原文感叹号(!)的急切/惊叹/强调语气,已译,For goodness' sake!
-DLG_2_2_VIN_01_022,（不过我得承认，看到水桶砸在威尔玛头上，我心里肯定痛快！）,,,228,主线对白DLG,2月2日,VIN,,已译,"(I have to admit, it'd make my day to see a bucket fall on that hag's head!)"
+DLG_2_2_VIN_01_022,（不过我得承认，看到水桶砸在那老妖婆头上，我心里肯定痛快！）,已修订,（不过我得承认，看到水桶砸在那老妖婆头上，我心里肯定痛快！）,228,主线对白DLG,2月2日,VIN,[v8收官·语气] 原文是骂人的 that hag，还原「那老妖婆」（同 DLG_7_2_VIN_04_014）；恶作剧对象是威尔玛，见 001、003,已译,"(I have to admit, it'd make my day to see a bucket fall on that hag's head!)"
 DLG_2_2_VIN_01_023,（嗯……或许值得好好琢磨一下……）,,,229,主线对白DLG,2月2日,VIN,,已译,(It may be worth giving it some thought...)
 DLG_2_2_VIN_01_024,你们俩小豆丁打算怎么把一整桶水举过头顶啊？,,,230,主线对白DLG,2月2日,VIN,,已译,How were you two pipsqueaks planning on holding a bucket full of water over your heads?
 DLG_2_2_VIN_01_025,这就要靠你了！,,,231,主线对白DLG,2月2日,VIN,,已译,That's where you come in!
@@ -864,7 +864,7 @@ DLG_2_4_VIN_02_013,我当年是为了我丈夫才离开普里梅尔多夫的，�
 DLG_2_4_VIN_02_014,你也不会久留的，对吧，伊莉丝？,,,863,主线对白DLG,2月4日,VIN,,已译,"You won't be staying for long either, will you, Elise?"
 DLG_2_4_VIN_02_015,伊莉丝太有主见了，基弗伯格容不下她——一向如此！,,,864,主线对白DLG,2月4日,VIN,,已译,Elise is too self-driven for Kieferberg — always has been!
 DLG_2_4_VIN_02_016,啊……也许吧……,,,865,主线对白DLG,2月4日,VIN,,已译,"Ah, I suppose..."
-DLG_2_4_VIN_02_017,（有主见……）,已修订,（有主见……）,866,主线对白DLG,2月4日,VIN,"[语境修复] 优化括号内心独白句尾, huh的机械反问“、是吧/是吗”，还原自言自语的沉思语气",已译,"(Too self-driven, huh?)"
+DLG_2_4_VIN_02_017,（太有主见……）,已修订,（太有主见……）,866,主线对白DLG,2月4日,VIN,"[语境修复] 优化括号内心独白句尾, huh的机械反问“、是吧/是吗”，还原自言自语的沉思语气; [v8收官·漏译] 回声独白接 015「太有主见了」，补回 too（太）",已译,"(Too self-driven, huh?)"
 DLG_2_4_VIN_02_018,（不过，光凭这点还不足以让我离开镇子，是吧？）,,,867,主线对白DLG,2月4日,VIN,,已译,"(It's not as though that's enough to leave town though, is it?)"
 DLG_2_4_VIN_02_019,不瞒你们说，我心里其实挺赞同这个想法的，可惜啊。,,,868,主线对白DLG,2月4日,VIN,,已译,"Ought to confess I sympathize with the idea, sadly."
 DLG_2_4_VIN_02_020,听您这么说我倒挺意外的，阿丽亚娜太太。,,,869,主线对白DLG,2月4日,VIN,,已译,"I'm surprised to hear that, Mrs Ariane."
@@ -976,7 +976,7 @@ DLG_2_4_VSQ_02_011,去他的，芬恩——我们可以叫古斯塔夫来搭把�
 DLG_2_4_VSQ_02_012,要是欧根还在镇上，也叫上他。,,,975,主线对白DLG,2月4日,VSQ,,已译,"Eugen, too, if he's still about town."
 DLG_2_4_VSQ_02_013,（威廉先生才不聋呢——我敢打赌，他只是在装没听见！）,,,976,主线对白DLG,2月4日,VSQ,,已译,"(Mr. Wilhelm's far from deaf — he's just ignoring them, I'll wager!)"
 DLG_2_4_VSQ_02_014,小子们就该从小学起，我就是这个意思！,,,977,主线对白DLG,2月4日,VSQ,,已译,"Laddies ought to start learning from a tender age, I'll say!"
-DLG_2_4_VSQ_02_015,（琳达太太懂什么，哼？）,,,978,主线对白DLG,2月4日,VSQ,,已译,"(What does Mrs Linda know, huh?)"
+DLG_2_4_VSQ_02_015,（哼，琳达太太懂什么？）,已修订,（哼，琳达太太懂什么？）,978,主线对白DLG,2月4日,VSQ,[v8收官·独白] 「哼？」语序别扭，改作句首「哼」+反问,已译,"(What does Mrs Linda know, huh?)"
 DLG_2_4_VSQ_02_016,我看咱们还是继续赶路吧。,已修订,我看咱们还是继续赶路吧。,979,主线对白DLG,2月4日,VSQ,[仲裁执行·M] 句末后置「依我说」属翻译腔，前置（仲裁表 #231）; [v6人工M] 将句末倒装翻译腔“……，依我说。”调整为自然语序（仅改句末后置的2处）; [整合] A=B：双方译文一致，合并双方备注; [v8口头禅·I'd say] I'd say / I'm certain / I wager 并入句中（我看/肯定/八成），减少「依我说/要我说/我敢肯定」,已译,"We'd best move along, I'd say."
 DLG_2_4_VSQ_02_017,老威廉多半又在摆弄他那些小玩意儿了。,,,980,主线对白DLG,2月4日,VSQ,,已译,Old Wilhelm's most likely tinkering with his trinkets again.
 DLG_2_4_VSQ_02_018,那老小子最会浪费咱们的时间了！,,,981,主线对白DLG,2月4日,VSQ,,已译,"Knows how to best waste our time, the old lad!"
@@ -1191,7 +1191,7 @@ DLG_2_5_OLH_01_037,不用了，莉丝贝特太太。,,,1189,主线对白DLG,2月
 DLG_2_5_OLH_01_038,太好了，这下我不用跟玛丽勒太太说我弄丢它了！,已修订,太好了，这下我不用跟玛丽勒太太说我弄丢它了！,1190,主线对白DLG,2月5日,OLH,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, I won't have to tell Mrs Mariele I lost it now!"
 DLG_2_5_OLH_01_039,你肯定还会弄丢的！我就知道！,,,1191,主线对白DLG,2月5日,OLH,,已译,You'll lose it again! I know it!
 DLG_2_5_OLH_01_040,你们俩别又吵起来！,,,1192,主线对白DLG,2月5日,OLH,,已译,Don't you two start again!
-DLG_2_5_OLH_01_041,（一个护身符，是吧……？）,,,1193,主线对白DLG,2月5日,OLH,,已译,"(A charm, huh...?"
+DLG_2_5_OLH_01_041,（护身符啊……）,已修订,（护身符啊……）,1193,主线对白DLG,2月5日,OLH,[v8收官·独白] 独白句尾的 huh 按第三节第 4 条和 D5 细则作自言自语，「是吧……？」改「啊……」,已译,"(A charm, huh...?"
 DLG_2_5_OLH_01_042,（这丫头倒还挺贴心的。）,已修订,（这丫头倒还挺贴心的。）,1194,主线对白DLG,2月5日,OLH,[v8口头禅·句尾附加语] 句尾 I suppose / I'm certain / I take it 并入句中，不再以「，我想/我猜/我相信」收尾,已译,"(That was rather sweet of her, I suppose.)"
 DLG_2_5_VBA_01_001,哎呀，伊莉丝！你怎么还在镇上晃悠？,,,1195,主线对白DLG,2月5日,VBA,,已译,"My, Elise! Why are you still wandering about town?"
 DLG_2_5_VBA_01_003,一切都还好吗，奥蒂莉太太？,,,1196,主线对白DLG,2月5日,VBA,,已译,"Is everything all right, Mrs. Odilie?"
@@ -3976,8 +3976,8 @@ DLG_4_4_VBA_01_013,你倒是抓紧一点试试？,,,3974,主线对白DLG,4月4�
 DLG_4_4_VBA_01_014,那，就像这样！,,,3975,主线对白DLG,4月4日,VBA,,已译,"Like this, then!"
 DLG_4_4_VBA_01_015,哎哟——！格吕妮！,,,3976,主线对白DLG,4月4日,VBA,,已译,Ouch! Grüne!
 DLG_4_4_VBA_01_016,对不起，多萝特娅太太！,,,3977,主线对白DLG,4月4日,VBA,,已译,"I'm sorry, Mrs. Dorothea!"
-DLG_4_4_VBA_01_017,这么一说，伊莉丝，你还真是很少把头发盘起来呢？,,,3978,主线对白DLG,4月4日,VBA,,已译,"Now that I think about it, Elise — you never put your hair up, do you?"
-DLG_4_4_VBA_01_018,它太不听话了，编不了！,,,3979,主线对白DLG,4月4日,VBA,,已译,It's too unruly for that!
+DLG_4_4_VBA_01_017,这么一说，伊莉丝，你好像从来不把头发盘起来呢？,已修订,这么一说，伊莉丝，你好像从来不把头发盘起来呢？,3978,主线对白DLG,4月4日,VBA,[v8收官·语义] never 是「从来不」，不是「很少」,已译,"Now that I think about it, Elise — you never put your hair up, do you?"
+DLG_4_4_VBA_01_018,它太不听话了，盘不起来！,已修订,它太不听话了，盘不起来！,3979,主线对白DLG,4月4日,VBA,[v8收官·语义] 承接上句 put your hair up（盘头发），「编」改「盘」,已译,It's too unruly for that!
 DLG_4_4_VBA_01_019,看着<i>确实</i>挺难驯服的，伊莉丝。,已修订,看着<i>确实</i>挺难驯服的，伊莉丝。,3980,主线对白DLG,4月4日,VBA,[标签修复] 恢复原文斜体强调标签<i>确实</i>(<i>does</i>),已译,"It <i>does</i> look difficult to tame, Elise."
 DLG_4_4_VBA_01_020,至少这条丝带能让它别挡到我的脸！,,,3981,主线对白DLG,4月4日,VBA,,已译,"The ribbon keeps it off my face, at least!"
 DLG_4_4_VBA_01_021,哎呀，你要是愿意，我可乐意帮你编头发呢！,已修订,哎呀，你要是愿意，我可乐意帮你编头发呢！,3982,主线对白DLG,4月4日,VBA,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, I'd love to braid your hair if you'd let me!"
@@ -5119,7 +5119,7 @@ DLG_5_1_VBA_01_007,你们俩肯定藏着什么事——我看得出来！,,,5117
 DLG_5_1_VBA_01_008,老约亨被人当猴儿耍了，可我看得清你！,已修订,老约亨被人当猴儿耍了，可我看得清你！,5118,主线对白DLG,5月1日,VBA,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,"Old Jochen's being taken for a fool, but I know you!"
 DLG_5_1_VBA_01_009,是因为我昨天说的话吗，奥蒂莉太太？,,,5119,主线对白DLG,5月1日,VBA,,已译,"Is this because of what I said yesterday, Mrs. Odilie?"
 DLG_5_1_VBA_01_010,这一桩桩一件件糟心事！,已修订,这一桩桩一件件糟心事！,5120,主线对白DLG,5月1日,VBA,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,All these awful goings-on!
-DLG_5_1_VBA_01_011,我知道这很吓人，奥蒂莉太太，可是……,,,5121,主线对白DLG,5月1日,VBA,,已译,"I understand it's frightening, Mrs. Odilie, but you can't..."
+DLG_5_1_VBA_01_011,我知道这很吓人，奥蒂莉太太，可你也不能……,已修订,我知道这很吓人，奥蒂莉太太，可你也不能……,5121,主线对白DLG,5月1日,VBA,[v8收官·漏译] 补译 but you can't...；本场伊莉丝对奥蒂莉用「你」（003、014）,已译,"I understand it's frightening, Mrs. Odilie, but you can't..."
 DLG_5_1_VBA_01_012,唉，光是这些乌鸦还不够——如今连咱们的孩子都中了邪！,已修订,唉，光是这些乌鸦还不够——如今连咱们的孩子都中了邪！,5122,主线对白DLG,5月1日,VBA,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, but these crows weren't enough — even our children are hexed now!"
 DLG_5_1_VBA_01_013,是因为我昨天说的话吗，奥蒂莉太太？,,,5123,主线对白DLG,5月1日,VBA,,已译,"Is it because of what I said yesterday, Mrs Odilie?"
 DLG_5_1_VBA_01_014,你在胡说什么……,已修订,你在胡说什么……,5124,主线对白DLG,5月1日,VBA,[语境修复] 承接013与015奥蒂莉太太恼羞成怒赶人语境，修正What are you...误译为“你是说……?”,已译,What are you...
@@ -8943,7 +8943,7 @@ DLG_7_3_VST_01_008,经了这一遭，我算是彻底死心了，丫头。,,,8941
 DLG_7_3_VST_01_009,星期天一大早我就要动身去普里梅尔多夫了。,已修订,星期天一大早我就要动身去普里梅尔多夫了。,8942,主线对白DLG,,VST,[v8术语·星期] 星期统一为「星期X」，Sunday 口语作「星期天」，「主日」仅用于「主日弥撒」,已译,I'll be on my way to Primeldorf first thing Sunday morning.
 DLG_7_3_VST_01_010,我明白了……,,,8943,主线对白DLG,,VST,,已译,I see...
 DLG_7_3_VST_01_011,你也是，伊莉丝——不该在这儿多待了……,已修订,你也是，伊莉丝——不该在这儿多待了……,8944,主线对白DLG,,VST,[仲裁执行·B9] 句末语气按原文（...，还原「……」）（D5：以原文语气为准）（仲裁表 #478）; [整合] 采用A：D5 以原文句末语气为准；B 以本地化微调为由驳回，未采用,已译,"You too, Elise — you shouldn't stay much longer..."
-DLG_7_3_VST_01_012,经过今天这番话，这番事。,,,8945,主线对白DLG,,VST,,已译,Not after what was said and done today.
+DLG_7_3_VST_01_012,尤其是经过了今天这番话、这番事之后。,已修订,尤其是经过了今天这番话、这番事之后。,8945,主线对白DLG,,VST,[v8收官·语义] 接上句「不该在这儿多待了」，Not after… 补成「尤其是……之后」，原译是半句话,已译,Not after what was said and done today.
 DLG_7_3_VST_01_013,（要是真能这么轻易离开就好了……）,,,8946,主线对白DLG,,VST,,已译,(If only I could leave that easily...)
 DLG_7_3_VST_01_014,（可如今我能抓住的，就只剩……）,,,8947,主线对白DLG,,VST,,已译,"(Instead, all I have to hold onto is...)"
 DLG_7_3_VST_02_001,可是爷爷！,已修订,可是爷爷！,8948,主线对白DLG,,VST,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,But Grandpa!
@@ -10198,7 +10198,7 @@ DLG_D_WSN-G_01_024,我们是<b>祂</b>的弟兄——非要说的话，是<b>祂
 DLG_D_WSN-G_01_025,我看不出有多大区别，毒蛇。,,,10197,主线对白DLG,—,D_WSN-G,,已译,"I don't see much of a difference, serpent."
 DLG_D_WSN-G_01_026,虽说我们受缚于<b>祂</b>的意志，却也大大得益于<b>祂</b>的祝福……,,,10198,主线对白DLG,—,D_WSN-G,,已译,"While we're bound to <b>His</b> will, we very much benefit from <b>His</b> blessings..."
 DLG_D_WSN-G_01_027,驱赶像你这样懵懂无知的人，把他们带往<b>祂</b>的国度……,,,10199,主线对白DLG,—,D_WSN-G,,已译,Herding the clueless like you and taking them to <b>His</b> realm...
-DLG_D_WSN-G_01_028,真是「高雅」啊，我看是。,,,10200,主线对白DLG,—,D_WSN-G,,已译,"Tasteful, I see."
+DLG_D_WSN-G_01_028,真是「高雅」啊，原来如此。,已修订,真是「高雅」啊，原来如此。,10200,主线对白DLG,—,D_WSN-G,"[v8收官·语气] 讥讽语 Tasteful, I see. 的 I see 作「原来如此」，「我看是」不成话",已译,"Tasteful, I see."
 DLG_D_WSN-G_01_029,成全你的愿望——那是<b>祂</b>唯一的心愿。,,,10201,主线对白DLG,—,D_WSN-G,,已译,Granting your wish — that's <b>His</b> sole desire.
 DLG_D_WSN-G_01_030,等等！,已修订,等等！,10202,主线对白DLG,—,D_WSN-G,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,Wait!
 DLG_D_WSN-G_01_031,我伴在<b>祂</b>身旁，是为了成全我自己的欲望……,,,10203,主线对白DLG,—,D_WSN-G,,已译,I'm by <b>His</b> side to fulfil my very own desire...
@@ -11355,7 +11355,7 @@ CUT_3_3_OCR_02_051,我可不想让你跟这帮人混得太熟！,,,11353,过场�
 CUT_3_3_OCR_02_052,好的，伊莉丝！,已修订,好的，伊莉丝！,11354,过场对白CUT,3月3日,OCR,[仲裁执行·B9] 句末语气按原文（!，还原「！」），解除 TM 串用（仲裁表 #535）; [v6批量B9] 解除TM跨句串用导致的句末语气错配(! → 。); [整合] A=B：双方译文一致，合并双方备注,已译,"All right, Elise!"
 CUT_3_3_OCR_02_053,那咱们现在就行动！走吧！,,,11355,过场对白CUT,3月3日,OCR,,已译,"We're making it happen right now, then! Let's go!"
 CUT_3_3_OCR_02_054,好！,,,11356,过场对白CUT,3月3日,OCR,,已译,Yes!
-CUT_3_3_VIN_01_001,哟，<i>这张</i>脸咱们可不常见啊，是不是？,已修订,哟，<i>这张</i>脸咱们可不常见啊，是不是？,11357,过场对白CUT,3月3日,VIN,[标签修复] 恢复原文斜体强调标签<i>这张</i>(<i>that</i>),已译,Now <i>that</i> is a face we've not seen before!
+CUT_3_3_VIN_01_001,哟，<i>这张</i>脸咱们以前可没见过！,已修订,哟，<i>这张</i>脸咱们以前可没见过！,11357,过场对白CUT,3月3日,VIN,[标签修复] 恢复原文斜体强调标签<i>这张</i>(<i>that</i>); [v8收官·语义] not seen before 是「没见过」（萝森玛琳是生面孔），不是「不常见」；去掉原文没有的「是不是？」,已译,Now <i>that</i> is a face we've not seen before!
 CUT_3_3_VIN_01_002,啊，古斯塔夫先生，这位是我的表亲，萝丝玛琳！,已修订,啊，古斯塔夫先生，这位是我的表亲，萝丝玛琳！,11358,过场对白CUT,3月3日,VIN,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,已译,"Ah, Mr. Gustav, this is my cousin, Rosmarine!"
 CUT_3_3_VIN_01_003,我、我叫萝——森——玛琳！,已修订,我、我叫萝——森——玛琳！,11359,过场对白CUT,3月3日,VIN,[名称规范] 强化Rozenmarine正名重音拉长效果；[标点规范] 将全表唯一一处中文破折号“——”统一为ARIALUNI SDF字形安全规避方案“——”，防止游戏内缺字,已译,I-it's Rozenmarine!
 CUT_3_3_VIN_01_004,原来是表妹啊！,已修订,原来是表妹啊！,11360,过场对白CUT,3月3日,VIN,[仲裁执行·B9] 句末语气按原文（!，还原「！」）（D5：以原文语气为准）；另修正：「一个表妹！」不通（仲裁表 #536）; [整合] 采用A：B「一个表妹！」不通；A「原来是表妹啊！」自然并保留惊讶语气,已译,A cousin!
@@ -13100,8 +13100,8 @@ CUT_5_1_VWM_01_021,在谈那件事之前，伯恩哈德——我有句话想说�
 CUT_5_1_VWM_01_022,不过，昨晚发生的事，我们大家都心知肚明！,,,13099,过场对白CUT,5月1日,VWM,,已译,"We're all well aware of what happened last night, however!"
 CUT_5_1_VWM_01_023,话虽如此，乡亲们——咱们如今更该团结一心！,,,13100,过场对白CUT,5月1日,VWM,,已译,"We ought to stick together, folks — now more than ever!"
 CUT_5_1_VWM_01_024,都听见他的话了吧！,,,13101,过场对白CUT,5月1日,VWM,,已译,You heard the man!
-CUT_5_1_VWM_01_025,基弗伯格终究是靠咱们自己撑起来的！,,,13102,过场对白CUT,5月1日,VWM,,已译,"Kieferberg is what we make of it, don't forget that!"
-CUT_5_1_VWM_01_026,话说回来，乡亲们——我该回教堂了。,,,13103,过场对白CUT,5月1日,VWM,,已译,I ought to head back to church.
+CUT_5_1_VWM_01_025,基弗伯格终究是靠咱们自己撑起来的，可别忘了！,已修订,基弗伯格终究是靠咱们自己撑起来的，可别忘了！,13102,过场对白CUT,5月1日,VWM,[v8收官·漏译] 补译 don't forget that,已译,"Kieferberg is what we make of it, don't forget that!"
+CUT_5_1_VWM_01_026,我该回教堂了。,已修订,我该回教堂了。,13103,过场对白CUT,5月1日,VWM,[v8收官·增译] 删去原文没有的「话说回来，乡亲们——」,已译,I ought to head back to church.
 CUT_5_1_VWM_01_027,阿普菲尔好些了吗，神父？,已修订,阿普菲尔好些了吗，神父？,13104,过场对白CUT,5月1日,VWM,[v8人名增删] 补回漏译的呼语/人名，删去原文没有的增译人名,已译,"Is Apfel feeling better, Father?"
 CUT_5_1_VWM_01_028,这正是我在查的事，芬恩。,,,13105,过场对白CUT,5月1日,VWM,,已译,"That's what I'm looking into, Fynn."
 CUT_5_1_VWM_01_029,你最好跟着去，伊莉丝——斯佩尔特一定会把详情都告诉你的。,,,13106,过场对白CUT,5月1日,VWM,,已译,"You'd best go with, Elise — Lebkuchen will fill you in, I'm certain."
@@ -13977,7 +13977,7 @@ CUT_7_5_HFY_01_035,啊，好的！,,,13975,过场对白CUT,7月5日,HFY,,已译,
 CUT_7_5_HFY_02_001,快，咱们得抓紧，不然要淋透了！,,,13976,过场对白CUT,7月5日,HFY,,已译,"Come, we should hurry, or we'll be drenched!"
 CUT_7_5_HFY_02_002,啊，是的！,已修订,啊，是的！,13977,过场对白CUT,7月5日,HFY,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,"Ah, yes!"
 CUT_7_5_OLH_01_001,伊莉丝，等等！,,,13978,过场对白CUT,7月5日,OLH,,已译,"Elise, wait!"
-CUT_7_5_OLH_01_002,（可真是来得巧啊，嗯？）,,,13979,过场对白CUT,7月5日,OLH,,已译,"(Just what I needed, huh?)"
+CUT_7_5_OLH_01_002,（可真是来得巧啊。）,已修订,（可真是来得巧啊。）,13979,过场对白CUT,7月5日,OLH,[v8收官·独白] 独白句尾的 huh 按第三节第 4 条和 D5 细则作自言自语，去掉「嗯？」,已译,"(Just what I needed, huh?)"
 CUT_7_5_OLH_02_001,抱歉耽搁你，伊莉丝，可有件事我们……,,,13980,过场对白CUT,7月5日,OLH,,已译,"We're sorry to keep you, Elise, but there's something we..."
 CUT_7_5_OLH_02_002,哎呀，有什么好吞吞吐吐的，多萝特娅！,,,13981,过场对白CUT,7月5日,OLH,,已译,"Oh, there's no need to hold back, Dorothea!"
 CUT_7_5_OLH_02_003,这是怎么回事？,,,13982,过场对白CUT,7月5日,OLH,,已译,What's this all about?
@@ -16113,7 +16113,7 @@ LVE_3_4_HAT_R_070,不，我……,,,16071,恋爱事件LVE,3月4日,HAT_R,,已译
 LVE_3_4_HAT_R_071,我最好回镇上去……,,,16072,恋爱事件LVE,3月4日,HAT_R,,已译,I'd best head back to town...
 LVE_3_4_HAT_R_072,伊莉丝……,已修订,伊莉丝……,16073,恋爱事件LVE,3月4日,HAT_R,[语境修复] 还原Elise...的低落/迟疑呼唤语气(……)，解除TM感叹号覆写,已译,Elise...
 LVE_3_4_HAT_R_073,这些事我搞不明白，萝丝玛琳……,已修订,这些事我搞不明白，萝丝玛琳……,16074,恋爱事件LVE,3月4日,HAT_R,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,已译,"I'm not too certain about all this, Rosmarine..."
-LVE_3_4_HAT_R_074,你到底是谁……？,,,16075,恋爱事件LVE,3月4日,HAT_R,,已译,"About who you are, or..."
+LVE_3_4_HAT_R_074,关于你到底是谁，或者……,已修订,关于你到底是谁，或者……,16075,恋爱事件LVE,3月4日,HAT_R,"[v8收官·语义] About who you are, or... 承接 073、与 075「关于命运……」并列，原译成了直接发问",已译,"About who you are, or..."
 LVE_3_4_HAT_R_075,关于命运，还有这灵魂伴侣的鬼话，我……,,,16076,恋爱事件LVE,3月4日,HAT_R,,已译,"About fate, or this soulmate nonsense, I..."
 LVE_3_4_HAT_R_076,我需要透透气。,,,16077,恋爱事件LVE,3月4日,HAT_R,,已译,I think I need to get some fresh air.
 LVE_3_4_HAT_R_077,在你走之前，伊莉丝……,,,16078,恋爱事件LVE,3月4日,HAT_R,,已译,"Before you go, Elise..."
@@ -18056,7 +18056,7 @@ CHR_003_021,你、你赢了他们，伊莉丝！,,,18014,村镇日常CHR,003-021
 CHR_003_022,真是的，米菲！这游戏简单得很！,,,18015,村镇日常CHR,003-022,—,,已译,"For goodness' sake, Miffy! It's such an easy game!"
 CHR_003_023,给、给你！,,,18016,村镇日常CHR,003-023,—,,已译,Here you g-go!
 CHR_003_024,我身上就这些了！,,,18017,村镇日常CHR,003-024,—,,已译,That's all I have on me!
-CHR_003_025,（看来我运气不错，嗯？）,,,18018,村镇日常CHR,003-025,—,,已译,"(It seems I was in luck, huh?)"
+CHR_003_025,（看来我运气不错呢。）,已修订,（看来我运气不错呢。）,18018,村镇日常CHR,003-025,—,[v8收官·独白] 独白句尾的 huh 按第三节第 4 条和 D5 细则作自言自语，去掉「嗯？」,已译,"(It seems I was in luck, huh?)"
 CHR_003_026,这、这下他们知道厉害了，伊莉丝！,,,18019,村镇日常CHR,003-026,—,,已译,"Th-That'll show them, Elise!"
 CHR_003_027,这、这个给你，算你、你辛苦一场！,,,18020,村镇日常CHR,003-027,—,,已译,You can have th-this for all y-your trouble!
 CHR_003_028,行吧，这就够了。,,,18021,村镇日常CHR,003-028,—,,已译,"All right, this will do."
