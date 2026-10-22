@@ -1,8 +1,17 @@
+{"key": "CUT_WCW_A_HOUSE_INTERIOR_01_008", "decision": "采纳", "final": "你的命运，伊莉丝……你的起源就在那挂毯之中……", "note": "tapestry 同场作「挂毯」"}
 {"key": "CUT_WCW_A_HOUSE_INTERIOR_01_017", "decision": "采纳", "final": "这……主啊，这到底是……", "note": "D32定句，两处惊见都通"}
+{"key": "FLV_WCW_A_HOUSE_INTERIOR_04_001", "decision": "采纳", "final": "这不是奶奶的纺车……", "note": "有木腿的是纺车，同奶奶的纺车"}
+{"key": "FLV_WCW_A_HOUSE_INTERIOR_04_003", "decision": "采纳", "final": "早已彻底损毁，那架旧纺车仅凭最后一条木腿支撑，摇摇欲坠。", "note": "有木腿的是纺车，同 04_001"}
 {"key": "CUT_WCW_E_PITFALLS_02_001", "decision": "采纳", "final": "阿普菲尔……！", "note": "补回省略号，同键2行一致"}
 {"key": "CUT_WCW_E_PITFALLS_02_017", "decision": "采纳", "final": "什么……？", "note": "补回省略号，What...? 同键16行一致"}
+{"key": "CUT_WCW_E_PITFALLS_02_019", "decision": "采纳", "final": "你……到底是什么……？！", "note": "同 024（D30）作「到底」"}
 {"key": "CUT_WCW_E_PITFALLS_02_024", "decision": "采纳", "final": "你……到底是什么……？", "note": "D30定句，同键另两行只差<i>"}
+{"key": "CUT_WCW_E_PITFALLS_02_027", "decision": "采纳", "final": "玷污我们的林子！玷污我们的林子！", "note": "乌鸦的 our 用「我们」"}
+{"key": "CUT_WCW_E_PITFALLS_02_034", "decision": "采纳", "final": "那怪物可把他亲手送到我们嘴边了，丫头。", "note": "乌鸦的 our 用「我们」"}
+{"key": "CUT_WCW_E_PITFALLS_02_035", "decision": "采纳", "final": "我们才不会白白浪费这顿美餐！", "note": "乌鸦的 we 用「我们」"}
 {"key": "CUT_WCW_E_PITFALLS_02_041", "decision": "采纳", "final": "我们要把他吃掉！我们要把他吃掉！", "note": "乌鸦的 we 不含伊莉丝，作「我们」"}
 {"key": "CUT_WCW_E_PITFALLS_03_001", "decision": "采纳", "final": "伊莉丝……！", "note": "补回省略号，Elise...! 同键20行一致"}
 {"key": "CUT_WCW_E_PITFALLS_03_005", "decision": "采纳", "final": "伊莉丝……！", "note": "补回省略号，Elise...! 同键20行一致"}
 {"key": "CUT_WCW_E_PITFALLS_03_008", "decision": "采纳", "final": "我们要把他吃掉！我们要把他吃掉！", "note": "乌鸦的 we 不含伊莉丝，作「我们」"}
+{"key": "CUT_WCW_E_PITFALLS_03_010", "decision": "采纳", "final": "诅咒你们这帮家伙！诅咒你们这帮家伙！", "note": "语序顺口，删「咱们」"}
+{"key": "FLV_D_WSV_B_01_001", "decision": "采纳", "final": "这种树到处都是。", "note": "自语 huh? 作陈述"}

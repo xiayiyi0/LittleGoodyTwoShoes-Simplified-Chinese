@@ -1,2 +1,10 @@
 {"key": "CUT_WCW_B_INTRO_01_002", "decision": "采纳", "final": "阿普菲尔……！", "note": "补回省略号，同键2行一致"}
+{"key": "CUT_WCW_B_INTRO_02_002", "decision": "采纳", "final": "不，不可能！是我看错了！", "note": "原文叹号无省略号"}
+{"key": "CUT_WCW_B_INTRO_02_004", "decision": "采纳", "final": "我得去找阿普菲尔……！", "note": "补回原文省略号"}
+{"key": "DLG_WCW_B_INTRO_01_002", "decision": "采纳", "final": "缺了几块。", "note": "自语附加问作陈述"}
+{"key": "DLG_WCW_B_INTRO_01_005", "decision": "采纳", "final": "我可没时间在这上头纳闷。", "note": "自语附加问作陈述"}
+{"key": "DLG_WCW_B_INTRO_03_001", "decision": "采纳", "final": "放在这儿正合适。", "note": "自语附加问作陈述"}
+{"key": "DLG_WCW_B_INTRO_06_002", "decision": "采纳", "final": "亮闪闪的，我知道。", "note": "删添的呼语"}
 {"key": "DLG_WCW_B_INTRO_06_009", "decision": "采纳", "final": "你到底是……？", "note": "D11定句，问话意与问身份都能接"}
+{"key": "DLG_WCW_B_INTRO_06_014", "decision": "采纳", "final": "（我准是要疯了……）", "note": "与 017 英文不同，不照抄"}
+{"key": "DLG_WCW_B_INTRO_07_013", "decision": "采纳", "final": "（除了硬撑下去，也别无他法了……）", "note": "原文无附加问，删「是吧」"}

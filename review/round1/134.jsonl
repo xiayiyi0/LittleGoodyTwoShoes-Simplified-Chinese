@@ -1,4 +1,11 @@
+{"key": "FLV_D_WSV_B_02_004", "decision": "采纳", "final": "这是新月、半月，还有满月吧。", "note": "自语附加问作陈述（拿不准用「吧」）"}
+{"key": "FLV_D_WSV_B_06_001", "decision": "采纳", "final": "他们可真把基弗伯格折腾得够呛。", "note": "自语 huh? 作陈述"}
 {"key": "CUT_D_WSV_J_01_002", "decision": "采纳", "final": "我知道你就藏在这附近，毒蛇！", "note": "伊莉丝叫 serpent 全表「毒蛇」"}
 {"key": "CUT_D_WSV_J_01_024", "decision": "采纳", "final": "这到底是……？", "note": "D34定句，兼顾见异象与听指控"}
+{"key": "CUT_WSV-A_02_001", "decision": "采纳", "final": "那是……！", "note": "补回原文叹号"}
 {"key": "CUT_WSV-A_02_004", "decision": "采纳", "final": "萝丝玛琳……！", "note": "补回省略号，Rosmarine...! 同键13行一致"}
+{"key": "FLV_WSV-A_01_006", "decision": "采纳", "final": "（肯定又是那条蛇在耍花招！）", "note": "原文无迟疑，删「这……」"}
 {"key": "FLV_WSV-A_01_011", "decision": "采纳", "final": "伊莉丝……！", "note": "补回省略号，Elise...! 同键20行一致"}
+{"key": "CUT_WSV-C_01_005", "decision": "采纳", "final": "看来是不会有人答我了。", "note": "自语 huh? 作陈述"}
+{"key": "FLV_WSV-C_02_001", "decision": "采纳", "final": "它们容不得光。", "note": "复述提示词「容不得」，作陈述"}
+{"key": "FLV_WSV-C_03_002", "decision": "采纳", "final": "这些恶鬼真是处处不忘嘲弄我。", "note": "自语 huh? 作陈述"}
