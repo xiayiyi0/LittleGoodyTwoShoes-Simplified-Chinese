@@ -1,4 +1,11 @@
+{"key": "DLG_4_5_WCR_03_001", "decision": "采纳", "final": "金色少女！金色少女！", "note": "乌鸦感叹不译「一个」"}
 {"key": "DLG_4_5_WCR_A_01_006", "decision": "采纳", "final": "嗯……", "note": "D02定句「嗯……」，勉强附和应允都通"}
+{"key": "DLG_4_5_WCR_A_01_019", "decision": "采纳", "final": "（她这是怎么了……？）", "note": "补回 ...? 的省略号"}
+{"key": "DLG_4_5_WCR_A_02_008", "decision": "采纳", "final": "（她好冷淡啊……）", "note": "独白附加问作陈述"}
 {"key": "DLG_4_5_WCR_A_03_003", "decision": "采纳", "final": "嗯……", "note": "D02定句「嗯……」，勉强附和应允都通"}
 {"key": "DLG_4_5_WCR_A_04_013", "decision": "采纳", "final": "什么……？", "note": "补回省略号，What...? 同键16行一致"}
 {"key": "DLG_4_5_WCR_A_06_007", "decision": "采纳", "final": "我想也是……", "note": "D20定句，五处都是附和"}
+{"key": "DLG_4_5_WCR_B_01_005", "decision": "采纳", "final": "哎呀，那匹马！那匹马！", "note": "保留乌鸦叠句"}
+{"key": "DLG_4_5_WCR_B_01_006", "decision": "采纳", "final": "呃……你该不会是说……", "note": "You don't mean 是「该不会是说」"}
+{"key": "DLG_4_5_WCR_B_01_020", "decision": "采纳", "final": "多亏我们赶在她前头到了那儿！", "note": "乌鸦的 we 不含伊莉丝"}
+{"key": "DLG_4_5_WCR_B_02_007", "decision": "改写", "final": "<color=#ed1c24><b>良伴</b></color>是给<b>祂</b>预备的，不是给祂手下那位侯爵的。", "note": "补出 His：侯爵是祂手下的"}

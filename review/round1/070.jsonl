@@ -1,3 +1,9 @@
+{"key": "DLG_4_5_WCR_B_03_007", "decision": "采纳", "final": "<sprite=\"murim\" name=\"black\">大人就在前面——就在这堵墙的那一头！", "note": "名字只用 sprite，不增译「穆里姆」"}
 {"key": "DLG_4_5_WCR_B_04_001", "decision": "采纳", "final": "祭品！祭品！", "note": "乌鸦感叹不译「一份」"}
 {"key": "DLG_4_5_WCR_B_05_002", "decision": "采纳", "final": "什么……？", "note": "补回省略号，What...? 同键16行一致"}
+{"key": "DLG_4_5_WCR_B_07_014", "decision": "采纳", "final": "（那只乌鸦说的是谁？为什么萝丝玛琳好像认得这些名字……？）", "note": "后一问原文带问号"}
+{"key": "DLG_4_5_WCR_B_08_003", "decision": "采纳", "final": "我知道自己有点心神不宁——可这地方实在让我发慌嘛。", "note": "you see? 转「嘛」"}
+{"key": "DLG_4_5_WCR_C_01_001", "decision": "采纳", "final": "<sprite=\"aziel\" name=\"black\">大人会把你一口吞掉！一口吞掉！", "note": "Lady <sprite> 同批作「大人」"}
+{"key": "DLG_4_5_WCR_C_01_006", "decision": "采纳", "final": "我倒真希望这位<sprite=\"aziel\" name=\"black\">大人能把你们这群一口吞了，乌鸦！", "note": "补出 Lady，讥讽学乌鸦称呼"}
+{"key": "DLG_4_5_WCR_C_03_014", "decision": "改写", "final": "（她倒说他是在嘲弄我。）", "note": "复述带怀疑；不作反问、不补省略号"}
 {"key": "DLG_4_5_WCR_C_04_004", "decision": "采纳", "final": "我想也是……", "note": "D20定句，五处都是附和"}
