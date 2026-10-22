@@ -1,2 +1,17 @@
+{"key": "DLG_5_3_VSQ_04_004", "decision": "采纳", "final": "大伙儿都已、已经觉得这事儿怪了，伊莉丝！", "note": "穆菲结巴用顿号"}
+{"key": "DLG_5_3_VSQ_04_006", "decision": "采纳", "final": "这样吧——要不你就去说说看？", "note": "go ahead 是激她尽管去说"}
+{"key": "DLG_5_3_VSQ_04_011", "decision": "采纳", "final": "还有一只金、金色的，是不是？", "note": "穆菲结巴用顿号"}
+{"key": "DLG_5_3_VSQ_04_013", "decision": "采纳", "final": "跟、跟着你在、在镇上到处转，真是太、太有意思了，伊莉丝！", "note": "穆菲结巴用顿号"}
+{"key": "DLG_5_3_VSQ_04_021", "decision": "采纳", "final": "好、好吧，可你、你明天给我带碗<color=#f344a2>丰盛浓汤</color>来怎么样？", "note": "粉色道具词按道具表「丰盛浓汤」"}
+{"key": "DLG_5_3_VSQ_04_035", "decision": "采纳", "final": "明、明天给我带碗<color=#f344a2>丰盛浓汤</color>来，不、不然有你好看！", "note": "粉色道具词按道具表「丰盛浓汤」"}
+{"key": "DLG_5_3_VSQ_04_045", "decision": "采纳", "final": "然后你、你就把我扔进深井里？遵、遵命！", "note": "抢着替她说完的问句，补 And"}
+{"key": "DLG_5_3_VSQ_04_046", "decision": "采纳", "final": "不过在我走、走之前，明天给我带碗<color=#f344a2>丰盛浓汤</color>来！", "note": "粉色道具词按道具表「丰盛浓汤」"}
+{"key": "DLG_5_3_VWM_01_005", "decision": "采纳", "final": "依你看，它们是不会来了吗？", "note": "问对方看法作「依你看」"}
+{"key": "DLG_5_3_VWM_01_011", "decision": "采纳", "final": "我们前脚一走，它们八成后脚就俯冲下来！", "note": "I'd wager 并入「八成」"}
 {"key": "DLG_5_3_VWM_01_013", "decision": "采纳", "final": "嗯……", "note": "D02定句「嗯……」，勉强附和应允都通"}
+{"key": "DLG_5_3_VWM_01_015", "decision": "采纳", "final": "（也许傍晚欧根先生会在……）", "note": "this evening 是「傍晚」时段"}
+{"key": "DLG_5_3_VWM_01_023", "decision": "采纳", "final": "这是要确保一点空子都不留啊……", "note": "嘀咕 huh... 作自语"}
 {"key": "DLG_5_3_VWM_01_024", "decision": "采纳", "final": "什么？", "note": "D17定句，追问与惊醒都通"}
+{"key": "DLG_5_3_VWM_01_029", "decision": "采纳", "final": "（也许傍晚欧根先生要是在，我能说服他把钥匙借给我……）", "note": "this evening 是「傍晚」时段"}
+{"key": "DLG_5_3_VWM_01_031", "decision": "采纳", "final": "那是因为我们都在这儿守着呢，丫头。", "note": "we 不含伊莉丝，作「我们」"}
+{"key": "DLG_5_3_VWW_01_028", "decision": "采纳", "final": "（我可不会把斯佩尔特拖进这事里……）", "note": "此支 not about to，不照抄 037"}
