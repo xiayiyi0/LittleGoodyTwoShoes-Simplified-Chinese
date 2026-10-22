@@ -1,5 +1,14 @@
+{"key": "DLG_5_2_VIN_01_001", "decision": "采纳", "final": "昨晚我们早该信你的，伊莉丝。", "note": "we 不含伊莉丝，作「我们」"}
+{"key": "DLG_5_2_VIN_02_003", "decision": "采纳", "final": "还有这满村子的乌鸦……", "note": "too 是「还有」，句子成话"}
+{"key": "DLG_5_2_VIN_02_004", "decision": "采纳", "final": "昨天我们早该信你的，伊莉丝！", "note": "we 不含伊莉丝，作「我们」"}
+{"key": "DLG_5_2_VIN_02_012", "decision": "采纳", "final": "那可真是件憾事啊。", "note": "I'd say 并入句中"}
+{"key": "DLG_5_2_VIN_02_034", "decision": "采纳", "final": "（她是绝不会承认自己也有一半责任的。）", "note": "独白附加问作陈述"}
 {"key": "DLG_5_2_VIN_03_011", "decision": "采纳", "final": "嗯……", "note": "D02定句「嗯……」，勉强附和应允都通"}
+{"key": "DLG_5_2_VIN_03_024", "decision": "采纳", "final": "<i>这</i>才叫像样的恐吓，我这辈子还没听过这么厉害的呢！", "note": "斜体回到 that「这」"}
+{"key": "DLG_5_2_VIN_03_045", "decision": "采纳", "final": "（犯不着跟这种蠢话较真。）", "note": "独白附加问作陈述"}
+{"key": "DLG_5_2_VSQ_01_009", "decision": "采纳", "final": "听说他们要跟多萝特娅和斯佩尔特一起上课了。", "note": "孩子里有男孩，作「他们」"}
 {"key": "DLG_5_2_VSQ_02_011", "decision": "改写", "final": "就凭它们聚在磨坊那儿？", "note": "去倒装；伊莉丝不信乌鸦示意，带点讥疑"}
 {"key": "DLG_5_2_VSQ_02_012", "decision": "采纳", "final": "它们准是在催你动手。", "note": "that's for certain 并入「准是」"}
+{"key": "DLG_5_2_VSQ_02_016", "decision": "采纳", "final": "不，我看是没戏了，萝丝玛琳。", "note": "lost it 是没办成，非丢东西"}
 {"key": "DLG_5_2_VSQ_02_024", "decision": "改写", "final": "就凭它们聚在磨坊那儿？", "note": "去倒装；伊莉丝不信乌鸦示意，带点讥疑"}
 {"key": "DLG_5_2_VSQ_02_025", "decision": "采纳", "final": "它们准是在催你动手。", "note": "that's for certain 并入「准是」"}

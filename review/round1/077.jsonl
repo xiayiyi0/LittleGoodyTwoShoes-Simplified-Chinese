@@ -1,5 +1,12 @@
+{"key": "DLG_5_2_VST_01_020", "decision": "采纳", "final": "基弗伯格这儿已经没什么留得住我的了啊。", "note": "you see? 转「啊」"}
+{"key": "DLG_5_2_VST_01_024", "decision": "采纳", "final": "就连这把钥匙……我也只会保管到傍晚为止。", "note": "the evening 是「傍晚」时段"}
+{"key": "DLG_5_2_VST_01_025", "decision": "采纳", "final": "保管到傍晚，欧根先生？", "note": "回声随 024 作「傍晚」"}
+{"key": "DLG_5_2_VST_01_032", "decision": "采纳", "final": "（到傍晚之前他是不会松口了，不过……）", "note": "随 024/025 作「傍晚」"}
+{"key": "DLG_5_2_VST_02_009", "decision": "采纳", "final": "你说网子……！", "note": "X, you say 不倒装"}
+{"key": "DLG_5_2_VST_02_023", "decision": "采纳", "final": "（他准会为那些卷心菜做噩梦吧……）", "note": "独白附加问作自语"}
 {"key": "LVE_5_2_OVP_R_010", "decision": "采纳", "final": "你这家伙……！", "note": "D07定句，对孩子长辈朋友乌鸦都通"}
 {"key": "LVE_5_2_OVP_R_014", "decision": "采纳", "final": "嗯……", "note": "D02定句「嗯……」，勉强附和应允都通"}
+{"key": "LVE_5_2_OVP_R_024", "decision": "采纳", "final": "萝丝玛琳，你在做什么……！", "note": "名字后是逗号，不拆两截"}
 {"key": "LVE_5_2_OVP_R_035", "decision": "采纳", "final": "萝丝玛琳……！", "note": "补回省略号，Rosmarine...! 同键13行一致"}
 {"key": "LVE_5_2_OVP_R_062", "decision": "采纳", "final": "这也难免，你说呢？", "note": "去掉叠用的附加问"}
 {"key": "LVE_5_2_OVP_R_082", "decision": "采纳", "final": "这也难免，你说呢？", "note": "去掉叠用的附加问"}

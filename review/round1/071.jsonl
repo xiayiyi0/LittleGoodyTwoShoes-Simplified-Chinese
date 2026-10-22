@@ -1,5 +1,14 @@
+{"key": "DLG_4_5_WCR_C_05_009", "decision": "采纳", "final": "她才不是什么怪东西，你这讨厌鬼！", "note": "辩护语境避开骂人话「不是东西」"}
+{"key": "DLG_4_5_WCR_C_05_032", "decision": "采纳", "final": "说得没错，丫头——是<b>祂</b><i>赐予</i>你的『赠礼』！", "note": "定案『赠礼』落实"}
+{"key": "DLG_4_5_WCR_C_05_037", "decision": "采纳", "final": "我们要以你的贪婪为盛宴！我们要以你的贪婪为盛宴！", "note": "乌鸦的 we 不含伊莉丝"}
 {"key": "DLG_4_5_WCR_C_05_046", "decision": "采纳", "final": "你到底是……？", "note": "D11定句，问话意与问身份都能接"}
 {"key": "DLG_4_5_WCR_C_05_047", "decision": "采纳", "final": "祭品！祭品！", "note": "乌鸦感叹不译「一份」"}
+{"key": "DLG_4_5_WCR_C_05_049", "decision": "采纳", "final": "那个<b>女巫</b>可不是独自一人骑那些马的，丫头！", "note": "ride 是女巫夜骑的「骑」"}
+{"key": "DLG_4_5_WCR_C_05_055", "decision": "采纳", "final": "等等！我还有……！", "note": "D5：Wait! 原文无省略号"}
+{"key": "DLG_4_5_WCR_C_05_056", "decision": "采纳", "final": "他可不是个会坐下来闲聊的主，是不是？", "note": "侯爵作「他」，非祂；坐下来闲聊"}
 {"key": "DLG_4_5_WCR_C_05_057", "decision": "采纳", "final": "我想也是……", "note": "D20定句，五处都是附和"}
+{"key": "FLV_4_5_HCR_01_001", "decision": "采纳", "final": "它以前不是这个样子的……", "note": "自语附加问作陈述"}
+{"key": "FLV_4_5_WCR_A_03_004", "decision": "采纳", "final": "（她倒是挺机灵的。）", "note": "独白附加问作陈述"}
+{"key": "FLV_4_5_WCR_A_04_003", "decision": "采纳", "final": "（她不怎么搭理人呢。）", "note": "独白附加问作陈述"}
 {"key": "CUT_4_6_WCR_TRANS_008", "decision": "采纳", "final": "萝丝玛琳……！", "note": "补回省略号，Rosmarine...! 同键13行一致"}
 {"key": "CUT_5_1_HBR_01_003", "decision": "采纳", "final": "萝丝玛琳……！", "note": "补回省略号，Rosmarine...! 同键13行一致"}
