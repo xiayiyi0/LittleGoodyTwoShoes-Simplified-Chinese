@@ -1,4 +1,12 @@
+{"key": "DLG_2_3_VSQ_01_002", "decision": "采纳", "final": "离开？谁要离开？", "note": "回声复述「离开」，且非已走"}
+{"key": "DLG_2_3_VSQ_01_025", "decision": "采纳", "final": "可不是，多萝特娅——谁知道会不会有人在听墙角……", "note": "Truly 是附和，免读成反问"}
 {"key": "DLG_2_3_VSQ_01_026", "decision": "采纳", "final": "你到底是……？", "note": "D11定句，问话意与问身份都能接"}
+{"key": "DLG_2_3_VSQ_01_054", "decision": "采纳", "final": "犯不着发这么大脾气吧？", "note": "去掉叠用的附加问"}
+{"key": "DLG_2_3_VSQ_02_010", "decision": "采纳", "final": "我可不敢说自己将来不会离开镇子，梅希蒂尔德太太……", "note": "理顺 eventually 的语序"}
 {"key": "DLG_2_3_VSQ_02_013", "decision": "采纳", "final": "嗯……", "note": "D02定句「嗯……」，勉强附和应允都通"}
 {"key": "DLG_2_3_VSQ_02_030", "decision": "采纳", "final": "嗯……", "note": "D02定句「嗯……」，勉强附和应允都通"}
+{"key": "DLG_2_3_VSQ_03_015", "decision": "采纳", "final": "（还「趁事情还没闹大」呢……）", "note": "he says 是讥讽复述，非嫌说得轻巧"}
+{"key": "DLG_2_3_VSQ_03_021", "decision": "采纳", "final": "不瞒你说，我可不想咱们太依赖普里梅尔多夫。", "note": "源文修复：Kieferberg 当为 Primeldorf"}
 {"key": "DLG_2_3_VSQ_04_001", "decision": "采纳", "final": "伊莉丝……", "note": "D12定句，叹气与感动处都通"}
+{"key": "DLG_2_3_VSQ_04_004", "decision": "采纳", "final": "你看，可怜的奥蒂莉都糊涂了。", "note": "解释性 you see? 转句首「你看」"}
+{"key": "DLG_2_3_VSQ_04_031", "decision": "采纳", "final": "我们刚才在商量，要给小巷那边的人做顿丰盛的晚饭。", "note": "不含伊莉丝，作「我们」"}

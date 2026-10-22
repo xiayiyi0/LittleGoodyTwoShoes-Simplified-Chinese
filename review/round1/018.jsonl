@@ -1,3 +1,9 @@
 {"key": "CUT_2_5_HLR_01_001", "decision": "采纳", "final": "<shake a=0.3><size=120%>呀……！</size></shake>", "note": "D05定句，补回省略号并统一「咿呀」"}
 {"key": "CUT_2_5_HLR_01_009", "decision": "采纳", "final": "<shake a=0.3><size=120%>呀！</size></shake>", "note": "D08定句，统一两行「咿呀」"}
+{"key": "CUT_2_5_HLR_01_018", "decision": "采纳", "final": "你要、要是分我，我也许就不、不说出去！", "note": "if you do 指分面包，交换条件"}
+{"key": "CUT_2_5_HLR_01_027", "decision": "采纳", "final": "罗蕾莱太太家里肯定有的是吃的——快走开！", "note": "I'm certain 并入「肯定」"}
 {"key": "CUT_2_5_HLR_01_033", "decision": "采纳", "final": "<shake a=0.3><size=120%>呀！</size></shake>", "note": "D08定句，统一两行「咿呀」"}
+{"key": "CUT_2_5_HLR_01_034", "decision": "采纳", "final": "别再回来了！不然的话……！", "note": "Or else...! 话没说完"}
+{"key": "CUT_2_5_HLR_01_035", "decision": "采纳", "final": "真是的！偏偏这时候给我添乱！", "note": "原文叹号，句首不加省略号"}
+{"key": "CUT_2_5_HLR_01_042", "decision": "采纳", "final": "会有麻烦……我知道，萝丝玛琳。", "note": "补回 In trouble... 的省略号"}
+{"key": "CUT_2_5_OLH_01_022", "decision": "采纳", "final": "明、明天见，佩佩！", "note": "保留被说中时的结巴"}
