@@ -106,6 +106,10 @@ NEG_EN = re.compile(r"\b(not|no|never|nothing|nobody|none|neither|nor|without|no
 NEG_ZH = re.compile(r'[不没无非未别莫勿休甭毋否免难缺少]|才怪|哪儿|哪里|哪会|哪能|岂|何必|何须|罢了|算了|拉倒|住口|住手|闭嘴|省省|免了|空手|一干二净|白白|徒劳|休想|妄|绝')
 NUM_EN = re.compile(r'\b(\d+|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|twenty|thirty|forty|fifty|hundred|thousand|dozen|twice|thrice|half|both|pair|couple)\b', re.I)
 NUM_ZH = re.compile(r'[0-9一二三四五六七八九十百千万两半俩仨双对几]')
+TAGQ = re.compile(r",\s*(huh|eh|right|(?:is|isn't|was|wasn't|are|aren't|were|weren't|am|do|don't|does|doesn't|did|didn't|"
+                  r"can|can't|could|couldn't|will|won't|would|wouldn't|have|haven't|has|hasn't|had|hadn't|should|shouldn't|"
+                  r"shall|must)\s+(?:I|you|he|she|it|we|they|there|that|this))"
+                  r"\s*(\.\.\.|…)?\?+(\.\.\.|…)?\s*\)?$", re.I)
 CONNECT = OrderedDict([
     ('可是', r'\b(but|yet|though|however|although)\b'), ('但是', r'\b(but|yet|though|however|although)\b'),
     ('不过', r'\b(but|yet|though|however|although|just|only)\b'), ('而且', r'\b(and|also|too|besides|plus|moreover)\b'),
@@ -350,6 +354,10 @@ def main():
             elif re.search(r'[^.…!]\?$', et) and not re.search(r'[？]$', zt) \
                     and not re.search(r"\b(is|isn't|was|wasn't|are|aren't|do|don't|does|doesn't|did|didn't|can|can't|could|couldn't|will|won't|would|wouldn't|have|haven't|has|hasn't|should|shouldn't|right|eh|huh|yes|no)\s*(it|he|she|they|we|you|I|there|that|this|not)?\??$", et, re.I):
                 add('S2句末标点改变', r, '原文以「?」收尾（非附加问句），译文以「%s」收尾' % zt[-1], pre)
+        # P9 独白/自语里的附加问句被译成反问（rules.md §10.6）
+        if (ens.strip().startswith('(') or k.startswith(('FLV_', 'PIC_'))) and TAGQ.search(ens.strip()) \
+                and re.search(r'(是吧|对吧|是不是|不是吗|对不对|是吗|吧)(……)?[？?]+[）)]?$', zhs_.strip()):
+            add('P9独白附加问句', r, '独白/自语附加问句（%s）译成了反问' % TAGQ.search(ens.strip()).group(1), pre)
         if re.search(r"\b([A-Za-z]{1,3})-\1", ens, re.I) and '、' not in zhs_:
             add('S3结巴未保留', r, '原文有结巴（%s），译文无「、」' % re.search(r"\b([A-Za-z]{1,3})-\1\w*", ens, re.I).group(0), pre)
 
