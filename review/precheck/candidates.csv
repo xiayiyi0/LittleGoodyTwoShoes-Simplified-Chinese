@@ -909,97 +909,97 @@ P9独白附加问句:DLG_5_5_VIN_10_021,P9独白附加问句,DLG_5_5_VIN_10_021,
 R2相邻重复:DLG_5_5_VSQ_01_007,R2相邻重复,DLG_5_5_VSQ_01_007,090,「教训教训」相邻重复,"You'd best give this cousin of yours a proper earful, Elise!",你最好好好教训教训你这表妹，伊莉丝！,,,已核无误
 L1长度比例异常:DLG_5_5_VSQ_01_021,L1长度比例异常,DLG_5_5_VSQ_01_021,090,中文 2.71 字/英文词（偏长）,"It's the smell Rosmarine likes, Mrs. Loreley.",萝丝玛琳只是喜欢那个味道罢了，罗蕾莱太太。,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,,已核无误
 R2相邻重复:DLG_5_5_VSQ_01_028,R2相邻重复,DLG_5_5_VSQ_01_028,090,「好了好了」相邻重复,"All's well, lass - you two move along, now.",好了好了，丫头——你们俩快走吧。,,,已核无误
-L2否定缺失:DLG_5_5_VSQ_05_012,L2否定缺失,DLG_5_5_VSQ_05_012,091,英文有否定词，中文无常见否定字,Why don't you take this?,把这些也带上吧？,,,
-L1长度比例异常:DLG_5_5_VSQ_07_023,L1长度比例异常,DLG_5_5_VSQ_07_023,091,中文 2.83 字/英文词（偏长）,"These woods are dangerous regardless, Elise.",不管怎么说，这片林子本来就危险，伊莉丝。,,,
-D1显示层冲突:DLG_5_5_VSQ_07_025,D1显示层冲突,DLG_5_5_VSQ_07_025,091,D12 措辞差异：同英文 15 行 3 种译法；显示词典=哦，伊莉丝……,"Oh, Elise...",唉，伊莉丝……,[语境修复] 解除TM感叹号覆写：还原原文省略号(...)的低落/迟疑/平缓余韵; [v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,,
-P9独白附加问句:DLG_5_5_VWM_01_014,P9独白附加问句,DLG_5_5_VWM_01_014,091,独白/自语附加问句（is he）译成了反问,"(Mr. Eugen's still holding onto that key, is he?)",（欧根先生还紧攥着那把钥匙呢，是吧？）,,,
-C1疑似照抄:CUT_5_6_VWM_01_009,C1疑似照抄,CUT_5_6_VWM_01_009,092,中文与 DLG_4_5_WCR_C_05_003 完全相同，英文相似度 0.46,Your commitment! Your commitment!,你的决心！你的决心！,,,
-L1长度比例异常:CUT_6_1_HBY_01_004,L1长度比例异常,CUT_6_1_HBY_01_004,092,中文 2.67 字/英文词（偏长）,It's best I go find Rosmarine.,我还是去找萝丝玛琳，然后回镇上去吧。,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,,
-P9独白附加问句:CUT_6_1_HFY_01_011,P9独白附加问句,CUT_6_1_HFY_01_011,092,独白/自语附加问句（can I）译成了反问,"(I can't tell her the full extent of it, can I?)",（我总不能把实情全都告诉她吧？）,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,,
-D1显示层冲突:CUT_6_1_HFY_01_019,D1显示层冲突,CUT_6_1_HFY_01_019,092,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,
-P9独白附加问句:CUT_6_1_HFY_01_029,P9独白附加问句,CUT_6_1_HFY_01_029,092,独白/自语附加问句（do I）译成了反问,"(I don't know what to make of any of this, do I?)",（这一切我都摸不着头脑，是不是？）,,,
-R2相邻重复:CUT_6_1_HFY_01_049,R2相邻重复,CUT_6_1_HFY_01_049,092,「一点一点」相邻重复,"The woodland's forsaking this town, Elise - little by little.",林地正在一点一点地抛弃这座小镇，伊莉丝。,,,
-D1显示层冲突:CUT_6_1_OGR_01_010,D1显示层冲突,CUT_6_1_OGR_01_010,092,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,
-D1显示层冲突:CUT_6_1_OGR_01_015,D1显示层冲突,CUT_6_1_OGR_01_015,092,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,
-L3数字缺失:CUT_6_1_OGR_01_020,L3数字缺失,CUT_6_1_OGR_01_020,092,英文 both，中文无数字,"We both know what I'm after, serpent, so get it over with and...",我们都清楚我要的是什么，毒蛇，废话少说，快点了结吧……,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,,
-L1长度比例异常:CUT_6_1_VCH_01_004,L1长度比例异常,CUT_6_1_VCH_01_004,092,中文 0.77 字/英文词（偏短）,I seem to have pulled on it a little too tightly this morning...,我今早好像扯得太紧了……,,,
-S2句末标点改变:CUT_6_1_VCH_01_009,S2句末标点改变,CUT_6_1_VCH_01_009,092,原文以「?」收尾（非附加问句），译文以「！」收尾,"What are you saying, lassie?",你这是说的什么话，丫头！,,,
-L2否定缺失:CUT_6_1_VCH_01_010,L2否定缺失,CUT_6_1_VCH_01_010,092,英文有否定词，中文无常见否定字,A maid-of-all-work can't possibly pray our blessings — we need Lebkuchen!,一个杂役女佣怎么可能为我们诵祷祝福——我们需要斯佩尔特！,,,
-R2相邻重复:CUT_6_1_VCH_01_013,R2相邻重复,CUT_6_1_VCH_01_013,092,「一家一家」相邻重复,"It's best you visit each and every one of our homes, Lebkuchen!",你最好一家一家都去看看，斯佩尔特！,,,
-P6省略号D5:CUT_6_1_VCH_01_018,P6省略号D5,CUT_6_1_VCH_01_018,092,原文句末无「...!/...?」，译文句末加了「……！/……？」,"Ah, but before then, Lebkuchen, could you...",啊，不过在那之前，斯佩尔特，你能不能……？,,,
-S1句末省略号删减:CUT_6_1_VCH_01_018,S1句末省略号删减,CUT_6_1_VCH_01_018,092,原文以「...」收尾，译文句末无「……」,"Ah, but before then, Lebkuchen, could you...",啊，不过在那之前，斯佩尔特，你能不能……？,,,
-L1长度比例异常:CUT_6_1_VCH_01_027,L1长度比例异常,CUT_6_1_VCH_01_027,092,中文 0.75 字/英文词（偏短）,(Carry out my days for my own sake...),（能为自己而活……）,,,
-L2否定缺失:DLG_5_6_HBR_01_002,L2否定缺失,DLG_5_6_HBR_01_002,092,英文有否定词，中文无常见否定字,"I can't help but feel there's something else I should be doing, but...",总觉得我还该做点什么，可……,,,
-L2否定缺失:FLV_5_6_WCW_03_001,L2否定缺失,FLV_5_6_WCW_03_001,092,英文有否定词，中文无常见否定字,"No choice but to go the other way, I suppose...",看来只能走另一条路了……,,,
-L2否定缺失:CUT_6_1_VSQ_01_004,L2否定缺失,CUT_6_1_VSQ_01_004,093,英文有否定词，中文无常见否定字,"It's one thing after another isn't it, Elise?",真是麻烦事一桩接一桩，是吧，伊莉丝？,,,
-L2否定缺失:CUT_6_1_VSQ_01_009,L2否定缺失,CUT_6_1_VSQ_01_009,093,英文有否定词，中文无常见否定字,"Fynn and I can give it a look, can't we, Fynn?",芬恩跟我可以去看看，是吧，芬恩？,,,
-L1长度比例异常:DLG_6_1_OLH_01_003,L1长度比例异常,DLG_6_1_OLH_01_003,093,中文 2.88 字/英文词（偏长）,"Oh, I'm so glad you're getting along, dearie!",哎哟，看你们俩处得这么好，我真是打心眼里高兴，乖丫头！,[v8感叹词·Oh] 补回漏译的 dearie,,
-L2否定缺失:DLG_6_1_OLH_01_007,L2否定缺失,DLG_6_1_OLH_01_007,093,英文有否定词，中文无常见否定字,Won't you keep an eye on Lebkuchen for me today?,今天你替我多留意着斯佩尔特点儿，好吗？,,,
-L3数字缺失:DLG_6_1_OLH_01_015,L3数字缺失,DLG_6_1_OLH_01_015,093,英文 both，中文无数字,"Lebkuchen's been burning the candle at both ends, you see?",斯佩尔特这是没日没夜地操劳呢，你知道吧？,,,
-L2否定缺失:DLG_6_1_OLH_02_026,L2否定缺失,DLG_6_1_OLH_02_026,093,英文有否定词，中文无常见否定字,"These goings-on haven't helped at all, either...",偏偏又出了这些事儿，更是雪上加霜……,,,
-D1显示层冲突:DLG_6_1_OLH_02_037,D1显示层冲突,DLG_6_1_OLH_02_037,093,D23 措辞差异：同英文 5 行 2 种译法；显示词典=哦，伊莉丝！,"Oh, Elise...!",啊，伊莉丝……！,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,,
-L2否定缺失:CUT_6_2_VCH_01_003,L2否定缺失,CUT_6_2_VCH_01_003,094,英文有否定词，中文无常见否定字,Why don't you pay her a visit in a little while?,待会儿你去探望探望她吧？,,,
-R2相邻重复:CUT_6_2_VCH_01_003,R2相邻重复,CUT_6_2_VCH_01_003,094,「探望探望」相邻重复,Why don't you pay her a visit in a little while?,待会儿你去探望探望她吧？,,,
-L2否定缺失:DLG_6_1_VSQ_01_019,L2否定缺失,DLG_6_1_VSQ_01_019,094,英文有否定词，中文无常见否定字,"Father Hans will know how to address the situation, won't he?",汉斯神父会知道该怎么处理的吧？,,,
-S1句末省略号删减:DLG_6_1_VSQ_02_008,S1句末省略号删减,DLG_6_1_VSQ_02_008,094,原文以「...?」收尾，译文句末无「……」,What...?,什么？,,,
-S2句末标点改变:DLG_6_2_OLH_01_027,S2句末标点改变,DLG_6_2_OLH_01_027,094,原文以「?」收尾（非附加问句），译文以「。」收尾,"Ah, he gave me a scare every time he got startled, you see?",啊，他每回一受惊，就把我也吓一跳呢。,[v8口头禅·you see] 解释性 you see?/you know? 不再硬对「你知道吗/你懂吧/你瞧？」，转为句末语气词或句首「你看/您瞧」,,
-L2否定缺失:FLV_6_1_OVP_01_003,L2否定缺失,FLV_6_1_OVP_01_003,094,英文有否定词，中文无常见否定字,I have no choice but to keep going — for my own sake.,我只能走下去——为了我自己。,,,
-P9独白附加问句:FLV_6_1_VWM_01_001,P9独白附加问句,FLV_6_1_VWM_01_001,094,独白/自语附加问句（huh）译成了反问,"I suppose I won't be getting in here any time soon, huh?",看来我一时半会儿是进不去了，是吧？,,,
-D1显示层冲突:DLG_6_2_VBA_01_016,D1显示层冲突,DLG_6_2_VBA_01_016,095,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,
-D1显示层冲突:DLG_6_2_VBA_01_020,D1显示层冲突,DLG_6_2_VBA_01_020,095,D24 措辞差异：同英文 2 行 2 种译法；显示词典=你的<i>还有</i>我的！,Yours <i>and</i> mine!,你的<i>还有</i>我的！,,,
-D1显示层冲突:DLG_6_2_VBA_01_029,D1显示层冲突,DLG_6_2_VBA_01_029,095,D24 措辞差异：同英文 2 行 2 种译法；显示词典=你的<i>还有</i>我的！,Yours <i>and</i> mine!,你的耐性<i>和</i>我的都一样！,,,
-S2句末标点改变:DLG_6_2_VBA_02_008,S2句末标点改变,DLG_6_2_VBA_02_008,095,原文以「?」收尾（非附加问句），译文以「。」收尾,"I'd say what happened to Apfel has frightened her, you see?",我看啊，是阿普菲尔的事把她给吓着了。,[v8口头禅·you see] 解释性 you see?/you know? 不再硬对「你知道吗/你懂吧/你瞧？」，转为句末语气词或句首「你看/您瞧」,,
-N2人名增译:DLG_6_2_VBA_02_012,N2人名增译,DLG_6_2_VBA_02_012,095,中文有「基弗伯格」，英文无 Kieferberg,She would've told all of Kiefeberg had she seen anything!,她要是真见着什么了，早就传遍基弗伯格了！,,,
-N2人名增译:DLG_6_2_VBA_02_019,N2人名增译,DLG_6_2_VBA_02_019,095,中文有「基弗伯格」，英文无 Kieferberg,She would've told all of Kiefeberg had she seen anything!,她要是真见着什么了，早就传遍基弗伯格了！,,,
-P9独白附加问句:DLG_6_2_VBA_02_025,P9独白附加问句,DLG_6_2_VBA_02_025,095,独白/自语附加问句（are they）译成了反问,"(Folks aren't taking this very well, are they...?)",（大伙儿这回可不太好受，是不是……？）,,,
-S1句末省略号删减:DLG_6_2_VBA_03_038,S1句末省略号删减,DLG_6_2_VBA_03_038,095,原文以「...!」收尾，译文句末无「……」,Elise...!,伊莉丝！,,,
-C1疑似照抄:DLG_6_2_VCH_01_004,C1疑似照抄,DLG_6_2_VCH_01_004,095,"中文与 DLG_4_4_VSQ_03_002,DLG_5_1_VBA_02_003,CUT_5_5_VSQ_01_003,CUT_7_5_OLH_02_003 完全相同，英文相似度 0.36",What's going on here?,这是怎么回事？,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,,
-L2否定缺失:DLG_6_2_VCH_01_023,L2否定缺失,DLG_6_2_VCH_01_023,095,英文有否定词，中文无常见否定字,"It's me you want, isn't it?",你们要找的是我，对吧？,,,
-P9独白附加问句:DLG_6_2_VIN_01_022,P9独白附加问句,DLG_6_2_VIN_01_022,096,独白/自语附加问句（aren't they）译成了反问,"(Things are starting to get rather serious, aren't they?)",（事情开始变得相当严重了，不是吗？）,,,
-R2相邻重复:DLG_6_2_VIN_02_008,R2相邻重复,DLG_6_2_VIN_02_008,096,「忙活忙活」相邻重复,"She'd best busy herself with the festival, I'd say.",依我看，她最好找点节庆的事忙活忙活。,,,
-S2句末标点改变:DLG_6_2_VIN_02_010,S2句末标点改变,DLG_6_2_VIN_02_010,096,原文以「?」收尾（非附加问句），译文以「。」收尾,"It's Jakob she's fretting about, you see?",她是在为雅各布操心呢。,[v8口头禅·you see] 解释性 you see?/you know? 不再硬对「你知道吗/你懂吧/你瞧？」，转为句末语气词或句首「你看/您瞧」,,
-P9独白附加问句:DLG_6_2_VIN_02_016,P9独白附加问句,DLG_6_2_VIN_02_016,096,独白/自语附加问句（isn't he）译成了反问,"(Mr. Tristan's a little short on patience today, isn't he?)",（特里斯坦先生今天可没什么耐心，是不是？）,,,
-P9独白附加问句:DLG_6_2_VIN_02_017,P9独白附加问句,DLG_6_2_VIN_02_017,096,独白/自语附加问句（are they）译成了反问,"(Folks aren't themselves these days, are they?)",（这些日子大伙儿都有点不对劲，是不是？）,,,
-D1显示层冲突:DLG_6_2_VSQ_01_007,D1显示层冲突,DLG_6_2_VSQ_01_007,096,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,
-L2否定缺失:DLG_6_2_VSQ_01_024,L2否定缺失,DLG_6_2_VSQ_01_024,096,英文有否定词，中文无常见否定字,"I can't say I won't miss you lads, too.",我也一样会想你们这些小子的。,,,
-D1显示层冲突:DLG_6_2_VSQ_02_001,D1显示层冲突,DLG_6_2_VSQ_02_001,096,D09 标签差异：同英文 68 行 2 种译法；显示词典=伊莉丝！,Elise!,伊莉丝！,,,
-S2句末标点改变:DLG_6_2_VSQ_03_033,S2句末标点改变,DLG_6_2_VSQ_03_033,096,原文以「?」收尾（非附加问句），译文以「。」收尾,"Apfel did mention he'd seen someone, you see?",阿普菲尔确实说过他看见了什么人。,[v8口头禅·you see] 解释性 you see?/you know? 不再硬对「你知道吗/你懂吧/你瞧？」，转为句末语气词或句首「你看/您瞧」,,
-D1显示层冲突:DLG_6_2_VSQ_03_034,D1显示层冲突,DLG_6_2_VSQ_03_034,096,D12 措辞差异：同英文 15 行 3 种译法；显示词典=哦，伊莉丝……,"Oh, Elise...",唉，伊莉丝……,[语境修复] 解除TM感叹号覆写：还原原文省略号(...)的低落/迟疑/平缓余韵; [v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,,
-L2否定缺失:DLG_6_2_VST_01_023,L2否定缺失,DLG_6_2_VST_01_023,097,英文有否定词，中文无常见否定字,I can't wait for all this nonsense to be over with!,真盼着这些烦心事早点过去！,,,
-L2否定缺失:DLG_6_2_VWW_01_009,L2否定缺失,DLG_6_2_VWW_01_009,097,英文有否定词，中文无常见否定字,"It's Kieferberg you're worried about, isn't it?",你担心的是基弗伯格，对吧？,,,
-L2否定缺失:LVE_6_2_BLR_L_003,L2否定缺失,LVE_6_2_BLR_L_003,097,英文有否定词，中文无常见否定字,What were you thinking? You couldn't...,你到底在想什么？你怎么能……,,,
-L1长度比例异常:LVE_6_2_BLR_L_012,L1长度比例异常,LVE_6_2_BLR_L_012,097,中文 2.89 字/英文词（偏长）,You're being taken for granted — like you always are!,大家都把你的付出当成理所当然了——你从来都是这样被对待的！,,,
-L2否定缺失:LVE_6_2_BLR_L_013,L2否定缺失,LVE_6_2_BLR_L_013,097,英文有否定词，中文无常见否定字,Tell me something I don't know...,这还用你说……,,,
-D1显示层冲突:LVE_6_2_BLR_L_015,D1显示层冲突,LVE_6_2_BLR_L_015,097,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,
-L2否定缺失:LVE_6_2_BLR_L_019,L2否定缺失,LVE_6_2_BLR_L_019,097,英文有否定词，中文无常见否定字,"You're well aware I don't appreciate being lied to, Lebkuchen.",你很清楚，我最讨厌被人骗，斯佩尔特。,[仲裁执行·B1] 去除原文没有的整句「」（原文无引号；同场景引号与说话人不对应）（仲裁表 #56）; [v6批量B1] 去除原文无依据的整句外层直角引号; [整合] A=B：双方译文一致，合并双方备,,
-L2否定缺失:LVE_6_2_BLR_L_020,L2否定缺失,LVE_6_2_BLR_L_020,097,英文有否定词，中文无常见否定字,"Neither do I, yet that's what you've been doing all week.",我也一样，可你这一整个星期都在骗我。,[仲裁执行·B1] 去除原文没有的整句「」（原文无引号；同场景引号与说话人不对应）（仲裁表 #57）; [v6批量B1] 去除原文无依据的整句外层直角引号; [整合] A=B：双方译文一致，合并双方备,,
-D1显示层冲突:LVE_6_2_BLR_L_021,D1显示层冲突,LVE_6_2_BLR_L_021,097,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,[仲裁执行·B1] 去除原文没有的整句「」（原文无引号；同场景引号与说话人不对应）（仲裁表 #58）; [v6批量B1] 去除原文无依据的整句外层直角引号; [整合] A=B：双方译文一致，合并双方备,,
-P6省略号D5:LVE_6_2_BLR_L_029,P6省略号D5,LVE_6_2_BLR_L_029,097,原文句末无「...!/...?」，译文句末加了「……！/……？」,You mean...,你是说……？,,,
-S1句末省略号删减:LVE_6_2_BLR_L_029,S1句末省略号删减,LVE_6_2_BLR_L_029,097,原文以「...」收尾，译文句末无「……」,You mean...,你是说……？,,,
-D1显示层冲突:LVE_6_2_BLR_L_035,D1显示层冲突,LVE_6_2_BLR_L_035,097,D43 措辞差异：同英文 2 行 2 种译法；显示词典=还……？,And?,还有呢？,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」; [v8收官·语义] And? 是催对方往下说，「还？」不成话，改「还有呢？」,,
-S1句末省略号删减:LVE_6_2_BLR_L_036,S1句末省略号删减,LVE_6_2_BLR_L_036,097,原文以「...」收尾，译文句末无「……」,"In other ways, as well — I'm torn between my duty and my...",还有别的方面——我被夹在职责和我的……之间，左右为难。,[仲裁执行·B1] 去除原文没有的整句「」（原文无引号；同场景引号与说话人不对应）（仲裁表 #60）; [v6批量B1] 去除原文无依据的整句外层直角引号; [整合] A=B：双方译文一致，合并双方备,,
-D1显示层冲突:LVE_6_2_BLR_L_047,D1显示层冲突,LVE_6_2_BLR_L_047,097,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,[仲裁执行·B1] 去除原文没有的整句「」（原文无引号；同场景引号与说话人不对应）（仲裁表 #66）; [v6批量B1] 去除原文无依据的整句外层直角引号; [整合] A=B：双方译文一致，合并双方备,,
-D1显示层冲突:LVE_6_2_BLR_L_059,D1显示层冲突,LVE_6_2_BLR_L_059,097,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,[仲裁执行·B1] 去除原文没有的整句「」（原文无引号；同场景引号与说话人不对应）（仲裁表 #70）; [v6批量B1] 去除原文无依据的整句外层直角引号; [整合] A=B：双方译文一致，合并双方备,,
-S1句末省略号删减:CUT_6_3_VSQ_01_049,S1句末省略号删减,CUT_6_3_VSQ_01_049,098,原文以「...!」收尾，译文句末无「……」,Elise...!,伊莉丝！,,,
-S3结巴未保留:CUT_6_3_VSQ_01_054,S3结巴未保留,CUT_6_3_VSQ_01_054,098,原文有结巴（I-It），译文无「、」,I-It's...! It's the <b>witch</b>! The Devil himself...!,是……是她！是那个<b>女巫</b>！是魔鬼本尊……！,,,
-L1长度比例异常:FLV_6_2_VWW_01_002,L1长度比例异常,FLV_6_2_VWW_01_002,098,中文 0.71 字/英文词（偏短）,(I don't think I can look into this with folks hanging about the well...),（井边有人转悠，没法细查……）,,,
-L2否定缺失:FLV_6_2_VWW_20_016,L2否定缺失,FLV_6_2_VWW_20_016,098,英文有否定词，中文无常见否定字,"<i>""That is no more, however — St. Walpurga is a patroness of the Church, a benevolent figure in our faith.""</i>",<i>「然而那已成过往——圣瓦尔普加如今是教会的主保，我们信仰中仁慈的圣者。」</i>,,,
-L2否定缺失:FLV_6_2_VWW_20_027,L2否定缺失,FLV_6_2_VWW_20_027,098,英文有否定词，中文无常见否定字,None of this is true... Father Hans is losing his wits...,这全是胡说……汉斯神父是疯了吧……,,,
-L2否定缺失:DLG_6_3_VBA_01_020,L2否定缺失,DLG_6_3_VBA_01_020,099,英文有否定词，中文无常见否定字,"(I certainly aren't, huh...)",（我自己也一样呢……）,"[语境修复] 优化括号内心独白句尾, huh的机械反问“、是吧/是吗”，还原自言自语的沉思语气",,
-L2否定缺失:DLG_6_3_VIN_01_007,L2否定缺失,DLG_6_3_VIN_01_007,100,英文有否定词，中文无常见否定字,"You understand, don't you?",你懂的，是吧？,,,
-S2句末标点改变:DLG_6_3_VIN_01_016,S2句末标点改变,DLG_6_3_VIN_01_016,100,原文以「?」收尾（非附加问句），译文以「。」收尾,"I caught her trying to wash her sheets by the well, you see?",我撞见她想自己在水井边洗床单呢。,[v8口头禅·you see] 解释性 you see?/you know? 不再硬对「你知道吗/你懂吧/你瞧？」，转为句末语气词或句首「你看/您瞧」,,
-L1长度比例异常:DLG_6_3_VIN_01_025,L1长度比例异常,DLG_6_3_VIN_01_025,100,中文 2.67 字/英文词（偏长）,"That's what Rosmarine's saying, Mrs Ariane.",萝丝玛琳也是这么说的，阿丽亚娜太太。,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,,
-D1显示层冲突:DLG_6_3_VIN_01_034,D1显示层冲突,DLG_6_3_VIN_01_034,100,D09 标签差异：同英文 68 行 2 种译法；显示词典=伊莉丝！,Elise!,伊莉丝！,,,
-R2相邻重复:DLG_6_3_VIN_01_038,R2相邻重复,DLG_6_3_VIN_01_038,100,「说道说道」相邻重复,Or I'll be forced to have a word with Father Hans!,不然我可要去跟汉斯神父说道说道了！,,,
-C1疑似照抄:DLG_6_3_VIN_02_009,C1疑似照抄,DLG_6_3_VIN_02_009,100,"中文与 DLG_4_5_HFY_01_002,DLG_5_2_VST_01_004,CUT_4_5_HLR_01_013,CUT_8_END_L_L_01_001 完全相同，英文相似度 0.73；中文与 DLG_4_5_HFY_01_002,DLG_5_2_VST_01_004,CUT_4_5_HLR_01_013,CUT_8_END_L_L_01_001 完全相同，英文相似度 0.68","What is it, Elise?",怎么了，伊莉丝？,,,
-D1显示层冲突:DLG_6_3_VIN_02_010,D1显示层冲突,DLG_6_3_VIN_02_010,100,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,
-D1显示层冲突:DLG_6_3_VIN_03_014,D1显示层冲突,DLG_6_3_VIN_03_014,100,D25 标签差异：同英文 2 行 2 种译法；显示词典=（就连他们也开始信这套<b>女巫</b>的胡话了……）,(Even they're starting to consider this <color=#934494><b>witch</b></color> nonsense...),（就连他们也开始信这套<color=#934494><b>女巫</b></color>的胡话了……）,[标签修复] 补全女巫专有紫色标签<color=#934494>,,
-D1显示层冲突:DLG_6_3_VIN_03_016,D1显示层冲突,DLG_6_3_VIN_03_016,100,D25 标签差异：同英文 2 行 2 种译法；显示词典=（就连他们也开始信这套<b>女巫</b>的胡话了……）,(Even they're starting to consider this <b>witch</b> nonsense...),（就连他们也开始信这套<b>女巫</b>的胡话了……）,,,
-L2否定缺失:DLG_6_3_VIN_03_017,L2否定缺失,DLG_6_3_VIN_03_017,100,英文有否定词，中文无常见否定字,(This isn't good...),（这下麻烦了……）,,,
-S2句末标点改变:DLG_6_3_VIN_04_004,S2句末标点改变,DLG_6_3_VIN_04_004,100,原文以「?」收尾（非附加问句），译文以「。」收尾,We spent a couple hours at Mrs. Mariele's you see?,我们在玛丽勒太太家坐了好几个钟头呢。,[v8口头禅·you see] 解释性 you see?/you know? 不再硬对「你知道吗/你懂吧/你瞧？」，转为句末语气词或句首「你看/您瞧」,,
-R2相邻重复:DLG_6_3_VIN_04_010,R2相邻重复,DLG_6_3_VIN_04_010,100,「聊着聊着」相邻重复,"Every conversation led back to the crows, or Apfel, or the fountain...",每次聊着聊着都要绕回乌鸦、阿普菲尔，还有喷泉那事上……,,,
-D1显示层冲突:DLG_6_3_VSQ_01_019,D1显示层冲突,DLG_6_3_VSQ_01_019,100,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,
-D1显示层冲突:DLG_6_3_VSQ_01_024,D1显示层冲突,DLG_6_3_VSQ_01_024,100,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,
+L2否定缺失:DLG_5_5_VSQ_05_012,L2否定缺失,DLG_5_5_VSQ_05_012,091,英文有否定词，中文无常见否定字,Why don't you take this?,把这些也带上吧？,,,已核无误
+L1长度比例异常:DLG_5_5_VSQ_07_023,L1长度比例异常,DLG_5_5_VSQ_07_023,091,中文 2.83 字/英文词（偏长）,"These woods are dangerous regardless, Elise.",不管怎么说，这片林子本来就危险，伊莉丝。,,,已核无误
+D1显示层冲突:DLG_5_5_VSQ_07_025,D1显示层冲突,DLG_5_5_VSQ_07_025,091,D12 措辞差异：同英文 15 行 3 种译法；显示词典=哦，伊莉丝……,"Oh, Elise...",唉，伊莉丝……,[语境修复] 解除TM感叹号覆写：还原原文省略号(...)的低落/迟疑/平缓余韵; [v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,,逐行已读，待 4.5 组裁决
+P9独白附加问句:DLG_5_5_VWM_01_014,P9独白附加问句,DLG_5_5_VWM_01_014,091,独白/自语附加问句（is he）译成了反问,"(Mr. Eugen's still holding onto that key, is he?)",（欧根先生还紧攥着那把钥匙呢，是吧？）,,,成立→已记录（P2/标点格式）
+C1疑似照抄:CUT_5_6_VWM_01_009,C1疑似照抄,CUT_5_6_VWM_01_009,092,中文与 DLG_4_5_WCR_C_05_003 完全相同，英文相似度 0.46,Your commitment! Your commitment!,你的决心！你的决心！,,,已核无误
+L1长度比例异常:CUT_6_1_HBY_01_004,L1长度比例异常,CUT_6_1_HBY_01_004,092,中文 2.67 字/英文词（偏长）,It's best I go find Rosmarine.,我还是去找萝丝玛琳，然后回镇上去吧。,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,,成立→已记录（P2/增译）
+P9独白附加问句:CUT_6_1_HFY_01_011,P9独白附加问句,CUT_6_1_HFY_01_011,092,独白/自语附加问句（can I）译成了反问,"(I can't tell her the full extent of it, can I?)",（我总不能把实情全都告诉她吧？）,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,,已核无误：「我总不能……吧？」是汉语惯用反诘自语，不是机械附加问，保留
+D1显示层冲突:CUT_6_1_HFY_01_019,D1显示层冲突,CUT_6_1_HFY_01_019,092,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,逐行已读，待 4.5 组裁决
+P9独白附加问句:CUT_6_1_HFY_01_029,P9独白附加问句,CUT_6_1_HFY_01_029,092,独白/自语附加问句（do I）译成了反问,"(I don't know what to make of any of this, do I?)",（这一切我都摸不着头脑，是不是？）,,,成立→已记录（P2/标点格式）
+R2相邻重复:CUT_6_1_HFY_01_049,R2相邻重复,CUT_6_1_HFY_01_049,092,「一点一点」相邻重复,"The woodland's forsaking this town, Elise - little by little.",林地正在一点一点地抛弃这座小镇，伊莉丝。,,,已核无误
+D1显示层冲突:CUT_6_1_OGR_01_010,D1显示层冲突,CUT_6_1_OGR_01_010,092,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,逐行已读，待 4.5 组裁决
+D1显示层冲突:CUT_6_1_OGR_01_015,D1显示层冲突,CUT_6_1_OGR_01_015,092,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,逐行已读，待 4.5 组裁决
+L3数字缺失:CUT_6_1_OGR_01_020,L3数字缺失,CUT_6_1_OGR_01_020,092,英文 both，中文无数字,"We both know what I'm after, serpent, so get it over with and...",我们都清楚我要的是什么，毒蛇，废话少说，快点了结吧……,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,,已核无误
+L1长度比例异常:CUT_6_1_VCH_01_004,L1长度比例异常,CUT_6_1_VCH_01_004,092,中文 0.77 字/英文词（偏短）,I seem to have pulled on it a little too tightly this morning...,我今早好像扯得太紧了……,,,已核无误
+S2句末标点改变:CUT_6_1_VCH_01_009,S2句末标点改变,CUT_6_1_VCH_01_009,092,原文以「?」收尾（非附加问句），译文以「！」收尾,"What are you saying, lassie?",你这是说的什么话，丫头！,,,已核无误：反问「你这是说的什么话，丫头！」作斥责语气，问号改叹号可接受
+L2否定缺失:CUT_6_1_VCH_01_010,L2否定缺失,CUT_6_1_VCH_01_010,092,英文有否定词，中文无常见否定字,A maid-of-all-work can't possibly pray our blessings — we need Lebkuchen!,一个杂役女佣怎么可能为我们诵祷祝福——我们需要斯佩尔特！,,,已核无误
+R2相邻重复:CUT_6_1_VCH_01_013,R2相邻重复,CUT_6_1_VCH_01_013,092,「一家一家」相邻重复,"It's best you visit each and every one of our homes, Lebkuchen!",你最好一家一家都去看看，斯佩尔特！,,,已核无误
+P6省略号D5:CUT_6_1_VCH_01_018,P6省略号D5,CUT_6_1_VCH_01_018,092,原文句末无「...!/...?」，译文句末加了「……！/……？」,"Ah, but before then, Lebkuchen, could you...",啊，不过在那之前，斯佩尔特，你能不能……？,,,成立→已记录（小偏差/标点格式）
+S1句末省略号删减:CUT_6_1_VCH_01_018,S1句末省略号删减,CUT_6_1_VCH_01_018,092,原文以「...」收尾，译文句末无「……」,"Ah, but before then, Lebkuchen, could you...",啊，不过在那之前，斯佩尔特，你能不能……？,,,成立→已记录（小偏差/标点格式）
+L1长度比例异常:CUT_6_1_VCH_01_027,L1长度比例异常,CUT_6_1_VCH_01_027,092,中文 0.75 字/英文词（偏短）,(Carry out my days for my own sake...),（能为自己而活……）,,,已核无误
+L2否定缺失:DLG_5_6_HBR_01_002,L2否定缺失,DLG_5_6_HBR_01_002,092,英文有否定词，中文无常见否定字,"I can't help but feel there's something else I should be doing, but...",总觉得我还该做点什么，可……,,,已核无误
+L2否定缺失:FLV_5_6_WCW_03_001,L2否定缺失,FLV_5_6_WCW_03_001,092,英文有否定词，中文无常见否定字,"No choice but to go the other way, I suppose...",看来只能走另一条路了……,,,已核无误
+L2否定缺失:CUT_6_1_VSQ_01_004,L2否定缺失,CUT_6_1_VSQ_01_004,093,英文有否定词，中文无常见否定字,"It's one thing after another isn't it, Elise?",真是麻烦事一桩接一桩，是吧，伊莉丝？,,,已核无误
+L2否定缺失:CUT_6_1_VSQ_01_009,L2否定缺失,CUT_6_1_VSQ_01_009,093,英文有否定词，中文无常见否定字,"Fynn and I can give it a look, can't we, Fynn?",芬恩跟我可以去看看，是吧，芬恩？,,,已核无误
+L1长度比例异常:DLG_6_1_OLH_01_003,L1长度比例异常,DLG_6_1_OLH_01_003,093,中文 2.88 字/英文词（偏长）,"Oh, I'm so glad you're getting along, dearie!",哎哟，看你们俩处得这么好，我真是打心眼里高兴，乖丫头！,[v8感叹词·Oh] 补回漏译的 dearie,,已核无误
+L2否定缺失:DLG_6_1_OLH_01_007,L2否定缺失,DLG_6_1_OLH_01_007,093,英文有否定词，中文无常见否定字,Won't you keep an eye on Lebkuchen for me today?,今天你替我多留意着斯佩尔特点儿，好吗？,,,已核无误
+L3数字缺失:DLG_6_1_OLH_01_015,L3数字缺失,DLG_6_1_OLH_01_015,093,英文 both，中文无数字,"Lebkuchen's been burning the candle at both ends, you see?",斯佩尔特这是没日没夜地操劳呢，你知道吧？,,,成立→已记录（P2/翻译腔）
+L2否定缺失:DLG_6_1_OLH_02_026,L2否定缺失,DLG_6_1_OLH_02_026,093,英文有否定词，中文无常见否定字,"These goings-on haven't helped at all, either...",偏偏又出了这些事儿，更是雪上加霜……,,,已核无误
+D1显示层冲突:DLG_6_1_OLH_02_037,D1显示层冲突,DLG_6_1_OLH_02_037,093,D23 措辞差异：同英文 5 行 2 种译法；显示词典=哦，伊莉丝！,"Oh, Elise...!",啊，伊莉丝……！,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,,逐行已读，待 4.5 组裁决
+L2否定缺失:CUT_6_2_VCH_01_003,L2否定缺失,CUT_6_2_VCH_01_003,094,英文有否定词，中文无常见否定字,Why don't you pay her a visit in a little while?,待会儿你去探望探望她吧？,,,已核无误
+R2相邻重复:CUT_6_2_VCH_01_003,R2相邻重复,CUT_6_2_VCH_01_003,094,「探望探望」相邻重复,Why don't you pay her a visit in a little while?,待会儿你去探望探望她吧？,,,已核无误
+L2否定缺失:DLG_6_1_VSQ_01_019,L2否定缺失,DLG_6_1_VSQ_01_019,094,英文有否定词，中文无常见否定字,"Father Hans will know how to address the situation, won't he?",汉斯神父会知道该怎么处理的吧？,,,已核无误
+S1句末省略号删减:DLG_6_1_VSQ_02_008,S1句末省略号删减,DLG_6_1_VSQ_02_008,094,原文以「...?」收尾，译文句末无「……」,What...?,什么？,,,成立→已记录（小偏差/标点格式）
+S2句末标点改变:DLG_6_2_OLH_01_027,S2句末标点改变,DLG_6_2_OLH_01_027,094,原文以「?」收尾（非附加问句），译文以「。」收尾,"Ah, he gave me a scare every time he got startled, you see?",啊，他每回一受惊，就把我也吓一跳呢。,[v8口头禅·you see] 解释性 you see?/you know? 不再硬对「你知道吗/你懂吧/你瞧？」，转为句末语气词或句首「你看/您瞧」,,已核无误
+L2否定缺失:FLV_6_1_OVP_01_003,L2否定缺失,FLV_6_1_OVP_01_003,094,英文有否定词，中文无常见否定字,I have no choice but to keep going — for my own sake.,我只能走下去——为了我自己。,,,已核无误
+P9独白附加问句:FLV_6_1_VWM_01_001,P9独白附加问句,FLV_6_1_VWM_01_001,094,独白/自语附加问句（huh）译成了反问,"I suppose I won't be getting in here any time soon, huh?",看来我一时半会儿是进不去了，是吧？,,,成立→已记录（P2/标点格式）
+D1显示层冲突:DLG_6_2_VBA_01_016,D1显示层冲突,DLG_6_2_VBA_01_016,095,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,逐行已读，待 4.5 组裁决
+D1显示层冲突:DLG_6_2_VBA_01_020,D1显示层冲突,DLG_6_2_VBA_01_020,095,D24 措辞差异：同英文 2 行 2 种译法；显示词典=你的<i>还有</i>我的！,Yours <i>and</i> mine!,你的<i>还有</i>我的！,,,逐行已读，待 4.5 组裁决
+D1显示层冲突:DLG_6_2_VBA_01_029,D1显示层冲突,DLG_6_2_VBA_01_029,095,D24 措辞差异：同英文 2 行 2 种译法；显示词典=你的<i>还有</i>我的！,Yours <i>and</i> mine!,你的耐性<i>和</i>我的都一样！,,,成立→已记录（P1/显示层冲突）
+S2句末标点改变:DLG_6_2_VBA_02_008,S2句末标点改变,DLG_6_2_VBA_02_008,095,原文以「?」收尾（非附加问句），译文以「。」收尾,"I'd say what happened to Apfel has frightened her, you see?",我看啊，是阿普菲尔的事把她给吓着了。,[v8口头禅·you see] 解释性 you see?/you know? 不再硬对「你知道吗/你懂吧/你瞧？」，转为句末语气词或句首「你看/您瞧」,,已核无误
+N2人名增译:DLG_6_2_VBA_02_012,N2人名增译,DLG_6_2_VBA_02_012,095,中文有「基弗伯格」，英文无 Kieferberg,She would've told all of Kiefeberg had she seen anything!,她要是真见着什么了，早就传遍基弗伯格了！,,,已核无误：英文源文把 Kieferberg 拼成 Kiefeberg，译作「基弗伯格」正确
+N2人名增译:DLG_6_2_VBA_02_019,N2人名增译,DLG_6_2_VBA_02_019,095,中文有「基弗伯格」，英文无 Kieferberg,She would've told all of Kiefeberg had she seen anything!,她要是真见着什么了，早就传遍基弗伯格了！,,,已核无误：英文源文把 Kieferberg 拼成 Kiefeberg，译作「基弗伯格」正确
+P9独白附加问句:DLG_6_2_VBA_02_025,P9独白附加问句,DLG_6_2_VBA_02_025,095,独白/自语附加问句（are they）译成了反问,"(Folks aren't taking this very well, are they...?)",（大伙儿这回可不太好受，是不是……？）,,,成立→已记录（P2/标点格式）
+S1句末省略号删减:DLG_6_2_VBA_03_038,S1句末省略号删减,DLG_6_2_VBA_03_038,095,原文以「...!」收尾，译文句末无「……」,Elise...!,伊莉丝！,,,成立→已记录（小偏差/标点格式）
+C1疑似照抄:DLG_6_2_VCH_01_004,C1疑似照抄,DLG_6_2_VCH_01_004,095,"中文与 DLG_4_4_VSQ_03_002,DLG_5_1_VBA_02_003,CUT_5_5_VSQ_01_003,CUT_7_5_OLH_02_003 完全相同，英文相似度 0.36",What's going on here?,这是怎么回事？,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,,已核无误
+L2否定缺失:DLG_6_2_VCH_01_023,L2否定缺失,DLG_6_2_VCH_01_023,095,英文有否定词，中文无常见否定字,"It's me you want, isn't it?",你们要找的是我，对吧？,,,已核无误
+P9独白附加问句:DLG_6_2_VIN_01_022,P9独白附加问句,DLG_6_2_VIN_01_022,096,独白/自语附加问句（aren't they）译成了反问,"(Things are starting to get rather serious, aren't they?)",（事情开始变得相当严重了，不是吗？）,,,成立→已记录（P2/标点格式）
+R2相邻重复:DLG_6_2_VIN_02_008,R2相邻重复,DLG_6_2_VIN_02_008,096,「忙活忙活」相邻重复,"She'd best busy herself with the festival, I'd say.",依我看，她最好找点节庆的事忙活忙活。,,,已核无误
+S2句末标点改变:DLG_6_2_VIN_02_010,S2句末标点改变,DLG_6_2_VIN_02_010,096,原文以「?」收尾（非附加问句），译文以「。」收尾,"It's Jakob she's fretting about, you see?",她是在为雅各布操心呢。,[v8口头禅·you see] 解释性 you see?/you know? 不再硬对「你知道吗/你懂吧/你瞧？」，转为句末语气词或句首「你看/您瞧」,,已核无误
+P9独白附加问句:DLG_6_2_VIN_02_016,P9独白附加问句,DLG_6_2_VIN_02_016,096,独白/自语附加问句（isn't he）译成了反问,"(Mr. Tristan's a little short on patience today, isn't he?)",（特里斯坦先生今天可没什么耐心，是不是？）,,,成立→已记录（P2/标点格式）
+P9独白附加问句:DLG_6_2_VIN_02_017,P9独白附加问句,DLG_6_2_VIN_02_017,096,独白/自语附加问句（are they）译成了反问,"(Folks aren't themselves these days, are they?)",（这些日子大伙儿都有点不对劲，是不是？）,,,成立→已记录（P2/标点格式）
+D1显示层冲突:DLG_6_2_VSQ_01_007,D1显示层冲突,DLG_6_2_VSQ_01_007,096,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,逐行已读，待 4.5 组裁决
+L2否定缺失:DLG_6_2_VSQ_01_024,L2否定缺失,DLG_6_2_VSQ_01_024,096,英文有否定词，中文无常见否定字,"I can't say I won't miss you lads, too.",我也一样会想你们这些小子的。,,,已核无误
+D1显示层冲突:DLG_6_2_VSQ_02_001,D1显示层冲突,DLG_6_2_VSQ_02_001,096,D09 标签差异：同英文 68 行 2 种译法；显示词典=伊莉丝！,Elise!,伊莉丝！,,,逐行已读，待 4.5 组裁决
+S2句末标点改变:DLG_6_2_VSQ_03_033,S2句末标点改变,DLG_6_2_VSQ_03_033,096,原文以「?」收尾（非附加问句），译文以「。」收尾,"Apfel did mention he'd seen someone, you see?",阿普菲尔确实说过他看见了什么人。,[v8口头禅·you see] 解释性 you see?/you know? 不再硬对「你知道吗/你懂吧/你瞧？」，转为句末语气词或句首「你看/您瞧」,,已核无误
+D1显示层冲突:DLG_6_2_VSQ_03_034,D1显示层冲突,DLG_6_2_VSQ_03_034,096,D12 措辞差异：同英文 15 行 3 种译法；显示词典=哦，伊莉丝……,"Oh, Elise...",唉，伊莉丝……,[语境修复] 解除TM感叹号覆写：还原原文省略号(...)的低落/迟疑/平缓余韵; [v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,,逐行已读，待 4.5 组裁决
+L2否定缺失:DLG_6_2_VST_01_023,L2否定缺失,DLG_6_2_VST_01_023,097,英文有否定词，中文无常见否定字,I can't wait for all this nonsense to be over with!,真盼着这些烦心事早点过去！,,,已核无误
+L2否定缺失:DLG_6_2_VWW_01_009,L2否定缺失,DLG_6_2_VWW_01_009,097,英文有否定词，中文无常见否定字,"It's Kieferberg you're worried about, isn't it?",你担心的是基弗伯格，对吧？,,,已核无误
+L2否定缺失:LVE_6_2_BLR_L_003,L2否定缺失,LVE_6_2_BLR_L_003,097,英文有否定词，中文无常见否定字,What were you thinking? You couldn't...,你到底在想什么？你怎么能……,,,已核无误
+L1长度比例异常:LVE_6_2_BLR_L_012,L1长度比例异常,LVE_6_2_BLR_L_012,097,中文 2.89 字/英文词（偏长）,You're being taken for granted — like you always are!,大家都把你的付出当成理所当然了——你从来都是这样被对待的！,,,已核无误
+L2否定缺失:LVE_6_2_BLR_L_013,L2否定缺失,LVE_6_2_BLR_L_013,097,英文有否定词，中文无常见否定字,Tell me something I don't know...,这还用你说……,,,已核无误
+D1显示层冲突:LVE_6_2_BLR_L_015,D1显示层冲突,LVE_6_2_BLR_L_015,097,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,逐行已读，待 4.5 组裁决
+L2否定缺失:LVE_6_2_BLR_L_019,L2否定缺失,LVE_6_2_BLR_L_019,097,英文有否定词，中文无常见否定字,"You're well aware I don't appreciate being lied to, Lebkuchen.",你很清楚，我最讨厌被人骗，斯佩尔特。,[仲裁执行·B1] 去除原文没有的整句「」（原文无引号；同场景引号与说话人不对应）（仲裁表 #56）; [v6批量B1] 去除原文无依据的整句外层直角引号; [整合] A=B：双方译文一致，合并双方备,,已核无误
+L2否定缺失:LVE_6_2_BLR_L_020,L2否定缺失,LVE_6_2_BLR_L_020,097,英文有否定词，中文无常见否定字,"Neither do I, yet that's what you've been doing all week.",我也一样，可你这一整个星期都在骗我。,[仲裁执行·B1] 去除原文没有的整句「」（原文无引号；同场景引号与说话人不对应）（仲裁表 #57）; [v6批量B1] 去除原文无依据的整句外层直角引号; [整合] A=B：双方译文一致，合并双方备,,已核无误
+D1显示层冲突:LVE_6_2_BLR_L_021,D1显示层冲突,LVE_6_2_BLR_L_021,097,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,[仲裁执行·B1] 去除原文没有的整句「」（原文无引号；同场景引号与说话人不对应）（仲裁表 #58）; [v6批量B1] 去除原文无依据的整句外层直角引号; [整合] A=B：双方译文一致，合并双方备,,逐行已读，待 4.5 组裁决
+P6省略号D5:LVE_6_2_BLR_L_029,P6省略号D5,LVE_6_2_BLR_L_029,097,原文句末无「...!/...?」，译文句末加了「……！/……？」,You mean...,你是说……？,,,成立→已记录（小偏差/标点格式）
+S1句末省略号删减:LVE_6_2_BLR_L_029,S1句末省略号删减,LVE_6_2_BLR_L_029,097,原文以「...」收尾，译文句末无「……」,You mean...,你是说……？,,,成立→已记录（小偏差/标点格式）
+D1显示层冲突:LVE_6_2_BLR_L_035,D1显示层冲突,LVE_6_2_BLR_L_035,097,D43 措辞差异：同英文 2 行 2 种译法；显示词典=还……？,And?,还有呢？,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」; [v8收官·语义] And? 是催对方往下说，「还？」不成话，改「还有呢？」,,成立→已记录（P1/显示层冲突）
+S1句末省略号删减:LVE_6_2_BLR_L_036,S1句末省略号删减,LVE_6_2_BLR_L_036,097,原文以「...」收尾，译文句末无「……」,"In other ways, as well — I'm torn between my duty and my...",还有别的方面——我被夹在职责和我的……之间，左右为难。,[仲裁执行·B1] 去除原文没有的整句「」（原文无引号；同场景引号与说话人不对应）（仲裁表 #60）; [v6批量B1] 去除原文无依据的整句外层直角引号; [整合] A=B：双方译文一致，合并双方备,,成立→已记录（小偏差/标点格式）
+D1显示层冲突:LVE_6_2_BLR_L_047,D1显示层冲突,LVE_6_2_BLR_L_047,097,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,[仲裁执行·B1] 去除原文没有的整句「」（原文无引号；同场景引号与说话人不对应）（仲裁表 #66）; [v6批量B1] 去除原文无依据的整句外层直角引号; [整合] A=B：双方译文一致，合并双方备,,逐行已读，待 4.5 组裁决
+D1显示层冲突:LVE_6_2_BLR_L_059,D1显示层冲突,LVE_6_2_BLR_L_059,097,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,[仲裁执行·B1] 去除原文没有的整句「」（原文无引号；同场景引号与说话人不对应）（仲裁表 #70）; [v6批量B1] 去除原文无依据的整句外层直角引号; [整合] A=B：双方译文一致，合并双方备,,逐行已读，待 4.5 组裁决
+S1句末省略号删减:CUT_6_3_VSQ_01_049,S1句末省略号删减,CUT_6_3_VSQ_01_049,098,原文以「...!」收尾，译文句末无「……」,Elise...!,伊莉丝！,,,成立→已记录（小偏差/标点格式）
+S3结巴未保留:CUT_6_3_VSQ_01_054,S3结巴未保留,CUT_6_3_VSQ_01_054,098,原文有结巴（I-It），译文无「、」,I-It's...! It's the <b>witch</b>! The Devil himself...!,是……是她！是那个<b>女巫</b>！是魔鬼本尊……！,,,成立→已记录（小偏差/增译）
+L1长度比例异常:FLV_6_2_VWW_01_002,L1长度比例异常,FLV_6_2_VWW_01_002,098,中文 0.71 字/英文词（偏短）,(I don't think I can look into this with folks hanging about the well...),（井边有人转悠，没法细查……）,,,已核无误
+L2否定缺失:FLV_6_2_VWW_20_016,L2否定缺失,FLV_6_2_VWW_20_016,098,英文有否定词，中文无常见否定字,"<i>""That is no more, however — St. Walpurga is a patroness of the Church, a benevolent figure in our faith.""</i>",<i>「然而那已成过往——圣瓦尔普加如今是教会的主保，我们信仰中仁慈的圣者。」</i>,,,已核无误
+L2否定缺失:FLV_6_2_VWW_20_027,L2否定缺失,FLV_6_2_VWW_20_027,098,英文有否定词，中文无常见否定字,None of this is true... Father Hans is losing his wits...,这全是胡说……汉斯神父是疯了吧……,,,已核无误
+L2否定缺失:DLG_6_3_VBA_01_020,L2否定缺失,DLG_6_3_VBA_01_020,099,英文有否定词，中文无常见否定字,"(I certainly aren't, huh...)",（我自己也一样呢……）,"[语境修复] 优化括号内心独白句尾, huh的机械反问“、是吧/是吗”，还原自言自语的沉思语气",,已核无误
+L2否定缺失:DLG_6_3_VIN_01_007,L2否定缺失,DLG_6_3_VIN_01_007,100,英文有否定词，中文无常见否定字,"You understand, don't you?",你懂的，是吧？,,,已核无误
+S2句末标点改变:DLG_6_3_VIN_01_016,S2句末标点改变,DLG_6_3_VIN_01_016,100,原文以「?」收尾（非附加问句），译文以「。」收尾,"I caught her trying to wash her sheets by the well, you see?",我撞见她想自己在水井边洗床单呢。,[v8口头禅·you see] 解释性 you see?/you know? 不再硬对「你知道吗/你懂吧/你瞧？」，转为句末语气词或句首「你看/您瞧」,,已核无误
+L1长度比例异常:DLG_6_3_VIN_01_025,L1长度比例异常,DLG_6_3_VIN_01_025,100,中文 2.67 字/英文词（偏长）,"That's what Rosmarine's saying, Mrs Ariane.",萝丝玛琳也是这么说的，阿丽亚娜太太。,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,,已核无误
+D1显示层冲突:DLG_6_3_VIN_01_034,D1显示层冲突,DLG_6_3_VIN_01_034,100,D09 标签差异：同英文 68 行 2 种译法；显示词典=伊莉丝！,Elise!,伊莉丝！,,,逐行已读，待 4.5 组裁决
+R2相邻重复:DLG_6_3_VIN_01_038,R2相邻重复,DLG_6_3_VIN_01_038,100,「说道说道」相邻重复,Or I'll be forced to have a word with Father Hans!,不然我可要去跟汉斯神父说道说道了！,,,已核无误
+C1疑似照抄:DLG_6_3_VIN_02_009,C1疑似照抄,DLG_6_3_VIN_02_009,100,"中文与 DLG_4_5_HFY_01_002,DLG_5_2_VST_01_004,CUT_4_5_HLR_01_013,CUT_8_END_L_L_01_001 完全相同，英文相似度 0.73；中文与 DLG_4_5_HFY_01_002,DLG_5_2_VST_01_004,CUT_4_5_HLR_01_013,CUT_8_END_L_L_01_001 完全相同，英文相似度 0.68","What is it, Elise?",怎么了，伊莉丝？,,,已核无误
+D1显示层冲突:DLG_6_3_VIN_02_010,D1显示层冲突,DLG_6_3_VIN_02_010,100,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,逐行已读，待 4.5 组裁决
+D1显示层冲突:DLG_6_3_VIN_03_014,D1显示层冲突,DLG_6_3_VIN_03_014,100,D25 标签差异：同英文 2 行 2 种译法；显示词典=（就连他们也开始信这套<b>女巫</b>的胡话了……）,(Even they're starting to consider this <color=#934494><b>witch</b></color> nonsense...),（就连他们也开始信这套<color=#934494><b>女巫</b></color>的胡话了……）,[标签修复] 补全女巫专有紫色标签<color=#934494>,,逐行已读，待 4.5 组裁决
+D1显示层冲突:DLG_6_3_VIN_03_016,D1显示层冲突,DLG_6_3_VIN_03_016,100,D25 标签差异：同英文 2 行 2 种译法；显示词典=（就连他们也开始信这套<b>女巫</b>的胡话了……）,(Even they're starting to consider this <b>witch</b> nonsense...),（就连他们也开始信这套<b>女巫</b>的胡话了……）,,,逐行已读，待 4.5 组裁决
+L2否定缺失:DLG_6_3_VIN_03_017,L2否定缺失,DLG_6_3_VIN_03_017,100,英文有否定词，中文无常见否定字,(This isn't good...),（这下麻烦了……）,,,已核无误
+S2句末标点改变:DLG_6_3_VIN_04_004,S2句末标点改变,DLG_6_3_VIN_04_004,100,原文以「?」收尾（非附加问句），译文以「。」收尾,We spent a couple hours at Mrs. Mariele's you see?,我们在玛丽勒太太家坐了好几个钟头呢。,[v8口头禅·you see] 解释性 you see?/you know? 不再硬对「你知道吗/你懂吧/你瞧？」，转为句末语气词或句首「你看/您瞧」,,已核无误
+R2相邻重复:DLG_6_3_VIN_04_010,R2相邻重复,DLG_6_3_VIN_04_010,100,「聊着聊着」相邻重复,"Every conversation led back to the crows, or Apfel, or the fountain...",每次聊着聊着都要绕回乌鸦、阿普菲尔，还有喷泉那事上……,,,已核无误
+D1显示层冲突:DLG_6_3_VSQ_01_019,D1显示层冲突,DLG_6_3_VSQ_01_019,100,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,逐行已读，待 4.5 组裁决
+D1显示层冲突:DLG_6_3_VSQ_01_024,D1显示层冲突,DLG_6_3_VSQ_01_024,100,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,逐行已读，待 4.5 组裁决
 D1显示层冲突:DLG_6_3_VSQ_02_008,D1显示层冲突,DLG_6_3_VSQ_02_008,101,D07 措辞差异：同英文 62 行 3 种译法；显示词典=你这家伙……！,"Why, you...!",你这家伙……！,"[语境修复] 修正发语感叹词Why, you...!误译为质问句“你说什么呢!”",,
 S2句末标点改变:DLG_6_3_VSQ_03_004,S2句末标点改变,DLG_6_3_VSQ_03_004,101,原文以「?」收尾（非附加问句），译文以「。」收尾,"I've been struggling quite a bit lately, you see?",你瞧，我近来过得实在有些吃力。,,,
 S2句末标点改变:DLG_6_3_VSQ_03_010,S2句末标点改变,DLG_6_3_VSQ_03_010,101,原文以「?」收尾（非附加问句），译文以「。」收尾,"I would tell her myself, but this would be the fourth time this week, you see?",我本想自己去跟她说，可你瞧，这都是这个星期第四回了。,,,
