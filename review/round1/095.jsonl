@@ -1,2 +1,8 @@
 {"key": "DLG_6_2_VBA_01_029", "decision": "采纳", "final": "你的<i>还有</i>我的！", "note": "D24两行语境相同，统一成词典值"}
+{"key": "DLG_6_2_VBA_02_025", "decision": "采纳", "final": "（大伙儿这回可不太好受啊……）", "note": "独白附加问作自语"}
+{"key": "DLG_6_2_VBA_03_005", "decision": "采纳", "final": "得靠他们替咱们说话才行。", "note": "删去添的「真的」"}
+{"key": "DLG_6_2_VBA_03_006", "decision": "采纳", "final": "这可是生死攸关的大事！", "note": "that's what! 作强调句式"}
 {"key": "DLG_6_2_VBA_03_038", "decision": "采纳", "final": "伊莉丝……！", "note": "补回省略号，Elise...! 同键20行一致"}
+{"key": "DLG_6_2_VBA_03_042", "decision": "采纳", "final": "你们听听自己都在说些什么？", "note": "Do you hear yourselves，听听自己说什么"}
+{"key": "DLG_6_2_VBA_03_055", "decision": "采纳", "final": "（基弗伯格是越来越危险了……可不是嘛……）", "note": "独白附加问作自语"}
+{"key": "DLG_6_2_VCH_01_002", "decision": "改写", "final": "哼，就该先从<i>她</i>查起！", "note": "that's what 作强调；Why 是愤然作「哼」"}
