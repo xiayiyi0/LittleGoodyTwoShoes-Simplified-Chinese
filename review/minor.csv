@@ -347,3 +347,5 @@
 小偏差,LVE_8_3_VCT_L_068,127,标点格式,"You're so embarrassing, for goodness' sake...!",你真是的，太让人难为情了！,你真是的，太让人难为情了……！,原文 ...! 带省略号（伊莉丝害臊说不下去），译文删了,LVE_8_3_VCT_L_067 LVE_8_3_VCT_L_069,中,,
 小偏差,LVP_2_2_VSQ_02_019,008,漏译,"All right — I'll be there, Freya.",我会去的，芙蕾雅。,好吧——我会去的，芙蕾雅。,句首 All right — 的勉强应允没译,LVP_2_2_VSQ_02_018 LVP_2_2_VSQ_02_020,中,,
 小偏差,LVP_2_2_VSQ_02_022,008,标点格式,What's gotten into her...?,她这是怎么了？,她这是怎么了……？,原文 ...? 的省略号删了,LVP_2_2_VSQ_02_021,中,,
+小偏差,SHP_LEB_08_001,161,标点格式,"You ought to look after yourself, Elise!",你该照顾好自己，伊莉丝。,你该照顾好自己，伊莉丝！,原文是叹号（格蕾特奶奶叮嘱），译文改成了句号,SHP_LEB_08_002,中,,
+小偏差,TASK_LINDA_CHICKEN,162,人名术语,Help Linda with the chickens!,帮琳达照看鸡群！,帮琳达照料鸡群！,同组任务名都作「照料鸡群」，只这条作「照看」,TASK_LINDA_APPLES TASK_LINDA_WOOD,中,,

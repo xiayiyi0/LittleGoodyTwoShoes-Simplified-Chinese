@@ -1,0 +1,1 @@
+{"key": "TASK_LINDA_CHICKEN", "sev": "小偏差", "cat": "人名术语", "fix": "帮琳达照料鸡群！", "why": "同组任务名都作「照料鸡群」，只这条作「照看」", "ctx": ["TASK_LINDA_APPLES", "TASK_LINDA_WOOD"], "conf": "中"}

@@ -1,0 +1,1 @@
+{"key": "MEET_SNAKE", "sev": "P2", "cat": "人名术语", "fix": "去森林里见那条毒蛇！", "why": "serpent 对白里全作「毒蛇」（38 行），任务提示作「大蛇」，玩家对不上", "ctx": ["OPEN_GATE"], "conf": "中"}
