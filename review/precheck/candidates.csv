@@ -484,46 +484,46 @@ L3数字缺失:DLG_4_2_VST_01_011,L3数字缺失,DLG_4_2_VST_01_011,050,英文 t
 S2句末标点改变:DLG_4_2_VST_01_014,S2句末标点改变,DLG_4_2_VST_01_014,050,原文以「?」收尾（非附加问句），译文以「…」收尾,"You don't seem too hopeful, Mr. Eugen?",您看起来不太抱希望啊，欧根先生……,,,成立→已记录（小偏差/标点格式）
 L1长度比例异常:DLG_4_2_VST_01_015,L1长度比例异常,DLG_4_2_VST_01_015,050,中文 3.00 字/英文词（偏长）,"Proper stallions don't vanish overnight, lass.",好端端的马可不会一夜之间凭空消失，丫头。,[仲裁执行·B9] 句末语气按原文（.，还原「。」）（D5：以原文语气为准）（仲裁表 #319）; [整合] 采用A：D5 以原文句末语气为准；B 以本地化微调为由驳回，未采用,,已核无误
 L1长度比例异常:DLG_4_2_VST_01_021,L1长度比例异常,DLG_4_2_VST_01_021,050,中文 0.78 字/英文词（偏短）,(Now that's going to be a sight to behold!),（这下有好戏看了！）,,,已核无误
-P9独白附加问句:FLV_4_2_OVP_07_001,P9独白附加问句,FLV_4_2_OVP_07_001,051,独白/自语附加问句（haven't I）译成了反问,"I've seen this symbol before, haven't I?",这个符号我从前见过，不是吗？,,,
-S1句末省略号删减:FLV_4_2_OVP_10_016,S1句末省略号删减,FLV_4_2_OVP_10_016,051,原文以「...?」收尾，译文句末无「……」,What...?,什么？,,,
-L2否定缺失:FLV_4_2_VIN_02_001,L2否定缺失,FLV_4_2_VIN_02_001,051,英文有否定词，中文无常见否定字,"A little too eager to set up a dinner table outside, aren't they?",这么急着在外头摆饭桌，也太心急了吧？,,,
-P9独白附加问句:FLV_4_2_VIN_02_001,P9独白附加问句,FLV_4_2_VIN_02_001,051,独白/自语附加问句（aren't they）译成了反问,"A little too eager to set up a dinner table outside, aren't they?",这么急着在外头摆饭桌，也太心急了吧？,,,
-P9独白附加问句:FLV_4_2_VIN_03_002,P9独白附加问句,FLV_4_2_VIN_03_002,051,独白/自语附加问句（do they）译成了反问,"Folks truly don't have anything else to look forward to, do they?",这些人还真是没别的盼头了，是吧？,,,
-D1显示层冲突:LVE_4_2_OCR_R_028,D1显示层冲突,LVE_4_2_OCR_R_028,051,D02 措辞差异：同英文 44 行 6 种译法；显示词典=我想也是……,I suppose...,我想也是……,,,
-D1显示层冲突:LVE_4_2_OCR_R_040,D1显示层冲突,LVE_4_2_OCR_R_040,051,D23 措辞差异：同英文 5 行 2 种译法；显示词典=哦，伊莉丝！,"Oh, Elise...!",啊，伊莉丝……！,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,,
-L2否定缺失:LVE_4_2_OCR_R_047,L2否定缺失,LVE_4_2_OCR_R_047,051,英文有否定词，中文无常见否定字,"You see what I mean, don't you, Elise?",你明白我的意思吧，伊莉丝？,[v8定点修正] 补回呼语 Elise，句末按原文还原「？」,,
-S3结巴未保留:LVE_4_2_OCR_R_052,S3结巴未保留,LVE_4_2_OCR_R_052,051,原文有结巴（Y-You），译文无「、」,"Y-You make me whole, Elise!",是你让我变得完整，伊莉丝！,[语境修复] 解除TM省略号覆写：还原原文感叹号(!)的急切/惊叹/强调语气,,
-S1句末省略号删减:LVE_4_2_OCR_R_063,S1句末省略号删减,LVE_4_2_OCR_R_063,051,原文以「...!」收尾，译文句末无「……」,"For goodness' sake, Rosmarine...!",拜托，萝丝玛琳！,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,,
-S1句末省略号删减:LVE_4_2_OCR_R_064,S1句末省略号删减,LVE_4_2_OCR_R_064,051,原文以「...!」收尾，译文句末无「……」,"Ah, wait...! Elise...!",啊，等等！伊莉丝！,,,
-L1长度比例异常:LVE_4_2_OCR_R_071,L1长度比例异常,LVE_4_2_OCR_R_071,051,中文 0.80 字/英文词（偏短）,"Ought to make our way back to Kieferberg, all right?",该回基弗伯格了吧？,,,
-D1显示层冲突:LVE_4_2_OCR_R_075,D1显示层冲突,LVE_4_2_OCR_R_075,051,D07 措辞差异：同英文 62 行 3 种译法；显示词典=你这家伙……！,"Why, you...!",你这丫头……！,"[语境修复] 修正发语感叹词Why, you...!误译为质问句“你说什么呢!”",,
-L2否定缺失:PIC_4_2_OVP_01_003,L2否定缺失,PIC_4_2_OVP_01_003,051,英文有否定词，中文无常见否定字,"It's so flimsy, too — I could break it rather easily, couldn't I?",而且它还这么脆弱——我可以轻而易举地把它弄碎，对吧？,,,
-P9独白附加问句:PIC_4_2_OVP_01_003,P9独白附加问句,PIC_4_2_OVP_01_003,051,独白/自语附加问句（couldn't I）译成了反问,"It's so flimsy, too — I could break it rather easily, couldn't I?",而且它还这么脆弱——我可以轻而易举地把它弄碎，对吧？,,,
-L2否定缺失:PIC_4_2_OVP_03_002,L2否定缺失,PIC_4_2_OVP_03_002,051,英文有否定词，中文无常见否定字,"It's another one of those prayers, isn't it?",这又是那些祈祷文之一，对吧？,,,
-P9独白附加问句:PIC_4_2_OVP_03_002,P9独白附加问句,PIC_4_2_OVP_03_002,051,独白/自语附加问句（isn't it）译成了反问,"It's another one of those prayers, isn't it?",这又是那些祈祷文之一，对吧？,,,
-R2相邻重复:DLG_4_3_OLH_01_015,R2相邻重复,DLG_4_3_OLH_01_015,052,「说道说道」相邻重复,"I'm going to have a word with Father Hans and Old Jochen for you, Mrs. Lisbeth!",我这就替您去找汉斯神父和老约亨说道说道，莉丝贝特太太！,,,
-L2否定缺失:DLG_4_3_OLH_01_021,L2否定缺失,DLG_4_3_OLH_01_021,052,英文有否定词，中文无常见否定字,"Without question, Mrs Lisbeth.",那是当然，莉丝贝特太太。,,,
-D1显示层冲突:DLG_4_3_OLH_01_043,D1显示层冲突,DLG_4_3_OLH_01_043,052,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,
-P9独白附加问句:DLG_4_3_OLH_01_044,P9独白附加问句,DLG_4_3_OLH_01_044,052,独白/自语附加问句（isn't she）译成了反问,"(Mrs Lisbeth really is in a tight corner, isn't she...?)",（莉丝贝特太太可真是走投无路了，是不是……？）,,,
-D1显示层冲突:DLG_4_3_OLH_01_051,D1显示层冲突,DLG_4_3_OLH_01_051,052,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,
-S2句末标点改变:DLG_4_3_VBA_01_003,S2句末标点改变,DLG_4_3_VBA_01_003,052,原文以「?」收尾（非附加问句），译文以「。」收尾,"Ah, we're helping out with the stalls, you see?",啊，我们在帮忙照看摊子呢。,[v8口头禅·you see] 解释性 you see?/you know? 不再硬对「你知道吗/你懂吧/你瞧？」，转为句末语气词或句首「你看/您瞧」,,
-L1长度比例异常:DLG_4_3_VBA_01_019,L1长度比例异常,DLG_4_3_VBA_01_019,052,中文 2.83 字/英文词（偏长）,"Meaningless old wives' tales, at that.",说到底不过是些无稽的老婆子闲话罢了。,,,
-D1显示层冲突:DLG_4_3_VBA_01_028,D1显示层冲突,DLG_4_3_VBA_01_028,052,D09 标签差异：同英文 68 行 2 种译法；显示词典=伊莉丝！,Elise!,伊莉丝！,,,
-P9独白附加问句:DLG_4_3_VBA_01_039,P9独白附加问句,DLG_4_3_VBA_01_039,052,独白/自语附加问句（is she）译成了反问,"(Brunhilde isn't the brightest, is she?)",（布伦希尔德向来不是最机灵的，是吧？）,,,
-L2否定缺失:DLG_4_3_VBA_01_046,L2否定缺失,DLG_4_3_VBA_01_046,052,英文有否定词，中文无常见否定字,"You've seen the way Old Jochen addresses me haven't you, Mrs Linda?",您也见过老约亨是怎么跟我说话的吧，琳达太太？,,,
-S1句末省略号删减:DLG_4_3_VCH_01_016,S1句末省略号删减,DLG_4_3_VCH_01_016,052,原文以「...!」收尾，译文句末无「……」,"Why, that old...!",那个老……真是的！,,,
-S1句末省略号删减:DLG_4_3_VCH_01_029,S1句末省略号删减,DLG_4_3_VCH_01_029,052,原文以「...!」收尾，译文句末无「……」,"Why, that old...!",那个老……真是的！,,,
-S1句末省略号删减:DLG_4_3_VCH_01_033,S1句末省略号删减,DLG_4_3_VCH_01_033,052,原文以「...!」收尾，译文句末无「……」,For goodness' sake...!,饶了我吧……,,,
-L2否定缺失:DLG_4_3_VIN_01_002,L2否定缺失,DLG_4_3_VIN_01_002,053,英文有否定词，中文无常见否定字,"No two ways about it, Mrs. Elma.",千真万确，埃尔玛太太。,,,
-S1句末省略号删减:DLG_4_3_VIN_01_006,S1句末省略号删减,DLG_4_3_VIN_01_006,053,原文以「...」收尾，译文句末无「……」,My granny taught me that...,是我奶奶教我的——,,,
-D1显示层冲突:DLG_4_3_VIN_01_008,D1显示层冲突,DLG_4_3_VIN_01_008,053,D09 标签差异：同英文 68 行 2 种译法；显示词典=伊莉丝！,Elise!,伊莉丝！,,,
-S1句末省略号删减:DLG_4_3_VIN_01_014,S1句末省略号删减,DLG_4_3_VIN_01_014,053,原文以「...」收尾，译文句末无「……」,Reading the stars isn't...,解读星象又不是——,,,
-C1疑似照抄:DLG_4_3_VIN_01_018,C1疑似照抄,DLG_4_3_VIN_01_018,053,中文与 DLG_5_3_VSQ_01_023 完全相同，英文相似度 0.74,"Don't you, Rosmarine?",是不是啊，萝丝玛琳？,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,,
-R2相邻重复:DLG_4_3_VIN_01_026,R2相邻重复,DLG_4_3_VIN_01_026,053,「知道知道」相邻重复,"I'm not one to lend weight to Old Jochen's notions, but I'm finding Father Hans ought to hear about it.",我向来不把老约亨那套放在心上，但我看这事该让汉斯神父知道知道。,,,
-D1显示层冲突:DLG_4_3_VIN_01_029,D1显示层冲突,DLG_4_3_VIN_01_029,053,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,
-S2句末标点改变:DLG_4_3_VIN_01_044,S2句末标点改变,DLG_4_3_VIN_01_044,053,原文以「?」收尾（非附加问句），译文以「。」收尾,"Rosmarine still clings to childish beliefs, you see?",您瞧，萝丝玛琳还抱着那些孩子气的念头呢。,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分; [v8口头禅·you see] 解释性 you see?/you know? 不再,,
-P9独白附加问句:DLG_4_3_VIN_03_012,P9独白附加问句,DLG_4_3_VIN_03_012,053,独白/自语附加问句（isn't she）译成了反问,"(Mrs Marlen is rather mindful, isn't she...?)",（玛尔伦太太还真是心细，是不是……？）,,,
-P9独白附加问句:DLG_4_3_VIN_03_037,P9独白附加问句,DLG_4_3_VIN_03_037,053,独白/自语附加问句（huh）译成了反问,"(These folks have nothing but cobwebs between their ears, huh?)",（这些人脑子里怕不是只有蜘蛛网吧？）,,,
+P9独白附加问句:FLV_4_2_OVP_07_001,P9独白附加问句,FLV_4_2_OVP_07_001,051,独白/自语附加问句（haven't I）译成了反问,"I've seen this symbol before, haven't I?",这个符号我从前见过，不是吗？,,,成立→已记录（P2/标点格式）
+S1句末省略号删减:FLV_4_2_OVP_10_016,S1句末省略号删减,FLV_4_2_OVP_10_016,051,原文以「...?」收尾，译文句末无「……」,What...?,什么？,,,成立→已记录（小偏差/标点格式）
+L2否定缺失:FLV_4_2_VIN_02_001,L2否定缺失,FLV_4_2_VIN_02_001,051,英文有否定词，中文无常见否定字,"A little too eager to set up a dinner table outside, aren't they?",这么急着在外头摆饭桌，也太心急了吧？,,,成立→已记录（P2/标点格式）
+P9独白附加问句:FLV_4_2_VIN_02_001,P9独白附加问句,FLV_4_2_VIN_02_001,051,独白/自语附加问句（aren't they）译成了反问,"A little too eager to set up a dinner table outside, aren't they?",这么急着在外头摆饭桌，也太心急了吧？,,,成立→已记录（P2/标点格式）
+P9独白附加问句:FLV_4_2_VIN_03_002,P9独白附加问句,FLV_4_2_VIN_03_002,051,独白/自语附加问句（do they）译成了反问,"Folks truly don't have anything else to look forward to, do they?",这些人还真是没别的盼头了，是吧？,,,成立→已记录（P2/标点格式）
+D1显示层冲突:LVE_4_2_OCR_R_028,D1显示层冲突,LVE_4_2_OCR_R_028,051,D02 措辞差异：同英文 44 行 6 种译法；显示词典=我想也是……,I suppose...,我想也是……,,,逐行已读，待 4.5 组裁决
+D1显示层冲突:LVE_4_2_OCR_R_040,D1显示层冲突,LVE_4_2_OCR_R_040,051,D23 措辞差异：同英文 5 行 2 种译法；显示词典=哦，伊莉丝！,"Oh, Elise...!",啊，伊莉丝……！,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,,逐行已读，待 4.5 组裁决
+L2否定缺失:LVE_4_2_OCR_R_047,L2否定缺失,LVE_4_2_OCR_R_047,051,英文有否定词，中文无常见否定字,"You see what I mean, don't you, Elise?",你明白我的意思吧，伊莉丝？,[v8定点修正] 补回呼语 Elise，句末按原文还原「？」,,已核无误
+S3结巴未保留:LVE_4_2_OCR_R_052,S3结巴未保留,LVE_4_2_OCR_R_052,051,原文有结巴（Y-You），译文无「、」,"Y-You make me whole, Elise!",是你让我变得完整，伊莉丝！,[语境修复] 解除TM省略号覆写：还原原文感叹号(!)的急切/惊叹/强调语气,,成立→已记录（小偏差/漏译）
+S1句末省略号删减:LVE_4_2_OCR_R_063,S1句末省略号删减,LVE_4_2_OCR_R_063,051,原文以「...!」收尾，译文句末无「……」,"For goodness' sake, Rosmarine...!",拜托，萝丝玛琳！,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,,成立→已记录（小偏差/标点格式）
+S1句末省略号删减:LVE_4_2_OCR_R_064,S1句末省略号删减,LVE_4_2_OCR_R_064,051,原文以「...!」收尾，译文句末无「……」,"Ah, wait...! Elise...!",啊，等等！伊莉丝！,,,成立→已记录（小偏差/标点格式）
+L1长度比例异常:LVE_4_2_OCR_R_071,L1长度比例异常,LVE_4_2_OCR_R_071,051,中文 0.80 字/英文词（偏短）,"Ought to make our way back to Kieferberg, all right?",该回基弗伯格了吧？,,,已核无误
+D1显示层冲突:LVE_4_2_OCR_R_075,D1显示层冲突,LVE_4_2_OCR_R_075,051,D07 措辞差异：同英文 62 行 3 种译法；显示词典=你这家伙……！,"Why, you...!",你这丫头……！,"[语境修复] 修正发语感叹词Why, you...!误译为质问句“你说什么呢!”",,逐行已读，待 4.5 组裁决
+L2否定缺失:PIC_4_2_OVP_01_003,L2否定缺失,PIC_4_2_OVP_01_003,051,英文有否定词，中文无常见否定字,"It's so flimsy, too — I could break it rather easily, couldn't I?",而且它还这么脆弱——我可以轻而易举地把它弄碎，对吧？,,,成立→已记录（P2/标点格式）
+P9独白附加问句:PIC_4_2_OVP_01_003,P9独白附加问句,PIC_4_2_OVP_01_003,051,独白/自语附加问句（couldn't I）译成了反问,"It's so flimsy, too — I could break it rather easily, couldn't I?",而且它还这么脆弱——我可以轻而易举地把它弄碎，对吧？,,,成立→已记录（P2/标点格式）
+L2否定缺失:PIC_4_2_OVP_03_002,L2否定缺失,PIC_4_2_OVP_03_002,051,英文有否定词，中文无常见否定字,"It's another one of those prayers, isn't it?",这又是那些祈祷文之一，对吧？,,,成立→已记录（P2/标点格式）
+P9独白附加问句:PIC_4_2_OVP_03_002,P9独白附加问句,PIC_4_2_OVP_03_002,051,独白/自语附加问句（isn't it）译成了反问,"It's another one of those prayers, isn't it?",这又是那些祈祷文之一，对吧？,,,成立→已记录（P2/标点格式）
+R2相邻重复:DLG_4_3_OLH_01_015,R2相邻重复,DLG_4_3_OLH_01_015,052,「说道说道」相邻重复,"I'm going to have a word with Father Hans and Old Jochen for you, Mrs. Lisbeth!",我这就替您去找汉斯神父和老约亨说道说道，莉丝贝特太太！,,,已核无误
+L2否定缺失:DLG_4_3_OLH_01_021,L2否定缺失,DLG_4_3_OLH_01_021,052,英文有否定词，中文无常见否定字,"Without question, Mrs Lisbeth.",那是当然，莉丝贝特太太。,,,已核无误
+D1显示层冲突:DLG_4_3_OLH_01_043,D1显示层冲突,DLG_4_3_OLH_01_043,052,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,逐行已读，待 4.5 组裁决
+P9独白附加问句:DLG_4_3_OLH_01_044,P9独白附加问句,DLG_4_3_OLH_01_044,052,独白/自语附加问句（isn't she）译成了反问,"(Mrs Lisbeth really is in a tight corner, isn't she...?)",（莉丝贝特太太可真是走投无路了，是不是……？）,,,成立→已记录（P2/标点格式）
+D1显示层冲突:DLG_4_3_OLH_01_051,D1显示层冲突,DLG_4_3_OLH_01_051,052,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,逐行已读，待 4.5 组裁决
+S2句末标点改变:DLG_4_3_VBA_01_003,S2句末标点改变,DLG_4_3_VBA_01_003,052,原文以「?」收尾（非附加问句），译文以「。」收尾,"Ah, we're helping out with the stalls, you see?",啊，我们在帮忙照看摊子呢。,[v8口头禅·you see] 解释性 you see?/you know? 不再硬对「你知道吗/你懂吧/你瞧？」，转为句末语气词或句首「你看/您瞧」,,已核无误：解释性 you see? 按 v8 转语气词「呢」
+L1长度比例异常:DLG_4_3_VBA_01_019,L1长度比例异常,DLG_4_3_VBA_01_019,052,中文 2.83 字/英文词（偏长）,"Meaningless old wives' tales, at that.",说到底不过是些无稽的老婆子闲话罢了。,,,已核无误
+D1显示层冲突:DLG_4_3_VBA_01_028,D1显示层冲突,DLG_4_3_VBA_01_028,052,D09 标签差异：同英文 68 行 2 种译法；显示词典=伊莉丝！,Elise!,伊莉丝！,,,逐行已读，待 4.5 组裁决
+P9独白附加问句:DLG_4_3_VBA_01_039,P9独白附加问句,DLG_4_3_VBA_01_039,052,独白/自语附加问句（is she）译成了反问,"(Brunhilde isn't the brightest, is she?)",（布伦希尔德向来不是最机灵的，是吧？）,,,成立→已记录（P2/标点格式）
+L2否定缺失:DLG_4_3_VBA_01_046,L2否定缺失,DLG_4_3_VBA_01_046,052,英文有否定词，中文无常见否定字,"You've seen the way Old Jochen addresses me haven't you, Mrs Linda?",您也见过老约亨是怎么跟我说话的吧，琳达太太？,,,已核无误
+S1句末省略号删减:DLG_4_3_VCH_01_016,S1句末省略号删减,DLG_4_3_VCH_01_016,052,原文以「...!」收尾，译文句末无「……」,"Why, that old...!",那个老……真是的！,,,成立→已记录（小偏差/增译）
+S1句末省略号删减:DLG_4_3_VCH_01_029,S1句末省略号删减,DLG_4_3_VCH_01_029,052,原文以「...!」收尾，译文句末无「……」,"Why, that old...!",那个老……真是的！,,,成立→已记录（小偏差/增译）
+S1句末省略号删减:DLG_4_3_VCH_01_033,S1句末省略号删减,DLG_4_3_VCH_01_033,052,原文以「...!」收尾，译文句末无「……」,For goodness' sake...!,饶了我吧……,,,成立→已记录（小偏差/标点格式）
+L2否定缺失:DLG_4_3_VIN_01_002,L2否定缺失,DLG_4_3_VIN_01_002,053,英文有否定词，中文无常见否定字,"No two ways about it, Mrs. Elma.",千真万确，埃尔玛太太。,,,已核无误
+S1句末省略号删减:DLG_4_3_VIN_01_006,S1句末省略号删减,DLG_4_3_VIN_01_006,053,原文以「...」收尾，译文句末无「……」,My granny taught me that...,是我奶奶教我的——,,,已核无误：话被伊莉丝打断，句末改作「——」表示截断，可接受
+D1显示层冲突:DLG_4_3_VIN_01_008,D1显示层冲突,DLG_4_3_VIN_01_008,053,D09 标签差异：同英文 68 行 2 种译法；显示词典=伊莉丝！,Elise!,伊莉丝！,,,逐行已读，待 4.5 组裁决
+S1句末省略号删减:DLG_4_3_VIN_01_014,S1句末省略号删减,DLG_4_3_VIN_01_014,053,原文以「...」收尾，译文句末无「……」,Reading the stars isn't...,解读星象又不是——,,,已核无误：话被打断，句末改作「——」表示截断，可接受
+C1疑似照抄:DLG_4_3_VIN_01_018,C1疑似照抄,DLG_4_3_VIN_01_018,053,中文与 DLG_5_3_VSQ_01_023 完全相同，英文相似度 0.74,"Don't you, Rosmarine?",是不是啊，萝丝玛琳？,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,,已核无误：通用附和问「是不是啊，萝丝玛琳？」，同义英文行译同正常
+R2相邻重复:DLG_4_3_VIN_01_026,R2相邻重复,DLG_4_3_VIN_01_026,053,「知道知道」相邻重复,"I'm not one to lend weight to Old Jochen's notions, but I'm finding Father Hans ought to hear about it.",我向来不把老约亨那套放在心上，但我看这事该让汉斯神父知道知道。,,,已核无误
+D1显示层冲突:DLG_4_3_VIN_01_029,D1显示层冲突,DLG_4_3_VIN_01_029,053,D13 标签差异：同英文 272 行 4 种译法；显示词典=……,...,……,,,逐行已读，待 4.5 组裁决
+S2句末标点改变:DLG_4_3_VIN_01_044,S2句末标点改变,DLG_4_3_VIN_01_044,053,原文以「?」收尾（非附加问句），译文以「。」收尾,"Rosmarine still clings to childish beliefs, you see?",您瞧，萝丝玛琳还抱着那些孩子气的念头呢。,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分; [v8口头禅·you see] 解释性 you see?/you know? 不再,,已核无误：解释性 you see? 按 v8 转句首「您瞧」
+P9独白附加问句:DLG_4_3_VIN_03_012,P9独白附加问句,DLG_4_3_VIN_03_012,053,独白/自语附加问句（isn't she）译成了反问,"(Mrs Marlen is rather mindful, isn't she...?)",（玛尔伦太太还真是心细，是不是……？）,,,成立→已记录（P2/标点格式）
+P9独白附加问句:DLG_4_3_VIN_03_037,P9独白附加问句,DLG_4_3_VIN_03_037,053,独白/自语附加问句（huh）译成了反问,"(These folks have nothing but cobwebs between their ears, huh?)",（这些人脑子里怕不是只有蜘蛛网吧？）,,,成立→已记录（P2/标点格式）
 S2句末标点改变:DLG_4_3_VIN_04_008,S2句末标点改变,DLG_4_3_VIN_04_008,054,原文以「!」收尾，译文以「？」收尾,"Oh, b-but if I only e-eat a little bit!",那、那我要是只吃一丁点呢？,,,
 P9独白附加问句:DLG_4_3_VIN_04_018,P9独白附加问句,DLG_4_3_VIN_04_018,054,独白/自语附加问句（does it）译成了反问,"(Doesn't seem like she ever learns her lesson, does it?)",（看样子她是从来不长记性的，对吧？）,,,
 D1显示层冲突:DLG_4_3_VIN_04_023,D1显示层冲突,DLG_4_3_VIN_04_023,054,D07 措辞差异：同英文 62 行 3 种译法；显示词典=你这家伙……！,"Why, you...!",你这家伙……！,"[语境修复] 修正发语感叹词Why, you...!误译为质问句“你说什么呢!”",,
