@@ -14,7 +14,7 @@ import tempfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from round1_lib import CSV_PATH, Ctx, load_items, load_manifest  # noqa: E402
+from round1_lib import BASE_REF, CSV_PATH, CSV_REL, ROOT, Ctx, load_items, load_manifest  # noqa: E402
 
 
 def run(args, env):
@@ -33,7 +33,14 @@ def main():
     ok = True
     try:
         csv_copy = os.path.join(tmp, 'v8.csv')
-        shutil.copyfile(CSV_PATH, csv_copy)
+        # 用写回前的基线（BASE_REF）做副本，docs 已写回后也能重跑；取不到基线才退回复制当前文件
+        try:
+            base = subprocess.run(['git', 'show', '%s:%s' % (BASE_REF, CSV_REL)], cwd=ROOT, check=True,
+                                  stdout=subprocess.PIPE, stderr=subprocess.DEVNULL).stdout
+            with open(csv_copy, 'wb') as f:
+                f.write(base)
+        except (OSError, subprocess.CalledProcessError):
+            shutil.copyfile(CSV_PATH, csv_copy)
         r1 = os.path.join(tmp, 'round1')
         os.makedirs(r1)
         env = dict(os.environ, LGTS_R1_CSV=csv_copy, LGTS_R1_DIR=r1)

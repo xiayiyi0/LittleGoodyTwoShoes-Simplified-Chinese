@@ -1,9 +1,9 @@
 # 修正轮进度
 
-- 阶段：收尾（1,036 条已全部定稿，待写回 docs）
+- 阶段：完成（1,036 条已写回 docs CSV，译者说明、REPORT 已更新，PR 到 main 待维护者审阅，不合并）
 - 第一阶段：已定 67 / 67 组（301 条：采纳 297、改写 4；改写为 G49「就凭它们聚在磨坊那儿？」、G52「我看咱们也没什么好谈的了」）
 - 第二阶段：已完成批次 001–164（采纳 994、改写 42、不改 0、联动 0，已定 1036 / 1036）
-- 最近一次 round1_check.py --final：错误 0，提示 10（9 条「仅标签不同」，1 条源文修复名表提示）
+- 最近一次 round1_check.py：`--final` 错误 0、提示 10（9 组只差标签，1 条源文修复名表提示）；`--post` 错误 0、提示 13（另 3 条为全表只剩锁定歌词 D40、D41 两组措辞不一）
 - 跨批联动待补：
 
 | 键 | 原因 |
@@ -20,7 +20,7 @@
 
 ## 下一步
 
-收尾：`round1_apply.py --dry-run` → `round1_apply.py` → `round1_check.py --post` 零错误 → 更新 `docs/Lgts 译者说明.md` 与 `review/round1/REPORT.md` → 提交推送 → 开 PR 到 main（不合并）。
+本轮已完成。维护者按 `REPORT.md`「交给维护者」重新生成补丁词典、更新版本号与 changelog、游玩核对。`round1_selftest.py` 改为用 `origin/review/v8-full-check` 的基线副本自测，写回后仍可重跑。
 
 ## 脚本（`review/scripts/`）
 
