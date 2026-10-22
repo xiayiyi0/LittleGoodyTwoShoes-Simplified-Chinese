@@ -3265,7 +3265,7 @@ DLG_4_2_VIN_03_043,（不管谁偷了马，要是能顺手把她也牵走就好�
 DLG_4_2_VIN_04_001,吓人吧，伊莉丝？,,,3264,主线对白DLG,4月2日,VIN,,已译,"Frightening isn't it, Elise?"
 DLG_4_2_VIN_04_002,什么事呀，威尔玛太太？,,,3265,主线对白DLG,4月2日,VIN,,已译,"What is, Mrs. Wilma?"
 DLG_4_2_VIN_04_003,那些马啊，丫头——要是真有个贼在四处流窜……,,,3266,主线对白DLG,4月2日,VIN,,已译,"The horses, lass — if there truly is a thief on the loose..."
-DLG_4_2_VIN_04_004,哎呀，今晚我得让威尔玛把我旅店里每一扇窗都锁上！,已修订,哎呀，今晚我得让威尔玛把我旅店里每一扇窗都锁上！,3267,主线对白DLG,4月2日,VIN,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, I'm having Welma lock every window in my inn tonight!"
+DLG_4_2_VIN_04_004,哎呀，今晚我得让薇尔玛把我旅店里每一扇窗都锁上！,已修订,哎呀，今晚我得让薇尔玛把我旅店里每一扇窗都锁上！,3267,主线对白DLG,4月2日,VIN,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,"Oh, I'm having Welma lock every window in my inn tonight!"
 DLG_4_2_VIN_04_005,哎，我说不定这就亲自去锁了！,,,3268,主线对白DLG,4月2日,VIN,,已译,"Why, I might even do it myself right now!"
 DLG_4_2_VIN_04_006,没必要反应过度，威尔玛太太。,,,3269,主线对白DLG,4月2日,VIN,,已译,"There's no need to overreact, Mrs. Wilma."
 DLG_4_2_VIN_04_007,这怎么就叫反应过度了？！,,,3270,主线对白DLG,4月2日,VIN,,已译,How is it an overreaction?!
@@ -3773,7 +3773,7 @@ DLG_4_3_VIN_05_010,这周本该是开开心心，热热闹闹的！,,,3771,主�
 DLG_4_3_VIN_05_011,可结果却成了这样！,,,3772,主线对白DLG,4月3日,VIN,,已译,Yet here we are!
 DLG_4_3_VIN_05_012,你还在忙节庆的事吧？,,,3773,主线对白DLG,4月3日,VIN,,已译,"You're still working on the festival, aren't you?"
 DLG_4_3_VIN_05_013,那是自然——可人人都这么愁苦，滋味就不一样了……,,,3774,主线对白DLG,4月3日,VIN,,已译,"Well, of course — but it's not the same when everyone's so sad..."
-DLG_4_3_VIN_05_014,我顺道去威尔玛小姐那儿买了些食材。,已修订,我顺道去威尔玛小姐那儿买了些食材。,3775,主线对白DLG,4月3日,VIN,[名称规范] 将拼写异体Welma统一归并为“威尔玛”,已译,I dropped round to buy some ingredients from Miss Welma.
+DLG_4_3_VIN_05_014,我顺道去薇尔玛小姐那儿买了些食材。,已修订,我顺道去薇尔玛小姐那儿买了些食材。,3775,主线对白DLG,4月3日,VIN,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,I dropped round to buy some ingredients from Miss Welma.
 DLG_4_3_VIN_05_015,你也该照顾好自己啊，芙蕾雅。,,,3776,主线对白DLG,4月3日,VIN,,已译,"Ought to look after yourself, Freya."
 DLG_4_3_VIN_05_016,这话我也一样说给你听，伊莉丝。,,,3777,主线对白DLG,4月3日,VIN,,已译,"I can say the same thing to you, Elise."
 DLG_4_3_VIN_05_017,哼，我才不会为这些老太婆睡不着觉呢！,已修订,哼，我才不会为这些老太婆睡不着觉呢！,3778,主线对白DLG,4月3日,VIN,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, you wouldn't catch me losing sleep over these old hags!"
@@ -4081,14 +4081,14 @@ DLG_4_4_VCH_01_072,那么，恕我失陪了。,,,4079,主线对白DLG,4月4日,V
 DLG_4_4_VCH_01_073,（那个老怪物……！竟想把厄运怪到莉丝贝特太太头上！）,,,4080,主线对白DLG,4月4日,VCH,,已译,(That ogre...! Trying to blame Mrs Lisbeth for her ill-fortune!)
 DLG_4_4_VCH_01_074,（还敢自称是侍奉主的人！真是恶心！）,,,4081,主线对白DLG,4月4日,VCH,,已译,(To think he calls himself a man of God! How revolting!)
 DLG_4_4_VCH_02_001,你天天从早到晚待在这里，不觉得闷吗，佩佩？,,,4082,主线对白DLG,4月4日,VCH,,已译,"Aren't you tired of being in here all day every day, Leb?"
-DLG_4_4_VCH_02_002,啊，我刚从威尔玛小姐那儿回来！,已修订,啊，我刚从威尔玛小姐那儿回来！,4083,主线对白DLG,4月4日,VCH,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, I just came back from Miss Welma's!"
-DLG_4_4_VCH_02_003,威尔玛小姐那儿？,已修订,威尔玛小姐那儿？,4084,主线对白DLG,4月4日,VCH,[名称规范] 将拼写异体Welma统一归并为“威尔玛”,已译,Miss Welma's?
+DLG_4_4_VCH_02_002,啊，我刚从薇尔玛小姐那儿回来！,已修订,啊，我刚从薇尔玛小姐那儿回来！,4083,主线对白DLG,4月4日,VCH,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,"Oh, I just came back from Miss Welma's!"
+DLG_4_4_VCH_02_003,薇尔玛小姐那儿？,已修订,薇尔玛小姐那儿？,4084,主线对白DLG,4月4日,VCH,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,Miss Welma's?
 DLG_4_4_VCH_02_004,我正跟她说老约亨那坏脾气的事呢。,,,4085,主线对白DLG,4月4日,VCH,,已译,I was telling her all about Old Jochen's bad temper.
 DLG_4_4_VCH_02_005,他这是脑子糊涂了……,已修订,他这是脑子糊涂了……,4086,主线对白DLG,4月4日,VCH,[v8口头禅·that's what] 句尾 that's what! 改用强调句式，不再硬对「就（是）这么回事」,已译,"He's losing his mind, that's what..."
 DLG_4_4_VCH_02_006,大伙儿最近对他那套发作已经越来越没耐心了。,,,4087,主线对白DLG,4月4日,VCH,,已译,"Folks have been considerably less tolerant of his outbursts lately, at least."
 DLG_4_4_VCH_02_007,可我还没见汉斯神父或古斯塔夫先生对此做点什么呢！,,,4088,主线对白DLG,4月4日,VCH,,已译,Yet I've yet to see Father Hans or Mr. Gustav do anything about it!
 DLG_4_4_VCH_02_008,他是长辈，伊莉丝，大伙儿不想小题大做……,,,4089,主线对白DLG,4月4日,VCH,,已译,"He's an elder, Elise, folks don't want to make too much of it..."
-DLG_4_4_VCH_02_009,不管怎么说——你去威尔玛小姐那儿做什么？,已修订,不管怎么说——你去威尔玛小姐那儿做什么？,4090,主线对白DLG,4月4日,VCH,[名称规范] 将拼写异体Welma统一归并为“威尔玛”,已译,Anyhow — what did you go to Miss Welma's for?
+DLG_4_4_VCH_02_009,不管怎么说——你去薇尔玛小姐那儿做什么？,已修订,不管怎么说——你去薇尔玛小姐那儿做什么？,4090,主线对白DLG,4月4日,VCH,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,Anyhow — what did you go to Miss Welma's for?
 DLG_4_4_VCH_02_010,她啊，正需要有人给她揉揉背呢。,已修订,她啊，正需要有人给她揉揉背呢。,4091,主线对白DLG,4月4日,VCH,[v8口头禅·you see] 解释性 you see?/you know? 不再硬对「你知道吗/你懂吧/你瞧？」，转为句末语气词或句首「你看/您瞧」,已译,"She was in need of a back massage, you see?"
 DLG_4_4_VCH_02_011,你都想不到她的身子有多僵呢！,,,4092,主线对白DLG,4月4日,VCH,,已译,You wouldn't believe how tense she was!
 DLG_4_4_VCH_02_012,斯佩尔特！,已修订,斯佩尔特！,4093,主线对白DLG,4月4日,VCH,[语境修复] 还原Lebkuchen!的急切/惊喜呼喊语气(!)，解除TM省略号覆写,已译,Lebkuchen!
@@ -8279,8 +8279,8 @@ DLG_7_1_VBA_01_005,可是妈……！,,,8277,主线对白DLG,7月1日,VBA,,已�
 DLG_7_1_VBA_01_006,让这小子出去撒撒欢也没什么大不了的吧……,,,8278,主线对白DLG,7月1日,VBA,,已译,It wouldn't be that bad for the boy to come out...
 DLG_7_1_VBA_01_007,可他要是病倒了怎么办？,,,8279,主线对白DLG,7月1日,VBA,,已译,But what if he falls ill?
 DLG_7_1_VBA_01_008,你这么快就忘了阿普菲尔的遭遇了吗？,,,8280,主线对白DLG,7月1日,VBA,,已译,Did you forget what happened to Apfel already?
-DLG_7_1_VBA_01_009,威尔玛小姐整天待在旅店里，不也好好的嘛，妈妈！,已修订,威尔玛小姐整天待在旅店里，不也好好的嘛，妈妈！,8281,主线对白DLG,7月1日,VBA,[名称规范] 将拼写异体Welma统一归并为“威尔玛”,已译,"Miss Welma stays inside the inn all day and she's fine, mama!"
-DLG_7_1_VBA_01_010,那可惜你不是威尔玛，对吧？,已修订,那可惜你不是威尔玛，对吧？,8282,主线对白DLG,7月1日,VBA,[名称规范] 将拼写异体Welma统一归并为“威尔玛”,已译,"I guess it's too bad you're not Welma, isn't it?"
+DLG_7_1_VBA_01_009,薇尔玛小姐整天待在旅店里，不也好好的嘛，妈妈！,已修订,薇尔玛小姐整天待在旅店里，不也好好的嘛，妈妈！,8281,主线对白DLG,7月1日,VBA,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,"Miss Welma stays inside the inn all day and she's fine, mama!"
+DLG_7_1_VBA_01_010,那可惜你不是薇尔玛，对吧？,已修订,那可惜你不是薇尔玛，对吧？,8282,主线对白DLG,7月1日,VBA,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,"I guess it's too bad you're not Welma, isn't it?"
 DLG_7_1_VBA_01_011,你妈妈说得对，雅各布——万一你病得太重，明天赶不上节庆怎么办？,已修订,你妈妈说得对，雅各布——万一你病得太重，明天赶不上节庆怎么办？,8283,主线对白DLG,7月1日,VBA,[v8术语·节庆] festival 统一为「节庆」,已译,"Your mother's right, Jakob — what if you're too sick for the festival tomorrow?"
 DLG_7_1_VBA_01_012,可是莉丝贝特太太都让阿普菲尔他们……,已修订,可是莉丝贝特太太都让阿普菲尔他们……,8284,主线对白DLG,7月1日,VBA,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, but Mrs. Lisbeth's letting Apfel and..."
 DLG_7_1_VBA_01_013,我看着像莉丝贝特吗？快回去，赶紧的！,已修订,我看着像莉丝贝特吗？快回去，赶紧的！,8285,主线对白DLG,7月1日,VBA,[v8人名增删] 删去原文没有的呼语「小子」,已译,"Do I look like Lisbeth to you? Off you go, now!"
@@ -8362,8 +8362,8 @@ DLG_7_1_VIN_02_016,（要他们整天憋在家里，可没那么乐意！）,,,8
 DLG_7_2_OLH_01_001,那老家伙真是不像话！,已修订,那老家伙真是不像话！,8361,主线对白DLG,7月2日,OLH,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,The old geezer is unbelievable!
 DLG_7_2_OLH_01_002,这又是怎么了，威尔玛太太？,,,8362,主线对白DLG,7月2日,OLH,,已译,"What's the matter now, Mrs. Wilma?"
 DLG_7_2_OLH_01_003,老威廉答应在这儿等我，可他人影都没有！,,,8363,主线对白DLG,7月2日,OLH,,已译,"Old Wilhelm promised to meet me here, yet he's nowhere to be found!"
-DLG_7_2_OLH_01_004,没有他的工具，威尔玛要怎么修缮旅店呢？,已修订,没有他的工具，威尔玛要怎么修缮旅店呢？,8364,主线对白DLG,7月2日,OLH,[名称规范] 将拼写异体Welma统一归并为“威尔玛”,已译,How is Welma to fix the inn without his tools?
-DLG_7_2_OLH_01_005,威尔玛小姐？,已修订,威尔玛小姐？,8365,主线对白DLG,7月2日,OLH,[名称规范] 将拼写异体Welma统一归并为“威尔玛”,已译,Miss Welma?
+DLG_7_2_OLH_01_004,没有他的工具，薇尔玛要怎么修缮旅店呢？,已修订,没有他的工具，薇尔玛要怎么修缮旅店呢？,8364,主线对白DLG,7月2日,OLH,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,How is Welma to fix the inn without his tools?
+DLG_7_2_OLH_01_005,薇尔玛小姐？,已修订,薇尔玛小姐？,8365,主线对白DLG,7月2日,OLH,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,Miss Welma?
 DLG_7_2_OLH_01_006,哎，她成天什么都不干，丫头——不如让她也搭把手！,,,8366,主线对白DLG,7月2日,OLH,,已译,"Why, she does nothing all day, lass — might as well have her lend a hand!"
 DLG_7_2_OLH_01_007,我还以为她在替您照看旅店呢，威尔玛太太？,,,8367,主线对白DLG,7月2日,OLH,,已译,"I thought she was looking after your inn, Mrs. Wilma?"
 DLG_7_2_OLH_01_008,你说……照看我的旅店？,已修订,你说……照看我的旅店？,8368,主线对白DLG,7月2日,OLH,[v8问句校正] 问句语气校正,已译,"Looking after my inn, you say?"
@@ -8490,10 +8490,10 @@ DLG_7_2_VIN_04_002,我猜威尔玛太太又在无理取闹了。,,,8488,主线�
 DLG_7_2_VIN_04_003,威尔玛不让大家在她旅店里干活。,,,8489,主线对白DLG,7月2日,VIN,,已译,Wilma's refusing to allow folks to work in her inn.
 DLG_7_2_VIN_04_004,明明这雨天里咱们也帮不上什么忙……,,,8490,主线对白DLG,7月2日,VIN,,已译,Even though we can't make ourselves useful in this rain...
 DLG_7_2_VIN_04_005,威尔玛太太一向都是这副脾气。,,,8491,主线对白DLG,7月2日,VIN,,已译,"Mrs. Wilma's always been like this, hasn't she?"
-DLG_7_2_VIN_04_006,说不定下一步她就要把这事怪到威尔玛小姐头上了！,已修订,说不定下一步她就要把这事怪到威尔玛小姐头上了！,8492,主线对白DLG,7月2日,VIN,[名称规范] 将拼写异体Welma统一归并为“威尔玛”,已译,Next thing we know she'll be blaming Miss Welma for it!
+DLG_7_2_VIN_04_006,说不定下一步她就要把这事怪到薇尔玛小姐头上了！,已修订,说不定下一步她就要把这事怪到薇尔玛小姐头上了！,8492,主线对白DLG,7月2日,VIN,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,Next thing we know she'll be blaming Miss Welma for it!
 DLG_7_2_VIN_04_007,我倒不觉得你说错，伊莉丝……,,,8493,主线对白DLG,7月2日,VIN,,已译,"I wouldn't say you're wrong, Elise..."
-DLG_7_2_VIN_04_008,她说得对——威尔玛太太一向都是这么难缠。,,,8494,主线对白DLG,7月2日,VIN,,已译,She's right — Wilma's always been difficult.
-DLG_7_2_VIN_04_009,我看她真做得出来，去怪可怜的威尔玛……,已修订,我看她真做得出来，去怪可怜的威尔玛……,8495,主线对白DLG,7月2日,VIN,[名称规范] 将拼写异体Welma统一归并为“威尔玛”,已译,I wouldn't put it past her to blame poor Welma...
+DLG_7_2_VIN_04_008,她说得对——威尔玛一向都是这么难缠。,已修订,她说得对——威尔玛一向都是这么难缠。,8494,主线对白DLG,7月2日,VIN,[v8收官·敬称] Welma 改译「薇尔玛」后不会再混淆；原文直呼 Wilma（同一说话人 001、003 也直呼），去掉为区分而加的「太太」,已译,She's right — Wilma's always been difficult.
+DLG_7_2_VIN_04_009,我看她真做得出来，去怪可怜的薇尔玛……,已修订,我看她真做得出来，去怪可怜的薇尔玛……,8495,主线对白DLG,7月2日,VIN,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,I wouldn't put it past her to blame poor Welma...
 DLG_7_2_VIN_04_010,唉，想想这个星期天咱们还满怀希望呢……,已修订,唉，想想这个星期天咱们还满怀希望呢……,8496,主线对白DLG,7月2日,VIN,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, to think we were so hopeful just this Sunday..."
 DLG_7_2_VIN_04_011,节庆就在明天了，阿丽亚娜太太——一切都会好起来的。,已修订,节庆就在明天了，阿丽亚娜太太——一切都会好起来的。,8497,主线对白DLG,7月2日,VIN,[v8术语·节庆] festival 统一为「节庆」,已译,"The festival's tomorrow, Mrs. Ariane — it'll be fine."
 DLG_7_2_VIN_04_012,但愿如此吧，伊莉丝。,,,8498,主线对白DLG,7月2日,VIN,,已译,"We can only hope, Elise."
@@ -9085,7 +9085,7 @@ DLG_7_4_VSQ_01_001,对不起，威尔玛太太……,,,9083,主线对白DLG,,VSQ
 DLG_7_4_VSQ_01_002,你对这些人的看法一点没错，伊莉丝！,,,9084,主线对白DLG,,VSQ,,已译,"You were right about these folks, Elise!"
 DLG_7_4_VSQ_01_003,你在说什么呢？,已修订,你在说什么呢？,9085,主线对白DLG,,VSQ,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,What are you talking about?
 DLG_7_4_VSQ_01_004,哎呀，威尔玛太太！,已修订,哎呀，威尔玛太太！,9086,主线对白DLG,,VSQ,[语境修复] 解除TM省略号覆写：还原原文感叹号(!)的急切/惊叹/强调语气; [v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, Mrs. Wilma!"
-DLG_7_4_VSQ_01_005,我们真的非常抱歉……威尔玛小姐说我们可以，所以……,已修订,我们真的非常抱歉……威尔玛小姐说我们可以，所以……,9087,主线对白DLG,,VSQ,[名称规范] 统一Welma为威尔玛，并修正Miss误译为“太太”,已译,"We're so terribly sorry! Miss Welma said we could, so..."
+DLG_7_4_VSQ_01_005,我们真的非常抱歉……薇尔玛小姐说我们可以，所以……,已修订,我们真的非常抱歉……薇尔玛小姐说我们可以，所以……,9087,主线对白DLG,,VSQ,[名称规范] 统一Welma为威尔玛，并修正Miss误译为“太太”; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,"We're so terribly sorry! Miss Welma said we could, so..."
 DLG_7_4_VSQ_01_006,她们道歉得还不够吗，威尔玛？,,,9088,主线对白DLG,,VSQ,,已译,"Haven't they apologized enough, Wilma?"
 DLG_7_4_VSQ_01_007,我要的不是道歉，玛丽勒太太——是尊重！,,,9089,主线对白DLG,,VSQ,,已译,"It's not apologies I want from them, Mrs. Mariele — it's respect!"
 DLG_7_4_VSQ_01_008,我不太明白您的意思……,,,9090,主线对白DLG,,VSQ,,已译,I'm not certain I follow...
@@ -9117,17 +9117,17 @@ DLG_7_4_VSQ_02_018,（我不太想承认，但她这么担心我……）,,,9115
 DLG_7_4_VSQ_02_019,（知道她还惦记着我，心里其实挺高兴的呢……）,已修订,（知道她还惦记着我，心里其实挺高兴的呢……）,9116,主线对白DLG,,VSQ,"[语境修复] 优化括号内心独白句尾, huh的机械反问“、是吧/是吗”，还原自言自语的沉思语气",已译,"(It does make me happy to know she still cares, huh...)"
 DLG_7_4_VST_01_001,该把这事抛在脑后了，贝尔塔！,,,9117,主线对白DLG,,VST,,已译,"Ought to put it behind us, Bertha!"
 DLG_7_4_VST_01_002,我猜还是在念叨早上的事吧……,,,9118,主线对白DLG,,VST,,已译,"Still wittering on about earlier, I presume..."
-DLG_7_4_VST_01_003,不是那件事，伊莉丝——是威尔玛！,已修订,不是那件事，伊莉丝——是威尔玛！,9119,主线对白DLG,,VST,[名称规范] 将拼写异体Welma统一归并为“威尔玛”,已译,"Nothing of the sort, Elise — it's Welma!"
-DLG_7_4_VST_01_004,威尔玛小姐……？,已修订,威尔玛小姐……？,9120,主线对白DLG,,VST,[名称规范] 统一Welma为威尔玛，并修正Miss误译为“太太”,已译,Miss Welma...?
+DLG_7_4_VST_01_003,不是那件事，伊莉丝——是薇尔玛！,已修订,不是那件事，伊莉丝——是薇尔玛！,9119,主线对白DLG,,VST,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,"Nothing of the sort, Elise — it's Welma!"
+DLG_7_4_VST_01_004,薇尔玛小姐……？,已修订,薇尔玛小姐……？,9120,主线对白DLG,,VST,[名称规范] 统一Welma为威尔玛，并修正Miss误译为“太太”; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,Miss Welma...?
 DLG_7_4_VST_01_005,威尔玛把她好一顿数落，伊莉丝……,,,9121,主线对白DLG,,VST,,已译,"Wilma's given her an earful, Elise..."
 DLG_7_4_VST_01_006,还是当着大伙儿的面呢！,,,9122,主线对白DLG,,VST,,已译,"Right in front of everyone, too!"
 DLG_7_4_VST_01_007,就因为她让琳达和芙蕾雅把花放在棚子里！,,,9123,主线对白DLG,,VST,,已译,All because she let Linda and Freya keep the flowers in the shack!
 DLG_7_4_VST_01_008,饶了我吧……,,,9124,主线对白DLG,,VST,,已译,For goodness' sake...
 DLG_7_4_VST_01_009,那个威尔玛啊……,,,9125,主线对白DLG,,VST,,已译,That Wilma...
-DLG_7_4_VST_01_010,真替威尔玛委屈啊，那可怜的姑娘！,已修订,真替威尔玛委屈啊，那可怜的姑娘！,9126,主线对白DLG,,VST,[名称规范] 统一Welma为威尔玛，消除“太太”与“丫头(lass)”同句冲突,已译,"One can't help but feel for Welma, that poor lass!"
+DLG_7_4_VST_01_010,真替薇尔玛委屈啊，那可怜的姑娘！,已修订,真替薇尔玛委屈啊，那可怜的姑娘！,9126,主线对白DLG,,VST,[名称规范] 统一Welma为威尔玛，消除“太太”与“丫头(lass)”同句冲突; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,"One can't help but feel for Welma, that poor lass!"
 DLG_7_4_VST_01_011,大老远从普里梅尔多夫赶来帮忙——结果落得这样！,,,9127,主线对白DLG,,VST,,已译,Coming all the way from Primeldorf to lend a hand — and for what!
 DLG_7_4_VST_01_012,确实如此……,已修订,确实如此……,9128,主线对白DLG,,VST,[仲裁执行·B9] 句末语气按原文（...，还原「……」），解除 TM 串用（仲裁表 #484）; [v6批量B9] 解除TM跨句串用导致的句末语气错配(... → 。); [整合] A=B：双方译文一致，合并双方备注,已译,Truly...
-DLG_7_4_VST_01_013,（要是威尔玛小姐当初留在基弗伯格就好了……）,已修订,（要是威尔玛小姐当初留在基弗伯格就好了……）,9129,主线对白DLG,,VST,[名称规范] 统一Welma为威尔玛，并修正Miss误译为“太太”,已译,(If only Miss Welma had stayed in Kieferberg instead...)
+DLG_7_4_VST_01_013,（要是薇尔玛小姐当初留在基弗伯格就好了……）,已修订,（要是薇尔玛小姐当初留在基弗伯格就好了……）,9129,主线对白DLG,,VST,[名称规范] 统一Welma为威尔玛，并修正Miss误译为“太太”; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,(If only Miss Welma had stayed in Kieferberg instead...)
 DLG_7_4_VST_01_014,（真那样的话，这镇子肯定会好上不少。）,,,9130,主线对白DLG,,VST,,已译,"(This town would certainly be a better place, I'd say.)"
 DLG_7_4_VWW_01_001,下着雨还满村跑哪？,,,9131,主线对白DLG,,VWW,,已译,"Running about in the rain, are you?"
 DLG_7_4_VWW_01_002,您不也一样吗，伯恩哈德先生？,,,9132,主线对白DLG,,VWW,,已译,"Aren't you as well, Mr. Bernhard?"
@@ -9664,7 +9664,7 @@ DLG_8_3_VIN_03_013,欧根那么好的人，不会撇下咱们的！,,,9662,主�
 DLG_8_3_VIN_03_014,我这就去找他说道说道！,,,9663,主线对白DLG,8月3日,VIN,,已译,I'm going to go and have a word with him!
 DLG_8_3_VIN_03_015,你去我也去！,,,9664,主线对白DLG,8月3日,VIN,,已译,"If you're going, I'm going too!"
 DLG_8_3_VIN_03_016,（他们已经醉得没边了吧……）,,,9665,主线对白DLG,8月3日,VIN,,已译,"(They're too far gone, aren't they...)"
-DLG_8_3_VIN_04_001,威尔玛自己照顾得了自己！,已修订,威尔玛自己照顾得了自己！,9666,主线对白DLG,8月3日,VIN,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8口头禅·I'd say] I'd say / I'm certain / I wager 并入句中（我看/肯定/八成），减少「依我说/要我说/我敢肯定」,已译,"Welma can look after herself, I'd say!"
+DLG_8_3_VIN_04_001,薇尔玛自己照顾得了自己！,已修订,薇尔玛自己照顾得了自己！,9666,主线对白DLG,8月3日,VIN,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8口头禅·I'd say] I'd say / I'm certain / I wager 并入句中（我看/肯定/八成），减少「依我说/要我说/我敢肯定」; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,"Welma can look after herself, I'd say!"
 DLG_8_3_VIN_04_002,你不觉得这话太狠心了吗，威尔玛？,,,9667,主线对白DLG,8月3日,VIN,,已译,"Don't you think that's rather harsh, Wilma?"
 DLG_8_3_VIN_04_003,什么话，玛尔伦太太？,,,9668,主线对白DLG,8月3日,VIN,,已译,"What is, Mrs. Marlen?"
 DLG_8_3_VIN_04_004,……,,,9669,主线对白DLG,8月3日,VIN,,已译,...
@@ -9677,7 +9677,7 @@ DLG_8_3_VIN_04_010,这蒙福的日子差点毁在你的糊涂上，老约亨！,
 DLG_8_3_VIN_04_011,都过去了——反正大伙儿都不再计较上星期的事了。,已修订,都过去了——反正大伙儿都不再计较上星期的事了。,9676,主线对白DLG,8月3日,VIN,[v8术语·星期] 星期统一为「星期X」，Sunday 口语作「星期天」，「主日」仅用于「主日弥撒」,已译,"It's over — everyone seems to have moved on from last week, anyhow."
 DLG_8_3_VIN_04_012,可不是，那些胡话早该翻篇了。,,,9677,主线对白DLG,8月3日,VIN,,已译,"Truly, it was about time we let that nonsense go."
 DLG_8_3_VIN_04_013,你们这些人当真不明白……,,,9678,主线对白DLG,8月3日,VIN,,已译,You folks truly don't know...
-DLG_8_3_VIN_04_014,总之，我方才说了——威尔玛爱回普里梅尔多夫就回去好了！,已修订,总之，我方才说了——威尔玛爱回普里梅尔多夫就回去好了！,9679,主线对白DLG,8月3日,VIN,[名称规范] 将拼写异体Welma统一归并为“威尔玛”,已译,"Anyhow, as I was saying — Welma can go back to Primeldorf all she wants!"
+DLG_8_3_VIN_04_014,总之，我方才说了——薇尔玛爱回普里梅尔多夫就回去好了！,已修订,总之，我方才说了——薇尔玛爱回普里梅尔多夫就回去好了！,9679,主线对白DLG,8月3日,VIN,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,"Anyhow, as I was saying — Welma can go back to Primeldorf all she wants!"
 DLG_8_3_VIN_04_015,话虽如此……你又要孤零零一个人了，威尔玛……,,,9680,主线对白DLG,8月3日,VIN,,已译,"Still... You'll be left all alone again, Wilma..."
 DLG_8_3_VIN_04_016,（上星期他们要也这么处事就好了……）,已修订,（上星期他们要也这么处事就好了……）,9681,主线对白DLG,8月3日,VIN,[v8术语·星期] 星期统一为「星期X」，Sunday 口语作「星期天」，「主日」仅用于「主日弥撒」,已译,(If only they'd handled it like this last week...)
 DLG_8_3_VIN_05_001,呀，瞧瞧你，伊莉丝！,,,9682,主线对白DLG,8月3日,VIN,,已译,"Ah, look at you, Elise!"
@@ -20868,7 +20868,7 @@ SHP_INN_07_002,很高兴能帮上忙……,,,20797,商店与道具,—,INN,,已�
 SHP_INN_08_001,你该常来坐坐，亲爱的。,,,20798,商店与道具,—,INN,,已译,"You should come by more often, darling."
 SHP_INN_08_002,再见……,,,20799,商店与道具,—,INN,,已译,Bye...
 SHP_INN_09_001,你确定就这些了吗，甜心？,,,20800,商店与道具,—,INN,,已译,"Are you sure that's all, sweetheart?"
-SHP_INN_10_001,再见，威尔玛小姐！,已修订,再见，威尔玛小姐！,20801,商店与道具,—,INN,[名称规范] 将拼写异体Welma统一归并为“威尔玛”,已译,"Goodbye, Miss Welma!"
+SHP_INN_10_001,再见，薇尔玛小姐！,已修订,再见，薇尔玛小姐！,20801,商店与道具,—,INN,[名称规范] 将拼写异体Welma统一归并为“威尔玛”; [v8收官·人名·薇尔玛] Welma 是在旅店卖货的年轻姑娘，和旅店老板娘 Wilma（威尔玛）是两个人；改译「薇尔玛」，不再并作「威尔玛」，与补丁名牌一致,已译,"Goodbye, Miss Welma!"
 SHP_LEB_01_001,今儿个又是一脸俏皮样儿呢，乖丫头！,已修订,今儿个又是一脸俏皮样儿呢，乖丫头！,20802,商店与道具,—,LEB,[v8称谓·my dear/dearie] 长辈对晚辈 my dear→「好孩子」、dearie→「乖丫头」；同辈老太太之间→「老姐姐」,已译,"Looking cheeky again today, dearie!"
 SHP_LEB_01_002,你要来点什么？,,,20803,商店与道具,—,LEB,,已译,What are you having?
 SHP_LEB_02_001,每次见到你都很高兴，伊莉丝！,,,20804,商店与道具,—,LEB,,已译,"It's always lovely seeing you, Elise!"
