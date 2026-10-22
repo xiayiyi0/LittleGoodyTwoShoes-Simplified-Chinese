@@ -1,1 +1,9 @@
 {"key": "DLG_2_1_VSQ_03_006", "decision": "采纳", "final": "您指什么，阿丽亚娜太太？", "note": "D03中性问法，两处都通"}
+{"key": "DLG_2_1_VSQ_03_025", "decision": "采纳", "final": "（真说不上哪个更糟呢。）", "note": "独白附加问作自语陈述"}
+{"key": "FLV_2_1_HFY_01_001", "decision": "采纳", "final": "我一直都没鼓起劲在这儿种点什么啊。", "note": "自语附加问作陈述"}
+{"key": "FLV_2_1_HLR_4_003", "decision": "采纳", "final": "把我家收拾干净就够了——不过你非要的话也行！", "note": "if you insist 是让步，补全半句"}
+{"key": "FLV_2_1_HLR_30_001", "decision": "采纳", "final": "进食品间也没用啊。", "note": "自语附加问作陈述"}
+{"key": "FLV_2_1_OLH_04_001", "decision": "采纳", "final": "莉丝贝特太太家的苹果树今年长势不错呢。", "note": "自语 huh 转「呢」"}
+{"key": "FLV_2_1_OLH_07_001", "decision": "采纳", "final": "这间应该还能修好吧。", "note": "I'd say 是陈述，不作问句"}
+{"key": "FLV_2_1_OLH_08_001", "decision": "采纳", "final": "我好久没来这儿了啊。", "note": "自语 huh 转「啊」"}
+{"key": "FLV_2_1_OLH_08_002", "decision": "采纳", "final": "这座老屋与主路隔绝，墙壁任由林地的荒草肆意侵蚀。", "note": "补出「老屋」"}

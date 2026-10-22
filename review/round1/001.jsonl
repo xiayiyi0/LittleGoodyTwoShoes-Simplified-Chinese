@@ -1,1 +1,13 @@
 {"key": "CUT_1_5_HGR_01_004", "decision": "采纳", "final": "<size=120%>对！</size>", "note": "D19定句「对！」，接「就是现在！」仍通"}
+{"key": "CUT_1_5_HGR_01_006", "decision": "采纳", "final": "<shake a=0.3>等等！求你了……！</shake>", "note": "补回 Please...! 的省略号"}
+{"key": "CUT_1_5_HGR_02_003", "decision": "采纳", "final": "<shake a=0.3>等等！请别打我！</shake>", "note": "原文只一个 Wait!"}
+{"key": "CUT_1_5_HGR_02_004", "decision": "采纳", "final": "<shake a=0.3>我只是躲在这儿而已——外面有些男人，我……！</shake>", "note": "and I...! 话没说完，不补「我怕他们会」"}
+{"key": "CUT_1_5_HGR_02_008", "decision": "采纳", "final": "我只是害怕而已！求求您了！", "note": "第1周萝森玛琳对伊莉丝用「您」，同场一致"}
+{"key": "CUT_1_5_HGR_02_012", "decision": "采纳", "final": "我都说了！我什么都没偷，夫人！", "note": "删去原文没有的「你看！」"}
+{"key": "CUT_1_5_HGR_02_015", "decision": "采纳", "final": "你跑到这山上来做什么？", "note": "补出 up here in the mountains"}
+{"key": "CUT_1_5_HGR_02_048", "decision": "改写", "final": "这个由我说了算，不劳你费心！", "note": "反讽客套，「不劳你费心」更贴原文"}
+{"key": "CUT_1_5_HGR_02_070", "decision": "采纳", "final": "别磨蹭了！你还有一大堆事要做呢！", "note": "催她别磨蹭干活，非要出门"}
+{"key": "CUT_1_5_HLR_04_003", "decision": "采纳", "final": "真的很抱歉……！", "note": "补回「！」，删去添的「我……」"}
+{"key": "CUT_1_5_HLR_04_023", "decision": "采纳", "final": "听好了，丫头，我把话撂在这儿，我信不过你！", "note": "呼语前补逗号"}
+{"key": "CUT_1_5_HLR_04_027", "decision": "采纳", "final": "你但凡敢忤逆我一次，我就去跟村里人说道说道！", "note": "理顺「哪怕一次」后置语序"}
+{"key": "CUT_1_5_HLR_04_031", "decision": "采纳", "final": "对不起……我……我会尽力的……", "note": "补回 I'll... I'll 的结巴"}
