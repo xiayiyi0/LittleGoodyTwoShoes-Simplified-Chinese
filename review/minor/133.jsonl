@@ -7,3 +7,4 @@
 {"key": "CUT_WCW_E_PITFALLS_02_035", "sev": "小偏差", "cat": "人称称谓", "fix": "我们才不会白白浪费这顿美餐！", "why": "乌鸦说的 we 不含伊莉丝，「咱们」把听话人算进去了", "ctx": ["CUT_WCW_E_PITFALLS_02_034", "CUT_WCW_E_PITFALLS_02_036"], "conf": "中"}
 {"key": "CUT_WCW_E_PITFALLS_02_041", "sev": "小偏差", "cat": "人称称谓", "fix": "我们要把他吃掉！我们要把他吃掉！", "why": "乌鸦说的 we 不含伊莉丝；同键 03_008 一起改", "ctx": ["CUT_WCW_E_PITFALLS_02_040", "CUT_WCW_E_PITFALLS_03_008"], "conf": "中"}
 {"key": "CUT_WCW_E_PITFALLS_03_008", "sev": "小偏差", "cat": "人称称谓", "fix": "我们要把他吃掉！我们要把他吃掉！", "why": "同键 02_041：乌鸦说的 we 不含伊莉丝，一起改", "ctx": ["CUT_WCW_E_PITFALLS_03_007", "CUT_WCW_E_PITFALLS_02_041"], "conf": "中"}
+{"key": "CUT_WCW_E_PITFALLS_02_019", "sev": "小偏差", "cat": "语气", "fix": "你……到底是什么……？！", "why": "同场024同问已定「你……到底是什么……？」（D30），此处「究竟」宜随之统一", "ctx": ["CUT_WCW_E_PITFALLS_02_024", "CSM_GG_00_002"], "conf": "中"}

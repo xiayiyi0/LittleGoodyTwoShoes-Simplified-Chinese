@@ -13,6 +13,8 @@
 | `findings.csv` / `minor.csv` | 合并结果（`merge_findings.py` 生成，英文/现译/批次号自动回填） |
 | `minor/<批次号>.jsonl` | 每批小偏差（rules.md §10.3；无也有空文件） |
 | `HANDOFF.md` | 跨会话交接：进度、跨批待补、新会话提示词 |
+| `summary.md` | 结论：各级数量、P0/P1 要点、显示层冲突裁决、部署结论 |
+| `apply_fixes.py` | 按「采纳」列把建议写进 v8 的副本（默认 `review/out/`，不改 `docs/`；审查方未运行） |
 
 续跑顺序：读 `rules.md`、`observed.md`、`ledger.md` → `python3 print_batch.py <下一批>` 精读 → 写 `findings/<批次号>.jsonl` → `python3 ledger_add.py <批次号> "摘要"` → `python3 precheck.py`（刷新候选裁决）→ `python3 validate_fixes.py` → `python3 coverage.py`。
 
