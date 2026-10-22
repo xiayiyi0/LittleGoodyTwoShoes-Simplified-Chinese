@@ -1,3 +1,5 @@
 {"key": "FLV_8_3_VIN_02_001", "sev": "P2", "cat": "标点格式", "fix": "芙蕾雅干得可真漂亮。", "why": "FLV 自语的附加问句 didn't she? 按 D5 作陈述，不留「不是吗？」", "ctx": ["FLV_8_3_VIN_02_002"], "conf": "高"}
 {"key": "FLV_8_3_VIN_03_001", "sev": "P2", "cat": "标点格式", "fix": "古斯塔夫先生手艺可真好。", "why": "FLV 自语的附加问句 isn't he? 按 D5 作陈述，不留「不是吗？」", "ctx": ["FLV_8_3_VIN_03_002"], "conf": "高"}
 {"key": "CUT_8_6_WDM_ALTAR_R_002", "sev": "P0", "cat": "显示层冲突", "fix": "你指什么？", "why": "D28 同键 DLG_8_1_VSQ_03_015 已定「你指什么？」；词典值「什么好主意？」接「太美了」是错话", "ctx": ["CUT_8_6_WDM_ALTAR_R_001", "CUT_8_6_WDM_ALTAR_R_003", "DLG_8_1_VSQ_03_015"], "conf": "高"}
+{"key": "CUT_8_6_WDM_ALTAR_F_011", "sev": "P1", "cat": "显示层冲突", "fix": "伊莉丝……", "why": "D12整组15行定「伊莉丝……」：叹气与感动并存，「唉」放感动处错意，「哦」违v8，Oh不译", "ctx": ["CUT_8_6_WDM_ALTAR_F_010", "CUT_8_6_WDM_ALTAR_F_012", "DLG_2_3_VSQ_04_001"], "conf": "中"}
+{"key": "CUT_8_6_WDM_ALTAR_R_011", "sev": "P1", "cat": "显示层冲突", "fix": "伊莉丝……", "why": "D12整组15行定「伊莉丝……」：叹气与感动并存，「唉」放感动处错意，「哦」违v8，Oh不译", "ctx": ["CUT_8_6_WDM_ALTAR_R_010", "CUT_8_6_WDM_ALTAR_R_012", "DLG_2_3_VSQ_04_001", "CUT_8_6_WDM_ALTAR_F_011"], "conf": "中"}

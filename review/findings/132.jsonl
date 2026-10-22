@@ -3,3 +3,4 @@
 {"key": "DLG_WCW_B_INTRO_01_005", "sev": "P2", "cat": "标点格式", "fix": "我可没时间在这上头纳闷。", "why": "自语附加问句 do I? 按 D5 作陈述，不留「是吧？」", "ctx": ["DLG_WCW_B_INTRO_01_004", "DLG_WCW_B_INTRO_01_006"], "conf": "高"}
 {"key": "DLG_WCW_B_INTRO_03_001", "sev": "P2", "cat": "标点格式", "fix": "放在这儿正合适。", "why": "自语附加问句 doesn't it? 按 D5 作陈述，不留「不是吗？」", "ctx": ["DLG_WCW_B_INTRO_03_002"], "conf": "高"}
 {"key": "DLG_WCW_B_INTRO_07_013", "sev": "P2", "cat": "标点格式", "fix": "（除了硬撑下去，也别无他法了……）", "why": "原文独白没有附加问句，译文添了「是吧」（同 DLG_3_4_VIN_02_022）；带 huh 的是 014", "ctx": ["DLG_WCW_B_INTRO_07_012", "DLG_WCW_B_INTRO_07_014"], "conf": "高"}
+{"key": "DLG_WCW_B_INTRO_06_009", "sev": "P0", "cat": "显示层冲突", "fix": "你到底是……？", "why": "D11整组7行定「你到底是……？」：词典值「你是说……？」放在问林地之母「你是什么」处是错话", "ctx": ["DLG_WCW_B_INTRO_06_008", "DLG_WCW_B_INTRO_06_010", "CUT_3_6_WDM_C_01_015", "CSM_GG_00_012"], "conf": "中"}
