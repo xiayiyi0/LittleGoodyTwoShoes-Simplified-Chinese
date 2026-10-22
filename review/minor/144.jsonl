@@ -1,0 +1,2 @@
+{"key": "CUT_8_END_SAC_L_A_018", "sev": "小偏差", "cat": "标点格式", "fix": "对不起，斯佩尔特……！", "why": "原文 ...! 带叹号，译文删了「！」", "ctx": ["CUT_8_END_SAC_L_A_017", "CUT_8_END_SAC_L_A_019"], "conf": "中"}
+{"key": "CUT_8_END_SAC_R_016", "sev": "小偏差", "cat": "标点格式", "fix": "伊莉丝……！", "why": "原文 Elise...! 带省略号，全表 20 行都删成「伊莉丝！」，须一起改", "ctx": ["CUT_8_END_SAC_R_015", "CUT_8_END_SAC_R_017"], "conf": "中"}
