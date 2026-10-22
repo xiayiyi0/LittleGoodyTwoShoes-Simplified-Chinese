@@ -1,0 +1,4 @@
+{"key": "CUT_WCW_B_INTRO_01_002", "sev": "小偏差", "cat": "标点格式", "fix": "阿普菲尔……！", "why": "原文 Apfel...! 带省略号；同键 2 行都删了，须一起改（另一行在 133）", "ctx": ["CUT_WCW_B_INTRO_01_001", "CUT_WCW_B_INTRO_01_003"], "conf": "中"}
+{"key": "CUT_WCW_B_INTRO_02_004", "sev": "小偏差", "cat": "标点格式", "fix": "我得去找阿普菲尔……！", "why": "原文 ...! 带省略号，译文删了，和紧接的 005（无省略号）成了同一句", "ctx": ["CUT_WCW_B_INTRO_02_003", "CUT_WCW_B_INTRO_02_005"], "conf": "中"}
+{"key": "DLG_WCW_B_INTRO_06_002", "sev": "小偏差", "cat": "增译", "fix": "亮闪闪的，我知道。", "why": "原文 Shiny, I'm aware. 没有呼语，「是啊，乌鸦——」是添的", "ctx": ["DLG_WCW_B_INTRO_06_001", "DLG_WCW_B_INTRO_06_003"], "conf": "中"}
+{"key": "DLG_WCW_B_INTRO_06_014", "sev": "小偏差", "cat": "分支", "fix": "（我准是要疯了……）", "why": "I'm going mad 与 017 的 losing my wits 英文不同，译文却照抄 017 一字不差", "ctx": ["DLG_WCW_B_INTRO_06_013", "DLG_WCW_B_INTRO_06_017"], "conf": "中"}

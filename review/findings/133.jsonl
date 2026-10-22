@@ -1,0 +1,7 @@
+{"key": "CUT_WCW_A_HOUSE_INTERIOR_01_008", "sev": "P2", "cat": "人名术语", "fix": "你的命运，伊莉丝……你的起源就在那挂毯之中……", "why": "同场 018 和 FLV 02_002 都作「挂毯」；「织锦」接不上伊莉丝随后去看的那块挂毯", "ctx": ["CUT_WCW_A_HOUSE_INTERIOR_01_018", "FLV_WCW_A_HOUSE_INTERIOR_02_002"], "conf": "中"}
+{"key": "CUT_WCW_A_HOUSE_INTERIOR_01_017", "sev": "P1", "cat": "显示层冲突", "fix": "这……主啊，这到底是……", "why": "D32 同键 CUT_3_6_WDM_C_01_004 已定此句；两行共用一句", "ctx": ["CUT_WCW_A_HOUSE_INTERIOR_01_016", "CUT_3_6_WDM_C_01_004"], "conf": "中"}
+{"key": "FLV_WCW_A_HOUSE_INTERIOR_04_001", "sev": "P2", "cat": "人名术语", "fix": "这不是奶奶的纺车……", "why": "这是带木腿的纺车（003「那架」），呼应 002/005 奶奶的「纺车」；「纺锤」对不上", "ctx": ["FLV_WCW_A_HOUSE_INTERIOR_04_003", "FLV_1_5_HLR_08_001"], "conf": "中"}
+{"key": "FLV_WCW_A_HOUSE_INTERIOR_04_003", "sev": "P2", "cat": "人名术语", "fix": "早已彻底损毁，那架旧纺车仅凭最后一条木腿支撑，摇摇欲坠。", "why": "同 04_001：有木腿、用「架」的是纺车，不是纺锤", "ctx": ["FLV_WCW_A_HOUSE_INTERIOR_04_001"], "conf": "中"}
+{"key": "CUT_WCW_E_PITFALLS_02_024", "sev": "P1", "cat": "显示层冲突", "fix": "你……到底是什么……？", "why": "D30 已定「你……到底是什么……？」（标签按各行英文，本行无标签）；现作「究竟」不一致", "ctx": ["CUT_WCW_E_PITFALLS_02_023", "CUT_WCW_E_PITFALLS_02_025"], "conf": "中"}
+{"key": "CUT_WCW_E_PITFALLS_03_010", "sev": "P3", "cat": "翻译腔", "fix": "诅咒你们这帮家伙！诅咒你们这帮家伙！", "why": "「诅咒你们全部」语序生硬；乌鸦的 we 也不宜作「咱们」", "ctx": ["CUT_WCW_E_PITFALLS_03_009", "CUT_WCW_E_PITFALLS_03_011"], "conf": "中"}
+{"key": "FLV_D_WSV_B_01_001", "sev": "P2", "cat": "标点格式", "fix": "这种树到处都是。", "why": "FLV 自语的附加问句 huh? 按 D5 作陈述，不留「是吧？」", "ctx": ["FLV_D_WSV_B_01_002"], "conf": "高"}

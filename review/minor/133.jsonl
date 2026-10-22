@@ -1,0 +1,9 @@
+{"key": "CUT_WCW_E_PITFALLS_02_001", "sev": "小偏差", "cat": "标点格式", "fix": "阿普菲尔……！", "why": "原文 Apfel...! 带省略号；同键 2 行都删了，须一起改（另一行在 132）", "ctx": ["CUT_WCW_E_PITFALLS_01_004", "CUT_WCW_E_PITFALLS_02_002"], "conf": "中"}
+{"key": "CUT_WCW_E_PITFALLS_02_017", "sev": "小偏差", "cat": "标点格式", "fix": "什么……？", "why": "原文 What...? 带省略号，全表同键 16 行都删成「什么？」，须一起改", "ctx": ["CUT_WCW_E_PITFALLS_02_016", "CUT_WCW_E_PITFALLS_02_018"], "conf": "中"}
+{"key": "CUT_WCW_E_PITFALLS_03_001", "sev": "小偏差", "cat": "标点格式", "fix": "伊莉丝……！", "why": "原文 Elise...! 带省略号，全表 20 行都删成「伊莉丝！」，须一起改", "ctx": ["CUT_WCW_E_PITFALLS_02_048", "CUT_WCW_E_PITFALLS_03_002"], "conf": "中"}
+{"key": "CUT_WCW_E_PITFALLS_03_005", "sev": "小偏差", "cat": "标点格式", "fix": "伊莉丝……！", "why": "原文 Elise...! 带省略号，全表 20 行都删成「伊莉丝！」，须一起改", "ctx": ["CUT_WCW_E_PITFALLS_03_004", "CUT_WCW_E_PITFALLS_03_006"], "conf": "中"}
+{"key": "CUT_WCW_E_PITFALLS_02_027", "sev": "小偏差", "cat": "人称称谓", "fix": "玷污我们的林子！玷污我们的林子！", "why": "乌鸦说的 our 不含伊莉丝，「咱们」把听话人算进去了", "ctx": ["CUT_WCW_E_PITFALLS_02_026"], "conf": "中"}
+{"key": "CUT_WCW_E_PITFALLS_02_034", "sev": "小偏差", "cat": "人称称谓", "fix": "那怪物可把他亲手送到我们嘴边了，丫头。", "why": "乌鸦说的 our 不含伊莉丝，「咱们」把听话人算进去了", "ctx": ["CUT_WCW_E_PITFALLS_02_033", "CUT_WCW_E_PITFALLS_02_035"], "conf": "中"}
+{"key": "CUT_WCW_E_PITFALLS_02_035", "sev": "小偏差", "cat": "人称称谓", "fix": "我们才不会白白浪费这顿美餐！", "why": "乌鸦说的 we 不含伊莉丝，「咱们」把听话人算进去了", "ctx": ["CUT_WCW_E_PITFALLS_02_034", "CUT_WCW_E_PITFALLS_02_036"], "conf": "中"}
+{"key": "CUT_WCW_E_PITFALLS_02_041", "sev": "小偏差", "cat": "人称称谓", "fix": "我们要把他吃掉！我们要把他吃掉！", "why": "乌鸦说的 we 不含伊莉丝；同键 03_008 一起改", "ctx": ["CUT_WCW_E_PITFALLS_02_040", "CUT_WCW_E_PITFALLS_03_008"], "conf": "中"}
+{"key": "CUT_WCW_E_PITFALLS_03_008", "sev": "小偏差", "cat": "人称称谓", "fix": "我们要把他吃掉！我们要把他吃掉！", "why": "同键 02_041：乌鸦说的 we 不含伊莉丝，一起改", "ctx": ["CUT_WCW_E_PITFALLS_03_007", "CUT_WCW_E_PITFALLS_02_041"], "conf": "中"}

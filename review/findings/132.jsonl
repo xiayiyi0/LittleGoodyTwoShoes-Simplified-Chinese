@@ -1,0 +1,5 @@
+{"key": "CUT_WCW_B_INTRO_02_002", "sev": "P2", "cat": "标点格式", "fix": "不，不可能！是我看错了！", "why": "原文 it can't be! 是叹号、无省略号，按 D5 不改成「……」（备注称已按 D5 处理，句中这处没改到）", "ctx": ["CUT_WCW_B_INTRO_02_001", "CUT_WCW_B_INTRO_02_003"], "conf": "中"}
+{"key": "DLG_WCW_B_INTRO_01_002", "sev": "P2", "cat": "标点格式", "fix": "缺了几块。", "why": "伊莉丝对着墙自语（乌鸦只是学舌），附加问句 isn't it? 按 D5 作陈述", "ctx": ["DLG_WCW_B_INTRO_01_001", "DLG_WCW_B_INTRO_01_003"], "conf": "中"}
+{"key": "DLG_WCW_B_INTRO_01_005", "sev": "P2", "cat": "标点格式", "fix": "我可没时间在这上头纳闷。", "why": "自语附加问句 do I? 按 D5 作陈述，不留「是吧？」", "ctx": ["DLG_WCW_B_INTRO_01_004", "DLG_WCW_B_INTRO_01_006"], "conf": "高"}
+{"key": "DLG_WCW_B_INTRO_03_001", "sev": "P2", "cat": "标点格式", "fix": "放在这儿正合适。", "why": "自语附加问句 doesn't it? 按 D5 作陈述，不留「不是吗？」", "ctx": ["DLG_WCW_B_INTRO_03_002"], "conf": "高"}
+{"key": "DLG_WCW_B_INTRO_07_013", "sev": "P2", "cat": "标点格式", "fix": "（除了硬撑下去，也别无他法了……）", "why": "原文独白没有附加问句，译文添了「是吧」（同 DLG_3_4_VIN_02_022）；带 huh 的是 014", "ctx": ["DLG_WCW_B_INTRO_07_012", "DLG_WCW_B_INTRO_07_014"], "conf": "高"}
