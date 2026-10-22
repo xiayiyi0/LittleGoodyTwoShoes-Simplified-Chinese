@@ -1,0 +1,11 @@
+{"key": "FLV_D_WSN-A_01_002", "sev": "P0", "cat": "显示层冲突", "fix": "什么？", "why": "D06 同键 DLG_2_3_OLH_04_016 已定「什么？」；两处共用一句", "ctx": ["FLV_D_WSN-A_01_001", "DLG_2_3_OLH_04_016"], "conf": "中"}
+{"key": "FLV_D_WSN-A_02_001", "sev": "P2", "cat": "标点格式", "fix": "这地方跟那乌鸦的领域大不相同。", "why": "FLV 自语的附加问句 isn't it? 按 D5 作陈述，不留「是吧？」", "ctx": ["FLV_D_WSN-A_02_002"], "conf": "高"}
+{"key": "DLG_D_WSN-F_01_005", "sev": "P2", "cat": "翻译腔", "fix": "倒影……大概是映在<b>新月</b>之中吧……", "why": "句尾 I suppose 按 v8 作「大概……吧」，不挂「，是吧……」", "ctx": ["DLG_D_WSN-F_01_003", "DLG_D_WSN-F_01_004"], "conf": "中"}
+{"key": "DLG_D_WSN-F_02_003", "sev": "P1", "cat": "误译", "fix": "我等困于此界，注定仰望那永恒的<b><color=#000000>弯月</color></b>……", "why": "月相谜题：crescent 与 01_003 的 new moon（新月）是两个月相；「一弯新月」撞了「新月」，提示易混", "ctx": ["DLG_D_WSN-F_01_003", "DLG_D_WSN-F_11_001"], "conf": "中"}
+{"key": "DLG_D_WSN-F_02_004", "sev": "P2", "cat": "标点格式", "fix": "得找个像<b>水流</b>的东西才行。", "why": "伊莉丝独自解谜的自语，附加问句 huh? 按 D5 作陈述，不留「是吧？」", "ctx": ["DLG_D_WSN-F_02_003", "DLG_D_WSN-F_02_005"], "conf": "高"}
+{"key": "DLG_D_WSN-F_02_005", "sev": "P2", "cat": "标点格式", "fix": "这些雕像的要求可真不少。", "why": "伊莉丝独自解谜的自语，附加问句 aren't they? 按 D5 作陈述，不留「不是吗？」", "ctx": ["DLG_D_WSN-F_02_004"], "conf": "高"}
+{"key": "DLG_D_WSN-F_03_003", "sev": "P2", "cat": "衔接", "fix": "在<b><color=#000000>光华最盛之时</color></b>追寻祂的祝福，你也终将沉溺于祂的魅惑之中。", "why": "谜题提示词 peak of luminescence 三处三译（光辉之巅/光华最盛之时/光芒最盛之时），回声对不上", "ctx": ["DLG_D_WSN-F_03_004", "DLG_D_WSN-F_33_002"], "conf": "中"}
+{"key": "DLG_D_WSN-F_33_002", "sev": "P2", "cat": "衔接", "fix": "我猜光华最盛之时指的就是满月吧？", "why": "同 DLG_D_WSN-F_03_003：回声复述谜题提示词，统一作「光华最盛之时」", "ctx": ["DLG_D_WSN-F_33_001", "DLG_D_WSN-F_03_003"], "conf": "中"}
+{"key": "DLG_D_WSN-F_32_001", "sev": "P2", "cat": "标点格式", "fix": "原来这就是激流。", "why": "自语附加问句 huh? 按 D5 作陈述；又是回声复述 02_002 的提示词 rushing waters（激流）", "ctx": ["DLG_D_WSN-F_02_002"], "conf": "高"}
+{"key": "PIC_D_WSN-F_06_002", "sev": "P2", "cat": "标点格式", "fix": "切莫偏离我注定的道路啊。", "why": "自语附加问句 huh? 按 D5 作陈述；复述 14_003「切莫偏离你注定的道路」，用词照前", "ctx": ["PIC_D_WSN-F_06_001", "DLG_D_WSN-F_14_003"], "conf": "高"}
+{"key": "CUT_D_WSN-G_50_002", "sev": "P2", "cat": "标点格式", "fix": "不！等等……！", "why": "No! 原文无省略号，按 D5 不在「！」前加「……」（同键 CUT_4_5_WCR_D_01_019）", "ctx": ["CUT_D_WSN-G_50_001", "CUT_D_WSN-G_50_003"], "conf": "高"}
