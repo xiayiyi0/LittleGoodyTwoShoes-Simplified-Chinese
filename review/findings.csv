@@ -1,0 +1,11 @@
+﻿严重度,记录键,批次号,类别,英文原文,现译文,建议译文,理由,依据行,置信度,显示层冲突组,采纳
+P1,CUT_1_5_HGR_01_004,001,显示层冲突,<size=120%>Right!</size>,<size=120%>好！</size>,<size=120%>对！</size>,同键 DLG_4_4_VCH_01_067 占用词典值「好啊！」，此处显示丢 size 且语气偏；两处可共用「对！」,CUT_1_5_HGR_01_005 DLG_4_4_VCH_01_066 DLG_4_4_VCH_01_067,中,D19,
+P1,CUT_2_1_HLR_02_001,003,误译,Or maybe not...,或许没那么顺利……,又或许并没有……,接 HBR_01_006「她八成把家当全卷走了」，Or maybe not 是「也许并没有」；现译「没那么顺利」接不上,CUT_2_1_HBR_01_006 CUT_2_1_HLR_02_002 CUT_2_1_HLR_02_004,中,,
+P1,CUT_2_1_OLH_01_006,003,人称称谓,I have some fresh buns — they'll cheer you right up!,我这儿有些新鲜面包卷，保准让您开心一整天！,我这儿有些新鲜面包卷，保准让你开心一整天！,这是格蕾特奶奶对伊莉丝说的，长辈对晚辈不用「您」；同场景及他处只有伊莉丝对她用您,CUT_2_1_OLH_01_003 CUT_2_1_OLH_01_007 CUT_2_1_OLH_01_008,高,,
+P2,CUT_1_5_HGR_02_048,001,翻译腔,"I’ll be the judge of that, thank you very much!",这个由我说了算，多谢你了！,这个由我说了算，用不着你操心！,thank you very much 在此是不耐烦的反讽收尾，「多谢你了」照字面译，读着像真道谢,CUT_1_5_HGR_02_047 CUT_1_5_HGR_02_049,中,,
+P2,CUT_1_5_HLR_04_027,001,翻译腔,Dare to cross me even once and I'll be having a word with the townsfolk!,你敢忤逆我哪怕一次，我就去跟村里人说道说道！,你但凡敢忤逆我一次，我就去跟村里人说道说道！,「你敢忤逆我哪怕一次」照英文语序把「哪怕一次」后置，读着别扭,CUT_1_5_HLR_04_026 CUT_1_5_HLR_04_028,中,,
+P2,CUT_1_5_OCR_01_013,002,标点格式,And maids! All the maids I could ever want...!,还有女仆……！世上所有的女仆都听我使唤……！,还有女仆！世上所有的女仆都听我使唤……！,And maids! 无省略号，译文「还有女仆……！」在叹号前加了「……」，违反 D5,CUT_1_5_OCR_01_011 CUT_1_5_OCR_01_012 CUT_1_5_OCR_01_014,高,,
+P2,CUT_2_1_HLR_02_002,003,标点格式,Huh... Who would’ve thought?,哈……真没想到啊？,哈……谁能想到呢？,Who would've thought? 是反问式感叹；「真没想到啊？」感叹句配问号，读着别扭,CUT_2_1_HLR_02_001 CUT_2_1_HLR_02_004,中,,
+P3,CUT_1_5_HGR_02_015,001,漏译,What are you doing up here in the mountains?,你在这一带做什么？,你跑到这山上来做什么？,up here in the mountains 交代此地偏僻，「这一带」丢了「山上」,CUT_1_5_HGR_02_016 CUT_1_5_HGR_02_020,中,,
+P3,CUT_1_5_HGR_02_070,001,误译,"Ought to move along, now! You’ve got a whole lot to do!",该赶紧走了！你还有一大堆事要做呢！,别磨蹭了！你还有一大堆事要做呢！,move along 是催她别磨蹭去干活；「该赶紧走了」易读成要出门，同 062 的修订理由,CUT_1_5_HGR_02_062 CUT_1_5_HGR_02_069 CUT_1_5_HLR_04_001,中,,
+P3,CUT_2_1_HGR_01_008,003,误译,I was afraid I'd get lost in the dark...,我怕天黑了会迷路……,我怕摸黑赶路会迷路……,in the dark 指清早天还黑；「天黑了」易读成入夜后，和上句「一大早动身」对不上,CUT_2_1_HGR_01_007,中,,
