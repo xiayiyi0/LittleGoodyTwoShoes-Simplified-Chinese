@@ -1,3 +1,7 @@
 {"key": "CUT_3_6_WDM_C_01_004", "decision": "采纳", "final": "这……主啊，这到底是……", "note": "D32定句，两处惊见都通"}
 {"key": "CUT_3_6_WDM_C_01_009", "decision": "采纳", "final": "啊……？", "note": "补回省略号，Huh...? 同键6行一致"}
 {"key": "CUT_3_6_WDM_C_01_015", "decision": "采纳", "final": "你<i>到底是</i>……？", "note": "D11定句，问话意与问身份都能接"}
+{"key": "CUT_3_6_WDM_C_04_001", "decision": "采纳", "final": "它们在啃食那东西呢。", "note": "林中独白 huh? 作陈述"}
+{"key": "FLV_3_6_WDM_A_05_001", "decision": "采纳", "final": "这些飞蛾是赖着不走了啊。", "note": "自语附加问作陈述"}
+{"key": "CUT_3_OWC_01_002", "decision": "采纳", "final": "唔啊！", "note": "原文只有叹号"}
+{"key": "CUT_4_1_HBR_01_002", "decision": "改写", "final": "看来我是真的去过林地了。", "note": "醒来自语作陈述，I suppose 作「看来」"}
