@@ -59,6 +59,4 @@
 3. **乡土口语**：年长女性的 `lass / lassie / dearie` 按角色分 **「丫头 / 小丫头 / 乖丫头」**；男童 `lads / laddies` 译 **「小子们」**；骂鸟的 `feathered rat` 译 **「长羽毛的耗子」**（可加修饰，如「长着羽毛的讨厌耗子」）。
 4. **内心独白**：伊莉丝括号独白句尾的 `, huh...` 不做机械反问，统一转成 **「……呢…… / ……啊……」** 的自言自语口吻。
 
-- 同键共用、拆不开场景的 `Have a good day.`、`(This old hag...!)`、`Oh...`、`Is that so?`，以及「日安」、镇 / 村、old hag、lads、serpent、in the Lord's name、日记 / 日志等风格选择，照 `summary.md` §7 维持原样。
 - 源文笔误：`DLG_2_3_VSQ_03_021`（Kieferberg → 普里梅尔多夫）、`CHR_009_036`（Mr. Wilhelm → 欧根先生）按上下文修复，备注写「源文修复」；`TASK_LUDWIG_CHICKENS`（键名是喂鸡、英文是摘苹果）和 `CHR_009_047`（欧根的差事里骂 old hag）没改。
-- `BepInEx/` 下的补丁词典没有重新生成，游戏里要等维护者用本表重新生成后才看得到这些改动；游玩时要核对的地方见 `review/round1/REPORT.md` 第 5 节。
