@@ -1,8 +1,8 @@
 Little Goody Two Shoes 简体中文汉化补丁
 
-当前版本：v1.3.21
+当前版本：v1.3.22
 
-这是适用于 Windows 版 Little Goody Two Shoes 的简体中文运行时汉化补丁，汉化双语译本具体详见/docs。
+这是适用于 Windows 版 Little Goody Two Shoes 的简体中文运行时汉化补丁。
 
 安装方法
 
