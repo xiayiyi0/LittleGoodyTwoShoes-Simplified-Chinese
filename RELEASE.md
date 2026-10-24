@@ -13,9 +13,9 @@
 | 规范名 | 路径（相对游戏根目录） | 说明 |
 |---|---|---|
 | **live 实机树** | `BepInEx/plugins/LGTSChinese/` + `BepInEx/Translation/zh/Text/` | 当前实机运行中的插件与词典 |
-| **stage 发布树** | `temp_work_result/dist/stage_v1322/` | zip 打包唯一来源。历史文档曾称 "dist/stage"、"stage_v1322"，均同指本目录，v1.3.18 起统一称 **stage 发布树**（`temp_work_result/dist/stage/` 是 v1.3.14/15 时代的旧工作区，与发布树无关，勿混） |
+| **stage 发布树** | `temp_work_result/dist/stage_v1323/` | zip 打包唯一来源。历史文档曾称 "dist/stage"、"stage_v1323"，均同指本目录，v1.3.18 起统一称 **stage 发布树**（`temp_work_result/dist/stage/` 是 v1.3.14/15 时代的旧工作区，与发布树无关，勿混） |
 | **zip 发布包** | `LGTS-SimplifiedChinese-vX.Y.Z.zip`（位于发布树内） | 分发给玩家的最终产物 |
-| 源码 | `temp_work_result/dist/stage_v1322/source/LGTSChinese/` | 与发布 DLL 同版本的源码快照 |
+| 源码 | `temp_work_result/dist/stage_v1323/source/LGTSChinese/` | 与发布 DLL 同版本的源码快照 |
 | 批次工作区 | `temp_work_result/fix_batches_YYYYMMDD/` | 当次修复的脚本、日志、裁决记录 |
 
 **发布前"三树一致性"检查** = 上述 live / stage / zip 三处的关键文件（DLL、三词典、两 AT 文件）SHA256 逐字节一致。
@@ -37,8 +37,8 @@
 
 发布树是打包唯一来源，部署顺序固定为：
 
-1. `LGTSChinese.dll` → live / stage / stage_v1322 三处 `plugins/LGTSChinese/`；
-2. 词典与 AT 文件 → 同上三处（stage_v1322 内含 `BepInEx/Translation/zh/Text/`）；
+1. `LGTSChinese.dll` → live / stage / stage_v1323 三处 `plugins/LGTSChinese/`；
+2. 词典与 AT 文件 → 同上三处（stage_v1323 内含 `BepInEx/Translation/zh/Text/`）；
 3. `source/` 源码树同步为当次发布版本的源码（消除源码-产物漂移）；
 4. 文档版本号联动更新：`changelog.txt`（新增版本段落）、`安装说明_README.txt`
    标题与正文版本、`README.md`、`BUILDING.md` 中的统计数字（以当次实际重算值为准）。
@@ -96,3 +96,4 @@
 | 1.3.20 | 2026-10-19 | 授权歌词润色（SUB 54 键三载体）、全角标点规范化 19 处、错别字×1；DLL 1.3.20 |
 | 1.3.21 | 2026-10-21 | v5 全表标点规范化（18,805 纯标点 + 1,206 修订）；字体注入 8 个全角标点字形；三层词典全量对齐；DLL 1.3.21 |
 | 1.3.22 | 2026-10-23 | 采用 v8 译本（21,210 条，3,802 条译文更新）；三层词典对齐；字体无需改动；DLL 1.3.22 |
+| 1.3.23 | 2026-10-24 | 采用 v9 译本（56 条定点修订，无键变化）；三层词典对齐；字体无需改动；DLL 1.3.23 |

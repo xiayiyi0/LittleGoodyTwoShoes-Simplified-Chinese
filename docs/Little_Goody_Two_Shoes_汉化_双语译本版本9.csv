@@ -255,7 +255,7 @@ DLG_2_2_VIN_03_014,（我就算想在乎也在乎不起来……）,,,253,主线
 DLG_2_2_VIN_03_015,什么？,,,254,主线对白DLG,2月2日,VIN,,已译,What?
 DLG_2_2_VIN_03_016,妈妈，你不会还在为卢卡斯的事烦心吧？,,,255,主线对白DLG,2月2日,VIN,,已译,"Mama, you don't mean to tell me you're still fretting over Lukas?"
 DLG_2_2_VIN_03_017,少跟我唠叨这个，琳达。,,,256,主线对白DLG,2月2日,VIN,,已译,"Spare me the earful, Linda."
-DLG_2_2_VIN_03_018,你哥哥那份不义早就盖棺定论了。,,,257,主线对白DLG,2月2日,VIN,,已译,Your brother's bad faith is dead and buried.
+DLG_2_2_VIN_03_018,你哥哥那份不义早就盖棺定论了。,已修订,你哥哥那桩背信的事早就翻篇了。,257,主线对白DLG,2月2日,VIN,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,Your brother's bad faith is dead and buried.
 DLG_2_2_VIN_03_019,他在那该死的普里梅尔多夫保准过得好好的！,,,258,主线对白DLG,2月2日,VIN,,已译,"He's doing just fine in that dreaded Primeldorf, I'll wager!"
 DLG_2_2_VIN_03_020,可是妈……,已修订,可是妈……,259,主线对白DLG,2月2日,VIN,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,But mama...
 DLG_2_2_VIN_03_021,（我……还是走开吧……）,,,260,主线对白DLG,2月2日,VIN,,已译,"(I'll... Step away, now...)"
@@ -1394,7 +1394,7 @@ DLG_3_2_VBA_04_007,老约亨跟我一样担心呢，丫头——而且这是有�
 DLG_3_2_VBA_04_008,（唉，老约亨又来这一套了！）,已修订,（唉，老约亨又来这一套了！）,1393,主线对白DLG,3月2日,VBA,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"(Oh, here we go again with Old Jochen!)"
 DLG_3_2_VBA_04_009,啊，这倒提醒我了！,,,1394,主线对白DLG,3月2日,VBA,,已译,"Ah, that reminds me!"
 DLG_3_2_VBA_04_010,我向您保证，奥蒂莉太太，这双鞋并不是……,,,1395,主线对白DLG,3月2日,VBA,,已译,"I can assure you, Mrs. Odilie, these shoes aren't..."
-DLG_3_2_VBA_04_011,老威廉正在给我那宝贝孙女吉塞拉做一串玫瑰经念珠呢。,已修订,老威廉正在给我那宝贝孙女吉塞拉做一串玫瑰经念珠呢。,1396,主线对白DLG,3月2日,VBA,[全检·P2翻译腔] you see? 转「呢」，补出孙女,已译,"Old Wilhelm's making a rosary for my precious granddaughter Gisela, you see?"
+DLG_3_2_VBA_04_011,老威廉正在给我那宝贝孙女吉塞拉做一串玫瑰经念珠呢。,已修订,老威廉正在给我那宝贝孙女吉塞拉做一串玫瑰念珠呢。,1396,主线对白DLG,3月2日,VBA,[全检·P2翻译腔] you see? 转「呢」，补出孙女; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"Old Wilhelm's making a rosary for my precious granddaughter Gisela, you see?"
 DLG_3_2_VBA_04_012,你能替我去看看它好了没有吗，伊莉丝？,,,1397,主线对白DLG,3月2日,VBA,,已译,"Won't you please go see if it's ready for me, Elise?"
 DLG_3_2_VBA_04_013,嗯……,已修订,嗯……,1398,主线对白DLG,3月2日,VBA,[语境修复] 解除I suppose...全局TM覆写：承接012请求“你能替我去看看它好了没有吗”，还原勉强答应语气; [全检·P0显示层冲突] D02定句「嗯……」，勉强附和应允都通,已译,I suppose...
 DLG_3_2_VBA_04_014,（圣瓦尔普加啊，求求您——千万别让我落得跟奥蒂莉太太一个样！）,已修订,（圣瓦尔普加啊，求求您——千万别让我落得跟奥蒂莉太太一个样！）,1399,主线对白DLG,3月2日,VBA,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"(Oh, St. Walpurga, I beg you — please don't let me end up like Mrs. Odilie!)"
@@ -1689,10 +1689,10 @@ DLG_3_2_VST_02_014,对了，威廉先生——奥蒂莉太太托我来问问她�
 DLG_3_2_VST_02_015,唉，那老婆子就不能让我清静一刻！,,,1688,主线对白DLG,3月2日,VST,,已译,"Ah, that old hag can't give me a moment of peace!"
 DLG_3_2_VST_02_016,呃，这个嘛……,,,1689,主线对白DLG,3月2日,VST,,已译,"Oh, I suppose..."
 DLG_3_2_VST_02_017,替我捎话，让她今儿下午来我作坊一趟，成不？,,,1690,主线对白DLG,3月2日,VST,,已译,"Tell her she can come by my workshop this afternoon, will you?"
-DLG_3_2_VST_02_018,我三两下就能给她赶出一串念珠来！,,,1691,主线对白DLG,3月2日,VST,,已译,I'll rustle her up a rosary in no time at all!
+DLG_3_2_VST_02_018,我三两下就能给她赶出一串念珠来！,已修订,我三两下就能给她赶出一串玫瑰念珠来！,1691,主线对白DLG,3月2日,VST,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,I'll rustle her up a rosary in no time at all!
 DLG_3_2_VST_02_019,您不是要给她做串新的吗？,,,1692,主线对白DLG,3月2日,VST,,已译,I thought you were making her a new one?
 DLG_3_2_VST_02_020,也算是新的，丫头！没听说过<i>废物利用</i>吗？,,,1693,主线对白DLG,3月2日,VST,,已译,"In a way, lass! Haven't you heard of <i>repurposing</i>?"
-DLG_3_2_VST_02_021,那会是她这辈子见过最好的念珠！,,,1694,主线对白DLG,3月2日,VST,,已译,It'll be the best rosary she's ever seen!
+DLG_3_2_VST_02_021,那会是她这辈子见过最好的念珠！,已修订,那会是她这辈子见过最好的玫瑰念珠！,1694,主线对白DLG,3月2日,VST,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,It'll be the best rosary she's ever seen!
 DLG_3_2_VST_02_022,唔……,已修订,唔……,1695,主线对白DLG,3月2日,VST,[语境修复] 修正非疑问感叹词Huh...被覆写为“啊?”,已译,Huh...
 DLG_3_2_VST_02_023,或许<i>这样</i>她就不再念叨我了！,,,1696,主线对白DLG,3月2日,VST,,已译,Maybe <i>then</i> she'll stop nagging me!
 DLG_3_2_VST_02_024,（看来奥蒂莉太太把全基弗伯格的好心都耗光了……）,,,1697,主线对白DLG,3月2日,VST,,已译,(It seems Mrs. Odilie's exhausted the goodwill of all of Kieferberg...)
@@ -1857,7 +1857,7 @@ DLG_3_3_VBA_02_069,我怎么不记得霍尔有兄弟姐妹，伊莉丝。,,,1855
 DLG_3_3_VBA_02_070,她是霍尔奶奶那位姨妈的孙女，就是普里梅尔多夫那位。,,,1856,主线对白DLG,3月3日,VBA,,已译,"She's the granddaughter of granny Holle's auntie, the one from Primeldorf."
 DLG_3_3_VBA_02_071,你是说霍尔的姨妈……我记得她好几年前就过世了吧……,已修订,你是说霍尔的姨妈……我记得她好几年前就过世了吧……,1857,主线对白DLG,3月3日,VBA,"[全检·P2翻译腔] X, you say 作「你是说X」，不倒装",已译,"Holle's aunt, you say... Could've sworn she'd passed years ago..."
 DLG_3_3_VBA_02_072,啊，说来遗憾，确实是这样。,,,1858,主线对白DLG,3月3日,VBA,,已译,"Ah, and she did, sadly."
-DLG_3_3_VBA_02_073,原来如此……这么说你是普里梅尔多夫人？,,,1859,主线对白DLG,3月3日,VBA,,已译,I see... So you're from Primeldorf?
+DLG_3_3_VBA_02_073,原来如此……这么说你是普里梅尔多夫人？,已修订,原来如此……这么说你是从普里梅尔多夫来的？,1859,主线对白DLG,3月3日,VBA,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,I see... So you're from Primeldorf?
 DLG_3_3_VBA_02_074,我跟我姨妈住一起——她住的地方离普里梅尔多夫不远。,,,1860,主线对白DLG,3月3日,VBA,,已译,I live with my own auntie - she doesn't live far from Primeldorf.
 DLG_3_3_VBA_02_075,霍尔以前不太说起她娘家的事，是不是，伯恩哈德？,,,1861,主线对白DLG,3月3日,VBA,,已译,"Holle didn't quite talk much of her family did she, Bernhard?"
 DLG_3_3_VBA_02_076,是啊，一点都没提过。,已修订,是啊，一点都没提过。,1862,主线对白DLG,3月3日,VBA,[语境修复] 承接075否定疑问句Holle didn't quite talk much of her family，修正“一点都没有、是啊”的逻辑语序矛盾; [仲裁执行·B9] 句末语气按原文（.，还原「。」）（D5：以原文语气为准）（仲裁表 #268）; [整合] 采用A：D5 以原文句末语气为准；B 以本地化微调为由驳回，未采用,已译,"Not at all, no."
@@ -2386,7 +2386,7 @@ DLG_3_4_VIN_05_027,这关乎信仰！,,,2384,主线对白DLG,3月4日,VIN,,已�
 DLG_3_4_VIN_05_028,您瞧，萝丝玛琳对祈祷这事可上心了。,已修订,您瞧，萝丝玛琳对祈祷这事可上心了。,2385,主线对白DLG,3月4日,VIN,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分; [v8口头禅·you see] 解释性 you see?/you know? 不再硬对「你知道吗/你懂吧/你瞧？」，转为句末语气词或句首「你看/您瞧」,已译,"Rosmarine is very adamant about prayer, you see?"
 DLG_3_4_VIN_05_029,她祷告的对象明摆着不是主！,已修订,她祷告的对象明摆着不是主！,2386,主线对白DLG,3月4日,VIN,[v8口头禅·for certain] that's for certain 并入句中（可真是/确实/肯定），不再硬对「这是肯定的/准没错」,已译,"She's clearly not praying to the Lord, that's for certain!"
 DLG_3_4_VIN_05_030,其实，我……,,,2387,主线对白DLG,3月4日,VIN,,已译,"In truth, I..."
-DLG_3_4_VIN_05_031,哎呀，她当然是——跟向圣瓦尔普加祈祷一样虔诚！,,,2388,主线对白DLG,3月4日,VIN,,已译,"Why, of course she is - as much to the Lord as St. Walpurga!"
+DLG_3_4_VIN_05_031,哎呀，她当然是——跟向圣瓦尔普加祈祷一样虔诚！,已修订,哎呀，她当然是——向主、向圣瓦尔普加，一样虔诚！,2388,主线对白DLG,3月4日,VIN,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"Why, of course she is - as much to the Lord as St. Walpurga!"
 DLG_3_4_VIN_05_032,我倒想亲耳听这丫头说说看，如果你们不介意的话。,,,2389,主线对白DLG,3月4日,VIN,,已译,"I'd like to hear it directly from the lass, if you don't mind."
 DLG_3_4_VIN_05_033,啊，我……我当然是向……祈祷的……,已修订,啊，我……我当然是向……祈祷的……,2390,主线对白DLG,3月4日,VIN,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, I... Or course I pray to..."
 DLG_3_4_VIN_05_034,向圣瓦尔普加<i>和</i>主祈祷！,,,2391,主线对白DLG,3月4日,VIN,,已译,To St. Walpurga <i>and</i> the Lord!
@@ -2879,7 +2879,7 @@ DLG_4_1_VIN_04_004,听说？听说什么呀，佩佩？,,,2877,主线对白DLG,4
 DLG_4_1_VIN_04_005,欧根先生的马被偷了，伊莉丝！,已修订,欧根先生的马被偷了，伊莉丝！,2878,主线对白DLG,4月1日,VIN,[仲裁执行·B9] 句末语气按原文（!，还原「！」）（D5：以原文语气为准）（仲裁表 #297）; [v6人工B9] 经上下文复核恢复原文强烈情绪/中断语气标点(! → 。); [整合] A=B：双方译文一致，合并双方备注,已译,"Mr. Eugen's horses were taken, Elise!"
 DLG_4_1_VIN_04_006,被偷了？,已修订,被偷了？,2879,主线对白DLG,4月1日,VIN,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,Taken?
 DLG_4_1_VIN_04_007,其实就是被偷了……一夜之间就无影无踪了！,已修订,其实就是被偷了……一夜之间就无影无踪了！,2880,主线对白DLG,4月1日,VIN,[语境修复] 解除TM省略号覆写：还原原文感叹号(!)的急切/惊叹/强调语气,已译,"Stolen, essentially — they vanished overnight without a trace!"
-DLG_4_1_VIN_04_008,老约亨觉得是遭了女巫夜骑的魔祟……,已修订,老约亨觉得是遭了女巫夜骑的魔祟……,2881,主线对白DLG,4月1日,VIN,[民俗典故] 补充hag-ridden(女巫夜间骑跨折磨马匹)的欧洲民俗意象,已译,Old Jochen's been saying they were hag-ridden...
+DLG_4_1_VIN_04_008,老约亨觉得是遭了女巫夜骑的魔祟……,已修订,老约亨一直说，那些马是遭了女巫夜骑的魔祟……,2881,主线对白DLG,4月1日,VIN,[民俗典故] 补充hag-ridden(女巫夜间骑跨折磨马匹)的欧洲民俗意象; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,Old Jochen's been saying they were hag-ridden...
 DLG_4_1_VIN_04_009,饶了我吧！,已修订,饶了我吧！,2882,主线对白DLG,4月1日,VIN,[语境修复] 解除TM省略号覆写：还原原文感叹号(!)的急切/惊叹/强调语气,已译,For goodness' sake!
 DLG_4_1_VIN_04_010,说到欧根先生的马……,已修订,说到欧根先生的马……,2883,主线对白DLG,4月1日,VIN,[语境修复] 还原About Mr. Eugen's horses...开启话题的陈述语气，避免误作疑问句,已译,About Mr. Eugen's horses...
 DLG_4_1_VIN_04_011,哎呀，那可真是糟透了！,已修订,哎呀，那可真是糟透了！,2884,主线对白DLG,4月1日,VIN,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, it's been awful!"
@@ -2904,7 +2904,7 @@ DLG_4_1_VIN_04_029,倒不一定是去老约亨那儿。,,,2902,主线对白DLG,4
 DLG_4_1_VIN_04_031,总而言之！,,,2903,主线对白DLG,4月1日,VIN,,已译,Anyhow!
 DLG_4_1_VIN_04_032,我跟萝丝玛琳该去看看情况了。,已修订,我跟萝丝玛琳该去看看情况了。,2904,主线对白DLG,4月1日,VIN,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,已译,Rosmarine and I ought to go have a look.
 DLG_4_1_VIN_04_033,啊，是的！,已修订,啊，是的！,2905,主线对白DLG,4月1日,VIN,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,"Ah, yes!"
-DLG_4_1_VIN_04_034,我不想让你听那些闲言碎语，伊莉丝，不过……,,,2906,主线对白DLG,4月1日,VIN,,已译,"I'll spare you the earful, Elise, but..."
+DLG_4_1_VIN_04_034,我不想让你听那些闲言碎语，伊莉丝，不过……,已修订,我就不数落你了，伊莉丝，不过……,2906,主线对白DLG,4月1日,VIN,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"I'll spare you the earful, Elise, but..."
 DLG_4_1_VIN_04_035,乡亲们都有点……,,,2907,主线对白DLG,4月1日,VIN,,已译,Folks are rather...
 DLG_4_1_VIN_04_036,比平时更没教养？,,,2908,主线对白DLG,4月1日,VIN,,已译,Even more ill-bred than usual?
 DLG_4_1_VIN_04_037,简单说，是的。,,,2909,主线对白DLG,4月1日,VIN,,已译,"To put it simply, yes."
@@ -3060,7 +3060,7 @@ DLG_4_2_VBA_01_033,好了——都够了，你们俩！,,,3058,主线对白DLG,4
 DLG_4_2_VBA_01_034,你最好走开，伊莉丝。,,,3059,主线对白DLG,4月2日,VBA,,已译,"It's best you move along, Elise."
 DLG_4_2_VBA_01_035,（她还搬出什么圣瓦尔普加的祝福呢！）,,,3060,主线对白DLG,4月2日,VBA,,已译,"(St. Walpurga's blessing, she says!)"
 DLG_4_2_VBA_01_036,这就是您的解决办法吗，奥蒂莉太太？,,,3061,主线对白DLG,4月2日,VBA,,已译,"Would that be your solution, Mrs Odilie?"
-DLG_4_2_VBA_01_037,老约亨说你是这种人，一点没错，伊莉丝！,,,3062,主线对白DLG,4月2日,VBA,,已译,"Old Jochen was right about you, Elise!"
+DLG_4_2_VBA_01_037,老约亨说你是这种人，一点没错，伊莉丝！,已修订,老约亨果然没看错你，伊莉丝！,3062,主线对白DLG,4月2日,VBA,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"Old Jochen was right about you, Elise!"
 DLG_4_2_VBA_01_038,唉，真是没救了……！,已修订,唉，真是没救了……！,3063,主线对白DLG,4月2日,VBA,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, this is hopeless...!"
 DLG_4_2_VBA_01_039,确实如此。,,,3064,主线对白DLG,4月2日,VBA,,已译,Truly.
 DLG_4_2_VBA_01_040,尽管去做你的巫术邪术美梦吧，奥蒂莉太太！,,,3065,主线对白DLG,4月2日,VBA,,已译,"Make merry all you want daydreaming about witchery and devilry, Mrs Odilie!"
@@ -4740,7 +4740,7 @@ DLG_4_5_WCR_A_02_007,（也许她真的只是紧张，可是……）,,,4738,主
 DLG_4_5_WCR_A_02_008,（她好冷淡啊……）,已修订,（她好冷淡啊……）,4739,主线对白DLG,4月5日,WCR_A,[全检·P2标点格式] 独白附加问作陈述,已译,"(She's rather cold, isn't she...)"
 DLG_4_5_WCR_A_02_009,那只乌鸦在耍我，他就是在耍我！,,,4740,主线对白DLG,4月5日,WCR_A,,已译,"That crow is toying with me, that's what he's doing!"
 DLG_4_5_WCR_A_02_010,我也说不上喜欢他……,,,4741,主线对白DLG,4月5日,WCR_A,,已译,"I can't say I'm fond of him, either..."
-DLG_4_5_WCR_A_02_011,咱们最好赶紧走出这片树林。,,,4742,主线对白DLG,4月5日,WCR_A,,已译,It's best we hurry out of these woods.
+DLG_4_5_WCR_A_02_011,咱们最好赶紧走出这片树林。,已修订,咱们最好赶紧走出这片森林。,4742,主线对白DLG,4月5日,WCR_A,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,It's best we hurry out of these woods.
 DLG_4_5_WCR_A_02_012,这一切你似乎知道得不少……,,,4743,主线对白DLG,4月5日,WCR_A,,已译,You seem to know quite a bit about all this...
 DLG_4_5_WCR_A_02_013,啊，我向来对很多事都知道得不少，不是吗？,,,4744,主线对白DLG,4月5日,WCR_A,,已译,"Ah, I tend to know a great deal about things, don't I?"
 DLG_4_5_WCR_A_02_014,（这感觉太不对劲了……）,,,4745,主线对白DLG,4月5日,WCR_A,,已译,(This doesn't feel right at all...)
@@ -4807,9 +4807,9 @@ DLG_4_5_WCR_B_01_022,那咱们还是快走吧……,,,4805,主线对白DLG,4月5
 DLG_4_5_WCR_B_01_023,（那些乌鸦刚才为什么在跟萝丝玛琳搭话……？）,已修订,（那些乌鸦刚才为什么在跟萝丝玛琳搭话……？）,4806,主线对白DLG,4月5日,,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,已译,(Why were those crows addressing Rosmarine...?)
 DLG_4_5_WCR_B_01_024,（好像也认识她似的……）,,,4807,主线对白DLG,4月5日,,,已译,"(As though they knew her, too...)"
 DLG_4_5_WCR_B_02_001,看来你是应了侯爵的邀约啊！,已修订,看来你是应了侯爵的邀约啊！,4808,主线对白DLG,4月5日,,[仲裁执行·B9] 句末语气按原文（!，还原「！」）（D5：以原文语气为准）；另修正：增呼语「丫头」（仲裁表 #347）; [整合] 采用A：D5 以原文句末语气为准并含内容修正；B 以本地化微调为由驳回，未采用,已译,I see you've taken the Marquis' invitation!
-DLG_4_5_WCR_B_02_002,不过带着这般良伴同来，可有点不识趣了！,已修订,不过带着这般良伴同来，可有点不识趣了！,4809,主线对白DLG,4月5日,,[仲裁执行·D7] 回退 <b>：good company 暗合信物「良伴」，原文有意不标记（伊莉丝随后理解为指萝丝玛琳），加粗点破双关；句末还原感叹号（仲裁表 #149）; [整合] 采用A：两版都去掉 <b>；A 译出 such（这般）,已译,"It's rather rude to arrive in such good company, however!"
+DLG_4_5_WCR_B_02_002,不过带着这般良伴同来，可有点不识趣了！,已修订,不过，带着这般良伴同来，对<b>祂</b>可有点失礼了！,4809,主线对白DLG,4月5日,,[仲裁执行·D7] 回退 <b>：good company 暗合信物「良伴」，原文有意不标记（伊莉丝随后理解为指萝丝玛琳），加粗点破双关；句末还原感叹号（仲裁表 #149）; [整合] 采用A：两版都去掉 <b>；A 译出 such（这般）; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"It's rather rude to arrive in such good company, however!"
 DLG_4_5_WCR_B_02_003,（大概是在说萝丝玛琳吧……）,已修订,（大概是在说萝丝玛琳吧……）,4810,主线对白DLG,4月5日,,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,已译,"(Referring to Rosmarine, I suppose...)"
-DLG_4_5_WCR_B_02_004,对谁不识趣？,,,4811,主线对白DLG,4月5日,,,已译,To whom?
+DLG_4_5_WCR_B_02_004,对谁不识趣？,已修订,对谁失礼？,4811,主线对白DLG,4月5日,,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,To whom?
 DLG_4_5_WCR_B_02_005,你知道是谁！你知道是谁！,,,4812,主线对白DLG,4月5日,,,已译,You know who! You know who!
 DLG_4_5_WCR_B_02_006,对<b>祂</b>……,已修订,对<b>祂</b>……,4813,主线对白DLG,4月5日,,[语境修复] 修正介词To支配关系：承接002“不识趣(rude)”与004“对谁不识趣?(To whom?)”，译为“对祂……”,已译,To <b>Him</b>...
 DLG_4_5_WCR_B_02_007,<color=#ed1c24><b>良伴</b></color>是给<b>祂</b>预备的，不是给祂手下那位侯爵的。,已修订,<color=#ed1c24><b>良伴</b></color>是给<b>祂</b>预备的，不是给祂手下那位侯爵的。,4814,主线对白DLG,4月5日,,[标签修复] 补全<color=#ed1c24>与<b>祂</b>标签; [全检·小偏差漏译] 补出 His：侯爵是祂手下的,已译,That's who the <color=#ed1c24><b>Good Company</b></color> is for; not for <b>His</b> Marquis.
@@ -4876,13 +4876,13 @@ DLG_4_5_WCR_B_07_003,这不过是个开始……,,,4874,主线对白DLG,4月5日
 DLG_4_5_WCR_B_07_004,啊？,,,4875,主线对白DLG,4月5日,,,已译,Huh?
 DLG_4_5_WCR_B_07_005,"<sprite=""murim"" name=""black"">大人很慷慨呢！<sprite=""murim"" name=""black"">大人很慷慨呢！",,,4876,主线对白DLG,4月5日,,,已译,"Lord <sprite=""murim"" name=""black""> is generous! Lord <sprite=""murim"" name=""black""> is generous!"
 DLG_4_5_WCR_B_07_006,说实话，还远远不够呢。,已修订,说实话，还远远不够呢。,4877,主线对白DLG,4月5日,,[v8口头禅·I'd say] I'd say / I'm certain / I wager 并入句中（我看/肯定/八成），减少「依我说/要我说/我敢肯定」,已译,"Not nearly enough, if I'm honest."
-DLG_4_5_WCR_B_07_007,"<sprite=""aziel"" name=""black"">大人可贪心了！<sprite=""aziel"" name=""black"">大人可贪心了！",,,4878,主线对白DLG,4月5日,,,已译,"Lady <sprite=""aziel"" name=""black""> is greedy! Lady <sprite=""aziel"" name=""black""> is greedy!"
+DLG_4_5_WCR_B_07_007,"<sprite=""aziel"" name=""black"">大人可贪心了！<sprite=""aziel"" name=""black"">大人可贪心了！",已修订,"<sprite=""aziel"" name=""black"">女士可贪心了！<sprite=""aziel"" name=""black"">女士可贪心了！",4878,主线对白DLG,4月5日,,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"Lady <sprite=""aziel"" name=""black""> is greedy! Lady <sprite=""aziel"" name=""black""> is greedy!"
 DLG_4_5_WCR_B_07_008,谁？,已修订,谁？,4879,主线对白DLG,4月5日,,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,Who?
 DLG_4_5_WCR_B_07_009,……,,,4880,主线对白DLG,4月5日,,,已译,...
 DLG_4_5_WCR_B_07_010,"你最好谢谢<sprite=""murim"" name=""black"">大人，丫头！",,,4881,主线对白DLG,4月5日,,,已译,"You'd best give thanks to Lord <sprite=""murim"" name=""black"">, lass!"
-DLG_4_5_WCR_B_07_011,"<sprite=""aziel"" name=""black"">大人可没那么好说话！",,,4882,主线对白DLG,4月5日,,,已译,"Lady <sprite=""aziel"" name=""black""> won't be so forgiving, after all!"
+DLG_4_5_WCR_B_07_011,"<sprite=""aziel"" name=""black"">大人可没那么好说话！",已修订,"<sprite=""aziel"" name=""black"">女士可没那么好说话！",4882,主线对白DLG,4月5日,,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"Lady <sprite=""aziel"" name=""black""> won't be so forgiving, after all!"
 DLG_4_5_WCR_B_07_012,咱们最好继续往前走……,,,4883,主线对白DLG,4月5日,,,已译,We'd best move along...
-DLG_4_5_WCR_B_07_013,"（<sprite=""murim"" name=""black"">大人和<sprite=""aziel"" name=""black"">大人……）",,,4884,主线对白DLG,4月5日,,,已译,"(Lord <sprite=""murim"" name=""black""> and Lady <sprite=""aziel"" name=""black"">...)"
+DLG_4_5_WCR_B_07_013,"（<sprite=""murim"" name=""black"">大人和<sprite=""aziel"" name=""black"">大人……）",已修订,"（<sprite=""murim"" name=""black"">大人和<sprite=""aziel"" name=""black"">女士……）",4884,主线对白DLG,4月5日,,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"(Lord <sprite=""murim"" name=""black""> and Lady <sprite=""aziel"" name=""black"">...)"
 DLG_4_5_WCR_B_07_014,（那只乌鸦说的是谁？为什么萝丝玛琳好像认得这些名字……？）,已修订,（那只乌鸦说的是谁？为什么萝丝玛琳好像认得这些名字……？）,4885,主线对白DLG,4月5日,,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分; [全检·小偏差标点格式] 后一问原文带问号,已译,"(Who is that crow talking about, and why does Rosmarine seem to recognize these names...?)"
 DLG_4_5_WCR_B_07_015,（为什么萝丝玛琳好像认得这些名字……）,已修订,（为什么萝丝玛琳好像认得这些名字……）,4886,主线对白DLG,4月5日,,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,已译,(And why does Rosmarine seem to recognize these names...)
 DLG_4_5_WCR_B_08_001,对不起……,,,4887,主线对白DLG,4月5日,,,已译,I'm sorry...
@@ -4899,7 +4899,7 @@ DLG_4_5_WCR_B_08_011,咱们最好待在一起，萝丝玛琳。,已修订,咱们
 DLG_4_5_WCR_B_08_012,我一直想跟你说……,,,4898,主线对白DLG,4月5日,,,已译,I've been meaning to tell you...
 DLG_4_5_WCR_B_08_013,怎么了，萝丝玛琳？,已修订,怎么了，萝丝玛琳？,4899,主线对白DLG,4月5日,,[语境修复] 解除TM指物问句覆写：承接012 I've been meaning to tell you; [v8同句统一] 同一英文、语境无差别的，统一译法,已译,"What is it, Rosmarine?"
 DLG_4_5_WCR_B_08_014,你最好谁都别信，在这儿遇见的任何人……,,,4900,主线对白DLG,4月5日,,,已译,It's best you don't trust anyone you meet here...
-DLG_4_5_WCR_B_08_015,哪怕是在这片树林里看到的任何东西。,已修订,哪怕是在这片树林里看到的任何东西。,4901,主线对白DLG,4月5日,,[仲裁执行·B9] 句末语气按原文（.，还原「。」）（D5：以原文语气为准）（仲裁表 #348）; [整合] 采用A：D5 以原文句末语气为准；B 以本地化微调为由驳回，未采用,已译,Or even anything you see in these woods.
+DLG_4_5_WCR_B_08_015,哪怕是在这片树林里看到的任何东西。,已修订,哪怕是在这片森林里看到的任何东西。,4901,主线对白DLG,4月5日,,[仲裁执行·B9] 句末语气按原文（.，还原「。」）（D5：以原文语气为准）（仲裁表 #348）; [整合] 采用A：D5 以原文句末语气为准；B 以本地化微调为由驳回，未采用; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,Or even anything you see in these woods.
 DLG_4_5_WCR_B_08_016,这是为什么？,,,4902,主线对白DLG,4月5日,,,已译,Why is that?
 DLG_4_5_WCR_B_08_017,这的确是通往你梦想的路，我……,,,4903,主线对白DLG,4月5日,,,已译,"This truly is the path to reach your dreams, I..."
 DLG_4_5_WCR_B_08_018,这种事我不会骗你的，不过我得说……,,,4904,主线对白DLG,4月5日,,,已译,"I wouldn't lie to you about such a thing, but I ought to say..."
@@ -4920,12 +4920,12 @@ DLG_4_5_WCR_B_08_033,（眼下我不能信任萝丝玛琳……）,已修订,（
 DLG_4_5_WCR_B_08_034,（我最好还是别声张——万一真如那些乌鸦所说……）,,,4919,主线对白DLG,4月5日,,,已译,(I'd best keep to myself — just in case it truly is as those crows said...)
 DLG_4_5_WCR_B_08_035,（她是在提议咱们留在这儿？偏偏是这个地方？）,,,4920,主线对白DLG,4月5日,,,已译,(She's suggesting we stay here? Of all places?)
 DLG_4_5_WCR_B_08_036,还是快离开这儿吧……,,,4921,主线对白DLG,4月5日,,,已译,Ought to get out of here... 
-DLG_4_5_WCR_C_01_001,"<sprite=""aziel"" name=""black"">大人会把你一口吞掉！一口吞掉！",已修订,"<sprite=""aziel"" name=""black"">大人会把你一口吞掉！一口吞掉！",4922,主线对白DLG,4月5日,WCR_C,[全检·小偏差人名术语] Lady <sprite> 同批作「大人」,已译,"Lady <sprite=""aziel"" name=""black""> will gobble you up! Gobble you up!"
+DLG_4_5_WCR_C_01_001,"<sprite=""aziel"" name=""black"">大人会把你一口吞掉！一口吞掉！",已修订,"<sprite=""aziel"" name=""black"">女士会把你一口吞掉！一口吞掉！",4922,主线对白DLG,4月5日,WCR_C,[全检·小偏差人名术语] Lady <sprite> 同批作「大人」; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"Lady <sprite=""aziel"" name=""black""> will gobble you up! Gobble you up!"
 DLG_4_5_WCR_C_01_002,你说的究竟是谁啊，乌鸦？,,,4923,主线对白DLG,4月5日,WCR_C,,已译,"Who in the Lord's name are you talking about, crow?"
 DLG_4_5_WCR_C_01_003,"<sprite=""aziel"" name=""black"">……",,,4924,主线对白DLG,4月5日,WCR_C,,已译,"<sprite=""aziel"" name=""black"">..."
 DLG_4_5_WCR_C_01_004,你知道那是谁吗，萝丝玛琳？,已修订,你知道那是谁吗，萝丝玛琳？,4925,主线对白DLG,4月5日,WCR_C,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,已译,"Do you know who that is, Rosmarine?"
 DLG_4_5_WCR_C_01_005,一口吞掉！一口吞掉！,,,4926,主线对白DLG,4月5日,WCR_C,,已译,Gobble you up! Gobble you up!
-DLG_4_5_WCR_C_01_006,"我倒真希望这位<sprite=""aziel"" name=""black"">大人能把你们这群一口吞了，乌鸦！",已修订,"我倒真希望这位<sprite=""aziel"" name=""black"">大人能把你们这群一口吞了，乌鸦！",4927,主线对白DLG,4月5日,WCR_C,[全检·小偏差漏译] 补出 Lady，讥讽学乌鸦称呼,已译,"How I wish this Lady <sprite=""aziel"" name=""black""> would gobble you lot up, crow!"
+DLG_4_5_WCR_C_01_006,"我倒真希望这位<sprite=""aziel"" name=""black"">大人能把你们这群一口吞了，乌鸦！",已修订,"我倒真希望这位<sprite=""aziel"" name=""black"">女士能把你们这群家伙一口吞了，乌鸦！",4927,主线对白DLG,4月5日,WCR_C,[全检·小偏差漏译] 补出 Lady，讥讽学乌鸦称呼; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"How I wish this Lady <sprite=""aziel"" name=""black""> would gobble you lot up, crow!"
 DLG_4_5_WCR_C_01_007,换作是我，说话可就会当心些，丫头！,,,4928,主线对白DLG,4月5日,WCR_C,,已译,"I'd watch what I said if I were you, lass!"
 DLG_4_5_WCR_C_01_008,你最好真别多说，免得它们……,,,4929,主线对白DLG,4月5日,WCR_C,,已译,"It's best you truly don't, lest they..."
 DLG_4_5_WCR_C_01_009,它们不过是鸟罢了，萝丝玛琳！,已修订,它们不过是鸟罢了，萝丝玛琳！,4930,主线对白DLG,4月5日,WCR_C,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,已译,"They're birds, Rosmarine!"
@@ -4994,7 +4994,7 @@ DLG_4_5_WCR_C_05_027,<b>祂</b>的名讳不可言说，丫头！,已修订,<b>�
 DLG_4_5_WCR_C_05_028,<b>祂</b>叫什么名字我并不在意，乌鸦。,已修订,<b>祂</b>叫什么名字我并不在意，乌鸦。,4993,主线对白DLG,4月5日,WCR_C,[标签修复] 补全神明代词<b>祂</b>加粗强调标签,已译,"Whatever <b>His</b> name is isn't of any concern to me, crow."
 DLG_4_5_WCR_C_05_029,我只想多了解<b>祂</b>，还有<b>祂</b>的意图。,已修订,我只想多了解<b>祂</b>，还有<b>祂</b>的意图。,4994,主线对白DLG,4月5日,WCR_C,[标签修复] 补全神明代词<b>祂</b>加粗强调标签; [仲裁执行·B9] 句末语气按原文（.，还原「。」）（D5：以原文语气为准）（仲裁表 #354）; [整合] 采用A：D5 以原文句末语气为准；B 以本地化微调为由驳回，未采用,已译,All I want is to know more about <b>Him</b> and <b>His</b> intentions.
 DLG_4_5_WCR_C_05_030,<b>祂</b>怎么了？<b>祂</b>怎么了？,已修订,<b>祂</b>怎么了？<b>祂</b>怎么了？,4995,主线对白DLG,4月5日,WCR_C,[标签修复] 补全神明代词<b>祂</b>加粗强调标签,已译,What about <b>Him</b>? What about <b>Him</b>?
-DLG_4_5_WCR_C_05_031,比方说，<b>祂</b>为什么把这双鞋当作赠礼送给我！,已修订,比方说，<b>祂</b>为什么把这双鞋当作赠礼送给我！,4996,主线对白DLG,4月5日,WCR_C,[双关补偿] 呼应032斜体<i>gifted</i>与献祭专名Gifts(赠礼),已译,"Why <b>He's</b> gifted me these shoes, for instance!"
+DLG_4_5_WCR_C_05_031,比方说，<b>祂</b>为什么把这双鞋当作赠礼送给我！,已修订,比方说，<b>祂</b>就把这双鞋当作『赠礼』赐给我了呀！,4996,主线对白DLG,4月5日,WCR_C,[双关补偿] 呼应032斜体<i>gifted</i>与献祭专名Gifts(赠礼); [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"Why <b>He's</b> gifted me these shoes, for instance!"
 DLG_4_5_WCR_C_05_032,说得没错，丫头——是<b>祂</b><i>赐予</i>你的『赠礼』！,已修订,说得没错，丫头——是<b>祂</b><i>赐予</i>你的『赠礼』！,4997,主线对白DLG,4月5日,WCR_C,[双关补偿] 补全<b>祂</b>加粗标签并凸显斜体<i>gifted</i>的反讽双关; [全检·P2标点格式] 定案『赠礼』落实,已译,"Quite right, lass — <b>He's</b> <i>gifted</i> them to you!"
 DLG_4_5_WCR_C_05_033,为你铺好了在满月之夜与<b>祂</b>相见的路——靠的不是别的，正是一道邪咒！,已修订,为你铺好了在满月之夜与<b>祂</b>相见的路——靠的不是别的，正是一道邪咒！,4998,主线对白DLG,4月5日,WCR_C,[标签修复] 补全<b>祂</b>加粗标签，并补译破折号后漏译分句with nothing other than a hex(呼应038“邪咒”),已译,Paved your way to meet <b>Him</b> on the night of the full moon — with nothing other than a hex!
 DLG_4_5_WCR_C_05_034,满月之夜？,已修订,满月之夜？,4999,主线对白DLG,4月5日,WCR_C,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,On the night of the full moon?
@@ -5229,7 +5229,7 @@ DLG_5_1_VST_02_022,老斯特凡是拖到临终才说出那番话的……,,,5227
 DLG_5_1_VST_02_023,天晓得老约亨会撂下什么样的诅咒……,,,5228,主线对白DLG,5月1日,VST,,已译,Who knows what curses Old Jochen might...
 DLG_5_1_VST_02_024,胡说八道，罗蕾莱！,,,5229,主线对白DLG,5月1日,VST,,已译,"Nonsense, Loreley!"
 DLG_5_1_VST_02_025,这话题我不想谈——不是这儿，也不是现在！,,,5230,主线对白DLG,5月1日,VST,,已译,"I'm not having this conversation - not here, not now!"
-DLG_5_1_VST_02_026,（诅咒……）,已修订,（诅咒……）,5231,主线对白DLG,5月1日,VST,"[语境修复] 优化括号内心独白句尾, huh的机械反问“、是吧/是吗”，还原自言自语的沉思语气",已译,"(Curses, huh...?)"
+DLG_5_1_VST_02_026,（诅咒……）,已修订,（诅咒啊……）,5231,主线对白DLG,5月1日,VST,"[语境修复] 优化括号内心独白句尾, huh的机械反问“、是吧/是吗”，还原自言自语的沉思语气; [v9发布前审查] 按用户指定修复语义、语气或术语回环",已译,"(Curses, huh...?)"
 DLG_5_1_VST_02_027,（原来罗蕾莱太太觉得老斯特凡对基弗伯格下了咒……）,,,5232,主线对白DLG,5月1日,VST,,已译,(So Mrs Loreley thinks Old Stefan's cursed Kieferberg...)
 DLG_5_1_VST_02_028,（不知道是不是只有她一个人这么想……）,,,5233,主线对白DLG,5月1日,VST,,已译,(I wonder if she's the only one...)
 DLG_5_1_VWM_01_001,我看它们是打屋顶钻进去的，古斯塔夫。,已修订,我看它们是打屋顶钻进去的，古斯塔夫。,5234,主线对白DLG,5月1日,VWM,[v8口头禅·I'd say] I'd say / I'm certain / I wager 并入句中（我看/肯定/八成），减少「依我说/要我说/我敢肯定」,已译,"I'd say they snuck in through the roof, Gustav."
@@ -5607,7 +5607,7 @@ DLG_5_3_VBA_02_001,你最好勤着点忏悔，多萝特娅……,,,5605,主线�
 DLG_5_3_VBA_02_002,要知道，母亲的罪孽可是会传给孩子的！,已修订,要知道，母亲的罪孽可是会传给孩子的！,5606,主线对白DLG,,VBA,[v8口头禅·for certain] that's for certain 并入句中（可真是/确实/肯定），不再硬对「这是肯定的/准没错」,已译,"A mother's sin passes on to her child, you know!"
 DLG_5_3_VBA_02_003,哎呀，真是够了！,已修订,哎呀，真是够了！,5607,主线对白DLG,,VBA,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, for goodness' sake!"
 DLG_5_3_VBA_02_004,哎呀，这可是千真万确的事，伊莉丝……！,,,5608,主线对白DLG,,VBA,,已译,"Why, it's a fact, Elise...!"
-DLG_5_3_VBA_02_005,多萝特娅，你该做的，是这九个月一直戴着玫瑰经念珠。,,,5609,主线对白DLG,,VBA,,已译,"What you ought to do, Dorothea, is wear your rosary all nine months."
+DLG_5_3_VBA_02_005,多萝特娅，你该做的，是这九个月一直戴着玫瑰经念珠。,已修订,多萝特娅，你该做的，是这九个月一直戴着玫瑰念珠。,5609,主线对白DLG,,VBA,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"What you ought to do, Dorothea, is wear your rosary all nine months."
 DLG_5_3_VBA_02_006,啊，我会的！我会的！可布伦希尔德，她……,已修订,啊，我会的！我会的！可布伦希尔德，她……,5610,主线对白DLG,,VBA,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, I will! I will! But Brunhilde, she..."
 DLG_5_3_VBA_02_007,布伦希尔德太太怎么了？,,,5611,主线对白DLG,,VBA,,已译,What about Mrs. Brunhilde?
 DLG_5_3_VBA_02_008,她一直在搞那些……占卜……,,,5612,主线对白DLG,,VBA,,已译,She's been doing these... divinations...
@@ -6047,7 +6047,7 @@ DLG_5_4_OLH_01_002,去哪儿，琳达太太？,,,6045,主线对白DLG,,OLH,,已�
 DLG_5_4_OLH_01_003,我们要去莉丝贝特家看看，伊莉丝。,,,6046,主线对白DLG,,OLH,,已译,"We're stopping by Lisbeth's, Elise."
 DLG_5_4_OLH_01_004,我可怜的雅各布也一直静不下来……,,,6047,主线对白DLG,,OLH,,已译,"Oh, my poor Jakob won't settle down..."
 DLG_5_4_OLH_01_005,这事儿肯定是苦了那些孩子。,已修订,这事儿肯定是苦了那些孩子。,6048,主线对白DLG,,OLH,[仲裁执行·B3] children 含女孩（格吕妮），「小子/儿子」不对；改「孩子(们)」（译者说明只规定 lads/laddies→小子们）（仲裁表 #124）; [整合] 采用A：同 DLG_5_3_VIN_04_008,已译,"It's taking a toll on the children, that's for certain."
-DLG_5_4_OLH_01_006,我会问问她，愿不愿意让她家小子们上我们家过夜。,,,6049,主线对白DLG,,OLH,,已译,I'm meaning to ask her if they would like to spend the night with us.
+DLG_5_4_OLH_01_006,我会问问她，愿不愿意让她家小子们上我们家过夜。,已修订,我会问问她，愿不愿意让两个孩子上我们家过夜。,6049,主线对白DLG,,OLH,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,I'm meaning to ask her if they would like to spend the night with us.
 DLG_5_4_OLH_01_007,他们准会很乐意凑在一块儿待上一阵子的。,已修订,他们准会很乐意凑在一块儿待上一阵子的。,6050,主线对白DLG,,OLH,[v8口头禅·I'd say] I'd say / I'm certain / I wager 并入句中（我看/肯定/八成），减少「依我说/要我说/我敢肯定」,已译,"They'd appreciate spending some time together, I'd wager."
 DLG_5_4_OLH_01_008,莉丝贝特多半是想守着阿普菲尔，琳达。,,,6051,主线对白DLG,,OLH,,已译,"Lisbeth will most likely want to watch over Apfel, Linda."
 DLG_5_4_OLH_01_009,啊，也是……,已修订,啊，也是……,6052,主线对白DLG,,OLH,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, that's true..."
@@ -6074,7 +6074,7 @@ DLG_5_4_OLH_01_029,（布伦希尔德太太还真是经不起这些迷信说法�
 DLG_5_4_OLH_01_030,（但愿她们别拿这些胡话去烦莉丝贝特太太……）,,,6073,主线对白DLG,,OLH,,已译,(I can only hope they won't pester Mrs Lisbeth with that nonsense...)
 DLG_5_4_VBA_01_001,唉，阿丽亚娜！我已经没救了！,已修订,唉，阿丽亚娜！我已经没救了！,6074,主线对白DLG,,VBA,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, Ariane! It's too late for me!"
 DLG_5_4_VBA_01_002,又怎么了，奥蒂莉太太？,,,6075,主线对白DLG,,VBA,,已译,"What now, Mrs. Odilie?"
-DLG_5_4_VBA_01_003,这老丫头觉得自己要下地狱了，伊莉丝！,,,6076,主线对白DLG,,VBA,,已译,"The old lass thinks she's headed to hell, Elise!"
+DLG_5_4_VBA_01_003,这老丫头觉得自己要下地狱了，伊莉丝！,已修订,这位老太太觉得自己要下地狱了，伊莉丝！,6076,主线对白DLG,,VBA,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"The old lass thinks she's headed to hell, Elise!"
 DLG_5_4_VBA_01_004,呀！,,,6077,主线对白DLG,,VBA,,已译,Eek!
 DLG_5_4_VBA_01_005,这可不是闹着玩的，各位！,,,6078,主线对白DLG,,VBA,,已译,"This is no laughing matter, folks!"
 DLG_5_4_VBA_01_006,奥蒂莉太太怎么会下地狱呢，威廉先生？,,,6079,主线对白DLG,,VBA,,已译,"Why would Mrs. Odilie be headed to hell, Mr. Wilhelm?"
@@ -6160,7 +6160,7 @@ DLG_5_4_VCH_01_014,大伙儿也是不明就里，伊莉丝——这事儿实在�
 DLG_5_4_VCH_01_015,既然这样，那我倒建议您去找老约亨谈谈才对。,已修订,既然这样，那我倒建议您去找老约亨谈谈才对。,6159,主线对白DLG,,VCH,[全检·小偏差人称称谓] 伊莉丝对神父顶撞时也用「您」,已译,"If that's the case, then I'd recommend having a word with Old Jochen instead."
 DLG_5_4_VCH_01_016,成天没日没夜恐吓奥蒂莉太太的，可是他。,,,6160,主线对白DLG,,VCH,,已译,He's the one terrorizing Mrs. Odilie day and night.
 DLG_5_4_VCH_01_017,老约亨那可完全是另一码事，丫头。,,,6161,主线对白DLG,,VCH,,已译,"Old Jochen's a different matter altogether, lass."
-DLG_5_4_VCH_01_018,既然如此，我看咱们也没什么好谈的了，神父。,已修订,既然如此，我看咱们也没什么好谈的了，神父。,6162,主线对白DLG,,VCH,[全检·P2误译] 结束谈话非断交；very much done 语气冷,已译,"In that case, I believe we're very much done here, Father."
+DLG_5_4_VCH_01_018,既然如此，我看咱们也没什么好谈的了，神父。,已修订,既然如此，那我们就谈到这儿吧，神父。,6162,主线对白DLG,,VCH,[全检·P2误译] 结束谈话非断交；very much done 语气冷; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"In that case, I believe we're very much done here, Father."
 DLG_5_4_VCH_01_019,……,,,6163,主线对白DLG,,VCH,,已译,...
 DLG_5_4_VCH_01_020,（他还嫌我态度不好！）,,,6164,主线对白DLG,,VCH,,已译,"(My attitude, he says!)"
 DLG_5_4_VCH_01_021,<i>好声好气</i>，是吧？,已修订,<i>好声好气</i>，是吧？,6165,主线对白DLG,,VCH,[全检·P3衔接] 回声复述 006「好声好气」,已译,"<i>Nicely</i>, huh?"
@@ -6174,7 +6174,7 @@ DLG_5_4_VCH_01_028,你该明白，这些乱七八糟的事儿，正搅得人心�
 DLG_5_4_VCH_01_029,我把话撂这儿，这事儿压根轮不到您管，神父！,已修订,我把话撂这儿，这事儿压根轮不到您管，神父！,6173,主线对白DLG,,VCH,[全检·小偏差人称称谓] 伊莉丝对神父顶撞时也用「您」,已译,"I'll have you know, none of this is any of your business, Father!"
 DLG_5_4_VCH_01_030,说到底，也轮不到别的任何人管！,,,6174,主线对白DLG,,VCH,,已译,"Or anyone else's, for that matter!"
 DLG_5_4_VCH_01_031,我听说，你近来行事可是相当不老实。,,,6175,主线对白DLG,,VCH,,已译,"You've been rather deceitful, I've heard."
-DLG_5_4_VCH_01_032,既然如此，我看咱们也没什么好谈的了，神父。,已修订,既然如此，我看咱们也没什么好谈的了，神父。,6176,主线对白DLG,,VCH,[全检·P2误译] 结束谈话非断交；very much done 语气冷,已译,"In that case, I believe we're very much done here, Father."
+DLG_5_4_VCH_01_032,既然如此，我看咱们也没什么好谈的了，神父。,已修订,既然如此，那我们就谈到这儿吧，神父。,6176,主线对白DLG,,VCH,[全检·P2误译] 结束谈话非断交；very much done 语气冷; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"In that case, I believe we're very much done here, Father."
 DLG_5_4_VCH_01_033,……,,,6177,主线对白DLG,,VCH,,已译,...
 DLG_5_4_VCH_01_034,（他竟说我不老实！）,,,6178,主线对白DLG,,VCH,,已译,"(Deceitful, he says!)"
 DLG_5_4_VCH_01_035,你该知道什么时候管住舌头，伊莉丝。,,,6179,主线对白DLG,,VCH,,已译,"Ought to know when to hold your tongue, Elise."
@@ -6282,7 +6282,7 @@ DLG_5_4_VSQ_01_007,你表妹对这些习俗还真是执着，是不是？,,,6280
 DLG_5_4_VSQ_01_008,她就是爱做白日梦罢了，威廉先生！,已修订,她就是爱做白日梦罢了，威廉先生！,6281,主线对白DLG,,VSQ,[v8口头禅·is all] is all / that's all 不再硬对「仅此而已」，按语境转为「罢了/而已/嘛」或并入句中,已译,"She enjoys spending her time daydreaming, Mr. Wilhelm, is all!"
 DLG_5_4_VSQ_01_009,可这不是……,已修订,可这不是……,6282,主线对白DLG,,VSQ,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, but it's not..."
 DLG_5_4_VSQ_01_010,依我看，她就是有点太随心所欲了！,已修订,依我看，她就是有点太随心所欲了！,6283,主线对白DLG,,VSQ,[全检·P2翻译腔] that's what! 作强调句式,已译,"Sounds to me she's a little too free-spirited, that's what!"
-DLG_5_4_VSQ_01_011,我倒是有点怀疑了，伊莉丝——她真是普里梅尔多夫人吗？,,,6284,主线对白DLG,,VSQ,,已译,"I'm having my doubts here, Elise - is she truly from Primeldorf?"
+DLG_5_4_VSQ_01_011,我倒是有点怀疑了，伊莉丝——她真是普里梅尔多夫人吗？,已修订,我倒是有点怀疑了，伊莉丝——她真是从普里梅尔多夫来的吗？,6284,主线对白DLG,,VSQ,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"I'm having my doubts here, Elise - is she truly from Primeldorf?"
 DLG_5_4_VSQ_01_012,就是做白日梦罢了，威廉先生。,,,6285,主线对白DLG,,VSQ,,已译,"It's just daydreaming, Mr. Wilhelm."
 DLG_5_4_VSQ_01_013,她一直都这样——就是有点古怪罢了！,已修订,她一直都这样——就是有点古怪罢了！,6286,主线对白DLG,,VSQ,[v8口头禅·is all] is all / that's all 不再硬对「仅此而已」，按语境转为「罢了/而已/嘛」或并入句中,已译,"She's always been like this — a bit kooky, is all!"
 DLG_5_4_VSQ_01_014,啊，是的……！,,,6287,主线对白DLG,,VSQ,,已译,Ah! Yes...!
@@ -8227,7 +8227,7 @@ DLG_7_1_HFY_01_002,哎呀，咱们一会儿就要浑身湿透了！,已修订,�
 DLG_7_1_HFY_01_003,这让我想起以前和奶奶一块儿冒雨散步的时候！,,,8226,主线对白DLG,7月1日,HFY,,已译,It reminds me of when Granny and I would go on strolls in the rain!
 DLG_7_1_HFY_01_004,你们那是何苦呢？,,,8227,主线对白DLG,7月1日,HFY,,已译,Why would you do such a thing?
 DLG_7_1_HFY_01_005,奶奶一直都是这么说的，伊莉丝……,已修订,奶奶一直都是这么说的，伊莉丝……,8228,主线对白DLG,7月1日,HFY,[仲裁执行·B9] 句末语气按原文（...，还原「……」）（D5：以原文语气为准）（仲裁表 #446）; [整合] 采用A：D5 以原文句末语气为准；B 以本地化微调为由驳回，未采用,已译,"It's as Granny always used to say, Elise..."
-DLG_7_1_HFY_01_006,咱们应当顺其自然，接纳万物本来的模样！,已修订,咱们应当顺其自然，接纳万物本来的模样！,8229,主线对白DLG,7月1日,HFY,[仲裁执行·B9] 句末语气按原文（!，还原「！」）（D5：以原文语气为准）（仲裁表 #447）; [整合] 采用A：D5 以原文句末语气为准；B 以本地化微调为由驳回，未采用,已译,We ought to embrace things as they are — in their purest state!
+DLG_7_1_HFY_01_006,咱们应当顺其自然，接纳万物本来的模样！,已修订,咱们应当顺其自然，接纳万物本来的样子——接纳它们最纯粹的模样！,8229,主线对白DLG,7月1日,HFY,[仲裁执行·B9] 句末语气按原文（!，还原「！」）（D5：以原文语气为准）（仲裁表 #447）; [整合] 采用A：D5 以原文句末语气为准；B 以本地化微调为由驳回，未采用; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,We ought to embrace things as they are — in their purest state!
 DLG_7_1_HFY_01_007,我看这话未必适用于下雨天吧，萝丝玛琳！,已修订,我看这话未必适用于下雨天吧，萝丝玛琳！,8230,主线对白DLG,7月1日,HFY,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分；[语境修复] 恢复句末感叹号(!),已译,"I'm not sure that applies to the rain, Rosmarine!"
 DLG_7_1_HFY_01_008,哎呀，这话适用于人生中的一切呢，伊莉丝！,,,8231,主线对白DLG,7月1日,HFY,,已译,"Why, it applies to everything in life, Elise!"
 DLG_7_1_HFY_01_009,既然你这么说……,,,8232,主线对白DLG,7月1日,HFY,,已译,If you say so...
@@ -8967,7 +8967,7 @@ DLG_7_4_OLH_01_002,话是这么说，吉多……可照这样下去……,,,8965
 DLG_7_4_OLH_01_003,依我看，随便哪个镇子都比基弗伯格强。,,,8966,主线对白DLG,,OLH,,已译,"Any town's better than Kieferberg, the way I see it."
 DLG_7_4_OLH_01_004,布伦希尔德也一直这么说，丫头……,,,8967,主线对白DLG,,OLH,,已译,"Brunhilde's been saying the same thing, lass..."
 DLG_7_4_OLH_01_005,基弗伯格是咱们的家啊，芬恩！,,,8968,主线对白DLG,,OLH,,已译,"Kieferberg is our home, Fynn!"
-DLG_7_4_OLH_01_006,布伦希尔德太太不是普里梅尔多夫人吗？,,,8969,主线对白DLG,,OLH,,已译,Isn't Mrs. Brunhilde from Primeldorf?
+DLG_7_4_OLH_01_006,布伦希尔德太太不是普里梅尔多夫人吗？,已修订,布伦希尔德太太不是从普里梅尔多夫来的吗？,8969,主线对白DLG,,OLH,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,Isn't Mrs. Brunhilde from Primeldorf?
 DLG_7_4_OLH_01_007,话虽如此，她还是选了基弗伯格来……,已修订,话虽如此，她还是选了基弗伯格来……,8970,主线对白DLG,,OLH,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,"That being so, she still chose Kieferberg to..."
 DLG_7_4_OLH_01_008,你真觉得在这儿养大你的孩子们，会开心吗，吉多？,已修订,你真觉得在这儿养大你的孩子们，会开心吗，吉多？,8971,主线对白DLG,,OLH,[仲裁执行·B3] children 含女孩（格吕妮），「小子/儿子」不对；改「孩子(们)」（译者说明只规定 lads/laddies→小子们）（仲裁表 #128）; [v6批量B3] 修正children误译为男性专指“小子/儿子”（含女孩格吕妮），统一为“孩子(们)”; [整合] A=B：双方译文一致，合并双方备注,已译,"Would you truly be happy to raise your children here, Guido?"
 DLG_7_4_OLH_01_009,没个像样的学堂，也没个像样的活计……,,,8972,主线对白DLG,,OLH,,已译,"Without proper schooling, or jobs..."
@@ -9155,7 +9155,7 @@ DLG_7_5_HFY_01_003,最要紧的是你的决心，还记得吗？,,,9153,主线�
 DLG_7_5_HFY_01_004,那是什么意思，萝丝玛琳？,已修订,那是什么意思，萝丝玛琳？,9154,主线对白DLG,7月5日,HFY,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,已译,"What does that mean, Rosmarine?"
 DLG_7_5_HFY_01_005,血——你要献给<b>祂</b>的，就是血，不是吗？,,,9155,主线对白DLG,7月5日,HFY,,已译,"Blood — that's what you're going to offer <b>Him</b>, isn't it?"
 DLG_7_5_HFY_01_006,这个嘛……,,,9156,主线对白DLG,7月5日,HFY,,已译,Well...
-DLG_7_5_HFY_01_007,你<i>必须</i>向<b>祂</b>证明你的决意，伊莉丝……,,,9157,主线对白DLG,7月5日,HFY,,已译,"You <i>must</i> show <b>Him</b> your commitment, Elise..."
+DLG_7_5_HFY_01_007,你<i>必须</i>向<b>祂</b>证明你的决意，伊莉丝……,已修订,你<i>必须</i>向<b>祂</b>证明你的决心，伊莉丝……,9157,主线对白DLG,7月5日,HFY,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"You <i>must</i> show <b>Him</b> your commitment, Elise..."
 DLG_7_5_HFY_01_008,无论如何，你都要证明自己甘愿舍弃<i>一切</i>……,,,9158,主线对白DLG,7月5日,HFY,,已译,"Whatever you do, you must prove you're willing to leave <i>everything</i> behind..."
 DLG_7_5_HFY_01_009,你的信仰，你所爱之人……,,,9159,主线对白DLG,7月5日,HFY,,已译,"Your faith, your loved ones..."
 DLG_7_5_HFY_01_010,萝丝玛琳……,已修订,萝丝玛琳……,9160,主线对白DLG,7月5日,HFY,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分；[语境修复] 还原Rosmarine...的低落/迟疑呼唤语气(……)，解除TM感叹号覆写,已译,Rosmarine...
@@ -9263,8 +9263,8 @@ DLG_7_6_VSQ_02_009,你说的<color=#ed1c24><b>良伴</b></color>……,,,9261,�
 DLG_7_6_VSQ_02_010,我还是不懂那究竟是什么……,,,9262,主线对白DLG,,VSQ,,已译,I still don't understand what that is...
 DLG_7_6_VSQ_02_011,哎呀，就是你心上的人呀，伊莉丝！,,,9263,主线对白DLG,,VSQ,,已译,"Why, it's the object of your affections, Elise!"
 DLG_7_6_VSQ_02_012,我心上的人……,,,9264,主线对白DLG,,VSQ,,已译,"The object of my affections, you say..."
-DLG_7_6_VSQ_02_013,要紧的是真心相许呀，伊莉丝！,,,9265,主线对白DLG,,VSQ,,已译,"It's all about commitment, Elise!"
-DLG_7_6_VSQ_02_014,哼，什么<i>真心</i>不真心的，这套鬼话我真是受够了……！,已修订,哼，什么<i>真心</i>不真心的，这套鬼话我真是受够了……！,9266,主线对白DLG,,VSQ,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」; [全检·P2衔接] commitment 同场作「真心」，接 015/027,已译,"Oh, I've had it with this <i>commitment</i> nonsense...!"
+DLG_7_6_VSQ_02_013,要紧的是真心相许呀，伊莉丝！,已修订,最要紧的是决心呀，伊莉丝！,9265,主线对白DLG,,VSQ,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"It's all about commitment, Elise!"
+DLG_7_6_VSQ_02_014,哼，什么<i>真心</i>不真心的，这套鬼话我真是受够了……！,已修订,哼，什么<i>决心</i>不决心的，这套鬼话我真是受够了……！,9266,主线对白DLG,,VSQ,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」; [全检·P2衔接] commitment 同场作「真心」，接 015/027; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"Oh, I've had it with this <i>commitment</i> nonsense...!"
 DLG_7_6_VSQ_02_015,这个词我再也不想听见了！,,,9267,主线对白DLG,,VSQ,,已译,I never want to hear that word ever again!
 DLG_7_6_VSQ_02_016,你可真爱大惊小怪，伊莉丝！,,,9268,主线对白DLG,,VSQ,,已译,"You're so dramatic, Elise!"
 DLG_7_6_VSQ_02_017,啊，我多想做你的<color=#ed1c24><b>良伴</b></color>呀！,,,9269,主线对白DLG,,VSQ,,已译,"Oh, how I would love to be your <color=#ed1c24><b>Good Company</b></color>!"
@@ -9273,12 +9273,12 @@ DLG_7_6_VSQ_02_019,怎么？我说错什么了吗？,,,9271,主线对白DLG,,VSQ
 DLG_7_6_VSQ_02_020,<color=#ed1c24><b>良伴</b></color>到底是什么，萝丝玛琳？,已修订,<color=#ed1c24><b>良伴</b></color>到底是什么，萝丝玛琳？,9272,主线对白DLG,,VSQ,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,已译,"What is the <color=#ed1c24><b>Good Company</b></color>, Rosmarine?"
 DLG_7_6_VSQ_02_021,唔……其实你心底早就明白了……,,,9273,主线对白DLG,,VSQ,,已译,"Well... I'm certain you already know, deep down..."
 DLG_7_6_VSQ_02_022,它说到底，便是你那颗心的化身，伊莉丝……,,,9274,主线对白DLG,,VSQ,,已译,"It's essentially a representation of your heart, Elise..."
-DLG_7_6_VSQ_02_023,这么说，是肉体、鲜血，再加上心。,,,9275,主线对白DLG,,VSQ,,已译,"So we have the flesh, the blood and the heart."
+DLG_7_6_VSQ_02_023,这么说，是肉体、鲜血，再加上心。,已修订,这么说，是血肉、鲜血，再加上心。,9275,主线对白DLG,,VSQ,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"So we have the flesh, the blood and the heart."
 DLG_7_6_VSQ_02_024,这背后的含义我都明白，可是……,,,9276,主线对白DLG,,VSQ,,已译,"I understand the meaning behind all that, but..."
 DLG_7_6_VSQ_02_025,就是你所爱之人，伊莉丝。,,,9277,主线对白DLG,,VSQ,,已译,"It's the one you love, Elise."
 DLG_7_6_VSQ_02_026,啊？,,,9278,主线对白DLG,,VSQ,,已译,Huh?
 DLG_7_6_VSQ_02_027,你须向<b>祂</b>证明你的真心……,,,9279,主线对白DLG,,VSQ,,已译,You must show <b>Him</b> you're committed...
-DLG_7_6_VSQ_02_028,献上你的肉体、你的鲜血，还有……,,,9280,主线对白DLG,,VSQ,,已译,"By offering him your flesh, and your blood, and..."
+DLG_7_6_VSQ_02_028,献上你的肉体、你的鲜血，还有……,已修订,献上你的血肉、你的鲜血，还有……,9280,主线对白DLG,,VSQ,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"By offering him your flesh, and your blood, and..."
 DLG_7_6_VSQ_02_029,以你最不设防的姿态，现身于<b>祂</b>面前。,,,9281,主线对白DLG,,VSQ,,已译,By appearing before <b>Him</b> in your most vulnerable state.
 DLG_7_6_VSQ_02_030,你不会是说……,,,9282,主线对白DLG,,VSQ,,已译,You don't mean...
 DLG_7_6_VSQ_02_031,你最爱的那个人，伊莉丝……,,,9283,主线对白DLG,,VSQ,,已译,"The one you love most, Elise..."
@@ -10945,7 +10945,7 @@ CUT_2_5_HLR_01_049,要是她说了，我们可就……,,,10943,过场对白CUT,
 CUT_2_5_HLR_01_050,会有麻烦，我知道，萝丝玛琳。,已修订,会有麻烦，我知道，萝丝玛琳。,10944,过场对白CUT,2月5日,HLR,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,已译,"In trouble, I know, Rosmarine."
 CUT_2_5_HLR_01_051,是萝森玛琳啦……,已修订,是萝森玛琳啦……,10945,过场对白CUT,2月5日,HLR,[名称规范] 区分真名Rozenmarine与错叫名萝丝玛琳，还原纠正语气; [v8同句统一] 错叫名梗统一,已译,It's Rozenmarine...
 CUT_2_5_HLR_01_052,哎呀，闭嘴吧！,已修订,哎呀，闭嘴吧！,10946,过场对白CUT,2月5日,HLR,[语境修复] 解除TM省略号覆写：还原原文感叹号(!)的急切/惊叹/强调语气; [v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, shush it!"
-CUT_2_5_HLR_01_053,来吧，咱们先把晚饭吃完，安顿你下来。,,,10947,过场对白CUT,2月5日,HLR,,已译,"Come, now, we'd best finish supper and get you settled."
+CUT_2_5_HLR_01_053,来吧，咱们先把晚饭吃完，安顿你下来。,已修订,来吧，咱们先吃完晚饭，再让你安顿下来。,10947,过场对白CUT,2月5日,HLR,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"Come, now, we'd best finish supper and get you settled."
 CUT_2_5_HLR_01_060,你、你真是太坏了，伊莉丝！,,,10948,过场对白CUT,2月5日,HLR,,已译,"Y-You're so mean, Elise!"
 CUT_2_5_HLR_01_061,你们俩都吃上晚饭了，总能分我点好的吧！,,,10949,过场对白CUT,2月5日,HLR,,已译,"You two are having supper, surely you can spare me something better!"
 CUT_2_5_HLR_01_062,你这不知好歹的丫头！,,,10950,过场对白CUT,2月5日,HLR,,已译,You ungrateful lassie!
@@ -11440,7 +11440,7 @@ CUT_3_3_VSQ_02_003,她长得好滑稽！看她那顶傻帽子！,,,11438,过场�
 CUT_3_3_VSQ_02_004,安格莉卡！别没礼貌！,,,11439,过场对白CUT,3月3日,VSQ,,已译,Angelika! Don't be rude!
 CUT_3_3_VSQ_02_005,你认识这丫头吗，莉丝贝特？,,,11440,过场对白CUT,3月3日,VSQ,,已译,"Do you know this lass, Lisbeth?"
 CUT_3_3_VSQ_02_006,伊、伊莉丝说她是普里梅尔多夫来的！,,,11441,过场对白CUT,3月3日,VSQ,,已译,E-Elise said she's from Primeldorf!
-CUT_3_3_VSQ_02_007,啊，我不是普里梅尔多夫人，我从没……,已修订,啊，我不是普里梅尔多夫人，我从没……,11442,过场对白CUT,3月3日,VSQ,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, I'm not from Primeldorf, I've never had a..."
+CUT_3_3_VSQ_02_007,啊，我不是普里梅尔多夫人，我从没……,已修订,啊，我不是从普里梅尔多夫来的，我从没……,11442,过场对白CUT,3月3日,VSQ,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"Oh, I'm not from Primeldorf, I've never had a..."
 CUT_3_3_VSQ_02_008,我一点头绪都没有，阿丽亚娜！,,,11443,过场对白CUT,3月3日,VSQ,,已译,"Why, I haven't the faintest idea, Ariane!"
 CUT_3_3_VSQ_02_009,啊，我在找伊莉丝——您见过她吗？,,,11444,过场对白CUT,3月3日,VSQ,,已译,"Ah, I'm looking for Elise — have you seen her?"
 CUT_3_3_VSQ_02_010,伊莉丝？你认识她？,,,11445,过场对白CUT,3月3日,VSQ,,已译,Elise? Do you know her?
@@ -14002,7 +14002,7 @@ CUT_7_5_OLH_02_021,唉，伊莉丝——我们问过汉斯神父，他说那是�
 CUT_7_5_OLH_02_022,是疯病，伊莉丝！要不然，她就是在跟<i>什么人</i>说话！,,,14001,过场对白CUT,7月5日,OLH,,已译,"Of madness, Elise! Either that, or she's talking to <i>someone</i>!"
 CUT_7_5_OLH_02_023,布伦希尔德……还是别说了……,,,14002,过场对白CUT,7月5日,OLH,,已译,Brunhilde... It's best we don't...
 CUT_7_5_OLH_02_024,哎呀，还有一桩事，伊莉丝！,,,14003,过场对白CUT,7月5日,OLH,,已译,"Oh, but one more thing, Elise!"
-CUT_7_5_OLH_02_025,奥蒂莉太太要送她玫瑰经念珠，你表亲竟不肯收！,,,14004,过场对白CUT,7月5日,OLH,,已译,Your cousin rejected the rosary Mrs. Odilie tried to give her!
+CUT_7_5_OLH_02_025,奥蒂莉太太要送她玫瑰经念珠，你表亲竟不肯收！,已修订,奥蒂莉太太要送她玫瑰念珠，你表亲竟不肯收！,14004,过场对白CUT,7月5日,OLH,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,Your cousin rejected the rosary Mrs. Odilie tried to give her!
 CUT_7_5_OLH_02_026,她脸皮薄，布伦希尔德太太。,,,14005,过场对白CUT,7月5日,OLH,,已译,"She's shy, Mrs. Brunhilde."
 CUT_7_5_OLH_02_027,我给她送过新裙子、新帽子，连新鞋都送过！,,,14006,过场对白CUT,7月5日,OLH,,已译,"I've tried to give her a new dress, a new hat and new shoes, even!"
 CUT_7_5_OLH_02_028,她全都不要吗，伊莉丝？,,,14007,过场对白CUT,7月5日,OLH,,已译,"And she's rejected all of it, Elise?"
@@ -14011,7 +14011,7 @@ CUT_7_5_OLH_02_030,原来如此……这么说，倒不是心存恶意……,,,1
 CUT_7_5_OLH_02_031,当然不是，布伦希尔德太太！,,,14010,过场对白CUT,7月5日,OLH,,已译,"Of course not, Mrs. Brunhilde!"
 CUT_7_5_OLH_02_032,她不过是打小家境寒微罢了！,已修订,她不过是打小家境寒微罢了！,14011,过场对白CUT,7月5日,OLH,[v8口头禅·is all] is all / that's all 不再硬对「仅此而已」，按语境转为「罢了/而已/嘛」或并入句中,已译,"She was raised in a very humble household, that's all there is to it!"
 CUT_7_5_OLH_02_033,她信的教跟咱们不一样。,,,14012,过场对白CUT,7月5日,OLH,,已译,She's from a different faith.
-CUT_7_5_OLH_02_034,玫瑰经对她怕是派不上什么用场。,,,14013,过场对白CUT,7月5日,OLH,,已译,I suppose a rosary wouldn't do much for her.
+CUT_7_5_OLH_02_034,玫瑰经对她怕是派不上什么用场。,已修订,玫瑰念珠对她怕是派不上什么用场。,14013,过场对白CUT,7月5日,OLH,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,I suppose a rosary wouldn't do much for her.
 CUT_7_5_OLH_02_035,你说……信的教不一样？,,,14014,过场对白CUT,7月5日,OLH,,已译,"A different faith, you say?"
 CUT_7_5_OLH_02_036,哎呀伊莉丝，这可不妙啊！,,,14015,过场对白CUT,7月5日,OLH,,已译,"Oh, Elise, that can't be good!"
 CUT_7_5_OLH_02_037,没什么妨害的，多萝特娅太太。,,,14016,过场对白CUT,7月5日,OLH,,已译,"It's harmless, Mrs. Dorothea."
@@ -15633,18 +15633,19 @@ CUT_WSV_Z_Intro_01_001,啊？,,,15631,过场对白CUT,—,WSV_Z_Intro,,已译,Hu
 CUT_WSV_Z_Intro_01_002,萝丝玛琳！你在哪儿？！,已修订,萝丝玛琳！你在哪儿？！,15632,过场对白CUT,—,WSV_Z_Intro,[名称规范] 将伊莉丝错叫名Rosmarine统一替换为“萝丝玛琳”，与真名Rozenmarine(萝森玛琳)区分,已译,Rosmarine! Where are you?!
 CUT_WSV_Z_Intro_01_003,是那条毒蛇……,已修订,是那条毒蛇……,15633,过场对白CUT,—,WSV_Z_Intro,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,It's that serpent...
 CUT_WSV_Z_Intro_01_004,除了继续走下去，我别无选择。,已修订,除了继续走下去，我别无选择。,15634,过场对白CUT,—,WSV_Z_Intro,[全检·P2标点格式] 自语附加问作陈述,已译,"I have no choice but to carry on, do I?"
-SUB_001_001,从今天开始要叫我伊莉丝小姐！,,,15635,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。,已译,"“From now on, it’s Miss Elise to you!”"
+SUB_001_001,从今天开始要叫我伊莉丝小姐！,已修订,「从今天开始要叫我伊莉丝小姐！」,15635,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"“From now on, it’s Miss Elise to you!”"
 SUB_001_002,"我受够了吃力不讨好的每一天！
 再也不要过着被呼来唤去的日子了！",,,15636,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。,已译,"I’m done with this thankless struggle!
 No more being bossed around!"
-SUB_001_003,再也不要了！,,,15637,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。,已译,“No more!”
+SUB_001_003,再也不要了！,已修订,「再也不要了！」,15637,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,“No more!”
 SUB_001_004,由自己掌控的无忧无虑的生活才更适合我，对吧？,,,15638,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。,已译,"A carefree life where I’m in charge is much more fitting to me, right?"
 SUB_001_005,"每一年
 无论我被谁多少次装饰得多么光鲜亮丽",,,15639,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。,已译,"Every year, no matter by whom or how many times I was adorned"
 SUB_001_006,都如此贫困辛苦,,,15640,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。,已译,the poverty never ended.
 SUB_001_007,"就像一朵不能自己绽放的玫瑰
 自己内心深处
-依旧是黯然失色",,,15641,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。,已译,"Like a rose who couldn’t bloom on her own, 
+依旧是黯然失色",已修订,"就像一朵不能自己绽放的玫瑰
+依旧是黯然失色",15641,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"Like a rose who couldn’t bloom on her own, 
 I was overshadowed."
 SUB_001_008,"在梦中引导着奇迹成真的红宝石
 能否让任性的我实现一个愿望",,,15642,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。,已译,"Oh ruby red who guides my dreams,
@@ -15657,8 +15658,8 @@ SUB_001_010,"不管是谁都希望他们能注视我
 也希望能比其他人都要耀眼",,,15644,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。,已译,"Make everyone look at me
 Even if just once, let me shine brighter than anyone else."
 SUB_001_011,"呐~
-更多……更多……",已修订,"呐~
-更多……更多……",15645,过场字幕SUB,,—,[标点规范] 将非标3点省略号统一为全表通用的6点“……” [定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。,已译,"Hey, look at me more, more"
+更多……更多……",已修订,"呐～
+更多……更多……",15645,过场字幕SUB,,—,[标点规范] 将非标3点省略号统一为全表通用的6点“……” [定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"Hey, look at me more, more"
 SUB_001_012,"向我这边……
 更多……
 看过来
@@ -15678,9 +15679,9 @@ SUB_002_003,被继承的宿命所引导,,,15651,过场字幕SUB,,—,[定稿·�
 SUB_002_004,只是在追寻着我的梦中所见,,,15652,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。,已译,I’ve been but following the dreams I have…
 SUB_002_005,向星穹献上祈祷吧——献上吧。,,,15653,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。,已译,Come offer our prayers to the court of stars above — let us offer them.
 SUB_002_006,刻上六星的圆舞——起舞吧……,,,15654,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。,已译,Let us engrave the Rondo of the Six Stars and dance...
-SUB_002_007,路标啊，赐予我新的预兆吧,,,15655,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。; [v8收官·歌词错字] 收官时按用户指示只改错字：语气词「阿」→「啊」，词句不动，锁定继续有效,已译,"“Oh, beacon which guides me
+SUB_002_007,路标啊，赐予我新的预兆吧,已修订,「路标啊，赐予我新的预兆吧,15655,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。; [v8收官·歌词错字] 收官时按用户指示只改错字：语气词「阿」→「啊」，词句不动，锁定继续有效; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"“Oh, beacon which guides me
 Bestow upon me visions anew..."
-SUB_002_008,即使是无法逃脱的命运也没关系,,,15656,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。,已译,No matter if they herald but an unescapable fate.”
+SUB_002_008,即使是无法逃脱的命运也没关系,已修订,即使是无法逃脱的命运也没关系」,15656,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,No matter if they herald but an unescapable fate.”
 SUB_002_009,拥抱潜藏在我心中的灵梦,,,15657,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。,已译,"Will I be able to reach the end of this journey
 whose final act is heralded by the brilliant light..."
 SUB_002_010,终于能到达那光芒闪耀的终点了吧,,,15658,过场字幕SUB,,—,[定稿·锁定] 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点、标签、润色）一律不得修改。,已译,that engulfs visions I stow so deep in my bosom?
@@ -15701,15 +15702,16 @@ NARR_005,绳编的摇篮里，躺着一个活泼可爱的女婴。,,,15668,旁�
 NARR_006,在纷乱的烈火中获得新生,已修订,在纷乱的烈火中获得新生,15669,旁白Timeline,—,Timeline,与 SUB 歌词记录重复；[字幕对齐] 修正与NARR_012上下行谓语颠倒的错位(Darkened and sunk in ash); [v8定点修正] 旁白层同英文歌词行随用户采用的歌词定稿（=SUB_002_002）,已译,Darkened and sunk in ash by the raging flames
 NARR_007,每一年<br>无论我被谁多少次装饰得多么光鲜亮丽,已修订,每一年<br>无论我被谁多少次装饰得多么光鲜亮丽,15670,旁白Timeline,—,Timeline,[标签修复] 补全旁白强制换行标签<br>，并与同源字幕SUB_001_005统一译文,已译,"Every year, no matter by whom<br>or how many times I was adorned"
 NARR_008,"呐~
-更多……更多……",已修订,"呐~
-更多……更多……",15671,旁白Timeline,—,Timeline,与 SUB 歌词记录重复；[标点规范] 将非标3点省略号统一为全表通用的6点“……”; [v6决策D6] 维持对齐日文演唱原词“ねえ、もっと、もっと”的授权译法; [整合] 采用B：译文未改，仅 B 追加备注，合并,已译,"Hey, look at me more, more"
+更多……更多……",已修订,"呐～
+更多……更多……",15671,旁白Timeline,—,Timeline,与 SUB 歌词记录重复；[标点规范] 将非标3点省略号统一为全表通用的6点“……”; [v6决策D6] 维持对齐日文演唱原词“ねえ、もっと、もっと”的授权译法; [整合] 采用B：译文未改，仅 B 追加备注，合并; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"Hey, look at me more, more"
 NARR_009,拜托多看看我吧！,,,15672,旁白Timeline,—,Timeline,与 SUB 歌词记录重复,已译,"Hey, look at me…"
 NARR_010,"我受够了吃力不讨好的每一天！
 再也不要过着被呼来唤去的日子了！",,,15673,旁白Timeline,—,Timeline,与 SUB 歌词记录重复,已译,"I’m done with this thankless struggle!
 No more being bossed around!"
 NARR_011,"就像一朵不能自己绽放的玫瑰
 自己内心深处
-依旧是黯然失色",,,15674,旁白Timeline,—,Timeline,与 SUB 歌词记录重复,已译,"Like a rose who couldn’t bloom on her own, 
+依旧是黯然失色",已修订,"就像一朵不能自己绽放的玫瑰
+依旧是黯然失色",15674,旁白Timeline,—,Timeline,与 SUB 歌词记录重复; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"Like a rose who couldn’t bloom on her own, 
 I was overshadowed."
 NARR_012,漆黑一片的天空，沉入了灰烬,已修订,漆黑一片的天空，沉入了灰烬,15675,旁白Timeline,—,Timeline,与 SUB 歌词记录重复；[字幕对齐] 修正与NARR_006上下行谓语颠倒的错位(Mine was a birth); [v8定点修正] 旁白层同英文歌词行随用户采用的歌词定稿（=SUB_002_001）,已译,Mine was a birth midst the blackest sky 
 NARR_013,然而幸福并非永恒，随着时光流转……,,,15676,旁白Timeline,—,Timeline,,已译," Not all bliss lasts forever and, as time went by..."
@@ -16034,7 +16036,7 @@ LVE_2_4_HBY_R_50,不会的。,,,15992,恋爱事件LVE,2月4日,HBY_R,,已译,I w
 LVE_2_4_HBY_R_51,嗯？,,,15993,恋爱事件LVE,2月4日,HBY_R,,已译,Hm?
 LVE_2_4_HBY_R_52,没什么，我……回镇上去了……,,,15994,恋爱事件LVE,2月4日,HBY_R,,已译,"It's nothing, I'll... Head back to town..."
 LVE_2_4_HBY_R_53,我明白你的感受，伊莉丝……,,,15995,恋爱事件LVE,2月4日,HBY_R,,已译,"I understand how you feel, Elise..."
-LVE_2_4_HBY_R_54,我才不……一点都不明白……,,,15996,恋爱事件LVE,2月4日,HBY_R,,已译,"Well, I don't... At all..."
+LVE_2_4_HBY_R_54,我才不……一点都不明白……,已修订,我……一点都不明白……,15996,恋爱事件LVE,2月4日,HBY_R,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"Well, I don't... At all..."
 LVE_2_4_HBY_R_55,你会明白的，早晚会。,,,15997,恋爱事件LVE,2月4日,HBY_R,,已译,"You will, in time."
 LVE_2_4_HBY_R_56,（这也太荒唐了……）,,,15998,恋爱事件LVE,2月4日,HBY_R,,已译,(This is ridiculous...)
 LVE_2_4_HBY_R_056,你说……怀念……？,已修订,你说……怀念……？,15999,恋爱事件LVE,2月4日,HBY_R,"[v8口头禅·you say] 回声问「X, you say?」改为「你说X？/你是说……X」",已译,"Nostalgic, you say...?"
@@ -17463,7 +17465,7 @@ LVE_8_3_VCT_L_036,那不是……,,,17421,恋爱事件LVE,8月3日,VCT_L,,已译
 LVE_8_3_VCT_L_037,你嫌那块头纱像抹布，那身丧气的修女服你也嫌！,已修订,你嫌那块头纱像抹布，那身丧气的修女服你也嫌！,17422,恋爱事件LVE,8月3日,VCT_L,[v8收官·术语·修女服] habit 统一作「修女服」,已译,"You loathe that dustrag of a veil, and that grisly habit, too!"
 LVE_8_3_VCT_L_038,所以你才让玛丽勒太太给它缀满花边和缎饰！,,,17423,恋爱事件LVE,8月3日,VCT_L,,已译,That's why you had Mrs. Mariele cover it in frills and decorations!
 LVE_8_3_VCT_L_039,我不喜欢的只是那颜色，可……,,,17424,恋爱事件LVE,8月3日,VCT_L,,已译,"It's the color I'm not so fond of, but..."
-LVE_8_3_VCT_L_040,你屋里连一本圣经、一串玫瑰经念珠都没有——更别说十字架了！,已修订,你屋里连一本圣经、一串玫瑰经念珠都没有——更别说十字架了！,17425,恋爱事件LVE,8月3日,VCT_L,[仲裁执行·M] v5 迁移时把并列顿号误换成逗号，恢复顿号（仲裁表 #199）; [v6人工M] 恢复并列宾语“一本圣经、一串玫瑰经念珠”之间的顿号; [整合] A=B：双方译文一致，合并双方备注,已译,You don't have a single Bible or rosary in your bedroom — let alone a cross!
+LVE_8_3_VCT_L_040,你屋里连一本圣经、一串玫瑰经念珠都没有——更别说十字架了！,已修订,你屋里连一本圣经、一串玫瑰念珠都没有——更别说十字架了！,17425,恋爱事件LVE,8月3日,VCT_L,[仲裁执行·M] v5 迁移时把并列顿号误换成逗号，恢复顿号（仲裁表 #199）; [v6人工M] 恢复并列宾语“一本圣经、一串玫瑰经念珠”之间的顿号; [整合] A=B：双方译文一致，合并双方备注; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,You don't have a single Bible or rosary in your bedroom — let alone a cross!
 LVE_8_3_VCT_L_041,连我都摆了个傻乎乎的小祭坛，<i>你</i>才是修女呢！,,,17426,恋爱事件LVE,8月3日,VCT_L,,已译,"Even I have a silly altar, and <i>you're</i> the nun!"
 LVE_8_3_VCT_L_042,伊莉丝，那是……,,,17427,恋爱事件LVE,8月3日,VCT_L,,已译,"Elise, that's..."
 LVE_8_3_VCT_L_043,别再嘴硬了，斯佩尔特！,,,17428,恋爱事件LVE,8月3日,VCT_L,,已译,"Quit denying it, Lebkuchen!"
@@ -17599,7 +17601,7 @@ CSM_01_012,早就注定我要蒙受这般羞辱，这般悔恨，这般耻辱！
 CSM_01_013,安妮卡！安妮卡，你答应过我们会上天堂的……！,,,17558,诅咒回忆CSM,,—,,已译,"Annika! Annika, you promised we'd go to Heaven...!"
 CSM_01_014,我们说好了的……！,,,17559,诅咒回忆CSM,,—,,已译,We were promised...!
 CSM_01_015,你怎么能这样……！,,,17560,诅咒回忆CSM,,—,,已译,How could you...!
-CSM_01_016,你竟害我……堕入这地狱业火……！,已修订,你竟害我……堕入这地狱业火……！,17561,诅咒回忆CSM,,—,[v8收官·语义] 接上句 How could you...!，是控诉对方害自己堕入地狱业火，不是自己求下地狱,已译,Damn me... to this hell-fire...!
+CSM_01_016,你竟害我……堕入这地狱业火……！,已修订,你竟害我……堕入这狱火……！,17561,诅咒回忆CSM,,—,[v8收官·语义] 接上句 How could you...!，是控诉对方害自己堕入地狱业火，不是自己求下地狱; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,Damn me... to this hell-fire...!
 CSM_01_017,安妮……,,,17562,诅咒回忆CSM,,—,,已译,Anni...
 CSM_01_018,（它的嘴……不见了……）,,,17563,诅咒回忆CSM,,—,,已译,(Its mouth is... gone...)
 CSM_01_019,（我……有点不太舒服……）,,,17564,诅咒回忆CSM,,—,,已译,(I'm... not feeling so well...)
@@ -17698,7 +17700,7 @@ CSM_GG_02_007,所以呢？这是某种警告吗？,,,17656,诅咒回忆CSM,—,G
 CSM_GG_02_008,哼，你这傲慢愚蠢的小丫头……！,已修订,哼，你这傲慢愚蠢的小丫头……！,17657,诅咒回忆CSM,—,GG,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, you arrogant, foolish lassie...!"
 CSM_GG_02_009,（她的事没成，可怪不到我头上。）,已修订,（她的事没成，可怪不到我头上。）,17658,诅咒回忆CSM,—,GG,[全检·P2标点格式] 独白附加问作陈述,已译,"(Not quite my fault hers didn't work out, is it?)"
 CSM_GG_03_001,我多么厌恶你们这些天真的绵羊啊！,已修订,我多么厌恶你们这些天真的绵羊啊！,17659,诅咒回忆CSM,—,GG,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,How I loathe you naïve sheep!
-CSM_GG_03_002,追随<b>祂</b>的福音，走进我们这无月的炼狱……,已修订,追随<b>祂</b>的福音，走进我们这无月的炼狱……,17660,诅咒回忆CSM,—,GG,[标签修复] 补全神明代词<b>祂</b>加粗强调标签,已译,Following <b>His</b> blissful word into this moonless hellfire of ours...
+CSM_GG_03_002,追随<b>祂</b>的福音，走进我们这无月的炼狱……,已修订,追随<b>祂</b>的福音，步入这片不见月色的狱火……,17660,诅咒回忆CSM,—,GG,[标签修复] 补全神明代词<b>祂</b>加粗强调标签; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,Following <b>His</b> blissful word into this moonless hellfire of ours...
 CSM_GG_03_003,你到底是什么？,已修订,你到底是什么？,17661,诅咒回忆CSM,—,GG,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,What are you?
 CSM_GG_03_004,我们都曾喂养<b>祂</b>的贪欲——一个接一个！,已修订,我们都曾喂养<b>祂</b>的贪欲——一个接一个！,17662,诅咒回忆CSM,—,GG,[标签修复] 补全神明代词<b>祂</b>加粗强调标签,已译,We all fed <b>His</b> gluttony — one after the other!
 CSM_GG_03_005,我们的罪孽被掘出，成了众人围观的把戏！,,,17663,诅咒回忆CSM,—,GG,,已译,"Our sins unearthed, made into a spectacle for all to see!"
@@ -17728,7 +17730,7 @@ CSM_GG_06_004,哎呀，你该不会真以为<b>祂</b>会赐给你<b>祂</b>的�
 CSM_GG_06_005,我听到的可不是这样。,已修订,我听到的可不是这样。,17687,诅咒回忆CSM,—,GG,[v8人名增删] 删去原文没有的呼语「丫头」,已译,I was told otherwise.
 CSM_GG_06_006,呵，多么天真！,已修订,呵，多么天真！,17688,诅咒回忆CSM,—,GG,[v8感叹词·Oh] Oh 按语气改用 唉/哎呀/哎哟/哼/啊/哇/咦 等或省略，不再一律对「哦」,已译,"Oh, such naïveté!"
 CSM_GG_06_007,你真是有意思——我都等不及要迎接你了！,,,17689,诅咒回忆CSM,—,GG,,已译,How amusing you are — I can't wait to welcome you!
-CSM_GG_06_008,（真是个气死人的丫头！）,已修订,（真是个气死人的丫头！）,17690,诅咒回忆CSM,—,GG,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」,已译,(What an infuriating character!)
+CSM_GG_06_008,（真是个气死人的丫头！）,已修订,（这小姑娘真能把人气死！）,17690,诅咒回忆CSM,—,GG,[v8句末·省略号] 按 D5 以原文语气为准：原文无省略号处去掉译文添加的「……」，原文以省略号收尾处去掉添加的「！」; [v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,(What an infuriating character!)
 CSM_GG_07_001,你见过他们了！你见过他们了！,,,17691,诅咒回忆CSM,—,GG,,已译,You've met them! You've met them!
 CSM_GG_07_002,你这是在嘲笑我，你……！,,,17692,诅咒回忆CSM,—,GG,,已译,"You're mocking me, you...!"
 CSM_GG_07_003,他们也是啊——那群该死的黑鸟。,,,17693,诅咒回忆CSM,—,GG,,已译,So are they — those wretched blackbirds.
@@ -17890,7 +17892,7 @@ CSM_GG_22_007,凭<b>祂</b>的祝福，和我们献上的祭品……,,,17848,�
 CSM_GG_22_008,足以让我们丧尽蒙神救赎的资格了，不是吗？,,,17849,诅咒回忆CSM,—,GG,,已译,"It's enough to forfeit our right to divine salvation, isn't it?"
 CSM_GG_22_009,你到底想说什么？,,,17850,诅咒回忆CSM,—,GG,,已译,What are you trying to say?
 CSM_GG_22_010,我宁愿与<b>祂</b>和<b>祂</b>的随从共度永恒……,,,17851,诅咒回忆CSM,—,GG,,已译,That I'd rather share eternity with <b>Him</b> and <b>His</b> entourage...
-CSM_GG_22_011,也不愿坠入地狱深坑，领受应得的刑罚。,,,17852,诅咒回忆CSM,—,GG,,已译,Than face my rightful punishment in the pits of hell.
+CSM_GG_22_011,也不愿坠入地狱深坑，领受应得的刑罚。,已修订,也不愿坠入狱火，领受应得的刑罚。,17852,诅咒回忆CSM,—,GG,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,Than face my rightful punishment in the pits of hell.
 CSM_GG_22_012,……,,,17853,诅咒回忆CSM,—,GG,,已译,...
 CSM_GG_23_001,觉得迷惘了，是不是？,,,17854,诅咒回忆CSM,—,GG,,已译,"Feeling rather lost, are you?"
 CSM_GG_23_002,你又懂什么？,,,17855,诅咒回忆CSM,—,GG,,已译,What would you know about it?
@@ -18333,7 +18335,7 @@ CHR_009_043,别说了，萝丝玛琳。,已修订,别说了，萝丝玛琳。,18
 CHR_009_044,早知道我还不如去找芙蕾雅呢，你说是不是？,,,18292,村镇日常CHR,009-044,—,,已译,"I would've been better off asking Freya instead, don't you think?"
 CHR_009_045,那可未必吧。,,,18293,村镇日常CHR,009-045,—,,已译,I'm not certain I'd say so.
 CHR_009_046,这是给你的辛苦费，丫头。,,,18294,村镇日常CHR,009-046,—,,已译,"For your time, lassie."
-CHR_009_047,（这个老太婆……！）,,,18295,村镇日常CHR,009-047,—,,已译,(This old hag...!)
+CHR_009_047,（这个老太婆……！）,已修订,（这个老家伙……！）,18295,村镇日常CHR,009-047,—,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,(This old hag...!)
 CHR_010_001,啊，伊莉丝，能搭把手吗？,,,18296,村镇日常CHR,010-001,—,,已译,"Ah, Elise — could you lend me a hand?"
 CHR_010_002,能帮我劈些柴，留着今晚用吗？,,,18297,村镇日常CHR,010-002,—,,已译,Won't you chop me some firewood for tonight?
 CHR_010_003,用镇上散落的那些树枝怎么样？,,,18298,村镇日常CHR,010-003,—,,已译,What about using those branches scattered about town?
@@ -20097,7 +20099,7 @@ FLV_4_2_OVP_10_001,这张受潮的纸是什么？,,,20044,风味闲话FLV,4月2�
 FLV_4_2_OVP_10_002,<i>「信仰是件复杂的事，它的种种表现亦然。」</i>,,,20045,风味闲话FLV,4月2日,OVP,,已译,"<i>""Belief is a complex matter, as are its various manifestations.""</i>"
 FLV_4_2_OVP_10_003,<i>「人对信仰的渴求，曾将许多人引向毁灭之路……」</i>,,,20046,风味闲话FLV,4月2日,OVP,,已译,"<i>""The human need for faith has led many down the path of ruin...""</i>"
 FLV_4_2_OVP_10_004,<i>「异教徒、巫会与不信者——形形色色，数不胜数。」</i>,,,20047,风味闲话FLV,4月2日,OVP,,已译,"<i>""Pagan heretics, covenants and non-believers — all of them plentiful and diverse.""</i>"
-FLV_4_2_OVP_10_005,<i>「直到主的圣言与荣光将他们从地狱深渊中救起。」</i>,,,20048,风味闲话FLV,4月2日,OVP,,已译,"<i>""That was until our Lord's word and glory rescued them from the pits of Hell.""</i>"
+FLV_4_2_OVP_10_005,<i>「直到主的圣言与荣光将他们从地狱深渊中救起。」</i>,已修订,<i>「直到主的圣言与荣光将他们从狱火中救起。」</i>,20048,风味闲话FLV,4月2日,OVP,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"<i>""That was until our Lord's word and glory rescued them from the pits of Hell.""</i>"
 FLV_4_2_OVP_10_006,<i>「主的引领，祂的仁慈净化了诸神，涤除了他们的罪行……」</i>,已修订,<i>「主的引领，祂的仁慈净化了诸神，涤除了他们的罪行……」</i>,20049,风味闲话FLV,4月2日,OVP,[专名规范] 将His benevolence还原为神明代词“祂的仁慈”，避免重复“主的”,已译,"<i>""The Lord's guidance, His benevolence has purified deities and purged their sinful acts...""</i>"
 FLV_4_2_OVP_10_007,<i>「将他们虚妄的异教虔诚化为对主的敬慕，如今更成了教会承认的圣人。」</i>,,,20050,风味闲话FLV,4月2日,OVP,,已译,"<i>""Converted their false pagan piety into adoration for the Lord, now as saints recognized by the Church.""</i>"
 FLV_4_2_OVP_10_008,<i>「放逐女巫及其巫会与邪教，再令她们重生为信仰的引路人。」</i>,,,20051,风味闲话FLV,4月2日,OVP,,已译,"<i>""Banished witches, their covenants and cults, to revive them as leaders of faith.""</i>"
@@ -20687,7 +20689,8 @@ ITM_N_D_15,"一块漂亮的方巾，绣工精巧，镶着雅致的花边。
 或许能卖个不错的价钱。",20630,商店与道具,—,N_D,[v6人工M] 随ITM_N_N_14统一将kerchief译为“方巾”; [整合] 采用B：同 ITM_N_D_14,已译,"A pretty kerchief daintily embroidered and hemmed with delicate lace.
 It may sell for a reasonable price."
 ITM_N_D_16,"一串古旧的念珠，串着参差不齐的珠子，挂着一枚破损的木十字架。
-或许值得卖掉。",,,20631,商店与道具,—,N_D,,已译,"An old rosary threaded with mismatched beads and bearing a mangled wooden cross.
+或许值得卖掉。",已修订,"一串古旧的玫瑰念珠，串着参差不齐的珠子，挂着一枚破损的木十字架。
+或许值得卖掉。",20631,商店与道具,—,N_D,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,"An old rosary threaded with mismatched beads and bearing a mangled wooden cross.
 May be worth selling."
 ITM_N_D_17,"一串看起来价值不菲的玫瑰念珠，挂着沉甸甸的银十字架和又大又亮的珍珠。
 能卖个中等价钱。",,,20632,商店与道具,—,N_D,,已译,"An expensive-looking rosary bearing a heavy silver cross and big shiny pearls.
@@ -20719,8 +20722,8 @@ ITM_N_N_12,绷带,,,20648,商店与道具,—,N_N,,已译,Bandages
 ITM_N_N_13,节庆门票,已修订,节庆门票,20649,商店与道具,—,N_N,[仲裁执行·M] festival 统一取多数译法「节庆」（与本道具描述 ITM_N_D_13「节庆活动」一致）（仲裁表 #196）; [v6人工M] 与道具描述ITM_N_D_13“节庆活动”及全表主流译法“节庆”统一; [整合] A=B：双方译文一致，合并双方备注,已译,Festival Ticket
 ITM_N_N_14,旧方巾,已修订,旧方巾,20650,商店与道具,—,N_N,[v6人工M] 将Kerchief译为“方巾”，与Handkerchief(ITM_N_N_04“手帕”)区分; [整合] 采用B：同 ITM_N_D_14,已译,Old Kerchief
 ITM_N_N_15,精致方巾,已修订,精致方巾,20651,商店与道具,—,N_N,[v6人工M] 随ITM_N_N_14统一将Kerchief译为“方巾”; [整合] 采用B：同 ITM_N_D_14,已译,Fancy Kerchief
-ITM_N_N_16,木念珠,,,20652,商店与道具,—,N_N,,已译,Wooden Rosary
-ITM_N_N_17,珍珠念珠,,,20653,商店与道具,—,N_N,,已译,Pearl Rosary
+ITM_N_N_16,木念珠,已修订,木制玫瑰念珠,20652,商店与道具,—,N_N,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,Wooden Rosary
+ITM_N_N_17,珍珠念珠,已修订,珍珠玫瑰念珠,20653,商店与道具,—,N_N,[v9发布前审查] 按用户指定修复语义、语气或术语回环,已译,Pearl Rosary
 ITM_N_N_18,玩具马,,,20654,商店与道具,—,N_N,,已译,Toy Horse
 ITM_N_N_19,华丽玩具马,,,20655,商店与道具,—,N_N,,已译,Ornate Toy Horse
 ITM_N_N_20,皮钱袋,,,20656,商店与道具,—,N_N,,已译,Leather Purse
