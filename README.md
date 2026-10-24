@@ -4,6 +4,8 @@ Little Goody Two Shoes 简体中文汉化补丁
 
 这是适用于 Windows 版 Little Goody Two Shoes 的简体中文运行时汉化补丁。
 
+Notion在线双语译本https://app.notion.com/p/3ffaa7b537c180ea95aed0126e29327c
+
 下载来源
 
 本补丁只在 https://github.com/xiayiyi0/LittleGoodyTwoShoes-Simplified-Chinese/releases 发布。
