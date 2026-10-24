@@ -1,4 +1,4 @@
-Little Goody Two Shoes 简体中文汉化补丁 v1.3.23
+Little Goody Two Shoes 简体中文汉化补丁 v1.3.24
 
 一、补丁说明
 
@@ -12,7 +12,7 @@ Little Goody Two Shoes 简体中文汉化补丁 v1.3.23
 4. 道具获取复合弹窗、日期时段文本、彩色富文本等运行时显示路径的兼容处理。
 5. 字体资源 arialuni_sdf_u2019 已扩充全角标点字形（，！？：（）—…），对话不再使用半角规避标点。
 
-当前实装版本：LGTS Simplified Chinese v1.3.23。
+当前实装版本：LGTS Simplified Chinese v1.3.24。
 
 二、安装方法
 
@@ -43,16 +43,16 @@ BepInEx/LogOutput.log
 
 日志中应包含类似内容：
 
-Loading [LGTS Simplified Chinese 1.3.23]
+Loading [LGTS Simplified Chinese 1.3.24]
 LGTS 中文插件已加载
 Loaded fallback font for TextMesh Pro: arialuni_sdf_u2019
 
 版本自检（反馈问题前请先完成以下三条，并在反馈中附上结果）：
 
 1. 插件版本：在文件管理器中右键 BepInEx/plugins/LGTSChinese/LGTSChinese.dll，
-   选“属性”→“详细信息”，文件版本应为 1.3.23.0。
+   选“属性”→“详细信息”，文件版本应为 1.3.24.0。
 2. 诊断日志首行：用记事本打开 BepInEx/plugins/LGTSChinese/DIAG.txt（运行过一次
-   游戏后生成），首行应为 “=== LGTS DIAG v1.3.23 启动 ===”。
+   游戏后生成），首行应为 “=== LGTS DIAG v1.3.24 启动 ===”。
 3. 文件完整性：对照发布包内的 SHA256SUMS.txt，可用命令
    certutil -hashfile "文件路径" SHA256
    逐条核对（至少核对 LGTSChinese.dll 与两个 translation 词典）。
@@ -127,6 +127,28 @@ BepInEx 需要通过 winhttp.dll 将插件注入 Unity 游戏。请检查杀毒�
 5. Steam 验证文件后补丁失效
 
 Steam 验证完整性可能移除或还原注入文件。验证完成后重新解压补丁即可。
+
+6. 游戏本体更新后补丁失效或出现异常
+
+本补丁通过钩子挂钩游戏自身的本地化取词接口，游戏本体更新可能改变这些接口，
+表现为：部分文本回到英文、整段无翻译、或个别界面显示异常（一般不导致崩溃）。
+
+处理顺序：
+
+a. 先确认补丁文件还在。游戏更新有时会覆盖 arialuni_sdf_u2019 与 BepInEx 文件夹，
+   按“二、安装方法”重新把补丁完整解压到游戏根目录覆盖一次。
+
+b. 再看日志定位。打开 BepInEx/LogOutput.log，搜索 “LGTS Simplified Chinese”：
+   - 没有 “LGTS 中文插件已加载” → 插件根本没加载，多半是 a. 没做到位或 BepInEx 被覆盖。
+   - 有加载但出现 “未找到 I2.Loc.LocalizationManager”、“未挂上任何取词方法”、
+     或若干条 “未找到 ... DoLocalize” → 游戏改了内部接口，当前补丁版本不兼容，
+     需要等补丁更新，重装没有用。
+
+c. 把 LogOutput.log 与 DIAG.txt 一并提交反馈，并注明游戏版本号。游戏版本可以在
+   主菜单界面或 Steam 库的属性中看到。
+
+如果你不希望游戏自动更新，可在 Steam 库中右键游戏 →“属性”→“更新”，
+把自动更新改为“只在启动游戏时更新”，需要时再手动更新。
 
 八、文件说明
 

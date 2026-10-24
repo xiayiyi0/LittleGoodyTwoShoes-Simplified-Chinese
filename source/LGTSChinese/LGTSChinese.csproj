@@ -11,10 +11,10 @@
     <AssemblyName>LGTSChinese</AssemblyName>
     <LangVersion>latest</LangVersion>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
-    <!-- c7: 程序集版本与运行时 VER 对齐 (1.3.23) -->
-    <Version>1.3.23</Version>
-    <AssemblyVersion>1.3.23.0</AssemblyVersion>
-    <FileVersion>1.3.23.0</FileVersion>
+    <!-- 版本号的唯一来源是 Plugin.cs 的 const VER, 它在文件内以 assembly 特性声明
+         AssemblyVersion / AssemblyFileVersion。SDK 默认会自动生成同名特性, 与它冲突
+         (CS0579), 故关闭自动生成。改版本只改 Plugin.VER 一处。 -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <Product>LGTS Simplified Chinese</Product>
     <!-- 构建前通过环境变量或命令行指定 GameDir，例如：dotnet build -c Release -p:GameDir="D:\\Games\\Little Goody Two Shoes" -->
     <GameDir Condition="'$(GameDir)' == ''">D:\Games\Little Goody Two Shoes</GameDir>

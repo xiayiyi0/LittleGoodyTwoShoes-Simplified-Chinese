@@ -1,6 +1,25 @@
 Little Goody Two Shoes 简体中文汉化补丁 — 更新日志
 ====================================================
 
+v1.3.24 (2026-10-24)
+- 构建元数据修复: 插件此前未声明 assembly 版本特性, 而 in-box csc 不读取
+  LGTSChinese.csproj 的版本设置, 导致"右键 DLL → 属性 → 详细信息"的文件版本一直
+  显示 0.0.0.0。安装说明第 3 节的版本自检第 1 条因此无法通过, 会让玩家误判为装错。
+  现在 AssemblyVersion / AssemblyFileVersion 由 Plugin.VER 派生并随编译写入,
+  日志、BepInPlugin 元数据与文件属性三处版本号不会再漂移。
+- 构建脚本参数化: build.cmd 的游戏目录改为 argv[1] → 环境变量 LGTS_GAME → 脚本内默认值,
+  换机器无需手改脚本; 缺少 LGTS.exe / Managed / BepInEx/core 时直接报错并以 exit code 1 退出。
+- 安装说明补充"游戏本体更新后补丁失效"的排障条目: 区分"补丁被覆盖"(重装可解)与
+  "游戏改了本地化接口"(需等补丁更新), 并给出从 LogOutput.log 判读的具名依据。
+- 文档校正: BUILDING.md 移除指向仓库外部的悬空引用(realign_report.json /
+  scripts/regen_translation_aligned.py / P7 工作目录), 词典口径更新为
+  by_refkey 21,189 / display 25,261 / 道具名 79 / AT 24,700 / UI_System 536 条;
+  补写字体三条通道 (AT arialuni / 可选 font/lgts_cjk / 运行时系统中文字体兜底)。
+- 工具链入库: 新增 tools/ (译本应用、AT 重建、打包、发布验收四个脚本 + PIPELINE.md),
+  三层词典的同步与核对机制随仓库分发, 第三方可复现、可审计。
+- 译文无改动: 三个词典与 AT 的内容与 v1.3.23 完全一致; 字体未改动。
+- 插件 LGTSChinese.dll 升级至 1.3.24; zip 条目数维持 71。
+
 v1.3.23 (2026-10-24)
 - 采用 v9 译本。相对 v8 为定点修订：21,210 条记录中有 56 条译文更新，无新增或
   删除记录，其余文本与 v8 完全一致。
