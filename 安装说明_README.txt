@@ -124,6 +124,12 @@ OverrideFont=Microsoft YaHei
 
 BepInEx 需要通过 winhttp.dll 将插件注入 Unity 游戏。请检查杀毒软件隔离区并将游戏目录加入信任列表后重新解压补丁。
 
+注意：本补丁只在 GitHub 仓库的 Release 页发布
+（https://github.com/xiayiyi0/LittleGoodyTwoShoes-Simplified-Chinese/releases）。
+“加信任列表”这一步本身是正常的，但第三方转载的“整合版”“绿色版”可以照抄这段说明，
+让玩家为真正有害的文件放行。放行之前请先确认压缩包来源，并按包内 SHA256SUMS.txt
+校验 LGTSChinese.dll 与三个词典文件；来源不明时不要加信任，直接删掉重下。
+
 5. Steam 验证文件后补丁失效
 
 Steam 验证完整性可能移除或还原注入文件。验证完成后重新解压补丁即可。
