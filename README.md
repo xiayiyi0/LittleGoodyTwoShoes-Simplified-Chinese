@@ -17,7 +17,7 @@ Little Goody Two Shoes 简体中文汉化补丁
 安装方法
 
 1. 在 Steam 库中右键 Little Goody Two Shoes，选择“管理”后选择“浏览本地文件”。
-2. 将本仓库中的全部文件和文件夹复制到含有 LGTS.exe 的游戏根目录。
+2. 将下载的压缩包完整解压到含有 LGTS.exe 的游戏根目录。
 3. 允许合并 BepInEx 文件夹及覆盖同名文件。
 4. 启动游戏。
 
