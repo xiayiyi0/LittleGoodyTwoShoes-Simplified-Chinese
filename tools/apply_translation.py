@@ -38,6 +38,16 @@ PUNCT = set("、，。！？：；（）【】「」『』—…·“”‘’!?
 # (v1.3.21 全量重建就是这样冲掉了 v1.3.20 及更早的正确值)。
 NAME_OVERRIDE = {"Lebkuchen": "斯佩尔特"}
 
+# 游戏 TMP 不识别这三个标签, 会把它们当字面量显示在对话框里 (v1.3.8 实机确认)。
+# <size>/<color>/<i>/<b>/<sprite> 是支持的, 必须保留。
+# v1.3.21 全量重建时中文译文里的这些标签又被带了回来, 玩家侧看到 "&lt;wave a=0.3&gt;"
+# 之类上屏, 所以这里统一剥掉 —— 剥的时候连同属性一起删, 只留内层文字。
+BAD_TAG_RE = re.compile(r"</?(?:wave|shake|incr)\b[^>]*>")
+
+
+def clean_zh(s):
+    return BAD_TAG_RE.sub("", s or "").strip()
+
 
 def norm(s):
     return WS_RE.sub(" ", TAG_RE.sub("", s or "")).strip()
@@ -86,7 +96,7 @@ def main():
     cols = rows[0].keys() if rows else []
     has_rev = "修订译文" in cols
     print("译本列集: %d 列%s" % (len(cols), " (旧 11 列格式, 以 修订译文 优先)" if has_rev else " (9 列格式)"))
-    eff = lambda r: (((r.get("修订译文") or "").strip() or r["中文译文"]) if has_rev else r["中文译文"]).strip()
+    eff = lambda r: clean_zh(((r.get("修订译文") or "").strip() or r["中文译文"]) if has_rev else r["中文译文"])
 
     refkey_map = {}
     norm_map = defaultdict(list)

@@ -221,7 +221,7 @@ DLG_2_2_VIN_01_013,水桶！,219,主线对白DLG,2月2日,VIN,,已译,Buckets!
 DLG_2_2_VIN_01_014,水桶？,220,主线对白DLG,2月2日,VIN,恢复Buckets?的惊讶反问语气，与013 Buckets!(水桶!)区分,已译,Buckets?
 DLG_2_2_VIN_01_015,伊莉丝，我们要在旅店大门上头挂一桶水！,221,主线对白DLG,2月2日,VIN,,已译,"We're hanging a bucket of water above the inn's front door, Elise!"
 DLG_2_2_VIN_01_016,这样等她一出来……,222,主线对白DLG,2月2日,VIN,,已译,So that when she comes out...
-DLG_2_2_VIN_01_017,<wave a=0.5><shake a=0.2><size=120%>哗啦！</size></shake></wave>,223,主线对白DLG,2月2日,VIN,补全原文掉落的<wave>与<shake>动态特效标签；泼水声作「哗啦」,已译,<wave a=0.5><shake a=0.2><size=120%>SPLASH!</size></shake></wave>
+DLG_2_2_VIN_01_017,<size=120%>哗啦！</size>,223,主线对白DLG,2月2日,VIN,补全原文掉落的<wave>与<shake>动态特效标签；泼水声作「哗啦」,已译,<wave a=0.5><shake a=0.2><size=120%>SPLASH!</size></shake></wave>
 DLG_2_2_VIN_01_018,那你们打算怎么在不被人看见的情况下动手？,224,主线对白DLG,2月2日,VIN,,已译,And how are you two expecting to do this without being seen?
 DLG_2_2_VIN_01_019,呃，我们……那个……,225,主线对白DLG,2月2日,VIN,,已译,"Uh, we... Um..."
 DLG_2_2_VIN_01_020,这个嘛……,226,主线对白DLG,2月2日,VIN,,已译,Well...
@@ -811,7 +811,7 @@ DLG_2_4_VBA_01_007,格吕妮学得可用心了。,809,主线对白DLG,2月4日,V
 DLG_2_4_VBA_01_008,你也可以一起来，伊莉丝——我看呀，人多才热闹嘛。,810,主线对白DLG,2月4日,VBA,I'd say 并入句中,已译,"You may come with us, Elise - the more the merrier, I'd say."
 DLG_2_4_VBA_01_009,哎呀，那就太好了！,811,主线对白DLG,2月4日,VBA,Oh 按语气改译，不再一律作「哦」,已译,"Oh, that would be wonderful!"
 DLG_2_4_VBA_01_011,恐怕我今天的活还没干完呢，玛丽勒太太。,812,主线对白DLG,2月4日,VBA,,已译,"I'm afraid the day isn't over for me yet, Mrs. Mariele."
-DLG_2_4_VBA_01_013,"今天是<shake intensity=""10"">星期天</shake>呀！<shake intensity=""10"">星期天</shake>可不能一整天都干活的！",813,主线对白DLG,2月4日,VBA,"补全原文两处<shake intensity=""10"">震动强调标签；Sunday 口语作「星期天」，「主日」仅用于「主日弥撒」",已译,"It's a <shake intensity=""10"">Sunday</shake>! You can't work all day on a <shake intensity=""10"">Sunday</shake>!"
+DLG_2_4_VBA_01_013,今天是星期天呀！星期天可不能一整天都干活的！,813,主线对白DLG,2月4日,VBA,"补全原文两处<shake intensity=""10"">震动强调标签；Sunday 口语作「星期天」，「主日」仅用于「主日弥撒」",已译,"It's a <shake intensity=""10"">Sunday</shake>! You can't work all day on a <shake intensity=""10"">Sunday</shake>!"
 DLG_2_4_VBA_01_014,<i>你</i>该清楚我为什么星期天也要干活！,814,主线对白DLG,2月4日,VBA,Sunday 口语作「星期天」，「主日」仅用于「主日弥撒」,已译,And <i>you</i> ought to know why I work all day on Sundays!
 DLG_2_4_VBA_01_016,没关系的，伊莉丝。,815,主线对白DLG,2月4日,VBA,,已译,"It's quite all right, Elise."
 DLG_2_4_VBA_01_017,芙蕾雅和我这一整周都要为节庆忙活，你要是有空闲，随时都可以来。,816,主线对白DLG,2月4日,VBA,festival 统一为「节庆」,已译,"Freya and I will be working together for the festival all week, if you happen to have some spare time."
@@ -10362,15 +10362,15 @@ CUT_1_5_HGR_01_002,你这个不知羞耻的小偷！,10360,过场对白CUT,1月5
 CUT_1_5_HGR_01_003,把你拿走的东西都还给我！,10361,过场对白CUT,1月5日,,,已译,Give me back all you took!
 CUT_1_5_HGR_01_004,<size=120%>对！</size>,10362,过场对白CUT,1月5日,,定句「对！」，接「就是现在！」仍通,已译,<size=120%>Right!</size>
 CUT_1_5_HGR_01_005,<size=140%>就是现在！</size>,10363,过场对白CUT,1月5日,,,已译,<size=140%>Now!</size>
-CUT_1_5_HGR_01_006,<shake a=0.3>等等！求你了……！</shake>,10364,过场对白CUT,1月5日,,补全文字抖动特效标签<shake a=0.3>；补回 Please...! 的省略号,已译,<shake a=0.3>Wait! Please...!</shake>
-CUT_1_5_HGR_01_007,<shake a=0.3>求求你，原谅我……！</shake>,10365,过场对白CUT,1月5日,,补全文字抖动特效标签<shake a=0.3>,已译,<shake a=0.3>Please forgive me...!</shake>
+CUT_1_5_HGR_01_006,等等！求你了……！,10364,过场对白CUT,1月5日,,补全文字抖动特效标签<shake a=0.3>；补回 Please...! 的省略号,已译,<shake a=0.3>Wait! Please...!</shake>
+CUT_1_5_HGR_01_007,求求你，原谅我……！,10365,过场对白CUT,1月5日,,补全文字抖动特效标签<shake a=0.3>,已译,<shake a=0.3>Please forgive me...!</shake>
 CUT_1_5_HGR_02_001,你给我说清楚，你这个混账！,10366,过场对白CUT,1月5日,,,已译,"Explain yourself, you wretch!"
 CUT_1_5_HGR_02_002,你在我家里做什么？！,10367,过场对白CUT,1月5日,,,已译,What were you doing in my house?!
-CUT_1_5_HGR_02_003,<shake a=0.3>等等！请别打我！</shake>,10368,过场对白CUT,1月5日,,补全文字抖动特效标签<shake a=0.3>；原文只一个 Wait!,已译,<shake a=0.3>Wait! Please don't hit me!</shake>
-CUT_1_5_HGR_02_004,<shake a=0.3>我只是躲在这儿而已——外面有些男人，我……！</shake>,10369,过场对白CUT,1月5日,,补全文字抖动特效标签<shake a=0.3>；and I...! 话没说完，不补「我怕他们会」,已译,<shake a=0.3>I was just hiding — there were these men and I...!</shake>
+CUT_1_5_HGR_02_003,等等！请别打我！,10368,过场对白CUT,1月5日,,补全文字抖动特效标签<shake a=0.3>；原文只一个 Wait!,已译,<shake a=0.3>Wait! Please don't hit me!</shake>
+CUT_1_5_HGR_02_004,我只是躲在这儿而已——外面有些男人，我……！,10369,过场对白CUT,1月5日,,补全文字抖动特效标签<shake a=0.3>；and I...! 话没说完，不补「我怕他们会」,已译,<shake a=0.3>I was just hiding — there were these men and I...!</shake>
 CUT_1_5_HGR_02_005,我不会再问你第二遍，小贼！,10370,过场对白CUT,1月5日,,,已译,"I won't ask you a second time, thief!"
 CUT_1_5_HGR_02_006,把你拿走的东西统统还给我！马上！,10371,过场对白CUT,1月5日,,,已译,Give me back everything you took — right now!
-CUT_1_5_HGR_02_007,<shake a=0.3>我什么都没拿！</shake>,10372,过场对白CUT,1月5日,,补全文字抖动特效标签<shake a=0.3>,已译,<shake a=0.3>I didn’t take anything!</shake>
+CUT_1_5_HGR_02_007,我什么都没拿！,10372,过场对白CUT,1月5日,,补全文字抖动特效标签<shake a=0.3>,已译,<shake a=0.3>I didn’t take anything!</shake>
 CUT_1_5_HGR_02_008,我只是害怕而已！求求您了！,10373,过场对白CUT,1月5日,,第1周萝森玛琳对伊莉丝用「您」，同场一致,已译,"I was just scared! Please, I beg of you!"
 CUT_1_5_HGR_02_009,把手伸出来给我看！,10374,过场对白CUT,1月5日,,,已译,Show me your hands!
 CUT_1_5_HGR_02_010,我什么都没拿，夫人！,10375,过场对白CUT,1月5日,,,已译,"I didn’t take anything, ma’am!"
@@ -10893,16 +10893,16 @@ CUT_2_5_HBR_02_014,<color=#7D6690>（我都那样对她了，她居然还能说�
 CUT_2_5_HBR_02_015,<color=#7D6690>（明天我一定对她好一点……）</color>,10892,过场对白CUT,2月5日,HBR,"原文 <color value=""#7D6690""> 统一写作 <color=#7D6690>…",已译,"<color value=""#7D6690"">(I'll take care to treat her better tomorrow...)</color>"
 CUT_2_5_HBY_01_001,（呼，今天的活儿总算干完了……！）,10893,过场对白CUT,2月5日,HBY,Oh 按语气改译，不再一律作「哦」,已译,"(Oh, I'm finally done with work for today...!)"
 CUT_2_5_HBY_01_002,（我最好去格蕾特太太那儿看看斯佩尔特。）,10894,过场对白CUT,2月5日,HBY,,已译,(I'd best head over to Mrs. Gretel's to see Lebkuchen.)
-CUT_2_5_HLR_01_001,<shake a=0.3><size=120%>呀……！</size></shake>,10895,过场对白CUT,2月5日,HLR,补全文字抖动特效标签<shake a=0.3>；定句，补回省略号并统一「咿呀」,已译,<shake a=0.3><size=120%>Eek...!</size></shake>
-CUT_2_5_HLR_01_002,<shake a=0.3>求、求你饶了我吧，伊莉丝……！</shake>,10896,过场对白CUT,2月5日,HLR,补全文字抖动特效标签<shake a=0.3>；补回漏译的呼语/人名，删去原文没有的增译人名,已译,"<shake a=0.3>P-Please spare me, Elise...!</shake>"
+CUT_2_5_HLR_01_001,<size=120%>呀……！</size>,10895,过场对白CUT,2月5日,HLR,补全文字抖动特效标签<shake a=0.3>；定句，补回省略号并统一「咿呀」,已译,<shake a=0.3><size=120%>Eek...!</size></shake>
+CUT_2_5_HLR_01_002,求、求你饶了我吧，伊莉丝……！,10896,过场对白CUT,2月5日,HLR,补全文字抖动特效标签<shake a=0.3>；补回漏译的呼语/人名，删去原文没有的增译人名,已译,"<shake a=0.3>P-Please spare me, Elise...!</shake>"
 CUT_2_5_HLR_01_003,主啊，米菲，你到底在这儿搞什么鬼……！,10897,过场对白CUT,2月5日,HLR,What/Why in the Lord's name 是加强语气的习语，「看在主的份上」误用…,已译,"What in the Lord's name are you doing here, Miffy...!"
 CUT_2_5_HLR_01_004,我、我就是出来散散步，我、我发誓！我对着我姑姑的名字发誓！,10898,过场对白CUT,2月5日,HLR,,已译,"I-I was out on a stroll, I-I swear! I swear on my auntie's name!"
 CUT_2_5_HLR_01_005,啊，结果就这么正巧躲到我家房子后头去了，是吧！,10899,过场对白CUT,2月5日,HLR,,已译,"Ah, and you just so happened to hide behind my house, I see!"
 CUT_2_5_HLR_01_006,谁、谁还不这样啊？你不也时不时在人家屋子附近偷偷摸摸的吗？,10900,过场对白CUT,2月5日,HLR,,已译,"W-Who doesn't? You sneak about folks' homes every now and then too, don't you?"
 CUT_2_5_HLR_01_007,你来这儿干什么，曼迪？,10901,过场对白CUT,2月5日,HLR,,已译,"What are you doing here, Mandy?"
 CUT_2_5_HLR_01_008,现在就给我说清楚，不然我这就拿块肥皂把你嘴给洗了！,10902,过场对白CUT,2月5日,HLR,,已译,"Tell me right now, or I'll scrub your mouth with soap this very minute!"
-CUT_2_5_HLR_01_009,<shake a=0.3><size=120%>呀！</size></shake>,10903,过场对白CUT,2月5日,HLR,补全文字抖动特效标签<shake a=0.3>；定句，统一两行「咿呀」,已译,<shake a=0.3><size=120%>Eek!</size></shake>
-CUT_2_5_HLR_01_010,<shake a=0.3>天、天也不早了，是吧，伊莉丝？我还是……</shake>,10904,过场对白CUT,2月5日,HLR,补全文字抖动特效标签<shake a=0.3>,已译,"<shake a=0.3>I-It's getting quite late, isn't it, Elise? I'd best...</shake>"
+CUT_2_5_HLR_01_009,<size=120%>呀！</size>,10903,过场对白CUT,2月5日,HLR,补全文字抖动特效标签<shake a=0.3>；定句，统一两行「咿呀」,已译,<shake a=0.3><size=120%>Eek!</size></shake>
+CUT_2_5_HLR_01_010,天、天也不早了，是吧，伊莉丝？我还是……,10904,过场对白CUT,2月5日,HLR,补全文字抖动特效标签<shake a=0.3>,已译,"<shake a=0.3>I-It's getting quite late, isn't it, Elise? I'd best...</shake>"
 CUT_2_5_HLR_01_011,老实交代！,10905,过场对白CUT,2月5日,HLR,,已译,Out with it!
 CUT_2_5_HLR_01_012,我、我看见你收留的那个丫头了，伊莉丝！,10906,过场对白CUT,2月5日,HLR,,已译,"I-I saw her! That girl you're housing, Elise!"
 CUT_2_5_HLR_01_013,你什么都没看见，莫莉！,10907,过场对白CUT,2月5日,HLR,,已译,"You saw nothing, Molly!"
@@ -10925,7 +10925,7 @@ CUT_2_5_HLR_01_029,我、我要告诉汉斯神父……！,10923,过场对白CUT
 CUT_2_5_HLR_01_030,你要告诉他什么，米菲？,10924,过场对白CUT,2月5日,HLR,,已译,"What are you telling him, Miffy?"
 CUT_2_5_HLR_01_031,明、明天你最好给我带个<color=#f344a2>椒盐卷饼</color>来……！,10925,过场对白CUT,2月5日,HLR,,已译,You'd better get me a <color=#f344a2>pretzel</color> tomorrow...!
 CUT_2_5_HLR_01_032,嘴巴闭紧了，不然我保证你以后再也别想出门散步了！,10926,过场对白CUT,2月5日,HLR,,已译,"Mouth shut, or I'll make certain you'll never go for a stroll again!"
-CUT_2_5_HLR_01_033,<shake a=0.3><size=120%>呀！</size></shake>,10927,过场对白CUT,2月5日,HLR,补全文字抖动特效标签<shake a=0.3>；定句，统一两行「咿呀」,已译,<shake a=0.3><size=120%>Eek!</size></shake>
+CUT_2_5_HLR_01_033,<size=120%>呀！</size>,10927,过场对白CUT,2月5日,HLR,补全文字抖动特效标签<shake a=0.3>；定句，统一两行「咿呀」,已译,<shake a=0.3><size=120%>Eek!</size></shake>
 CUT_2_5_HLR_01_034,别再回来了！不然的话……！,10928,过场对白CUT,2月5日,HLR,Or else...! 话没说完,已译,And don't come back! Or else...!
 CUT_2_5_HLR_01_035,真是的！偏偏这时候给我添乱！,10929,过场对白CUT,2月5日,HLR,解除 TM省略号覆写：还原原文感叹号(!)的急切/惊叹/强调语气；原文叹号，句首不加省略号,已译,For goodness' sake! This is the last thing I needed!
 CUT_2_5_HLR_01_036,她走了吗……？,10930,过场对白CUT,2月5日,HLR,,已译,Is she gone...?
@@ -11424,11 +11424,11 @@ CUT_3_3_VIN_01_083,要是他们怀疑上我们，我们就死定了……！,114
 CUT_3_3_VIN_01_085,咱们得小心点，伊莉丝……我就说这么多……,11423,过场对白CUT,3月3日,VIN,is all 不硬作「仅此而已」，按语境转「罢了/而已」,已译,"We ought to be careful, Elise... That's all..."
 CUT_3_3_VIN_01_086,咱们走吧，伊莉丝。,11424,过场对白CUT,3月3日,VIN,,已译,"Let us move along, Elise."
 CUT_3_3_VIN_01_087,留在这儿对你也没什么好处。,11425,过场对白CUT,3月3日,VIN,,已译,Staying here won't do you any good.
-CUT_3_3_VSQ_01_001,<shake a=0.3>我、我还以为再也找不到你了呢，伊莉丝……！</shake>,11426,过场对白CUT,3月3日,VSQ,补全文字抖动特效标签<shake a=0.3>；补回 Elise...! 的省略号,已译,"<shake a=0.3>I-I thought I'd never find you, Elise...!</shake>"
+CUT_3_3_VSQ_01_001,我、我还以为再也找不到你了呢，伊莉丝……！,11426,过场对白CUT,3月3日,VSQ,补全文字抖动特效标签<shake a=0.3>；补回 Elise...! 的省略号,已译,"<shake a=0.3>I-I thought I'd never find you, Elise...!</shake>"
 CUT_3_3_VSQ_01_002,又怎么了，米菲？,11427,过场对白CUT,3月3日,VSQ,,已译,"Oh, what now, Miffy?"
-CUT_3_3_VSQ_01_003,<shake a=0.3>是、是你的……！</shake>,11428,过场对白CUT,3月3日,VSQ,补全文字抖动特效标签<shake a=0.3>；穆菲结巴用顿号,已译,<shake a=0.3>I-It's your...!</shake>
+CUT_3_3_VSQ_01_003,是、是你的……！,11428,过场对白CUT,3月3日,VSQ,补全文字抖动特效标签<shake a=0.3>；穆菲结巴用顿号,已译,<shake a=0.3>I-It's your...!</shake>
 CUT_3_3_VSQ_01_004,我没有吃的给你！走开，走开！,11429,过场对白CUT,3月3日,VSQ,,已译,"I don't have food for you! Shoo, shoo!"
-CUT_3_3_VSQ_01_005,<shake a=0.3>可、可是伊莉丝！那、那是你的……！</shake>,11430,过场对白CUT,3月3日,VSQ,补全文字抖动特效标签<shake a=0.3>,已译,<shake a=0.3>B-But Elise! I-It's your...!</shake>
+CUT_3_3_VSQ_01_005,可、可是伊莉丝！那、那是你的……！,11430,过场对白CUT,3月3日,VSQ,补全文字抖动特效标签<shake a=0.3>,已译,<shake a=0.3>B-But Elise! I-It's your...!</shake>
 CUT_3_3_VSQ_01_006,我的什么？,11431,过场对白CUT,3月3日,VSQ,,已译,My what?
 CUT_3_3_VSQ_01_007,你的朋友！,11432,过场对白CUT,3月3日,VSQ,,已译,Your friend!
 CUT_3_3_VSQ_01_008,那个戴着怪帽子的丫头——她在外面呢！,11433,过场对白CUT,3月3日,VSQ,删去重复上句的「你朋友！」,已译,The lass with the funny hat — she's right outside!
@@ -11935,7 +11935,7 @@ CUT_3_6_WDM_C_01_024,你这是在做什么……！,11933,过场对白CUT,3月6�
 CUT_3_6_WDM_C_01_025,一切皆为成全大善，我亲爱的……！,11934,过场对白CUT,3月6日,WDM_C,,已译,"All for the greater good, my beloved...!"
 CUT_3_6_WDM_C_01_026,为了让我们重聚！为了我腹中能再度孕育生命……！,11935,过场对白CUT,3月6日,WDM_C,,已译,So that we can be reunited! So that I can bear life in my womb once more...!
 CUT_3_6_WDM_C_01_027,我得赶紧离开这里！,11936,过场对白CUT,3月6日,WDM_C,,已译,I need to get out of here!
-CUT_3_6_WDM_C_01_028,<shake a=0.2>好让我取回属于我的东西……！</shake>,11937,过场对白CUT,3月6日,WDM_C,补全文字抖动特效标签<shake a=0.2>,已译,<shake a=0.2>So I can retrieve what's mine...!</shake>
+CUT_3_6_WDM_C_01_028,好让我取回属于我的东西……！,11937,过场对白CUT,3月6日,WDM_C,补全文字抖动特效标签<shake a=0.2>,已译,<shake a=0.2>So I can retrieve what's mine...!</shake>
 CUT_3_6_WDM_C_01_item,伊莉丝,11938,过场对白CUT,3月6日,,,缺英文源,
 CUT_3_6_WDM_C_02_001,那些东西似乎循着血肉而来……我得把它们引开，可是……,11939,过场对白CUT,3月6日,WDM_C,,已译,"Those are drawn to flesh, it seems... I ought to lure them out of the way, but..."
 CUT_3_6_WDM_C_02_002,若不<i>熄掉提灯</i>，它们会一直跟着我。,11940,过场对白CUT,3月6日,WDM_C,,已译,They'll keep following me if I don't <i>turn off my lantern</i>.
@@ -15032,11 +15032,11 @@ CUT_8_END_W_2_021,……,15030,过场对白CUT,8,END_W,,已译,...
 CUT_8_END_W_2_022,可<b>祂</b>竟还敢插手我的骨肉……,15031,过场对白CUT,8,END_W,,已译,"Yet, <b>He</b> still dares interfere with my kin..."
 CUT_8_END_W_2_023,你是我的，伊莉丝……不是<b>祂</b>的，也不是你祖母的……,15032,过场对白CUT,8,END_W,,已译,"You are mine, Elise... Not <b>His</b>, not your grandmother's..."
 CUT_8_END_W_2_024,你啊，我的宝贝，是我永远成不了的模样……,15033,过场对白CUT,8,END_W,,已译,"You, my beloved, are what I'm not..."
-CUT_8_END_W_2_025,<shake a=0.2>啊，伊莉丝……！</shake>,15034,过场对白CUT,8,END_W,补全文字抖动特效标签<shake a=0.2>；定句，与其余四行一致,已译,"<shake a=0.2>Oh, Elise...!</shake>"
-CUT_8_END_W_2_026,我能感到你的心在我胸腔里<incr a=0.3>怦怦跳动</incr>！,15035,过场对白CUT,8,END_W,补全结局独白逐字浮现特效标签<incr a=0.3>,已译,I can feel your heart <incr a=0.3>thumping</incr> in my chest!
-CUT_8_END_W_2_027,<incr a=0.3>你滚烫的指尖、你含泪的双眼！</incr>,15036,过场对白CUT,8,END_W,补全结局独白逐字浮现特效标签<incr a=0.3>,已译,"<incr a=0.3>Your burning fingertips, your tearful eyes!</incr>"
-CUT_8_END_W_2_028,<incr a=0.3>我终于感到，你鲜活温热的躯体将我拥入其中……！</incr>,15037,过场对白CUT,8,END_W,补全结局独白逐字浮现特效标签<incr a=0.3>,已译,"<incr a=0.3>I can feel your living, breathing body cradling me at last...!</incr>"
-CUT_8_END_W_2_029,<incr a=0.3>凭着它……凭着这具由<i>我</i>生下的凡人之躯……</incr>,15038,过场对白CUT,8,END_W,补全结局独白逐字浮现特效标签<incr a=0.3>,已译,<incr a=0.3>With this... With your human body which <i>I</i> bore...</incr>
+CUT_8_END_W_2_025,啊，伊莉丝……！,15034,过场对白CUT,8,END_W,补全文字抖动特效标签<shake a=0.2>；定句，与其余四行一致,已译,"<shake a=0.2>Oh, Elise...!</shake>"
+CUT_8_END_W_2_026,我能感到你的心在我胸腔里怦怦跳动！,15035,过场对白CUT,8,END_W,补全结局独白逐字浮现特效标签<incr a=0.3>,已译,I can feel your heart <incr a=0.3>thumping</incr> in my chest!
+CUT_8_END_W_2_027,你滚烫的指尖、你含泪的双眼！,15036,过场对白CUT,8,END_W,补全结局独白逐字浮现特效标签<incr a=0.3>,已译,"<incr a=0.3>Your burning fingertips, your tearful eyes!</incr>"
+CUT_8_END_W_2_028,我终于感到，你鲜活温热的躯体将我拥入其中……！,15037,过场对白CUT,8,END_W,补全结局独白逐字浮现特效标签<incr a=0.3>,已译,"<incr a=0.3>I can feel your living, breathing body cradling me at last...!</incr>"
+CUT_8_END_W_2_029,凭着它……凭着这具由<i>我</i>生下的凡人之躯……,15038,过场对白CUT,8,END_W,补全结局独白逐字浮现特效标签<incr a=0.3>,已译,<incr a=0.3>With this... With your human body which <i>I</i> bore...</incr>
 CUT_8_END_W_2_030,我便能再度在腹中孕育生命——能重新……<color=#000000><b>以女人的身份</b></color>活下去……,15039,过场对白CUT,8,END_W,补全<color=#000000><b>...</b></color>复合强调标签,已译,I can once more bear life in my womb — I can live... <color=#000000><b>as a woman</b></color>...
 CUT_8_END_W_3_001,啊，晚上好，各位先生。,15040,过场对白CUT,8,END_W,,已译,"Ah, good evening, gentlemen."
 CUT_8_END_W_3_002,天黑了还在外头转悠哪，伊莉丝？,15041,过场对白CUT,8,END_W,,已译,"Wandering about after dark again, Elise?"
@@ -15339,7 +15339,7 @@ CUT_WCW_A_HOUSE_INTERIOR_01_018,那挂毯底下……好像有什么东西……
 CUT_WCW_A_HOUSE_INTERIOR_02_001,……！,15338,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,,已译,...!
 CUT_WCW_A_HOUSE_INTERIOR_02_002,这只母鹿！它的内脏都被……！,15339,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,,已译,This doe! Its insides have been...!
 CUT_WCW_A_HOUSE_INTERIOR_02_003,我的子宫……被拿去满足那女人的心愿……,15340,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,,已译,My womb... Used for that woman's wish...
-CUT_WCW_A_HOUSE_INTERIOR_02_004,我被利用了……！<shake a=0.3>被利用、被利用、被利用……！</shake>,15341,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,补全后半句<shake a=0.3>文字抖动特效标签,已译,"I was used...! <shake a=0.3>Used, used, used...!</shake>"
+CUT_WCW_A_HOUSE_INTERIOR_02_004,我被利用了……！被利用、被利用、被利用……！,15341,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,补全后半句<shake a=0.3>文字抖动特效标签,已译,"I was used...! <shake a=0.3>Used, used, used...!</shake>"
 CUT_WCW_A_HOUSE_INTERIOR_02_005,被利用……？,15342,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,,已译,Used...?
 CUT_WCW_A_HOUSE_INTERIOR_02_006,主啊，这里到底是怎么了？,15343,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,What/Why in the Lord's name 是加强语气的习语，「看在主的份上」误用…,已译,What in the Lord's name is going on here?
 CUT_WCW_A_HOUSE_INTERIOR_02_007,这些声音想要告诉我什么……？,15344,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,,已译,What are these voices trying to tell me...?
@@ -15879,8 +15879,8 @@ LVE_2_3_VCT_L_022,你以为我没有别的抱怨？,15846,恋爱事件LVE,2月3�
 LVE_2_3_VCT_L_22,我头发是长了点，可我至少没秃！,15847,恋爱事件LVE,2月3日,VCT_L,,已译,"My hair may be too long, but at least I'm not bald!"
 LVE_2_3_VCT_L_23,哈哈哈哈！,15848,恋爱事件LVE,2月3日,VCT_L,,已译,Ahahahaha!
 LVE_2_3_VCT_L_023,那就说来听听？,15849,恋爱事件LVE,2月3日,VCT_L,,已译,"Indulge me, why don't you?"
-LVE_2_3_VCT_L_024,<wave a=0.3><size=115%>你这秃头老家伙就该待在猪圈里——哼哼猪！</size></wave>,15850,恋爱事件LVE,2月3日,VCT_L,补全文字波浪动态标签<wave a=0.3>,已译,<wave a=0.3><size=115%>Bald geezers like you belong in the pigpen — you oinker!</size></wave>
-LVE_2_3_VCT_L_025,<shake a=0.3>斯、斯佩尔特……！</shake>,15851,恋爱事件LVE,2月3日,VCT_L,补全文字抖动特效标签<shake a=0.3>,已译,<shake a=0.3>L-Lebkuchen...!</shake>
+LVE_2_3_VCT_L_024,<size=115%>你这秃头老家伙就该待在猪圈里——哼哼猪！</size>,15850,恋爱事件LVE,2月3日,VCT_L,补全文字波浪动态标签<wave a=0.3>,已译,<wave a=0.3><size=115%>Bald geezers like you belong in the pigpen — you oinker!</size></wave>
+LVE_2_3_VCT_L_025,斯、斯佩尔特……！,15851,恋爱事件LVE,2月3日,VCT_L,补全文字抖动特效标签<shake a=0.3>,已译,<shake a=0.3>L-Lebkuchen...!</shake>
 LVE_2_3_VCT_L_25,佩佩！要是被他听见了怎么办？,15852,恋爱事件LVE,2月3日,VCT_L,,已译,Leb! What if he hears you?
 LVE_2_3_VCT_L_26,你怎么不试试看？,15853,恋爱事件LVE,2月3日,VCT_L,,已译,Why don't you try it?
 LVE_2_3_VCT_L_27,就这钟声，他多半听不见咱们说话。,15854,恋爱事件LVE,2月3日,VCT_L,,已译,Doubt he could hear us over these bells.
@@ -15888,11 +15888,11 @@ LVE_2_3_VCT_L_027,在这上头他听不见的，伊莉丝！,15855,恋爱事件L
 LVE_2_3_VCT_L_028,好吧——可要是被逮住，挨训的可是你！,15856,恋爱事件LVE,2月3日,VCT_L,,已译,All right — but you're the one getting the lecture if he catches us!
 LVE_2_3_VCT_L_029,来，扯开嗓子喊！,15857,恋爱事件LVE,2月3日,VCT_L,,已译,"At the top of your lungs, now!"
 LVE_2_3_VCT_L_29,让我裹着个大布袋走来走去，我宁可下地狱！,15858,恋爱事件LVE,2月3日,VCT_L,,已译,I'd rather burn in hell than walk around in a giant bean bag!
-LVE_2_3_VCT_L_030,<wave a=0.3><size=115%>你丑得连圣瓦尔普加都救不了——你这吃人妖怪！</size></wave>,15859,恋爱事件LVE,2月3日,VCT_L,补全文字波浪动态标签<wave a=0.3>,已译,<wave a=0.3><size=115%>You're so ugly not even St. Walpurga can save you — you ogre!</size></wave>
+LVE_2_3_VCT_L_030,<size=115%>你丑得连圣瓦尔普加都救不了——你这吃人妖怪！</size>,15859,恋爱事件LVE,2月3日,VCT_L,补全文字波浪动态标签<wave a=0.3>,已译,<wave a=0.3><size=115%>You're so ugly not even St. Walpurga can save you — you ogre!</size></wave>
 LVE_2_3_VCT_L_30,哈哈哈哈！,15860,恋爱事件LVE,2月3日,VCT_L,,已译,Ahahahaha!
 LVE_2_3_VCT_L_31,你就这点本事，伊莉丝？,15861,恋爱事件LVE,2月3日,VCT_L,,已译,"Is that the best you can do, Elise?"
 LVE_2_3_VCT_L_32,顽固的老驴就该待在猪圈里！,15862,恋爱事件LVE,2月3日,VCT_L,,已译,Stubborn old donkeys belong in the pigpen!
-LVE_2_3_VCT_L_033,<wave a=0.3><size=115%>再敢嫌我头发长，我就把你剩下那几根全铰了——老黄鼠狼！</size></wave>,15863,恋爱事件LVE,2月3日,VCT_L,补全文字波浪动态标签<wave a=0.3>,已译,"<wave a=0.3><size=115%>Dare tell me my hair is too long again, and I'll chop off whatever's left of yours — you old weasel!</size></wave>"
+LVE_2_3_VCT_L_033,<size=115%>再敢嫌我头发长，我就把你剩下那几根全铰了——老黄鼠狼！</size>,15863,恋爱事件LVE,2月3日,VCT_L,补全文字波浪动态标签<wave a=0.3>,已译,"<wave a=0.3><size=115%>Dare tell me my hair is too long again, and I'll chop off whatever's left of yours — you old weasel!</size></wave>"
 LVE_2_3_VCT_L_34,怎么？我说过头了？,15864,恋爱事件LVE,2月3日,VCT_L,,已译,What? Did I go too far?
 LVE_2_3_VCT_L_034,他真那么说过你？,15865,恋爱事件LVE,2月3日,VCT_L,,已译,Did he really tell you that?
 LVE_2_3_VCT_L_035,说是当修女不该留这么长。,15866,恋爱事件LVE,2月3日,VCT_L,,已译,"For a clergywoman, that is."
@@ -17064,13 +17064,13 @@ LVE_7_2_OLH_L_018,我负责带毯子，咱们甚至还把地板都扫了一遍�
 LVE_7_2_OLH_L_019,还有咱们奶奶们发现时那副表情——现在想起来还让我直打哆嗦！,17032,恋爱事件LVE,7月2日,OLH_L,去除原文没有的整句引号（引号与说话人不符）,已译,"Our grannies' faces when they found out, too — still gives me shivers!"
 LVE_7_2_OLH_L_020,话说回来——你到底想跟我说什么来着？,17033,恋爱事件LVE,7月2日,OLH_L,,已译,Anyhow — what was it you wanted to tell me?
 LVE_7_2_OLH_L_021,佩佩……？,17034,恋爱事件LVE,7月2日,OLH_L,恢复角色名试探/疑惑呼唤的疑问标点(?),已译,Leb...?
-LVE_7_2_OLH_L_022,<size=113%><shake a=1>啊啊啊啊啊啊啊！！</shake></size>,17035,恋爱事件LVE,7月2日,OLH_L,补全文字抖动特效标签<shake a=1>,已译,<size=113%><shake a=1>AAAHHHHHHHH!!</shake></size>
-LVE_7_2_OLH_L_023,<wave a=0.3>伊莉丝！</wave>,17036,恋爱事件LVE,7月2日,OLH_L,补全文字波浪动态标签<wave a=0.3>,已译,<wave a=0.3>Elise!</wave>
-LVE_7_2_OLH_L_024,<wave a=0.3>我是这屋子里的幽灵，伊莉丝！</wave>,17037,恋爱事件LVE,7月2日,OLH_L,补全文字波浪动态标签<wave a=0.3>,已译,"<wave a=0.3>I'm the ghost of this house, Elise!</wave>"
-LVE_7_2_OLH_L_025,<shake a=0.3>斯佩尔特……！</shake>,17038,恋爱事件LVE,7月2日,OLH_L,补全文字抖动特效标签<shake a=0.3>,已译,<shake a=0.3>Lebkuchen...!</shake>
-LVE_7_2_OLH_L_026,<wave a=0.3>把你的灵魂交给我，伊莉丝，不然我就缠着你一辈子！</wave>,17039,恋爱事件LVE,7月2日,OLH_L,补全文字波浪动态标签<wave a=0.3>,已译,"<wave a=0.3>Give me your soul, Elise, or I'll haunt you forever!</wave>"
-LVE_7_2_OLH_L_027,<shake a=0.3>这、这一点都不好笑，你这……！</shake>,17040,恋爱事件LVE,7月2日,OLH_L,补全文字抖动特效标签<shake a=0.3>,已译,"<shake a=0.3>T-That's not funny, you...!</shake>"
-LVE_7_2_OLH_L_028,<wave a=0.3>哎呀，可我是这一带最傻气的幽灵呀！</wave>,17041,恋爱事件LVE,7月2日,OLH_L,补全文字波浪动态标签<wave a=0.3>,已译,"<wave a=0.3>Why, but I'm the silliest ghost around!</wave>"
+LVE_7_2_OLH_L_022,<size=113%>啊啊啊啊啊啊啊！！</size>,17035,恋爱事件LVE,7月2日,OLH_L,补全文字抖动特效标签<shake a=1>,已译,<size=113%><shake a=1>AAAHHHHHHHH!!</shake></size>
+LVE_7_2_OLH_L_023,伊莉丝！,17036,恋爱事件LVE,7月2日,OLH_L,补全文字波浪动态标签<wave a=0.3>,已译,<wave a=0.3>Elise!</wave>
+LVE_7_2_OLH_L_024,我是这屋子里的幽灵，伊莉丝！,17037,恋爱事件LVE,7月2日,OLH_L,补全文字波浪动态标签<wave a=0.3>,已译,"<wave a=0.3>I'm the ghost of this house, Elise!</wave>"
+LVE_7_2_OLH_L_025,斯佩尔特……！,17038,恋爱事件LVE,7月2日,OLH_L,补全文字抖动特效标签<shake a=0.3>,已译,<shake a=0.3>Lebkuchen...!</shake>
+LVE_7_2_OLH_L_026,把你的灵魂交给我，伊莉丝，不然我就缠着你一辈子！,17039,恋爱事件LVE,7月2日,OLH_L,补全文字波浪动态标签<wave a=0.3>,已译,"<wave a=0.3>Give me your soul, Elise, or I'll haunt you forever!</wave>"
+LVE_7_2_OLH_L_027,这、这一点都不好笑，你这……！,17040,恋爱事件LVE,7月2日,OLH_L,补全文字抖动特效标签<shake a=0.3>,已译,"<shake a=0.3>T-That's not funny, you...!</shake>"
+LVE_7_2_OLH_L_028,哎呀，可我是这一带最傻气的幽灵呀！,17041,恋爱事件LVE,7月2日,OLH_L,补全文字波浪动态标签<wave a=0.3>,已译,"<wave a=0.3>Why, but I'm the silliest ghost around!</wave>"
 LVE_7_2_OLH_L_029,够了，斯佩尔特！,17042,恋爱事件LVE,7月2日,OLH_L,去除原文没有的整句引号（引号与说话人不符）,已译,"Enough of that, Lebkuchen!"
 LVE_7_2_OLH_L_030,……,17043,恋爱事件LVE,7月2日,OLH_L,去除原文没有的整句引号（引号与说话人不符）,已译,...
 LVE_7_2_OLH_L_031,你差点把我吓进坟墓里！,17044,恋爱事件LVE,7月2日,OLH_L,去除原文没有的整句引号（引号与说话人不符）,已译,You nearly sent me to my grave!
@@ -17101,8 +17101,8 @@ LVE_7_2_OLH_L_055,来吧，我们走吧……我已经耽误你够久了。,1706
 LVE_7_2_OLH_L_056,明天我也有话要对你说。,17069,恋爱事件LVE,7月2日,OLH_L,,已译,"I have something to tell you tomorrow, too."
 LVE_7_2_OLH_L_057,哦，是这样吗？,17070,恋爱事件LVE,7月2日,OLH_L,,已译,"Oh, is that so?"
 LVE_7_2_OLH_L_058,真的是这样，你这家伙……！,17071,恋爱事件LVE,7月2日,OLH_L,,已译,"It truly is so, you...!"
-LVE_7_2_OLH_L_059,<shake a=0.3>啊啊啊啊啊……！</shake>,17072,恋爱事件LVE,7月2日,OLH_L,补全文字抖动特效标签<shake a=0.3>,已译,<shake a=0.3>Aaahhhhhh...!</shake>
-LVE_7_2_OLH_L_060,<shake a=0.3>来人救救我！那鬼魂又回来了！</shake>,17073,恋爱事件LVE,7月2日,OLH_L,补全文字抖动特效标签<shake a=0.3>,已译,<shake a=0.3>Somebody help me! The ghost is back!</shake>
+LVE_7_2_OLH_L_059,啊啊啊啊啊……！,17072,恋爱事件LVE,7月2日,OLH_L,补全文字抖动特效标签<shake a=0.3>,已译,<shake a=0.3>Aaahhhhhh...!</shake>
+LVE_7_2_OLH_L_060,来人救救我！那鬼魂又回来了！,17073,恋爱事件LVE,7月2日,OLH_L,补全文字抖动特效标签<shake a=0.3>,已译,<shake a=0.3>Somebody help me! The ghost is back!</shake>
 LVE_7_2_OLH_L_061,你这家伙……！,17074,恋爱事件LVE,7月2日,OLH_L,"修正发语感叹词Why, you...!误译为质问句「你说什么呢！」；定句，对孩子长辈朋友乌鸦都通",已译,"Why, you...!"
 LVE_7_2_OLH_L_062,给我站住……！,17075,恋爱事件LVE,7月2日,OLH_L,,已译,Wait right there...!
 LVE_7_2_OLH_L_063,不管怎么说，佩佩……,17076,恋爱事件LVE,7月2日,OLH_L,,已译,"Anyhow, Leb..."

@@ -32,6 +32,14 @@ NB = chr(92) + "n"   # 字面反斜杠 + n
 # 食品「姜饼」由 item_names 层与 ITM_F_N_08 承担。理由同 apply_translation.py。
 NAME_OVERRIDE = {"Lebkuchen": "斯佩尔特"}
 
+# 游戏 TMP 不识别 wave / shake / incr, 会把标签当字面量显示; <size>/<color>/<sprite> 支持。
+# 理由与 apply_translation.py 同一处。只剥中文值, AT 的英文键必须原样保留才能命中。
+BAD_TAG_RE = re.compile(r"</?(?:wave|shake|incr)\b[^>]*>")
+
+
+def clean_zh(s):
+    return BAD_TAG_RE.sub("", s or "").strip()
+
 
 def norm(s):
     return WS_RE.sub(" ", TAG_RE.sub("", s or "")).strip()
@@ -98,7 +106,7 @@ def main():
     cols = rows[0].keys() if rows else []
     has_rev = "修订译文" in cols
     print("译本列集: %d 列%s" % (len(cols), " (旧 11 列格式, 以 修订译文 优先)" if has_rev else " (9 列格式)"))
-    eff = lambda r: (((r.get("修订译文") or "").strip() or r["中文译文"]) if has_rev else r["中文译文"]).strip()
+    eff = lambda r: clean_zh(((r.get("修订译文") or "").strip() or r["中文译文"]) if has_rev else r["中文译文"])
 
     exact = {}
     fuzzy = defaultdict(set)

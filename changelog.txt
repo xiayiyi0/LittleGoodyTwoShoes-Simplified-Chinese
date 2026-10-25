@@ -26,6 +26,13 @@ v1.3.25 (2026-10-25)
 - 词典条数不变: by_refkey 21,189 / display 25,261 / item_names 79 / AT 24,700 /
   UI_System 536。译文正文无改动，本次实际改动只有 2 处值（display 与 AT 各 1 条）。
 - 文档: 译者说明补充 Lebkuchen 真名与同名道具的分层规则。
+- 修复: <wave>/<shake>/<incr> 三个标签以字面量上屏。游戏 TMP 不识别这三个标签
+  (v1.3.8 已实机确认), 会把 `<wave a=0.3>`、`</wave>` 原样显示在对话框里。
+  v1.3.21 全量重建时, 中文译文里的这些标签又被带了回来, 共 35 条台词受影响
+  (shake 标签 50 处、wave 16 处、incr 8 处)。
+  现已连同属性一并剥离, 保留游戏支持的 <size>/<color>/<i>/<b>/<sprite>。
+  apply_translation.py / rebuild_at.py 增加剥离步骤, verify_release.py 增加对应验收项,
+  避免下次重建再冲回来。
 - 插件 LGTSChinese.dll 升级至 1.3.25; zip 条目数维持 71。
 
 v1.3.24 (2026-10-24)

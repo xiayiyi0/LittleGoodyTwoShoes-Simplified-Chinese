@@ -153,7 +153,8 @@ def main():
     if args.csv:
         rows = list(csv.DictReader(open(args.csv, encoding="utf-8-sig")))
         has_rev = bool(rows) and "修订译文" in rows[0]
-        eff = lambda r: (((r.get("修订译文") or "").strip() or r["中文译文"]) if has_rev else r["中文译文"]).strip()
+        BAD_TAG_RE = re.compile(r"</?(?:wave|shake|incr)\b[^>]*>")
+        eff = lambda r: BAD_TAG_RE.sub("", ((r.get("修订译文") or "").strip() or r["中文译文"]) if has_rev else r["中文译文"]).strip()
         mism = [r["记录键"] for r in rows if eff(r) and rkey.get(r["记录键"]) != eff(r)]
         check("by_refkey 与译本逐条相等", not mism, str(len(mism)))
 
@@ -168,6 +169,15 @@ def main():
                     if tok in v:
                         bad[name + ":" + tok] = bad.get(name + ":" + tok, 0) + 1
         check("五层无 ...... -- ! ? 残留", not bad, str(bad))
+
+        # 游戏 TMP 不识别这三个标签, 上屏会变成字面量 (v1.3.8 实机确认, v1.3.21 重建时回归过)。
+        BADTAG = re.compile(r"</?(?:wave|shake|incr)\b")
+        stale = {}
+        for name, m in (("display", disp), ("refkey", rkey), ("item", itn), ("AT", at), ("UI", ui)):
+            for v in m.values():
+                if isinstance(v, str) and BADTAG.search(v):
+                    stale[name] = stale.get(name, 0) + 1
+        check("五层无 wave/shake/incr 字面标签", not stale, str(stale))
 
         tagbad = 0
         for v in list(rkey.values()) + list(disp.values()):

@@ -637,7 +637,7 @@ You may come with us, Elise - the more the merrier, I'd say.=你也可以一起�
 Oh, that would be wonderful!=哎呀，那就太好了！
 I'm afraid the day isn't over for me yet, Mrs Mariele.=恐怕我今天的活还没干完呢，玛丽勒太太。
 I'm afraid the day isn't over for me yet, Mrs. Mariele.=恐怕我今天的活还没干完呢，玛丽勒太太。
-It's a Sunday! You can't work all day on a Sunday!=今天是<shake intensity="10">星期天</shake>呀！<shake intensity="10">星期天</shake>可不能一整天都干活的！
+It's a Sunday! You can't work all day on a Sunday!=今天是星期天呀！星期天可不能一整天都干活的！
 And you ought to know why I work all day on Sundays!=<i>你</i>该清楚我为什么星期天也要干活！
 It's quite all right, Elise.=没关系的，伊莉丝。
 Freya and I will be working together for the festival all week, if you happen to have some spare time.=芙蕾雅和我这一整周都要为节庆忙活，你要是有空闲，随时都可以来。
@@ -8084,20 +8084,20 @@ Give me back all you took!=把你拿走的东西都还给我！
 Right!=对！
 Now!=<size=140%>就是现在！</size>
 Ow! Ow-!=哎哟！哎哟——！
-Wait! Please...!=<shake a=0.3>等等！求你了……！</shake>
+Wait! Please...!=等等！求你了……！
 Wait! Please!=等等！求你了！
 Explain yourself!=你给我说清楚！
 Explain yourself, you wretch!=你给我说清楚，你这个混账！
 What were you doing in my house?!=你在我家里做什么？！
 Wait! Wait, please don't hit me!=等等！等等，请别打我！
-Wait! Please don't hit me!=<shake a=0.3>等等！请别打我！</shake>
+Wait! Please don't hit me!=等等！请别打我！
 I was just hiding here! There were these men and I was afraid they'd...!=我只是躲在这儿而已！外面有些男人，我怕他们会……！
-I was just hiding — there were these men and I...!=<shake a=0.3>我只是躲在这儿而已——外面有些男人，我……！</shake>
+I was just hiding — there were these men and I...!=我只是躲在这儿而已——外面有些男人，我……！
 I'm not telling you this again, thief!=我不会再说第二遍，小偷！
 Give me back everything you took! Right now!=把你拿走的东西统统还给我！马上！
 Give me back everything you took — right now!=把你拿走的东西统统还给我！马上！
 I didn’t take anything! I’m sorry!=我什么都没拿！对不起！
-I didn’t take anything!=<shake a=0.3>我什么都没拿！</shake>
+I didn’t take anything!=我什么都没拿！
 I was just scared! Please, I beg of you!=我只是害怕而已！求求您了！
 Please don't tell them I hid here!=求你别告诉他们我躲在这儿！
 Show me your hands!=把手伸出来给我看！
@@ -8597,7 +8597,7 @@ I like it here with you...=我喜欢待在这儿，跟你一起……
 (Anyhow...)=(总之呢……)
 (I ought to go see Lebkuchen before it gets too late.)=(趁着还不算太晚，我该去看看斯佩尔特了。)
 P-Please spare me...!=求、求你饶了我吧……！
-P-Please spare me, Elise...!=<shake a=0.3>求、求你饶了我吧，伊莉丝……！</shake>
+P-Please spare me, Elise...!=求、求你饶了我吧，伊莉丝……！
 Miffy...?=米菲……？
 What in the Lord's name are you doing here, Miffy...!=主啊，米菲，你到底在这儿搞什么鬼……！
 What in the Lord's name are you doing here?=你到底在这儿搞什么鬼？
@@ -8611,7 +8611,7 @@ What are you doing here, Mandy?=你来这儿干什么，曼迪？
 W-Who doesn't? You crouch by folks' windows every now and then too, don't you?=谁、谁还不这样啊？你不也时不时蹲在人家窗户底下吗？
 Tell me right now, or I'll scrub your mouth with soap this very minute!=现在就给我说清楚，不然我这就拿块肥皂把你嘴给洗了！
 Tell me right now, or I'm scrubbing your mouth with a bar of soap this very minute!=现在就给我说清楚，不然我这就拿块肥皂把你嘴给洗了！
-I-It's getting quite late, isn't it, Elise? I'd best...=<shake a=0.3>天、天也不早了，是吧，伊莉丝？我还是……</shake>
+I-It's getting quite late, isn't it, Elise? I'd best...=天、天也不早了，是吧，伊莉丝？我还是……
 Out with it!=老实交代！
 O-on second thought, i-it's getting quite late, isn't it? I-I'd best...=转念一想，天、天也不早了，是吧？我、我还是……
 I-I saw her! That girl you're housing, Elise!=我、我看见你收留的那个丫头了，伊莉丝！
@@ -8963,13 +8963,13 @@ If the lass truly is her cousin, Gustav.=要是这丫头真是她表妹的话，
 You heard the lass, Old Jochen.=你也听见这丫头说的了，老约亨。
 Ah, it was a pleasure meeting you both!=啊，很高兴见到你们两位！
 I-I thought I'd never find you, Elise!=我、我还以为再也找不到你了呢，伊莉丝！
-I-I thought I'd never find you, Elise...!=<shake a=0.3>我、我还以为再也找不到你了呢，伊莉丝……！</shake>
+I-I thought I'd never find you, Elise...!=我、我还以为再也找不到你了呢，伊莉丝……！
 What now, Miffy?=又怎么了，米菲？
 Oh, what now, Miffy?=又怎么了，米菲？
-I-It's your...!=<shake a=0.3>是、是你的……！</shake>
+I-It's your...!=是、是你的……！
 Can't you see I'm busy? I don't have food for you!=看不出来我正忙着吗？我没有吃的给你！
 I don't have food for you! Shoo, shoo!=我没有吃的给你！走开，走开！
-B-But Elise! I-It's your...!=<shake a=0.3>可、可是伊莉丝！那、那是你的……！</shake>
+B-But Elise! I-It's your...!=可、可是伊莉丝！那、那是你的……！
 My what?=我的什么？
 Your friend! The lass with the funny hat - she's outside!=你朋友！那个戴着怪帽子的丫头——她在外面呢！
 Sh-She says you'll give me food i-if I call you over!=她、她说我、我要是把你叫过去，就给我吃的！
@@ -17003,8 +17003,8 @@ It's so dark... Where am I?=好黑……这是哪儿？
 Come now, my dear... My progeny...=过来吧，我的宝贝……我的骨血……
 You were taken from me... by Him... by your grandmother...=你是被人从我身边夺走的……被<b>祂</b>……被你的<i>祖母</i>……
 How I have defied the odds and the Gods to get hold of you...!=为了将你夺回，我逆了天命，也逆了诸神……！
-I can feel your heart thumping in my chest!=我能感到你的心在我胸腔里<incr a=0.3>怦怦跳动</incr>！
-Your burning fingertips, your tearful eyes!=<incr a=0.3>你滚烫的指尖、你含泪的双眼！</incr>
+I can feel your heart thumping in my chest!=我能感到你的心在我胸腔里怦怦跳动！
+Your burning fingertips, your tearful eyes!=你滚烫的指尖、你含泪的双眼！
 I can embrace you at last — embody your human vessel...=我终于能拥抱你了——附入你这具血肉容器……
 Live the life I've always wanted, yet could never create for myself...=去活我一直渴望，却终究无从亲手缔造的人生……
 Your life, Elise... The life of a woman...=你的人生，伊莉丝……一个女人的人生……
@@ -17594,8 +17594,8 @@ I bore you in my womb, I nurtured you... My beloved...=是我腹中怀你，是�
 Yet, He still dares interfere with my kin...=可<b>祂</b>竟还敢插手我的骨肉……
 You are mine, Elise... Not His, not your grandmother's...=你是我的，伊莉丝……不是<b>祂</b>的，也不是你祖母的……
 You, my beloved, are what I'm not...=你啊，我的宝贝，是我永远成不了的模样……
-I can feel your living, breathing body cradling me at last...!=<incr a=0.3>我终于感到，你鲜活温热的躯体将我拥入其中……！</incr>
-With this... With your human body which I bore...=<incr a=0.3>凭着它……凭着这具由<i>我</i>生下的凡人之躯……</incr>
+I can feel your living, breathing body cradling me at last...!=我终于感到，你鲜活温热的躯体将我拥入其中……！
+With this... With your human body which I bore...=凭着它……凭着这具由<i>我</i>生下的凡人之躯……
 I can once more bear life in my womb — I can live... as a woman...=我便能再度在腹中孕育生命——能重新……<color=#000000><b>以女人的身份</b></color>活下去……
 Ah, good evening, gentlemen.=啊，晚上好，各位先生。
 Wandering about after dark again, Elise?=天黑了还在外头转悠哪，伊莉丝？
@@ -19277,7 +19277,7 @@ I will allow Him to tempt you, to toy with you...!=我将容许<b>祂</b>来引�
 All for the greater good, my beloved...!=一切皆为成全大善，我亲爱的……！
 So that we can be reunited! So that I can bear life in my womb once more...!=为了让我们重聚！为了我腹中能再度孕育生命……！
 I need to get out of here!=我得赶紧离开这里！
-So I can retrieve what's mine...!=<shake a=0.2>好让我取回属于我的东西……！</shake>
+So I can retrieve what's mine...!=好让我取回属于我的东西……！
 Those are drawn to flesh, it seems... I ought to lure them out of the way, but...=那些东西似乎循着血肉而来……我得把它们引开，可是……
 They'll keep following me if I don't turn off my lantern.=若不<i>熄掉提灯</i>，它们会一直跟着我。
 They're devouring that thing, huh?=它们在啃食那东西呢。
@@ -21350,13 +21350,13 @@ What's there to see?=有什么好看的？
 You're the one who's put up with him for too long, the way I see it!=依我看，是你忍他忍得太久了！
 It's not as though we've never been at odds with each other.=我和他也不是没红过脸。
 Indulge me, why don't you?=那就说来听听？
-Bald geezers like you belong in the pigpen — you oinker!=<wave a=0.3><size=115%>你这秃头老家伙就该待在猪圈里——哼哼猪！</size></wave>
-L-Lebkuchen...!=<shake a=0.3>斯、斯佩尔特……！</shake>
+Bald geezers like you belong in the pigpen — you oinker!=<size=115%>你这秃头老家伙就该待在猪圈里——哼哼猪！</size>
+L-Lebkuchen...!=斯、斯佩尔特……！
 He'll never hear us from up here, Elise!=在这上头他听不见的，伊莉丝！
 All right — but you're the one getting the lecture if he catches us!=好吧——可要是被逮住，挨训的可是你！
 At the top of your lungs, now!=来，扯开嗓子喊！
-You're so ugly not even St. Walpurga can save you — you ogre!=<wave a=0.3><size=115%>你丑得连圣瓦尔普加都救不了——你这吃人妖怪！</size></wave>
-Dare tell me my hair is too long again, and I'll chop off whatever's left of yours — you old weasel!=<wave a=0.3><size=115%>再敢嫌我头发长，我就把你剩下那几根全铰了——老黄鼠狼！</size></wave>
+You're so ugly not even St. Walpurga can save you — you ogre!=<size=115%>你丑得连圣瓦尔普加都救不了——你这吃人妖怪！</size>
+Dare tell me my hair is too long again, and I'll chop off whatever's left of yours — you old weasel!=<size=115%>再敢嫌我头发长，我就把你剩下那几根全铰了——老黄鼠狼！</size>
 Did he really tell you that?=他真那么说过你？
 Who cares about some made-up rules, Leb?=谁在乎那些瞎编的规矩啊，佩佩？
 Aren't you feeling a lot lighter after all that, Elise?=喊完是不是浑身轻快多了，伊莉丝？
@@ -21624,7 +21624,7 @@ You're wearing my brooch, still...=你竟然还戴着我的胸针……
 What is one to do when the Lord fails them, would you say?=你说说看，当主辜负了一个人的时候，那人又能怎么办呢？
 It's impossible to keep this lantern lit in this wind!=这么大的风，根本没法让这盏提灯一直亮着！
 Guess I'll be finding my way home in the dark, I suppose...=看来我只能摸黑找路回家了……
-Please forgive me...!=<shake a=0.3>求求你，原谅我……！</shake>
+Please forgive me...!=求求你，原谅我……！
 I won't ask you a second time, thief!=我不会再问你第二遍，小贼！
 Be that as it may, you're still...=话虽如此，你终究还是……
 Well, you can start by cleaning up this mess!=那，你就先从收拾这堆烂摊子开始吧！
@@ -22050,7 +22050,7 @@ In my very womb... They celebrated their agreement...=就在我的子宫之内�
 From Him came what I lack, what I've failed to lay my hands upon...=从<b>祂</b>那里得来了我所缺失、我不曾能触及之物……
 When in truth... It's me your body belongs to, Elise...=可事实上……你的身体是属于我的，伊莉丝……
 My womb... Used for that woman's wish...=我的子宫……被拿去满足那女人的心愿……
-I was used...! Used, used, used...!=我被利用了……！<shake a=0.3>被利用、被利用、被利用……！</shake>
+I was used...! Used, used, used...!=我被利用了……！被利用、被利用、被利用……！
 Used...?=被利用……？
 What are these voices trying to tell me...?=这些声音想要告诉我什么……？
 That lass... It's as if she knew me...=那丫头……仿佛她认得我似的……
@@ -22118,7 +22118,7 @@ She was?=她担心我？
 Hard at work even on a Sunday, are you?=星期天还这么卖力干活呢？
 Oh, no you don't! Out with it, you two!=哎，休想！你们俩，快给我招来！
 Join us, then! Let's prank her together!=那就一起来吧！咱们一块儿捉弄她！
-SPLASH!=<wave a=0.5><shake a=0.2><size=120%>哗啦！</size></shake></wave>
+SPLASH!=<size=120%>哗啦！</size>
 Ah, don't mind us — we were just talking about the festival!=啊，别理会我们——我们只是在聊节庆的事儿呢！
 It's the perfect opportunity to find yourself a groom, Elise!=这可是给你自己寻个新郎的绝好机会呀，伊莉丝！
 Can't say I'm interested, if I'm honest...=老实说，我实在提不起兴趣……
@@ -24156,11 +24156,11 @@ Ah, now that you mention it...!=啊，被你这么一提……！
 You were going to bring the day's leftovers for supper, right?=你本来要带上白天剩下的饭菜当晚饭，对吧？
 I was in charge of the blankets, and we even swept the floors!=我负责带毯子，咱们甚至还把地板都扫了一遍！
 Our grannies' faces when they found out, too — still gives me shivers!=还有咱们奶奶们发现时那副表情——现在想起来还让我直打哆嗦！
-AAAHHHHHHHH!!=<size=113%><shake a=1>啊啊啊啊啊啊啊！！</shake></size>
-I'm the ghost of this house, Elise!=<wave a=0.3>我是这屋子里的幽灵，伊莉丝！</wave>
-Give me your soul, Elise, or I'll haunt you forever!=<wave a=0.3>把你的灵魂交给我，伊莉丝，不然我就缠着你一辈子！</wave>
-T-That's not funny, you...!=<shake a=0.3>这、这一点都不好笑，你这……！</shake>
-Why, but I'm the silliest ghost around!=<wave a=0.3>哎呀，可我是这一带最傻气的幽灵呀！</wave>
+AAAHHHHHHHH!!=<size=113%>啊啊啊啊啊啊啊！！</size>
+I'm the ghost of this house, Elise!=我是这屋子里的幽灵，伊莉丝！
+Give me your soul, Elise, or I'll haunt you forever!=把你的灵魂交给我，伊莉丝，不然我就缠着你一辈子！
+T-That's not funny, you...!=这、这一点都不好笑，你这……！
+Why, but I'm the silliest ghost around!=哎呀，可我是这一带最傻气的幽灵呀！
 Enough of that, Lebkuchen!=够了，斯佩尔特！
 You nearly sent me to my grave!=你差点把我吓进坟墓里！
 You're still just as easy to frighten, Elise!=你还是这么容易被吓到，伊莉丝！
@@ -24177,8 +24177,8 @@ Something tells me tomorrow will be different, that's all.=只是有种预感，
 Come, let's move along... I've kept you for long enough.=来吧，我们走吧……我已经耽误你够久了。
 I have something to tell you tomorrow, too.=明天我也有话要对你说。
 It truly is so, you...!=真的是这样，你这家伙……！
-Aaahhhhhh...!=<shake a=0.3>啊啊啊啊啊……！</shake>
-Somebody help me! The ghost is back!=<shake a=0.3>来人救救我！那鬼魂又回来了！</shake>
+Aaahhhhhh...!=啊啊啊啊啊……！
+Somebody help me! The ghost is back!=来人救救我！那鬼魂又回来了！
 Anyhow, Leb...=不管怎么说，佩佩……
 Ah, yes! That's right!=啊，对了！没错！
 Say, Rosmarine — how come I can't seem to find meaning in any of this?=我说，萝丝玛琳——我怎么就是没法从这一切里找到什么意义呢？
