@@ -155,8 +155,28 @@ def main():
         has_rev = bool(rows) and "修订译文" in rows[0]
         BAD_TAG_RE = re.compile(r"</?(?:wave|shake|incr)\b[^>]*>")
         eff = lambda r: BAD_TAG_RE.sub("", ((r.get("修订译文") or "").strip() or r["中文译文"]) if has_rev else r["中文译文"]).strip()
-        mism = [r["记录键"] for r in rows if eff(r) and rkey.get(r["记录键"]) != eff(r)]
+        # XUAT_ 行是从词典遗留层收编来的, 没有游戏 RefKey, 不参与 by_refkey 比对。
+        mism = [r["记录键"] for r in rows
+                if not r["记录键"].startswith("XUAT_") and eff(r) and rkey.get(r["记录键"]) != eff(r)]
         check("by_refkey 与译本逐条相等", not mism, str(len(mism)))
+        xk = [k for k in rkey if k.startswith("XUAT_")]
+        check("by_refkey 无 XUAT 收编键", not xk, str(len(xk)))
+
+        # v1.3.26 起遗留层已收编: 三本词典的每一个键都必须能在译本里找到英文原文。
+        def _nk(s):
+            return re.sub(r"\s+", " ", re.sub(r"<[/#a-zA-Z][^>]*>", "", s or "")).strip()
+        covered = set()
+        for r in rows:
+            e = r.get("英文原文") or ""
+            if e:
+                covered.add(_nk(e))
+                covered.add(_nk(e.replace("\n", " ")))
+        uncov = {}
+        for name, m in (("display", disp), ("AT", at), ("item", itn)):
+            n = sum(1 for k in m if _nk(k) not in covered)
+            if n:
+                uncov[name] = n
+        check("译本覆盖 display/AT/item 全部键", not uncov, str(uncov))
 
         print("\n---------- D 标点 / 标签 ----------")
         zh = re.compile("[\\u4e00-\\u9fff]")

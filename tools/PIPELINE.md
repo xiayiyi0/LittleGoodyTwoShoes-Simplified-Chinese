@@ -76,13 +76,18 @@ v1.3.21 全量重建时让道具行（`ITM_*_N_*`）参与了 display 归并，`
 改写成「姜饼」，名牌一直错到 v1.3.25 才被发现。
 
 **为什么还要有 `NAME_GUARD`。**
-display 有 6,976 条、AT 有 6,477 条英文串根本不在译本 CSV 里（历史 XUAT 残留）。
+display 曾有 6,976 条、AT 曾有 6,477 条英文串根本不在译本 CSV 里（历史 XUAT 残留）。
 `apply_translation.py` 只更新已存在的键，从不新增，所以这些值既不会被重建覆盖，也不会
 被译本纠正，定名会一直停在旧译文上。2026-10-25 实测：Rosmarine 错叫名 118 条写成真名
 「萝森玛琳」，Mercy 2 条写成 Macy 的「梅西」，Missy 1 条泛化成「小丫头」。
 `NAME_GUARD` 按"键里出现某个英文名 → 值里不许用别的角色的定名"做替换，只动串错的
 那个词，不碰其余措辞；`Mercy`/`Macy` 区分大小写（小写 mercy 是「仁慈」）。
 短语级替换会误伤的个例（如 Missy）走 `KEY_OVERRIDE` 整键覆盖。
+
+**v1.3.26 起遗留层已收编，覆盖率 100%。** 上述英文串全部并入译本，记录键前缀
+`XUAT_`，分类 `遗留层XUAT`。这些行没有游戏 RefKey，只能按 `Norm(英文)` 命中，
+因此 `apply_translation.py` 用 `XUAT_PREFIX` 把它们挡在 by_refkey 之外。
+`NAME_GUARD` 保留——它对触发条件不敏感，收编后仍然有效，属于第二道保险。
 
 **AT 为什么是非权威层。**
 运行时 display 词典优先命中，AT 只在 XUAT 兜底路径生效。authoritative 数据是

@@ -38,6 +38,10 @@ PUNCT = set("、，。！？：；（）【】「」『』—…·“”‘’!?
 # (v1.3.21 全量重建就是这样冲掉了 v1.3.20 及更早的正确值)。
 NAME_OVERRIDE = {"Lebkuchen": "斯佩尔特"}
 
+# 收编行的记录键前缀。这些行来自 display / AT 里历史遗留的英文串(2026-10-25 起
+# 全部并入译本), 没有游戏 RefKey, 只能按 Norm(英文) 命中, 因此不写入 by_refkey。
+XUAT_PREFIX = "XUAT_"
+
 # 定名护栏: display 里有六千多条英文串不在译本里(历史 XUAT 残留), 这些值不受
 # CSV 约束, 定名会随旧译文漂移。2026-10-25 审计实测: Rosmarine(错叫名)有 118 条
 # 被写成真名「萝森玛琳」, Mercy 有 2 条被写成 Macy 的「梅西」——玩家会看到同一个
@@ -144,7 +148,10 @@ def main():
         if not zh:
             skipped["empty_zh"] += 1
             continue
-        refkey_map[k] = zh
+        # XUAT_ 行是从词典遗留层收编来的, 只有英文键、没有游戏 RefKey;
+        # 它们只供 display / AT 按 Norm(英文) 命中, 不能进 by_refkey。
+        if not k.startswith(XUAT_PREFIX):
+            refkey_map[k] = zh
         en = r["英文原文"].strip()
         if not en:
             skipped["empty_en"] += 1
