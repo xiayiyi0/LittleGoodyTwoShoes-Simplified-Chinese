@@ -13,9 +13,9 @@
 | 规范名 | 路径（相对游戏根目录） | 说明 |
 |---|---|---|
 | **live 实机树** | `BepInEx/plugins/LGTSChinese/` + `BepInEx/Translation/zh/Text/` | 当前实机运行中的插件与词典 |
-| **stage 发布树** | `temp_work_result/dist/stage_v1325/` | zip 打包唯一来源。历史文档曾称 "dist/stage"、"stage_v1323"，均同指本目录，v1.3.18 起统一称 **stage 发布树**（`temp_work_result/dist/stage/` 是 v1.3.14/15 时代的旧工作区，与发布树无关，勿混） |
+| **stage 发布树** | `temp_work_result/dist/stage_v1326/` | zip 打包唯一来源。历史文档曾称 "dist/stage"、"stage_v1323"，均同指本目录，v1.3.18 起统一称 **stage 发布树**（`temp_work_result/dist/stage/` 是 v1.3.14/15 时代的旧工作区，与发布树无关，勿混） |
 | **zip 发布包** | `LGTS-SimplifiedChinese-vX.Y.Z.zip`（位于发布树内） | 分发给玩家的最终产物 |
-| 源码 | `temp_work_result/dist/stage_v1325/source/LGTSChinese/` | 与发布 DLL 同版本的源码快照 |
+| 源码 | `temp_work_result/dist/stage_v1326/source/LGTSChinese/` | 与发布 DLL 同版本的源码快照 |
 | 批次工作区 | `temp_work_result/fix_batches_YYYYMMDD/` | 当次修复的脚本、日志、裁决记录。**本地工作区，不随仓库分发** |
 
 **发布前"三树一致性"检查** = 上述 live / stage / zip 三处的关键文件（DLL、三词典、两 AT 文件）SHA256 逐字节一致。
@@ -65,9 +65,9 @@
 
 ## 4. 发布前校验清单（全部打勾才可分发）
 
-- [ ] DLL 内嵌版本 = 目标版本（反汇编/字符串可见 `1.3.25` 字样）
+- [ ] DLL 内嵌版本 = 目标版本（反汇编/字符串可见 `1.3.26` 字样）
 - [ ] **DLL 文件版本属性 = 目标版本**（`(Get-Item LGTSChinese.dll).VersionInfo.FileVersion`
-      应为 `1.3.25.0`；v1.3.23 及以前为 `0.0.0.0`，属构建缺陷，已修）
+      应为 `1.3.26.0`；v1.3.23 及以前为 `0.0.0.0`，属构建缺陷，已修）
 - [ ] `Plugin.VER` = DLL 内嵌版本 = 文件版本属性 = changelog 最新段落 = 安装说明标题
 - [ ] DIAG 首行：运行一次游戏后 `BepInEx/plugins/LGTSChinese/DIAG.txt`
       首行为 `=== LGTS DIAG v<版本> 启动 ===`
@@ -109,3 +109,4 @@
 | 1.3.23 | 2026-10-24 | 采用 v9 译本（56 条定点修订，无键变化）；三层词典对齐；字体无需改动；DLL 1.3.23 |
 | 1.3.24 | 2026-10-24 | 构建元数据修复（文件版本 0.0.0.0 → 1.3.24.0）；build.cmd 参数化；安装说明补游戏更新排障；文档口径校正；工具链入库 tools/；加下载来源提示；译文与字体无改动 |
 | 1.3.25 | 2026-10-25 | 译本 CSV 精简 11→9 列（删 修订状态/修订译文，56 条修订并入中文译文）；审查备注清理 5,239→5,207；三层词典与 AT 逐字节不变（零译文改动）；工具链适配新列集 |
+| 1.3.26 | 2026-10-25 | 修复 Lebkuchen 名牌显示「姜饼」: display/AT 裸键恢复「斯佩尔特」, 道具层保持「姜饼」; 两脚本加 NAME_OVERRIDE 防重建回退; 词典条数不变 |

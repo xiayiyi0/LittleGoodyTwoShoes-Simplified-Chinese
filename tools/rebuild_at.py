@@ -28,6 +28,10 @@ WS_RE = re.compile(r"\s+")
 CJK_RE = re.compile(r"[一-鿿]")
 NB = chr(92) + "n"   # 字面反斜杠 + n
 
+# 同形异义: 裸词 Lebkuchen 在 AT 里是角色名牌, 取角色名「斯佩尔特」;
+# 食品「姜饼」由 item_names 层与 ITM_F_N_08 承担。理由同 apply_translation.py。
+NAME_OVERRIDE = {"Lebkuchen": "斯佩尔特"}
+
 
 def norm(s):
     return WS_RE.sub(" ", TAG_RE.sub("", s or "")).strip()
@@ -107,6 +111,8 @@ def main():
         exact.setdefault(norm(en.replace(NB, " ")), zh)
         fuzzy[fkey(en)].add(zh)
     fuzzy_u = {k: next(iter(v)) for k, v in fuzzy.items() if len(v) == 1}
+    for k, v in NAME_OVERRIDE.items():
+        exact[norm(k)] = v
 
     lines = open(src, "r", encoding="utf-8", newline="").read().split("\n")
     out = []

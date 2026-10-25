@@ -14,7 +14,7 @@ using UnityEngine;
 //       数据层注入(富文本/变量由游戏原生处理), 覆盖 I2 与运行时经 AppendI2Term 追加的 Gridly 文本。
 // 复用: 译文存外部 translation/lgts_zh_by_refkey.json, 改文件重启即可, 无需重编译。
 
-// 版本元数据由 VER 常量派生, 避免"日志说 1.3.25、文件属性说 0.0.0.0"的漂移
+// 版本元数据由 VER 常量派生, 避免"日志与文件属性版本不一致"的漂移
 // (in-box csc 不读 csproj 的 AssemblyVersion, 必须在此显式声明才会写进 Win32 版本资源)。
 [assembly: System.Reflection.AssemblyVersion(LGTSChinese.Plugin.VER + ".0")]
 [assembly: System.Reflection.AssemblyFileVersion(LGTSChinese.Plugin.VER + ".0")]
@@ -24,7 +24,7 @@ namespace LGTSChinese
     [BepInPlugin("com.hanhua.lgts.chinese", "LGTS Simplified Chinese", Plugin.VER)]
     public class Plugin : BaseUnityPlugin
     {
-        public const string VER = "1.3.25";
+        public const string VER = "1.3.26";
         internal static ManualLogSource Log;
         internal static Dictionary<string, string> Zh = new Dictionary<string, string>(StringComparer.Ordinal);
         internal static int Hits, Miss;

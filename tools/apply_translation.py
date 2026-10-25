@@ -31,6 +31,14 @@ WS_RE = re.compile(r"\s+")
 PUNCT = set("、，。！？：；（）【】「」『』—…·“”‘’!?()[].,:;-\u3000 ")
 
 
+# 同形异义: 同一个英文串既是角色名又是道具名, 两层必须各取各的。
+# Lebkuchen 作角色名是「斯佩尔特」(名牌 · 旁白 · 任务提示), 作食品 (ITM_F_N_08)
+# 才是「姜饼」——后者归 item_names 层管。若放任 ITM_F_N_08 这一行参与 display
+# 归并, pick() 会把 display["Lebkuchen"] 改写成「姜饼」, 名牌随之出错
+# (v1.3.21 全量重建就是这样冲掉了 v1.3.20 及更早的正确值)。
+NAME_OVERRIDE = {"Lebkuchen": "斯佩尔特"}
+
+
 def norm(s):
     return WS_RE.sub(" ", TAG_RE.sub("", s or "")).strip()
 
@@ -119,12 +127,18 @@ def main():
     disp = json.load(open(dp, encoding="utf-8"))
     dchg = 0
     for k in list(disp):
+        if k in NAME_OVERRIDE:
+            continue
         cands = norm_map.get(k)
         if not cands:
             continue
         new = pick(list(dict.fromkeys(cands)), disp[k])
         if new != disp[k]:
             disp[k] = new
+            dchg += 1
+    for k, v in NAME_OVERRIDE.items():
+        if disp.get(k) != v:
+            disp[k] = v
             dchg += 1
     dump(disp, dp)
     print("display: %d 键, 改值 %d" % (len(disp), dchg))

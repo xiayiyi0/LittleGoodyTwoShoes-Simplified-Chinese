@@ -1,4 +1,4 @@
-Little Goody Two Shoes 简体中文汉化补丁 v1.3.25
+Little Goody Two Shoes 简体中文汉化补丁 v1.3.26
 
 一、补丁说明
 
@@ -12,7 +12,7 @@ Little Goody Two Shoes 简体中文汉化补丁 v1.3.25
 4. 道具获取复合弹窗、日期时段文本、彩色富文本等运行时显示路径的兼容处理。
 5. 字体资源 arialuni_sdf_u2019 已扩充全角标点字形（，！？：（）—…），对话不再使用半角规避标点。
 
-当前实装版本：LGTS Simplified Chinese v1.3.25。
+当前实装版本：LGTS Simplified Chinese v1.3.26。
 
 二、安装方法
 
@@ -43,16 +43,16 @@ BepInEx/LogOutput.log
 
 日志中应包含类似内容：
 
-Loading [LGTS Simplified Chinese 1.3.25]
+Loading [LGTS Simplified Chinese 1.3.26]
 LGTS 中文插件已加载
 Loaded fallback font for TextMesh Pro: arialuni_sdf_u2019
 
 版本自检（反馈问题前请先完成以下三条，并在反馈中附上结果）：
 
 1. 插件版本：在文件管理器中右键 BepInEx/plugins/LGTSChinese/LGTSChinese.dll，
-   选“属性”→“详细信息”，文件版本应为 1.3.25.0。
+   选“属性”→“详细信息”，文件版本应为 1.3.26.0。
 2. 诊断日志首行：用记事本打开 BepInEx/plugins/LGTSChinese/DIAG.txt（运行过一次
-   游戏后生成），首行应为 “=== LGTS DIAG v1.3.25 启动 ===”。
+   游戏后生成），首行应为 “=== LGTS DIAG v1.3.26 启动 ===”。
 3. 文件完整性：对照发布包内的 SHA256SUMS.txt，可用命令
    certutil -hashfile "文件路径" SHA256
    逐条核对（至少核对 LGTSChinese.dll 与两个 translation 词典）。
