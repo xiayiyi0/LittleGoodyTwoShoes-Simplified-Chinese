@@ -24,7 +24,7 @@ v1.3.25 (2026-10-25)
 - 修复: display 与 AT 的裸键恢复「斯佩尔特」，item_names 与 ITM_F_N_08 保持「姜饼」；
   apply_translation.py / rebuild_at.py 增加 NAME_OVERRIDE，重建时两层不再互串。
 - 词典条数不变: by_refkey 21,189 / display 25,261 / item_names 79 / AT 24,700 /
-  UI_System 536。译文正文无改动，本次实际改动只有 2 处值（display 与 AT 各 1 条）。
+  UI_System 536。本轮（名牌修复）实际改动只有 2 处值（display 与 AT 各 1 条）。
 - 文档: 译者说明补充 Lebkuchen 真名与同名道具的分层规则。
 - 修复: <wave>/<shake>/<incr> 三个标签以字面量上屏。游戏 TMP 不识别这三个标签
   (v1.3.8 已实机确认), 会把 `<wave a=0.3>`、`</wave>` 原样显示在对话框里。
@@ -33,6 +33,25 @@ v1.3.25 (2026-10-25)
   现已连同属性一并剥离, 保留游戏支持的 <size>/<color>/<i>/<b>/<sprite>。
   apply_translation.py / rebuild_at.py 增加剥离步骤, verify_release.py 增加对应验收项,
   避免下次重建再冲回来。
+- 修复: 错叫名在 XUAT 兜底层漂移。display 有 6,976 条、AT 有 6,477 条英文串不在译本
+  CSV 里（历史 XUAT 残留，由脚本原地维护、不随译本重建），这些值不受译本约束，
+  定名会停在旧译文上：Rosmarine（伊莉丝和村民对萝森玛琳的错叫）有 118 条被写成真名
+  「萝森玛琳」，Mercy 有 2 条被写成 Macy 的「梅西」，Missy 1 条泛化成「小丫头」。
+  译本 CSV 自身 593 条 Rosmarine 全部是「萝丝玛琳」，问题只在走不进 CSV 的遗留条目。
+  玩家侧表现: 同一个角色在相邻场景被分别叫「萝丝玛琳」和「萝森玛琳」，贯穿全剧的
+  错叫梗因此断掉。
+- 修复: 遗留层半角标点。display 387 条、AT 381 条内心独白用半角括号 `(……)`，另有
+  半角冒号 18/5 条、分号 7/7 条，与全表全角规范不一致。成因: rebuild_at 的括号规则
+  要求括号内全是汉字才转换，带省略号或问号的独白一律漏掉；display 层则从不做标点规范化。
+- 修复方式: apply_translation.py / rebuild_at.py 增加 NAME_GUARD——键里出现某个英文名时，
+  只把"串成别的角色名"的那个换回定名，其余措辞一律不动（Mercy/Macy 区分大小写，
+  小写 mercy 是「仁慈」不是人名）；Missy 那条用整键覆盖，避免"小丫头"这类短语被批量
+  替换误伤。遗留层标点规范化同步加进两个脚本。verify_release.py 增加两项验收:
+  display/AT 错叫名未串名、四层无半角括号/冒号/分号（UI_System 只在 display.json 缺失
+  时作为退回路径加载，不在检查范围）。
+- 改动面: display 520 条、AT 500 条值变更，全部属于上述三类；键数与词典条数不变
+  (by_refkey 21,189 / display 25,261 / item_names 79 / AT 24,700 / UI_System 536)。
+  译本 CSV、字体、DLL 均未改动，双跑幂等。
 - 插件 LGTSChinese.dll 升级至 1.3.25; zip 条目数维持 71。
 
 v1.3.24 (2026-10-24)

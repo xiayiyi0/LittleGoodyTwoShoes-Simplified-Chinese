@@ -32,6 +32,21 @@ NB = chr(92) + "n"   # 字面反斜杠 + n
 # 食品「姜饼」由 item_names 层与 ITM_F_N_08 承担。理由同 apply_translation.py。
 NAME_OVERRIDE = {"Lebkuchen": "斯佩尔特"}
 
+# 定名护栏, 理由同 apply_translation.py: AT 里同样有几千条英文串不在译本里,
+# 旧译文会把错叫名写成真名。只换"串成别的角色名"的那个, 其余措辞不动。
+NAME_GUARD = [
+    # mercy 小写是"仁慈", 只有大写 Mercy 才是人名, 必须区分大小写。
+    ("Rosmarine", "萝森玛琳", "萝丝玛琳", False),
+    ("Rozenmarine", "萝丝玛琳", "萝森玛琳", False),
+    ("Mercy", "梅西", "默茜", True),
+    ("Macy", "默茜", "梅西", True),
+]
+NAME_GUARD_RE = [(re.compile(r"\b" + en + r"\b", 0 if cs else re.I), wrong, right)
+                 for en, wrong, right, cs in NAME_GUARD]
+
+# Missy 泛化成"小丫头", 短语级替换会误伤, 用整键覆盖。
+KEY_OVERRIDE = {"Tell her what, Missy?": "告诉她什么呢，米茜？"}
+
 # 游戏 TMP 不识别 wave / shake / incr, 会把标签当字面量显示; <size>/<color>/<sprite> 支持。
 # 理由与 apply_translation.py 同一处。只剥中文值, AT 的英文键必须原样保留才能命中。
 BAD_TAG_RE = re.compile(r"</?(?:wave|shake|incr)\b[^>]*>")
@@ -55,9 +70,22 @@ def fkey(s):
 
 def mech(v):
     v = v.replace("......", "……").replace("--", "——")
-    v = re.sub(r"\(([一-鿿]+)\)", r"（\1）", v)
+    # 括号内容常带省略号/问号, 旧规则要求整段纯汉字才转换, 于是带标点的独白
+    # 一直保留半角括号。这里放宽为"含汉字即可"。
+    v = re.sub(r"\(([^()]*[一-鿿][^()]*)\)", r"（\1）", v)
+    v = re.sub(r"(?<=[一-鿿])[:;]|[:;](?=[一-鿿])",
+               lambda m: "：" if m.group(0) == ":" else "；", v)
     v = v.replace("!", "！").replace("?", "？")
     return re.sub(r"[ \t]+([！？])", r"\1", v)
+
+
+def legacy_fix(k, s):
+    if k in KEY_OVERRIDE:
+        return KEY_OVERRIDE[k]
+    for rx, wrong, right in NAME_GUARD_RE:
+        if wrong in s and rx.search(k):
+            s = s.replace(wrong, right)
+    return s
 
 
 def conv_du(text):
@@ -143,6 +171,7 @@ def main():
             nv = mech(v) if CJK_RE.search(v) else v
             if "、" in nv:
                 nv = conv_du(nv)
+            nv = legacy_fix(k, nv)
             if nv != v:
                 n_mech += 1
             else:

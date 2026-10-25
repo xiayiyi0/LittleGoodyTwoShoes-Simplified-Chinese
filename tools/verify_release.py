@@ -179,6 +179,32 @@ def main():
                     stale[name] = stale.get(name, 0) + 1
         check("五层无 wave/shake/incr 字面标签", not stale, str(stale))
 
+        # display / AT 里有几千条英文串不在译本中, 旧译文会把错叫名写成真名。
+        # 规则见 apply_translation.NAME_GUARD。
+        # mercy 小写是"仁慈", 只有大写 Mercy 才是人名。
+        NAME_GUARD = [("Rosmarine", "萝森玛琳", re.I), ("Rozenmarine", "萝丝玛琳", re.I),
+                      ("Mercy", "梅西", 0), ("Macy", "默茜", 0)]
+        ng = {}
+        for name, m in (("display", disp), ("AT", at)):
+            for k, v in m.items():
+                if not isinstance(v, str):
+                    continue
+                for en, wrong, flags in NAME_GUARD:
+                    if wrong in v and re.search(r"\b" + en + r"\b", k, flags):
+                        ng[name + ":" + en] = ng.get(name + ":" + en, 0) + 1
+        check("display/AT 错叫名未串名", not ng, str(ng))
+
+        # 半角括号/冒号/分号只该出现在遗留层, 已由工具规范化。UI_System 是
+        # display.json 缺失才走的退回路径, 不在本检查范围。
+        HALF = re.compile(r"\([^()]*[一-鿿][^()]*\)"
+                          r"|(?<=[一-鿿])[:;]|[:;](?=[一-鿿])")
+        hp = {}
+        for name, m in (("display", disp), ("refkey", rkey), ("item", itn), ("AT", at)):
+            for v in m.values():
+                if isinstance(v, str) and HALF.search(v):
+                    hp[name] = hp.get(name, 0) + 1
+        check("四层无半角括号/冒号/分号", not hp, str(hp))
+
         tagbad = 0
         for v in list(rkey.values()) + list(disp.values()):
             o, c = {}, {}

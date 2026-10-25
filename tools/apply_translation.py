@@ -38,6 +38,29 @@ PUNCT = set("、，。！？：；（）【】「」『』—…·“”‘’!?
 # (v1.3.21 全量重建就是这样冲掉了 v1.3.20 及更早的正确值)。
 NAME_OVERRIDE = {"Lebkuchen": "斯佩尔特"}
 
+# 定名护栏: display 里有六千多条英文串不在译本里(历史 XUAT 残留), 这些值不受
+# CSV 约束, 定名会随旧译文漂移。2026-10-25 审计实测: Rosmarine(错叫名)有 118 条
+# 被写成真名「萝森玛琳」, Mercy 有 2 条被写成 Macy 的「梅西」——玩家会看到同一个
+# 角色前后两种叫法。键里出现某个英文名时, 只把"串成别的角色名"的那个换回来,
+# 其余措辞一律不动。
+NAME_GUARD = [
+    # (英文名, 串错的定名, 正确定名, 是否区分大小写)
+    # mercy 小写是"仁慈"(19 条), 只有大写 Mercy 才是人名, 必须区分。
+    ("Rosmarine", "萝森玛琳", "萝丝玛琳", False),
+    ("Rozenmarine", "萝丝玛琳", "萝森玛琳", False),
+    ("Mercy", "梅西", "默茜", True),
+    ("Macy", "默茜", "梅西", True),
+]
+NAME_GUARD_RE = [(re.compile(r"\b" + en + r"\b", 0 if cs else re.I), wrong, right)
+                 for en, wrong, right, cs in NAME_GUARD]
+
+# Missy 的错法是泛化成"小丫头"而非串成别的名字, 短语级替换会误伤, 用整键覆盖。
+KEY_OVERRIDE = {"Tell her what, Missy?": "告诉她什么呢，米茜？"}
+
+# 遗留层标点: 半角括号 / 冒号 / 分号。CSV 层早已全角, 只有历史条目残留。
+HALF_PAREN_RE = re.compile(r"\(([^()]*[一-鿿][^()]*)\)")
+HALF_MARK_RE = re.compile(r"(?<=[一-鿿])[:;]|[:;](?=[一-鿿])")
+
 # 游戏 TMP 不识别这三个标签, 会把它们当字面量显示在对话框里 (v1.3.8 实机确认)。
 # <size>/<color>/<i>/<b>/<sprite> 是支持的, 必须保留。
 # v1.3.21 全量重建时中文译文里的这些标签又被带了回来, 玩家侧看到 "&lt;wave a=0.3&gt;"
@@ -65,6 +88,21 @@ def pick(cands, current):
         if current in cands:
             return current
     return cands[0]
+
+
+def punct_fix(s):
+    s = HALF_PAREN_RE.sub(r"（\1）", s)
+    return HALF_MARK_RE.sub(lambda m: "：" if m.group(0) == ":" else "；", s)
+
+
+def legacy_fix(k, s):
+    """只作用于不在译本里的遗留条目。"""
+    if k in KEY_OVERRIDE:
+        return KEY_OVERRIDE[k]
+    for rx, wrong, right in NAME_GUARD_RE:
+        if wrong in s and rx.search(k):
+            s = s.replace(wrong, right)
+    return punct_fix(s)
 
 
 def backup(path, suffix):
@@ -141,8 +179,9 @@ def main():
             continue
         cands = norm_map.get(k)
         if not cands:
-            continue
-        new = pick(list(dict.fromkeys(cands)), disp[k])
+            new = legacy_fix(k, disp[k])
+        else:
+            new = pick(list(dict.fromkeys(cands)), disp[k])
         if new != disp[k]:
             disp[k] = new
             dchg += 1
