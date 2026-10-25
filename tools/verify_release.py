@@ -152,7 +152,8 @@ def main():
 
     if args.csv:
         rows = list(csv.DictReader(open(args.csv, encoding="utf-8-sig")))
-        eff = lambda r: (r["修订译文"].strip() or r["中文译文"])
+        has_rev = bool(rows) and "修订译文" in rows[0]
+        eff = lambda r: (((r.get("修订译文") or "").strip() or r["中文译文"]) if has_rev else r["中文译文"]).strip()
         mism = [r["记录键"] for r in rows if eff(r) and rkey.get(r["记录键"]) != eff(r)]
         check("by_refkey 与译本逐条相等", not mism, str(len(mism)))
 

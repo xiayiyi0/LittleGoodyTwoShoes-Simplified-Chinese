@@ -7,7 +7,8 @@
 ## 数据流
 
 ```
-docs/<译本>.csv                     ← 唯一的翻译来源 (记录键 / 英文原文 / 中文译文 / 修订译文)
+docs/<译本>.csv                     ← 唯一的翻译来源 (9 列: 记录键 / 中文译文 / 全局序号 / 分类 /
+                                      周组 / 场景码 / 审查备注 / 状态 / 英文原文)
         │
         ├─ apply_translation.py ──┬→ lgts_zh_by_refkey.json   按记录键直取
         │                         ├→ lgts_display.json        按 Norm(英文) 归一后匹配

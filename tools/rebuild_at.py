@@ -91,7 +91,10 @@ def main():
         print("备份 " + os.path.basename(bck))
 
     rows = list(csv.DictReader(open(args.csv, encoding="utf-8-sig")))
-    eff = lambda r: (r["修订译文"].strip() or r["中文译文"])
+    cols = rows[0].keys() if rows else []
+    has_rev = "修订译文" in cols
+    print("译本列集: %d 列%s" % (len(cols), " (旧 11 列格式, 以 修订译文 优先)" if has_rev else " (9 列格式)"))
+    eff = lambda r: (((r.get("修订译文") or "").strip() or r["中文译文"]) if has_rev else r["中文译文"]).strip()
 
     exact = {}
     fuzzy = defaultdict(set)

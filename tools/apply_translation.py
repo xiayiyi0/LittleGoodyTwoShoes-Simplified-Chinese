@@ -9,7 +9,11 @@
   * display / item_names: 按 Norm(英文) 归一键匹配, 命中后用 pick() 选值 ——
     同一英文键有多条中文候选时, 优先选与现有值"去标点后相同"的候选, 以保留既有措辞;
     否则取第一条。这样重建不会因为标点差异把整表措辞洗一遍。
-  * 空译文 (修订译文与中文译文都为空) 不入库, 也不覆盖。
+  * 空译文不入库, 也不覆盖。
+
+译本列集: 2026-10-25 起为 9 列 (记录键/中文译文/全局序号/分类/周组/场景码/审查备注/状态/
+英文原文)。此前的 11 列版本另有 修订状态/修订译文 两列, 若传入旧格式, 仍以 修订译文
+优先 (那在该文件里才是有权威文本)。脚本会打印识别到的列集, 便于确认用的是哪一版。
 
 写入前对每个文件做一次备份 (默认后缀 .bak_pre_apply, 已存在则不覆盖)。
 """
@@ -61,7 +65,7 @@ def dump(obj, path):
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--csv", required=True, help="译本 CSV (含 记录键/英文原文/中文译文/修订译文 列)")
+    ap.add_argument("--csv", required=True, help="译本 CSV (9 列)；旧 11 列格式亦可")
     ap.add_argument("--live", default=None, help="游戏根目录; 默认取仓库内自带的词典")
     ap.add_argument("--backup-suffix", default=".bak_pre_apply")
     args = ap.parse_args()
@@ -71,7 +75,10 @@ def main():
         else os.path.join(repo, "BepInEx", "plugins", "LGTSChinese", "translation")
 
     rows = list(csv.DictReader(open(args.csv, encoding="utf-8-sig")))
-    eff = lambda r: (r["修订译文"].strip() or r["中文译文"])
+    cols = rows[0].keys() if rows else []
+    has_rev = "修订译文" in cols
+    print("译本列集: %d 列%s" % (len(cols), " (旧 11 列格式, 以 修订译文 优先)" if has_rev else " (9 列格式)"))
+    eff = lambda r: (((r.get("修订译文") or "").strip() or r["中文译文"]) if has_rev else r["中文译文"]).strip()
 
     refkey_map = {}
     norm_map = defaultdict(list)
