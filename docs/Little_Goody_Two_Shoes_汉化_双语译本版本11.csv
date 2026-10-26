@@ -1606,7 +1606,7 @@ DLG_3_2_VSQ_02_038,（这份反常的和气，说它古怪都算轻的！）,160
 DLG_3_2_VSQ_02_039,（我是不是也该管好自己的嘴，哼！）,1605,主线对白DLG,3月2日,VSQ,,已译,"(Ought to restrain my words, huh!)"
 DLG_3_2_VSQ_02_040,（看来这话就只对伊莉丝管用，别人都不算，我算是看明白了！）,1606,主线对白DLG,3月2日,VSQ,,已译,"(Clearly that only applies to Elise and no one else, the way I see it!)"
 DLG_3_2_VSQ_03_001,哎呀，伊莉丝！你刚才可把我吓了一大跳！,1607,主线对白DLG,3月2日,VSQ,Oh 按语气改译，不再一律作「哦」,已译,"Oh, Elise! You scared me stiff earlier!"
-DLG_3_2_VSQ_03_003,我吓到您了吗？,1608,主线对白DLG,3月2日,VSQ,,已译,I did?
+DLG_3_2_VSQ_03_003,是我吗？,1608,主线对白DLG,3月2日,VSQ,"[v1.3.26修] I did? 是应答而非发问, 原译「我吓到您了吗？」错义",已译,I did?
 DLG_3_2_VSQ_03_004,能把那两个老家伙镇住，可得有不小的胆量呢！,1609,主线对白DLG,3月2日,VSQ,,已译,It takes a great deal of courage to put those two in their place!
 DLG_3_2_VSQ_03_005,你做得很好，伊莉丝——不讲道理的是她们。,1610,主线对白DLG,3月2日,VSQ,,已译,"You did well, Elise — they're the ones being unreasonable."
 DLG_3_2_VSQ_03_006,梅希蒂尔德太太……,1611,主线对白DLG,3月2日,VSQ,还原Mrs. Mechtilde...的低落/迟疑呼唤语气(……)，解除 TM感叹号覆写,已译,Mrs. Mechtilde...
@@ -12044,7 +12044,7 @@ CUT_4_1_VST_01_005,我们怀疑它们是被偷了……,12042,过场对白CUT,4�
 CUT_4_1_VST_01_006,大家都还在琢磨到底出了什么事。,12043,过场对白CUT,4月1日,VST,,已译,Everyone's still trying to make sense of what happened.
 CUT_4_1_VST_01_007,我们已经……,12044,过场对白CUT,4月1日,VST,,已译,We have...
 CUT_4_1_VST_01_008,不过我们正设法弄清到底发生了什么。,12045,过场对白CUT,4月1日,VST,,已译,Though we're trying to figure out what happened.
-CUT_4_1_VST_01_009,出了什么事？我是彻底完了……,12046,过场对白CUT,4月1日,VST,顶上句「弄清发生了什么」的强调句式,已译,"I'm ruined, that's what happened..."
+CUT_4_1_VST_01_009,我是彻底完了，事情就是这样……,12046,过场对白CUT,4月1日,VST,"[v1.3.26修] 原译拆成疑问句, 恢复 I'm ruined, that's what happened 的陈述；顶上句「弄清发生了什么」的强调句式",已译,"I'm ruined, that's what happened..."
 CUT_4_1_VST_01_010,欧根，我之前也说过——我们会竭尽所能帮忙。,12047,过场对白CUT,4月1日,VST,,已译,"As I said before, Eugen — we will do all we can to help."
 CUT_4_1_VST_01_011,我们会召集小子们，派他们去村外巡逻。,12048,过场对白CUT,4月1日,VST,同场 lads 作「小子们」,已译,We'll gather the lads and send them out to patrol the outskirts.
 CUT_4_1_VST_01_012,我们真的能断定它们是被偷了吗？,12049,过场对白CUT,4月1日,VST,,已译,Are we absolutely certain they were stolen?
@@ -13244,7 +13244,7 @@ CUT_5_5_VSQ_01_011,冷静？！神父，我的孩子不见了！,13242,过场对
 CUT_5_5_VSQ_01_012,天知道他是否平安，更别说万一出了最坏的事！,13243,过场对白CUT,5月5日,VSQ,,已译,"Lord knows if he's all right, let alone if the worst has happened!"
 CUT_5_5_VSQ_01_013,咱们都知道那些乌鸦是凶兆！,13244,过场对白CUT,5月5日,VSQ,按原文语气定标点，删去译文添加的「……」/「！」,已译,We all knew those crows were an omen!
 CUT_5_5_VSQ_01_014,又来这一套，你这老东西！,13245,过场对白CUT,5月5日,VSQ,,已译,"Not this again, you old wretch!"
-CUT_5_5_VSQ_01_015,那孩子准是被抓到<color=#934494><b>女巫</b></color>那儿去了！,13246,过场对白CUT,5月5日,VSQ,补全女巫专有紫色标签<color=#934494>,已译,Ought to have taken the lad to the <color=#934494><b>witch</b></color>!
+CUT_5_5_VSQ_01_015,早该把那孩子送到<color=#934494><b>女巫</b></color>那儿去的！,13246,过场对白CUT,5月5日,VSQ,"[v1.3.26修] Ought to have taken 是自责口气, 原译改成被动推测；补全女巫专有紫色标签<color=#934494>",已译,Ought to have taken the lad to the <color=#934494><b>witch</b></color>!
 CUT_5_5_VSQ_01_016,这话说得太过分了，老约亨！,13247,过场对白CUT,5月5日,VSQ,,已译,"What a horrible thing to say, Old Jochen!"
 CUT_5_5_VSQ_01_017,你真是一点分寸都没有，你……！,13248,过场对白CUT,5月5日,VSQ,,已译,"You truly have no decency, you...!"
 CUT_5_5_VSQ_01_018,我们不能任由恐慌摆布，弟兄们！,13249,过场对白CUT,5月5日,VSQ,,已译,"We cannot give in to hysteria, brethren!"
@@ -14635,7 +14635,7 @@ CUT_8_END_SAC_01_050,自然是说你亲爱的母亲哪，伊莉丝！,14633,过�
 CUT_8_END_SAC_01_051,我的母亲？我唯一的母亲就是奶奶……,14634,过场对白CUT,8,END_SAC,,已译,My mother? The only mother I've ever had was Granny...
 CUT_8_END_SAC_01_052,旧事就不提了——你来这儿可是有正事的！,14635,过场对白CUT,8,END_SAC,,已译,Let's put that past us — you're here for a reason!
 CUT_8_END_SAC_01_053,你把<color=#000000><b>鲜嫩的血肉</b></color>和<color=#000000><b>最甜美的琼浆</b></color>都带来了，做得很好。,14636,过场对白CUT,8,END_SAC,,已译,You did good in bringing me your <color=#000000><b>Tender Flesh</b></color> and the <color=#000000><b>Sweetest Nectar</b></color>.
-CUT_8_END_SAC_01_054,甚至还带了<color=#000000><b>良伴</b></color>来共进晚餐！,14637,过场对白CUT,8,END_SAC,,已译,Even brought me some <color=#000000><b>Good Company</b></color> for supper!
+CUT_8_END_SAC_01_054,甚至还带了<color=#000000><b>良伴</b></color>给我当晚餐！,14637,过场对白CUT,8,END_SAC,"[v1.3.26修] for supper 是「当晚餐」(食材), 原译「共进晚餐」丢了转折",已译,Even brought me some <color=#000000><b>Good Company</b></color> for supper!
 CUT_8_END_SAC_01_055,晚餐……？,14638,过场对白CUT,8,END_SAC,,已译,For supper...?
 CUT_8_END_SAC_01_056,那么，开席吧，伊莉丝。,14639,过场对白CUT,8,END_SAC,,已译,"So let us dine, Elise."
 CUT_8_END_SAC_01_057,不如再同我说说，你究竟渴望什么？,14640,过场对白CUT,8,END_SAC,,已译,"Tell me more about what it is you desire, why don't you?"
@@ -15657,12 +15657,8 @@ SUB_001_010,"不管是谁都希望他们能注视我
 Even if just once, let me shine brighter than anyone else."
 SUB_001_011,"呐～
 更多……更多……",15645,过场字幕SUB,,—,波浪线统一为全角「～」,已译,"Hey, look at me more, more"
-SUB_001_012,"向我这边……
-更多……
-看过来
-看过来
-看过来
-看过来",15646,过场字幕SUB,,—,将非标3点省略号统一为全表通用的6点「……」 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点…,已译,"look at me, look at me, look at me, LOOK AT ME LOOK AT ME "
+SUB_001_012,"看着我，看着我，看着我——
+看着我！看着我！",15646,过场字幕SUB,,—,"[v1.3.26修] 原译混入上句内容, 按原文五个 look at me 重排；将非标3点省略号统一为全表通用的6点「……」 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状，后续任何流程（含标点…",已译,"look at me, look at me, look at me, LOOK AT ME LOOK AT ME "
 SUB_001_013,拜托多看看我吧！,15647,过场字幕SUB,,—,歌词以日文演唱表为参照，英文列仅为意译参考；已定稿,已译,"Hey, look at me…"
 SUB_001_014,拜托多看看我吧！,15648,过场字幕SUB,,—,歌词以日文演唱表为参照，英文列仅为意译参考；已定稿,已译,"Hey, look at me…"
 SUB_002_001,漆黑一片的天空，沉入了灰烬,15649,过场字幕SUB,,—,歌词以日文演唱表为参照，英文列仅为意译参考；已定稿,已译,Mine was a birth midst the blackest sky
@@ -15674,9 +15670,10 @@ SUB_002_006,刻上六星的圆舞——起舞吧……,15654,过场字幕SUB,,�
 SUB_002_007,「路标啊，赐予我新的预兆吧,15655,过场字幕SUB,,—,补回跨行引用的开引号,已译,"“Oh, beacon which guides me
 Bestow upon me visions anew..."
 SUB_002_008,即使是无法逃脱的命运也没关系」,15656,过场字幕SUB,,—,补回跨行引用的闭引号,已译,No matter if they herald but an unescapable fate.”
-SUB_002_009,拥抱潜藏在我心中的灵梦,15657,过场字幕SUB,,—,歌词以日文演唱表为参照，英文列仅为意译参考；已定稿,已译,"Will I be able to reach the end of this journey
+SUB_002_009,"我能否走到这段旅程的终点——
+它的终幕，将由那道璀璨的光迎来……",15657,过场字幕SUB,,—,"[v1.3.26修] 原译整句错位(译文属下一句), 按原文重译；歌词以日文演唱表为参照，英文列仅为意译参考；已定稿",已译,"Will I be able to reach the end of this journey
 whose final act is heralded by the brilliant light..."
-SUB_002_010,终于能到达那光芒闪耀的终点了吧,15658,过场字幕SUB,,—,歌词以日文演唱表为参照，英文列仅为意译参考；已定稿,已译,that engulfs visions I stow so deep in my bosom?
+SUB_002_010,那道光，吞没了深藏在我心底的幻梦？,15658,过场字幕SUB,,—,"[v1.3.26修] 承接上句的光, 恢复 engulfs visions I stow so deep 的意象；歌词以日文演唱表为参照，英文列仅为意译参考；已定稿",已译,that engulfs visions I stow so deep in my bosom?
 SUB_002_011,"一步……一步……只需要一直向前走
 踏着神谕所奏响的旋律",15659,过场字幕SUB,,—,将非标2~3点省略号统一为全表通用的6点「……」 本过场角色曲歌词已经最终审定并对齐既有翻译者共识，保持现状…,已译,"Step by step by step, I keep on this relentless march,
 Walking on, to the rhythm of the song heralded to me by the bell of the heavenly oracle."
@@ -16509,7 +16506,7 @@ LVE_4_3_VSQ_L_020,你答应过不会太当回事的，伊莉丝！,16476,恋爱�
 LVE_4_3_VSQ_L_021,可我明明应该……！,16477,恋爱事件LVE,4月3日,VSQ_L,去除原文没有的整句引号（引号与说话人不符）,已译,"Yet, I ought to...!"
 LVE_4_3_VSQ_L_022,既然你不肯，斯佩尔特……那我还能有什么选择呢？,16478,恋爱事件LVE,4月3日,VSQ_L,去除原文没有的整句引号（引号与说话人不符）,已译,"Since you won't, Lebkuchen... What choice do I have?"
 LVE_4_3_VSQ_L_023,这是我的本分，没什么好说的……,16479,恋爱事件LVE,4月3日,VSQ_L,is all 不硬作「仅此而已」，按语境转「罢了/而已」,已译,"It's my duty, that's all there is to it..."
-LVE_4_3_VSQ_L_024,而那件事咱俩都清楚你有多厌恶——你甚至比我更清楚。,16480,恋爱事件LVE,4月3日,VSQ_L,修正you more so than I比较结构误译（承接know而非loathe），并去除无源整句「」…,已译,"Which we both know you loathe — you more so than I, even."
+LVE_4_3_VSQ_L_024,咱俩都清楚你有多厌恶那事——你甚至比我更厌恶它。,16480,恋爱事件LVE,4月3日,VSQ_L,"[v1.3.26修] you more so than I 承接 loathe, 原译误作 knows；修正you more so than I比较结构误译（承接know而非loathe），并去除无源整句「」…",已译,"Which we both know you loathe — you more so than I, even."
 LVE_4_3_VSQ_L_025,我并不<i>厌恶</i>它，伊莉丝……,16481,恋爱事件LVE,4月3日,VSQ_L,去除原文没有的整句引号（引号与说话人不符）,已译,"I don't <i>loathe</i> it, Elise..."
 LVE_4_3_VSQ_L_026,我只是意识到，这或许并不是我真心想要的……,16482,恋爱事件LVE,4月3日,VSQ_L,补回漏译的呼语/人名，删去原文没有的增译人名,已译,I've just realized it may not be what I want for myself...
 LVE_4_3_VSQ_L_027,那你想要的是什么？,16483,恋爱事件LVE,4月3日,VSQ_L,,已译,"What is it you want, then?"
@@ -21008,7 +21005,7 @@ RepSusText_getRep,声望上升,20947,任务与引导,—,getRep,,缺英文源,
 RepSusText_getSus,嫌疑上升,20948,任务与引导,—,getSus,,缺英文源,
 RepSusText_loseRep,声望下降,20949,任务与引导,—,loseRep,,缺英文源,
 RepSusText_loseSus,嫌疑下降,20950,任务与引导,—,loseSus,,缺英文源,
-ResetAcknowledge_1,这个拉杆能重置谜题（临时对话）。,20951,任务与引导,1,—,,缺英文源,
+ResetAcknowledge_1,这个拉杆能重置谜题。,20951,任务与引导,1,—,"[v1.3.26修] 删去工作备注「（临时对话）」, 不进正文",缺英文源,
 SCROLL_DOWN_QUEST,向下滚动,20952,任务与引导,—,DOWN_QUEST,,已译,Scroll Down
 SCROLL_UP_QUEST,向上滚动,20953,任务与引导,—,UP_QUEST,,已译,Scroll Up
 SEARCH_APFEL_WOODS,在森林里寻找阿普菲尔！,20954,任务与引导,—,APFEL_WOODS,,已译,Look for Apfel in the Woods!
@@ -21225,9 +21222,9 @@ DLG_DEV_Test-multiStartDialogue_3,开始第2段对话,21134,结局与其他,—,
 DLG_DEV_Test-multiStartDialogue_4,开始第3段对话,21135,结局与其他,—,DEV_Test-multiStartDialogue,游戏开发阶段测试残留条目（无英文源）,缺英文源,
 DLG_DEV_Test-multiStartDialogue_5,开始第4段对话,21136,结局与其他,—,DEV_Test-multiStartDialogue,游戏开发阶段测试残留条目（无英文源）,缺英文源,
 DREAM_PALACE,？？？？？？,21137,结局与其他,—,PALACE,,已译,??????
-Demon_Test_Names_1,成功  成功  成功,21138,结局与其他,—,Test_Names,游戏开发阶段测试残留条目（无英文源）,缺英文源,
-Demon_Test_Names_2,成功  成功  成功,21139,结局与其他,—,Test_Names,游戏开发阶段测试残留条目（无英文源）,缺英文源,
-Demon_Test_Names_3,成功  成功  成功,21140,结局与其他,—,Test_Names,游戏开发阶段测试残留条目（无英文源）,缺英文源,
+Demon_Test_Names_1,成功 成功 成功,21138,结局与其他,—,Test_Names,[v1.3.26修] 清理缺图标留下的空格洞；游戏开发阶段测试残留条目（无英文源）,缺英文源,
+Demon_Test_Names_2,成功 成功 成功,21139,结局与其他,—,Test_Names,[v1.3.26修] 清理缺图标留下的空格洞；游戏开发阶段测试残留条目（无英文源）,缺英文源,
+Demon_Test_Names_3,成功 成功 成功,21140,结局与其他,—,Test_Names,[v1.3.26修] 清理缺图标留下的空格洞；游戏开发阶段测试残留条目（无英文源）,缺英文源,
 ENDING_1,摩伊拉,21141,结局与其他,1,—,,已译,Moira
 ENDING_1_Number,第1号结局,21142,结局与其他,1,Number,杂项修正,已译,Ending No 1.
 ENDING_2,背信的玫瑰,21143,结局与其他,2,—,,已译,Treacherous Rose
@@ -21298,7 +21295,7 @@ TALK_ROZENMARINE,去和萝森玛琳聊聊那些赠礼！,21207,结局与其他,�
 TALK_ROZENMARINE_2,去外面和萝森玛琳聊聊！,21208,结局与其他,—,ROZENMARINE,,已译,Talk to Rozenmarine outside!
 WITCH_WOODS,生机盎然的圣林,21209,结局与其他,—,WOODS,,已译,Living Hallowed Coppice
 YES,好！,21210,结局与其他,—,Yes,,已译,YES
-XUAT_00001,<i>「一切都指向基弗伯格——<color=#934494>『她』</color>正是从那里现身的。」</i>,21211,遗留层XUAT,—,XUAT,"[v11修订] 显示层变体清理：消除 <i>""<i>「...」</i>""</i> 嵌套双引号与标签；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录",已译,"""Everything points back to Kieferberg the birthplace of the witch, Walpurga, and her cult."""
+XUAT_00001,一切都指向基弗伯格——女巫瓦尔普加及其教派的诞生地。,21211,遗留层XUAT,—,XUAT,"[v1.3.26修] 补回 Walpurga / 教派 / 诞生地三项信息；[v11修订] 显示层变体清理：消除 <i>""<i>「...」</i>""</i> 嵌套双引号与标签；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录",已译,"""Everything points back to Kieferberg the birthplace of the witch, Walpurga, and her cult."""
 XUAT_00002,「献给主人的赠礼——食物、饮品与良伴！」,21212,遗留层XUAT,—,XUAT,[v11修订] 同源句对齐主线：对齐主线定稿 CUT_5_1_HBY_01_041 高品质译文、称谓及语气标点；[收编·A 同句异写] 可对照 CUT_5_1_HBY_01_041；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"""Gifts for the host - food, drink and good company!"""
 XUAT_00003,<i>「恳请你赐下一个征兆——作为对我祈求的证言。」</i>,21213,遗留层XUAT,—,XUAT,[v11修订] 显示层变体清理：消除外层 ASCII 裸引号；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"""I beg thou for a sign a testimony to my plea."""
 XUAT_00004,<i>「我必须继续查证——也是为了伊莉丝。」</i>,21214,遗留层XUAT,—,XUAT,[v11修订] 显示层变体清理：消除外层双重引号与嵌套 <i> 标签；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"""I must continue my research for Elise's sake as well."""
@@ -21310,7 +21307,7 @@ XUAT_00009,<i>「我的研究无一能佐证她的忏悔——其中根本不曾
 XUAT_00010,<i>「异教徒、巫会与不信者——形形色色、数不胜数。」</i>,21220,遗留层XUAT,—,XUAT,[v11修订] 标点规范化：中文并列逗号规范为顿号「、」，消除双重引号；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"""Pagan heretics, covenants and non-believers all of them plentiful and diverse."""
 XUAT_00011,<i>「然而那已成过往——圣瓦尔普加如今是教会的主保，我们信奉她并向她祈求宽恕与庇佑。」</i>,21221,遗留层XUAT,—,XUAT,[v11修订] 显示层变体清理：消除双重引号与嵌套 <i> 标签；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"""That is no more, however St. Walpurga is a patroness of the Church, a benevolent figure in our faith."""
 XUAT_00012,<i>「而老霍尔声称从林地带回的，恰恰正是——一个婴孩。」</i>,21222,遗留层XUAT,—,XUAT,[v11修订] 显示层变体清理：消除双重引号与嵌套 <i> 标签；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"""That is precisely what Old Holle claimed she got out of the woodland a baby."""
-XUAT_00013,<i>「这意识——即我们如今所称的<color=#934494>『女巫』</color>——便由此诞生。」</i>,21223,遗留层XUAT,—,XUAT,[v11修订] 显示层变体清理：消除双重引号与嵌套 <i> 标签；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"""This consciousness what we now call a witch was named Walpurga."""
+XUAT_00013,这意识——即我们如今所称的『女巫』——被命名为瓦尔普加。,21223,遗留层XUAT,—,XUAT,[v1.3.26修] 补回 was named Walpurga；[v11修订] 显示层变体清理：消除双重引号与嵌套 <i> 标签；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"""This consciousness what we now call a witch was named Walpurga."""
 XUAT_00014,「得抓紧了，芙蕾雅——一个钟头后就开张了！」,21224,遗留层XUAT,—,XUAT,[v11修订] 显示层变体清理：消除最外层 ASCII 引号；[收编·A 同句异写] 可对照 CUT_8_END_SB_F_021；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"""We ought to hurry, Freya we open in an hour!"""
 XUAT_00015,（一堆树枝和一根丝带……？）,21225,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,(A bunch of branches and a ribbon...?)
 XUAT_00016,（乌鸦的手……？）,21226,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,(A crow's hands...?)
@@ -21894,18 +21891,15 @@ XUAT_00569,我好像总是只会给你惹麻烦……,21779,遗留层XUAT,—,XU
 XUAT_00570,我只知道咱们那一阵子折腾全是白费功夫！,21780,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,All I know is we went through all that commotion for nothing!
 XUAT_00571,我只想多了解祂、还有祂的意图……,21781,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,All I want is to know more about Him and His intentions...
 XUAT_00572,我就是说大伙儿需要个交代。,21782,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 DLG_4_4_VSQ_03_004；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,All I was saying is that folks need closure.
-XUAT_00573,"所有恋爱事件都标有  符号。
-每个恋爱事件都会跳过1个时段。",21783,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,All Love Events are marked with the symbol. Each Love Event will skip 1 time period.
+XUAT_00573,"所有恋爱事件都标有<sprite=""balloonicons"" name=""romance"">符号。<br>每个恋爱事件都会跳过1个时段。",21783,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,All Love Events are marked with the symbol. Each Love Event will skip 1 time period.
 XUAT_00574,"所有恋爱事件都标有<sprite=""balloonicons"" name=""romance"">符号。<br>每个恋爱事件都会跳过1个时段。",21784,遗留层XUAT,—,XUAT,[v11修订] 教程图标补全：补回遗漏的恋爱图标标签；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,All Love Events are marked with the  symbol.\nEach Love Event will skip 1 time period.
 XUAT_00575,"所有<color=#EC0E51><b>浪漫约会</b></color>都标有<sprite=""balloonicons"" name=""love_token"">符号。
 每次约会都会<b><color=#E1402C>跳过</color>1个时段</b>！",21785,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 TUT_03_01；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,All Romantic Dates are marked with the  icon.\nEach date will skip one time period!
 XUAT_00576,"所有<color=#30C973><b>剧情事件</b></color>都标有<sprite=""balloonicons"" name=""book_open"">图标！
 若标着<sprite=""balloonicons"" name=""hourglass"">图标，则会<b><color=#E1402C>跳过</color>一个时段</b>。",21786,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 TUT_02_01；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,"All Story Events are marked with the  icon!\nIf marked by the  icon, they'll skip one time period."
-XUAT_00577,"所有剧情事件都标有  符号。
-其中一些标有  符号的会跳过1个时段。",21787,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"All Story Events are marked with the symbol. Some, marked by the symbol, will skip 1 time period."
+XUAT_00577,"所有剧情事件都标有<sprite=""balloonicons"" name=""story"">符号。<br>其中一些标有<sprite=""balloonicons"" name=""story_skip"">符号的会跳过1个时段。",21787,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"All Story Events are marked with the symbol. Some, marked by the symbol, will skip 1 time period."
 XUAT_00578,"所有剧情事件都标有<sprite=""balloonicons"" name=""story"">符号。<br>其中一些标有<sprite=""balloonicons"" name=""story_skip"">符号的会跳过1个时段。",21788,遗留层XUAT,—,XUAT,[v11修订] 教程图标补全：补回遗漏的剧情图标标签；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,"All Story Events are marked with the  symbol.\nSome, marked by the  symbol, will skip 1 time period."
-XUAT_00579,"所有任务都标有  符号。
-每个任务都会跳过1个时段。",21789,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,All Tasks are marked with the symbol. Each Task will skip 1 time period.
+XUAT_00579,"所有任务都标有<sprite=""balloonicons"" name=""task"">符号。<br>每个任务都会跳过1个时段。",21789,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,All Tasks are marked with the symbol. Each Task will skip 1 time period.
 XUAT_00580,"所有任务都标有<sprite=""balloonicons"" name=""task"">符号。<br>每个任务都会跳过1个时段。",21790,遗留层XUAT,—,XUAT,[v11修订] 教程图标补全：补回遗漏的任务图标标签；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,All Tasks are marked with the  symbol.\nEach Task will skip 1 time period.
 XUAT_00581,"所有可接取的<b><color=#B8581C>任务</color></b>都标有<sprite=""balloonicons"" name=""task"">符号。
 每个任务都会<b><color=#E1402C>跳过</color>1个时段</b>！",21791,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 TUT_04_01；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,All available Tasks are marked with the  icon.\nEach task you do will skip one time period!
@@ -22524,7 +22518,8 @@ XUAT_01117,你对这事知道点什么吗，萝森玛琳？,22327,遗留层XUAT,
 XUAT_01118,你知道些什么吗……？,22328,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Do you know anything about it...?
 XUAT_01119,您知道他现在感觉好些了吗，玛尔伦太太？,22329,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 DLG_5_1_VST_01_007；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Do you know if he's feeling better, Mrs Marlen?"
 XUAT_01120,你是说奥蒂莉太太和老约亨？,22330,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 DLG_2_5_VSQ_01_009；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Do you mean Mrs Odilie and Old Jochen?
-XUAT_01121,"需要萝森玛琳的帮助吗？<br>这会额外花费你<b>2个</b><sprite=""balloonicons"" name=""bread"">！",22331,遗留层XUAT,—,XUAT,[v11修订] 专名定名：依主线口径统合女二真名 Rozenmarine 为「萝森玛琳」（区分于错叫名 Rosmarine「萝丝玛琳」）；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,Do you need Rozenmarine's help?\nIt'll cost you 2 extra
+XUAT_01121,"需要萝森玛琳的帮助吗？
+这会额外花费你<b>2个</b><sprite=""bread"" name=""bread"">",22331,遗留层XUAT,—,XUAT,"[v1.3.26修] 与主线 ROZEN_PROMPT 同源, 统一 sprite 图集为 bread；[v11修订] 专名定名：依主线口径统合女二真名 Rozenmarine 为「萝森玛琳」（区分于错叫名 Rosmarine「萝丝玛琳」）；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有",已译,Do you need Rozenmarine's help?\nIt'll cost you 2 extra
 XUAT_01122,需要我帮忙吗，伊莉丝？,22332,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 DLG_4_2_VIN_01_001；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Do you need me to lend a hand, Elise?"
 XUAT_01123,要不要我们送你回家？,22333,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 CUT_1_5_OCR_01_031；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Do you need us to take you home?
 XUAT_01124,您觉得欧根先生的马也是遭了女巫夜骑的魔祟吗，埃尔玛太太？,22334,遗留层XUAT,—,XUAT,[v11修订] 民间传说专名 hag-ridden 统一作「遭了女巫夜骑的魔祟」；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Do you think Mr Eugen's horses were hag-ridden too, Mrs Elma?"
@@ -22693,10 +22688,10 @@ XUAT_01275,常青甜心,22485,遗留层XUAT,—,XUAT,[收编·B 独立条目]；
 XUAT_01276,村里那些老太婆要是瞧见我在她们家附近晃悠，肯定又要围上来叫我帮忙。,22486,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Every old hag in town would come running asking me for favors if they saw me wandering about their homes.
 XUAT_01277,天亮之前，这屋子的每个角落都得干干净净！,22487,遗留层XUAT,—,XUAT,[v11修订] 同源句对齐主线：对齐主线定稿 CUT_1_5_HLR_04_026 高品质译文、称谓及语气标点；[收编·A 同句异写] 可对照 CUT_1_5_HLR_04_026；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Every single corner of this house is to be absolutely spotless by sunrise.
 XUAT_01278,每一片，都是我生命中一个决定性的瞬间……,22488,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Every single one of these is a determining moment in my life...
-XUAT_01279,"每次你举止可疑，你的嫌疑  就会增加。
-说话前最好想清楚！",22489,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Every time you act suspiciously, your Suspicion will increase. You'd best mind what you say!"
-XUAT_01280,"每次你举止可疑，你的嫌疑  就会增加。
-说话前最好想清楚！",22490,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,"Every time you act suspiciously, your Suspicion  will increase.\nYou'd best mind what you say!"
+XUAT_01279,"每次你举止可疑，你的嫌疑就会增加。
+说话前最好想清楚！",22489,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Every time you act suspiciously, your Suspicion will increase. You'd best mind what you say!"
+XUAT_01280,"每次你举止可疑，你的嫌疑就会增加。
+说话前最好想清楚！",22490,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,"Every time you act suspiciously, your Suspicion  will increase.\nYou'd best mind what you say!"
 XUAT_01281,"每次你举止无礼，你的声望<sprite=""balloonicons"" name=""reputation"">就会下降。<br>最好留心自己的态度！",22491,遗留层XUAT,—,XUAT,"[v11修订] 系统教程清理：清洗代码占位符 [shoe]，替换为游戏原生图标 <sprite=""balloonicons"" name=""reputation"">；[收编·A 同句异写] 可对照 TUT_10_02；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有",已译,"Every time you're impolite, your Reputation [shoe] will decrease.\nYou'd best mind your atittude!"
 XUAT_01282,打从主日起大伙儿就一直心浮气躁的！,22492,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Everybody's been on edge since Sunday!
 XUAT_01283,大伙儿都在背后说彼此的坏话，伊莉丝。,22493,遗留层XUAT,—,XUAT,[v11修订] 同源句对齐主线：对齐主线定稿 DLG_6_3_VBA_01_003 高品质译文、称谓及语气标点；[收编·A 同句异写] 可对照 DLG_6_3_VBA_01_003；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Everybody's talking ill of each other behind their backs, Elise..."
@@ -22997,7 +22992,7 @@ XUAT_01569,葡萄藤小径,22779,遗留层XUAT,—,XUAT,[收编·B 独立条目]
 XUAT_01570,好大的劲！好大的劲！,22780,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Great lengths! Great lengths!
 XUAT_01571,这下好了！最后一根火柴也用完了！,22781,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 CUT_1_5_OCR_01_001；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Great! There goes my last match!
 XUAT_01572,格雷戈里·热尔曼,22782,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Gregory Germain
-XUAT_01573,格蕾特是她唯一愿意交心的人。,22783,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Gretchen was the only soul she'd confide in.
+XUAT_01573,格蕾琴是她唯一愿意交心的人。,22783,遗留层XUAT,—,XUAT,"[v1.3.26修] Gretchen 与 Gretel(格蕾特) 撞名, 改「格蕾琴」；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录",已译,Gretchen was the only soul she'd confide in.
 XUAT_01574,格蕾特,22784,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Gretel
 XUAT_01575,格吕妮？,22785,遗留层XUAT,—,XUAT,[v11修订] 同源句对齐主线：对齐主线定稿 DLG_3_3_VBA_01_039 高品质译文、称谓及语气标点；[收编·A 同句异写] 可对照 DLG_3_3_VBA_01_039；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Grüne
 XUAT_01576,格吕妮今天不太对劲，你瞧？,22786,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Grüne isn't doing so well today, you see?"
@@ -23335,7 +23330,7 @@ XUAT_01906,我看见了，可是……现在我不太确定了……,23116,遗�
 XUAT_01907,当然关了——我看它还挺喜欢那儿的！,23117,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 CUT_4_1_HFY_01_008；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"I did, of course - I think he's taken a liking to it!"
 XUAT_01908,听是听见了些。,23118,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"I did, somewhat."
 XUAT_01909,是啊……我拿到第二样信物了……,23119,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,I did... I got the second testament...
-XUAT_01910,我吓到您了吗？,23120,遗留层XUAT,—,XUAT,[v11修订] 同源句对齐主线：对齐主线对应句 DLG_3_2_VSQ_03_003 定稿译文；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,I did...!
+XUAT_01910,是我……！,23120,遗留层XUAT,—,XUAT,"[v1.3.26修] 与主线 DLG_3_2_VSQ_03_003 同源, 恢复陈述语气；[v11修订] 同源句对齐主线：对齐主线对应句 DLG_3_2_VSQ_03_003 定稿译文；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录",已译,I did...!
 XUAT_01911,我以前不信命运，可现在……,23121,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"I didn't believe in fate before, but now..."
 XUAT_01912,我可没骂他老家伙，如果你是这么想的话！,23122,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"I didn't call him an old geezer, if that's what you're thinking!"
 XUAT_01913,我不是来惹你生气，也不是来吼你的，只是……,23123,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"I didn't come here to vex you, or yell at you, but..."
@@ -24999,7 +24994,7 @@ XUAT_03471,星期一,24681,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收
 XUAT_03472,周一 · 下午,24682,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Monday . Afternoon
 XUAT_03473,更要紧的是，伊莉丝……,24683,遗留层XUAT,—,XUAT,[v11修订] 同源句对齐主线：对齐主线定稿 DLG_7_3_VCH_01_021 高品质译文、称谓及语气标点；[收编·A 同句异写] 可对照 DLG_7_3_VCH_01_021；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"More importantly, Elise."
 XUAT_03474,更要紧的是，伊莉丝……,24684,遗留层XUAT,—,XUAT,[v11修订] 同源句对齐主线：对齐主线定稿 DLG_7_3_VCH_01_021 高品质译文、称谓及语气标点；[收编·A 同句异写] 可对照 DLG_7_3_VCH_01_021；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"More importantly, Elise...!"
-XUAT_03475,岂止不是好兆头，奥蒂莉——那场暴风就是个凶兆，我告诉你！,24685,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"More than a dreadful thing, Odilie - that windstorm was an ill omen, I tell you!"
+XUAT_03475,岂止是可怕啊，奥蒂莉——那场暴风就是个凶兆，我告诉你！,24685,遗留层XUAT,—,XUAT,[v1.3.26修] 原译「岂止不是好兆头」双重否定致语义反转；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"More than a dreadful thing, Odilie - that windstorm was an ill omen, I tell you!"
 XUAT_03476,"摩根-简·尤尔
 乔安娜·罗戈津斯卡-德热泽克
 特蕾西-利·格莱格",24686,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Morgan-Jane Ure Joanna Rogozinska-Drezek Tracey-Leigh Gleig
@@ -25290,7 +25285,7 @@ XUAT_03744,不想，你还是自己一边凉快去吧？,24954,遗留层XUAT,—
 XUAT_03745,我也没兴趣陪你待在这个泥泞的洞穴里。,24955,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Nor am I interested in keeping you company in this muddy burrow of yours.
 XUAT_03746,我们也没让您担着，奥蒂莉太太。,24956,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Nor are we asking you to, Mrs Odilie."
 XUAT_03747,我不要伊莉丝管，雅各布！,24957,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Not Elise, Jakob!"
-XUAT_03748,经过今天这番话，这番事。,24958,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 DLG_7_3_VST_01_012；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Not after what was said and done.
+XUAT_03748,经过了今天这番话、这番事，可不行。,24958,遗留层XUAT,—,XUAT,"[v1.3.26修] Not after... 的否定被吞, 补回；[收编·A 同句异写] 可对照 DLG_7_3_VST_01_012；收编自 v1.3.25 词典遗留层（v10），原值照录",已译,Not after what was said and done.
 XUAT_03749,才不是呢——我刚刚还美美地打了个盹！,24959,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 DLG_5_5_VIN_01_003；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Not at all - I had a lovely nap just earlier!
 XUAT_03750,一点也不！你会大吃一惊的！,24960,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 DLG_4_1_HFY_01_020；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Not at all! You'd be surprised!
 XUAT_03751,完全没有，古斯塔夫先生。,24961,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Not at all, Mr Gustav."
@@ -25947,7 +25942,7 @@ XUAT_04398,要我说，我也好奇呢，丫头！,25608,遗留层XUAT,—,XUAT,
 XUAT_04399,要我说，我也挺好奇的。,25609,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Ought to say I'm curious, too."
 XUAT_04400,该说我对能不能找到它们没什么信心。,25610,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Ought to say I'm not too confident we'll find them.
 XUAT_04401,不得不说，你能找到他，真让我吃惊，伊莉丝。,25611,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 DLG_5_5_VIN_05_005；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Ought to say I'm surprised you found him, Elise."
-XUAT_04402,要说啊，我也很想知道他到底问了谁……,25612,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Ought to say I, too, am left wondering who they came across..."
+XUAT_04402,要说啊，我也很想知道他们遇见了谁……,25612,遗留层XUAT,—,XUAT,"[v1.3.26修] come across 是「遇见」非「问」, 且为复数；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录",已译,"Ought to say I, too, am left wondering who they came across..."
 XUAT_04403,该这么说，梅希蒂尔德太太。,25613,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Ought to say so, Mrs Mechtilde."
 XUAT_04404,要我说，这故事编得也不怎么让人信服，是不是？,25614,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Ought to say this story isn't the most convincing, is it?"
 XUAT_04405,该说你今早可真是把我吓坏了！,25615,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Ought to say you had me scared stiff this morning!
@@ -26473,7 +26468,7 @@ XUAT_04856,那您是说，是咱们自己人干的了……,26066,遗留层XUAT,
 XUAT_04857,所以，就是女巫……,26067,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"So, a witch..."
 XUAT_04858,那，是不是像这样……？,26068,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"So, more like this...?"
 XUAT_04859,所以，你看？,26069,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"So, see?"
-XUAT_04860,这么什么呀？,26070,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,So?
+XUAT_04860,所以呢？,26070,遗留层XUAT,—,XUAT,[v1.3.26修] 与同串 XUAT_04861「所以呢？」同源同译；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,So?
 XUAT_04861,所以呢？您是说在仲夏前后？,26071,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"So? Near midsummer, you say?"
 XUAT_04862,那？我是个怎样的人？,26072,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,So? Who am I?
 XUAT_04863,怎么了？你刚才说到哪儿了？,26073,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,So? You were saying?
@@ -26557,13 +26552,13 @@ XUAT_04939,心烦，特里斯坦先生？,26149,遗留层XUAT,—,XUAT,[收编·
 XUAT_04940,又在偷吃莉丝贝特太太的苹果了吧？,26150,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 DLG_2_3_OLH_04_004；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Stuffing yourself full of Mrs Lisbeth's apples again, huh?"
 XUAT_04941,傻伊莉丝，是我啊，蛇！,26151,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 SNK_Boss_Freya_3；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Stupid Elise, it's me the Snake!"
 XUAT_04942,成功,26152,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 DLG_DEV_Test-multiStartDialogue_1；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Success
-XUAT_04943,成功  成功  成功,26153,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 Demon_Test_Names_1；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Success Success Success
-XUAT_04944,成功  成功  成功,26154,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 Demon_Test_Names_1；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,Success  Success  Success
+XUAT_04943,成功 成功 成功,26153,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·A 同句异写] 可对照 Demon_Test_Names_1；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Success Success Success
+XUAT_04944,成功 成功 成功,26154,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·A 同句异写] 可对照 Demon_Test_Names_1；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,Success  Success  Success
 XUAT_04945,成功 成功 成功 成功 成功 成功 成功 成功 成功 成功,26155,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 DLG_DEV_Test-multiStartDialogue_2；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Success Success Success Success Success Success Success Success Success Success
-XUAT_04946,"用食物道具  成功贿赂穆菲。
-否则，你的嫌疑  会增加。",26156,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Successfully bribe Muffy with a Food Item . If not, your Suspicion will increase."
-XUAT_04947,"用食物道具  成功贿赂穆菲。
-否则，你的嫌疑  会增加。",26157,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,"Successfully bribe Muffy with a Food Item .\nIf not, your Suspicion  will increase."
+XUAT_04946,"用食物道具成功贿赂穆菲。
+否则，你的嫌疑会增加。",26156,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Successfully bribe Muffy with a Food Item . If not, your Suspicion will increase."
+XUAT_04947,"用食物道具成功贿赂穆菲。
+否则，你的嫌疑会增加。",26157,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,"Successfully bribe Muffy with a Food Item .\nIf not, your Suspicion  will increase."
 XUAT_04948,如此坦然地展露软弱，真是令人愉悦啊，丫头……！,26158,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Such a delightful flaunting of weakness, lass...!"
 XUAT_04949,比如说？,26159,遗留层XUAT,—,XUAT,[v11修订] 同源句对齐主线：对齐主线对应句 DLG_4_3_VIN_01_045 定稿译文；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Such as...?
 XUAT_04950,好大的胆子！好大的胆子！,26160,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Such bravery! Such bravery!
@@ -26696,7 +26691,7 @@ XUAT_05076,那老小子就是闲不住，没别的说法！,26286,遗留层XUAT,
 XUAT_05077,这样应该就能锁得牢牢的了。,26287,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,That ought to keep it locked shut.
 XUAT_05078,我看那足够让你忙得团团转，也没空搭理老约亨了。,26288,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"That ought to keep your hands full and you away from Old Jochen, I'd say."
 XUAT_05079,那可怜的小子一刻都没得闲，是吧？,26289,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"That poor lad hasn't had a moment of peace, has he?"
-XUAT_05080,话说回来——你欠她一份天大的人情呢，伊莉丝！,26290,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"That said - you owe her a piece of your very soul, Elise!"
+XUAT_05080,话说回来——你欠她一部分灵魂呢，伊莉丝！,26290,遗留层XUAT,—,XUAT,"[v1.3.26修] a piece of your very soul 是「一部分灵魂」, 原译作「人情」丢意象；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录",已译,"That said - you owe her a piece of your very soul, Elise!"
 XUAT_05081,话虽如此，古斯塔夫跟我商量过，还是请普里梅尔多夫来帮忙为好。,26291,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"That said, Gustav and I have decided Primeldorf's support is in order."
 XUAT_05082,话虽如此，古斯塔夫……,26292,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"That said, Gustav..."
 XUAT_05083,话虽如此，我还是想找个比基弗伯格更有奔头的地方。,26293,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"That said, I'd like it to be somewhere with more promise than Kieferberg."
@@ -27132,7 +27127,7 @@ XUAT_05501,现在可不是闹分歧的时候。,26711,遗留层XUAT,—,XUAT,[�
 XUAT_05502,现在可不是浇花的时候。,26712,遗留层XUAT,—,XUAT,[v11修订] 同源句对齐主线：对齐主线定稿 FLV_1_5_HBY_02_001 高品质译文、称谓及语气标点；[收编·A 同句异写] 可对照 FLV_1_5_HBY_02_001；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"This isn't the time to be watering the garden, is it...?"
 XUAT_05503,我来不是为了说这个的，伊莉丝……,26713,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"This isn't what I'm here for, Elise..."
 XUAT_05504,这小子为这事翻来覆去想了一整晚！,26714,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,This lad's been tossing and turning all night thinking about it!
-XUAT_05505,埃尔玛太太，您刚才叫她穷要饭的的这位丫头，正好是我表妹。,26715,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"This lass you called a penny beggar, Mrs Elma, happens to be my cousin."
+XUAT_05505,埃尔玛太太，您刚才叫她穷要饭的这位丫头，正好是我表妹。,26715,遗留层XUAT,—,XUAT,[v1.3.26修] 删重复的「的」；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"This lass you called a penny beggar, Mrs Elma, happens to be my cousin."
 XUAT_05506,这个拉杆能重置谜题（临时对话）。,26716,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 ResetAcknowledge_1；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,This lever resets the puzzle (temp Dialogue).
 XUAT_05507,这种荒唐事也闹得够久了，神父。,26717,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"This nonsense has been going on for long enough, Father."
 XUAT_05508,这种胡话可犯不着忍受，我就这么说……,26718,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"This nonsense isn't worth putting up with, that's what..."
@@ -27506,7 +27501,7 @@ XUAT_05860,欢迎来到基弗伯格，丫头！叫我古斯塔夫就行，这小
 XUAT_05861,说得好，说得好！,27071,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Well said, well said!"
 XUAT_05862,那好，你也去死吧！,27072,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 AdvancedBarrelConversation_5；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Well then, go to hell!"
 XUAT_05863,好吧，我想也不至于出什么大乱子……,27073,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 CUT_2_5_HLR_02_009；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Well, I figure it won't do much harm..."
-XUAT_05864,井井有条……,27074,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Well, Well, Well..."
+XUAT_05864,好哇，好哇，好哇……,27074,遗留层XUAT,—,XUAT,"[v1.3.26修] Well, well, well 是感叹语, 原译误作成语「井井有条」；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录",已译,"Well, Well, Well..."
 XUAT_05865,哼，要不是你那水桶漏得跟筛子似的，我早就干得漂漂亮亮了！,27075,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Well, maybe if your buckets weren't riddled with holes I would've done a proper job!"
 XUAT_05866,薇尔玛,27076,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Welma
 XUAT_05867,你看到的就是这些乌鸦吗？,27077,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Were these the crows you saw?
@@ -27939,7 +27934,8 @@ XUAT_06293,哎呀，这你可比我清楚多了！,27503,遗留层XUAT,—,XUAT,
 XUAT_06294,哎呀，你可是想去哪儿就去哪儿呀！,27504,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Why, you're free to do as you wish!"
 XUAT_06295,你说什么……！你要是再不住口，我倒要先把你赶——,27505,遗留层XUAT,—,XUAT,[v11修订] 演出打断规范化：将早期剧本字面批注「（被打断）」化为破折号「——」；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Why, you...! I'll be the one getting rid of you if you don't (interrupted)"
 XUAT_06296,威廉,27506,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Wilhelm
-XUAT_06297,拥抱潜藏在我心中的灵梦,27507,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 SUB_002_009；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,Will I be able to reach the end of this journey\nwhose final act is heralded by the brilliant light...
+XUAT_06297,"我能否走到这段旅程的终点——
+它的终幕，将由那道璀璨的光迎来……",27507,遗留层XUAT,—,XUAT,"[v1.3.26修] 与主线 SUB_002_009 同句, 同步修正整句错位；[收编·A 同句异写] 可对照 SUB_002_009；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有",已译,Will I be able to reach the end of this journey\nwhose final act is heralded by the brilliant light...
 XUAT_06298,威尔玛,27508,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Wilma
 XUAT_06299,威尔玛那间棚子里说不定有一个，我猜！,27509,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Wilma ought to have one in that shed of hers, I wager!"
 XUAT_06300,威尔玛这是无缘无故地找茬！,27510,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,Wilma's being difficult for no good reason!
@@ -28075,10 +28071,10 @@ XUAT_06429,不过，我倒是很想让整个基弗伯格把这话听清楚。,27
 XUAT_06430,可我不只是个异端，我还……,27640,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Yet, I'm not only a heretic, I'm..."
 XUAT_06431,可它索取的，也许比你想的要多得多……,27641,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Yet, it might take more from you than you're anticipating..."
 XUAT_06432,可它依旧对你的存在有所回应……,27642,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"Yet, it still responds to your presence all the same..."
-XUAT_06433,你      输了,27643,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You Lose
+XUAT_06433,你输了,27643,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You Lose
 XUAT_06434,你输了！,27644,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You Lose!
-XUAT_06435,你      平局,27645,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You Pass
-XUAT_06436,你      赢了,27646,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You Win
+XUAT_06435,你平局,27645,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You Pass
+XUAT_06436,你赢了,27646,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You Win
 XUAT_06437,你赢了！,27647,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You Win!
 XUAT_06438,你们都听见老约亨指控我行巫术——指控我邪恶了吧！,27648,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You all heard Old Jochen accusing me of witchery - of being wicked!
 XUAT_06439,你们大家都清楚她做不出这种事！,27649,遗留层XUAT,—,XUAT,[v11修订] 同源句对齐主线：对齐主线对应句 CUT_7_3_VSQ_01_131 定稿译文；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You all know she couldn't do it...!
@@ -28109,10 +28105,10 @@ XUAT_06462,你站在那儿看得够清楚了，讨厌鬼。,27672,遗留层XUAT,
 XUAT_06463,昨晚的事，你可以不用再想了，伊莉丝。,27673,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"You can stop thinking about what happened last night, Elise."
 XUAT_06464,要是有的话，你可以告诉我，伊莉丝——我随时都可以……！,27674,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"You can tell me if it has, Elise - I can always...!"
 XUAT_06465,你不如老实告诉我们，伊莉丝——你跟你那位表亲准是憋着什么坏心思！,27675,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"You can tell us, Elise - you and that cousin of yours are up to no good!"
-XUAT_06466,"你可以用火柴  点亮提灯，或用于标有  符号的物件。
-它们数量有限，要省着用！",27676,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"You can use Matches for your lantern and objects marked with the symbol. They're finite, so use them wisely!"
-XUAT_06467,"你可以用火柴  点亮提灯，或用于标有  符号的物件。
-它们数量有限，要省着用！",27677,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,"You can use Matches  for your lantern and objects marked with the  symbol.\nThey're finite, so use them wisely!"
+XUAT_06466,"你可以用火柴点亮提灯，或用于标有符号的物件。
+它们数量有限，要省着用！",27676,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"You can use Matches for your lantern and objects marked with the symbol. They're finite, so use them wisely!"
+XUAT_06467,"你可以用火柴点亮提灯，或用于标有符号的物件。
+它们数量有限，要省着用！",27677,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,"You can use Matches  for your lantern and objects marked with the  symbol.\nThey're finite, so use them wisely!"
 XUAT_06468,你不是当真的吧，阿普菲尔！,27678,遗留层XUAT,—,XUAT,[v11修订] 同源句对齐主线：对齐主线对应句 CUT_7_3_VSQ_01_118 定稿译文；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"You can't be serious, Apfel...!"
 XUAT_06469,你不是当真的吧……,27679,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You can't be serious...
 XUAT_06470,您该不会是说莉丝贝特太太吧……,27680,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 DLG_5_3_VIN_04_005；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You can't be talking about Mrs Lisbeth...
@@ -28356,8 +28352,8 @@ XUAT_06707,你一直没回来，我就下来找你了……,27917,遗留层XUAT,
 XUAT_06708,你把它们想成赠礼，其实也没错。,27918,遗留层XUAT,—,XUAT,[v11修订] 核心祭礼专名统一：契约 Gift 统一作「赠礼」；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"You weren't wrong to think of these as gifts, truth be told."
 XUAT_06709,你当时不太对劲，萝丝玛琳！,27919,遗留层XUAT,—,XUAT,[v11修订] 同源句对齐主线：对齐主线对应句 CUT_5_1_HBY_01_006 定稿译文；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"You weren't yourself, Rosmarine...!"
 XUAT_06710,你会明白的，伊莉丝，迟早会……,27920,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"You will know, Elise, in time..."
-XUAT_06711,每过一个时段，你就会消耗1个  。,27921,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You will lose 1 for each time period that passes by.
-XUAT_06712,每过一个时段，你就会消耗1个  。,27922,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,You will lose 1  for each time period that passes by.
+XUAT_06711,每过一个时段，你就会消耗1个。,27921,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You will lose 1 for each time period that passes by.
+XUAT_06712,每过一个时段，你就会消耗1个。,27922,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,You will lose 1  for each time period that passes by.
 XUAT_06713,"每过一个时段，你就会消耗<b>1个</b><sprite=""bread"" name=""bread"">。
 一天就要消耗<b>6个</b><sprite=""bread"" name=""bread"">！",27923,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 TUT_01_03；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,You will lose 1 x  for each time period that passes by.\nThat's 6 x  a day!
 XUAT_06714,你这么老是提心吊胆的，可活不长呢！,27924,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 DLG_6_3_VBA_01_010；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You won't reach old age if you keep fretting like this!
@@ -28405,14 +28401,14 @@ XUAT_06755,等基弗伯格每个女人都被扣上巫术的帽子，您再来说
 XUAT_06756,你一定会喜欢<b>祂</b>的陪伴！,27966,遗留层XUAT,—,XUAT,[v11修订] 同源句对齐主线：对齐主线定稿 DLG_4_5_WCR_B_06_004 高品质译文、称谓及语气标点；[收编·A 同句异写] 可对照 DLG_4_5_WCR_B_06_004；收编自 v1.3.25 词典遗留层（v10），原值照录；display 与 AT 取值不同，已取 display 侧,已译,"You'll enjoy his company, I'm certain!"
 XUAT_06757,"每次约会成功后都能获得一颗<color=#EC0E51><b>爱心</b></color><sprite=""maxheart"" name=""maxheart_0"">。
 可在<b>人际关系菜单</b>中查看你的进度！",27967,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 TUT_03_02；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,You'll get a Love Heart  after every successful date.\nCheck your progress in the Relationships Menu!
-XUAT_06758,"选对答案就能获得一颗爱心  。
-可在人际关系菜单中查看你的进度！",27968,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You'll get a Love Heart by choosing the right answer. Check your progress in the Relationships menu!
-XUAT_06759,"选对答案就能获得一颗爱心  。
-可在人际关系菜单中查看你的进度！",27969,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,You'll get a Love Heart  by choosing the right answer.\nCheck your progress in the Relationships menu!
-XUAT_06760,"根据你的表现，你会获得不同的奖励  。
-善用你的  ，多去各处商店  逛逛吧！",27970,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You'll get a different reward depending on your performance. Use your wisely at the various shops !
-XUAT_06761,"根据你的表现，你会获得不同的奖励  。
-善用你的  ，多去各处商店  逛逛吧！",27971,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,You'll get a different reward  depending on your performance.\nUse your  wisely at the various shops !
+XUAT_06758,"选对答案就能获得一颗爱心。
+可在人际关系菜单中查看你的进度！",27968,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You'll get a Love Heart by choosing the right answer. Check your progress in the Relationships menu!
+XUAT_06759,"选对答案就能获得一颗爱心。
+可在人际关系菜单中查看你的进度！",27969,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,You'll get a Love Heart  by choosing the right answer.\nCheck your progress in the Relationships menu!
+XUAT_06760,"根据你的表现，你会获得不同的奖励。
+善用你的，多去各处商店逛逛吧！",27970,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You'll get a different reward depending on your performance. Use your wisely at the various shops !
+XUAT_06761,"根据你的表现，你会获得不同的奖励。
+善用你的，多去各处商店逛逛吧！",27971,遗留层XUAT,—,XUAT,[v1.3.26修] 清理缺图标留下的空格洞；[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,You'll get a different reward  depending on your performance.\nUse your  wisely at the various shops !
 XUAT_06762,你会失去其他所有的鳞片……,27972,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 LVE_4_2_OCR_R_039；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You'll lose all the others...
 XUAT_06763,你等着瞧吧！我以前也这么想，直到我遇见了芬恩！,27973,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,You'll see! I used to think the same way until I met Fynn!
 XUAT_06764,你就要溜走了，伊莉丝……我要是不快点，就……,27974,遗留层XUAT,—,XUAT,[收编·B 独立条目]；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,"You'll slip away, Elise... If I don't hurry, I'll..."
@@ -28839,12 +28835,8 @@ expresso",28232,遗留层XUAT,—,XUAT,[收编·C 人名/名单]；收编自 v1.
 XUAT_07023,声望上升,28233,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 RepSusText_getRep；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,get Rep
 XUAT_07024,嫌疑上升,28234,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 RepSusText_getSus；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,get Sus
 XUAT_07025,jessilvania (jes),28235,遗留层XUAT,—,XUAT,[收编·C 人名/名单]；收编自 v1.3.25 词典遗留层（v10），原值照录；人名/制作名单，无需翻译,已译,jessilvania (jes)
-XUAT_07026,"向我这边……
-更多……
-看过来
-看过来
-看过来
-看过来",28236,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 SUB_001_012；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有,已译,"look at me, look at me, look at me,\nLOOK AT ME LOOK AT ME"
+XUAT_07026,"看着我，看着我，看着我——
+看着我！看着我！",28236,遗留层XUAT,—,XUAT,"[v1.3.26修] 与主线 SUB_001_012 同句, 同步修正；[收编·A 同句异写] 可对照 SUB_001_012；收编自 v1.3.25 词典遗留层（v10），原值照录；仅 AT 有",已译,"look at me, look at me, look at me,\nLOOK AT ME LOOK AT ME"
 XUAT_07027,声望下降,28237,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 RepSusText_loseRep；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,lose Rep
 XUAT_07028,嫌疑下降,28238,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 RepSusText_loseSus；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,lose Sus
 XUAT_07029,其他选项,28239,遗留层XUAT,—,XUAT,[收编·A 同句异写] 可对照 LoopChoiceText_4_8；收编自 v1.3.25 词典遗留层（v10），原值照录,已译,other OPTION

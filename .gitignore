@@ -8,3 +8,6 @@ source/LGTSChinese/obj/
 *.bak
 __pycache__/
 Thumbs.db
+
+# 词典重建/审计产生的备份(带后缀), 一律不入库
+*.bak_*

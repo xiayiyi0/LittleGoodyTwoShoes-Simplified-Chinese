@@ -55,7 +55,7 @@ Loaded fallback font for TextMesh Pro: arialuni_sdf_u2019
    游戏后生成），首行应为 “=== LGTS DIAG v1.3.26 启动 ===”。
 3. 文件完整性：对照发布包内的 SHA256SUMS.txt，可用命令
    certutil -hashfile "文件路径" SHA256
-   逐条核对（至少核对 LGTSChinese.dll 与两个 translation 词典）。
+   逐条核对（至少核对 LGTSChinese.dll 与三个 translation 词典（display / by_refkey / item_names））。
 
 反馈问题时请随附 BepInEx/plugins/LGTSChinese/DIAG.txt 与 BepInEx/LogOutput.log，
 并在正文中注明：游戏版本（Steam 客户端可见）、补丁版本（上述第 1/2 条）、

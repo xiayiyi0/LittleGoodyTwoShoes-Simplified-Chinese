@@ -178,6 +178,45 @@ def main():
                 uncov[name] = n
         check("译本覆盖 display/AT/item 全部键", not uncov, str(uncov))
 
+        # 值级校验: 三层每个键的值必须等于译本中同一 Norm(英文) 的取值。
+        # 这是 2026-10-26 审计 E1 指出的盲区 —— 只查"键在不在"的话, 把译文整段
+        # 换成不相干内容也能 PASS。同形异义走 NAME_OVERRIDE 白名单; 换行与 <br>
+        # 视为等价; AT 里的字面 \n 先反转义。
+        NAME_OVERRIDE = {"Lebkuchen": "斯佩尔特"}
+
+        def _canon(s):
+            s = (s or "").replace("\\n", "\n").replace("<br>", "\n")
+            return re.sub(r"\s+", " ", s).strip()
+
+        vcand = {}
+        for r in rows:
+            e = r.get("英文原文") or ""
+            zh = BAD_TAG_RE.sub("", r.get("中文译文") or "").strip()
+            if e.strip() and zh:
+                vcand.setdefault(_nk(e), set()).add(_canon(zh))
+                vcand.setdefault(_nk(e.replace("\n", " ")), set()).add(_canon(zh))
+        vbad = {}
+        for name, m in (("display", disp), ("AT", at), ("item", itn)):
+            for k, v in m.items():
+                if k in NAME_OVERRIDE:
+                    continue
+                cs = vcand.get(_nk(k))
+                if cs is None:
+                    continue          # 缺键由上面的覆盖率检查负责
+                if _canon(v) not in cs:
+                    vbad[name] = vbad.get(name, 0) + 1
+        check("三层值均与译本一致", not vbad, str(vbad))
+
+        # 缺图标的空格洞: 原文本里的 <sprite> 在键里被剥掉, 值里若只留两个空格,
+        # 上屏就是一个空档 (2026-10-26 审计 S1)。只查行内, 不碰 \n\n 空行。
+        HOLE = re.compile(r"[^\s　] {2,}[^\s　]|[^\s　] {1,}[，。！？；：、]")
+        hb = {}
+        for name, m in (("display", disp), ("refkey", rkey), ("item", itn), ("AT", at)):
+            for v in m.values():
+                if isinstance(v, str) and any(HOLE.search(seg) for seg in v.split("\n")):
+                    hb[name] = hb.get(name, 0) + 1
+        check("四层无缺图标空格洞", not hb, str(hb))
+
         print("\n---------- D 标点 / 标签 ----------")
         zh = re.compile("[\\u4e00-\\u9fff]")
         bad = {}

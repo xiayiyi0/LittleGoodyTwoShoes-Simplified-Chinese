@@ -85,6 +85,8 @@ def depunct(s):
 
 
 def pick(cands, current):
+    if not cands:
+        return current or ""
     if current:
         for c in cands:
             if depunct(c) == depunct(current):

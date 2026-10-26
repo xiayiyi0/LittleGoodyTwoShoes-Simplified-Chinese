@@ -1174,7 +1174,7 @@ Poor Elise was frolicking about town, so what?=可怜的伊莉丝不过是在镇
 Ah, my dear! Good day!=啊，好孩子！日安！
 Oh, Elise! You scared me stiff earlier!=哎呀，伊莉丝！你刚才可把我吓了一大跳！
 Ought to say you had me scared stiff this morning!=该说你今早可真是把我吓坏了！
-I did?=我吓到您了吗？
+I did?=是我吗？
 Why would you say that, Mrs Mechtilde?=您为什么这么说，梅希蒂尔德太太？
 It takes a great deal of courage to put those two in their place!=能把那两个老家伙镇住，可得有不小的胆量呢！
 It takes a great deal of bravery to put those two old fellas in their place!=能把那两个老家伙镇住，可得有不小的胆量呢！
@@ -1187,7 +1187,7 @@ She truly is full of surprises, even after all this time.=她啊，就算过了�
 Surprises, Mrs Mechtilde?=惊喜，梅希蒂尔德太太？
 Why, yes - your grandmother was quite withdrawn, even in our youth.=哎，是啊——你祖母年轻时就一直很内向。
 Thank you, Mrs. Mechtilde.=谢谢您，梅希蒂尔德太太。
-Gretchen was the only soul she'd confide in.=格蕾特是她唯一愿意交心的人。
+Gretchen was the only soul she'd confide in.=格蕾琴是她唯一愿意交心的人。
 Lebkuchen's granny does talk about her a great deal, that's true...=斯佩尔特的奶奶倒是常提起她，这倒是真的……
 You ought not to take Old Jochen's notions to heart, Elise.=你不该把老约亨的那些话放在心上，伊莉丝。
 You lasses are different from when I was your age and that's the way it ought to be!=你们这些丫头跟我年轻那会儿不一样了，这也是理所应当的！
@@ -1310,7 +1310,7 @@ Are you taking pity on penny beggars now, Elise?=怎么，伊莉丝，你现在�
 Ah, would you look at that! A cousin!=瞧瞧啊！还是表妹呢！
 No need to be so crude, Elma.=用不着这么刻薄吧，埃尔玛。
 I don't recall Holle having siblings, Elise.=我怎么不记得霍尔有兄弟姐妹，伊莉丝。
-This lass you called a penny beggar, Mrs Elma, happens to be my cousin.=埃尔玛太太，您刚才叫她穷要饭的的这位丫头，正好是我表妹。
+This lass you called a penny beggar, Mrs Elma, happens to be my cousin.=埃尔玛太太，您刚才叫她穷要饭的这位丫头，正好是我表妹。
 Of course she didn't! Can't you see the poor lass has lost her wits?=她当然没有——你没看出这丫头脑子糊涂了吗？
 Would you look at that! A cousin!=瞧瞧啊！还是表妹呢！
 Of course she didn't - can't you see the lass has lost her wits?=她当然没有——你没看出这丫头脑子糊涂了吗？
@@ -1730,7 +1730,7 @@ You arrive in good time, Elise.=你来得正好，伊莉丝。
 Old Jochen's wittering on about Old Stefan's forebodings again.=老约亨又在念叨老斯特凡的那些预兆了。
 Old Stefan warned us — on his deathbed, no less!=老斯特凡可是警告过咱们的——还是在临终前说的！
 I knew that windstorm was a dreadful thing!=我就知道那场暴风不是什么好兆头！
-More than a dreadful thing, Odilie - that windstorm was an ill omen, I tell you!=岂止不是好兆头，奥蒂莉——那场暴风就是个凶兆，我告诉你！
+More than a dreadful thing, Odilie - that windstorm was an ill omen, I tell you!=岂止是可怕啊，奥蒂莉——那场暴风就是个凶兆，我告诉你！
 Old Stefan passed too early, that's what...=说到底，还是老斯特凡走得太早了……
 An ill omen for what, Mr Jochen?=什么的凶兆，约亨先生？
 Let Old Stefan rest...=让老斯特凡安息吧……
@@ -4085,7 +4085,7 @@ It's painful to come to terms with it, but it's the truth.=接受这一点是挺
 What do you mean, Mr. Gustav?=此话怎讲，古斯塔夫先生？
 Lebkuchen's made a good point about Old Jochen yesterday.=斯佩尔特昨天说老约亨的那番话说得在理。
 The poor lass stood up for you against Father Hans and Old Jochen all evening!=这可怜的丫头，一整晚都在汉斯神父和老约亨面前替你说话！
-That said - you owe her a piece of your very soul, Elise!=话说回来——你欠她一份天大的人情呢，伊莉丝！
+That said - you owe her a piece of your very soul, Elise!=话说回来——你欠她一部分灵魂呢，伊莉丝！
 Poor lass stood up for you against Father Hans and Old Jochen all evening!=这可怜的丫头，一整晚都在汉斯神父和老约亨面前替你说话！
 You'd have been in for a real earful had it not been for her!=要不是她，你早就被数落个够了！
 I know, Mr Gustav...=我知道，古斯塔夫先生……
@@ -7163,7 +7163,7 @@ It was the final nail in the coffin, lass.=经了这一遭，我算是彻底死�
 I'll be on my way to Primeldorf first thing Sunday morning.=星期天一大早我就要动身去普里梅尔多夫了。
 You too, Elise - ought not to stay for much longer.=你也是，伊莉丝——不该在这儿多待了。
 You too, Elise — you shouldn't stay much longer...=你也是，伊莉丝——不该在这儿多待了……
-Not after what was said and done.=经过今天这番话，这番事。
+Not after what was said and done.=经过了今天这番话、这番事，可不行。
 Not after what was said and done today.=尤其是经过了今天这番话、这番事之后。
 (If only I could leave this easily...)=（要是真能这么轻易离开就好了……）
 (If only I could leave that easily...)=（要是真能这么轻易离开就好了……）
@@ -9088,7 +9088,7 @@ Auntie knew we lived in Kieferberg!=姨婆知道我们住在基弗伯格！
 Ah! They, um...=啊！他们，呃……
 Oh, perhaps we're being impertinent, Ariane...=哦，也许我们太失礼了，阿丽亚娜……
 Oh, my auntie was of rather fragile health, you see?=啊，我那位姨婆身子骨一直挺弱的嘛。
-Ought to say I, too, am left wondering who they came across...=要说啊，我也很想知道他到底问了谁……
+Ought to say I, too, am left wondering who they came across...=要说啊，我也很想知道他们遇见了谁……
 I do remember Old Holle mention her family from Primeldorf, but...=我确实记得老霍尔提起过她在普里梅尔多夫的亲人，不过……
 (Good, good! They're buying it!)=（好、好啊！她们上钩了！）
 Oh, but look at the time - we'd best make our way home, Rosmarine!=哎呀，瞧瞧这时辰——咱们该回家了，萝丝玛琳！
@@ -9611,7 +9611,7 @@ Are you speaking the truth, Elise?=你说的是实话吗，伊莉丝？
 Did you truly see Eugen's horse?=你真的看见欧根的马了吗？
 I'm no longer certain...=我现在也不确定了……
 That's enough, Old Jochen.=够了，老约亨。
-I did...!=我吓到您了吗？
+I did...!=是我……！
 We ought to keep calm, brethren.=咱们都冷静一下，弟兄们。
 You didn't see it, then...=这么说你没看见……
 Yet, I'm not certain... I could've sworn...=可我又拿不准了……我明明敢发誓……
@@ -10108,7 +10108,7 @@ Lord knows if he's all right, let alone if the worst has happened!=天知道他�
 We all knew those crows were an omen...!=咱们都知道那些乌鸦是凶兆！
 We all knew those crows were an omen!=咱们都知道那些乌鸦是凶兆！
 What do the crows have to do with anything?=乌鸦跟这事有什么关系？
-Ought to have taken the lad to the witch!=那孩子准是被抓到<color=#934494><b>女巫</b></color>那儿去了！
+Ought to have taken the lad to the witch!=早该把那孩子送到<color=#934494><b>女巫</b></color>那儿去的！
 What a horrible thing to say, Old Jochen!=这话说得太过分了，老约亨！
 You truly have no dencency, you...!=你真是一点分寸都没有，你……！
 You truly have no decency, you...!=你真是一点分寸都没有，你……！
@@ -11554,7 +11554,7 @@ You get flustered so easily, Elise!=你也太容易慌张了吧，伊莉丝！
 Ah, wait...! Elise...!=啊，等等……！伊莉丝……！
 Shush it, you!=闭嘴，你这……！
 It's your own fault you're so...!=都怪你自己，谁让你这么……！
-So?=这么什么呀？
+So?=所以呢？
 You take after your granny, I see it now...=你这脾气，随你奶奶的，我现在算是看出来了……
 Anyhow, we... We've stayed out here too long...=不管怎样，我们……我们在这儿待得也太久了……
 Ah, Elise! There you are!=啊，伊莉丝！你来啦！
@@ -12402,7 +12402,7 @@ No=不用了
 There's nothing inside=里面什么都没有
 There's something written!=上面写着字！
 TEXT: I always keep one with me, on my jacket.=文字：我总是随身带着一个，别在外套上。
-Success  Success  Success=成功  成功  成功
+Success  Success  Success=成功 成功 成功
 This is the ITEM CHOICE test. Will you give an item?=这是道具选择测试。你要给一件道具吗？
 Yeah, let me choose one!=好啊，让我选一个！
 No item given? Shame......=没给道具？真可惜……
@@ -15951,28 +15951,28 @@ There are 5 time periods in each day.\nBut only 3 are working periods:\n• Morn
 About Time=关于时间
 All interactions marked with the  symbol will skip 1 time period.=所有标有<sprite="balloonicons" name="story_skip">符号的互动都会跳过1个时段。
 All goals marked with the  icon will skip one time period.=所有标有<sprite="balloonicons" name="hourglass">符号的目标都会<b><color=#E1402C>跳过</color>1个时段</b>。
-You will lose 1  for each time period that passes by.=每过一个时段，你就会消耗1个  。
+You will lose 1  for each time period that passes by.=每过一个时段，你就会消耗1个。
 You will lose 1 x  for each time period that passes by.\nThat's 6 x  a day!=每过一个时段，你就会消耗<b>1个</b><sprite="bread" name="bread">。\n一天就要消耗<b>6个</b><sprite="bread" name="bread">！
 Managing Stamina=<b>体力管理</b>
-All Story Events are marked with the  symbol.\nSome, marked by the  symbol, will skip 1 time period.=所有剧情事件都标有  符号。\n其中一些标有  符号的会跳过1个时段。
+All Story Events are marked with the  symbol.\nSome, marked by the  symbol, will skip 1 time period.=所有剧情事件都标有<sprite="balloonicons" name="story">符号。<br>其中一些标有<sprite="balloonicons" name="story_skip">符号的会跳过1个时段。
 Story Events=<b>剧情事件</b>
-All Love Events are marked with the  symbol.\nEach Love Event will skip 1 time period.=所有恋爱事件都标有  符号。\n每个恋爱事件都会跳过1个时段。
+All Love Events are marked with the  symbol.\nEach Love Event will skip 1 time period.=所有恋爱事件都标有<sprite="balloonicons" name="romance">符号。<br>每个恋爱事件都会跳过1个时段。
 All Romantic Dates are marked with the  icon.\nEach date will skip one time period!=所有<color=#EC0E51><b>浪漫约会</b></color>都标有<sprite="balloonicons" name="love_token">符号。\n每次约会都会<b><color=#E1402C>跳过</color>1个时段</b>！
 Love Events=恋爱事件
-You'll get a Love Heart  by choosing the right answer.\nCheck your progress in the Relationships menu!=选对答案就能获得一颗爱心  。\n可在人际关系菜单中查看你的进度！
+You'll get a Love Heart  by choosing the right answer.\nCheck your progress in the Relationships menu!=选对答案就能获得一颗爱心。\n可在人际关系菜单中查看你的进度！
 You'll get a Love Heart  after every successful date.\nCheck your progress in the Relationships Menu!=每次约会成功后都能获得一颗<color=#EC0E51><b>爱心</b></color><sprite="maxheart" name="maxheart_0">。\n可在<b>人际关系菜单</b>中查看你的进度！
-All Tasks are marked with the  symbol.\nEach Task will skip 1 time period.=所有任务都标有  符号。\n每个任务都会跳过1个时段。
+All Tasks are marked with the  symbol.\nEach Task will skip 1 time period.=所有任务都标有<sprite="balloonicons" name="task">符号。<br>每个任务都会跳过1个时段。
 All available Tasks are marked with the  icon.\nEach task you do will skip one time period!=所有可接取的<b><color=#B8581C>任务</color></b>都标有<sprite="balloonicons" name="task">符号。\n每个任务都会<b><color=#E1402C>跳过</color>1个时段</b>！
 Tasks=任务
-You'll get a different reward  depending on your performance.\nUse your  wisely at the various shops !=根据你的表现，你会获得不同的奖励  。\n善用你的  ，多去各处商店  逛逛吧！
+You'll get a different reward  depending on your performance.\nUse your  wisely at the various shops !=根据你的表现，你会获得不同的奖励。\n善用你的，多去各处商店逛逛吧！
 Press [C] to turn on your lantern!=按[C]键点亮你的提灯！
 Preserve your matches!=<b>省着点用你的火柴！</b>
-You can use Matches  for your lantern and objects marked with the  symbol.\nThey're finite, so use them wisely!=你可以用火柴  点亮提灯，或用于标有  符号的物件。\n它们数量有限，要省着用！
+You can use Matches  for your lantern and objects marked with the  symbol.\nThey're finite, so use them wisely!=你可以用火柴点亮提灯，或用于标有符号的物件。\n它们数量有限，要省着用！
 Suspicion=嫌疑
 Avoid Suspicion!=<b>避免引起嫌疑！</b>
-Every time you act suspiciously, your Suspicion  will increase.\nYou'd best mind what you say!=每次你举止可疑，你的嫌疑  就会增加。\n说话前最好想清楚！
+Every time you act suspiciously, your Suspicion  will increase.\nYou'd best mind what you say!=每次你举止可疑，你的嫌疑就会增加。\n说话前最好想清楚！
 Muffy's spying on you!=<b>穆菲正在监视你！</b>
-Successfully bribe Muffy with a Food Item .\nIf not, your Suspicion  will increase.=用食物道具  成功贿赂穆菲。\n否则，你的嫌疑  会增加。
+Successfully bribe Muffy with a Food Item .\nIf not, your Suspicion  will increase.=用食物道具成功贿赂穆菲。\n否则，你的嫌疑会增加。
 Look out for Rozenmarine!=留意萝森玛琳的动向！
 Rozenmarine will wander about town when you don't take her along for a Task [broom].=如果你做任务<sprite="balloonicons" name="task">时没有带上萝森玛琳，她就会在镇上到处乱逛。
 If you don't find her and fix her blunders, your Suspicion [hat] will increase.=如果你没找到她并处理好她闯的祸，你的嫌疑<sprite="balloonicons" name="suspicion">就会增加。
@@ -16116,7 +16116,7 @@ Make everyone look at me\nEven if just once, let me shine brighter than anyone e
 
 For once and one time only, \nlet me shine brighter than anyone else.=就这一次，仅此一次，\n让我比任何人都更加耀眼。
 Hey, look at me more, more=呐～\n更多……更多……
-look at me, look at me, look at me,\nLOOK AT ME LOOK AT ME=向我这边……\n更多……\n看过来\n看过来\n看过来\n看过来
+look at me, look at me, look at me,\nLOOK AT ME LOOK AT ME=看着我，看着我，看着我——\n看着我！看着我！
 
 Hey, look at me…=拜托多看看我吧！
 That dream again...=又是那个梦……
@@ -17291,7 +17291,7 @@ Why, about your dear mother, Elise!=自然是说你亲爱的母亲哪，伊莉�
 My mother? The only mother I've ever had was Granny...=我的母亲？我唯一的母亲就是奶奶……
 Let's put that past us — you're here for a reason!=旧事就不提了——你来这儿可是有正事的！
 You did good in bringing me your Tender Flesh and the Sweetest Nectar.=你把<color=#000000><b>鲜嫩的血肉</b></color>和<color=#000000><b>最甜美的琼浆</b></color>都带来了，做得很好。
-Even brought me some Good Company for supper!=甚至还带了<color=#000000><b>良伴</b></color>来共进晚餐！
+Even brought me some Good Company for supper!=甚至还带了<color=#000000><b>良伴</b></color>给我当晚餐！
 For supper...?=晚餐……？
 So let us dine, Elise.=那么，开席吧，伊莉丝。
 Tell me more about what it is you desire, why don't you?=不如再同我说说，你究竟渴望什么？
@@ -21780,7 +21780,7 @@ Vanished?=不见了？
 We suspect they were stolen...=我们怀疑它们是被偷了……
 We have...=我们已经……
 Though we're trying to figure out what happened.=不过我们正设法弄清到底发生了什么。
-I'm ruined, that's what happened...=出了什么事？我是彻底完了……
+I'm ruined, that's what happened...=我是彻底完了，事情就是这样……
 As I said before, Eugen — we will do all we can to help.=欧根，我之前也说过——我们会竭尽所能帮忙。
 We'll gather the lads and send them out to patrol the outskirts.=我们会召集小子们，派他们去村外巡逻。
 Are we absolutely certain they were stolen?=我们真的能断定它们是被偷了吗？
@@ -24038,7 +24038,7 @@ Apparently I'm meant to apologize to Old Jochen sometime, too.=据说我改天�
 Why, that old donkey! That's ridiculous...!=哎呀，那头老蠢驴！简直荒唐透顶……！
 Yet, I ought to...!=可我明明应该……！
 Since you won't, Lebkuchen... What choice do I have?=既然你不肯，斯佩尔特……那我还能有什么选择呢？
-Which we both know you loathe — you more so than I, even.=而那件事咱俩都清楚你有多厌恶——你甚至比我更清楚。
+Which we both know you loathe — you more so than I, even.=咱俩都清楚你有多厌恶那事——你甚至比我更厌恶它。
 I don't loathe it, Elise...=我并不<i>厌恶</i>它，伊莉丝……
 You don't look me in the eye, and your...=你不敢正视我的眼睛，而且你的……
 It's time someone taught you a lesson, Elise!=是时候有人来教训教训你了，伊莉丝！
@@ -24491,8 +24491,8 @@ Come offer our prayers to the court of stars above — let us offer them.=向星
 Let us engrave the Rondo of the Six Stars and dance...=刻上六星的圆舞——起舞吧……
 “Oh, beacon which guides me\nBestow upon me visions anew...=「路标啊，赐予我新的预兆吧
 No matter if they herald but an unescapable fate.”=即使是无法逃脱的命运也没关系」
-Will I be able to reach the end of this journey\nwhose final act is heralded by the brilliant light...=拥抱潜藏在我心中的灵梦
-that engulfs visions I stow so deep in my bosom?=终于能到达那光芒闪耀的终点了吧
+Will I be able to reach the end of this journey\nwhose final act is heralded by the brilliant light...=我能否走到这段旅程的终点——\n它的终幕，将由那道璀璨的光迎来……
+that engulfs visions I stow so deep in my bosom?=那道光，吞没了深藏在我心底的幻梦？
 Step by step by step, I keep on this relentless march,\nWalking on, to the rhythm of the song heralded to me by the bell of the heavenly oracle.=一步……一步……只需要一直向前走\n踏着神谕所奏响的旋律
 Engraving such a pure name, the true moniker of your soul\ndeep within my heart,=真红所呼唤的那个纯洁的真名\n早已经铭记于心
 I begin my fated journey towards you…=向着宿命启程吧……
