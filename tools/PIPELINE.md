@@ -89,6 +89,13 @@ display 曾有 6,976 条、AT 曾有 6,477 条英文串根本不在译本 CSV �
 因此 `apply_translation.py` 用 `XUAT_PREFIX` 把它们挡在 by_refkey 之外。
 `NAME_GUARD` 保留——它对触发条件不敏感，收编后仍然有效，属于第二道保险。
 
+**从零重建（v1.3.26 起）。** 两本词典的键集不再藏在产物里，而是显式入库：
+`tools/keys_display.txt`、`keys_at.txt`、`keys_refkey.txt`、`keys_item.txt`。
+加上 `--scratch` 时两个脚本只读「译本 CSV + 键集清单」，把词典清空也能重建，
+且与仓库内产物**逐字节相同**（四本全等，已实测）。
+同一归一键有多条不同译文时（15 组，多为 `<size>`、sprite、斜体的界面差异，不能统一），
+由 `tools/pick_overrides.txt` 指定上屏取哪一条记录，保证选择确定、可复现。
+
 **AT 为什么是非权威层。**
 运行时 display 词典优先命中，AT 只在 XUAT 兜底路径生效。authoritative 数据是
 by_refkey / display。因此 display 与 AT 允许存在历史实质差，不做批量同步，

@@ -111,6 +111,18 @@ def legacy_fix(k, s):
     return punct_fix(s)
 
 
+def load_overrides(path):
+    """tools/pick_overrides.txt: 同一归一键有多条不同译文时, 指定取哪一条记录。"""
+    d = {}
+    if os.path.exists(path):
+        for ln in open(path, encoding="utf-8"):
+            if ln.startswith("#") or "\t" not in ln:
+                continue
+            key, rid = ln.rstrip("\r\n").split("\t", 1)
+            d[key] = rid
+    return d
+
+
 def backup(path, suffix):
     dst = path + suffix
     if not os.path.exists(dst):
@@ -130,6 +142,9 @@ def main():
     ap.add_argument("--csv", required=True, help="译本 CSV (9 列)；旧 11 列格式亦可")
     ap.add_argument("--live", default=None, help="游戏根目录; 默认取仓库内自带的词典")
     ap.add_argument("--backup-suffix", default=".bak_pre_apply")
+    ap.add_argument("--scratch", action="store_true",
+                    help="从零重建: 忽略现有 display.json, 按 tools/keys_display.txt 的键集生成")
+    ap.add_argument("--keys", default=None, help="键集清单, 默认 tools/keys_display.txt")
     args = ap.parse_args()
 
     repo = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -144,6 +159,7 @@ def main():
 
     refkey_map = {}
     norm_map = defaultdict(list)
+    norm_by_id = defaultdict(dict)
     skipped = {"empty_zh": 0, "empty_en": 0}
     for r in rows:
         k, zh = r["记录键"], eff(r)
@@ -159,44 +175,74 @@ def main():
             skipped["empty_en"] += 1
             continue
         norm_map[norm(en)].append(zh)
+        norm_by_id[norm(en)].setdefault(k, zh)
 
     print("CSV 行 %d | refkey 映射 %d | 英文归一键 %d | 跳过 %s"
           % (len(rows), len(refkey_map), len(norm_map), skipped))
 
     bp = os.path.join(tran, "lgts_zh_by_refkey.json")
     backup(bp, args.backup_suffix)
-    live = json.load(open(bp, encoding="utf-8"))
+    # 键集与顺序都以 tools/keys_refkey.txt 为准, 清空后也能原样重建。
+    live = {} if args.scratch else json.load(open(bp, encoding="utf-8"))
     before = len(live)
+    rkp = os.path.join(repo, "tools", "keys_refkey.txt")
+    if os.path.exists(rkp):
+        order_rk = [ln.rstrip("\r\n") for ln in open(rkp, encoding="utf-8") if ln.strip()]
+    else:
+        order_rk = list(live)
+    known = set(order_rk)
+    order_rk += [k for k in refkey_map if k not in known]
+
+    out_rk = {}
     changed = added = 0
-    for k, v in refkey_map.items():
+    for k in order_rk:
+        v = refkey_map.get(k)
+        if v is None:
+            if k in live:
+                out_rk[k] = live[k]
+            continue
+        out_rk[k] = v
         if k in live:
             if live[k] != v:
-                live[k] = v
                 changed += 1
         else:
-            live[k] = v
             added += 1
-    dump(live, bp)
-    print("by_refkey: %d -> %d (改值 %d, 新增 %d)" % (before, len(live), changed, added))
+    dump(out_rk, bp)
+    print("by_refkey: %d -> %d (改值 %d, 新增 %d)" % (before, len(out_rk), changed, added))
 
     dp = os.path.join(tran, "lgts_display.json")
     backup(dp, args.backup_suffix)
-    disp = json.load(open(dp, encoding="utf-8"))
+    # 键集不再依赖现有词典: 从 tools/keys_display.txt 读(见 PIPELINE「从零重建」)。
+    # --scratch 时完全忽略现有值, 等效清空后重建; 否则以现有值为 pick() 的措辞基准。
+    keys_path = args.keys or os.path.join(repo, "tools", "keys_display.txt")
+    if os.path.exists(keys_path):
+        order = [ln.rstrip("\r\n") for ln in open(keys_path, encoding="utf-8") if ln.strip()]
+    else:
+        order = list(json.load(open(dp, encoding="utf-8")))
+    src = {} if args.scratch else json.load(open(dp, encoding="utf-8"))
+    pick_ov = load_overrides(os.path.join(repo, "tools", "pick_overrides.txt"))
+    disp = {}
     dchg = 0
-    for k in list(disp):
+    for k in order:
+        cur = src.get(k, "")
         if k in NAME_OVERRIDE:
+            disp[k] = NAME_OVERRIDE[k]
+            if disp[k] != cur:
+                dchg += 1
             continue
         cands = norm_map.get(k)
         if not cands:
-            new = legacy_fix(k, disp[k])
+            if not cur:
+                continue          # 无候选又无历史值: 不是上屏键, 跳过
+            new = legacy_fix(k, cur)
         else:
-            new = pick(list(dict.fromkeys(cands)), disp[k])
-        if new != disp[k]:
-            disp[k] = new
-            dchg += 1
-    for k, v in NAME_OVERRIDE.items():
-        if disp.get(k) != v:
-            disp[k] = v
+            ov = pick_ov.get(k)
+            if ov and ov in norm_by_id.get(k, {}):
+                new = norm_by_id[k][ov]
+            else:
+                new = pick(list(dict.fromkeys(cands)), cur)
+        disp[k] = new
+        if new != cur:
             dchg += 1
     dump(disp, dp)
     print("display: %d 键, 改值 %d" % (len(disp), dchg))
@@ -204,16 +250,22 @@ def main():
     ip = os.path.join(tran, "lgts_item_names.json")
     if os.path.exists(ip):
         backup(ip, args.backup_suffix)
-        itn = json.load(open(ip, encoding="utf-8"))
+        itn = {} if args.scratch else json.load(open(ip, encoding="utf-8"))
+        old_itn = dict(itn)
+        itp = os.path.join(repo, "tools", "keys_item.txt")
+        order_it = ([ln.rstrip("\r\n") for ln in open(itp, encoding="utf-8") if ln.strip()]
+                    if os.path.exists(itp) else list(itn))
         ichg = miss = 0
-        for k in list(itn):
+        for k in order_it:
             cands = norm_map.get(norm(k))
             if not cands:
                 miss += 1
+                if k in old_itn:
+                    itn[k] = old_itn[k]
                 continue
-            new = pick(list(dict.fromkeys(cands)), itn[k])
-            if new != itn[k]:
-                itn[k] = new
+            new = pick(list(dict.fromkeys(cands)), old_itn.get(k, ""))
+            itn[k] = new
+            if new != old_itn.get(k):
                 ichg += 1
         dump(itn, ip)
         print("item_names: %d 条, 改值 %d, 未匹配 %d" % (len(itn), ichg, miss))

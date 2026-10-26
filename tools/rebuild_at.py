@@ -115,6 +115,9 @@ def main():
     ap.add_argument("--live", default=None, help="游戏根目录; 默认取仓库内自带 AT")
     ap.add_argument("--baseline", default=None, help="键集合来源, 默认 = 当前 AT 文件")
     ap.add_argument("--backup-suffix", default=".bak_pre_rebuild")
+    ap.add_argument("--scratch", action="store_true",
+                    help="从零重建: 按 tools/keys_at.txt 的键集生成, 不读现有 AT 的值")
+    ap.add_argument("--keys", default=None, help="键集清单, 默认 tools/keys_at.txt")
     args = ap.parse_args()
 
     repo = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -150,7 +153,15 @@ def main():
     for k, v in NAME_OVERRIDE.items():
         exact[norm(k)] = v
 
-    lines = open(src, "r", encoding="utf-8", newline="").read().split("\n")
+    # 键集来源: --scratch 用 tools/keys_at.txt(顺序与现有 AT 一致), 否则读现有 AT。
+    # 这样清空 AT 也能重建, 不再依赖已发布文件里的隐藏键集(见 PIPELINE)。
+    keys_path = args.keys or os.path.join(repo, "tools", "keys_at.txt")
+    if args.scratch:
+        if not os.path.exists(keys_path):
+            sys.exit("--scratch 需要键集清单: " + keys_path)
+        lines = [ln.rstrip("\r\n") + "=" for ln in open(keys_path, encoding="utf-8") if ln.strip()]
+    else:
+        lines = open(src, "r", encoding="utf-8", newline="").read().split("\n")
     out = []
     n_exact = n_fuzzy = n_mech = n_keep = 0
     for line in lines:

@@ -217,6 +217,20 @@ def main():
                     hb[name] = hb.get(name, 0) + 1
         check("四层无缺图标空格洞", not hb, str(hb))
 
+        # 键集清单必须与产物一致 —— 两者一致才说明"清空词典后能原样重建"。
+        # 清单在 tools/keys_display.txt / tools/keys_at.txt。
+        for fn, m, label in (("keys_display.txt", disp, "display"),
+                             ("keys_at.txt", at, "AT"),
+                             ("keys_refkey.txt", rkey, "refkey"),
+                             ("keys_item.txt", itn, "item")):
+            kp = os.path.join(os.path.dirname(os.path.abspath(__file__)), fn)
+            if not os.path.exists(kp):
+                check("键集清单 " + fn, True, "缺失, 跳过", skipped=True)
+                continue
+            ks = {ln.rstrip("\r\n") for ln in open(kp, encoding="utf-8") if ln.strip()}
+            check("键集与 %s 一致" % fn, ks == set(m),
+                  "清单 %d / 产物 %d" % (len(ks), len(m)))
+
         print("\n---------- D 标点 / 标签 ----------")
         zh = re.compile("[\\u4e00-\\u9fff]")
         bad = {}

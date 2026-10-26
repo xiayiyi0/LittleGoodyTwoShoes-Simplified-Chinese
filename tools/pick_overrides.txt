@@ -1,0 +1,17 @@
+# 同一 Norm(英文) 有多条不同译文时, 指定上屏取哪一条。
+# 格式: <Norm英文>\t<记录键>。由 tools 读取, 保证从零重建时选择确定。
+(Even they're starting to consider this witch nonsense...)	DLG_6_3_VIN_03_016
+(This old hag...!)	CHR_013_012
+...	DLG_2_4_OLH_01_018
+Eek!	DLG_2_3_OLH_04_022
+Eek...!	DLG_2_3_OLH_04_002
+Folks are too preoccupied with this witch nonsense!	DLG_7_2_VIN_03_006
+Map of Kieferberg	MAP_MENU
+Relationships Menu	RELATIONSHIP_MENU
+Right!	DLG_4_4_VCH_01_067
+Thank you, Mrs. Dorothea!	CHR_012_027
+The Tender Flesh! The Tender Flesh!	DLG_4_5_WCR_C_05_023
+We don't take kindly to light in these depths.	FLV_WSV-C_01_003
+What are you...?	DLG_2_3_VSQ_01_026
+What is this place?	CUT_8_3_VCC_01_002
+What... are you...?	CUT_2_1_DMP_01_006

@@ -3636,7 +3636,6 @@ Do you know who that is, Rosmarine?=你知道那是谁吗，萝丝玛琳？
 Gobble you up! Gobble you up!=一口吞掉！一口吞掉！
 How I wish this Aziel would gobble you lot up, crow!=我倒真希望这个<sprite="aziel" name="black">能把你们这群一口吞了，乌鸦！
 How I wish this Lady  would gobble you lot up, crow!=我倒真希望这位<sprite="aziel" name="black">女士能把你们这群家伙一口吞了，乌鸦！
-
 Ought not to say much more than that, lass!=这话可不能再多说了，丫头！
 It's best you truly don't, lest they...=你最好真别多说，免得它们……
 They're birds, Rosmarine!=它们不过是鸟罢了，萝丝玛琳！
@@ -16113,11 +16112,9 @@ Oh ruby red who guides my dreams,\nwon't you let me be selfish for once?=在梦�
 Oh Ruby Red Crimson who guides the locus of my dreams\nWon’t you grant me just one moment of selfishness?=在梦中引导着奇迹成真的红宝石\n能否让任性的我实现一个愿望
 Make it so everyone will look at me=让所有人的目光都落在我身上
 Make everyone look at me\nEven if just once, let me shine brighter than anyone else.=不管是谁都希望他们能注视我\n即使只有这一次\n也希望能比其他人都要耀眼
-
 For once and one time only, \nlet me shine brighter than anyone else.=就这一次，仅此一次，\n让我比任何人都更加耀眼。
 Hey, look at me more, more=呐～\n更多……更多……
 look at me, look at me, look at me,\nLOOK AT ME LOOK AT ME=看着我，看着我，看着我——\n看着我！看着我！
-
 Hey, look at me…=拜托多看看我吧！
 That dream again...=又是那个梦……
 I'd best get up and head to town...=我最好起身进村去……
