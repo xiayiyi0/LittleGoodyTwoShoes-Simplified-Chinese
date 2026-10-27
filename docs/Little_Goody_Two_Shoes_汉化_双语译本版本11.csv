@@ -5416,7 +5416,7 @@ DLG_5_2_VIN_02_026,这可怜的小子，昨天出的事恐怕都还没缓过来�
 DLG_5_2_VIN_02_027,欧根到星期天肯定就走了，我这话你记着！,5415,主线对白DLG,,VIN,[专名] Sunday统一作「星期天」,已译,"Eugen will be gone by Sunday, you can mark my words!"
 DLG_5_2_VIN_02_028,威尔玛太太……,5416,主线对白DLG,,VIN,,已译,Mrs. Wilma...
 DLG_5_2_VIN_02_029,（我一有空就该去看看莉丝贝特太太才是……）,5417,主线对白DLG,,VIN,,已译,(It's best I go visit Mrs. Lisbeth first chance I get...)
-DLG_5_2_VIN_02_030,不过也别太担心——他已经在去普里梅尔多夫的路上了，而且走了大半了！,5418,主线对白DLG,,VIN,[v1.3.27修] well on his way=已在路上,已译,"Ought not to fret, however - he's well on his way to Primeldorf!"
+DLG_5_2_VIN_02_030,不过也别太担心——他早就在赶往普里梅尔多夫的路上了！,5418,主线对白DLG,,VIN,[v1.3.27修] 去掉译注式补充,已译,"Ought not to fret, however - he's well on his way to Primeldorf!"
 DLG_5_2_VIN_02_031,我倒是听到了些风声，你觉得会不会……？,5419,主线对白DLG,,VIN,,已译,"I've heard a thing or two, but do you think...?"
 DLG_5_2_VIN_02_032,他跟您透露过什么吗，威尔玛太太？,5420,主线对白DLG,,VIN,,已译,"Has he told you anything, Mrs Wilma?"
 DLG_5_2_VIN_02_033,欧根到星期天肯定就走了，我这话你记着！,5421,主线对白DLG,,VIN,[专名] Sunday统一作「星期天」,已译,"Eugen will be gone by Sunday, you can mark my words!"
@@ -11887,7 +11887,7 @@ CUT_3_5_VSQ_01_028,一定会有效的，布伦希尔德太太。,11885,过场对
 CUT_3_5_VSQ_01_029,我明天一定告诉她效果如何。,11886,过场对白CUT,3月5日,VSQ,,已译,I'll make certain to tell her how it went tomorrow.
 CUT_3_5_VSQ_01_030,当然啦！,11887,过场对白CUT,3月5日,VSQ,,已译,Of course!
 CUT_3_5_VSQ_01_034,（她跟布伦希尔德太太说那些恶灵鬼话，到底在想什么啊……？）,11888,过场对白CUT,3月5日,VSQ,,已译,(What was she thinking telling Mrs. Brunhilde about that malice nonsense...?)
-CUT_3_5_VSQ_01_035,（我可得当心点，免得咱俩被她一起扔进井里！）,11889,过场对白CUT,3月5日,VSQ,[v1.3.27修] 被动改回被动,已译,"(I ought to be careful, lest she gets us both thrown in the well!)"
+CUT_3_5_VSQ_01_035,（我可得当心点，免得她害得咱俩都被扔进井里！）,11889,过场对白CUT,3月5日,VSQ,[v1.3.27修] gets us thrown 是使役，她不是动手扔的人,已译,"(I ought to be careful, lest she gets us both thrown in the well!)"
 CUT_3_5_VSQ_01_043,迷信就是这么害人的！,11890,过场对白CUT,3月5日,VSQ,,已译,That's what superstition does to folks!
 CUT_3_5_VSQ_01_044,她可迷信了，布伦希尔德太太！您绝对想不到！,11891,过场对白CUT,3月5日,VSQ,,已译,"She's so very superstitious, Mrs. Brunhilde! You wouldn't believe!"
 CUT_3_5_VSQ_01_047,伊莉丝……,11892,过场对白CUT,3月5日,VSQ,[标点] 还原省略号,已译,Elise...
@@ -16775,7 +16775,7 @@ LVE_5_3_VIN_F_028,你那时候给贝尔塔太太捡的那些鸡蛋——是我�
 LVE_5_3_VIN_F_029,是我故意把它们弄坏的！,16746,恋爱事件LVE,,VIN_F,,已译,I broke them on purpose!
 LVE_5_3_VIN_F_030,芙蕾雅？！,16747,恋爱事件LVE,,VIN_F,[标点] 还原震惊反问「？！」,已译,Freya?!
 LVE_5_3_VIN_F_031,那天我把她要洗的衣服弄得一团糟，我怕极了，就……,16748,恋爱事件LVE,,VIN_F,,已译,"I'd made a mess of her laundry that day, and I was so afraid, I..."
-LVE_5_3_VIN_F_032,我反倒让她狠狠训了你一顿，好让她忘掉我干的事！,16749,恋爱事件LVE,,VIN_F,[v1.3.27修] 删“转过头去”，补 instead,已译,"I had her give you an earful instead, so she'd forget about me!"
+LVE_5_3_VIN_F_032,我就让她改去狠狠训了你一顿，好让她忘掉我干的事！,16749,恋爱事件LVE,,VIN_F,"[v1.3.27修] instead=转而，非""反倒""",已译,"I had her give you an earful instead, so she'd forget about me!"
 LVE_5_3_VIN_F_033,真是的……,16750,恋爱事件LVE,,VIN_F,[v10修订] 定句：改作「真是的……」,已译,For goodness' sake...
 LVE_5_3_VIN_F_034,对不起，伊莉丝！那时候我做了那么多坏事！,16751,恋爱事件LVE,,VIN_F,,已译,"I'm so sorry, Elise! I did so many bad things back then!"
 LVE_5_3_VIN_F_035,把我犯的错都赖到你头上，一有机会就害你惹上麻烦……,16752,恋爱事件LVE,,VIN_F,,已译,"Blaming you for my blunders, getting you in trouble at every chance..."
@@ -20877,16 +20877,16 @@ SHP_LEB_10_001,我要<b>买</b>……,20819,商店与道具,—,LEB,,已译,I'm 
 SHP_LEB_11_001,我要<b>卖</b>……,20820,商店与道具,—,LEB,,已译,I'm <b>Selling</b>...
 SHP_LEB_12_001,再见，奶奶！,20821,商店与道具,—,LEB,,已译,"See you, Granny!"
 ShopChoiceText_1,需要点什么吗？,20822,商店与道具,1,—,[英文回填] 本体对话JSON,已译,Need something?
-ShopChoiceText_3,购买中！,20823,商店与道具,3,—,[英文回填] 本体对话JSON；[重译] 旧缓存 BUY → 本体 IM BUYING,已译,IM BUYING
-ShopChoiceText_5,出售中！,20824,商店与道具,5,—,[英文回填] 本体对话JSON；[重译] 旧缓存 SELL → 本体 IM SELLING,已译,IM SELLING
+ShopChoiceText_3,我要买！,20823,商店与道具,3,—,[v1.3.27修] IM BUYING 是玩家的选项，非进度状态,已译,IM BUYING
+ShopChoiceText_5,我要卖！,20824,商店与道具,5,—,[v1.3.27修] IM SELLING 是玩家的选项，非进度状态,已译,IM SELLING
 ShopChoiceText_7,还需要别的吗？,20825,商店与道具,7,—,[英文回填] 本体对话JSON,已译,Anything else?
 ShopChoiceText_8,下次再来吧！,20826,商店与道具,8,—,[英文回填] 本体对话JSON,已译,See you next time!
 ShopChoiceText_BUY,购买,20827,商店与道具,—,BUY,[英文回填] 本体对话JSON,已译,BUY
 ShopChoiceText_EXIT,再见！！！,20828,商店与道具,—,EXIT,[标点] GOODBYE!!!保留三感叹号; [英文回填] 本体对话JSON,已译,GOODBYE!!!
 ShopChoiceText_SELL,出售,20829,商店与道具,—,SELL,[英文回填] 本体对话JSON,已译,SELL
 ShopLebText_1,SHP_LEB_001_001,20830,商店与道具,1,—,[系统] 指针行免译,指针行免译·目标缺失,
-ShopLebText_3,购买中！,20831,商店与道具,3,—,[英文回填] 本体对话JSON；[重译] 旧缓存 BUY → 本体 IM BUYING,已译,IM BUYING
-ShopLebText_5,出售中！,20832,商店与道具,5,—,[英文回填] 本体对话JSON；[重译] 旧缓存 SELL → 本体 IM SELLING,已译,IM SELLING
+ShopLebText_3,我要买！,20831,商店与道具,3,—,[v1.3.27修] IM BUYING 是玩家的选项，非进度状态,已译,IM BUYING
+ShopLebText_5,我要卖！,20832,商店与道具,5,—,[v1.3.27修] IM SELLING 是玩家的选项，非进度状态,已译,IM SELLING
 ShopLebText_7,还需要别的吗？,20833,商店与道具,7,—,[英文回填] 本体对话JSON,已译,Anything else?
 ShopLebText_8,下次再来吧！,20834,商店与道具,8,—,[英文回填] 本体对话JSON,已译,See you next time!
 ShopLebText_BUY,购买,20835,商店与道具,—,BUY,[英文回填] 本体对话JSON,已译,BUY
@@ -20963,22 +20963,22 @@ LEAVE_ROOM,离开房间！,20905,任务与引导,—,ROOM,,已译,Leave the room
 LIGHT_FIREPLACE,点燃壁炉！,20906,任务与引导,—,FIREPLACE,,已译,Light the fireplace!
 LoopChoiceText_2_1,需要点什么吗？,20907,任务与引导,2月1日,—,[英文回填] 本体对话JSON,已译,Need something?
 LoopChoiceText_2_2,反正，有什么好原谅的呢？,20908,任务与引导,2月2日,—,[英文回填] 本体对话JSON；[重译] 补全anyhow并对齐XUAT_06086口语译文，旧值「这有什么好宽恕的？」,已译,"What's there to forgive, anyhow?"
-LoopChoiceText_2_3,购买中！,20909,任务与引导,2月3日,—,[英文回填] 本体对话JSON；[重译] 旧缓存 BUY → 本体 IM BUYING,已译,IM BUYING
+LoopChoiceText_2_3,我要买！,20909,任务与引导,2月3日,—,[v1.3.27修] IM BUYING 是玩家的选项，非进度状态,已译,IM BUYING
 LoopChoiceText_2_6,你没瞧见把她吓成什么样了吗？,20910,任务与引导,2月6日,—,[英文回填] 本体对话JSON,已译,Can't you see you're frightening her?
 LoopChoiceText_3_1,需要点什么吗？,20911,任务与引导,3月1日,—,[英文回填] 本体对话JSON,已译,Need something?
 LoopChoiceText_3_2,购买,20912,任务与引导,3月2日,—,[英文回填] 本体对话JSON,已译,BUY
-LoopChoiceText_3_3,购买中！,20913,任务与引导,3月3日,—,[英文回填] 本体对话JSON；[重译] 旧缓存 BUY → 本体 IM BUYING,已译,IM BUYING
+LoopChoiceText_3_3,我要买！,20913,任务与引导,3月3日,—,[v1.3.27修] IM BUYING 是玩家的选项，非进度状态,已译,IM BUYING
 LoopChoiceText_3_4,出售,20914,任务与引导,3月4日,—,[英文回填] 本体对话JSON,已译,SELL
-LoopChoiceText_3_5,出售中！,20915,任务与引导,3月5日,—,[英文回填] 本体对话JSON；[重译] 旧缓存 SELL → 本体 IM SELLING,已译,IM SELLING
+LoopChoiceText_3_5,我要卖！,20915,任务与引导,3月5日,—,[v1.3.27修] IM SELLING 是玩家的选项，非进度状态,已译,IM SELLING
 LoopChoiceText_3_6,再见！！！,20916,任务与引导,3月6日,—,[标点] GOODBYE!!!保留三感叹号; [英文回填] 本体对话JSON,已译,GOODBYE!!!
 LoopChoiceText_4_1,需要点什么吗？,20917,任务与引导,4月1日,—,[英文回填] 本体对话JSON,已译,Need something?
 LoopChoiceText_4_2,购买,20918,任务与引导,4月2日,—,[英文回填] 本体对话JSON,已译,BUY
-LoopChoiceText_4_3,购买中！,20919,任务与引导,4月3日,—,[英文回填] 本体对话JSON；[重译] 旧缓存 BUY → 本体 IM BUYING,已译,IM BUYING
+LoopChoiceText_4_3,我要买！,20919,任务与引导,4月3日,—,[v1.3.27修] IM BUYING 是玩家的选项，非进度状态,已译,IM BUYING
 LoopChoiceText_4_4,出售,20920,任务与引导,4月4日,—,[英文回填] 本体对话JSON,已译,SELL
-LoopChoiceText_4_5,出售中！,20921,任务与引导,4月5日,—,[英文回填] 本体对话JSON；[重译] 旧缓存 SELL → 本体 IM SELLING,已译,IM SELLING
+LoopChoiceText_4_5,我要卖！,20921,任务与引导,4月5日,—,[v1.3.27修] IM SELLING 是玩家的选项，非进度状态,已译,IM SELLING
 LoopChoiceText_4_6,再见！！！,20922,任务与引导,4月6日,—,[标点] GOODBYE!!!保留三感叹号; [英文回填] 本体对话JSON,已译,GOODBYE!!!
 LoopChoiceText_4_8,其他选项,20923,任务与引导,4月8日,—,[英文回填] 本体对话JSON,已译,other OPTION
-LoopChoiceText_4_9,选其他中！,20924,任务与引导,4月9日,—,[英文回填] 本体对话JSON；[重译] 恢复进行体平行结构，4字更口语、与「购买中！/出售中！」3字按钮更平衡，旧值「选其他」,已译,IM other optioning
+LoopChoiceText_4_9,选其他的！,20924,任务与引导,4月9日,—,[v1.3.27修] IM other optioning 是玩家的选项，非进度状态,已译,IM other optioning
 MAKE_COMPANY,获得良伴！,20925,任务与引导,—,COMPANY,,已译,Acquire the Good Company!
 MAKE_WINE,酿造最甜美的琼浆！,20926,任务与引导,—,WINE,,已译,Craft the Sweetest Nectar!
 MAX_LOVE_ACQUIRED,永恒之爱！,20927,任务与引导,—,LOVE_ACQUIRED,,已译,Everlasting Love!
@@ -23891,7 +23891,7 @@ XUAT_02467,恐怕我今天的活还没干完呢，玛丽勒太太。,23677,遗�
 XUAT_02468,恐怕情况是越来越糟了，伊莉丝……,23678,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"I'm afraid things have taken a turn for the worse, Elise..."
 XUAT_02469,恐怕我们大家都已经忍无可忍了，芙蕾雅！,23679,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_7_3_VSQ_01_177,已译,"I'm afraid we've all reached our limit, Freya."
 XUAT_02470,恐怕您说得没错。,23680,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,I'm afraid you're right.
-XUAT_02471,我简直就是个懦夫啊，巨蛇！,23681,遗留层XUAT,—,XUAT,[v1.3.27修] all but=几乎，原译语义反转,已译,"I'm all but a coward, serpent!"
+XUAT_02471,我绝不是什么懦夫，巨蛇！,23681,遗留层XUAT,—,XUAT,"[v1.3.27修] all but=除…之外全是；承巨蛇""躲在懦弱里""的质问，是反驳不是自嘲",已译,"I'm all but a coward, serpent!"
 XUAT_02472,我在听呢。,23682,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,I'm all ears.
 XUAT_02473,我本来就要给全村人做了，怎么能忘了你呢！,23683,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"I'm already doing it for everyone in town, I couldn't forget about you!"
 XUAT_02474,我已经够迟了，没时间到处闲逛！,23684,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"I'm already late enough as is, I have no time to go wander about!"
@@ -24169,9 +24169,9 @@ XUAT_02745,我……我需要点时间好好想想，萝丝玛琳……,23955,�
 XUAT_02746,我……我也不知道，特里斯坦先生……！,23956,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"I... I wouldn't know, Mr Tristan...!"
 XUAT_02747,我……有只乌鸦，那匹马当时……！,23957,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"I... There was this crow, and the horse was...!"
 XUAT_02748,我……那些乌鸦，它们……,23958,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"I... Those crows, they..."
-XUAT_02749,购买中！,23959,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,IM BUYING
-XUAT_02750,出售中！,23960,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,IM SELLING
-XUAT_02751,选其他中！,23961,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,IM other optioning
+XUAT_02749,我要买！,23959,遗留层XUAT,—,XUAT,[v1.3.27修] 与主线同句孪生同步（IM BUYING/SELLING）,已译,IM BUYING
+XUAT_02750,我要卖！,23960,遗留层XUAT,—,XUAT,[v1.3.27修] 与主线同句孪生同步（IM BUYING/SELLING）,已译,IM SELLING
+XUAT_02751,选其他的！,23961,遗留层XUAT,—,XUAT,[v1.3.27修] 与主线同句孪生同步（IM BUYING/SELLING）,已译,IM other optioning
 XUAT_02752,要是阿普菲尔的烧不再犯，我兴许能睡。,23962,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"If Apfel's fever doesn't come back, I might."
 XUAT_02753,要是我真的离开了基弗伯格，然后……,23963,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"If I do leave Kieferberg, and..."
 XUAT_02754,要是不做晚祷，说不定连我都会被那东西盯上！,23964,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_7_5_VSQ_01_011,已译,If I don't do my nightly prayers even I might fall prey to that thing...!
@@ -25979,7 +25979,7 @@ XUAT_04435,我们的命运交织在一起，你找到了你的鞋子、还有—
 XUAT_04436,咱们的谷子毁了，喷泉也干了、还有个女巫到处乱窜……！,25646,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Our grain is ruined, our fountain's dry, there's a witch out and about...!"
 XUAT_04437,我们的新开始——一起迎接！,25647,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 LVE_5_2_OVP_R_030,已译,Our new beginning - together!
 XUAT_04438,咱们的路，用不了多久便会再次交汇，丫头。,25648,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Our paths are sure to cross once again not long from now, lass."
-XUAT_04439,我们在这世上的时间是有限的，你瞧……正因如此，它才如此层层叠叠……,25649,遗留层XUAT,—,XUAT,[v1.3.27修] layered 非“鳞片”,已译,"Our time in this realm is limited, you see... Which is what makes it so layered..."
+XUAT_04439,我们在这世上的时间是有限的，你瞧……正因如此，它才如此层次丰富……,25649,遗留层XUAT,—,XUAT,"[v1.3.27修] layered=层次丰富，""层层叠叠""像千层饼",已译,"Our time in this realm is limited, you see... Which is what makes it so layered..."
 XUAT_04440,咱们镇子这一周过得可真是坎坷。,25650,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Our town's been going through quite the rocky road this past week.
 XUAT_04441,从我眼前消失，玛丽！,25651,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Out of might sight, Mary!"
 XUAT_04442,再不滚开，我就去告诉你姑姑你又在讨饭了！,25652,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Out of my sight before I go tell your aunt you're begging for food again!
@@ -27270,7 +27270,7 @@ XUAT_05629,说真的，老威廉——那可就把基弗伯格彻底断送了！
 XUAT_05630,的确，这正是咱们该做的，不过……,26840,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Truly, that is what we ought to do, but..."
 XUAT_05631,这丫头真是随了她爹！,26841,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Truly, the lass takes after her father!"
 XUAT_05632,那片林子当真大得很呢！,26842,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_5_5_VIN_05_006,已译,"Truly, those woods are immense!"
-XUAT_05633,真的，真的！你一个人来，这就来！,26843,遗留层XUAT,—,XUAT,[v1.3.27修] come alone=独自前来,已译,"Truly, truly! Come alone, now!"
+XUAT_05633,真的，真的！你就一个人过来，快点！,26843,遗留层XUAT,—,XUAT,"[v1.3.27修] 祈使句，now 表催促；原译""这就来""把施受方向弄反了",已译,"Truly, truly! Come alone, now!"
 XUAT_05634,要我说，你这是小题大做了。,26844,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_7_4_VSQ_01_011,已译,"Truly, you're making too great a deal out of this."
 XUAT_05635,确实如此……,26845,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_2_3_VSQ_04_007,已译,Truly...!
 XUAT_05636,不瞒你说，丫头，我可没什么办法确认她是不是老霍尔的侄女。,26846,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Truth be told, lass, I have no proper way of knowing whether or not that's Old Holle's niece."
@@ -28498,7 +28498,7 @@ XUAT_06847,你今天干劲十足啊，是不是？,28057,遗留层XUAT,—,XUAT,
 XUAT_06848,您真要离开基弗伯格吗，欧根先生？,28058,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"You're really leaving Kieferberg, Mr Eugen?"
 XUAT_06849,你可真是够倔的。,28059,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,You're really so stubborn.
 XUAT_06850,你还真是……,28060,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,You're really...
-XUAT_06851,你说得对，伊莉丝——我这是被人当成理所当然的了。,28061,遗留层XUAT,—,XUAT,[v1.3.27修] 被动指向他人，非自我贬低,已译,"You're right, Elise - I am being taken for granted."
+XUAT_06851,你说得对，伊莉丝——大家全把我的付出当成理所当然了。,28061,遗留层XUAT,—,XUAT,[v1.3.27修] 补全宾语，去欧化病句,已译,"You're right, Elise - I am being taken for granted."
 XUAT_06852,你说得对，伊莉丝——这样对你确实不公平。,28062,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_7_3_VBA_02_028,已译,"You're right, Elise - it wasn't fair to you."
 XUAT_06853,你说得对，伊莉丝……,28063,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"You're right, Elise..."
 XUAT_06854,你这些话真是吓着我了……！这些鬼话……！,28064,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,You're scaring me with this...! This nonsense...!
