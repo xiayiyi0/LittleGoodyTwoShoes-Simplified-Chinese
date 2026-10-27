@@ -7,12 +7,10 @@ Can't you see you're frightening her?	XUAT_00970
 Eek!	DLG_2_3_OLH_04_022
 Eek...!	DLG_2_3_OLH_04_002
 Folks are too preoccupied with this witch nonsense!	DLG_7_2_VIN_03_006
-How did you know?	DLG_4_2_VIN_01_006
 Map of Kieferberg	MAP_MENU
 Need something?	TUT_12_01
 Relationships Menu	RELATIONSHIP_MENU
 Right!	DLG_4_4_VCH_01_067
-Success Success Success	XUAT_04943
 Thank you, Mrs. Dorothea!	CHR_012_027
 The Tender Flesh! The Tender Flesh!	DLG_4_5_WCR_C_05_023
 There are 4 circular red sockets on the door.	RedDoorText_2

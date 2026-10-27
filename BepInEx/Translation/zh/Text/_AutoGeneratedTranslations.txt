@@ -2438,7 +2438,7 @@ I'll call for you if I do, Rosmarine — trust me.=需要的话我会叫你的�
 Say, Elise...=说起来，伊莉丝……
 Is it about last night...?=是昨晚的事吗……？
 You ought to come to terms with it, Elise, that's all.=你只要慢慢接受这件事就好了，伊莉丝……
-How did you know?=您怎么知道的？
+How did you know?=怎么会知道？
 Didn't you struggle with it?=你不也很挣扎吗？
 Ugh...=呃……
 You... Seem to take it so readily while I'm still...=你……看起来接受得挺快，而我还是……
@@ -12401,7 +12401,7 @@ No=不用了
 There's nothing inside=里面什么都没有
 There's something written!=上面写着字！
 TEXT: I always keep one with me, on my jacket.=文字：我总是随身带着一个，别在外套上。
-Success  Success  Success=成功 <sprite="ozzy" name="white"> 成功 <sprite="ozzy" name="black"> 成功
+Success  Success  Success=成功 成功 成功
 This is the ITEM CHOICE test. Will you give an item?=这是道具选择测试。你要给一件道具吗？
 Yeah, let me choose one!=好啊，让我选一个！
 No item given? Shame......=没给道具？真可惜……

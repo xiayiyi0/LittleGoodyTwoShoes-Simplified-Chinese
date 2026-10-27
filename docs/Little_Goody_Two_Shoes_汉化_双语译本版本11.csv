@@ -297,7 +297,7 @@ DLG_2_2_VIN_05_013,唉，我只盼着今晚咱们大伙儿都能睡个好觉！,
 DLG_2_2_VIN_05_014,（梅希蒂尔德太太就是操心太多……）,296,主线对白DLG,2月2日,VIN,,已译,(Mrs. Mechtilde worries too much...)
 DLG_2_2_VIN_05_015,啊，我猜到你要说什么了！,297,主线对白DLG,2月2日,VIN,,已译,"Ah, I have a good hunch about what you're about to say!"
 DLG_2_2_VIN_05_016,是关于她那个侄女的吧？,298,主线对白DLG,2月2日,VIN,,已译,"It's about that niece of hers, isn't it?"
-DLG_2_2_VIN_05_017,您怎么知道的？,299,主线对白DLG,2月2日,VIN,,已译,How did you know?
+DLG_2_2_VIN_05_017,怎么会知道？,299,主线对白DLG,2月2日,VIN,[归一键] 与 DLG_4_2_VIN_01_006 同英文共用键，取无主语中性句,已译,How did you know?
 DLG_2_2_VIN_05_018,她为那可怜的丫头念叨抱怨好几个星期了！,300,主线对白DLG,2月2日,VIN,,已译,She's been whining and moaning about the poor lass for weeks!
 DLG_2_2_VIN_05_019,是这样的，罗蕾莱太太想请你帮忙照看一下墨菲。,301,主线对白DLG,2月2日,VIN,[去腔] you see/know转句末语气,已译,"Mrs Loreley would like you to keep an eye on Murphy, you see?"
 DLG_2_2_VIN_05_020,哦，我猜到了——是老梅希蒂尔德整天闲坐着，对吧？,302,主线对白DLG,2月2日,VIN,,已译,"Oh, I figured - Old Mechtilde sits about all day, was it?"
@@ -3162,7 +3162,7 @@ DLG_4_2_VIN_01_001,需要我帮忙吗，伊莉丝？,3160,主线对白DLG,4月2�
 DLG_4_2_VIN_01_002,需要的话我会叫你的，萝丝玛琳——相信我。,3161,主线对白DLG,4月2日,VIN,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,"I'll call for you if I do, Rosmarine — trust me."
 DLG_4_2_VIN_01_003,说起来，伊莉丝……,3162,主线对白DLG,4月2日,VIN,,已译,"Say, Elise..."
 DLG_4_2_VIN_01_004,哎呀，别跟我说大伙儿一直在拿那些马的事盘问<i>你</i>吧！,3163,主线对白DLG,4月2日,VIN,[语气] Oh依语境改译,已译,"Oh, don't tell me folks have been questioning <i>you</i> about the horses!"
-DLG_4_2_VIN_01_006,你怎么知道的？,3164,主线对白DLG,4月2日,VIN,,已译,How did you know?
+DLG_4_2_VIN_01_006,怎么会知道？,3164,主线对白DLG,4月2日,VIN,[归一键] 与 DLG_2_2_VIN_05_017 同英文共用键，取无主语中性句,已译,How did you know?
 DLG_4_2_VIN_01_007,呃……,3165,主线对白DLG,4月2日,VIN,[标点] 删多余省略号/感叹号,已译,Ugh...
 DLG_4_2_VIN_01_008,我想他们是着急了，只是那实在有些……,3166,主线对白DLG,4月2日,VIN,,已译,"I suppose they're anxious, but it was rather..."
 DLG_4_2_VIN_01_009,看来，我最好还是让你待在我身边……,3167,主线对白DLG,4月2日,VIN,,已译,"I'd best keep you close by, I suppose..."
@@ -21225,9 +21225,9 @@ DLG_DEV_Test-multiStartDialogue_3,开始第2段对话,21134,结局与其他,—,
 DLG_DEV_Test-multiStartDialogue_4,开始第3段对话,21135,结局与其他,—,DEV_Test-multiStartDialogue,[系统] 测试残留条目免译; [英文回填] 本体对话JSON,已译,START 3 dialogue
 DLG_DEV_Test-multiStartDialogue_5,开始第4段对话,21136,结局与其他,—,DEV_Test-multiStartDialogue,[系统] 测试残留条目免译; [英文回填] 本体对话JSON,已译,START 4 dialogue
 DREAM_PALACE,？？？？？？,21137,结局与其他,—,PALACE,,已译,??????
-Demon_Test_Names_1,"成功 <sprite=""ozzy"" name=""white""> 成功 <sprite=""ozzy"" name=""black""> 成功",21138,结局与其他,—,Test_Names,[系统] 按英文回填图标：ozzy white/black,已译,"Success <sprite=""ozzy"" name=""white""> Success <sprite=""ozzy"" name=""black""> Success"
-Demon_Test_Names_2,"成功 <sprite=""aziel"" name=""white""> 成功 <sprite=""aziel"" name=""black""> 成功",21139,结局与其他,—,Test_Names,[系统] 按英文回填图标：aziel white/black,已译,"Success <sprite=""aziel"" name=""white""> Success <sprite=""aziel"" name=""black""> Success"
-Demon_Test_Names_3,"成功 <sprite=""murim"" name=""white""> 成功 <sprite=""murim"" name=""black""> 成功",21140,结局与其他,—,Test_Names,[系统] 按英文回填图标：murim white/black,已译,"Success <sprite=""murim"" name=""white""> Success <sprite=""murim"" name=""black""> Success"
+Demon_Test_Names_1,成功 成功 成功,21138,结局与其他,—,Test_Names,[系统] 归一键共用，取纯文本避免给另两个角色显示错头像,已译,"Success <sprite=""ozzy"" name=""white""> Success <sprite=""ozzy"" name=""black""> Success"
+Demon_Test_Names_2,成功 成功 成功,21139,结局与其他,—,Test_Names,[系统] 归一键共用，取纯文本避免给另两个角色显示错头像,已译,"Success <sprite=""aziel"" name=""white""> Success <sprite=""aziel"" name=""black""> Success"
+Demon_Test_Names_3,成功 成功 成功,21140,结局与其他,—,Test_Names,[系统] 归一键共用，取纯文本避免给另两个角色显示错头像,已译,"Success <sprite=""murim"" name=""white""> Success <sprite=""murim"" name=""black""> Success"
 ENDING_1,摩伊拉,21141,结局与其他,1,—,,已译,Moira
 ENDING_1_Number,第1号结局,21142,结局与其他,1,Number,[校正] 杂项文字校正,已译,Ending No 1.
 ENDING_2,背信的玫瑰,21143,结局与其他,2,—,,已译,Treacherous Rose

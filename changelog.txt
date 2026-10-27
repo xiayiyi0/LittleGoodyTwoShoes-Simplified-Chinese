@@ -18,8 +18,8 @@ v1.3.28 (2026-10-27)
   hat / heart / candle / match2 / tiffle / shop / use_item 等真实图标名。
 - 清除 6 个不存在的图标名: romance / story / story_skip / suspicion / reputation / shoe
   (全库实测 0 存在)。这些名字会让 TMP 静默丢弃图标, 玩家看到「都标有符号」却没有符号。
-- 同归一键取值钉死: 新增 2 组 pick_overrides(How did you know? / Success Success Success),
-  保持已发布版本的显示不变; 从零重建四本词典仍逐字节一致。
+- 同归一键取值统一: 5 行(How did you know? ×2、Demon_Test_Names ×3)按正本改为同值,
+  共用键的冲突消解, 无需额外 override; pick_overrides 维持 19 组。从零重建四本词典仍逐字节一致。
 - 词典条数不变: by_refkey 21,189 / display 25,261 / item_names 79 / AT 24,700 / UI_System 536。
 - 插件 LGTSChinese.dll 升级至 1.3.28; zip 条目数维持 71。
 
