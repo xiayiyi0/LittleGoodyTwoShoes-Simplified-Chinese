@@ -24,7 +24,7 @@ namespace LGTSChinese
     [BepInPlugin("com.hanhua.lgts.chinese", "LGTS Simplified Chinese", Plugin.VER)]
     public class Plugin : BaseUnityPlugin
     {
-        public const string VER = "1.3.27";
+        public const string VER = "1.3.28";
         // v1.3.27 (G3): 显示词典条数下限。低于此值说明文件被截断或解析半途失败,
         // 旧版会静默带病运行(玩家看到大面积英文, 日志却只有一行"载入 N 条")。
         private const int MinDisplayEntries = 20000;
