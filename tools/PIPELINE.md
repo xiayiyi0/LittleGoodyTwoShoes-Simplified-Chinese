@@ -93,8 +93,11 @@ display 曾有 6,976 条、AT 曾有 6,477 条英文串根本不在译本 CSV �
 `tools/keys_display.txt`、`keys_at.txt`、`keys_refkey.txt`、`keys_item.txt`。
 加上 `--scratch` 时两个脚本只读「译本 CSV + 键集清单」，把词典清空也能重建，
 且与仓库内产物**逐字节相同**（四本全等，已实测）。
-同一归一键有多条不同译文时（15 组，多为 `<size>`、sprite、斜体的界面差异，不能统一），
-由 `tools/pick_overrides.txt` 指定上屏取哪一条记录，保证选择确定、可复现。
+同一归一键有多条不同译文时（当前 **19 行**），由 `tools/pick_overrides.txt` 指定上屏取
+哪一条记录，保证选择确定、可复现。这些组多数是 `<size>`、sprite、斜体的界面差异（不能统一），
+也有少数是同一句在不同场景各译一次。**每新增一条同归一键多译文的记录，都要跑一次
+`--scratch` 对比**：重建用的 `pick()` 在空表上只能取第一条候选，与增量更新时的
+"贴着现值选"并不等价，漏钉就会在下次重建时悄悄改掉上屏文案。
 
 **AT 为什么是非权威层。**
 运行时 display 词典优先命中，AT 只在 XUAT 兜底路径生效。authoritative 数据是
@@ -104,6 +107,14 @@ by_refkey / display。因此 display 与 AT 允许存在历史实质差，不做
 **构建不是逐字节可复现的。**
 csc 每次编译会重新生成 ModuleVersionId。跨机器比对 DLL 哈希没有意义，
 对外一致性以发布包内的 `SHA256SUMS.txt` 为准。
+
+**验收在 v1.3.27 补的两个洞。**
+- `SHA256SUMS` 此前只覆盖 zip + 6 个关键文件，changelog / README / 安装说明 / 字体 /
+  winhttp / doorstop 配置被改写后重算哈希仍能全绿（2026-10-27 审计 S2 实证）。现在这 8 个
+  顶层文件也进 SUMS（共 15 行），并单独做 stage↔zip 逐字节比对。
+- `check()` 的输出改为编码安全。Windows GBK 控制台下，detail 里出现字库外字符
+  （如 `U+20000`）会让 `print` 抛 `UnicodeEncodeError` 并中断，既没有 FAIL 行也没有汇总，
+  CI 只能看到 rc=1。现在改用 `_out()` 转义输出。
 
 ## 已知缺口
 

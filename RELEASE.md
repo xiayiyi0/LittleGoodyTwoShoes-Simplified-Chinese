@@ -65,16 +65,19 @@
 
 ## 4. 发布前校验清单（全部打勾才可分发）
 
-- [ ] DLL 内嵌版本 = 目标版本（反汇编/字符串可见 `1.3.26` 字样）
+- [ ] DLL 内嵌版本 = 目标版本（反汇编/字符串可见 `1.3.27` 字样）
 - [ ] **DLL 文件版本属性 = 目标版本**（`(Get-Item LGTSChinese.dll).VersionInfo.FileVersion`
-      应为 `1.3.26.0`；v1.3.23 及以前为 `0.0.0.0`，属构建缺陷，已修）
+      应为 `1.3.27.0`；v1.3.23 及以前为 `0.0.0.0`，属构建缺陷，已修）
 - [ ] `Plugin.VER` = DLL 内嵌版本 = 文件版本属性 = changelog 最新段落 = 安装说明标题
 - [ ] DIAG 首行：运行一次游戏后 `BepInEx/plugins/LGTSChinese/DIAG.txt`
       首行为 `=== LGTS DIAG v<版本> 启动 ===`
 - [ ] **三树一致**（live / stage / zip）：DLL、三词典（display / by_refkey /
       item_names）、两 AT 文件 SHA256 逐字节一致
-- [ ] `SHA256SUMS.txt` 覆盖：zip 本体、DLL、三词典、两 AT 文件共 **7 行**
-      （v1.3.18 起含 `lgts_item_names.json`），哈希为重打包后**重新计算**的值
+- [ ] `SHA256SUMS.txt` 覆盖：zip 本体、DLL、三词典、两 AT 文件、8 个顶层发布文件
+      （LICENSE / LICENSE-NOTICE / README / 安装说明 / changelog / doorstop_config.ini /
+      winhttp.dll / arialuni_sdf_u2019）共 **15 行**（v1.3.27 起；此前只有 7 行，
+      changelog 与安装说明正文被改而验收全绿），哈希为重打包后**重新计算**的值
+- [ ] **顶层文件 stage↔zip 一致**（v1.3.27 起由验收脚本比对，防止改了 stage 不重打包）
 - [ ] zip 内含 `arialuni_sdf_u2019`（31MB 字体，最易漏项）
 - [ ] zip 条目数 = 71（或与基线差异已在 changelog 记录）
 - [ ] **统计口径分列**（F3 规则）：AT 与 UI_System 条数必须分列报告
@@ -110,3 +113,4 @@
 | 1.3.24 | 2026-10-24 | 构建元数据修复（文件版本 0.0.0.0 → 1.3.24.0）；build.cmd 参数化；安装说明补游戏更新排障；文档口径校正；工具链入库 tools/；加下载来源提示；译文与字体无改动 |
 | 1.3.25 | 2026-10-25 | 译本 CSV 精简 11→9 列（删 修订状态/修订译文，56 条修订并入中文译文）；审查备注清理 5,239→5,207；工具链适配新列集；补充修复 Lebkuchen 名牌显示「姜饼」（display/AT 裸键恢复「斯佩尔特」，道具层保持「姜饼」，两脚本加 NAME_OVERRIDE） |
 | 1.3.26 | 2026-10-26 | 采用 v11 译本；遗留层收编 7,038 条（XUAT_ 前缀，三层覆盖率 100%）；附带 v10 的 119 条修订与 v11 的 781 条修订；apply_translation 增加 XUAT_PREFIX（收编行不进 by_refkey）；词典条数不变 |
+| 1.3.27 | 2026-10-27 | 第二轮全量审查整改：修 38 条语义缺陷（22 条在 XUAT 收编层）；并入 10-27 英文回填（133 条补英源，20 条据此重译）；插件 G1–G3（DIAG 退出时关闭、字体包 Unload、词典条数下限自检）；SUMS 7→15 行含顶层文件；验收输出编码安全 |

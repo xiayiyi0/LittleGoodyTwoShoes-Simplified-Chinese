@@ -1,6 +1,40 @@
 Little Goody Two Shoes 简体中文汉化补丁 — 更新日志
 ====================================================
 
+v1.3.27 (2026-10-27)
+- 第二轮独立全量审查整改: 28,248 行译本 41 批全量审读, 对抗复核后确认 38 条语义缺陷
+  (一般 29 / 轻微 9), 已全部修复。其中 22 条落在遗留层收编(XUAT_)——该层 v1.3.26 才并入
+  译本, 此前从未被审过, 缺陷密度是主线的 4 倍。
+- 最重的三条是语义反转或指代错误:
+  * XUAT_02471 "I'm all but a coward" 原译「我才不是懦夫」(all but = 几乎, 完全反了),
+    改为「我简直就是个懦夫啊, 巨蛇！」;
+  * XUAT_01982 "I don't! I was lending a hand, if anything!" 原译「我是没干活啊」,
+    把否认变成认账、与后半句自相矛盾, 改为「我才没有！顶多算是搭了把手！」;
+  * XUAT_05791 "lest the blame is laid on your husband" 原译「落到咱们头上」,
+    把罪责对象换成了在场者, 改为「落到你丈夫头上」。
+- 其它玩家可见修正: 结算界面 "You Pass" 原译「你平局」(与 You Win/You Lose 并列的三态
+  结果), 改为「你过关了」; "well on his way to Primeldorf" 原译「马上就要动身」
+  (已在途中→尚未出发), 改为「已经在去普里梅尔多夫的路上了, 而且走了大半了」;
+  "sheets protected by a counterpane" 原译「床单罩着床罩」(主客颠倒), 改为「床单上罩着
+  绣金线的床罩」。另有顿号误连分句、口吃断词错位、增译漏译等 32 条。
+- 并入 10-27 英文回填: 133 条此前"缺英文源"的记录从本体对话 JSON 补回英文原文,
+  其中 20 条据此重译(商店按钮 IM BUYING/IM SELLING -> 「购买中！/出售中！」、
+  RedDoorText_2 补回 <color=#D90000> 着色、木桶对白问句逻辑等)。
+- 插件加固(审查 G1–G3): DIAG 句柄改为应用退出时关闭(此前 StreamWriter 从不释放);
+  字体 AssetBundle 注入后 Unload(false), 不再常驻; 显示词典载入后做条数下限自检
+  (<20,000 条即告警), 避免词典被截断时静默带病运行。
+- 验收增强(审查 S2/S3): SHA256SUMS 由 7 行扩到 15 行, 新增 changelog / README /
+  安装说明 / 字体 / winhttp.dll / doorstop_config.ini / LICENSE 等顶层文件, 并新增
+  stage↔zip 顶层文件逐字节比对; 验收输出改为编码安全, 遇到字库外字符时在 GBK 控制台
+  转义输出, 不再抛 UnicodeEncodeError 中断且不打印汇总。
+- UI_System 的 "You Pass" 同步改为「你过关了」。
+- 修复 v1.3.26 未真正生效的一处: 调试拉杆文本 <b>This lever resets the puzzle (temp
+  Dialogue).</b> 的译本行在 v1.3.26 已删去工作备注「(临时对话)」, 但 display 层按
+  "贴着现值选" 仍取到了遗留层的孪生条, 上屏一直是「这个拉杆能重置谜题（临时对话）。」。
+  现由 pick_overrides 钉死取干净版, 上屏为「这个拉杆能重置谜题。」。
+- 词典条数不变: by_refkey 21,189 / display 25,261 / item_names 79 / AT 24,700 / UI_System 536。
+- 插件 LGTSChinese.dll 升级至 1.3.27; zip 条目数维持 71。
+
 v1.3.26 (2026-10-26)
 - 遗留层收编: display 6,976 条、AT 6,477 条英文串此前不在译本之内(历史 XUAT 残留)。
   apply_translation.py 只更新已有键、从不新增, 这些值不受译本约束, 定名会随旧译文漂移。

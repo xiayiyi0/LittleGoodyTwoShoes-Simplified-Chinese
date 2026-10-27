@@ -27,6 +27,11 @@ SUMS = [
     ("BepInEx/Translation/zh/Text/UI_System.txt", "text"),
 ]
 
+# v1.3.27 (审计 S2): 顶层发布文件此前不在 SHA256SUMS 里 —— 重打包后只要保留
+# "vX.Y.Z (" 字样, changelog/安装说明正文可任意改写而验收全绿。现全部纳入。
+SUMS_TOP = ["LICENSE", "LICENSE-NOTICE.txt", "README.md", "arialuni_sdf_u2019",
+            "changelog.txt", "doorstop_config.ini", "winhttp.dll", "安装说明_README.txt"]
+
 
 def sha256(path):
     h = hashlib.sha256()
@@ -70,6 +75,8 @@ def main():
     entries = [(zip_path, zip_name)]
     for rel, _ in SUMS:
         entries.append((os.path.join(stage, rel.replace("/", os.sep)), rel))
+    for rel in SUMS_TOP:
+        entries.append((os.path.join(stage, rel), rel))
     lines = ["%s %s" % (sha256(p), rel) for p, rel in entries]
     with open(os.path.join(stage, "SHA256SUMS.txt"), "wb") as f:
         f.write("\n".join(lines).encode("utf-8") + b"\n")

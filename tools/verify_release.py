@@ -22,10 +22,21 @@ import zipfile
 RESULTS = []
 
 
+def _out(line):
+    """v1.3.27 (审计 S3): GBK 控制台下 detail 含字库外字符(如 U+20000)会让 print 抛
+    UnicodeEncodeError, 结果是验收中断、既没有 FAIL 行也没有汇总, CI 只能看到 rc=1。
+    改为不可编码字符转义输出, 保证总能打印出结论。"""
+    try:
+        print(line)
+    except UnicodeEncodeError:
+        enc = sys.stdout.encoding or "utf-8"
+        print(line.encode(enc, "backslashreplace").decode(enc, "replace"))
+
+
 def check(item, ok, detail="", skipped=False):
     status = "SKIP" if skipped else ("PASS" if ok else "FAIL")
     RESULTS.append((item, status, detail))
-    print("%s %s%s" % (status, item, "  | " + detail if detail else ""))
+    _out("%s %s%s" % (status, item, "  | " + detail if detail else ""))
     return ok
 
 
@@ -70,8 +81,18 @@ FILES = [
     "BepInEx/Translation/zh/Text/UI_System.txt",
 ]
 
+# v1.3.27 (审计 S2): 顶层发布文件纳入 SHA256SUMS 与 stage↔zip 比对。
+SHIPPED_TOP = ["LICENSE", "LICENSE-NOTICE.txt", "README.md", "arialuni_sdf_u2019",
+               "changelog.txt", "doorstop_config.ini", "winhttp.dll", "安装说明_README.txt"]
+EXPECT_SUMS = 1 + len(FILES) + len(SHIPPED_TOP)
+
 
 def main():
+    # v1.3.27 (S3): 先把 stdout 的编码错误策略改成转义, 避免任何一处 print 撞字库外字符。
+    try:
+        sys.stdout.reconfigure(errors="backslashreplace")
+    except Exception:
+        pass
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--stage", required=True)
@@ -112,17 +133,28 @@ def main():
         check("changelog 有 v%s 段" % ver, ("v%s (" % ver) in chg)
         readme = z.read("安装说明_README.txt").decode("utf-8")
         check("安装说明正文为 v%s" % ver, ver in readme)
+        # v1.3.27 (S2): 顶层文件也要与发布树逐字节一致, 否则"改 stage 不重打包"无人发现。
+        top_bad = [f for f in SHIPPED_TOP
+                   if f not in names
+                   or hashlib.sha256(z.read(f)).hexdigest()
+                   != sha256(os.path.join(stage, f))]
+        check("stage==zip 顶层发布文件 (%d)" % len(SHIPPED_TOP), not top_bad, str(top_bad))
 
     sums_path = os.path.join(stage, "SHA256SUMS.txt")
     sums = [l for l in rd(sums_path).splitlines() if l.strip()]
-    check("SHA256SUMS 7 行", len(sums) == 7, str(len(sums)))
+    check("SHA256SUMS %d 行" % EXPECT_SUMS, len(sums) == EXPECT_SUMS, str(len(sums)))
     ok = True
+    covered = set()
     for line in sums:
         h, rel = line.split(" ", 1)
+        covered.add(rel)
         p = os.path.join(stage, rel.replace("/", os.sep))
         if not os.path.exists(p) or sha256(p) != h:
             ok = False
     check("SHA256SUMS 自举一致", ok)
+    # 覆盖性: 发布树里每个要发出去的文件都必须在 SUMS 里, 不能只覆盖 6 个词典/DLL。
+    need = set(FILES) | set(SHIPPED_TOP)
+    check("SHA256SUMS 覆盖全部发布文件", need <= covered, str(sorted(need - covered)))
 
     print("\n---------- B 三树一致 ----------")
     if args.live:
@@ -335,8 +367,8 @@ def main():
 
     failed = [r for r in RESULTS if r[1] == "FAIL"]
     skipped = [r for r in RESULTS if r[1] == "SKIP"]
-    print("\n=== %d PASS / %d FAIL / %d SKIP ==="
-          % (len(RESULTS) - len(failed) - len(skipped), len(failed), len(skipped)))
+    _out("\n=== %d PASS / %d FAIL / %d SKIP ==="
+         % (len(RESULTS) - len(failed) - len(skipped), len(failed), len(skipped)))
     return 1 if failed else 0
 
 

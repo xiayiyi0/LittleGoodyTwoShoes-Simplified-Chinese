@@ -24,7 +24,10 @@ namespace LGTSChinese
     [BepInPlugin("com.hanhua.lgts.chinese", "LGTS Simplified Chinese", Plugin.VER)]
     public class Plugin : BaseUnityPlugin
     {
-        public const string VER = "1.3.26";
+        public const string VER = "1.3.27";
+        // v1.3.27 (G3): 显示词典条数下限。低于此值说明文件被截断或解析半途失败,
+        // 旧版会静默带病运行(玩家看到大面积英文, 日志却只有一行"载入 N 条")。
+        private const int MinDisplayEntries = 20000;
         internal static ManualLogSource Log;
         internal static Dictionary<string, string> Zh = new Dictionary<string, string>(StringComparer.Ordinal);
         internal static int Hits, Miss;
@@ -78,6 +81,11 @@ namespace LGTSChinese
                     ParseFlatJson(File.ReadAllText(js, System.Text.Encoding.UTF8), Disp);
                     D("显示词典(lgts_display.json)载入: " + Disp.Count + " 归一键");
                     Log.LogInfo("显示词典载入: " + Disp.Count + " 条 (lgts_display.json)");
+                    if (Disp.Count < MinDisplayEntries)
+                    {
+                        D("[WARN] 显示词典仅 " + Disp.Count + " 条, 低于预期 " + MinDisplayEntries + " —— 文件可能损坏或被截断");
+                        Log.LogWarning("显示词典条目异常偏少: " + Disp.Count + " 条 (预期 > " + MinDisplayEntries + ")");
+                    }
                     return;
                 }
                 // 退回: 载入 AT 文本词典(仅跳 3 个控制文件), 确定性排序, 主词典优先, UI 覆盖
@@ -436,6 +444,12 @@ namespace LGTSChinese
         {
             Quitting = true;
             WriteStats("[FINAL]");
+            // v1.3.27 (G1): 退出时关闭 DIAG 句柄。此前 StreamWriter 从不 Dispose,
+            // 文件句柄留到进程结束; 句柄没关时外部工具无法读取/另存, 排障要等游戏完全退出。
+            // 注意: 不能放进 Plugin.OnDestroy —— 宿主在启动期就被销毁, 那之后 Runner 与
+            // TMP 钩子仍在写 DIAG, 提前释放会把运行期诊断全部丢掉。
+            try { if (Diag != null) { Diag.Flush(); Diag.Dispose(); Diag = null; } }
+            catch { }
         }
 
         private void OnDestroy()
@@ -1109,20 +1123,29 @@ namespace LGTSChinese
             try { ab = AssetBundle.LoadFromFile(bundlePath); }
             catch (Exception e) { Log.LogError("字体包加载失败: " + e); yield break; }
             if (ab == null) yield break;
-            // 反射操作 TMPro 以避免硬依赖版本
-            Type fontType = AccessTools.TypeByName("TMPro.TMP_FontAsset");
-            if (fontType == null) { Log.LogError("未找到 TMPro.TMP_FontAsset"); yield break; }
-            var loadAll = typeof(AssetBundle).GetMethod("LoadAllAssets", new Type[] { typeof(Type) });
-            var assets = loadAll.Invoke(ab, new object[] { fontType }) as UnityEngine.Object[];
-            if (assets == null || assets.Length == 0) { Log.LogError("字体包内无 TMP_FontAsset"); yield break; }
-            UnityEngine.Object cjk = assets[0];
-            if (InjectTmpFallback(cjk))
+            try
             {
-                TmpFallbackDone = true;
-                Log.LogInfo("已注入中文字体到 TMP 全局 fallback。");
-                D("[TMP FONT] 已注入 lgts_cjk 到全局 fallback");
+                // 反射操作 TMPro 以避免硬依赖版本
+                Type fontType = AccessTools.TypeByName("TMPro.TMP_FontAsset");
+                if (fontType == null) { Log.LogError("未找到 TMPro.TMP_FontAsset"); yield break; }
+                var loadAll = typeof(AssetBundle).GetMethod("LoadAllAssets", new Type[] { typeof(Type) });
+                var assets = loadAll.Invoke(ab, new object[] { fontType }) as UnityEngine.Object[];
+                if (assets == null || assets.Length == 0) { Log.LogError("字体包内无 TMP_FontAsset"); yield break; }
+                UnityEngine.Object cjk = assets[0];
+                if (InjectTmpFallback(cjk))
+                {
+                    TmpFallbackDone = true;
+                    Log.LogInfo("已注入中文字体到 TMP 全局 fallback。");
+                    D("[TMP FONT] 已注入 lgts_cjk 到全局 fallback");
+                }
+                else Log.LogWarning("无法注入 TMP fallback(版本差异), 可改为逐字体注入。");
             }
-            else Log.LogWarning("无法注入 TMP fallback(版本差异), 可改为逐字体注入。");
+            finally
+            {
+                // v1.3.27 (G2): 注入后卸载包体。Unload(false) 只释放包, 已 LoadAllAssets 的
+                // TMP_FontAsset 仍由 fallback 列表持有, 字形继续可用。
+                if (ab != null) { try { ab.Unload(false); } catch { } }
+            }
         }
 
         // v1.3.7 (C5): 系统中文字体 → 动态 TMP_FontAsset → TMP 全局 fallback。

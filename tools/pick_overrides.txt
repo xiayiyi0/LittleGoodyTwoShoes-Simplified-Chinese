@@ -3,14 +3,18 @@
 (Even they're starting to consider this witch nonsense...)	DLG_6_3_VIN_03_016
 (This old hag...!)	CHR_013_012
 ...	DLG_2_4_OLH_01_018
+Can't you see you're frightening her?	XUAT_00970
 Eek!	DLG_2_3_OLH_04_022
 Eek...!	DLG_2_3_OLH_04_002
 Folks are too preoccupied with this witch nonsense!	DLG_7_2_VIN_03_006
 Map of Kieferberg	MAP_MENU
+Need something?	TUT_12_01
 Relationships Menu	RELATIONSHIP_MENU
 Right!	DLG_4_4_VCH_01_067
 Thank you, Mrs. Dorothea!	CHR_012_027
 The Tender Flesh! The Tender Flesh!	DLG_4_5_WCR_C_05_023
+There are 4 circular red sockets on the door.	RedDoorText_2
+This lever resets the puzzle (temp Dialogue).	ResetAcknowledge_1
 We don't take kindly to light in these depths.	FLV_WSV-C_01_003
 What are you...?	DLG_2_3_VSQ_01_026
 What is this place?	CUT_8_3_VCC_01_002
