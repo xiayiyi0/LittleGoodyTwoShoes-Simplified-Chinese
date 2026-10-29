@@ -273,7 +273,7 @@ DLG_2_2_VIN_04_010,今晚我们又要出去巡夜了，老约亨。,271,主线�
 DLG_2_2_VIN_04_011,今天你可得在天黑前回家，伊莉丝。,272,主线对白DLG,2月2日,VIN,,已译,"As for you, Elise — make certain you head on home before nightfall today."
 DLG_2_2_VIN_04_012,愿圣瓦尔普加保佑咱们大伙儿，各位！,273,主线对白DLG,2月2日,VIN,,已译,"May St. Walpurga's blessings be upon us, folks!"
 DLG_2_2_VIN_04_013,（他说，是<color=#934494><b>女巫</b></color>放出的警告……）,274,主线对白DLG,2月2日,VIN,,已译,"(A warning from the <color=#934494><b>witch</b></color>, he says...)"
-DLG_2_2_VIN_04_014,（我这耐性可撑不到星期六！）,275,主线对白DLG,2月2日,VIN,[专名] Sunday统一作「星期天」,已译,"(My patience won't last until Saturday, that's for certain!)"
+DLG_2_2_VIN_04_014,（我这耐性可撑不到星期六！）,275,主线对白DLG,2月2日,VIN,,已译,"(My patience won't last until Saturday, that's for certain!)"
 DLG_2_2_VIN_04_015,（他看我干什么？）,276,主线对白DLG,2月2日,VIN,,已译,(What's he looking at me for?)
 DLG_2_2_VIN_04_016,入夜后巡逻一下，大家心里肯定能踏实些。,277,主线对白DLG,2月2日,VIN,[去腔] 句尾猜测短语并入句中,已译,"Patrolling after nightfall will put folks' minds at ease, I'm certain."
 DLG_2_2_VIN_04_017,那是自然。,278,主线对白DLG,2月2日,VIN,,已译,Surely.
@@ -1124,7 +1124,7 @@ DLG_2_4_VST_01_001,你来得正好，丫头。,1122,主线对白DLG,2月4日,VST
 DLG_2_4_VST_01_003,什么事，欧根先生？,1123,主线对白DLG,2月4日,VST,,已译,"What is it, Mr. Eugen?"
 DLG_2_4_VST_01_004,我这星期得为了节庆的事往返普里梅尔多夫呢。,1124,主线对白DLG,2月4日,VST,[专名] festival统一作「节庆」,已译,"I'm to travel to and fro Primeldorf this week for the festival, you see."
 DLG_2_4_VST_01_005,节庆前夕得把我这些马打理一下——总得让它们看着精神点！,1125,主线对白DLG,2月4日,VST,[专名] festival统一作「节庆」,已译,Need my horses tended to on the eve - ought to make 'em look cheery!
-DLG_2_4_VST_01_006,星期五之前能帮我个忙吗，丫头？,1126,主线对白DLG,2月4日,VST,[专名] Sunday统一作「星期天」,已译,"Won't you lend me a hand by Friday, lass?"
+DLG_2_4_VST_01_006,星期五之前能帮我个忙吗，丫头？,1126,主线对白DLG,2月4日,VST,,已译,"Won't you lend me a hand by Friday, lass?"
 DLG_2_4_VST_01_007,我得照看它们的蹄子，没工夫打理鬃毛了。,1127,主线对白DLG,2月4日,VST,,已译,"I'll be looking after their hooves, won't have the time to care for their manes."
 DLG_2_4_VST_01_008,帮忙是我的荣幸，欧根先生。,1128,主线对白DLG,2月4日,VST,,已译,"It'd be a pleasure to lend a hand, Mr. Eugen."
 DLG_2_4_VST_01_010,不用担心，用不了多久。,1129,主线对白DLG,2月4日,VST,,已译,"Ought not to worry, it won't take long. "
@@ -1717,12 +1717,12 @@ DLG_3_3_OLH_01_008,欢迎来到基弗伯格，丫头——你完全可以留下�
 DLG_3_3_OLH_01_011,听说你们是偶然相遇的？,1716,主线对白DLG,3月3日,OLH,,已译,Heard you met by chance?
 DLG_3_3_OLH_01_012,是啊，真是巧极了！,1717,主线对白DLG,3月3日,OLH,,已译,"We did, that was quite the coincidence!"
 DLG_3_3_OLH_01_013,我祖母很早以前就跟我说过，我在基弗伯格有亲戚。,1718,主线对白DLG,3月3日,OLH,,已译,My grandmother told me long ago I had family in Kieferberg.
-DLG_3_3_OLH_01_014,我是为了节庆来的，这个星期六碰巧遇见了伊莉丝。,1719,主线对白DLG,3月3日,OLH,[专名] Sunday统一作「星期天」,已译,I came about for the festival and crossed paths with Elise this Saturday.
+DLG_3_3_OLH_01_014,我是为了节庆来的，这个星期六碰巧遇见了伊莉丝。,1719,主线对白DLG,3月3日,OLH,,已译,I came about for the festival and crossed paths with Elise this Saturday.
 DLG_3_3_OLH_01_015,她问我认不认识一个叫霍尔的人！,1720,主线对白DLG,3月3日,OLH,,已译,She asked me if I knew of someone named Holle!
 DLG_3_3_OLH_01_016,梅希蒂尔德太太说她怎么也想不起来你俩是怎么认识的，伊莉丝。,1721,主线对白DLG,3月3日,OLH,,已译,"Mrs Mechtilde here couldn't recall how you two met, Elise."
 DLG_3_3_OLH_01_017,啊，那可是个最离奇的故事了，路德维希先生！,1722,主线对白DLG,3月3日,OLH,,已译,"Ah, it was the most fanciful story, Mr Ludwig!"
 DLG_3_3_OLH_01_018,我祖母很早以前就跟我说过，我在基弗伯格有亲戚。,1723,主线对白DLG,3月3日,OLH,,已译,My grandmother told me long ago I had family in Kieferberg.
-DLG_3_3_OLH_01_019,我是为了节庆来的，这个星期六碰巧遇见了伊莉丝。,1724,主线对白DLG,3月3日,OLH,[专名] Sunday统一作「星期天」,已译,I came about for the festival and crossed paths with Elise this Saturday.
+DLG_3_3_OLH_01_019,我是为了节庆来的，这个星期六碰巧遇见了伊莉丝。,1724,主线对白DLG,3月3日,OLH,,已译,I came about for the festival and crossed paths with Elise this Saturday.
 DLG_3_3_OLH_01_020,萝丝玛琳这位姑娘问我认不认识一个叫霍尔的人！,1725,主线对白DLG,3月3日,OLH,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,Rosmarine here asked me if I knew of someone named Holle!
 DLG_3_3_OLH_01_021,哎呀，这故事可真够奇怪的！,1726,主线对白DLG,3月3日,OLH,,已译,"Why, isn't that an odd story!"
 DLG_3_3_OLH_01_022,我这记性是真不如从前了——我明明记得你说过什么……,1727,主线对白DLG,3月3日,OLH,,已译,My memory truly isn't what it used to be - I could've sworn you'd said something about...
@@ -2132,7 +2132,7 @@ DLG_3_3_VST_01_013,我们是偶然相遇的！,2130,主线对白DLG,3月3日,VST
 DLG_3_3_VST_01_014,这跟你之前说的可不太一样……,2131,主线对白DLG,3月3日,VST,,已译,"Ah, but that's quite different from what you..."
 DLG_3_3_VST_01_015,您看，萝丝玛琳的奶奶早就跟她提起过我了。,2132,主线对白DLG,3月3日,VST,[专名] 区分错叫名并弱化you see/know,已译,"Rosmarine's granny told her about me long ago, you see?"
 DLG_3_3_VST_01_016,是的，我是抱着找到亲戚的希望来这儿的……,2133,主线对白DLG,3月3日,VST,,已译,"Yes, I came here in hopes of finding my relatives..."
-DLG_3_3_VST_01_017,上星期六我们在十字路口偶然碰上的。,2134,主线对白DLG,3月3日,VST,[专名] Sunday统一作「星期天」,已译,We bumped into each other by the crossroads last Saturday.
+DLG_3_3_VST_01_017,上星期六我们在十字路口偶然碰上的。,2134,主线对白DLG,3月3日,VST,,已译,We bumped into each other by the crossroads last Saturday.
 DLG_3_3_VST_01_018,她问我认不认识一个叫霍尔的人！,2135,主线对白DLG,3月3日,VST,,已译,She asked me if I knew of someone named Holle!
 DLG_3_3_VST_01_019,这故事真是值得一说，丫头！,2136,主线对白DLG,3月3日,VST,,已译,"Now that's a story worth telling, lass!"
 DLG_3_3_VST_01_020,啊，我明白了！,2137,主线对白DLG,3月3日,VST,[标点] 还原感叹号,已译,"Ah, I see!"
@@ -2420,7 +2420,7 @@ DLG_3_4_VSQ_01_015,哪里的话，多萝特娅太太。,2418,主线对白DLG,3�
 DLG_3_4_VSQ_01_016,至少那场暴风总算是彻底过去了，是吧？,2419,主线对白DLG,3月4日,VSQ,,已译,"At least that windstorm's passed for good, huh?"
 DLG_3_4_VSQ_01_017,谢天谢地。,2420,主线对白DLG,3月4日,VSQ,,已译,Thank goodness.
 DLG_3_4_VSQ_01_018,我这就走了，多萝特娅太太。,2421,主线对白DLG,3月4日,VSQ,,已译,"I'll be on my way now, Mrs. Dorothea."
-DLG_3_4_VSQ_01_019,（真是的……！今天可是星期一啊！）,2422,主线对白DLG,3月4日,VSQ,[专名] Sunday统一作「星期天」,已译,(For goodness' sake...! It's Monday!)
+DLG_3_4_VSQ_01_019,（真是的……！今天可是星期一啊！）,2422,主线对白DLG,3月4日,VSQ,,已译,(For goodness' sake...! It's Monday!)
 DLG_3_4_VSQ_01_020,（别再提那暴风的事了！）,2423,主线对白DLG,3月4日,VSQ,,已译,(Enough with the windstorm!)
 DLG_3_4_VSQ_02_001,这可是幸福的烦恼啊，小子！,2424,主线对白DLG,3月4日,VSQ,[去腔] 习语a good problem意译,已译,"That's a good problem to have, lad!"
 DLG_3_4_VSQ_02_003,一切都还好吗，古斯塔夫先生？,2425,主线对白DLG,3月4日,VSQ,,已译,"Is everything all right, Mr. Gustav?"
@@ -2624,7 +2624,7 @@ DLG_3_5_HBY_02_053,没关系的，伊莉丝——你要是还有什么问题，�
 DLG_3_5_HBY_02_054,我想我得缓一缓……,2623,主线对白DLG,3月5日,HBY,,已译,I think I need a moment...
 DLG_3_5_HBY_02_055,（要给<b>祂</b>献上用<color=#ed1c24><b>信物</b></color>做成的赠礼……？）,2624,主线对白DLG,3月5日,HBY,[专名] 祭礼Gifts统一作「赠礼」,已译,(Bringing <b>Him</b> gifts made out of <color=#ed1c24><b>Testaments</b></color>...?)
 DLG_3_5_HBY_02_056,（而我还得从某个地方找到这些东西……可到底在哪儿呢……？）,2625,主线对白DLG,3月5日,HBY,,已译,(And I'm supposed to find these somewhere... But where...?)
-DLG_3_5_HBY_02_057,你是说我到这个星期六之前得……,2626,主线对白DLG,3月5日,HBY,[专名] Sunday统一作「星期天」,已译,You mean to say I have until this Saturday to... 
+DLG_3_5_HBY_02_057,你是说我到这个星期六之前得……,2626,主线对白DLG,3月5日,HBY,,已译,You mean to say I have until this Saturday to... 
 DLG_3_5_HBY_02_058,集齐<b>三样信物</b>，找到祂，对。,2627,主线对白DLG,3月5日,HBY,,已译,"To gather all <b>three testaments</b> and find Him, yes."
 DLG_3_5_HBY_02_059,我明白了……,2628,主线对白DLG,3月5日,HBY,,已译,I see...
 DLG_3_5_HBY_02_060,我该好好想想这件事了，萝丝玛琳……,2629,主线对白DLG,3月5日,HBY,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,"I ought to give this some thought, Rosmarine..."
@@ -3108,7 +3108,7 @@ DLG_4_2_VBA_02_016,你该明白，伊莉丝，绝不是那么回事！,3106,主�
 DLG_4_2_VBA_02_017,我不过就是采了点……材料……,3107,主线对白DLG,4月2日,VBA,,已译,All I did was gather a few...ingredients...
 DLG_4_2_VBA_02_018,啊，我得找多萝特娅好好谈谈！,3108,主线对白DLG,4月2日,VBA,[语气] Oh依语境改译,已译,"Oh, I ought to have a talk with Dorothea!"
 DLG_4_2_VBA_02_019,多萝特娅？,3109,主线对白DLG,4月2日,VBA,,已译,Dorothea?
-DLG_4_2_VBA_02_020,她上星期就试过了，阿丽亚娜太太……,3110,主线对白DLG,4月2日,VBA,[专名] Sunday统一作「星期天」,已译,"She's done it just last week, Mrs Ariane..."
+DLG_4_2_VBA_02_020,她上星期就试过了，阿丽亚娜太太……,3110,主线对白DLG,4月2日,VBA,,已译,"She's done it just last week, Mrs Ariane..."
 DLG_4_2_VBA_02_021,她说水变得很清澈……看来她怀的准是个男孩！,3111,主线对白DLG,4月2日,VBA,,已译,"The water turned out clear, she said... Ought to be a boy she has on the way!"
 DLG_4_2_VBA_02_022,这没什么害处的，阿丽亚娜。,3112,主线对白DLG,4月2日,VBA,,已译,"It's harmless, Ariane."
 DLG_4_2_VBA_02_023,您也试过吗，莉丝贝特太太？,3113,主线对白DLG,4月2日,VBA,,已译,"Did you do it too, Mrs Lisbeth?"
@@ -5155,7 +5155,7 @@ DLG_5_1_VBA_02_020,威尔玛太太！,5153,主线对白DLG,5月1日,VBA,[标点]
 DLG_5_1_VBA_02_021,咱们走吧，萝丝玛琳，免得威尔玛太太也把咱俩耐心磨光了。,5154,主线对白DLG,5月1日,VBA,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,"Let's go, Rosmarine, before Mrs Wilma tries our patience, too."
 DLG_5_1_VBA_02_022,嗯……,5155,主线对白DLG,5月1日,VBA,[语气] 定句「嗯……」，解除TM覆写,已译,Yes...
 DLG_5_1_VBA_02_023,（结果还是把她惹毛了！）,5156,主线对白DLG,5月1日,VBA,,已译,(So much for not riling her up!)
-DLG_5_1_VSQ_01_001,咱们得花上好几个星期刮屋顶上的鸟粪了，埃尔玛！,5157,主线对白DLG,5月1日,VSQ,[专名] Sunday统一作「星期天」,已译,"We'll be scraping bird poop off the roofs for weeks, Elma!"
+DLG_5_1_VSQ_01_001,咱们得花上好几个星期刮屋顶上的鸟粪了，埃尔玛！,5157,主线对白DLG,5月1日,VSQ,,已译,"We'll be scraping bird poop off the roofs for weeks, Elma!"
 DLG_5_1_VSQ_01_002,哎，伊莉丝——你快来瞧瞧这烂摊子！,5158,主线对白DLG,5月1日,VSQ,,已译,"Oh, Elise — would you take a look at this nonsense!"
 DLG_5_1_VSQ_01_003,原来是说这些乌鸦……,5159,主线对白DLG,5月1日,VSQ,,已译,"These crows, I see..."
 DLG_5_1_VSQ_01_004,整个基弗伯格都被那些脏东西占满了！,5160,主线对白DLG,5月1日,VSQ,[标点] 删多余省略号/感叹号,已译,All of Kieferberg is thick with the filthy things!
@@ -7828,7 +7828,7 @@ DLG_6_3_VSQ_04_017,你正巴不得来个<color=#934494><b>女巫</b></color>，�
 DLG_6_3_VSQ_04_018,你说什么呢，丫头！,7827,主线对白DLG,6月3日,VSQ,,已译,"What are you saying, lass!"
 DLG_6_3_VSQ_04_019,我看基弗伯格没人会盼着那种事，伊莉丝。,7828,主线对白DLG,6月3日,VSQ,,已译,"I wouldn't say anyone in Kieferberg would want such a thing, Elise."
 DLG_6_3_VSQ_04_020,您确定吗，路德维希先生？,7829,主线对白DLG,6月3日,VSQ,,已译,"Are you certain, Mr. Ludwig?"
-DLG_6_3_VSQ_04_021,老约亨从星期一起就在嚷嚷这套胡话！,7830,主线对白DLG,6月3日,VSQ,[专名] Sunday统一作「星期天」,已译,Old Jochen's been spouting this nonsense since Monday!
+DLG_6_3_VSQ_04_021,老约亨从星期一起就在嚷嚷这套胡话！,7830,主线对白DLG,6月3日,VSQ,,已译,Old Jochen's been spouting this nonsense since Monday!
 DLG_6_3_VSQ_04_022,这<color=#934494><b>女巫</b></color>是基弗伯格的祸害，丫头！,7831,主线对白DLG,6月3日,VSQ,,已译,"This <color=#934494><b>witch</b></color> is a menace to Kieferberg, lass!"
 DLG_6_3_VSQ_04_023,把镇上每个姑娘都搜一遍可不是办法，老约亨。,7832,主线对白DLG,6月3日,VSQ,,已译,"Searching every girl in town isn't the answer, Old Jochen."
 DLG_6_3_VSQ_04_024,我们看得够多了！是时候动手了！,7833,主线对白DLG,6月3日,VSQ,,已译,We've seen more than enough! It's time to act!
@@ -8137,7 +8137,7 @@ DLG_6_5_OLH_01_002,你们这是要去哪儿？,8135,主线对白DLG,6月5日,OLH
 DLG_6_5_OLH_01_003,我们该出去巡逻了。,8136,主线对白DLG,6月5日,OLH,,已译,It's time we head out on patrol.
 DLG_6_5_OLH_01_004,得确保基弗伯格平安无事才行。,8137,主线对白DLG,6月5日,OLH,,已译,We must make certain Kieferberg's out of harm's way.
 DLG_6_5_OLH_01_005,话虽这么说，路德维希……,8138,主线对白DLG,6月5日,OLH,,已译,"Even if you say that, Ludwig..."
-DLG_6_5_OLH_01_006,你们巡逻了整整一个星期，可……,8139,主线对白DLG,6月5日,OLH,[专名] Sunday统一作「星期天」,已译,"You've been going on these patrols all week, and yet..."
+DLG_6_5_OLH_01_006,你们巡逻了整整一个星期，可……,8139,主线对白DLG,6月5日,OLH,,已译,"You've been going on these patrols all week, and yet..."
 DLG_6_5_OLH_01_007,那更得接着巡下去，丫头！,8140,主线对白DLG,6月5日,OLH,,已译,"All the more reason to keep doing it, lass!"
 DLG_6_5_OLH_01_008,芬恩说得对——大伙儿得互相照应！,8141,主线对白DLG,6月5日,OLH,,已译,Fynn's right — we need to look out for each other!
 DLG_6_5_OLH_01_010,我只想给那家伙点颜色瞧瞧——管他是元凶，还是那<color=#934494><b>女巫</b></color>！,8142,主线对白DLG,6月5日,OLH,,已译,"All I want is to let them have it — be it the culprit, or even the <color=#934494><b>witch</b></color>!"
@@ -8193,7 +8193,7 @@ DLG_6_5_VBA_02_003,我们只是在确认没人四处乱逛罢了。,8191,主线�
 DLG_6_5_VBA_02_004,我也想让大伙儿安心些……毕竟那些流言……,8192,主线对白DLG,6月5日,VBA,,已译,"I'm trying to keep folks at ease, too... Given the rumors..."
 DLG_6_5_VBA_02_005,大伙儿又怕又乱，欧根——不是针对你。,8193,主线对白DLG,6月5日,VBA,,已译,"Folks are frightened and confused, Eugen — it's not personal."
 DLG_6_5_VBA_02_006,……,8194,主线对白DLG,6月5日,VBA,,已译,...
-DLG_6_5_VBA_02_007,下星期就能离开基弗伯格，松了口气吧？,8195,主线对白DLG,6月5日,VBA,[专名] Sunday统一作「星期天」,已译,"Relieved you'll be leaving Kieferberg next week, aren't you?"
+DLG_6_5_VBA_02_007,下星期就能离开基弗伯格，松了口气吧？,8195,主线对白DLG,6月5日,VBA,,已译,"Relieved you'll be leaving Kieferberg next week, aren't you?"
 DLG_6_5_VBA_02_008,远比你想的更甚，特里斯坦。,8196,主线对白DLG,6月5日,VBA,,已译,"More than you can imagine, Tristan."
 DLG_6_5_VBA_02_009,大伙儿会想你的，欧根——这一点我很清楚。,8197,主线对白DLG,6月5日,VBA,[去腔] I'd say并入句中（我看/肯定）,已译,"You'll be missed, Eugen — that I know for certain."
 DLG_6_5_VBA_02_010,（我从没见过欧根先生这般颓丧的模样……）,8198,主线对白DLG,6月5日,VBA,,已译,(I've never seen Mr. Eugen looking so defeated...)
@@ -9382,8 +9382,8 @@ DLG_8_1_VCH_03_023,（她确实时不时会这么说。）,9380,主线对白DLG,
 DLG_8_1_VSQ_01_001,这话我念叨一整周了！,9381,主线对白DLG,8月1日,VSQ,,已译,That's what I've been saying all week!
 DLG_8_1_VSQ_01_002,那些鬼话早就入土为安了，吉多！,9382,主线对白DLG,8月1日,VSQ,,已译,"All that nonsense is dead and buried, Guido!"
 DLG_8_1_VSQ_01_003,什么鬼话，特里斯坦先生？,9383,主线对白DLG,8月1日,VSQ,,已译,"What nonsense, Mr. Tristan?"
-DLG_8_1_VSQ_01_004,吉多这家伙还在唠叨上星期的事呢！,9384,主线对白DLG,8月1日,VSQ,[专名] Sunday统一作「星期天」,已译,Guido here is still nattering on about last week!
-DLG_8_1_VSQ_01_005,翻篇吧——咱们都熬到星期六了。,9385,主线对白DLG,8月1日,VSQ,[专名] Sunday统一作「星期天」,已译,Let's move on — we've made it to Saturday.
+DLG_8_1_VSQ_01_004,吉多这家伙还在唠叨上星期的事呢！,9384,主线对白DLG,8月1日,VSQ,,已译,Guido here is still nattering on about last week!
+DLG_8_1_VSQ_01_005,翻篇吧——咱们都熬到星期六了。,9385,主线对白DLG,8月1日,VSQ,,已译,Let's move on — we've made it to Saturday.
 DLG_8_1_VSQ_01_006,为了节庆！,9386,主线对白DLG,8月1日,VSQ,,已译,To the festival!
 DLG_8_1_VSQ_01_007,真有你的！,9387,主线对白DLG,8月1日,VSQ,,已译,Attagirl!
 DLG_8_1_VSQ_01_008,说实话，也是时候了。,9388,主线对白DLG,8月1日,VSQ,[去腔] I'd say并入句中（我看/肯定）,已译,"It was about time, if I'm honest."
@@ -9674,12 +9674,12 @@ DLG_8_3_VIN_04_007,唉，又来这套胡话！,9672,主线对白DLG,8月3日,VIN
 DLG_8_3_VIN_04_008,咱们最好祷告圣瓦尔普加的庇佑能长久，乡亲们。,9673,主线对白DLG,8月3日,VIN,,已译,"We'd best pray St. Walpurga's blessing will last, folks."
 DLG_8_3_VIN_04_009,今天固然是蒙福的日子，可咱们……,9674,主线对白DLG,8月3日,VIN,,已译,"We may be enjoying a blessed day today, but we..."
 DLG_8_3_VIN_04_010,这蒙福的日子差点毁在你的糊涂上，老约亨！,9675,主线对白DLG,8月3日,VIN,,已译,"A blessed day we nearly ruined because of your foolishness, Old Jochen!"
-DLG_8_3_VIN_04_011,都过去了——反正大伙儿都不再计较上星期的事了。,9676,主线对白DLG,8月3日,VIN,[专名] Sunday统一作「星期天」,已译,"It's over — everyone seems to have moved on from last week, anyhow."
+DLG_8_3_VIN_04_011,都过去了——反正大伙儿都不再计较上星期的事了。,9676,主线对白DLG,8月3日,VIN,,已译,"It's over — everyone seems to have moved on from last week, anyhow."
 DLG_8_3_VIN_04_012,可不是，那些胡话早该翻篇了。,9677,主线对白DLG,8月3日,VIN,,已译,"Truly, it was about time we let that nonsense go."
 DLG_8_3_VIN_04_013,你们这些人当真不明白……,9678,主线对白DLG,8月3日,VIN,,已译,You folks truly don't know...
 DLG_8_3_VIN_04_014,总之，我方才说了——薇尔玛爱回普里梅尔多夫就回去好了！,9679,主线对白DLG,8月3日,VIN,[专名] Welma薇尔玛与威尔玛区分,已译,"Anyhow, as I was saying — Welma can go back to Primeldorf all she wants!"
 DLG_8_3_VIN_04_015,话虽如此……你又要孤零零一个人了，威尔玛……,9680,主线对白DLG,8月3日,VIN,,已译,"Still... You'll be left all alone again, Wilma..."
-DLG_8_3_VIN_04_016,（上星期他们要也这么处事就好了……）,9681,主线对白DLG,8月3日,VIN,[专名] Sunday统一作「星期天」,已译,(If only they'd handled it like this last week...)
+DLG_8_3_VIN_04_016,（上星期他们要也这么处事就好了……）,9681,主线对白DLG,8月3日,VIN,,已译,(If only they'd handled it like this last week...)
 DLG_8_3_VIN_05_001,呀，瞧瞧你，伊莉丝！,9682,主线对白DLG,8月3日,VIN,,已译,"Ah, look at you, Elise!"
 DLG_8_3_VIN_05_002,瞧我什么呀，梅希蒂尔德太太？,9683,主线对白DLG,8月3日,VIN,,已译,"What about me, Mrs. Mechtilde?"
 DLG_8_3_VIN_05_003,这花冠真衬你，好孩子。,9684,主线对白DLG,8月3日,VIN,,已译,"That flower crown rather suits you, my dear."
@@ -9720,7 +9720,7 @@ DLG_8_3_VIN_08_001,哎呀，丫头！,9718,主线对白DLG,8月3日,VIN,[标点]
 DLG_8_3_VIN_08_002,怎么了，奥蒂莉太太？,9719,主线对白DLG,8月3日,VIN,,已译,"What's wrong, Mrs. Odilie?"
 DLG_8_3_VIN_08_003,今天到处都是生面孔！,9720,主线对白DLG,8月3日,VIN,,已译,It's all these strangers around today!
 DLG_8_3_VIN_08_004,这么闹哄哄的，我可受不住……,9721,主线对白DLG,8月3日,VIN,,已译,I don't do well with all this commotion...
-DLG_8_3_VIN_08_005,上星期那场闹剧真给您留了心病，是吧？,9722,主线对白DLG,8月3日,VIN,[专名] Sunday统一作「星期天」,已译,"Last week's nonsense has truly left a scar, huh?"
+DLG_8_3_VIN_08_005,上星期那场闹剧真给您留了心病，是吧？,9722,主线对白DLG,8月3日,VIN,,已译,"Last week's nonsense has truly left a scar, huh?"
 DLG_8_3_VIN_08_006,别说这种话，丫头！,9723,主线对白DLG,8月3日,VIN,,已译,"Don't say such things, lass!"
 DLG_8_3_VIN_08_007,好的，奥蒂莉太太……,9724,主线对白DLG,8月3日,VIN,[标点] 还原省略号,已译,"All right, Mrs. Odilie..."
 DLG_8_3_VIN_08_008,话说回来……,9725,主线对白DLG,8月3日,VIN,,已译,That said...
@@ -9812,7 +9812,7 @@ DLG_8_3_VIN_F_02_027,我兜里还有几个蒂芙勒没花呢！,9810,主线对�
 DLG_8_3_VIN_F_02_028,去去就回，芙蕾雅。,9811,主线对白DLG,8月3日,VIN_F,,已译,"I'll be back, Freya."
 DLG_8_3_VIN_L_01_001,见你今天这么开心，我也高兴，伊莉丝。,9812,主线对白DLG,8月3日,,,已译,"I'm happy to see you looking so cheery today, Elise."
 DLG_8_3_VIN_L_01_002,哎，我偶尔也该乐一乐，不是吗？,9813,主线对白DLG,8月3日,,,已译,"Why, even I get to make merry once in a while, don't I?"
-DLG_8_3_VIN_L_01_003,大伙儿好像都把上星期的事忘了似的，是不是？,9814,主线对白DLG,8月3日,,[专名] Sunday统一作「星期天」,已译,"It's as though everyone's forgotten about last week, isn't it?"
+DLG_8_3_VIN_L_01_003,大伙儿好像都把上星期的事忘了似的，是不是？,9814,主线对白DLG,8月3日,,,已译,"It's as though everyone's forgotten about last week, isn't it?"
 DLG_8_3_VIN_L_01_004,大家早就绷不住了，佩佩……,9815,主线对白DLG,8月3日,,,已译,"Folks were bursting at the seams, Leb..."
 DLG_8_3_VIN_L_01_005,谁还受得了再为那些胡话提心吊胆一天呢？,9816,主线对白DLG,8月3日,,,已译,"They couldn't bear another day fretting about all that nonsense, could they?"
 DLG_8_3_VIN_L_01_006,没记错的话，咱们也受不了。,9817,主线对白DLG,8月3日,,,已译,"Neither could we, if memory serves."
@@ -9851,7 +9851,7 @@ DLG_8_3_VIN_L_01_038,我兜里还有几个蒂芙勒没花呢！,9849,主线对�
 DLG_8_3_VIN_L_01_039,我就在这儿等，伊莉丝。,9850,主线对白DLG,8月3日,,,已译,"I'll be here, Elise."
 DLG_8_3_VIN_L_02_001,见你今天这么开心，我也高兴，伊莉丝。,9851,主线对白DLG,8月3日,,,已译,"I'm happy to see you looking so cheery today, Elise."
 DLG_8_3_VIN_L_02_002,哎，我偶尔也该乐一乐，不是吗？,9852,主线对白DLG,8月3日,,,已译,"Why, even I get to make merry once in a while, don't I?"
-DLG_8_3_VIN_L_02_003,大伙儿好像都把上星期的事忘了似的，是不是？,9853,主线对白DLG,8月3日,,[专名] Sunday统一作「星期天」,已译,"It's as though everyone's forgotten about last week, isn't it?"
+DLG_8_3_VIN_L_02_003,大伙儿好像都把上星期的事忘了似的，是不是？,9853,主线对白DLG,8月3日,,,已译,"It's as though everyone's forgotten about last week, isn't it?"
 DLG_8_3_VIN_L_02_004,大家早就绷不住了，佩佩……,9854,主线对白DLG,8月3日,,,已译,"Folks were bursting at the seams, Leb..."
 DLG_8_3_VIN_L_02_005,谁还受得了再为那些胡话提心吊胆一天呢？,9855,主线对白DLG,8月3日,,,已译,"They couldn't bear another day fretting about all that nonsense, could they?"
 DLG_8_3_VIN_L_02_006,没记错的话，咱们也受不了。,9856,主线对白DLG,8月3日,,,已译,"Neither could we, if memory serves."
@@ -10698,7 +10698,7 @@ CUT_2_1_VCH_01_018,闻一闻真的很能让人静下来！要是你想要，我�
 CUT_2_1_VCH_03_001,愿主——圣父、圣子与圣灵——的祝福与我们同在。,10697,过场对白CUT,2月1日,VCH,[标点] 破折号断句免同位语误读,已译,"May the blessing of the Lord, the Father, and the Son, and the Holy Spirit be with us."
 CUT_2_1_VCH_03_002,愿神圣的圣瓦尔普加垂听我们的祷告。,10698,过场对白CUT,2月1日,VCH,,已译,May the hallowed St. Walpurga take heed of our prayers.
 CUT_2_1_VCH_03_003,阿门。,10699,过场对白CUT,2月1日,VCH,,已译,Amen.
-CUT_2_1_VCH_03_004,这个星期六，我们将再次庆祝我们的主保圣人圣瓦尔普加。,10700,过场对白CUT,2月1日,VCH,[专名] Sunday统一作「星期天」,已译,"This Saturday, we will once again be celebrating our patroness, St. Walpurga."
+CUT_2_1_VCH_03_004,这个星期六，我们将再次庆祝我们的主保圣人圣瓦尔普加。,10700,过场对白CUT,2月1日,VCH,,已译,"This Saturday, we will once again be celebrating our patroness, St. Walpurga."
 CUT_2_1_VCH_03_005,诸位都知道，庆典的筹备工作已经在进行了。,10701,过场对白CUT,2月1日,VCH,,已译,"As you all know, preparations for the festivities are already underway."
 CUT_2_1_VCH_03_006,愿我们各尽所能，出一份力，弟兄们。,10702,过场对白CUT,2月1日,VCH,[专名] brethren 按场景：弥撒/神职用「弟兄们」,已译,"Let us all contribute to the best of our abilities, brethren."
 CUT_2_1_VCH_03_007,话虽如此，昨晚发生的事，我都已知晓。,10703,过场对白CUT,2月1日,VCH,,已译,"That said, I am aware of what transpired last night."
@@ -11274,7 +11274,7 @@ CUT_3_3_OCR_01_046,你奶奶是霍尔奶奶的姨妈，你明白吗？,11272,过
 CUT_3_3_OCR_01_047,好！,11273,过场对白CUT,3月3日,OCR,,已译,Yes!
 CUT_3_3_OCR_01_049,既然如此，你听说了这场节庆，就赶来找霍尔奶奶了。,11274,过场对白CUT,3月3日,OCR,,已译,"That being so, you heard about the festival and came about to find granny Holle."
 CUT_3_3_OCR_01_050,好！,11275,过场对白CUT,3月3日,OCR,,已译,Yes!
-CUT_3_3_OCR_01_051,而上星期六，咱俩正巧在十字路口撞见了对方。,11276,过场对白CUT,3月3日,OCR,[专名] Sunday统一作「星期天」,已译,And last Saturday we just so happened to bump into each other by the crossroads.
+CUT_3_3_OCR_01_051,而上星期六，咱俩正巧在十字路口撞见了对方。,11276,过场对白CUT,3月3日,OCR,,已译,And last Saturday we just so happened to bump into each other by the crossroads.
 CUT_3_3_OCR_01_052,你问我认不认识一位叫霍尔的女士，我说她就是我奶奶！,11277,过场对白CUT,3月3日,OCR,,已译,You asked me if I knew of a lady named Holle and I said she's my grandmother!
 CUT_3_3_OCR_01_055,可这跟我说的话有什么关系？,11278,过场对白CUT,3月3日,OCR,,已译,But how does this relate to what I said?
 CUT_3_3_OCR_01_056,你这么喜欢基弗伯格，都决定帮大伙儿筹备节庆了！,11279,过场对白CUT,3月3日,OCR,[专名] festival统一作「节庆」,已译,You liked Kieferberg so much you've decided to help folks prepare for the festival!
@@ -11778,7 +11778,7 @@ CUT_3_5_OLH_01_010,不，我不知道，伊莉丝——所以我才问你啊。,
 CUT_3_5_OLH_01_011,……,11777,过场对白CUT,3月5日,OLH,[系统] Gridly按当前英文重译,已译,...
 CUT_3_5_OLH_01_012,这事既然挑明了——你能告诉我她到底是谁吗？,11778,过场对白CUT,3月5日,OLH,[系统] Gridly按当前英文重译,已译,Now that we got that out of the way — won't you tell me who she is?
 CUT_3_5_OLH_01_013,她说自己是个旅人……,11779,过场对白CUT,3月5日,OLH,,已译,She says she's a traveler...
-CUT_3_5_OLH_01_014,星期六那天我发现她躲在我家谷仓里……,11780,过场对白CUT,3月5日,OLH,[专名] Sunday统一作「星期天」,已译,I found her hiding in my granary on Saturday...
+CUT_3_5_OLH_01_014,星期六那天我发现她躲在我家谷仓里……,11780,过场对白CUT,3月5日,OLH,,已译,I found her hiding in my granary on Saturday...
 CUT_3_5_OLH_01_015,旅人……？,11781,过场对白CUT,3月5日,OLH,[系统] Gridly按当前英文重译,已译,A traveler...?
 CUT_3_5_OLH_01_016,我自己也不太信，佩佩——可我看她那可怜样，实在于心不忍！,11782,过场对白CUT,3月5日,OLH,[系统] Gridly按当前英文重译,已译,"I'm not convinced either, Leb — but I felt sorry for the poor lass!"
 CUT_3_5_OLH_01_017,她说节庆一过就走，所以只是暂时的。,11783,过场对白CUT,3月5日,OLH,[系统] Gridly按当前英文重译,已译,"She says she'll be leaving right after the festival, so it's only temporary."
@@ -14492,7 +14492,7 @@ CUT_8_END_L_L_01_009,我爱你，斯佩尔特。,14490,过场对白CUT,8,END_L_L
 CUT_8_END_L_L_01_010,伊莉丝……,14491,过场对白CUT,8,END_L_L,[标点] 还原省略号,已译,Elise...
 CUT_8_END_L_L_01_011,走吧——一起吃晚饭去。,14492,过场对白CUT,8,END_L_L,,已译,"Come, now — let's have supper together."
 CUT_8_END_L_L_01_012,你永远不会告诉我了，对吧？,14493,过场对白CUT,8,END_L_L,,已译,"You'll never tell me, will you?"
-CUT_8_END_L_L_01_013,这一个星期你一直藏着的事……,14494,过场对白CUT,8,END_L_L,[专名] Sunday统一作「星期天」,已译,What you've been hiding all week...
+CUT_8_END_L_L_01_013,这一个星期你一直藏着的事……,14494,过场对白CUT,8,END_L_L,,已译,What you've been hiding all week...
 CUT_8_END_L_L_01_014,总有一天会说的，斯佩尔特。,14495,过场对白CUT,8,END_L_L,,已译,"In time, Lebkuchen."
 CUT_8_END_L_L_01_015,眼下，我只想同你好好过完今晚。,14496,过场对白CUT,8,END_L_L,,已译,"For now, all I want is to spend this evening with you."
 CUT_8_END_L_L_01_016,一起看星星？,14497,过场对白CUT,8,END_L_L,,已译,Watching the stars?
@@ -15742,7 +15742,7 @@ LVE_2_3_OVP_F_009,你怎么不也来帮帮忙呢，伊莉丝？,15709,恋爱事�
 LVE_2_3_OVP_F_09,你不是该在节庆前夜才装饰它吗？,15710,恋爱事件LVE,2月3日,OVP_F,,已译,Should you be dressing it on the eve?
 LVE_2_3_OVP_F_010,我？,15711,恋爱事件LVE,2月3日,OVP_F,,已译,Me?
 LVE_2_3_OVP_F_10,哎呀，我知道时间好像有点太赶了，可我就是想让花儿尽量新鲜一点！,15712,恋爱事件LVE,2月3日,OVP_F,[语气] Oh依语境改译,已译,"Oh, I know it seems like too little time, but I want them as fresh as possible!"
-LVE_2_3_OVP_F_011,星期五你来过夜——咱们大伙儿一起弄嘛！,15713,恋爱事件LVE,2月3日,OVP_F,[专名] Sunday统一作「星期天」,已译,You could spend the night on Friday — and we could all do it together!                                                
+LVE_2_3_OVP_F_011,星期五你来过夜——咱们大伙儿一起弄嘛！,15713,恋爱事件LVE,2月3日,OVP_F,,已译,You could spend the night on Friday — and we could all do it together!                                                
 LVE_2_3_OVP_F_11,爸爸会来帮我一把，我也随时可以请玛丽勒太太搭把手！,15714,恋爱事件LVE,2月3日,OVP_F,,已译,"Papa's lending me a hand, and I can always ask Mrs. Mariele to help, too!"
 LVE_2_3_OVP_F_12,还有琳达太太——她肯定不会拒绝帮忙插花的，对吧？,15715,恋爱事件LVE,2月3日,OVP_F,,已译,"Mrs. Linda, too - she wouldn't say no to arranging flowers, would she?"
 LVE_2_3_OVP_F_012,啊，我说不好……,15716,恋爱事件LVE,2月3日,OVP_F,,已译,"Ah, I'm not too certain..."
@@ -15798,7 +15798,7 @@ LVE_2_3_OVP_F_39,啊，我不是那个意思……,15765,恋爱事件LVE,2月3�
 LVE_2_3_OVP_F_039,你做给我的那药膏，我会用的，好吗？,15766,恋爱事件LVE,2月3日,OVP_F,,已译,"I'll be using that ointment you made me, all right?"
 LVE_2_3_OVP_F_40,我什么都还没说呢！,15767,恋爱事件LVE,2月3日,OVP_F,,已译,I didn't even say anything yet!
 LVE_2_3_OVP_F_040,我从没想过要刻意讨好……,15768,恋爱事件LVE,2月3日,OVP_F,,已译,I never meant to overcompensate...
-LVE_2_3_OVP_F_041,可你一星期七天，天天送我礼物！,15769,恋爱事件LVE,2月3日,OVP_F,[专名] Sunday统一作「星期天」,已译,Yet you shower me with gifts every day of the week!
+LVE_2_3_OVP_F_041,可你一星期七天，天天送我礼物！,15769,恋爱事件LVE,2月3日,OVP_F,,已译,Yet you shower me with gifts every day of the week!
 LVE_2_3_OVP_F_41,可我是……,15770,恋爱事件LVE,2月3日,OVP_F,[语气] Oh依语境改译,已译,"Oh, but I'm..."
 LVE_2_3_OVP_F_042,你对别人可不这样！让我怎么想？,15771,恋爱事件LVE,2月3日,OVP_F,,已译,You don't do that to anyone else! What am I supposed to think?
 LVE_2_3_OVP_F_42,你太热情了！,15772,恋爱事件LVE,2月3日,OVP_F,,已译,You're too friendly!
@@ -17290,7 +17290,7 @@ LVE_8_3_HBY_R_013,那时你不大相信我，对吧？,17257,恋爱事件LVE,8�
 LVE_8_3_HBY_R_014,可你说对了，萝丝玛琳——每一件事都对。,17258,恋爱事件LVE,8月3日,HBY_R,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,"Yet you were right, Rosmarine — about everything."
 LVE_8_3_HBY_R_015,如今我明白了……是这一切让我们走到了一起……,17259,恋爱事件LVE,8月3日,HBY_R,,已译,I see it now... How it all brought us together...
 LVE_8_3_HBY_R_016,啊，伊莉丝！,17260,恋爱事件LVE,8月3日,HBY_R,[语气] Oh依语境改译,已译,"Oh, Elise!"
-LVE_8_3_HBY_R_017,上星期我是不是心急了些？,17261,恋爱事件LVE,8月3日,HBY_R,[专名] Sunday统一作「星期天」,已译,"I was a little too eager last week, wasn't I?"
+LVE_8_3_HBY_R_017,上星期我是不是心急了些？,17261,恋爱事件LVE,8月3日,HBY_R,,已译,"I was a little too eager last week, wasn't I?"
 LVE_8_3_HBY_R_018,这话说得还算客气呢，萝丝玛琳！,17262,恋爱事件LVE,8月3日,HBY_R,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,"That's putting it lightly, Rosmarine!"
 LVE_8_3_HBY_R_019,终于找到你，我实在太高兴了嘛！,17263,恋爱事件LVE,8月3日,HBY_R,,已译,I was so excited to have finally found you!
 LVE_8_3_HBY_R_020,一切从来都在指引我走向你……,17264,恋爱事件LVE,8月3日,HBY_R,,已译,Everything has always pointed me toward you...
@@ -17351,7 +17351,7 @@ LVE_8_3_HBY_R_074,是时候往前走了。,17318,恋爱事件LVE,8月3日,HBY_R,
 LVE_8_3_HBY_R_item,伊莉丝,17319,恋爱事件LVE,8月3日,HBY_R_item,[英文回填] 本体对话JSON；Text=Player,已译,Player
 LVE_8_3_OVP_F_001,哎哟，我实在走不动啦！,17320,恋爱事件LVE,8月3日,OVP_F,,已译,"Oh, I've had it!"
 LVE_8_3_OVP_F_002,早知道你累了，我就背你上来啦，伊莉丝！,17321,恋爱事件LVE,8月3日,OVP_F,,已译,"I would've carried you had I known you were tired, Elise!"
-LVE_8_3_OVP_F_003,这星期你背我还没背够吗？,17322,恋爱事件LVE,8月3日,OVP_F,[专名] Sunday统一作「星期天」,已译,Haven't you had enough of that this week?
+LVE_8_3_OVP_F_003,这星期你背我还没背够吗？,17322,恋爱事件LVE,8月3日,OVP_F,,已译,Haven't you had enough of that this week?
 LVE_8_3_OVP_F_004,你真想让我回答这个吗？,17323,恋爱事件LVE,8月3日,OVP_F,,已译,Do you truly want me to answer that?
 LVE_8_3_OVP_F_005,真是的……,17324,恋爱事件LVE,8月3日,OVP_F,[v10修订] 定句：改作「真是的……」,已译,For goodness' sake...
 LVE_8_3_OVP_F_006,不过节庆还是很棒，对吧，伊莉丝？,17325,恋爱事件LVE,8月3日,OVP_F,,已译,"It's still a wonderful festival isn't it, Elise?"
@@ -17363,7 +17363,7 @@ LVE_8_3_OVP_F_011,你该亲眼去瞧瞧，芙蕾雅。,17330,恋爱事件LVE,8�
 LVE_8_3_OVP_F_012,你是想说<i>咱们</i>吧，伊莉丝？,17331,恋爱事件LVE,8月3日,OVP_F,,已译,"Don't you mean <i>we</i>, Elise?"
 LVE_8_3_OVP_F_013,嗯……,17332,恋爱事件LVE,8月3日,OVP_F,[语气] 定句「嗯……」,已译,I suppose...
 LVE_8_3_OVP_F_014,你瞧，伊莉丝……,17333,恋爱事件LVE,8月3日,OVP_F,,已译,"You see, Elise..."
-LVE_8_3_OVP_F_015,这一个星期，你真的给了我好多鼓励……,17334,恋爱事件LVE,8月3日,OVP_F,[专名] Sunday统一作「星期天」,已译,You've truly encouraged me a great deal this past week...
+LVE_8_3_OVP_F_015,这一个星期，你真的给了我好多鼓励……,17334,恋爱事件LVE,8月3日,OVP_F,,已译,You've truly encouraged me a great deal this past week...
 LVE_8_3_OVP_F_016,我说的都是真心话，芙蕾雅……,17335,恋爱事件LVE,8月3日,OVP_F,,已译,"I did mean all I said, Freya..."
 LVE_8_3_OVP_F_017,是你让我看清了自己的心意，伊莉丝。,17336,恋爱事件LVE,8月3日,OVP_F,,已译,"You helped me understand my own feelings better, Elise."
 LVE_8_3_OVP_F_018,我再爱基弗伯格，也想为自己多求一些！,17337,恋爱事件LVE,8月3日,OVP_F,,已译,"That as much as I love Kieferberg, I want more for myself!"
@@ -17388,7 +17388,7 @@ LVE_8_3_OVP_F_036,我花了这么久才明白，我……,17355,恋爱事件LVE,
 LVE_8_3_OVP_F_037,什么叫<i>变成了别的东西</i>，芙蕾雅……？,17356,恋爱事件LVE,8月3日,OVP_F,,已译,"What do you mean, <i>turned into something else</i>, Freya...?"
 LVE_8_3_OVP_F_038,我爱你，伊莉丝……,17357,恋爱事件LVE,8月3日,OVP_F,,已译,"I love you, Elise..."
 LVE_8_3_OVP_F_039,……！,17358,恋爱事件LVE,8月3日,OVP_F,,已译,...!
-LVE_8_3_OVP_F_040,真心的——这一个星期就像美梦成真！,17359,恋爱事件LVE,8月3日,OVP_F,[专名] Sunday统一作「星期天」,已译,I truly do — this past week has been a dream come true!
+LVE_8_3_OVP_F_040,真心的——这一个星期就像美梦成真！,17359,恋爱事件LVE,8月3日,OVP_F,,已译,I truly do — this past week has been a dream come true!
 LVE_8_3_OVP_F_041,芙蕾雅，你……,17360,恋爱事件LVE,8月3日,OVP_F,,已译,"Freya, you..."
 LVE_8_3_OVP_F_042,我知道这一切太突然了，可是……,17361,恋爱事件LVE,8月3日,OVP_F,,已译,"I know this is all very sudden, but..."
 LVE_8_3_OVP_F_043,你愿意和我一起去普里梅尔多夫吗，伊莉丝？,17362,恋爱事件LVE,8月3日,OVP_F,,已译,"Won't you come to Primeldorf with me, Elise?"
@@ -19286,7 +19286,7 @@ CHR_035_036,你这家伙……！,19253,村镇日常CHR,035-036,—,"[语气] �
 CHR_036_001,……,19254,村镇日常CHR,036-001,—,,已译,...
 CHR_036_002,我又不咬人，奥蒂莉太太。,19255,村镇日常CHR,036-002,—,,已译,"I won't bite you, Mrs. Odilie."
 CHR_036_003,唉，伊莉丝——我可怎么办呀？,19256,村镇日常CHR,036-003,—,[语气] Oh依语境改译,已译,"Oh, Elise — what am I to do?"
-CHR_036_004,我这一个星期都吓得魂不附体！,19257,村镇日常CHR,036-004,—,[专名] Sunday统一作「星期天」,已译,I've been scared witless all week!
+CHR_036_004,我这一个星期都吓得魂不附体！,19257,村镇日常CHR,036-004,—,,已译,I've been scared witless all week!
 CHR_036_005,谁都看得出来，奥蒂莉太太。,19258,村镇日常CHR,036-005,—,,已译,"Everyone can tell, Mrs. Odilie."
 CHR_036_006,哎，丫头，替我捡几个鸡蛋可好？,19259,村镇日常CHR,036-006,—,[语气] Oh依语境改译,已译,"Oh, will you please fetch me some eggs, lass?"
 CHR_036_007,好吧。,19260,村镇日常CHR,036-007,—,[标点] 还原句号,已译,All right.
@@ -22813,7 +22813,7 @@ XUAT_01395,真是够了！老斯特凡说那话的时候都快咽气了！,22605
 XUAT_01396,真是的，布伦希尔德！,22606,遗留层XUAT,—,XUAT,[v11修订] 此处感叹词作「真是的」,已译,"For goodness' sake, Brunhilde!"
 XUAT_01397,真是的，芙蕾雅……,22607,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 LVE_2_3_OVP_F_36,已译,"For goodness' sake, Freya..."
 XUAT_01398,真是的，我连自己的心思都听不清了！,22608,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_4_5_WCR_D_01_009,已译,"For goodness' sake, I can't even hear my own thoughts...!"
-XUAT_01399,真是的，我总不能让你一整天都脸色发青吧！,22609,遗留层XUAT,—,XUAT,[v11修订] 叹词统一作「真是的」,已译,"For goodness' sake, I can't have you be green about the gills all day!"
+XUAT_01399,真是的，我总不能让你一整天都脸色发青吧！,22609,遗留层XUAT,—,XUAT,[v11修订] 此处叹词作「真是的」,已译,"For goodness' sake, I can't have you be green about the gills all day!"
 XUAT_01400,真是的，明蒂！,22610,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_5_4_VSQ_03_029,已译,"For goodness' sake, Mindy!"
 XUAT_01401,真是的，奥蒂莉太太……,22611,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_2_3_VIN_02_005,已译,"For goodness' sake, Mrs Odilie..."
 XUAT_01402,够了吧，穆比……！,22612,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"For goodness' sake, Mubby...!"
@@ -27786,7 +27786,7 @@ XUAT_06142,您这份好心情是打哪儿来的，古斯塔夫先生？,27352,�
 XUAT_06143,主啊，那只乌鸦到底跑哪儿去了……,27353,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Where in the Lord's name is that crow...
 XUAT_06144,他现在人在哪儿呢，格蕾特奶奶？,27354,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_5_1_OLH_01_009,已译,"Where is he now, granny Gretel?"
 XUAT_06145,他现在到底在哪儿呢，玛尔伦太太？,27355,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_5_1_VST_01_012,已译,"Where is he right now, Mrs Marlen?"
-XUAT_06146,他到底在哪儿……真是的……,27356,遗留层XUAT,—,XUAT,[v11修订] 叹词统一作「真是的」,已译,Where is he... For goodness' sake...
+XUAT_06146,他到底在哪儿……真是的……,27356,遗留层XUAT,—,XUAT,[v11修订] 此处叹词作「真是的」,已译,Where is he... For goodness' sake...
 XUAT_06147,它在哪里？,27357,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Where is it?
 XUAT_06148,去哪儿呢，欧根先生？,27358,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_4_5_VSQ_01_018,已译,"Where to, Mr Eugen?"
 XUAT_06149,大家都去哪儿了？,27359,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_4_1_VSQ_01_001,已译,Where's everyone...?
