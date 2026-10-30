@@ -1,5 +1,17 @@
 第三方组件与发布说明
 
+一、本许可证的适用范围
+
+本仓库中由汉化项目自行创作的内容按 MIT 许可发布（见仓库根目录 LICENSE 文件）：
+LGTSChinese 插件源代码（source/LGTSChinese）、翻译数据
+（BepInEx/plugins/LGTSChinese/translation、BepInEx/Translation/zh）、
+配置调整与说明文档。
+
+第三方组件（BepInEx、XUnity.AutoTranslator、XUnity.ResourceRedirector、
+字体资源 arialuni_sdf_u2019）不适用 MIT 许可证，仍分别受其原始许可证约束，见下。
+
+二、第三方组件
+
 本仓库包含下列第三方运行时组件，用于加载 Little Goody Two Shoes 简体中文汉化补丁：
 
 1. BepInEx 5.4.23.5

@@ -2,14 +2,6 @@ MIT License
 
 Copyright (c) 2026 xiayiyi0 (Little Goody Two Shoes 简体中文汉化项目)
 
-本许可证覆盖本仓库中由汉化项目自行创作的内容：LGTSChinese 插件源代码
-（source/LGTSChinese）、翻译数据（BepInEx/plugins/LGTSChinese/translation、
-BepInEx/Translation/zh）、配置调整与说明文档。
-
-第三方组件（BepInEx、XUnity.AutoTranslator、XUnity.ResourceRedirector、
-字体资源 arialuni_sdf_u2019）不适用本许可证，仍分别受其原始许可证约束，
-详见 LICENSE-NOTICE.txt。游戏本体及其文本、美术等内容的版权归原权利人所有。
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
