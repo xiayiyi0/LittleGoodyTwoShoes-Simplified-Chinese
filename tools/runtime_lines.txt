@@ -39,3 +39,5 @@ Will I be able to reach the end of this journey	拥抱潜藏在我心中的灵�
 whose final act is heralded by the brilliant light...	拥抱潜藏在我心中的灵梦	# SUB_002_009 逐行形态 第2行
 Step by step by step, I keep on this relentless march,Walking on, to the rhythm of the song heralded to me by the bell of the heavenly oracle.	一步……一步……只需要一直向前走，踏着神谕所奏响的旋律	# SUB_002_011 粘合形态(<br> 被归一为删除)
 Engraving such a pure name, the true moniker of your souldeep within my heart,	真红所呼唤的那个纯洁的真名，早已经铭记于心	# SUB_002_012 粘合形态(<br> 被归一为删除)
+Will I be able to reach the end of this journey whose final act is heralded	拥抱潜藏在我心中的灵梦	# PV 歌2 时间轴硬编码原文（codes 数组不够长，末尾两句保留英文）
+By the brilliant light that engulfs visions I stow so deep in my bosom?	终于能到达那光芒闪耀的终点了吧	# PV 歌2 同上

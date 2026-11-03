@@ -18,8 +18,18 @@ v1.3.30 (2026-11-03)
   两行), 译文里带换行就会两行同压在一帧上, 和逐行演出的观感对不上。现在把这些 cue 的
   译文压成一行 (只把换行换成应有的标点, 字词不动), 时间轴本来就逐句推的那几句仍按
   逐句显示。两首 PV 全部歌词记录复核后均为单行。
-- 版本号升至 1.3.30 (文件版本 1.3.30.0)。词典条数: by_refkey 21,189 / display 25,291
-  (新增 30 键) / item_names 79 / AT 24,700 / UI_System 536; 原有 25,261 条键值未变。
+- 版本号升至 1.3.30 (文件版本 1.3.30.0)。词典条数: by_refkey 21,189 / display 25,293
+  (新增 32 键) / item_names 79 / AT 24,700 / UI_System 536; 原有 25,261 条键值未变。
+- 同日补充（PV 歌 2 末尾两句仍是英文）：`Rozen_PV` 的副歌末尾两句
+  `Will I be able to reach the end of this journey whose final act is heralded`、
+  `By the brilliant light that engulfs visions I stow so deep in my bosom?` 是**时间轴
+  自带的英文原文**，不在译本记录行里；而且它们的措辞与译本英文列也不同（译本作
+  `…whose final act is heralded by the brilliant light...` / `that engulfs visions…`），
+  归一键自然对不上。成因: 该 PV 的 `SubtitlesManager` 按 `SubtitleSO.codes[]` 逐条替换
+  字幕，数组长度不够时循环提前中断，末尾几条就保留了时间轴里作者写死的英文。
+  现按实机抓到的原文补进运行时字幕层，取值沿用逐句演出已定的译法；display
+  25,291 → 25,293。
+- zip 已同版重打包（仍为 1.3.30），sha256 见 Release 页；DLL 未改动。
 
 v1.3.29 (2026-11-03)
 - 修一处名牌显示错误: 角色名被写成了台词。`XUAT_` 里那批英文就是裸名字的条目
