@@ -7841,7 +7841,7 @@ DLG_6_3_VSQ_05_001,我、我有笔买卖要跟你谈，伊、伊莉丝！,7839,�
 DLG_6_3_VSQ_05_002,滚开，玛莎——我今天的麻烦够多了！,7840,主线对白DLG,6月3日,VSQ,,已译,"Out of my sight, Martha — I've had enough trouble for one day!"
 DLG_6_3_VSQ_05_003,可、可我觉得你会想听的！,7841,主线对白DLG,6月3日,VSQ,,已译,"Oh, but I-I think you'd like to hear this!"
 DLG_6_3_VSQ_05_004,那就快说！我可没工夫耗着！,7842,主线对白DLG,6月3日,VSQ,,已译,"Out with it, then! I don't have all day!"
-DLG_6_3_VSQ_05_005,啊，可、可这不是白说的！,7843,主线对白DLG,6月3日,VSQ,,已译,"Ah, b-but it wouldn't be for f-free!"
+DLG_6_3_VSQ_05_005,啊，可、可这可不是白、白给的！,7843,主线对白DLG,6月3日,VSQ,[习语] for free 是「白给／免费」；「白说」读错，且 f-free 的结巴要还原,已译,"Ah, b-but it wouldn't be for f-free!"
 DLG_6_3_VSQ_05_006,不如你、你给我点<color=#f344a2>丰盛浓汤</color>？,7844,主线对白DLG,6月3日,VSQ,[专名] 道具名统一作「丰盛浓汤」,已译,How about y-you give me some <color=#f344a2>hearty soup</color>?
 DLG_6_3_VSQ_05_007,哟，我看免了吧，穆芙丝。,7845,主线对白DLG,6月3日,VSQ,[专名] Muffs绰号作「穆芙丝」,已译,"Why, I don't think so, Muffs."
 DLG_6_3_VSQ_05_008,我们说、说好了的，伊莉丝……！,7846,主线对白DLG,6月3日,VSQ,,已译,"We had a-an a-agreement, Elise...!"
@@ -9171,7 +9171,7 @@ DLG_7_5_OLH_01_005,什么奇怪，斯佩尔特？,9169,主线对白DLG,7月5日,
 DLG_7_5_OLH_01_006,我对今晚的守夜有种奇怪的感觉，总觉得有点……,9170,主线对白DLG,7月5日,OLH,,已译,"I have a strange feeling about tonight's vigil, it all feels a little..."
 DLG_7_5_OLH_01_007,像是一种虚假的平静。,9171,主线对白DLG,7月5日,OLH,[标点] 还原句号,已译,As though there's a false sense of calm.
 DLG_7_5_OLH_01_008,大伙儿的态度确实转变得太快了，这倒是真的……,9172,主线对白DLG,7月5日,OLH,,已译,"Folks did change their tunes rather quickly, that's true..."
-DLG_7_5_OLH_01_009,给，趁我还没忘了。,9173,主线对白DLG,7月5日,OLH,,已译,"Here, before I forget."
+DLG_7_5_OLH_01_009,给，趁我还没忘。,9173,主线对白DLG,7月5日,OLH,[语法] 「还没忘了」多一个「了」,已译,"Here, before I forget."
 DLG_7_5_OLH_01_010,你觉得今晚大伙儿会不会又失了神智？,9174,主线对白DLG,7月5日,OLH,,已译,Do you think they might all lose their minds again tonight?
 DLG_7_5_OLH_01_011,倒也未必，只是……,9175,主线对白DLG,7月5日,OLH,,已译,"Not necessarily, but... "
 DLG_7_5_OLH_01_012,得承认，我对这个节庆也有点不安……,9176,主线对白DLG,7月5日,OLH,[专名] festival统一作「节庆」,已译,"I must admit I'm feeling nervous about the festival, too..."
@@ -11297,7 +11297,7 @@ CUT_3_3_OCR_01_085,嗯……,11295,过场对白CUT,3月3日,OCR,,已译,Hmm...
 CUT_3_3_OCR_01_086,我知道听着有点牵强，不过……！,11296,过场对白CUT,3月3日,OCR,,已译,"I know it's a little far-fetched, but...!"
 CUT_3_3_OCR_01_087,咱们就这么办吧，萝丝玛琳——走！,11297,过场对白CUT,3月3日,OCR,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,"We ought to do it, Rosmarine - let's go!"
 CUT_3_3_OCR_01_088,好！,11298,过场对白CUT,3月3日,OCR,,已译,Yes!
-CUT_3_3_OCR_01_091,啊，差点忘了！,11299,过场对白CUT,3月3日,OCR,,已译,"Ah, before I forget!"
+CUT_3_3_OCR_01_091,啊，趁我还没忘！,11299,过场对白CUT,3月3日,OCR,[习语] 同上：before I forget 不作「差点忘了」,已译,"Ah, before I forget!"
 CUT_3_3_OCR_01_093,天一黑你就得马上回家，听见没？,11300,过场对白CUT,3月3日,OCR,,已译,"You're to go home right away come nightfall, you hear me?"
 CUT_3_3_OCR_01_094,别在镇上瞎逛，别等我，也别跟这些人多聊。,11301,过场对白CUT,3月3日,OCR,,已译,"Don't loiter about town, don't wait for me and don't talk too much to these folks."
 CUT_3_3_OCR_01_095,啊，好的！,11302,过场对白CUT,3月3日,OCR,,已译,"Ah, all right!"
@@ -11757,7 +11757,7 @@ CUT_3_5_HLR_01_065,我也不知道该说什么，萝丝玛琳——我就是捡�
 CUT_3_5_HLR_01_066,她把这个叫作<b>信物</b>。,11756,过场对白CUT,3月5日,HLR,,已译,"<b>Testaments</b>, was what she called them."
 CUT_3_5_HLR_01_067,我只知道我梦里看见的，还有奶奶跟我说过的……,11757,过场对白CUT,3月5日,HLR,,已译,"All I know is what's been shown to me in my dreams, and what my granny told me..."
 CUT_3_5_HLR_01_068,那老太婆是谁，她想从你身上得到什么……我说不准，不过……,11758,过场对白CUT,3月5日,HLR,,已译,"Who that hag was, what she wants from you... I can't say for certain, but..."
-CUT_3_5_HLR_01_080,这双鞋是祂赐予的礼物，而且……,11759,过场对白CUT,3月5日,HLR,[专名] a gift泛指礼物不作赠礼,已译,That these shoes were a gift from Him and...
+CUT_3_5_HLR_01_080,这双鞋是祂赐予的赠礼，而且……,11759,过场对白CUT,3月5日,HLR,[双关] 「祂所赐」用「赠礼」，与祭礼术语同词，是有意的反讽,已译,That these shoes were a gift from Him and...
 CUT_3_5_HLR_01_100,（我最好盯着她点儿，免得那些人……）,11760,过场对白CUT,3月5日,HLR,,已译,"(I best keep an eye on her, lest those folks...)"
 CUT_3_5_HLR_01_600,我得想想这件事……,11761,过场对白CUT,3月5日,HLR,,已译,I need to think about this...
 CUT_3_5_HLR_02_001,伊莉丝……,11762,过场对白CUT,3月5日,HLR,[标点] 还原省略号,已译,Elise...
@@ -13343,7 +13343,7 @@ CUT_6_1_HFY_01_055,来吧，萝丝玛琳——咱们该走了。,13341,过场对
 CUT_6_1_HFY_01_056,可我得先去找弗洛克！,13342,过场对白CUT,6月1日,HFY,[语气] Oh依语境改译,已译,"Oh, but I'd best find Flocke first!"
 CUT_6_1_HLR_01_001,求你了，弗洛克……！,13343,过场对白CUT,6月1日,HLR,,已译,"I'm begging you, Flocke...!"
 CUT_6_1_HLR_01_002,（外面到底怎么回事……？）,13344,过场对白CUT,6月1日,HLR,,已译,(What's going on out there...?)
-CUT_6_1_OGR_01_001,<b>祂</b>的礼物倒是很衬你呢，丫头……,13345,过场对白CUT,6月1日,OGR,[标签] 补全<b>祂</b>,已译,"<b>His</b> gift does suit you rather well, lass..."
+CUT_6_1_OGR_01_001,<b>祂</b>的赠礼倒是很衬你呢，丫头……,13345,过场对白CUT,6月1日,OGR,[标签] 补全<b>祂</b>；[双关] 「祂所赐」用「赠礼」，与祭礼术语同词，是有意的反讽,已译,"<b>His</b> gift does suit you rather well, lass..."
 CUT_6_1_OGR_01_002,……！,13346,过场对白CUT,6月1日,OGR,,已译,...!
 CUT_6_1_OGR_01_003,那双鞋——它们会引你通往<b>祂</b>那里。,13347,过场对白CUT,6月1日,OGR,,已译,Those shoes — they'll guide you to <b>Him</b>.
 CUT_6_1_OGR_01_004,你是谁？！,13348,过场对白CUT,6月1日,OGR,[标点] 删多余省略号/感叹号,已译,Who are you?!
@@ -16337,7 +16337,7 @@ LVE_4_2_OCR_R_027,我们在这世上的时间相当有限，不是吗？,16304,�
 LVE_4_2_OCR_R_028,嗯……,16305,恋爱事件LVE,4月2日,OCR_R,[语气] 定句「嗯……」,已译,I suppose...
 LVE_4_2_OCR_R_029,你看到这颗松果是怎么被鳞片包裹的了吗？,16306,恋爱事件LVE,4月2日,OCR_R,,已译,You see how the pinecone is covered with scales?
 LVE_4_2_OCR_R_030,要是你把它想成你自己，想成你至今为止走过的人生……,16307,恋爱事件LVE,4月2日,OCR_R,,已译,If you think of it as yourself and your life up until this moment...
-LVE_4_2_OCR_R_031,你就能明白，每一片鳞瓣都代表着某样东西，对吧？,16308,恋爱事件LVE,4月2日,OCR_R,,已译,"You can understand how each scale represents something, right?"
+LVE_4_2_OCR_R_031,你就能明白，每一片鳞片都代表着某样东西，对吧？,16308,恋爱事件LVE,4月2日,OCR_R,[统一] 松果这一段作「鳞片」，与 029/034/036/038/039/045 一致,已译,"You can understand how each scale represents something, right?"
 LVE_4_2_OCR_R_032,我明白了……,16309,恋爱事件LVE,4月2日,OCR_R,,已译,I see...
 LVE_4_2_OCR_R_033,你的经历、你的梦想，还有你所珍视的一切……,16310,恋爱事件LVE,4月2日,OCR_R,,已译,"Your experiences and dreams, and the things you hold dear..."
 LVE_4_2_OCR_R_034,所有这些，都跟这颗松果上的鳞片一模一样……,16311,恋爱事件LVE,4月2日,OCR_R,,已译,All those things are just the same as the scales on this pinecone...
@@ -16356,7 +16356,7 @@ LVE_4_2_OCR_R_046,如今守在你身边，我感到从未有过的完整！,1632
 LVE_4_2_OCR_R_047,你明白我的意思吧，伊莉丝？,16324,恋爱事件LVE,4月2日,OCR_R,[标点] 补回呼语Elise并还原问号,已译,"You see what I mean, don't you, Elise?"
 LVE_4_2_OCR_R_048,我明白！我明白！,16325,恋爱事件LVE,4月2日,OCR_R,[语气] 还原原文感叹语气,已译,I do! I do!
 LVE_4_2_OCR_R_049,啊，终于能把这事告诉你，我真是太高兴了！,16326,恋爱事件LVE,4月2日,OCR_R,[语气] Oh依语境改译,已译,"Oh, I'm so glad I could finally tell you about it!"
-LVE_4_2_OCR_R_050,弗洛克也是这些鳞瓣中的一片呢！你知道吗，它其实是……,16327,恋爱事件LVE,4月2日,OCR_R,[称谓] Flocke代词统一作「它」,已译,"Flocke is one of these scales, too! Did you know that he's..."
+LVE_4_2_OCR_R_050,弗洛克也是这些鳞片中的一片呢！你知道吗，它其实是……,16327,恋爱事件LVE,4月2日,OCR_R,[称谓] Flocke代词统一作「它」；[统一] 同上，本段作「鳞片」,已译,"Flocke is one of these scales, too! Did you know that he's..."
 LVE_4_2_OCR_R_051,喘口气，萝丝玛琳！,16328,恋爱事件LVE,4月2日,OCR_R,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,"Breathe, Rosmarine!"
 LVE_4_2_OCR_R_052,是、是你让我变得完整，伊莉丝！,16329,恋爱事件LVE,4月2日,OCR_R,[标点] 还原感叹号，保留结巴,已译,"Y-You make me whole, Elise!"
 LVE_4_2_OCR_R_053,那就是……我一直想跟你说的话……,16330,恋爱事件LVE,4月2日,OCR_R,,已译,That's... what I'm trying to tell you...
@@ -16418,7 +16418,7 @@ LVE_4_3_VBA_F_021,缝纫、烘焙、调配药膏，你能想到的都有！,1638
 LVE_4_3_VBA_F_022,原来<i>这就是</i>你什么都会做的缘故！,16386,恋爱事件LVE,4月3日,VBA_F,,已译,So <i>that's</i> how you know how to do all of that!
 LVE_4_3_VBA_F_023,毕竟，当年我太小，没能亲自跟她学……,16387,恋爱事件LVE,4月3日,VBA_F,,已译,"After all, I was too young to learn from her in person..."
 LVE_4_3_VBA_F_024,芙蕾雅……,16388,恋爱事件LVE,4月3日,VBA_F,,已译,Freya...
-LVE_4_3_VBA_F_025,啊，差点忘了……！,16389,恋爱事件LVE,4月3日,VBA_F,[标点] 按原文还原省略号,已译,"Ah, before I forget...!"
+LVE_4_3_VBA_F_025,啊，趁我还没忘……！,16389,恋爱事件LVE,4月3日,VBA_F,[标点] 按原文还原省略号；[习语] before I forget 作「趁我还没忘」；「差点忘了」留给 I almost/nearly forgot,已译,"Ah, before I forget...!"
 LVE_4_3_VBA_F_026,是葡萄派，对吧？,16390,恋爱事件LVE,4月3日,VBA_F,,已译,"Grape pie, was it?"
 LVE_4_3_VBA_F_027,啊？,16391,恋爱事件LVE,4月3日,VBA_F,,已译,Huh?
 LVE_4_3_VBA_F_028,你最爱的那个呀，傻瓜！是葡萄派，对吧？,16392,恋爱事件LVE,4月3日,VBA_F,,已译,"Your favorite, silly! It was grape pie, wasn't it?"
@@ -20609,7 +20609,7 @@ ITM_K_D_20,一把古旧磨损的鱼形铁钥匙。其纹样令人想起基弗伯
 ITM_K_D_21,一把贴着标签的铁制万能钥匙。,20567,商店与道具,—,K_D,,已译,A labeled iron skeleton key.
 ITM_K_D_22,这只玻璃小瓶镶嵌在精致的金色框架中，正静候那<color=#ed1c24><b>最甜美的琼浆</b></color>。,20568,商店与道具,—,K_D,[去腔] 调整分词前置为自然主谓语序,已译,"Encased in a delicate golden frame, the glass vial awaits the <color=#ed1c24><b>Sweetest Nectar</b></color>."
 ITM_K_D_23,用伊莉丝的金色发绺捆束在一起的黑色麦穗。,20569,商店与道具,—,K_D,,已译,Black wheat held together by Elise's golden locks of hair.
-ITM_K_D_24,伊莉丝那双闪亮的红鞋子。据说是<b>祂</b>亲自赐下的礼物。,20570,商店与道具,—,K_D,,已译,Elise's shiny red shoes. Said to be a gift from <b>Him</b> himself.
+ITM_K_D_24,伊莉丝那双闪亮的红鞋子。据说是<b>祂</b>亲自赐下的赠礼。,20570,商店与道具,—,K_D,[双关] 「祂所赐」用「赠礼」，与祭礼术语同词，是有意的反讽,已译,Elise's shiny red shoes. Said to be a gift from <b>Him</b> himself.
 ITM_K_D_25,萝森玛琳对伊莉丝矢志不渝之爱的证明。,20571,商店与道具,—,K_D,,已译,Proof of Rozenmarine's undying love for Elise.
 ITM_K_D_26,芙蕾雅对伊莉丝矢志不渝之爱的证明。,20572,商店与道具,—,K_D,,已译,Proof of Freya's undying love for Elise.
 ITM_K_D_27,斯佩尔特对伊莉丝矢志不渝之爱的证明。,20573,商店与道具,—,K_D,,已译,Proof of Lebkuchen's undying love for Elise.
@@ -21894,8 +21894,8 @@ XUAT_00569,我好像总是只会给你惹麻烦……！,21779,遗留层XUAT,—
 XUAT_00570,我只知道咱们那一阵子折腾全是白费功夫！,21780,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,All I know is we went through all that commotion for nothing!
 XUAT_00571,我只想多了解祂、还有祂的意图……,21781,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,All I want is to know more about Him and His intentions...
 XUAT_00572,我就是说大伙儿需要个交代。,21782,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_4_4_VSQ_03_004,已译,All I was saying is that folks need closure.
-XUAT_00573,"所有恋爱事件都标有<sprite=""balloonicons"" name=""love_token"">符号。<br>每个恋爱事件都会跳过1个时段。",21783,遗留层XUAT,—,XUAT,[v1.3.27修] 按本体英文恢复/补回 sprite 标签,已译,All Love Events are marked with the symbol. Each Love Event will skip 1 time period.
-XUAT_00574,"所有恋爱事件都标有<sprite=""balloonicons"" name=""love_token"">符号。<br>每个恋爱事件都会跳过1个时段。",21784,遗留层XUAT,—,XUAT,[v1.3.27修] 按本体英文恢复/补回 sprite 标签,已译,All Love Events are marked with the  symbol.\nEach Love Event will skip 1 time period.
+XUAT_00573,"所有浪漫约会都标有<sprite=""balloonicons"" name=""love_token"">符号。<br>每个浪漫约会都会跳过1个时段。",21783,遗留层XUAT,—,XUAT,[v1.3.27修] 按本体英文恢复/补回 sprite 标签；[术语] 同上，Love Event 与 Romantic Date 统一作「浪漫约会」,已译,All Love Events are marked with the symbol. Each Love Event will skip 1 time period.
+XUAT_00574,"所有浪漫约会都标有<sprite=""balloonicons"" name=""love_token"">符号。<br>每个浪漫约会都会跳过1个时段。",21784,遗留层XUAT,—,XUAT,[v1.3.27修] 按本体英文恢复/补回 sprite 标签；[术语] 同上，Love Event 与 Romantic Date 统一作「浪漫约会」,已译,All Love Events are marked with the  symbol.\nEach Love Event will skip 1 time period.
 XUAT_00575,"所有<color=#EC0E51><b>浪漫约会</b></color>都标有<sprite=""balloonicons"" name=""love_token"">符号。
 每次约会都会<b><color=#E1402C>跳过</color>1个时段</b>！",21785,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 TUT_03_01（仅AT有）,已译,All Romantic Dates are marked with the  icon.\nEach date will skip one time period!
 XUAT_00576,"所有<color=#30C973><b>剧情事件</b></color>都标有<sprite=""balloonicons"" name=""book_open"">图标！
@@ -24853,7 +24853,7 @@ XUAT_03370,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
 Ut enim ad minim veniam, quis nodo consequat. 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia",24580,遗留层XUAT,—,XUAT,[遗留收编] 人名/名单免译,已译,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ut labore PRESS “Z”. Ut enim ad minim veniam, quis nodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia"
 XUAT_03371,在你表妹面前倒是收起了那股狠劲儿，我看出来了！,24581,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Lost your bite in front of your cousin, I see!"
-XUAT_03372,恋爱事件,24582,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Love Events
+XUAT_03372,浪漫约会,24582,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录；[术语] 同一机制 Love Event 与 Romantic Date 统一作「浪漫约会」（教程 TUT_03_01 用此名）,已译,Love Events
 XUAT_03373,还有爱……也是你因为害怕而一直藏着不让自己看见的东西……,24583,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Love, also... Is something you're withholding from yourself out of fear..."
 XUAT_03374,见到你真高兴，我的好丫头。,24584,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Lovely seeing you, my good lass."
 XUAT_03375,哎呀，路德维希！,24585,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_4_2_VIN_03_015,已译,Ludwig
@@ -24942,7 +24942,7 @@ XUAT_03436,我……！,24646,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DL
 XUAT_03437,什么意思？,24647,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_7_6_VSQ_01_021,已译,Meaning...?
 XUAT_03438,梅希蒂尔德！,24648,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_4_3_VSQ_01_036,已译,Mechtilde
 XUAT_03439,到麦田里来见我——让我瞧瞧你的决心！,24649,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CUT_4_5_WCR_A_04_010,已译,Meet me in the wheatfield - show me your resolution!
-XUAT_03440,遇见命中注定的那个人，是一份赠礼，伊莉丝。,24650,遗留层XUAT,—,XUAT,[v11修订] 祭礼Gift统一定名「赠礼」,已译,"Meeting your fated one is a gift, Elise."
+XUAT_03440,遇见命中注定的那个人，是一份礼物，伊莉丝。,24650,遗留层XUAT,—,XUAT,[用词] 这里的 gift 指遇见命定之人，不是祂所赐、也不是祭礼；用「礼物」,已译,"Meeting your fated one is a gift, Elise."
 XUAT_03441,梅根·加勒特,24651,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Megan Garrett
 XUAT_03442,"梅丽莎·塞博拉
 帕特里夏·「Ebee」·席尔瓦",24652,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Melissa Cébola Patrícia ""Ebee"" Silva"
@@ -26128,7 +26128,7 @@ XUAT_04577,快点，阿普菲尔！咱们得离开这个地方……！,25787,�
 XUAT_04578,小声点！你没瞧见都把可怜的奥蒂莉吓成什么样了吗？,25788,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_3_4_VIN_03_027,已译,"Quiet, now! Can't you see you're scaring poor Odilie?"
 XUAT_04579,退出,25789,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Quit
 XUAT_04580,退出到标题画面吗？,25790,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Quit to Title Screen?
-XUAT_04581,说得没错，丫头——是祂赐予你的！,25791,遗留层XUAT,—,XUAT,[遗留收编] 独立条目（取display侧）,已译,"Quite right, lass - he's gifted them to you!"
+XUAT_04581,说得没错，丫头——是祂赐予你的赠礼！,25791,遗留层XUAT,—,XUAT,[遗留收编] 独立条目（取display侧）；[双关] 「祂所赐」用「赠礼」，与祭礼术语同词，是有意的反讽,已译,"Quite right, lass - he's gifted them to you!"
 XUAT_04582,今天早上阳光真好，您说是不是？,25792,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Quite the sunshine we're getting this morning, wouldn't you say?"
 XUAT_04583,第 2 回合,25793,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,ROUND 2
 XUAT_04584,"萝森玛琳过场动画「野蓟
