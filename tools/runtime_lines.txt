@@ -28,3 +28,14 @@ Step by step by step, I keep on this relentless march, Walking on, to the rhythm
 Engraving such a pure name, the true moniker of your soul deep within my heart,	真红所呼唤的那个纯洁的真名，早已经铭记于心	# SUB_002_012 一条 cue 两行 -> 压成一行(换行改标点, 不增删字词)
 Make everyone look at me Even if just once, let me shine brighter than anyone else.	不管是谁都希望他们能注视我，即使只有这一次，也希望能比其他人都要耀眼	# SUB_001_010 整条(时间轴已逐句推, 此为兜底): 压成一行
 look at me, look at me, look at me, LOOK AT ME LOOK AT ME	向我这边……，更多……，看过来，看过来，看过来，看过来	# SUB_001_012 整条(i2 遗留形态; 时间轴已逐句推, 此为兜底): 6 行压成一行
+I’m done with this thankless struggle!No more being bossed around!	我受够了吃力不讨好的每一天！再也不要过着被呼来唤去的日子了！	# SUB_001_002 粘合形态(<br> 被归一为删除)
+Oh ruby red who guides my dreams,won't you let me be selfish for once?	在梦中引导着奇迹成真的红宝石，能否让任性的我实现一个愿望	# SUB_001_008 粘合形态(<br> 被归一为删除)
+Make everyone look at meEven if just once, let me shine brighter than anyone else.	不管是谁都希望他们能注视我，即使只有这一次，也希望能比其他人都要耀眼	# SUB_001_010 粘合形态(<br> 被归一为删除)
+“Oh, beacon which guides meBestow upon me visions anew...	「路标啊，赐予我新的预兆吧	# SUB_002_007 粘合形态(<br> 被归一为删除)
+“Oh, beacon which guides me	「路标啊，	# SUB_002_007 逐行形态 第1行
+Bestow upon me visions anew...	赐予我新的预兆吧	# SUB_002_007 逐行形态 第2行
+Will I be able to reach the end of this journeywhose final act is heralded by the brilliant light...	拥抱潜藏在我心中的灵梦	# SUB_002_009 粘合形态(<br> 被归一为删除)
+Will I be able to reach the end of this journey	拥抱潜藏在我心中的灵梦	# SUB_002_009 逐行形态 第1行
+whose final act is heralded by the brilliant light...	拥抱潜藏在我心中的灵梦	# SUB_002_009 逐行形态 第2行
+Step by step by step, I keep on this relentless march,Walking on, to the rhythm of the song heralded to me by the bell of the heavenly oracle.	一步……一步……只需要一直向前走，踏着神谕所奏响的旋律	# SUB_002_011 粘合形态(<br> 被归一为删除)
+Engraving such a pure name, the true moniker of your souldeep within my heart,	真红所呼唤的那个纯洁的真名，早已经铭记于心	# SUB_002_012 粘合形态(<br> 被归一为删除)
