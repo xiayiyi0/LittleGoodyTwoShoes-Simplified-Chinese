@@ -4,9 +4,9 @@
 # 找不到对应英文原文, 因此单独成层, 由 verify_release.py 一并认作已覆盖。
 # 出处见行尾注释。
 Make everyone look at me	不管是谁都希望他们能注视我	# SUB_001_010 第1行
-Even if just once, let me shine brighter than anyone else.	即使只有这一次\n也希望能比其他人都要耀眼	# SUB_001_010 第2+3行
+Even if just once, let me shine brighter than anyone else.	即使只有这一次，也希望能比其他人都要耀眼	# SUB_001_010 第2+3行
 look at me	看过来	# SUB_001_012 里的重唱行
-LOOK AT ME, LOOK AT ME	看过来\n看过来	# SUB_001_012 里的重唱行
+LOOK AT ME, LOOK AT ME	看过来，看过来	# SUB_001_012 里的重唱行
 I’m done with this thankless struggle!	我受够了吃力不讨好的每一天！	# SUB_001_002 第1行
 No more being bossed around!	再也不要过着被呼来唤去的日子了！	# SUB_001_002 第2行
 Like a rose who couldn’t bloom on her own,	就像一朵不能自己绽放的玫瑰	# SUB_001_007 第1行
@@ -19,3 +19,12 @@ Step by step by step, I keep on this relentless march,	一步……一步……�
 Walking on, to the rhythm of the song heralded to me by the bell of the heavenly oracle.	踏着神谕所奏响的旋律	# SUB_002_011 第2行
 Engraving such a pure name, the true moniker of your soul	真红所呼唤的那个纯洁的真名	# SUB_002_012 第1行
 deep within my heart,	早已经铭记于心	# SUB_002_012 第2行
+I’m done with this thankless struggle! No more being bossed around!	我受够了吃力不讨好的每一天！再也不要过着被呼来唤去的日子了！	# SUB_001_002 一条 cue 两行 -> 压成一行(换行改标点, 不增删字词)
+Every year, no matter by whom or how many times I was adorned	每一年，无论我被谁多少次装饰得多么光鲜亮丽	# SUB_001_005 一条 cue 两行 -> 压成一行(换行改标点, 不增删字词)
+Like a rose who couldn’t bloom on her own, I was overshadowed.	就像一朵不能自己绽放的玫瑰，依旧是黯然失色	# SUB_001_007 一条 cue 两行 -> 压成一行(换行改标点, 不增删字词)
+Oh ruby red who guides my dreams, won't you let me be selfish for once?	在梦中引导着奇迹成真的红宝石，能否让任性的我实现一个愿望	# SUB_001_008 一条 cue 两行 -> 压成一行(换行改标点, 不增删字词)
+Hey, look at me more, more	呐～更多……更多……	# SUB_001_011 一条 cue 两行 -> 压成一行(换行改标点, 不增删字词)
+Step by step by step, I keep on this relentless march, Walking on, to the rhythm of the song heralded to me by the bell of the heavenly oracle.	一步……一步……只需要一直向前走，踏着神谕所奏响的旋律	# SUB_002_011 一条 cue 两行 -> 压成一行(换行改标点, 不增删字词)
+Engraving such a pure name, the true moniker of your soul deep within my heart,	真红所呼唤的那个纯洁的真名，早已经铭记于心	# SUB_002_012 一条 cue 两行 -> 压成一行(换行改标点, 不增删字词)
+Make everyone look at me Even if just once, let me shine brighter than anyone else.	不管是谁都希望他们能注视我，即使只有这一次，也希望能比其他人都要耀眼	# SUB_001_010 整条(时间轴已逐句推, 此为兜底): 压成一行
+look at me, look at me, look at me, LOOK AT ME LOOK AT ME	向我这边……，更多……，看过来，看过来，看过来，看过来	# SUB_001_012 整条(i2 遗留形态; 时间轴已逐句推, 此为兜底): 6 行压成一行
