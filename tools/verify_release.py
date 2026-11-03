@@ -102,7 +102,7 @@ def main():
     ap.add_argument("--zip", default=None, help="默认取发布树内唯一 zip")
     ap.add_argument("--expect-entries", type=int, default=71)
     ap.add_argument("--expect-refkey", type=int, default=21189)
-    ap.add_argument("--expect-display", type=int, default=25261)
+    ap.add_argument("--expect-display", type=int, default=25280)
     ap.add_argument("--expect-item", type=int, default=79)
     ap.add_argument("--expect-at", type=int, default=24700)
     ap.add_argument("--expect-ui", type=int, default=536)
@@ -203,6 +203,22 @@ def main():
             if e:
                 covered.add(_nk(e))
                 covered.add(_nk(e.replace("\n", " ")))
+        # 运行时逐行字幕层(tools/runtime_lines.txt): 时间轴逐句 cue 与多行记录的
+        # 单行键, 译本 CSV 里没有对应英文原文(整条才有一条记录), 但它们是实机上屏串,
+        # 由 apply_translation.py 一并写入 display, 这里认作已覆盖。
+        rt_lines = {}
+        _rtp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "runtime_lines.txt")
+        if os.path.exists(_rtp):
+            for _ln in open(_rtp, encoding="utf-8"):
+                if not _ln.strip() or _ln.startswith("#"):
+                    continue
+                _p = _ln.rstrip("\r\n").split("\t")
+                if len(_p) < 2:
+                    continue
+                _rk, _rv = _nk(_p[0]), _p[1].replace("\\n", "\n").strip()
+                if _rk and _rv:
+                    rt_lines[_rk] = _rv
+        covered |= set(rt_lines)
         uncov = {}
         for name, m in (("display", disp), ("AT", at), ("item", itn)):
             n = sum(1 for k in m if _nk(k) not in covered)
@@ -227,6 +243,8 @@ def main():
             if e.strip() and zh:
                 vcand.setdefault(_nk(e), set()).add(_canon(zh))
                 vcand.setdefault(_nk(e.replace("\n", " ")), set()).add(_canon(zh))
+        for _rk, _rv in rt_lines.items():      # 运行时逐行字幕层: 期望值取自本层
+            vcand.setdefault(_rk, set()).add(_canon(_rv))
         vbad = {}
         for name, m in (("display", disp), ("AT", at), ("item", itn)):
             for k, v in m.items():
@@ -260,6 +278,8 @@ def main():
                 check("键集清单 " + fn, True, "缺失, 跳过", skipped=True)
                 continue
             ks = {ln.rstrip("\r\n") for ln in open(kp, encoding="utf-8") if ln.strip()}
+            if m is disp:
+                ks |= set(rt_lines)      # 运行时逐行字幕层的键另由 runtime_lines.txt 提供
             check("键集与 %s 一致" % fn, ks == set(m),
                   "清单 %d / 产物 %d" % (len(ks), len(m)))
 

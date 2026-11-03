@@ -24,7 +24,8 @@ namespace LGTSChinese
     [BepInPlugin("com.hanhua.lgts.chinese", "LGTS Simplified Chinese", Plugin.VER)]
     public class Plugin : BaseUnityPlugin
     {
-        public const string VER = "1.3.29";
+        // 1.3.30 (F2): 道具名按组件路径走 lgts_item_names.json (商店列表/道具详情/背包/HUD 小提示)
+        public const string VER = "1.3.30";
         // v1.3.27 (G3): 显示词典条数下限。低于此值说明文件被截断或解析半途失败,
         // 旧版会静默带病运行(玩家看到大面积英文, 日志却只有一行"载入 N 条")。
         private const int MinDisplayEntries = 20000;
@@ -226,12 +227,57 @@ namespace LGTSChinese
             var mAcq = AcquiredRe.Match(key);
             if (mAcq.Success) { __0 = "获得了 " + mAcq.Groups[1].Value + " 个"; TmpFixed++; LogTarget(s, key, true, __instance); return; }
 
+            // 3.5) v1.3.30 (F2): 道具名位 —— 先查 lgts_item_names.json, 未命中再回退整句词典。
+            //      Lebkuchen 既是角色名("斯佩尔特")又是食品名("姜饼"), 显示词典按英文归一只
+            //      能二选一, 旧版因此把商店列表/道具详情/背包/HUD 上的姜饼都显示成角色名。
+            //      这些位置与角色名牌的差别只在组件路径上, 所以按路径判上下文。
+            bool hudToast;
+            if (ItemNameCtx(__instance, key, out hudToast))
+            {
+                if (hudToast)
+                {
+                    // HUD 小提示是运行时拼接的 "名字 xN", 照 ITEM GET 弹窗的口径拆名字与数量,
+                    // 中文侧沿用译本已有的「名字 ×N」形(参见 XUAT_03177 Item x5 -> 道具 ×5)。
+                    var mq = ItemQtyRe.Match(key);
+                    if (mq.Success)
+                    {
+                        string zhQ = LookupItemName(Norm(mq.Groups[1].Value));
+                        if (zhQ != null)
+                        {
+                            string rebuilt = zhQ + " ×" + mq.Groups[2].Value;
+                            D("[ITEMNAME HUD] " + Trunc(key) + " -> " + Trunc(rebuilt));
+                            __0 = rebuilt; TmpFixed++; return;
+                        }
+                    }
+                }
+                string zhItem = LookupItemName(key);
+                if (zhItem != null)
+                {
+                    if (SeenHit.Add(key)) D("[ITEMNAME HIT] \"" + Trunc(s) + "\" @" + CompPath(__instance));
+                    __0 = RewrapColor(s, zhItem); TmpFixed++; return;
+                }
+            }
+
             // 4) 整句词典 (v1.3.7 C1: 命中后保留运行时整句 <color> 包裹)
             string zh;
             bool hit = Disp.TryGetValue(key, out zh) && !string.IsNullOrEmpty(zh);
             LogTarget(s, key, hit, __instance);   // 目标串无条件记录 (P0-04)
             if (hit)
             {
+                // v1.3.30 (F2) 自我诊断: 这一串既是道具名、又在这里被显示成了别的意思 ——
+                // 说明该文本位没被 ItemNameCtx 认出来(规则漏了某条路径), 或它本来就是角色名牌。
+                // 每条 键+路径 只记一次, 一次实机跑完看 DIAG 就知道规则够不够。
+                if (ItemNames.ContainsKey(key))
+                {
+                    string zhItem0;
+                    if (ItemNames.TryGetValue(key, out zhItem0) && !string.IsNullOrEmpty(zhItem0) && zhItem0 != zh)
+                    {
+                        string cp0 = CompPath(__instance);
+                        if (SeenNameCollide.Add(key + "|" + cp0))
+                            D("[NAME COLLIDE] \"" + Trunc(key) + "\" 显示词典=" + Trunc(zh)
+                              + " 道具名表=" + Trunc(zhItem0) + " @" + cp0);
+                    }
+                }
                 if (SeenHit.Add(key)) D("[TMP HIT ] \"" + Trunc(s) + "\"");
                 __0 = RewrapColor(s, zh); TmpFixed++; return;
             }
@@ -369,12 +415,10 @@ namespace LGTSChinese
                     string cnt = m.Groups[1].Value;
                     string colorOpen = m.Groups[2].Value;   // <color=red> 或 ""
                     string name = m.Groups[3].Value;
-                    string zhName, nk = Norm(name);
-                    // v1.3.18 (F1): 道具上下文优先查专用映射 —— Lebkuchen 在道具弹窗
+                    // v1.3.18 (F1) / v1.3.30 (F2): 道具上下文优先查专用映射 —— Lebkuchen 在道具位
                     // 是"姜饼"而非角色名"斯佩尔特"; 未命中再回退 display 词典。
-                    if (!(ItemNames.TryGetValue(nk, out zhName) && !string.IsNullOrEmpty(zhName)) &&
-                        !(Disp.TryGetValue(nk, out zhName) && !string.IsNullOrEmpty(zhName)))
-                    { zhName = name; D("[ITEM_NAME MISS] " + Trunc(name)); }
+                    string zhName = LookupItemName(Norm(name));
+                    if (zhName == null) { zhName = name; D("[ITEM_NAME MISS] " + Trunc(name)); }
                     string colorClose = string.IsNullOrEmpty(colorOpen) ? "" : "</color>";
                     lines[i] = "获得了 " + cnt + " 个 " + colorOpen + zhName + colorClose;
                     any = true; continue;
@@ -383,6 +427,44 @@ namespace LGTSChinese
                 if (Disp.TryGetValue(Norm(ln), out zh) && !string.IsNullOrEmpty(zh)) { lines[i] = zh; any = true; }
             }
             return any ? string.Join("\n", lines) : null;
+        }
+
+        // v1.3.30 (F2): 判定当前 TMP 文本位是不是"道具名"位, 以及是否为 HUD 的"名字 xN"小提示。
+        // 道具名位与角色名牌拿到的是同一串英文(Lebkuchen), 显示词典按英文归一只能二选一;
+        // 二者真正的差别只在组件路径上, 所以按路径判上下文。路径口径来自实机 DIAG 的 @组件路径:
+        //   商店列表  NormalItems/…/ShopItemView(Clone)/Name
+        //   背包列表  NormalItems|FoodItems|KeyItems/…/ItemView(Clone)/Name
+        //   道具详情  …/ItemDetail/…/Name
+        //   HUD 提示  HUD/ItemStatus/ItemGetSmall/Name   ("名字 xN", 见 ItemQtyRe)
+        // 先做廉价前置过滤(叶子名), 只有候选位才去拼路径 —— CompPath 有字符串开销,
+        // 每次文本写入都无谓调用会白白摊薄帧率。
+        private static bool ItemNameCtx(object inst, string key, out bool hudToast)
+        {
+            hudToast = false;
+            var comp = inst as UnityEngine.Component;
+            if (comp == null) return false;
+            string leaf;
+            try { leaf = comp.name; } catch { return false; }
+            if (leaf != "Name" && leaf != "ItemName" && leaf != "Title") return false;
+            string path = CompPath(inst);
+            if (path.IndexOf("ItemGetSmall", StringComparison.Ordinal) >= 0) { hudToast = true; return true; }
+            if (path.IndexOf("ShopItemView(Clone)", StringComparison.Ordinal) >= 0) return true;
+            if (path.IndexOf("ItemView(Clone)", StringComparison.Ordinal) >= 0) return true;
+            if (path.IndexOf("ItemDetail", StringComparison.Ordinal) >= 0) return true;
+            // 兜底: 上面四条都不认, 但这一串确实是译本里的道具名 —— 说明还有没枚举到的文本位。
+            // 照道具名处理, 并记一行 [ITEMNAME?] 留下路径证据(下次据此补规则, 不留静默错误)。
+            if (ItemNames.ContainsKey(key)) { D("[ITEMNAME?] " + Trunc(key) + " @" + path); return true; }
+            return false;
+        }
+
+        // v1.3.30 (F2): 道具名取值 —— 专用表优先, 整句词典兜底(未命中返回 null, 由调用方决定行为)。
+        private static string LookupItemName(string key)
+        {
+            if (string.IsNullOrEmpty(key)) return null;
+            string zh;
+            if (ItemNames.TryGetValue(key, out zh) && !string.IsNullOrEmpty(zh)) return zh;
+            if (Disp.TryGetValue(key, out zh) && !string.IsNullOrEmpty(zh)) return zh;
+            return null;
         }
 
         // 组件层级路径(诊断右侧栏目丝带是否 TMP 文本) (P1)
@@ -730,11 +812,17 @@ namespace LGTSChinese
         internal static int TmpSeen, TmpFixed, TmpMiss, TmpCjkSkip;
         private static readonly HashSet<string> SeenHit = new HashSet<string>(StringComparer.Ordinal);
         private static readonly HashSet<string> SeenMiss = new HashSet<string>(StringComparer.Ordinal);
+        // v1.3.30 (F2): 道具名串在道具名位之外被显示成别的意思时的去重集合(键+路径)
+        private static readonly HashSet<string> SeenNameCollide = new HashSet<string>(StringComparer.Ordinal);
         private static readonly System.Text.RegularExpressions.Regex AcquiredRe =
             new System.Text.RegularExpressions.Regex("^Acquired\\s+(\\d+)\\s*[xX]?$");
         // 道具复合行: "Acquired 1x <color=red>Tinderbox</color>" (P0-2)
         private static readonly System.Text.RegularExpressions.Regex AcqItemRe =
             new System.Text.RegularExpressions.Regex("^Acquired\\s+(\\d+)\\s*[xX]\\s*(<color=[^>]+>)?\\s*(.+?)\\s*(</color>)?\\s*$");
+        // v1.3.30 (F2): HUD 小提示的道具名+数量拼接串 "Lebkuchen x5" (ItemGetSmall/Name)。
+        // 与 ITEM GET 弹窗同源的拆分口径, 只是顺序反过来(名字在前, 数量在后)。
+        private static readonly System.Text.RegularExpressions.Regex ItemQtyRe =
+            new System.Text.RegularExpressions.Regex("^(.+?)\\s*[xX×]\\s*(\\d+)$");
         // 日期+时段模板 (P0-3): 支持全称/缩写、点/空格分隔。
         // v1.3.7 (C2): 补 "Witch. Hour" —— 存档槽用 WitchingHourAbv 的缩写形态(SaveSlot.cs:274)。
         private static readonly System.Text.RegularExpressions.Regex DayTimeRe =

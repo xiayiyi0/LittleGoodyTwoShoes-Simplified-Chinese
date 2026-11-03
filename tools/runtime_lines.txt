@@ -1,0 +1,21 @@
+# 运行时逐行字幕串 -> 译文 (apply_translation.py 读取)
+# 格式: 英文串<TAB>中文译文; 译文里的 \n 表示换行。
+# 这些串不是译本记录行(时间轴逐句上屏 / 多行记录的单行键), 译本 CSV 里
+# 找不到对应英文原文, 因此单独成层, 由 verify_release.py 一并认作已覆盖。
+# 出处见行尾注释。
+Make everyone look at me	不管是谁都希望他们能注视我	# SUB_001_010 第1行
+Even if just once, let me shine brighter than anyone else.	即使只有这一次\n也希望能比其他人都要耀眼	# SUB_001_010 第2+3行
+look at me	看过来	# SUB_001_012 里的重唱行
+LOOK AT ME, LOOK AT ME	看过来\n看过来	# SUB_001_012 里的重唱行
+I’m done with this thankless struggle!	我受够了吃力不讨好的每一天！	# SUB_001_002 第1行
+No more being bossed around!	再也不要过着被呼来唤去的日子了！	# SUB_001_002 第2行
+Like a rose who couldn’t bloom on her own,	就像一朵不能自己绽放的玫瑰	# SUB_001_007 第1行
+I was overshadowed.	依旧是黯然失色	# SUB_001_007 第2行
+Oh ruby red who guides my dreams,	在梦中引导着奇迹成真的红宝石	# SUB_001_008 第1行
+won't you let me be selfish for once?	能否让任性的我实现一个愿望	# SUB_001_008 第2行
+Oh Ruby Red Crimson who guides the locus of my dreams	在梦中引导着奇迹成真的红宝石	# SUB_001_009 第1行
+Won’t you grant me just one moment of selfishness?	能否让任性的我实现一个愿望	# SUB_001_009 第2行
+Step by step by step, I keep on this relentless march,	一步……一步……只需要一直向前走	# SUB_002_011 第1行
+Walking on, to the rhythm of the song heralded to me by the bell of the heavenly oracle.	踏着神谕所奏响的旋律	# SUB_002_011 第2行
+Engraving such a pure name, the true moniker of your soul	真红所呼唤的那个纯洁的真名	# SUB_002_012 第1行
+deep within my heart,	早已经铭记于心	# SUB_002_012 第2行

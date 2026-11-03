@@ -123,6 +123,30 @@ def load_overrides(path):
     return d
 
 
+def load_runtime_lines(path):
+    """tools/runtime_lines.txt: 运行时逐行字幕串 -> 译文。
+
+    视频时间轴有些 cue 不是整条记录上屏, 而是把一条多行记录拆成逐句推给 TMP
+    (实机 DIAG: "Make everyone look at me" / "look at me" 单独成串)。这些串在译本
+    CSV 里没有对应记录行, 按 Norm(英文) 归一键建不出来, 旧版上屏就是英文。
+    本层给它们兜底, 优先级高于 CSV 候选与历史值。
+    格式: 英文串<TAB>译文[<TAB># 出处]; 译文里的 \\n 表示换行。
+    """
+    d = {}
+    if os.path.exists(path):
+        for ln in open(path, encoding="utf-8"):
+            if not ln.strip() or ln.startswith("#"):
+                continue
+            parts = ln.rstrip("\r\n").split("\t")
+            if len(parts) < 2:
+                continue
+            k = norm(parts[0])
+            v = parts[1].replace("\\n", "\n").strip()
+            if k and v:
+                d[k] = v
+    return d
+
+
 def backup(path, suffix):
     dst = path + suffix
     if not os.path.exists(dst):
@@ -221,10 +245,22 @@ def main():
         order = list(json.load(open(dp, encoding="utf-8")))
     src = {} if args.scratch else json.load(open(dp, encoding="utf-8"))
     pick_ov = load_overrides(os.path.join(repo, "tools", "pick_overrides.txt"))
+    rt = load_runtime_lines(os.path.join(repo, "tools", "runtime_lines.txt"))
+    # 运行时逐行串的键并入顺序表(排在键集清单之后), 保证 --scratch 也能原样重建。
+    known_order = set(order)
+    for k in rt:
+        if k not in known_order:
+            order.append(k)
+            known_order.add(k)
     disp = {}
     dchg = 0
     for k in order:
         cur = src.get(k, "")
+        if k in rt:                      # 运行时逐行字幕层: 最高优先
+            disp[k] = rt[k]
+            if disp[k] != cur:
+                dchg += 1
+            continue
         if k in NAME_OVERRIDE:
             disp[k] = NAME_OVERRIDE[k]
             if disp[k] != cur:
@@ -245,7 +281,7 @@ def main():
         if new != cur:
             dchg += 1
     dump(disp, dp)
-    print("display: %d 键, 改值 %d" % (len(disp), dchg))
+    print("display: %d 键, 改值 %d (含运行时逐行字幕层 %d 条)" % (len(disp), dchg, len(rt)))
 
     ip = os.path.join(tran, "lgts_item_names.json")
     if os.path.exists(ip):
