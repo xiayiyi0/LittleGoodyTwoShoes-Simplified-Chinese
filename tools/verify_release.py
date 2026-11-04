@@ -428,7 +428,8 @@ def main():
     expected = EXPECTED_CHECKS + (0 if args.live else 1)
     if n_ran != expected:
         check("应跑检查项 %d (实跑 %d)" % (expected, n_ran), False,
-              "缺 --live/--csv 时部分检查不会执行; 发布门槛必须带全参数重跑")
+              "差 %d 项未执行, 多半是缺 --csv (译本相关检查整块不跑); 发布门槛必须带全参数重跑"
+              % abs(expected - n_ran))
     failed = [r for r in RESULTS if r[1] == "FAIL"]
     skipped = [r for r in RESULTS if r[1] == "SKIP"]
     _out("\n=== %d PASS / %d FAIL / %d SKIP ==="
