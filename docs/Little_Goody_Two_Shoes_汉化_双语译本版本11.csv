@@ -24994,7 +24994,7 @@ XUAT_03468,周一 正午,24678,遗留层XUAT,—,XUAT,[遗留收编] 独立条�
 XUAT_03469,周一 巫魅时分,24679,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Mon. Witching Hour
 XUAT_03470,周一 巫魅时分,24680,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Mon. Witching hour
 XUAT_03471,星期一,24681,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Monday
-XUAT_03472,周一 · 下午,24682,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Monday . Afternoon
+XUAT_03472,周一 下午,24682,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录；该串先过 DayTimeRe（「Monday . Afternoon」→「周一 下午」），词典值不上屏，已按规则形态统一，勿改回带「·」,已译,Monday . Afternoon
 XUAT_03473,更要紧的是，伊莉丝……,24683,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_7_3_VCH_01_021,已译,"More importantly, Elise."
 XUAT_03474,更要紧的是，伊莉丝……！,24684,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_7_3_VCH_01_021,已译,"More importantly, Elise...!"
 XUAT_03475,岂止是可怕啊，奥蒂莉——那场暴风就是个凶兆，我告诉你！,24685,遗留层XUAT,—,XUAT,[v1.3.26修] 纠正双重否定语义反转,已译,"More than a dreadful thing, Odilie - that windstorm was an ill omen, I tell you!"
