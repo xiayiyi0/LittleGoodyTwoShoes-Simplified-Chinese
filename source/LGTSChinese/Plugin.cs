@@ -24,11 +24,14 @@ namespace LGTSChinese
     [BepInPlugin("com.hanhua.lgts.chinese", "LGTS Simplified Chinese", Plugin.VER)]
     public class Plugin : BaseUnityPlugin
     {
-        // 1.3.30 (F2): 道具名按组件路径走 lgts_item_names.json (商店列表/道具详情/背包/HUD 小提示)
-        public const string VER = "1.3.30";
+        // 1.3.31 (结构审查 F-02/F-11): DIAG 区分钟数噪声与真漏译、统一降级观测行
+        public const string VER = "1.3.31";
         // v1.3.27 (G3): 显示词典条数下限。低于此值说明文件被截断或解析半途失败,
         // 旧版会静默带病运行(玩家看到大面积英文, 日志却只有一行"载入 N 条")。
         private const int MinDisplayEntries = 20000;
+        // v1.3.31: 译文表(by_refkey)同样要有下限 —— 旧版只有 display 有自检, 这张表
+        // 载入 0 条也能"正常"启动, 玩家看到全英文而日志只有一行载入失败。
+        private const int MinRefKeyEntries = 15000;
         internal static ManualLogSource Log;
         internal static Dictionary<string, string> Zh = new Dictionary<string, string>(StringComparer.Ordinal);
         internal static int Hits, Miss;
@@ -37,8 +40,10 @@ namespace LGTSChinese
         private void Awake()
         {
             Log = Logger;
-            LoadTable();
+            // v1.3.31: DIAG 必须在载入译文表之前打开 —— 否则 LoadTable 期间的 [DEGRADE]
+            // 与载入日志都会丢掉(旧版顺序是 LoadTable→OpenDiag, 译文表出问题在 DIAG 里看不到)。
             OpenDiag();
+            LoadTable();
             LoadDisplayDict();
             LoadItemNames();
             var harmony = new Harmony("com.hanhua.lgts.chinese");
@@ -86,9 +91,11 @@ namespace LGTSChinese
                     {
                         D("[WARN] 显示词典仅 " + Disp.Count + " 条, 低于预期 " + MinDisplayEntries + " —— 文件可能损坏或被截断");
                         Log.LogWarning("显示词典条目异常偏少: " + Disp.Count + " 条 (预期 > " + MinDisplayEntries + ")");
+                        Degrade("显示词典仅 " + Disp.Count + " 条 (< " + MinDisplayEntries + "), 疑似被截断");
                     }
                     return;
                 }
+                Degrade("显示词典 lgts_display.json 不存在, 退回 AT 文本词典合并");
                 // 退回: 载入 AT 文本词典(仅跳 3 个控制文件), 确定性排序, 主词典优先, UI 覆盖
                 string tdir = Path.GetFullPath(Path.Combine(dir, "..", "..", "Translation", "zh", "Text"));
                 if (!System.IO.Directory.Exists(tdir)) { D("显示词典目录不存在: " + tdir); return; }
@@ -125,7 +132,7 @@ namespace LGTSChinese
                 D("显示词典(退回 AT 文本)载入: " + Disp.Count + " 归一键, 冲突覆盖 " + conflict);
                 Log.LogInfo("显示词典载入: " + Disp.Count + " 条 (AT 文本退回)");
             }
-            catch (Exception e) { D("显示词典载入失败: " + e); Log.LogWarning("显示词典载入失败: " + e.Message); }
+            catch (Exception e) { D("显示词典载入失败: " + e); Log.LogWarning("显示词典载入失败: " + e.Message); Degrade("显示词典载入异常: " + e.Message); }
         }
 
         // v1.3.18 (F1): 道具名专用映射 —— ITEM GET 弹窗的道具英文短名与角色名牌共用
@@ -140,12 +147,13 @@ namespace LGTSChinese
             {
                 string dir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
                 string js = Path.Combine(dir, "translation", "lgts_item_names.json");
-                if (!File.Exists(js)) { D("道具名映射(lgts_item_names.json)不存在, 跳过"); return; }
+                if (!File.Exists(js)) { D("道具名映射(lgts_item_names.json)不存在, 跳过"); Degrade("道具名映射缺失, 道具名回退整句词典(名/物同形时可能选错)"); return; }
                 ParseFlatJson(File.ReadAllText(js, System.Text.Encoding.UTF8), ItemNames);
                 D("道具名映射(lgts_item_names.json)载入: " + ItemNames.Count + " 键");
                 Log.LogInfo("道具名映射载入: " + ItemNames.Count + " 条 (lgts_item_names.json)");
+                if (ItemNames.Count == 0) Degrade("道具名映射载入 0 条");
             }
-            catch (Exception e) { D("道具名映射载入失败: " + e.Message); Log.LogWarning("道具名映射载入失败: " + e.Message); }
+            catch (Exception e) { D("道具名映射载入失败: " + e.Message); Log.LogWarning("道具名映射载入失败: " + e.Message); Degrade("道具名映射载入异常: " + e.Message); }
         }
 
         // 尝试挂钩 TMP 文本入口(base set_text 在本作会 IL 失败; SetText 方法多半可挂)。
@@ -192,6 +200,7 @@ namespace LGTSChinese
             TmpSeen++;
             if (TmpSeen % 500 == 0)   // 心跳: 不依赖 I2 (P0-03)
                 D("[HEARTBEAT] TMP seen=" + TmpSeen + " fixed=" + TmpFixed + " miss=" + TmpMiss
+                  + " missNoise=" + TmpMissNoise + " degrade=" + DegradeCount
                   + " cjkSkip=" + TmpCjkSkip
                   + " uniqHit=" + SeenHit.Count + " uniqMiss=" + SeenMiss.Count);
 
@@ -301,6 +310,11 @@ namespace LGTSChinese
                 __0 = rom; TmpFixed++; return;
             }
 
+            // v1.3.31 (结构审查 F-02): 纯数字/标点/空白/零宽的写入(钱数 0-999、零宽空格等)
+            // 根本不需要译文, 旧版却把它们全记成 [TMP MISS]: 一次运行 1,002 条 uniqMiss 里
+            // 1,001 条是 HUD 钱数, 真正的英文漏译被埋掉, "0 miss" 发布门槛事实上不可判定。
+            // 现在这类串单独计数 (missNoise), 不再进 miss 统计与 DIAG。
+            if (IsNoiseOnly(key)) { TmpMissNoise++; return; }
             if (SeenMiss.Count < 5000 && SeenMiss.Add(key)) D("[TMP MISS] \"" + Trunc(key) + "\" @" + CompPath(__instance));
             TmpMiss++;
         }
@@ -310,6 +324,35 @@ namespace LGTSChinese
         {
             for (int i = 0; i < s.Length; i++) if (IsCjk(s[i])) return true;
             return false;
+        }
+
+        // v1.3.31 (结构审查 F-02): 判定某串是否"根本不需要译文"——只由数字、空白、零宽、
+        // 常见标点与符号组成。注意是**白名单式**判定: 任何其它字符(拉丁/假名/西里尔/汉字…)
+        // 都返回 false, 即照旧记 [TMP MISS], 避免把真实漏译误判成噪声而静默吞掉。
+        private static bool IsNoiseOnly(string s)
+        {
+            if (string.IsNullOrEmpty(s)) return true;
+            for (int i = 0; i < s.Length; i++)
+            {
+                char c = s[i];
+                if (c >= '0' && c <= '9') continue;              // 半角数字
+                if (c <= 0x20) continue;                          // 空格/控制符
+                if (c == '\u00A0' || c == '\u3000') continue;     // 不换行空格/全角空格
+                if (c == '\u200B' || c == '\u200C' || c == '\u200D' || c == '\uFEFF') continue; // 零宽/BOM
+                if (c >= '\uFF10' && c <= '\uFF19') continue;     // 全角数字
+                switch (c)
+                {
+                    case '.': case ',': case ':': case ';': case '/': case '\\': case '|':
+                    case '%': case '+': case '-': case '_': case '=': case '*': case '\u00D7': case '\u00F7':
+                    case '(': case ')': case '[': case ']': case '{': case '}': case '<': case '>':
+                    case '\'': case '"': case '`': case '^': case '~': case '@': case '#': case '&': case '$':
+                    case '!': case '?': case '\u2026': case '\u00B7': case '\u2014': case '\u2013':
+                    case '\u201C': case '\u201D': case '\u2018': case '\u2019':
+                        continue;
+                }
+                return false;
+            }
+            return true;
         }
 
         // v1.3.7 (C1): 检测整句被单一 <color=...>...</color> 包裹(思考独白 thoughtColor /
@@ -510,15 +553,27 @@ namespace LGTSChinese
             try { if (Diag != null) Diag.WriteLine(line); } catch { }
         }
 
+        // v1.3.31 (结构审查 F-11): 所有"降级但继续跑"的路径统一写一行 [DEGRADE]。
+        // 旧版这些路径只写普通日志或什么都不写, 混在几百行 DIAG 里没人看; 现在既计数,
+        // 也能被 verify_release.py --diag 机器断言 (发布门槛应为 0 条)。
+        internal static int DegradeCount;
+        internal static void Degrade(string what)
+        {
+            DegradeCount++;
+            D("[DEGRADE] " + what);
+            try { if (Log != null) Log.LogWarning("[DEGRADE] " + what); } catch { }
+        }
+
         // v1.3.7 (B4): 统一汇总行。真正的 [FINAL] 只在应用退出(Application.quitting)时写出;
         // 宿主早期销毁写 [HOST DESTROYED](计数接近全 0 属正常, 运行期排障看 [HEARTBEAT])。
         internal static void WriteStats(string label)
         {
             D(label + " TMP seen=" + TmpSeen + " fixed=" + TmpFixed + " miss=" + TmpMiss
-              + " cjkSkip=" + TmpCjkSkip
+              + " missNoise=" + TmpMissNoise + " cjkSkip=" + TmpCjkSkip
               + " uniqHit=" + SeenHit.Count + " uniqMiss=" + SeenMiss.Count
               + " | I2 hits=" + Hits + " miss=" + Miss + " | DoLoc hit=" + DoLocHit + " miss=" + DoLocMiss
-              + " | UGUI text=" + UguiTextFixed + " font=" + UguiFontFixed);
+              + " | UGUI text=" + UguiTextFixed + " font=" + UguiFontFixed
+              + " | DEGRADE=" + DegradeCount);
             try { if (Diag != null) Diag.Flush(); } catch { }
         }
 
@@ -637,6 +692,7 @@ namespace LGTSChinese
         // v1.3.7 (B2): I2 当前语言是否英语。反射不可得时按英语处理(保持原行为, 不因
         // 游戏更新丢失翻译); 语言由 I2.Loc.LocalizationManager.CurrentLanguageCode 提供。
         internal static PropertyInfo I2LangCodeProp;
+        private static bool LangGateWarned;
         internal static bool I2LangIsEnglish()
         {
             try
@@ -646,6 +702,13 @@ namespace LGTSChinese
                     string code = I2LangCodeProp.GetValue(null, null) as string;
                     if (!string.IsNullOrEmpty(code))
                         return code.StartsWith("en", StringComparison.OrdinalIgnoreCase);
+                }
+                else if (!LangGateWarned)
+                {
+                    // v1.3.31 (结构审查 F-11): 反射拿不到语言码时旧版完全静默 —— 此时会把
+                    // 任何语言的文本都当英语注入中文, 切到日/法语的玩家会看到中英混杂。
+                    LangGateWarned = true;
+                    Degrade("I2 语言门不可用(取不到 CurrentLanguageCode), 按英语处理");
                 }
             }
             catch { }
@@ -715,11 +778,14 @@ namespace LGTSChinese
             {
                 string dir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
                 string path = Path.Combine(dir, "translation", "lgts_zh_by_refkey.json");
-                if (!File.Exists(path)) { Log.LogError("译文表缺失: " + path); return; }
+                if (!File.Exists(path)) { Log.LogError("译文表缺失: " + path); Degrade("译文表缺失: " + path); return; }
                 string json = File.ReadAllText(path, System.Text.Encoding.UTF8);
                 ParseFlatJson(json, Zh);
+                D("译文表(by_refkey)载入: " + Zh.Count + " 条");
+                if (Zh.Count == 0 || Zh.Count < MinRefKeyEntries)
+                    Degrade("译文表仅 " + Zh.Count + " 条 (< " + MinRefKeyEntries + "), I2 取词会大面积回退英文");
             }
-            catch (Exception e) { Log.LogError("载入译文表失败: " + e); }
+            catch (Exception e) { Log.LogError("载入译文表失败: " + e); Degrade("译文表载入异常: " + e.Message); }
         }
 
         // 极简 JSON 平表解析(键值均为字符串), 避免引入额外依赖。
@@ -809,7 +875,7 @@ namespace LGTSChinese
         internal static MethodInfo GetTranslationMethod;
         internal static System.IO.StreamWriter Diag;
         internal static int DoLocHit, DoLocMiss, SecondaryGuardHits;
-        internal static int TmpSeen, TmpFixed, TmpMiss, TmpCjkSkip;
+        internal static int TmpSeen, TmpFixed, TmpMiss, TmpCjkSkip, TmpMissNoise;
         private static readonly HashSet<string> SeenHit = new HashSet<string>(StringComparer.Ordinal);
         private static readonly HashSet<string> SeenMiss = new HashSet<string>(StringComparer.Ordinal);
         // v1.3.30 (F2): 道具名串在道具名位之外被显示成别的意思时的去重集合(键+路径)
@@ -1204,6 +1270,8 @@ namespace LGTSChinese
                     FontBundleWarned = true;
                     Log.LogInfo("未找到可选字体包 font/lgts_cjk。TMP 中文字形以 AT 的 arialuni 回退为主, 尝试生成系统字体运行时兜底。");
                     TryOsTmpFallback();
+                    // v1.3.31: 两条通道都失败才算降级 —— 字形仍可由 arialuni 承担, 但必须在 DIAG 里可见。
+                    if (!TmpFallbackDone) Degrade("中文字体未注入 TMP 全局 fallback; 字形依赖 arialuni/UGUI 通道");
                 }
                 yield break;
             }
@@ -1227,6 +1295,7 @@ namespace LGTSChinese
                     D("[TMP FONT] 已注入 lgts_cjk 到全局 fallback");
                 }
                 else Log.LogWarning("无法注入 TMP fallback(版本差异), 可改为逐字体注入。");
+                if (!TmpFallbackDone) Degrade("中文字体未注入 TMP 全局 fallback; 字形依赖 arialuni/UGUI 通道");
             }
             finally
             {

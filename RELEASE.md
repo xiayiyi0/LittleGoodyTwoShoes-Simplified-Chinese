@@ -13,9 +13,9 @@
 | 规范名 | 路径（相对游戏根目录） | 说明 |
 |---|---|---|
 | **live 实机树** | `BepInEx/plugins/LGTSChinese/` + `BepInEx/Translation/zh/Text/` | 当前实机运行中的插件与词典 |
-| **stage 发布树** | `temp_work_result/dist/stage_v1326/` | zip 打包唯一来源。历史文档曾称 "dist/stage"、"stage_v1323"，均同指本目录，v1.3.18 起统一称 **stage 发布树**（`temp_work_result/dist/stage/` 是 v1.3.14/15 时代的旧工作区，与发布树无关，勿混） |
+| **stage 发布树** | `temp_work_result/dist/stage_v1331/` | zip 打包唯一来源。历史文档曾称 "dist/stage"、"stage_v1323"，均同指本目录，v1.3.18 起统一称 **stage 发布树**（`temp_work_result/dist/stage/` 是 v1.3.14/15 时代的旧工作区，与发布树无关，勿混） |
 | **zip 发布包** | `LGTS-SimplifiedChinese-vX.Y.Z.zip`（位于发布树内） | 分发给玩家的最终产物 |
-| 源码 | `temp_work_result/dist/stage_v1326/source/LGTSChinese/` | 与发布 DLL 同版本的源码快照 |
+| 源码 | `temp_work_result/dist/stage_v1331/source/LGTSChinese/` | 与发布 DLL 同版本的源码快照 |
 | 批次工作区 | `temp_work_result/fix_batches_YYYYMMDD/` | 当次修复的脚本、日志、裁决记录。**本地工作区，不随仓库分发** |
 
 **发布前"三树一致性"检查** = 上述 live / stage / zip 三处的关键文件（DLL、三词典、两 AT 文件）SHA256 逐字节一致。
@@ -102,6 +102,7 @@
 
 | 版本 | 日期 | 要点 |
 |---|---|---|
+| 1.3.31 | 2026-11-04 | 结构整改（外部审查 P0+P1，译文零改动）：`[TMP MISS]` 不再记录纯数字/标点（旧实机 1,002 条 miss 中 1,001 条是 HUD 钱数，导致"0 miss"门槛不可判定），改单独计 `missNoise`；新增 `[DEGRADE]` 统一降级观测（词典缺失/条数异常、道具名表缺失、I2 语言门不可用、字体兜底失败），`[FINAL]`/`[HEARTBEAT]` 增 `missNoise`/`DEGRADE` 计数；by_refkey 补条数下限自检；DIAG 提前到译文表载入前打开。验收器：G 组「运行时诊断」（`--diag` 断言无 `[TMP MISS]`、无未登记 `[DEGRADE]`）、检查项 38→42、"应跑/实跑"自断言、退出码 0/1/2 三分；`build.cmd` 编译失败不再返回 0；`pick_overrides` 与碰撞集双向一致断言（补 3 钉、删 3 陈旧）。词典条数不变 |
 | 1.3.16 | （历史基线） | 70 条目 zip 基线 |
 | 1.3.17 | 2026-10-19 | C5 解析加固、C6 窗口护栏+反射缓存、B3-B10 译名统一、A1 旁白补齐、文档/数字全量对齐 |
 | 1.3.18 | 2026-10-19 | 验收 F1 道具弹窗专用映射（item_names 79 键）、F2 AT 面包坊同步、F3 口径分列、F4 三树术语统一；zip 70→71 |
@@ -115,5 +116,5 @@
 | 1.3.26 | 2026-10-26 | 采用 v11 译本；遗留层收编 7,038 条（XUAT_ 前缀，三层覆盖率 100%）；附带 v10 的 119 条修订与 v11 的 781 条修订；apply_translation 增加 XUAT_PREFIX（收编行不进 by_refkey）；词典条数不变 |
 | 1.3.27 | 2026-10-27 | 第二轮全量审查整改：修 38 条语义缺陷（22 条在 XUAT 收编层）；并入 10-27 英文回填（133 条补英源，20 条据此重译）；插件 G1–G3（DIAG 退出时关闭、字体包 Unload、词典条数下限自检）；SUMS 7→15 行含顶层文件；验收输出编码安全 |
 | 1.3.28 | 2026-10-27 | 采用 v11 终审译文（222 行修订 + 11 行标签变化）；sprite 图标恢复 16 条并清除 6 个不存在的图标名；pick_overrides 19 组（文件 21 行，含 2 行注释）；词典条数不变。**同版资产替换 10 次（DLL 与版本号不变）**：10-28 白天 32 行（送别语境 Good day、meet one's maker、3 条仲裁）→ 晚间 2 行正文（萝丝玛琳对长辈统一「您」）+ 36 条备注按新体例改写 → 10-29 XUAT 遗留层全量审校落地 279 行 + 验收收尾 6 行 → 发布前最终验收 26 行 + 撤回「一刀切统一」12 条备注（相对上一版净 25 行译文；全文累计 569 行与 v1.3.27 不同）→ 10-29 备注清扫 32 条（译文 0 改动，四本词典与 zip 逐字节不变，资产未换）→ 10-29 正本再更新 2 行（`XUAT_03738` 人称与 dear 配对、`XUAT_05216` 吉多先生）→ 10-29 遗留层第二轮收尾 280 行（标点语气回贴、`XUAT_00402` 舞台提示、`DLG_7_3_VBA_02_017` 既往不咎）→ 10-29 语感通读与尾批 37 行（告辞语境、结巴位置、同字相撞、`feathered rat` 去「的」）→ 10-30 许可证整理（`LICENSE` 恢复未经改动的 MIT 原文，适用范围说明移入 `LICENSE-NOTICE.txt`，GitHub 据此识别为 MIT；译文与 DLL 未变）→ 11-03 习语与「赠礼」双关 14 行（`before I forget` 与 `I almost forgot` 分口径、`for free` 改「白给」、Love Event 统一「浪漫约会」、双关链补 4 行、松果「鳞片」2 行） |
-| 1.3.30 | 2026-11-03 | 同形异义按位置分流：`Lebkuchen` 作道具是「姜饼」、作角色是「斯佩尔特」，插件按组件路径判定上下文（商店列表 `ShopItemView(Clone)/Name`、背包 `ItemView(Clone)/Name`、道具详情 `ItemDetail/…/Name`、HUD `ItemGetSmall/Name`）优先查 `lgts_item_names.json`，HUD 提示按「名字 × 数量」重建为「姜饼 ×5」；新增 `tools/runtime_lines.txt` 运行时逐行字幕层（红舞鞋 PV 副歌 4 句 + 可 1:1 切分的多行字幕 12 条），`apply_translation.py` 并入 display 且取值优先、`verify_release.py` 认作已覆盖；补 3 条键源修正键（`A prayer?` / `"In the crossroads"...` / `A traveler...?`）。display 25,261→25,280，by_refkey / item_names / AT / UI_System 不变；DLL 1.3.30（文件版本 1.3.30.0） |
+| 1.3.30 | 2026-11-03 | 同形异义按位置分流：`Lebkuchen` 作道具是「姜饼」、作角色是「斯佩尔特」，插件按组件路径判定上下文（商店列表 `ShopItemView(Clone)/Name`、背包 `ItemView(Clone)/Name`、道具详情 `ItemDetail/…/Name`、HUD `ItemGetSmall/Name`）优先查 `lgts_item_names.json`，HUD 提示按「名字 × 数量」重建为「姜饼 ×5」；新增 `tools/runtime_lines.txt` 运行时逐行字幕层（红舞鞋 PV 副歌 4 句 + 可 1:1 切分的多行字幕 12 条），`apply_translation.py` 并入 display 且取值优先、`verify_release.py` 认作已覆盖；补 3 条键源修正键（`A prayer?` / `"In the crossroads"...` / `A traveler...?`）。display 25,261→25,293（其中 11-03 补键 +13），by_refkey / item_names / AT / UI_System 不变；DLL 1.3.30（文件版本 1.3.30.0） |
 | 1.3.29 | 2026-11-03 | 名牌修复：13 条 `XUAT_` 裸名条目回正（`Ludwig`→路德维希、`Freya`→芙蕾雅、`Apfel`→阿普菲尔、`Father Hans`→汉斯神父、`Old Hag`→老太婆 等）。上一轮「对齐主线」把带标点的喊话译文（`Ludwig!`→「哎呀，路德维希！」）搬进名称条目，名牌位置因此显示成整句；裸名与带标点英文是两个不同的键，不能对齐。`Saturday` 去句号，与其余 6 个星期名一致（设置界面标签不带标点）。版本号 1.3.29（文件版本 1.3.29.0）；译文相对 v1.3.28 最新资产仅 14 行，相对 v1.3.27 共 923 行不同；词典条数不变。 |

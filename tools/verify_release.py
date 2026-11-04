@@ -93,7 +93,8 @@ EXPECT_SUMS = 1 + len(FILES) + len(SHIPPED_TOP)
 # 2026-11-04 (外部审查 F-03): 检查项总数的自断言。缺 --csv/--live 时会有检查项
 # 直接不执行且不留 SKIP, 汇总行照样只报 PASS — 只有"应跑 == 实跑"才能发现。
 # 改检查项时必须同步改这个数。
-EXPECTED_CHECKS = 39
+# v1.3.31: 39 → 42 (新增 G 组 3 项运行时诊断; 不带 --diag 时基线自动 -3)。
+EXPECTED_CHECKS = 42
 
 
 def main():
@@ -108,6 +109,8 @@ def main():
     ap.add_argument("--version", required=True)
     ap.add_argument("--live", default=None, help="游戏根目录 (可选)")
     ap.add_argument("--csv", default=None, help="译本 CSV (可选)")
+    ap.add_argument("--diag", default=None,
+                    help="实机 DIAG.txt (可选; 给出则检查运行时诊断: 无 [TMP MISS] / 无未登记 [DEGRADE])")
     ap.add_argument("--zip", default=None, help="默认取发布树内唯一 zip")
     ap.add_argument("--expect-entries", type=int, default=71)
     ap.add_argument("--expect-refkey", type=int, default=21189)
@@ -422,10 +425,39 @@ def main():
             check("全部字符有字形", not missing,
                   str(dict(list(missing.items())[:5])))
 
+    # ---------- G 运行时诊断 (v1.3.31) ----------
+    # 外部审查 F-01/F-02 的正解: 覆盖率断言只证"产物 ⊆ 译本", 证明不了"游戏面 ⊆ 产物"。
+    # 唯一的运行时证据是 DIAG.txt, 所以把它纳入机器验收: 任何一条 [TMP MISS] 都代表
+    # 有英文串没查到译文; 任何未登记的 [DEGRADE] 都代表插件降级运行。
+    if args.diag:
+        try:
+            dtext = open(args.diag, encoding="utf-8", errors="replace").read().splitlines()
+            derr = None
+        except Exception as e:
+            dtext, derr = None, e
+        if derr is not None:
+            check("DIAG 可读", False, str(derr))
+            check("DIAG 无 [TMP MISS]", False, "DIAG 不可读")
+            check("DIAG 无未登记 [DEGRADE]", False, "DIAG 不可读")
+        else:
+            check("DIAG 行数 > 100", len(dtext) > 100, str(len(dtext)))
+            miss = [l for l in dtext if "[TMP MISS]" in l]
+            check("DIAG 无 [TMP MISS]", not miss,
+                  "前 3 条: %s" % [m[:70] for m in miss[:3]])
+            # 已知良性降级: 本机 TMP 全局 fallback 注入失败(Unity/TMP 版本差异),
+            # 字形由 arialuni 与 UGUI 系统字体通道承担, 玩家侧无可见影响。
+            DEGRADE_OK = ("TMP 全局 fallback",)
+            deg = [l for l in dtext if "[DEGRADE]" in l]
+            bad = [l for l in deg if not any(k in l for k in DEGRADE_OK)]
+            check("DIAG 无未登记 [DEGRADE]", not bad,
+                  "未登记 %d 条 %s / 良性 %d 条"
+                  % (len(bad), [b[:70] for b in bad[:3]], len(deg) - len(bad)))
+
     # 2026-11-04 (外部审查 F-03): 验收器自身也要被验收。
-    # 省略 --live 时 "live 比对" 这一项会以 SKIP 记录 (比全参数多 1 条), 基线相应 +1。
+    # 省略 --live 时 "live 比对" 这一项会以 SKIP 记录 (比全参数多 1 条), 基线相应 +1;
+    # 省略 --diag 时 G 组 3 项整体不执行, 基线相应 -3。
     n_ran = len(RESULTS)
-    expected = EXPECTED_CHECKS + (0 if args.live else 1)
+    expected = EXPECTED_CHECKS + (0 if args.live else 1) - (0 if args.diag else 3)
     if n_ran != expected:
         check("应跑检查项 %d (实跑 %d)" % (expected, n_ran), False,
               "差 %d 项未执行, 多半是缺 --csv (译本相关检查整块不跑); 发布门槛必须带全参数重跑"
@@ -437,7 +469,7 @@ def main():
     _out("退出码 0=全绿 / 1=有 FAIL / 2=有 SKIP 或检查未跑全 (未完成的验收不算通过)")
     if failed:
         return 1
-    if skipped or n_ran != EXPECTED_CHECKS:
+    if skipped or n_ran != expected:
         return 2
     return 0
 
