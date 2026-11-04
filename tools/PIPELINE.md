@@ -52,6 +52,27 @@ python tools/verify_release.py --stage temp_work_result/dist/stage_v1324 --versi
        --live "D:\steam\steamapps\common\Little Goody Two Shoes" --csv "docs/xxx.csv"
 ```
 
+### 本地化交付自检（每次改词典/译本后必跑）
+
+`verify_release.py` 管**发布产物**（包结构、三树一致、SUMS、DIAG）；下面这个管**语义正确性**
+（玩家会不会看到英文、标签换行会不会乱、不同记录会不会被并成一条）。两者都要跑：
+
+```bash
+python tools/check_localization.py                     # 查仓库自带的词典
+python tools/check_localization.py --live "<游戏根目录>"  # 查实机安装树
+```
+
+| 门 | 断言 |
+|---|---|
+| **G1 请求可满足** | 译本每一行都能取到值（TMP 层规则+词典，或 XUAT 的 AT 层）；`runtime_lines` 全部已并入 display；非 XUAT 的已译行都进了 by_refkey（I2 路径）；item_names 无空值；规则/模板/拼串形态（`x23`、`ROUND 12`、`(5T)`、`DATE … TIME …`、`Unlock for 30`、恋人弹窗）都能命中 |
+| **G2 无英文回退** | 值 == 原文的行必须在审查备注里写明免译理由（免译/人名/名单/图片路径/测试/指针行）；已译行不得空译文 |
+| **G3 标签/换行一致** | 原文的 `<sprite>/<color>/<size>/<i>/<b>/<br>` 计数，译文不许少；原文有换行的不许压成一行；译文的标签开闭必须配对。例外只走 `tools/check_allow.txt`（当前 4 + 2 条，逐条注明理由） |
+| **G4 键未归并** | 同一个归一键有多条不同译文时，必须被 `pick_overrides.txt` 钉住；override 不得指向不存在的记录、不得陈旧 |
+
+**它自己也要能被验证。** 在临时副本上注入 5 类缺陷——删 display 键 / 把一行改成未译 /
+删掉译文里的 `<b>` / 压掉译文换行 / 造一条一键两译——每类都必须让对应门 FAIL。改了校验器或
+白名单之后应重跑这套变异测试，否则"全绿"没有意义。
+
 `verify_release.py` 的 `--live` / `--csv` 可省略，省略时对应检查记为 SKIP。
 字形检查需要 `UnityPy` + `numpy`，缺失同样记 SKIP 而非 FAIL。
 
