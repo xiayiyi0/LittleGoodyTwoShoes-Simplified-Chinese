@@ -5,7 +5,8 @@
     python tools/verify_release.py --stage ... --version ... --live "D:\\game" --csv docs/译本.csv
 
 --live 与 --csv 可省略, 但省略即视为"验收未完成": 省略 --live 时三树一致降级为 stage↔zip,
-省略 --csv 时译本相关的 13 项检查根本不执行 (连 SKIP 都不记)。因此发布门槛必须带全参数跑。
+省略 --csv 时译本相关的 15 项检查根本不执行 (连 SKIP 都不记; 实测 42 项只跑 27 项)。
+因此发布门槛必须带全参数跑。
 字形检查需要 UnityPy + numpy, 缺失时记为 SKIP 而不是 FAIL。
 
 退出码 (2026-11-04 起): 0 = 全绿; 1 = 有 FAIL (含"应跑/实跑 检查项数不符");
@@ -114,7 +115,7 @@ def main():
     ap.add_argument("--zip", default=None, help="默认取发布树内唯一 zip")
     ap.add_argument("--expect-entries", type=int, default=71)
     ap.add_argument("--expect-refkey", type=int, default=21189)
-    ap.add_argument("--expect-display", type=int, default=25304)
+    ap.add_argument("--expect-display", type=int, default=25305)
     ap.add_argument("--expect-item", type=int, default=79)
     ap.add_argument("--expect-at", type=int, default=24700)
     ap.add_argument("--expect-ui", type=int, default=536)

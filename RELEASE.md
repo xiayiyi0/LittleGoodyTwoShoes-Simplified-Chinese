@@ -56,9 +56,9 @@
 - zip 命名：`LGTS-SimplifiedChinese-vX.Y.Z.zip`（例：v1.3.18）。
 - 范围 = BepInEx 全树 + 顶层文件（README.md、安装说明_README.txt、
    changelog.txt、doorstop_config.ini、winhttp.dll、.doorstop_version、
-   .gitignore、LICENSE、LICENSE-NOTICE.txt）+ **游戏根目录的
-   `arialuni_sdf_u2019` 字体包**。字体在 stage 树内不存在，必须从游戏根目录
-   取——漏字体是历史发生过的事故。
+   .gitignore、LICENSE、LICENSE-NOTICE.txt）+ **`arialuni_sdf_u2019` 字体包**
+   （31,020,025 B）。字体不入 git，建 stage 树时先从游戏根目录**复制到 stage 树根**，
+   `repack.py` 的 TOP 白名单再从 stage 取——漏字体是历史发生过的事故。
 - 排除：`source/` 目录、SHA256SUMS.txt（打包后才重算，不入 zip）。
 - 基线条目数：v1.3.16 = v1.3.17 = **70**；v1.3.18 = **71**（新增
   `translation/lgts_item_names.json`）。条目数变化必须能在 changelog 里解释。
@@ -102,7 +102,7 @@
 
 | 版本 | 日期 | 要点 |
 |---|---|---|
-| 1.3.32 | 2026-11-04 | 修 v1.3.31 实机诊断抓到、而旧版必然看不见的 11 条英文：存档位时间戳（`DATE … TIME …` 规则改写为「日期 … 时间 …」）、背包数量角标（`x1`/`x22` → 「×22」）、任务日志分类标签（`StoryEvent`/`RomanticEvent`/`ChoreEvent`/`SmallObjective` 补进 `runtime_lines.txt`）。display 25,293→25,304（分两次同版替换累计 +11 键：先 4 条运行时串，再补小游戏倒计时 READY/GO!/ROUND N、续关花费 (NT)、评级字母 S/A/B/C/D），其余三层不变；DLL 1.3.32（文件版本 1.3.32.0，第二次替换重新编译、版本号不变）；同日第三次替换：同步译者 12:45 正本（SHA-256 b6527e69…，4,599,027 B），177 行只动译文+备注（87 XUAT/62 DLG/12 CUT/8 LVE/5 CHR/2 CSM/1 结局，含格吕妮「小巧玲珑」→「又小又好看」），词典改值 by_refkey 90 / display 172 / AT 172，四层键数不变；同日第四次替换：同步译者 12:56 正本（65b165f8…，4,599,098 B），3 行小修（「消消停停」→「消停消停」、结巴句尾去叠用），词典改值 by_refkey 1 / display 3 / AT 3 |
+| 1.3.32 | 2026-11-04 | 修 v1.3.31 实机诊断抓到、而旧版必然看不见的 11 条英文：存档位时间戳（`DATE … TIME …` 规则改写为「日期 … 时间 …」）、背包数量角标（`x1`/`x22` → 「×22」）、任务日志分类标签（`StoryEvent`/`RomanticEvent`/`ChoreEvent`/`SmallObjective` 补进 `runtime_lines.txt`）。display 25,293→25,304（分两次同版替换累计 +11 键：先 4 条运行时串，再补小游戏倒计时 READY/GO!/ROUND N、续关花费 (NT)、评级字母 S/A/B/C/D），其余三层不变；DLL 1.3.32（文件版本 1.3.32.0，第二次替换重新编译、版本号不变）；同日第三次替换：同步译者 12:45 正本（SHA-256 b6527e69…，4,599,027 B），177 行只动译文+备注（87 XUAT/62 DLG/12 CUT/8 LVE/5 CHR/2 CSM/1 结局，含格吕妮「小巧玲珑」→「又小又好看」），词典改值 by_refkey 90 / display 172 / AT 172，四层键数不变；同日第四次替换：同步译者 12:56 正本（65b165f8…，4,599,098 B），3 行小修（「消消停停」→「消停消停」、结巴句尾去叠用），词典改值 by_refkey 1 / display 3 / AT 3；同日第五次替换：全量审计（A–J 十维）修复 + 译者 22:1x 正本（ec9a764e…，4,599,408 B，2 行改错意）合成一批 —— 补图库模板键 `Unlock for {0}`（display 25,304→**25,305**）、`UI_System.txt` 14 处半角冒号改全角并去 `Rank: ` 尾空格、2 行改译落到三层（by_refkey/display/AT 各改值 2）；DLL 未改 |
 | 1.3.31 | 2026-11-04 | 结构整改（外部审查 P0+P1，译文零改动）：`[TMP MISS]` 不再记录纯数字/标点（旧实机 1,002 条 miss 中 1,001 条是 HUD 钱数，导致"0 miss"门槛不可判定），改单独计 `missNoise`；新增 `[DEGRADE]` 统一降级观测（词典缺失/条数异常、道具名表缺失、I2 语言门不可用、字体兜底失败），`[FINAL]`/`[HEARTBEAT]` 增 `missNoise`/`DEGRADE` 计数；by_refkey 补条数下限自检；DIAG 提前到译文表载入前打开。验收器：G 组「运行时诊断」（`--diag` 断言无 `[TMP MISS]`、无未登记 `[DEGRADE]`）、检查项 38→42、"应跑/实跑"自断言、退出码 0/1/2 三分；`build.cmd` 编译失败不再返回 0；`pick_overrides` 与碰撞集双向一致断言（补 3 钉、删 3 陈旧）。词典条数不变 |
 | 1.3.16 | （历史基线） | 70 条目 zip 基线 |
 | 1.3.17 | 2026-10-19 | C5 解析加固、C6 窗口护栏+反射缓存、B3-B10 译名统一、A1 旁白补齐、文档/数字全量对齐 |

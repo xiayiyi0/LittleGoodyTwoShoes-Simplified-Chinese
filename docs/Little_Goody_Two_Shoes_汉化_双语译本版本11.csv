@@ -9699,7 +9699,7 @@ DLG_8_3_VIN_05_016,她从前就爱这么说，可不是嘛，格蕾特？,9697,�
 DLG_8_3_VIN_05_017,一点不假，梅希蒂尔德。,9698,主线对白DLG,8月3日,VIN,,已译,"No two ways about it, Mechtilde."
 DLG_8_3_VIN_05_018,（想多陪陪霍尔奶奶的，大概不止我一个……）,9699,主线对白DLG,8月3日,VIN,,已译,(I suppose we all wish we could've spent more time with Granny Holle...)
 DLG_8_3_VIN_07_001,她来啦！,9700,主线对白DLG,8月3日,VIN,,已译,There she is!
-DLG_8_3_VIN_07_002,我来啦……算是吧……,9701,主线对白DLG,8月3日,VIN,,已译,There you are... I suppose...
+DLG_8_3_VIN_07_002,你在这儿啊……算是吧……,9701,主线对白DLG,8月3日,VIN,[语气] There you are 是「找到你了」，说话人对「你」说，不是「我来了」；上一行 There she is 作「她来啦」可对,已译,There you are... I suppose...
 DLG_8_3_VIN_07_003,打起精神乐一乐呀，伊莉丝！,9702,主线对白DLG,8月3日,VIN,,已译,"Get some cheer in you, Elise!"
 DLG_8_3_VIN_07_004,可不是，今天<i>正是</i>节庆的日子呀！,9703,主线对白DLG,8月3日,VIN,,已译,"Truly, it <i>is</i> the day of the festival!"
 DLG_8_3_VIN_07_005,说得是，埃尔玛太太。,9704,主线对白DLG,8月3日,VIN,,已译,"Certainly, Mrs. Elma."
@@ -13703,7 +13703,7 @@ CUT_7_2_VIN_01_027,现在给我把嘴闭紧——听见没？,13701,过场对白
 CUT_7_2_VIN_01_028,这、这可不是我要的东西，伊莉丝！,13702,过场对白CUT,7月2日,VIN,[标点] 删多余省略号/感叹号,已译,"Th-This isn't what I asked for, Elise!"
 CUT_7_2_VIN_01_029,我才懒得管呢，玛丽——要就拿走，不要拉倒！,13703,过场对白CUT,7月2日,VIN,,已译,"I couldn't care less, Mary — take it or leave it!"
 CUT_7_2_VIN_01_030,我、我这就去跟大伙儿说，是你把那五月柱弄倒的！,13704,过场对白CUT,7月2日,VIN,,已译,"I-I'll be telling those folks you tore that maypole down, then!"
-CUT_7_2_VIN_01_031,你敢，穆迪！,13705,过场对白CUT,7月2日,VIN,,已译,"You wouldn't dare, Muddy!"
+CUT_7_2_VIN_01_031,谅你也不敢，穆迪！,13705,过场对白CUT,7月2日,VIN,[语气] wouldn't dare 是「量你不敢」，原译「你敢」读成肯定句，意思反了；全库「谅…不敢」用法见 DLG_7_3_VSQ_03_023,已译,"You wouldn't dare, Muddy!"
 CUT_7_2_VIN_01_032,呀！,13706,过场对白CUT,7月2日,VIN,,已译,Eek!
 CUT_7_2_VIN_01_033,（我可没工夫陪她胡闹！）,13707,过场对白CUT,7月2日,VIN,,已译,(I don't have time for this nonsense!)
 CUT_7_2_VWW_01_001,我回到这儿来了！,13708,过场对白CUT,7月2日,VWW,[语气] 还原出地道感叹语气解TM碰撞,已译,I'm back here!

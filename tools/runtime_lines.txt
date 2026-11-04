@@ -52,3 +52,4 @@ A	A	# 评级字母 A
 B	B	# 评级字母 B
 C	C	# 评级字母 C
 D	D	# 评级字母 D
+Unlock for {0}	花{0}解锁	# 图库解锁按钮 GalleryButton.cs:41 `"Unlock for " + cost` 运行时拼接(XUAT_05661 只有 cost=2 一条, 字典穷举不了其余价格)
