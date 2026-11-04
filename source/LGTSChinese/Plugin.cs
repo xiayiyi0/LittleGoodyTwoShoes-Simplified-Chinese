@@ -226,8 +226,10 @@ namespace LGTSChinese
             var mSv = SaveTimeRe.Match(key);
             if (mSv.Success)
             {
-                string sv = "日期 " + mSv.Groups[1].Value.Trim() + " 时间 " + mSv.Groups[2].Value.Trim();
-                D("[SAVETIME HIT] " + Trunc(key) + " -> " + Trunc(sv));
+                // v1.3.32 (同日第 7 次替换): 日期与时间必须分行。存档槽的文本框按字符换行,
+                // 单行串在中文下会在「时/间」中间断掉 (实机截图 2026-11-04 23:03)。
+                string sv = "日期 " + mSv.Groups[1].Value.Trim() + "\n时间 " + mSv.Groups[2].Value.Trim();
+                D("[SAVETIME HIT] " + Trunc(key) + " -> " + Trunc(sv.Replace("\n", "\\n")));
                 __0 = sv; TmpFixed++; return;
             }
 

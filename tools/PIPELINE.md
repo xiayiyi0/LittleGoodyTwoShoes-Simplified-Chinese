@@ -64,7 +64,7 @@ python tools/check_localization.py --live "<游戏根目录>"  # 查实机安装
 
 | 门 | 断言 |
 |---|---|
-| **G1 请求可满足** | 译本每一行都能取到值（TMP 层规则+词典，或 XUAT 的 AT 层）；`runtime_lines` 全部已并入 display；非 XUAT 的已译行都进了 by_refkey（I2 路径）；item_names 无空值；规则/模板/拼串形态（`x23`、`ROUND 12`、`(5T)`、`DATE … TIME …`、`Unlock for 30`、恋人弹窗）都能命中 |
+| **G1 请求可满足** | 译本每一行都能取到值（TMP 层规则+词典，或 XUAT 的 AT 层）；存档时间串必须是「日期 …」/「时间 …」两行、不得在「时/间」中间断开，且发布 DLL 里确实是分行实现（G1.6/G1.7）；`runtime_lines` 全部已并入 display；非 XUAT 的已译行都进了 by_refkey（I2 路径）；item_names 无空值；规则/模板/拼串形态（`x23`、`ROUND 12`、`(5T)`、`DATE … TIME …`、`Unlock for 30`、恋人弹窗）都能命中 |
 | **G2 无英文回退** | 值 == 原文的行必须在审查备注里写明免译理由（免译/人名/名单/图片路径/测试/指针行）；已译行不得空译文 |
 | **G3 标签/换行一致** | 原文的 `<sprite>/<color>/<size>/<i>/<b>/<br>` 计数，译文不许少；原文有换行的不许压成一行；译文的标签开闭必须配对。例外只走 `tools/check_allow.txt`（当前 4 + 2 条，逐条注明理由） |
 | **G4 键未归并** | 同一个归一键有多条不同译文时，必须被 `pick_overrides.txt` 钉住；override 不得指向不存在的记录、不得陈旧 |

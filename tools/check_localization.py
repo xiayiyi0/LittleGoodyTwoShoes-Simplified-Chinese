@@ -98,7 +98,8 @@ class Layers(object):
 
         m = SaveTimeRe.match(key)
         if m:
-            return ("rule", "日期 " + m.group(1).strip() + " 时间 " + m.group(2).strip())
+            # 与 Plugin.cs 一致：日期/时间分行，避免中文在「时/间」中间被字符换行切断
+            return ("rule", "日期 " + m.group(1).strip() + "\n时间 " + m.group(2).strip())
         m = QtySuffixRe.match(key)
         if m:
             return ("rule", "×" + m.group(1))
@@ -308,6 +309,38 @@ def main():
            "%d 条合成请求，缺 %d" % (len(synth), len(synth_bad)))
     for s in synth_bad[:args.show]:
         print("    - %r" % s)
+
+    # 存档位日期时间：必须两行，且「时间」不能在被字符换行切断（实机 2026-11-04 出过）
+    save_dates = ["2026/11/4", "2026/10/21", "2026/12/31", "2025/9/2", "2026/1/1"]
+    layout_bad = []
+    for d in save_dates:
+        req = "DATE %s TIME 00:44:55" % d
+        src, val = L.resolve(req)
+        if not val:
+            layout_bad.append((req, "无译文"))
+            continue
+        lines = val.split("\n")
+        if len(lines) != 2:
+            layout_bad.append((req, "行数=%d 应为 2：%r" % (len(lines), val)))
+        elif "时间" not in val:
+            layout_bad.append((req, "「时间」被切断：%r" % val))
+        elif max(len(x) for x in lines) > 20:
+            layout_bad.append((req, "行过长 %d 字：%r" % (max(len(x) for x in lines), val)))
+    report(not layout_bad, "G1.6 存档位「日期/时间」两行且不被切断",
+           "%d 个日期样本，问题 %d" % (len(save_dates), len(layout_bad)))
+    for req, why in layout_bad[:args.show]:
+        print("    - %s ｜ %s" % (req, why))
+
+    # 发布 DLL 与规则实现一致：存档时间串必须是「\n时间 」，否则校验器测的与玩家跑的就不是一回事
+    dllp = os.path.join(base, "BepInEx", "plugins", "LGTSChinese", "LGTSChinese.dll")
+    if os.path.exists(dllp):
+        blob = open(dllp, "rb").read()
+        ok2 = blob.count((chr(10) + "时间 ").encode("utf-16-le")) >= 1
+        oldstyle = blob.count(" 时间 ".encode("utf-16-le"))
+        report(ok2 and oldstyle == 0, "G1.7 发布 DLL 用的是「日期/时间」分行实现",
+               "含 \\n时间 =%d，旧形态 ' 时间 ' =%d" % (blob.count((chr(10) + "时间 ").encode("utf-16-le")), oldstyle))
+    else:
+        print("SKIP G1.7 发布 DLL 未提供（只验数据）")
 
     # ---------------- G2 无英文回退 ----------------
     print("")
