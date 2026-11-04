@@ -95,9 +95,9 @@ EXPECT_SUMS = 1 + len(FILES) + len(SHIPPED_TOP)
 # 直接不执行且不留 SKIP, 汇总行照样只报 PASS — 只有"应跑 == 实跑"才能发现。
 # 改检查项时必须同步改这个数。
 # v1.3.31: 39 → 42 (新增 G 组 3 项运行时诊断; 不带 --diag 时基线自动 -3)。
-# v1.3.32 结构侧: 42 → 45 (G 组加入 DIAG 与资产的绑定断言: 首行版本 / DLL sha256 / TMP 钩子已挂;
+# v1.3.32 结构侧: 42 → 46 (G 组加入 DIAG 与资产的绑定断言: 首行版本 / DLL sha256 / TMP 钩子已挂;
 #                行数门槛从 >100 降到 >20, 那一项已不再是证据强度指标)。
-EXPECTED_CHECKS = 45
+EXPECTED_CHECKS = 46
 
 
 def main():
@@ -183,6 +183,33 @@ def main():
             check("stage==zip " + os.path.basename(rel),
                   sha256(os.path.join(stage, rel.replace("/", os.sep))) == zsha[rel])
         check("live 比对", True, "未提供 --live, 跳过", skipped=True)
+
+    # ---------- H 仓库 ↔ 发布树 漂移 (v1.3.32 结构侧) ----------
+    # 三树比对只覆盖 6 个关键文件 + 8 个顶层文件, 仓库与 stage 之间没有任何断言:
+    # 2026-11-04 就出现过"仓库改了 BUILDING.md、stage 还是旧版、验收照样全绿"。
+    # 这里对两边都存在的文件做逐字节比对(仓库独有的 docs/ tools/ 不参与)。
+    print("\n---------- H 仓库 ↔ 发布树 ----------")
+    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    SKIP_DIRS = {".git", "__pycache__"}
+    drift, n_shared = [], 0
+    for root, dirs, files in os.walk(repo_root):
+        dirs[:] = [d for d in dirs if d not in SKIP_DIRS]
+        for fn in files:
+            if fn.endswith(".pyc") or ".bak_" in fn:
+                continue
+            full = os.path.join(root, fn)
+            rel = os.path.relpath(full, repo_root)
+            # 构建产物(local build/)不入包, 也不属于"发布树快照", 逐字节比对没有意义
+            if rel.startswith("source" + os.sep) and (os.sep + "build" + os.sep) in rel:
+                continue
+            stg = os.path.join(stage, rel)
+            if not os.path.exists(stg):
+                continue
+            n_shared += 1
+            if sha256(full) != sha256(stg):
+                drift.append(rel.replace("\\", "/"))
+    check("仓库==发布树 共有文件一致", not drift,
+          "%d 个共有文件, 漂移 %d %s" % (n_shared, len(drift), drift[:5]))
 
     print("\n---------- C 词典口径 ----------")
     base = args.live or stage

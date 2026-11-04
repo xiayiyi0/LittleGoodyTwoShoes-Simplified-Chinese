@@ -19,8 +19,9 @@
 | zip | **31,682,775 B / sha256 `03de8e43d701d8e71c7db104ae86af33209d8d4206fcc9ae168d38804d17b360`** |
 | 包内 `SHA256SUMS.txt` | 1,463 B / sha256 `341721c04d2ba25e1851b0dd694d3e7f03c6d31d62904632b3ea70e14fe6011f` |
 
-**验收：42 PASS**（G 组扩容前）→ 随后 G 组加入「DIAG 与资产绑定」三项（首行版本 / DLL sha256 /
-`TMP hook OK`），基线升到 **45 项**，全参数复跑 **45 PASS / 0 FAIL / 0 SKIP，rc=0**；
+**验收：42 PASS**（扩容前）→ G 组加入「DIAG 与资产绑定」三项（首行版本 / DLL sha256 /
+`TMP hook OK`）→ 再新增 H 组「仓库 ↔ 发布树」漂移断言（上线当天就抓到 `Plugin.cs` 快照未同步），
+基线升到 **46 项**，全参数复跑 **46 PASS / 0 FAIL / 0 SKIP，rc=0**；
 `check_localization.py` 15/15 PASS（含新增的 G1.6「日期/时间两行且不被切断」与
 G1.7「发布 DLL 确实是分行实现」）。三条新断言都用陈旧 DIAG / 改版本号 / 删钩子行做过反向测试。
 
