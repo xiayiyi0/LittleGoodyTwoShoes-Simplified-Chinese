@@ -54,6 +54,12 @@ if not exist build mkdir build
  /reference:"%FW%\System.dll" ^
  /reference:"%FW%\System.Core.dll" ^
  Plugin.cs
+REM 2026-11-04 (外部审查 F-10): 旧版无条件 exit /b 0, csc 报错也返回成功,
+REM 带病 DLL 能一路进 stage。这里显式判别, 成功才 0。
+if errorlevel 1 (
+    echo [ERROR] csc failed - see messages above
+    goto :fail
+)
 echo BUILD_EXIT=%ERRORLEVEL%
 endlocal
 exit /b 0

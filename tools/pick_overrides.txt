@@ -1,20 +1,23 @@
 # 同一 Norm(英文) 有多条不同译文时, 指定上屏取哪一条。
-# 格式: <Norm英文>\t<记录键>。由 tools 读取, 保证从零重建时选择确定。
+# 格式: <Norm英文>	<记录键>。由 tools 读取, 保证从零重建时选择确定。
+# 2026-11-04: 本表与实际碰撞集必须双向相等 (verify_release.py 有断言):
+#   新增一条同归一键多译文 -> 必须在此钉一条, 否则下次 --scratch 重建会按 CSV 行序取候选第一条;
+#   碰撞消失 (两条译文被统一) -> 必须删掉对应行, 否则陈旧 override 会掩盖规则变化。
 (Even they're starting to consider this witch nonsense...)	DLG_6_3_VIN_03_016
 (This old hag...!)	CHR_013_012
 ...	DLG_2_4_OLH_01_018
-Can't you see you're frightening her?	XUAT_00970
+Ah, good day!	DLG_3_3_VBA_02_066
+Anything else?	DLG_6_3_VBA_02_015
 Eek!	DLG_2_3_OLH_04_022
 Eek...!	DLG_2_3_OLH_04_002
 Folks are too preoccupied with this witch nonsense!	DLG_7_2_VIN_03_006
+Have a good day.	DLG_2_2_OLH_02_022
 Map of Kieferberg	MAP_MENU
 Need something?	TUT_12_01
 Relationships Menu	RELATIONSHIP_MENU
 Right!	DLG_4_4_VCH_01_067
 Thank you, Mrs. Dorothea!	CHR_012_027
 The Tender Flesh! The Tender Flesh!	DLG_4_5_WCR_C_05_023
-There are 4 circular red sockets on the door.	RedDoorText_2
-This lever resets the puzzle (temp Dialogue).	ResetAcknowledge_1
 We don't take kindly to light in these depths.	FLV_WSV-C_01_003
 What are you...?	DLG_2_3_VSQ_01_026
 What is this place?	CUT_8_3_VCC_01_002

@@ -4,9 +4,13 @@
     python tools/verify_release.py --stage dist/stage_v1324 --version 1.3.24
     python tools/verify_release.py --stage ... --version ... --live "D:\\game" --csv docs/译本.csv
 
---live 与 --csv 可省略: 省略 --live 时跳过"三树一致", 省略 --csv 时跳过译文逐条比对。
+--live 与 --csv 可省略, 但省略即视为"验收未完成": 省略 --live 时三树一致降级为 stage↔zip,
+省略 --csv 时译本相关的 13 项检查根本不执行 (连 SKIP 都不记)。因此发布门槛必须带全参数跑。
 字形检查需要 UnityPy + numpy, 缺失时记为 SKIP 而不是 FAIL。
-任一 FAIL 退出码为 1。
+
+退出码 (2026-11-04 起): 0 = 全绿; 1 = 有 FAIL (含"应跑/实跑 检查项数不符");
+2 = 无 FAIL 但有 SKIP (验收未完成, 不算通过)。旧版只要没 FAIL 就返回 0, 导致
+"带 SKIP 的 38 项" 与 "崩溃前零输出" 都被读成通过。
 """
 import argparse
 import csv
@@ -85,6 +89,11 @@ FILES = [
 SHIPPED_TOP = ["LICENSE", "LICENSE-NOTICE.txt", "README.md", "arialuni_sdf_u2019",
                "changelog.txt", "doorstop_config.ini", "winhttp.dll", "安装说明_README.txt"]
 EXPECT_SUMS = 1 + len(FILES) + len(SHIPPED_TOP)
+
+# 2026-11-04 (外部审查 F-03): 检查项总数的自断言。缺 --csv/--live 时会有检查项
+# 直接不执行且不留 SKIP, 汇总行照样只报 PASS — 只有"应跑 == 实跑"才能发现。
+# 改检查项时必须同步改这个数。
+EXPECTED_CHECKS = 39
 
 
 def main():
@@ -257,6 +266,34 @@ def main():
                     vbad[name] = vbad.get(name, 0) + 1
         check("三层值均与译本一致", not vbad, str(vbad))
 
+        # 2026-11-04 (外部审查 F-04 的实证): 同一归一键有多条不同译文时, 上屏取哪一条由
+        # tools/pick_overrides.txt 钉死, 两者必须双向相等:
+        #   漏钉  -> 下次 --scratch 重建按 CSV 行序取候选第一条, 悄悄改掉上屏文案
+        #            (v1.3.21 "Lebkuchen 名牌被写成姜饼" 就是这个机制);
+        #   陈旧  -> 碰撞已被统一, override 行会掩盖规则变化; 记录键若改名还会 KeyError。
+        _po = {}
+        _pop = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pick_overrides.txt")
+        if os.path.exists(_pop):
+            for _ln in open(_pop, encoding="utf-8"):
+                if _ln.startswith("#") or "\t" not in _ln:
+                    continue
+                _pk, _pr = _ln.rstrip("\r\n").split("\t", 1)
+                _po[_pk] = _pr
+        _nm = {}
+        for r in rows:
+            _zh = eff(r)
+            _en = r.get("英文原文") or ""
+            if not _zh or not _en.strip():
+                continue
+            _nm.setdefault(_nk(_en.strip()), set()).add(_zh)
+        _coll = {k for k, v in _nm.items() if len(v) > 1}
+        _unpinned = sorted(_coll - set(_po))
+        _stale = sorted(set(_po) - _coll)
+        check("同归一键多译文=override 表 一致",
+              not _unpinned and not _stale,
+              "未钉 %d %s / 陈旧 %d %s" % (len(_unpinned), _unpinned[:2],
+                                            len(_stale), _stale[:2]))
+
         # 缺图标的空格洞: 原文本里的 <sprite> 在键里被剥掉, 值里若只留两个空格,
         # 上屏就是一个空档 (2026-10-26 审计 S1)。只查行内, 不碰 \n\n 空行。
         HOLE = re.compile(r"[^\s　] {2,}[^\s　]|[^\s　] {1,}[，。！？；：、]")
@@ -385,11 +422,23 @@ def main():
             check("全部字符有字形", not missing,
                   str(dict(list(missing.items())[:5])))
 
+    # 2026-11-04 (外部审查 F-03): 验收器自身也要被验收。
+    # 省略 --live 时 "live 比对" 这一项会以 SKIP 记录 (比全参数多 1 条), 基线相应 +1。
+    n_ran = len(RESULTS)
+    expected = EXPECTED_CHECKS + (0 if args.live else 1)
+    if n_ran != expected:
+        check("应跑检查项 %d (实跑 %d)" % (expected, n_ran), False,
+              "缺 --live/--csv 时部分检查不会执行; 发布门槛必须带全参数重跑")
     failed = [r for r in RESULTS if r[1] == "FAIL"]
     skipped = [r for r in RESULTS if r[1] == "SKIP"]
     _out("\n=== %d PASS / %d FAIL / %d SKIP ==="
          % (len(RESULTS) - len(failed) - len(skipped), len(failed), len(skipped)))
-    return 1 if failed else 0
+    _out("退出码 0=全绿 / 1=有 FAIL / 2=有 SKIP 或检查未跑全 (未完成的验收不算通过)")
+    if failed:
+        return 1
+    if skipped or n_ran != EXPECTED_CHECKS:
+        return 2
+    return 0
 
 
 if __name__ == "__main__":
