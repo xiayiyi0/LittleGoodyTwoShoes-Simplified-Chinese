@@ -41,3 +41,7 @@ Step by step by step, I keep on this relentless march,Walking on, to the rhythm 
 Engraving such a pure name, the true moniker of your souldeep within my heart,	真红所呼唤的那个纯洁的真名，早已经铭记于心	# SUB_002_012 粘合形态(<br> 被归一为删除)
 Will I be able to reach the end of this journey whose final act is heralded	拥抱潜藏在我心中的灵梦	# PV 歌2 时间轴硬编码原文（codes 数组不够长，末尾两句保留英文）
 By the brilliant light that engulfs visions I stow so deep in my bosom?	终于能到达那光芒闪耀的终点了吧	# PV 歌2 同上
+StoryEvent	剧情事件	# QuestLogEntry/Subtitle 任务分类标签 (实机 DIAG 2026-11-04)
+RomanticEvent	浪漫事件	# QuestLogEntry/Subtitle 同上
+ChoreEvent	杂务事件	# QuestLogEntry/Subtitle 同上; Chores=XUAT_00990「杂务」
+SmallObjective	小目标	# QuestLogEntry/Subtitle 同上

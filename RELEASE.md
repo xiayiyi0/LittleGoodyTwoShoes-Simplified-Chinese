@@ -13,9 +13,9 @@
 | 规范名 | 路径（相对游戏根目录） | 说明 |
 |---|---|---|
 | **live 实机树** | `BepInEx/plugins/LGTSChinese/` + `BepInEx/Translation/zh/Text/` | 当前实机运行中的插件与词典 |
-| **stage 发布树** | `temp_work_result/dist/stage_v1331/` | zip 打包唯一来源。历史文档曾称 "dist/stage"、"stage_v1323"，均同指本目录，v1.3.18 起统一称 **stage 发布树**（`temp_work_result/dist/stage/` 是 v1.3.14/15 时代的旧工作区，与发布树无关，勿混） |
+| **stage 发布树** | `temp_work_result/dist/stage_v1332/` | zip 打包唯一来源。历史文档曾称 "dist/stage"、"stage_v1323"，均同指本目录，v1.3.18 起统一称 **stage 发布树**（`temp_work_result/dist/stage/` 是 v1.3.14/15 时代的旧工作区，与发布树无关，勿混） |
 | **zip 发布包** | `LGTS-SimplifiedChinese-vX.Y.Z.zip`（位于发布树内） | 分发给玩家的最终产物 |
-| 源码 | `temp_work_result/dist/stage_v1331/source/LGTSChinese/` | 与发布 DLL 同版本的源码快照 |
+| 源码 | `temp_work_result/dist/stage_v1332/source/LGTSChinese/` | 与发布 DLL 同版本的源码快照 |
 | 批次工作区 | `temp_work_result/fix_batches_YYYYMMDD/` | 当次修复的脚本、日志、裁决记录。**本地工作区，不随仓库分发** |
 
 **发布前"三树一致性"检查** = 上述 live / stage / zip 三处的关键文件（DLL、三词典、两 AT 文件）SHA256 逐字节一致。
@@ -102,6 +102,7 @@
 
 | 版本 | 日期 | 要点 |
 |---|---|---|
+| 1.3.32 | 2026-11-04 | 修 v1.3.31 实机诊断抓到、而旧版必然看不见的 11 条英文：存档位时间戳（`DATE … TIME …` 规则改写为「日期 … 时间 …」）、背包数量角标（`x1`/`x22` → 「×22」）、任务日志分类标签（`StoryEvent`/`RomanticEvent`/`ChoreEvent`/`SmallObjective` 补进 `runtime_lines.txt`）。display 25,293→25,297，其余三层不变；DLL 1.3.32（文件版本 1.3.32.0） |
 | 1.3.31 | 2026-11-04 | 结构整改（外部审查 P0+P1，译文零改动）：`[TMP MISS]` 不再记录纯数字/标点（旧实机 1,002 条 miss 中 1,001 条是 HUD 钱数，导致"0 miss"门槛不可判定），改单独计 `missNoise`；新增 `[DEGRADE]` 统一降级观测（词典缺失/条数异常、道具名表缺失、I2 语言门不可用、字体兜底失败），`[FINAL]`/`[HEARTBEAT]` 增 `missNoise`/`DEGRADE` 计数；by_refkey 补条数下限自检；DIAG 提前到译文表载入前打开。验收器：G 组「运行时诊断」（`--diag` 断言无 `[TMP MISS]`、无未登记 `[DEGRADE]`）、检查项 38→42、"应跑/实跑"自断言、退出码 0/1/2 三分；`build.cmd` 编译失败不再返回 0；`pick_overrides` 与碰撞集双向一致断言（补 3 钉、删 3 陈旧）。词典条数不变 |
 | 1.3.16 | （历史基线） | 70 条目 zip 基线 |
 | 1.3.17 | 2026-10-19 | C5 解析加固、C6 窗口护栏+反射缓存、B3-B10 译名统一、A1 旁白补齐、文档/数字全量对齐 |

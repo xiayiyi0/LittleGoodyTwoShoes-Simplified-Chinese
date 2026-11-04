@@ -114,7 +114,7 @@ def main():
     ap.add_argument("--zip", default=None, help="默认取发布树内唯一 zip")
     ap.add_argument("--expect-entries", type=int, default=71)
     ap.add_argument("--expect-refkey", type=int, default=21189)
-    ap.add_argument("--expect-display", type=int, default=25293)
+    ap.add_argument("--expect-display", type=int, default=25297)
     ap.add_argument("--expect-item", type=int, default=79)
     ap.add_argument("--expect-at", type=int, default=24700)
     ap.add_argument("--expect-ui", type=int, default=536)

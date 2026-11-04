@@ -25,7 +25,8 @@ namespace LGTSChinese
     public class Plugin : BaseUnityPlugin
     {
         // 1.3.31 (结构审查 F-02/F-11): DIAG 区分钟数噪声与真漏译、统一降级观测行
-        public const string VER = "1.3.31";
+        // 1.3.32: 补 11 条实机 miss (存档时间戳 / 任务日志标签 / 数量角标)
+        public const string VER = "1.3.32";
         // v1.3.27 (G3): 显示词典条数下限。低于此值说明文件被截断或解析半途失败,
         // 旧版会静默带病运行(玩家看到大面积英文, 日志却只有一行"载入 N 条")。
         private const int MinDisplayEntries = 20000;
@@ -217,6 +218,27 @@ namespace LGTSChinese
 
             string key = Norm(s);
             if (key.Length < 1) return;
+
+            // 1.5) v1.3.32: 存档位时间戳 "DATE 2026/11/3 TIME 01:48:36"
+            //      (SaveSlots/Viewport/Content/Saveslot(Clone)/Info/SaveTime)。
+            //      运行时拼日期时间, 词典不可能有这条键 —— 实机 DIAG 曾因此每读一次存档
+            //      就漏一条英文。只换 DATE / TIME 两个词, 日期与时间原样保留。
+            var mSv = SaveTimeRe.Match(key);
+            if (mSv.Success)
+            {
+                string sv = "日期 " + mSv.Groups[1].Value.Trim() + " 时间 " + mSv.Groups[2].Value.Trim();
+                D("[SAVETIME HIT] " + Trunc(key) + " -> " + Trunc(sv));
+                __0 = sv; TmpFixed++; return;
+            }
+
+            // 1.6) v1.3.32: 背包/食材列表的数量角标 "x22" (ItemView(Clone)/Quantity)。
+            //      数量无上限, 词典不可能穷举 x1..x999; 纯英文 x 换中文乘号。
+            var mQtySfx = QtySuffixRe.Match(key);
+            if (mQtySfx.Success)
+            {
+                D("[QTY SUFFIX] " + Trunc(key) + " -> ×" + mQtySfx.Groups[1].Value);
+                __0 = "×" + mQtySfx.Groups[1].Value; TmpFixed++; return;
+            }
 
             // 2) 日期+时段模板 (P0-3)
             var mDt = DayTimeRe.Match(key);
@@ -895,6 +917,14 @@ namespace LGTSChinese
             new System.Text.RegularExpressions.Regex(
                 "^(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sun\\.|Mon\\.|Tue\\.|Wed\\.|Thu\\.|Fri\\.|Sat\\.)\\s*\\.?\\s*(Morning|Afternoon|Evening|Night|Dawn|Dusk|Noon|Daytime|Witching Hour|Witch\\. Hour)$",
                 System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+        // v1.3.32: 存档位时间戳 "DATE 2026/11/3 TIME 01:48:36" (SaveSlots/.../Info/SaveTime)。
+        // 日期格式随系统区域变, 所以两段都用 .+? 兜住, 只认 DATE/TIME 两个词。
+        private static readonly System.Text.RegularExpressions.Regex SaveTimeRe =
+            new System.Text.RegularExpressions.Regex("^DATE\\s+(.+?)\\s+TIME\\s+(.+)$");
+        // v1.3.32: 背包/食材列表的数量角标 "x22" (ItemView(Clone)/Quantity)。
+        // 数量无上限, 词典不可能穷举, 只能按规则把纯英文 x 换成乘号。
+        private static readonly System.Text.RegularExpressions.Regex QtySuffixRe =
+            new System.Text.RegularExpressions.Regex("^[xX]\\s*(\\d{1,4})$");
         // v1.3.7 (C2): 数字模板抠取
         private static readonly System.Text.RegularExpressions.Regex NumRe =
             new System.Text.RegularExpressions.Regex("\\d+");
