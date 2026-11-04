@@ -240,6 +240,24 @@ namespace LGTSChinese
                 __0 = "×" + mQtySfx.Groups[1].Value; TmpFixed++; return;
             }
 
+            // 1.7) v1.3.32: 小游戏回合数 "ROUND 3" / "Round 3" → 「第 3 回合」
+            var mRound = RoundRe.Match(key);
+            if (mRound.Success)
+            {
+                string rd = "第 " + mRound.Groups[1].Value + " 回合";
+                D("[ROUND HIT] " + Trunc(key) + " -> " + Trunc(rd));
+                __0 = rd; TmpFixed++; return;
+            }
+
+            // 1.8) v1.3.32: 小游戏续关花费 "(5T)" → 「（5T）」
+            var mCost = RetryCostRe.Match(key);
+            if (mCost.Success)
+            {
+                string cs = "（" + mCost.Groups[1].Value + "T）";
+                D("[RETRY COST] " + Trunc(key) + " -> " + Trunc(cs));
+                __0 = cs; TmpFixed++; return;
+            }
+
             // 2) 日期+时段模板 (P0-3)
             var mDt = DayTimeRe.Match(key);
             if (mDt.Success)
@@ -925,6 +943,15 @@ namespace LGTSChinese
         // 数量无上限, 词典不可能穷举, 只能按规则把纯英文 x 换成乘号。
         private static readonly System.Text.RegularExpressions.Regex QtySuffixRe =
             new System.Text.RegularExpressions.Regex("^[xX]\\s*(\\d{1,4})$");
+        // v1.3.32: 小游戏回合数 "ROUND 3" (ChickenFrenzy/ChopChop/RApples 等 SetCountdownTimer)
+        // 与 "Round 3" (MinigameUI.SetRoundDisplay) 两种写法都在。数字无上限, 只能按规则。
+        private static readonly System.Text.RegularExpressions.Regex RoundRe =
+            new System.Text.RegularExpressions.Regex("^ROUND\\s+(\\d+)$",
+                System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+        // v1.3.32: 小游戏续关花费 "(5T)" (Minigame.cs:152 retryCost)。T 是游戏内的货币记号,
+        // 原样保留, 只把半角括号换成全角(与其余五层口径一致)。
+        private static readonly System.Text.RegularExpressions.Regex RetryCostRe =
+            new System.Text.RegularExpressions.Regex("^\\((\\d+)\\s*[Tt]\\)$");
         // v1.3.7 (C2): 数字模板抠取
         private static readonly System.Text.RegularExpressions.Regex NumRe =
             new System.Text.RegularExpressions.Regex("\\d+");

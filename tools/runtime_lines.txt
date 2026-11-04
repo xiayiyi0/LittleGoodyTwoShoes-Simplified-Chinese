@@ -45,3 +45,10 @@ StoryEvent	剧情事件	# QuestLogEntry/Subtitle 任务分类标签 (实机 DIAG
 RomanticEvent	浪漫事件	# QuestLogEntry/Subtitle 同上
 ChoreEvent	杂务事件	# QuestLogEntry/Subtitle 同上; Chores=XUAT_00990「杂务」
 SmallObjective	小目标	# QuestLogEntry/Subtitle 同上
+READY	准备	# 街机/小游戏倒计时 (ArcadeEffects.cs:193)
+GO!	开始！	# 全部小游戏 GO 提示 (Minigame*.cs SetCountdownTimer)
+S	S	# 小游戏评级字母 (MinigameScoreScreen.GradeIndexToText), 刻意保留拉丁字母
+A	A	# 评级字母 A
+B	B	# 评级字母 B
+C	C	# 评级字母 C
+D	D	# 评级字母 D
