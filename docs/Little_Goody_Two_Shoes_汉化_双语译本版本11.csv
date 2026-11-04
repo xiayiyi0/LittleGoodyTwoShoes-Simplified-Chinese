@@ -8633,7 +8633,7 @@ DLG_7_2_VST_01_004,你也看见上星期天暴风是怎么祸害基弗伯格的�
 DLG_7_2_VST_01_005,五月柱十有八九也是遭了同样的殃！,8632,主线对白DLG,7月2日,VST,,已译,Perhaps the maypole suffered the same fate!
 DLG_7_2_VST_01_006,我们都受够了，奥蒂莉太太……,8633,主线对白DLG,7月2日,VST,,已译,"We've all had enough, Mrs. Odilie..."
 DLG_7_2_VST_01_007,节庆就是明天了，奥蒂莉太太！消停消停吧！,8634,主线对白DLG,7月2日,VST,[专名] festival统一作「节庆」,已译,"The festival's tomorrow, Mrs. Odilie! Give it a rest!"
-DLG_7_2_VST_01_008,您也该消消停停了，您说是不是？,8635,主线对白DLG,7月2日,VST,[语气] 劝人歇手，留「您说是不是」作软问尾；不再叠「吧」，也不改「是吧」,已译,"It's time you give it a rest, wouldn't you say?"
+DLG_7_2_VST_01_008,您也该消停消停了，您说是不是？,8635,主线对白DLG,7月2日,VST,[语气] 劝人歇手，留「您说是不是」作软问尾；动词重叠是「消停消停」，勿作「消消停停」,已译,"It's time you give it a rest, wouldn't you say?"
 DLG_7_2_VST_01_009,正相反，丫头——从没这么糟过！,8636,主线对白DLG,7月2日,VST,,已译,"On the contrary, lass! It's never been this bad!"
 DLG_7_2_VST_01_010,这话说得可太夸张了，奥蒂莉……,8637,主线对白DLG,7月2日,VST,,已译,"Now that's a proper exaggeration, Odilie..."
 DLG_7_2_VST_01_011,她说得对，梅希蒂尔德。,8638,主线对白DLG,7月2日,VST,[校正] 明确代词指代作「她」,已译,"She's right, Mechtilde."
@@ -28015,7 +28015,7 @@ XUAT_06371,哇，很高兴认识你，芙蕾雅……先生？,27581,遗留层XU
 XUAT_06372,错误答案,27582,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CUT_BOSS_Text_B_1,已译,Wrong Answer
 XUAT_06373,你、你可不能在外头这么说，伊莉丝……！,27583,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Y-You can't say that out here, Elise...!"
 XUAT_06374,你、你饭都还没吃完呢，万、万一馊了怎么办？,27584,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Y-You haven't even finished eating, w-what if it spoils?"
-XUAT_06375,你、你还欠我东西呢，伊、伊莉丝——对、对不对？,27585,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录；[语气] 结巴＋「吧」＋问尾挤在一句里；改「欠我东西」贴原词 something，结巴延到句尾「对、对不对」,已译,"Y-You owe me something, E-Elise - don't you?"
+XUAT_06375,你、你还欠我东西呢，伊、伊莉丝——是吧？,27585,遗留层XUAT,—,XUAT,[遗留收编] 去「吧」＋问尾叠用；something 作「东西」（她讨的是面包，见 XUAT_06376），原文只 Y-You／E-Elise 两处结巴，句尾不再加,已译,"Y-You owe me something, E-Elise - don't you?"
 XUAT_06376,你、你答应过给我面包的！,27586,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Y-You promised me some bread!
 XUAT_06377,你、你说了……！你说了……！,27587,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Y-You said...! You said...!
 XUAT_06378,你、你把五月柱给拆了……！,27588,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_7_2_VIN_01_003,已译,Y-You tore down the maypole...!
@@ -28245,7 +28245,7 @@ XUAT_06599,你只要慢慢接受这件事就好了，伊莉丝。,27809,遗留�
 XUAT_06600,你该多做祈祷才是，莉丝贝特太太。,27810,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CUT_3_4_VSQ_01_017,已译,"You ought to gather your prayers, Mrs Lisbeth."
 XUAT_06601,您该冷静一下才是。,27811,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,You ought to get hold of yourself.
 XUAT_06602,你也该好好歇一歇了，伊莉丝。,27812,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"You ought to get proper rest, Elise."
-XUAT_06603,你也该消消停停了，奥蒂莉。,27813,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录；[人称] 同辈互称,已译,"You ought to give it a rest, Odilie."
+XUAT_06603,你也该消停消停了，奥蒂莉。,27813,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录；[人称] 同辈互称；动词重叠作「消停消停」，对齐主线 DLG_4_2_VBA_01_009,已译,"You ought to give it a rest, Odilie."
 XUAT_06604,你可得好好想想清楚，多萝特娅！,27814,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_7_3_VIN_04_001,已译,"You ought to give it some proper thought, Dorothea!"
 XUAT_06605,你肯定吓坏了吧，可怜的孩子……,27815,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_5_5_VIN_08_003,已译,"You ought to have been so frightened, poor thing..."
 XUAT_06606,您该冷静一下，琳达太太……,27816,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"You ought to keep calm, Mrs Linda..."
