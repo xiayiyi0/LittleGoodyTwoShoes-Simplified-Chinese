@@ -95,7 +95,9 @@ EXPECT_SUMS = 1 + len(FILES) + len(SHIPPED_TOP)
 # 直接不执行且不留 SKIP, 汇总行照样只报 PASS — 只有"应跑 == 实跑"才能发现。
 # 改检查项时必须同步改这个数。
 # v1.3.31: 39 → 42 (新增 G 组 3 项运行时诊断; 不带 --diag 时基线自动 -3)。
-EXPECTED_CHECKS = 42
+# v1.3.32 结构侧: 42 → 45 (G 组加入 DIAG 与资产的绑定断言: 首行版本 / DLL sha256 / TMP 钩子已挂;
+#                行数门槛从 >100 降到 >20, 那一项已不再是证据强度指标)。
+EXPECTED_CHECKS = 45
 
 
 def main():
@@ -437,11 +439,12 @@ def main():
         except Exception as e:
             dtext, derr = None, e
         if derr is not None:
-            check("DIAG 可读", False, str(derr))
-            check("DIAG 无 [TMP MISS]", False, "DIAG 不可读")
-            check("DIAG 无未登记 [DEGRADE]", False, "DIAG 不可读")
+            for name in ("DIAG 行数 > 20", "DIAG 无 [TMP MISS]", "DIAG 无未登记 [DEGRADE]",
+                         "DIAG 首行版本绑定", "DIAG DLL 绑定 (sha256)", "DIAG TMP 钩子已挂"):
+                check(name, False, "DIAG 不可读")
         else:
-            check("DIAG 行数 > 100", len(dtext) > 100, str(len(dtext)))
+            # 行数门槛只防"空文件/刚启动"，不再是证据强度指标（v1.3.32 起改用下面的绑定断言）
+            check("DIAG 行数 > 20", len(dtext) > 20, str(len(dtext)))
             miss = [l for l in dtext if "[TMP MISS]" in l]
             check("DIAG 无 [TMP MISS]", not miss,
                   "前 3 条: %s" % [m[:70] for m in miss[:3]])
@@ -454,11 +457,49 @@ def main():
                   "未登记 %d 条 %s / 良性 %d 条"
                   % (len(bad), [b[:70] for b in bad[:3]], len(deg) - len(bad)))
 
+            # --- 2026-11-04 (结构侧 P1): DIAG 必须与本批资产绑定，否则陈旧 DIAG 也能过验收 ---
+            first = dtext[0].strip() if dtext else ""
+            want = "=== LGTS DIAG v%s 启动 ===" % args.version
+            check("DIAG 首行版本绑定", first == want, "%r" % first[:70])
+
+            stg_dll = os.path.join(stage, r"BepInEx\plugins\LGTSChinese\LGTSChinese.dll")
+            diag_dll = None
+            diag_time = None
+            for l in dtext:
+                if l.startswith("DLL="):
+                    diag_dll = l[4:].strip()
+                elif l.startswith("DLL time="):
+                    diag_time = l[9:].strip()
+            if diag_dll and os.path.exists(diag_dll) and os.path.exists(stg_dll):
+                a = sha256(diag_dll)
+                b = sha256(stg_dll)
+                check("DIAG DLL 绑定 (sha256)", a == b, "%s vs stage %s" % (a[:12], b[:12]))
+            elif diag_time:
+                # DIAG 来自另一台机器/路径已不存在：退回时间戳比对（同一个 DLL 文件被复制时 mtime 一致）
+                anchor = stg_dll if os.path.exists(stg_dll) else None
+                if anchor is None and args.live:
+                    anchor = os.path.join(args.live, r"BepInEx\plugins\LGTSChinese\LGTSChinese.dll")
+                if anchor and os.path.exists(anchor):
+                    import datetime
+                    mt = datetime.datetime.fromtimestamp(os.path.getmtime(anchor))
+                    got = "%d/%d/%d %02d:%02d:%02d" % (mt.year, mt.month, mt.day,
+                                                       mt.hour, mt.minute, mt.second)
+                    check("DIAG DLL 绑定 (mtime)", diag_time == got,
+                          "DIAG %s / 资产 %s" % (diag_time, got))
+                else:
+                    check("DIAG DLL 绑定 (mtime)", True, "无锚点文件, 跳过", skipped=True)
+            else:
+                check("DIAG DLL 绑定 (sha256)", False, "DIAG 里既无 DLL= 也无 DLL time=")
+
+            hi = [l for l in dtext if "TMP hook OK: TMP_Text.set_text" in l]
+            check("DIAG TMP 钩子已挂", bool(hi),
+                  "找到 %d 行；缺它就是「钩子没挂上」的强信号" % len(hi))
+
     # 2026-11-04 (外部审查 F-03): 验收器自身也要被验收。
     # 省略 --live 时 "live 比对" 这一项会以 SKIP 记录 (比全参数多 1 条), 基线相应 +1;
-    # 省略 --diag 时 G 组 3 项整体不执行, 基线相应 -3。
+    # 省略 --diag 时 G 组 6 项整体不执行, 基线相应 -6。
     n_ran = len(RESULTS)
-    expected = EXPECTED_CHECKS + (0 if args.live else 1) - (0 if args.diag else 3)
+    expected = EXPECTED_CHECKS + (0 if args.live else 1) - (0 if args.diag else 6)
     if n_ran != expected:
         check("应跑检查项 %d (实跑 %d)" % (expected, n_ran), False,
               "差 %d 项未执行, 多半是缺 --csv (译本相关检查整块不跑); 发布门槛必须带全参数重跑"

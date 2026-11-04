@@ -19,8 +19,10 @@
 | zip | **31,682,775 B / sha256 `03de8e43d701d8e71c7db104ae86af33209d8d4206fcc9ae168d38804d17b360`** |
 | 包内 `SHA256SUMS.txt` | 1,463 B / sha256 `341721c04d2ba25e1851b0dd694d3e7f03c6d31d62904632b3ea70e14fe6011f` |
 
-**验收：42 PASS / 0 FAIL / 0 SKIP，rc=0**；`check_localization.py` 15/15 PASS（含新增的
-G1.6「日期/时间两行且不被切断」与 G1.7「发布 DLL 确实是分行实现」）。
+**验收：42 PASS**（G 组扩容前）→ 随后 G 组加入「DIAG 与资产绑定」三项（首行版本 / DLL sha256 /
+`TMP hook OK`），基线升到 **45 项**，全参数复跑 **45 PASS / 0 FAIL / 0 SKIP，rc=0**；
+`check_localization.py` 15/15 PASS（含新增的 G1.6「日期/时间两行且不被切断」与
+G1.7「发布 DLL 确实是分行实现」）。三条新断言都用陈旧 DIAG / 改版本号 / 删钩子行做过反向测试。
 
 **DLL 一致性**：v1.3.32 内 DLL 已换过两次（`8e87d3e7…` → `3bcdd858…`），文件版本号不变，
 批次区分靠 `SHA256SUMS.txt` 与本文件的哈希链。源码已同步进 `source/`。
