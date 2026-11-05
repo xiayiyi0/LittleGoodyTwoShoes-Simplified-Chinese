@@ -1842,7 +1842,7 @@ DLG_3_3_VBA_02_046,我这就走，省得您费心，伯恩哈德先生。,1840,�
 DLG_3_3_VBA_02_048,你居然叫我们老太婆，丫头！,1841,主线对白DLG,3月3日,VBA,,已译,"You called us old crones, lass!"
 DLG_3_3_VBA_02_049,你还不敬霍尔奶奶呢，老巫婆！,1842,主线对白DLG,3月3日,VBA,[称谓] 辱骂语境用「你」,已译,"And you disrespected granny Holle, you old hag!"
 DLG_3_3_VBA_02_050,你最好走开，伊莉丝。,1843,主线对白DLG,3月3日,VBA,,已译,"It's best you move along, Elise."
-DLG_3_3_VBA_02_051,趁埃尔玛太太还没把脸丢得更彻底，这话我可得赞同！,1844,主线对白DLG,3月3日,VBA,[校正] I ought to agree 回应的是 050「你最好走开」，作「赞同这话」，非「该走了」,已译,"Before Mrs Elma embarrasses herself even further, I ought to agree!"
+DLG_3_3_VBA_02_051,这话我可得赞同，省得埃尔玛太太把脸丢得更彻底！,1844,主线对白DLG,3月3日,VBA,[校正] I ought to agree 回应的是 050「你最好走开」，作「赞同这话」，非「该走了」；[语气] 用「省得」承接 Before，避免「趁…我可得赞同」宾语悬空,已译,"Before Mrs Elma embarrasses herself even further, I ought to agree!"
 DLG_3_3_VBA_02_054,你走吧，把那个穷要饭的也一起带走！,1845,主线对白DLG,3月3日,VBA,[专名] penny beggar统作「穷要饭的」,已译,You move along and take that penny beggar with you!
 DLG_3_3_VBA_02_056,这下糟了，伊莉丝……,1846,主线对白DLG,3月3日,VBA,,已译,"This is bad, Elise..."
 DLG_3_3_VBA_02_057,我知道，萝丝玛琳，我知道……,1847,主线对白DLG,3月3日,VBA,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,"I know, Rosmarine, I know..."
@@ -4244,7 +4244,7 @@ DLG_4_4_VIN_03_024,谢谢您，伯恩哈德先生。,4242,主线对白DLG,4月4�
 DLG_4_4_VIN_03_025,（哼，老约亨见鬼去吧……！）,4243,主线对白DLG,4月4日,VIN,[语气] Oh依语境改译,已译,"(Oh, to Hell with Old Jochen...!)"
 DLG_4_4_VIN_03_026,（幸好这些人还算明事理……）,4244,主线对白DLG,4月4日,VIN,,已译,"(It's a good thing these folks know better, at least...)"
 DLG_4_4_VIN_04_001,你说是不是，伊莉丝？,4245,主线对白DLG,4月4日,VIN,,已译,"Wouldn't you say, Elise?"
-DLG_4_4_VIN_04_002,说什么跟什么，罗蕾莱太太？,4246,主线对白DLG,4月4日,VIN,[校正] 承 001 Wouldn't you say，此处是没听清的追问；「是不是什么」是从上句照搬的问尾,已译,"Say what about what, Mrs. Loreley?"
+DLG_4_4_VIN_04_002,说什么是不是，罗蕾莱太太？,4246,主线对白DLG,4月4日,VIN,[校正] 承 001 Wouldn't you say，此句是没听清的复读；保留「是不是」的复读点（笑点在此），去掉重复的「什么」，也不用带嫌弃味的「什么跟什么」,已译,"Say what about what, Mrs. Loreley?"
 DLG_4_4_VIN_04_003,但愿这荒唐事别闹到星期六！,4247,主线对白DLG,4月4日,VIN,,已译,One can only hope this nonsense won't last until Saturday!
 DLG_4_4_VIN_04_004,啊，倒也是……,4248,主线对白DLG,4月4日,VIN,,已译,"Ah, I suppose that's true..."
 DLG_4_4_VIN_04_005,喂，你是个机灵的丫头，伊莉丝——跟我说实话吧。,4249,主线对白DLG,4月4日,VIN,,已译,"Say, you're a clever lass, Elise — you can be honest with me."
@@ -4955,14 +4955,14 @@ DLG_4_5_WCR_C_03_010,……,4953,主线对白DLG,4月5日,WCR_C,,已译,...
 DLG_4_5_WCR_C_03_011,没错！没错！,4954,主线对白DLG,4月5日,WCR_C,,已译,That's right! That's right!
 DLG_4_5_WCR_C_03_012,你在说什么呢？,4955,主线对白DLG,4月5日,WCR_C,[标点] 删多余省略号/感叹号,已译,What are you talking about?
 DLG_4_5_WCR_C_03_013,他在嘲弄你——咱们最好现在就离开。,4956,主线对白DLG,4月5日,WCR_C,,已译,"He's mocking you — it's best we leave, now."
-DLG_4_5_WCR_C_03_014,（说他是在嘲弄我……真是这样吗。）,4957,主线对白DLG,4月5日,WCR_C,[标点] 删多余标点，还原怀疑语气；[校正] 还原对 013「他在嘲弄你」的回声复述与怀疑，衔接 015,已译,"(Mocking me, is he?)"
+DLG_4_5_WCR_C_03_014,（嘲弄我，是吗……）,4957,主线对白DLG,4月5日,WCR_C,[语气] 对 013「他在嘲弄你」的回声复述＋怀疑，衔接 015；长度对齐原文四个词，结尾统一用「……」,已译,"(Mocking me, is he?)"
 DLG_4_5_WCR_C_03_015,（不知怎的，萝丝玛琳的反应却让我不这么想……）,4958,主线对白DLG,4月5日,WCR_C,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,"(Rosmarine's reaction makes me think otherwise, somehow...)"
 DLG_4_5_WCR_C_04_001,咱们最好别在这儿久留……,4959,主线对白DLG,4月5日,WCR_C,,已译,It's best we don't stay here much longer...
 DLG_4_5_WCR_C_04_002,你这是什么意思，萝丝玛琳？,4960,主线对白DLG,4月5日,WCR_C,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,"What do you mean, Rosmarine?"
 DLG_4_5_WCR_C_04_003,我觉得，还是别离那只乌鸦太近……,4961,主线对白DLG,4月5日,WCR_C,,已译,I don't think it's good to get too close to that crow...
 DLG_4_5_WCR_C_04_004,我想也是……,4962,主线对白DLG,4月5日,WCR_C,[语气] 定句：对齐五处附和语境,已译,I suppose not...
 DLG_4_5_WCR_C_04_005,（萝丝玛琳真的变了——我从没见过她这副模样……）,4963,主线对白DLG,4月5日,WCR_C,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,(Rosmarine truly has changed — I've never seen her like this...)
-DLG_4_5_WCR_C_04_006,（我在想是不是因为我根本不够了解她，又或者……）,4964,主线对白DLG,4月5日,WCR_C,,已译,"(I wonder if it's because I don't know her all that well, or...)"
+DLG_4_5_WCR_C_04_006,（我在想是不是因为我根本不够了解她……）,4964,主线对白DLG,4月5日,WCR_C,[衔接] 句末「又或者」交给下一行 007 承接（英文 or...if 是同一句被拆两行），避免两行连读「又或者……／又或者」,已译,"(I wonder if it's because I don't know her all that well, or...)"
 DLG_4_5_WCR_C_04_007,（又或者那些乌鸦这回说的真是实话。）,4965,主线对白DLG,4月5日,WCR_C,[校正] if 为并列推测从句，非条件,已译,(If those crows were speaking the truth for once.)
 DLG_4_5_WCR_C_05_001,真巧啊！真巧啊！,4966,主线对白DLG,4月5日,WCR_C,[语气] 压缩乌鸦叠句，还原聒噪节奏,已译,Fancy seeing you! Fancy seeing you!
 DLG_4_5_WCR_C_05_002,我到现在还是不明白你想从我这儿要什么，乌鸦。,4967,主线对白DLG,4月5日,WCR_C,,已译,"I still don't understand what you want from me, crow."
@@ -21515,7 +21515,7 @@ XUAT_00214,（穆里姆大人和阿兹尔女士……）,21424,遗留层XUAT,—
 XUAT_00215,（也许改天可以问问佩佩要不要跟我一起去。）,21425,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(Maybe I can ask Leb if she wants to go with me sometime soon.)
 XUAT_00216,（也许……我至少该给她点什么才对……）,21426,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Maybe I could've given her something, at least...)"
 XUAT_00217,（黄昏在这儿见她呢……）,21427,遗留层XUAT,—,XUAT,[v11修订] 独白句尾huh转自语口吻,已译,"(Meet her here at dusk, huh...)"
-XUAT_00218,（说他是在嘲弄我……真是这样吗。）,21428,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_4_5_WCR_C_03_014；[校正] 与主线 DLG_4_5_WCR_C_03_014 同步,已译,"(Mocking me, is he...?)"
+XUAT_00218,（嘲弄我，是吗……）,21428,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_4_5_WCR_C_03_014；[校正] 与主线同值,已译,"(Mocking me, is he...?)"
 XUAT_00219,（钥匙在欧根先生手上，我差点忘了……）,21429,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Mr Eugen has the key, I nearly forgot...)"
 XUAT_00220,（欧根先生还紧攥着那把钥匙呢……）,21430,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_5_5_VWM_01_016,已译,(Mr Eugen's still holding onto that key...)
 XUAT_00221,（古斯塔夫先生这是在孤军奋战啊，不是吗……）,21431,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Mr Gustav's fighting a lonesome battle here, isn't he...)"
