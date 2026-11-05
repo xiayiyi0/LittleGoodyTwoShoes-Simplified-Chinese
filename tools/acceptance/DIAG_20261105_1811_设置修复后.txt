@@ -1,0 +1,78 @@
+=== LGTS DIAG v1.3.32 启动 ===
+DLL=D:\steam\steamapps\common\Little Goody Two Shoes\BepInEx\plugins\LGTSChinese\LGTSChinese.dll
+DLL time=2026/11/5 17:56:01
+[DLL SHA] e40689f95e910a19286d4d10637b2b517b1423ff03b83f491e7570c876708968
+译文表(by_refkey)载入: 21189 条
+显示词典(lgts_display.json)载入: 25318 归一键
+道具名映射(lgts_item_names.json)载入: 79 键
+I2 语言门: CurrentLanguageCode 属性=已取得 英语资源键取词=已取得
+DoLocalize hooks=4 LocFinalTerm=True LocMTerm=True LocFinalSecondaryTerm=True LocMTermSecondary=True
+[GUARD] OnLocalize 护栏已挂
+TMP hook OK: TMP_Text.set_text
+TMP hook ABSENT: SetText(string) 未找到(本 TMP 版本该重载多为 SetText(string,bool) 默认参形态, 会绕回已挂路径)
+TMP hook OK: TMP_Text.SetText(string,bool)
+[RUNNER] 启动
+[HOST DESTROYED] TMP seen=0 fixed=0 miss=0 missNoise=0 cjkSkip=0 uniqHit=0 uniqMiss=0 | I2 hits=0 miss=0 | DoLoc hit=0 miss=0 | UGUI text=0 font=0 | DEGRADE=0
+[TMP HIT ] "Village Entrance"
+[TMP HIT ] "YES"
+[TMP HIT ] "Creek"
+[TMP HIT ] "The Woodland"
+[TMP HIT ] "Toggle"
+[TMP HIT ] "Elise's House"
+[TMP HIT ] "Skip"
+[TMP HIT ] "Crossroads"
+[TMP HIT ] "Current"
+[TMP HIT ] "Elise's Backyard"
+[TMP HIT ] "Later"
+[TMP HIT ] "Back"
+[TMP HIT ] "Viewpoint"
+[TMP HIT ] "Party Talk!"
+[TMP HIT ] "The <b>Good Company</b>"
+[TMP HIT ] "Water Well"
+[TMP HIT ] "Back Alleys"
+[TMP HIT ] "Past"
+[TMP HIT ] "Stables"
+[TMP HIT ] "Village Square"
+[TMP HIT ] "Acquire"
+[TMP HIT ] "Select"
+[TMP HIT ] "Auto"
+[TMP HIT ] "Grapevine Path"
+[TMP HIT ] "Navigate"
+[TMP HIT ] "Village Inn"
+[TMP HIT ] "The <b>Sweetest Nectar</b>"
+[TMP HIT ] "Windmill"
+[TMP HIT ] "The <b>Tender Flesh</b>"
+[TMP HIT ] "Log"
+[TMP HIT ] "FPS: "
+[TMP HIT ] "Cancel"
+[TMP HIT ] "Sat."
+[TMP HIT ] "Dawn"
+[TMP FONT] CreateFontAsset 返回空, OS 动态兜底跳过
+[DEGRADE] 中文字体未注入 TMP 全局 fallback; 字形依赖 arialuni/UGUI 通道
+[UGUI FONT] 系统字体数=232 候选命中=[Microsoft YaHei,Microsoft YaHei UI,SimHei,SimSun]
+[UGUI FONT] 采用系统字体: Microsoft YaHei
+[HEARTBEAT] TMP seen=500 fixed=75 miss=0 missNoise=313 degrade=1 cjkSkip=111 uniqHit=34 uniqMiss=0
+[TMP HIT ] "Preserve your <b>Matches</b>! You never know when you'll nee"
+[HEARTBEAT] TMP seen=1000 fixed=76 miss=0 missNoise=809 degrade=1 cjkSkip=114 uniqHit=35 uniqMiss=0
+[HEARTBEAT] TMP seen=1500 fixed=76 miss=0 missNoise=1308 degrade=1 cjkSkip=115 uniqHit=35 uniqMiss=0
+[HEARTBEAT] TMP seen=2000 fixed=76 miss=0 missNoise=1808 degrade=1 cjkSkip=115 uniqHit=35 uniqMiss=0
+[TMP HIT ] "Restore Defaults"
+[TMP HIT ] "Voice Language"
+[TMP HIT ] "General"
+[TMP HIT ] "Graphics"
+[TMP HIT ] "Audio"
+[TMP HIT ] "LANG_English"
+[TMP HIT ] "JPN"
+[TMP HIT ] "ENG"
+[TMP HIT ] "Text Settings"
+[TMP HIT ] "Speed"
+[TMP HIT ] "Force Skip"
+[TMP HIT ] "Auto Wait Time"
+[TMP HIT ] "Controls"
+[TMP HIT ] "LOW"
+[TMP HIT ] "MEDIUM"
+[TMP HIT ] "HIGH"
+[TMP HIT ] "NO"
+[TMP HIT ] "blalba"
+[TMP HIT ] "Save these settings?"
+[FINAL] TMP seen=2281 fixed=139 miss=0 missNoise=2007 cjkSkip=135 uniqHit=54 uniqMiss=0 | I2 hits=0 miss=0 | DoLoc hit=0 miss=0 | UGUI text=0 font=0 | DEGRADE=1

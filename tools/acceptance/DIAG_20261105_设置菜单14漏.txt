@@ -1,0 +1,192 @@
+=== LGTS DIAG v1.3.32 启动 ===
+DLL=D:\steam\steamapps\common\Little Goody Two Shoes\BepInEx\plugins\LGTSChinese\LGTSChinese.dll
+DLL time=2026/11/4 23:06:03
+译文表(by_refkey)载入: 21189 条
+显示词典(lgts_display.json)载入: 25305 归一键
+道具名映射(lgts_item_names.json)载入: 79 键
+I2 语言门: CurrentLanguageCode 属性=已取得 英语资源键取词=已取得
+DoLocalize hooks=4 LocFinalTerm=True LocMTerm=True LocFinalSecondaryTerm=True LocMTermSecondary=True
+[GUARD] OnLocalize 护栏已挂
+TMP hook OK: TMP_Text.set_text
+TMP hook ABSENT: SetText(string) 未找到(本 TMP 版本该重载多为 SetText(string,bool) 默认参形态, 会绕回已挂路径)
+TMP hook OK: TMP_Text.SetText(string,bool)
+[RUNNER] 启动
+[HOST DESTROYED] TMP seen=0 fixed=0 miss=0 missNoise=0 cjkSkip=0 uniqHit=0 uniqMiss=0 | I2 hits=0 miss=0 | DoLoc hit=0 miss=0 | UGUI text=0 font=0 | DEGRADE=0
+[TMP HIT ] "Village Entrance"
+[TMP HIT ] "YES"
+[TMP HIT ] "Creek"
+[TMP HIT ] "The Woodland"
+[TMP HIT ] "Toggle"
+[TMP HIT ] "Elise's House"
+[TMP HIT ] "Skip"
+[TMP HIT ] "Crossroads"
+[TMP HIT ] "Current"
+[TMP HIT ] "Elise's Backyard"
+[TMP HIT ] "Later"
+[TMP HIT ] "Back"
+[TMP HIT ] "Viewpoint"
+[TMP HIT ] "Party Talk!"
+[TMP HIT ] "The <b>Good Company</b>"
+[TMP HIT ] "Water Well"
+[TMP HIT ] "Back Alleys"
+[TMP HIT ] "Past"
+[TMP HIT ] "Stables"
+[TMP HIT ] "Village Square"
+[TMP HIT ] "Acquire"
+[TMP HIT ] "Select"
+[TMP HIT ] "Auto"
+[TMP HIT ] "Grapevine Path"
+[TMP HIT ] "Navigate"
+[TMP HIT ] "Village Inn"
+[TMP HIT ] "The <b>Sweetest Nectar</b>"
+[TMP HIT ] "Windmill"
+[TMP HIT ] "The <b>Tender Flesh</b>"
+[TMP HIT ] "Log"
+[TMP HIT ] "FPS: "
+[TMP HIT ] "Cancel"
+[TMP HIT ] "Sat."
+[TMP HIT ] "Dawn"
+[TMP FONT] CreateFontAsset 返回空, OS 动态兜底跳过
+[DEGRADE] 中文字体未注入 TMP 全局 fallback; 字形依赖 arialuni/UGUI 通道
+[UGUI FONT] 系统字体数=232 候选命中=[Microsoft YaHei,Microsoft YaHei UI,SimHei,SimSun]
+[UGUI FONT] 采用系统字体: Microsoft YaHei
+[HEARTBEAT] TMP seen=500 fixed=75 miss=0 missNoise=313 degrade=1 cjkSkip=111 uniqHit=34 uniqMiss=0
+[HEARTBEAT] TMP seen=1000 fixed=75 miss=0 missNoise=811 degrade=1 cjkSkip=113 uniqHit=34 uniqMiss=0
+[TMP HIT ] "Stock up on useful items before exploring the woodland!"
+[HEARTBEAT] TMP seen=1500 fixed=76 miss=0 missNoise=1306 degrade=1 cjkSkip=117 uniqHit=35 uniqMiss=0
+[DAYTIME HIT] Mon. Evening -> 周一 傍晚
+[SAVETIME HIT] DATE 2026/11/4 TIME 02:07:37 -> 日期 2026/11/4\n时间 02:07:37
+[DAYTIME HIT] Sun. Afternoon -> 周日 下午
+[SAVETIME HIT] DATE 2026/10/21 TIME 00:44:55 -> 日期 2026/10/21\n时间 00:44:55
+[HEARTBEAT] TMP seen=2000 fixed=88 miss=0 missNoise=1763 degrade=1 cjkSkip=148 uniqHit=35 uniqMiss=0
+[TMP HIT ] "NO"
+[TMP HIT ] "Load this save?"
+[TMP HIT ] "Find your way home!"
+[TMP HIT ] "StoryEvent"
+[TARGET HIT ] orig="Find the Tinderbox!" key="Find the Tinderbox!" @Scroll View/Viewport/Content/Past/QuestLogEntry(Clone)/Description
+[TMP HIT ] "Find the Tinderbox!"
+[TARGET HIT ] orig="Light the fireplace!" key="Light the fireplace!" @Scroll View/Viewport/Content/Past/QuestLogEntry(Clone)/Description
+[TMP HIT ] "Light the fireplace!"
+[TMP HIT ] "Find the burglar!"
+[TMP HIT ] "Bring Rozenmarine home!"
+[TMP HIT ] "Go to bed!"
+[TMP HIT ] "Find Rozenmarine!"
+[TMP HIT ] "Attend Sunday Mass!"
+[TMP HIT ] "Meet Rozenmarine at the Backyard at Dusk!"
+[TMP HIT ] "RomanticEvent"
+[TMP HIT ] "Help Ariane with the chickens!"
+[TMP HIT ] "ChoreEvent"
+[TMP HIT ] "Help Elma with the apples!"
+[TMP HIT ] "Meet Lebkuchen at the Church Tower in the Afternoon!"
+[TMP HIT ] "Investigate the notes you found!"
+[TMP HIT ] "Meet Freya at the Viewpoint in the Afternoon!"
+[TMP HIT ] "Help Lisbeth chop some wood!"
+[TMP HIT ] "Help Linda with the chickens!"
+[TMP HIT ] "Help Marlen with the apples!"
+[TMP HIT ] "Play Kiss the Rat with the kids!"
+[TMP HIT ] "Have Dinner with Rozenmarine!"
+[TMP HIT ] "Meet Lebkuchen at the Bakery!"
+[TMP HIT ] "SmallObjective"
+[TMP HIT ] "Find the source of the noise!"
+[TMP HIT ] "Explore the room!"
+[TMP HIT ] "Leave the room!"
+[TMP HIT ] "Escape the room!"
+[TMP HIT ] "Get ready for work!"
+[TMP HIT ] "Tend to the Backyard!"
+[TMP HIT ] "Help Linda chop some wood!"
+[TMP HIT ] "Meet Lebkuchen in Church at Dusk!"
+[TMP HIT ] "Meet Freya by the Water Well at Dusk!"
+[TMP HIT ] "Help Eugen with the chickens!"
+[TMP HIT ] "Talk to Rozenmarine!"
+[TMP HIT ] "Head back to work!"
+[TMP HIT ] "Help Wilma with the chickens!"
+[TMP HIT ] "Help Dorothea chop some wood!"
+[TMP HIT ] "Meet Lebkuchen in the Village Square!"
+[TMP HIT ] "Talk to Rozenmarine about the Gifts!"
+[ITEMNAME HIT] "Lantern" @KeyItems/Scroll View/Viewport/Content/ItemView(Clone)/Name
+[QTY SUFFIX] x1 -> ×1
+[ITEMNAME HIT] "Elise's Brooch" @KeyItems/Scroll View/Viewport/Content/ItemView(Clone)/Name
+[QTY SUFFIX] x1 -> ×1
+[ITEMNAME HIT] "Broom" @KeyItems/Scroll View/Viewport/Content/ItemView(Clone)/Name
+[QTY SUFFIX] x1 -> ×1
+[ITEMNAME HIT] "Tinderbox" @KeyItems/Scroll View/Viewport/Content/ItemView(Clone)/Name
+[QTY SUFFIX] x1 -> ×1
+[ITEMNAME HIT] "Mysterious Note" @KeyItems/Scroll View/Viewport/Content/ItemView(Clone)/Name
+[QTY SUFFIX] x1 -> ×1
+[ITEMNAME HIT] "Bread" @FoodItems/Scroll View/Viewport/Content/ItemView(Clone)/Name
+[QTY SUFFIX] x1 -> ×1
+[QTY SUFFIX] x24 -> ×24
+[ITEMNAME HIT] "Grapes" @FoodItems/Scroll View/Viewport/Content/ItemView(Clone)/Name
+[QTY SUFFIX] x1 -> ×1
+[QTY SUFFIX] x2 -> ×2
+[ITEMNAME HIT] "Pretzel" @FoodItems/Scroll View/Viewport/Content/ItemView(Clone)/Name
+[QTY SUFFIX] x1 -> ×1
+[QTY SUFFIX] x10 -> ×10
+[ITEMNAME HIT] "Lebkuchen" @FoodItems/Scroll View/Viewport/Content/ItemView(Clone)/Name
+[QTY SUFFIX] x1 -> ×1
+[QTY SUFFIX] x5 -> ×5
+[ITEMNAME HIT] "Grape Juice" @FoodItems/Scroll View/Viewport/Content/ItemView(Clone)/Name
+[QTY SUFFIX] x1 -> ×1
+[QTY SUFFIX] x5 -> ×5
+[ITEMNAME HIT] "Ointment" @NormalItems/Scroll View/Viewport/Content/ItemView(Clone)/Name
+[QTY SUFFIX] x1 -> ×1
+[QTY SUFFIX] x6 -> ×6
+[ITEMNAME HIT] "Bandages" @NormalItems/Scroll View/Viewport/Content/ItemView(Clone)/Name
+[QTY SUFFIX] x1 -> ×1
+[QTY SUFFIX] x6 -> ×6
+[ITEMNAME HIT] "St. Walpurga's Oil" @NormalItems/Scroll View/Viewport/Content/ItemView(Clone)/Name
+[QTY SUFFIX] x1 -> ×1
+[QTY SUFFIX] x5 -> ×5
+[TMP HIT ] "Evening"
+[DAYTIME HIT] Monday . Evening -> 周一 傍晚
+[TMP HIT ] "Mon."
+[TMP HIT ] "Don't forget to turn on your <b>Lantern</b> in dark places."
+[TMP HIT ] "Story Event Available!"
+[TMP HIT ] "Restore Defaults"
+[TMP HIT ] "Voice Language"
+[TMP HIT ] "General"
+[TMP HIT ] "Graphics"
+[HEARTBEAT] TMP seen=2500 fixed=244 miss=0 missNoise=2052 degrade=1 cjkSkip=203 uniqHit=98 uniqMiss=0
+[TMP HIT ] "Audio"
+[TMP MISS] "LANG_English" @ShiftOptions_Language/Scroll-Snap/Viewport/Content/ShiftOptionContent(Clone)/Text (TMP)
+[TMP MISS] "JPN" @ShiftOptions_Language/Scroll-Snap/Viewport/Content/ShiftOptionContent(Clone)/Text (TMP)
+[TMP MISS] "ENG" @ShiftOptions_Language/Scroll-Snap/Viewport/Content/ShiftOptionContent(Clone)/Text (TMP)
+[TMP HIT ] "blalba"
+[TMP HIT ] "Save these settings?"
+[TMP HIT ] "Left to her by Granny Holle after her passing."
+[TMP HIT ] "Scroll Down"
+[TMP HIT ] "Zoom"
+[TMP HIT ] "Scroll Up"
+[TMP HIT ] "Monday"
+[TMP HIT ] "Kieferberg"
+[TMP HIT ] "No tasks available."
+[TMP HIT ] "A pot of bee's wax ointment. It gives off the smell of fresh"
+[TMP HIT ] "Soft cotton cloth ideal to be used as bandages."
+[TMP HIT ] "A bottle carrying the oil of St. Walpurga herself. Said to r"
+[TMP HIT ] "Contrast"
+[TMP HIT ] "VSync"
+[TMP HIT ] "Frame Cap"
+[TMP HIT ] "Bloom"
+[TMP HIT ] "Effects Intensity"
+[TMP HIT ] "Brightness"
+[TMP HIT ] "Windowed"
+[TMP HIT ] "Resolution"
+[TMP MISS] "1280x720" @ShiftOptions_Language/Scroll-Snap/Viewport/Content/ShiftOptionContent(Clone)/Text (TMP)
+[TMP MISS] "1360x768" @ShiftOptions_Language/Scroll-Snap/Viewport/Content/ShiftOptionContent(Clone)/Text (TMP)
+[TMP MISS] "1366x768" @ShiftOptions_Language/Scroll-Snap/Viewport/Content/ShiftOptionContent(Clone)/Text (TMP)
+[TMP MISS] "1600x900" @ShiftOptions_Language/Scroll-Snap/Viewport/Content/ShiftOptionContent(Clone)/Text (TMP)
+[TMP MISS] "1920x1080" @ShiftOptions_Language/Scroll-Snap/Viewport/Content/ShiftOptionContent(Clone)/Text (TMP)
+[TMP MISS] "FULLSCREEN" @ShiftOptions_Language/Scroll-Snap/Viewport/Content/ShiftOptionContent(Clone)/Text (TMP)
+[TMP MISS] "BORDERLESS" @ShiftOptions_Language/Scroll-Snap/Viewport/Content/ShiftOptionContent(Clone)/Text (TMP)
+[TMP MISS] "WINDOWED" @ShiftOptions_Language/Scroll-Snap/Viewport/Content/ShiftOptionContent(Clone)/Text (TMP)
+[TMP MISS] "LOW" @ShiftOptions_Language/Scroll-Snap/Viewport/Content/ShiftOptionContent(Clone)/Text (TMP)
+[TMP MISS] "MEDIUM" @ShiftOptions_Language/Scroll-Snap/Viewport/Content/ShiftOptionContent(Clone)/Text (TMP)
+[TMP MISS] "HIGH" @ShiftOptions_Language/Scroll-Snap/Viewport/Content/ShiftOptionContent(Clone)/Text (TMP)
+[TMP HIT ] "Text Settings"
+[TMP HIT ] "Speed"
+[TMP HIT ] "Force Skip"
+[TMP HIT ] "Auto Wait Time"
+[TMP HIT ] "Controls"
+[TMP HIT ] "Quit to Title Screen?"
+[TMP HIT ] "Preserve your <b>Matches</b>! You never know when you'll nee"
+[FINAL] TMP seen=2839 fixed=461 miss=20 missNoise=2092 cjkSkip=266 uniqHit=126 uniqMiss=14 | I2 hits=0 miss=0 | DoLoc hit=0 miss=0 | UGUI text=0 font=0 | DEGRADE=1
