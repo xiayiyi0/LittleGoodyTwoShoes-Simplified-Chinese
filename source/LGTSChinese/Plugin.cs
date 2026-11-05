@@ -371,9 +371,15 @@ namespace LGTSChinese
         // v1.3.31 (结构审查 F-02): 判定某串是否"根本不需要译文"——只由数字、空白、零宽、
         // 常见标点与符号组成。注意是**白名单式**判定: 任何其它字符(拉丁/假名/西里尔/汉字…)
         // 都返回 false, 即照旧记 [TMP MISS], 避免把真实漏译误判成噪声而静默吞掉。
+        // v1.3.32 (2026-11-05 实机): 设置菜单的分辨率项 "1920x1080" 由 Screen.resolutions 动态生成,
+        // 每个玩家的显示器都不同, 根本没法定值 —— 它跟钱数一样属于"不需要译文"的噪声。
+        // 只在这种「数字 x 数字」整串形态下放行, 不放宽到任意含 x 的拉丁串。
+        private static readonly System.Text.RegularExpressions.Regex ResolutionRe =
+            new System.Text.RegularExpressions.Regex("^\\d{2,5}\\s*[xX\\u00D7]\\s*\\d{2,5}$");
         private static bool IsNoiseOnly(string s)
         {
             if (string.IsNullOrEmpty(s)) return true;
+            if (ResolutionRe.IsMatch(s.Trim())) return true;
             for (int i = 0; i < s.Length; i++)
             {
                 char c = s[i];
@@ -586,7 +592,26 @@ namespace LGTSChinese
                     new System.Text.UTF8Encoding(false));
                 Diag.AutoFlush = true;
                 Diag.WriteLine("=== LGTS DIAG v" + VER + " 启动 ===");
-                try { Diag.WriteLine("DLL=" + loc); Diag.WriteLine("DLL time=" + File.GetLastWriteTime(loc)); } catch { }
+                try
+                {
+                    Diag.WriteLine("DLL=" + loc);
+                    Diag.WriteLine("DLL time=" + File.GetLastWriteTime(loc));
+                    // 2026-11-05: 自报 DLL 的 sha256。旧版只记路径与 mtime —— 验收时把新 DLL 覆盖到
+                    // 老路径上，就变成"用一份旧 DIAG 也能过绑定检查"。自己算哈希才锚得住。
+                    try
+                    {
+                        using (var fs = File.OpenRead(loc))
+                        using (var sha = System.Security.Cryptography.SHA256.Create())
+                        {
+                            var hash = sha.ComputeHash(fs);
+                            var sb = new System.Text.StringBuilder(hash.Length * 2);
+                            for (int i = 0; i < hash.Length; i++) sb.Append(hash[i].ToString("x2"));
+                            Diag.WriteLine("[DLL SHA] " + sb.ToString());
+                        }
+                    }
+                    catch (Exception e2) { Diag.WriteLine("[DLL SHA] (计算失败: " + e2.Message + ")"); }
+                }
+                catch { }
             }
             catch (Exception e) { Log.LogWarning("DIAG 打开失败: " + e.Message); }
         }

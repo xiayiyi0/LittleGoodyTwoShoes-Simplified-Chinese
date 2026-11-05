@@ -73,7 +73,9 @@ BAD_TAG_RE = re.compile(r"</?(?:wave|shake|incr)\b[^>]*>")
 
 
 def clean_zh(s):
-    return BAD_TAG_RE.sub("", s or "").strip()
+    s = BAD_TAG_RE.sub("", s or "").strip()
+    # 2026-11-05: 字体不含 U+2022 字形, 实机字形检查会报缺字; 统一成 U+30FB（・）
+    return s.replace("\u2022", "\u30FB")
 
 
 def norm(s):
@@ -97,6 +99,8 @@ def pick(cands, current):
 
 
 def punct_fix(s):
+    # 2026-11-05: 字体不含 U+2022(•)，实机字形检查会报缺字。统一成 U+30FB(・)。
+    s = s.replace("\u2022", "\u30FB")
     s = HALF_PAREN_RE.sub(r"（\1）", s)
     return HALF_MARK_RE.sub(lambda m: "：" if m.group(0) == ":" else "；", s)
 

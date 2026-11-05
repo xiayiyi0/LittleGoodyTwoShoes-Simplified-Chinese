@@ -53,3 +53,17 @@ B	B	# 评级字母 B
 C	C	# 评级字母 C
 D	D	# 评级字母 D
 Unlock for {0}	花{0}解锁	# 图库解锁按钮 GalleryButton.cs:41 `"Unlock for " + cost` 运行时拼接(XUAT_05661 只有 cost=2 一条, 字典穷举不了其余价格)
+FULLSCREEN	全屏	# 设置-画面模式枚举名 (SettingsManager.ScreenMode)
+BORDERLESS	无边框	# 同上
+WINDOWED	窗口模式	# 同上; 与 STG_WINDOWED=窗口模式 保持一致
+HIGH	高	# 设置-画质枚举名 (SettingsManager 画质枚举)
+MEDIUM	中	# 同上
+LOW	低	# 同上
+ENG	英语	# 设置-语音语言枚举名 (VALocale)
+JPN	日语	# 同上
+LANG_English	英语	# 设置-语言下拉项: 游戏把枚举名 LANG_English 直接当标签推上屏 (SettingsManager.Language)
+None	无	# 设置-色盲模式枚举名 (ColorBlindMode)
+Deuteranope	绿色盲	# 同上
+Protanope	红色盲	# 同上
+Tritanope	蓝色盲	# 同上
+Keep these settings? (Will default to previous values in 10 seconds.)	保留这些设置吗？（10 秒内不操作将恢复为之前的设置。）	# GraphicsConfigMenu.cs:253 弹窗字面量; 10 秒是代码里写死的, 用精确键即可(若日后改成动态数字, 走数字模板)

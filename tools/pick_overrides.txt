@@ -22,3 +22,4 @@ We don't take kindly to light in these depths.	FLV_WSV-C_01_003
 What are you...?	DLG_2_3_VSQ_01_026
 What is this place?	CUT_8_3_VCC_01_002
 What... are you...?	CUT_2_1_DMP_01_006
+Of course, Mr. Ludwig.	DLG_3_4_OLH_01_011

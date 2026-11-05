@@ -53,7 +53,9 @@ BAD_TAG_RE = re.compile(r"</?(?:wave|shake|incr)\b[^>]*>")
 
 
 def clean_zh(s):
-    return BAD_TAG_RE.sub("", s or "").strip()
+    s = BAD_TAG_RE.sub("", s or "").strip()
+    # 2026-11-05: 字体不含 U+2022(•) 字形, 实机字形检查会报缺字; 统一成 U+30FB(・)
+    return s.replace("\u2022", "\u30FB")
 
 
 def norm(s):
@@ -69,6 +71,7 @@ def fkey(s):
 
 
 def mech(v):
+    v = v.replace("\u2022", "\u30FB")   # 字体无 U+2022 字形，同 apply_translation.punct_fix
     v = v.replace("......", "……").replace("--", "——")
     # 括号内容常带省略号/问号, 旧规则要求整段纯汉字才转换, 于是带标点的独白
     # 一直保留半角括号。这里放宽为"含汉字即可"。

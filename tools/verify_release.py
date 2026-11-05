@@ -117,7 +117,7 @@ def main():
     ap.add_argument("--zip", default=None, help="默认取发布树内唯一 zip")
     ap.add_argument("--expect-entries", type=int, default=71)
     ap.add_argument("--expect-refkey", type=int, default=21189)
-    ap.add_argument("--expect-display", type=int, default=25305)
+    ap.add_argument("--expect-display", type=int, default=25318)
     ap.add_argument("--expect-item", type=int, default=79)
     ap.add_argument("--expect-at", type=int, default=24700)
     ap.add_argument("--expect-ui", type=int, default=536)
@@ -276,6 +276,7 @@ def main():
 
         def _canon(s):
             s = (s or "").replace("\\n", "\n").replace("<br>", "\n")
+            s = s.replace(chr(0x2022), chr(0x30FB))   # 流水线把 U+2022 规整成 U+30FB
             return re.sub(r"\s+", " ", s).strip()
 
         vcand = {}
@@ -492,31 +493,26 @@ def main():
             stg_dll = os.path.join(stage, r"BepInEx\plugins\LGTSChinese\LGTSChinese.dll")
             diag_dll = None
             diag_time = None
+            diag_sha = None
             for l in dtext:
-                if l.startswith("DLL="):
+                if l.startswith("[DLL SHA] "):
+                    diag_sha = l[10:].strip()
+                elif l.startswith("DLL="):
                     diag_dll = l[4:].strip()
                 elif l.startswith("DLL time="):
                     diag_time = l[9:].strip()
-            if diag_dll and os.path.exists(diag_dll) and os.path.exists(stg_dll):
-                a = sha256(diag_dll)
-                b = sha256(stg_dll)
-                check("DIAG DLL 绑定 (sha256)", a == b, "%s vs stage %s" % (a[:12], b[:12]))
-            elif diag_time:
-                # DIAG 来自另一台机器/路径已不存在：退回时间戳比对（同一个 DLL 文件被复制时 mtime 一致）
-                anchor = stg_dll if os.path.exists(stg_dll) else None
-                if anchor is None and args.live:
-                    anchor = os.path.join(args.live, r"BepInEx\plugins\LGTSChinese\LGTSChinese.dll")
-                if anchor and os.path.exists(anchor):
-                    import datetime
-                    mt = datetime.datetime.fromtimestamp(os.path.getmtime(anchor))
-                    got = "%d/%d/%d %02d:%02d:%02d" % (mt.year, mt.month, mt.day,
-                                                       mt.hour, mt.minute, mt.second)
-                    check("DIAG DLL 绑定 (mtime)", diag_time == got,
-                          "DIAG %s / 资产 %s" % (diag_time, got))
-                else:
-                    check("DIAG DLL 绑定 (mtime)", True, "无锚点文件, 跳过", skipped=True)
+            # 以 DIAG 自报的 DLL sha256 为准（插件里自己算的）。
+            # 旧版只记路径+mtime：验收时把新 DLL 覆盖到老路径上，旧 DIAG 也能"绑定成功"，
+            # 2026-11-05 实测撞到过这个洞，所以没有 [DLL SHA] 的 DIAG 一律不算数。
+            if diag_sha and os.path.exists(stg_dll):
+                stg_sha = sha256(stg_dll)
+                check("DIAG DLL 绑定 (sha256)", diag_sha == stg_sha,
+                      "DIAG %s vs stage %s" % (diag_sha[:12], stg_sha[:12]))
+            elif diag_sha:
+                check("DIAG DLL 绑定 (sha256)", True, "stage 无 DLL 可比", skipped=True)
             else:
-                check("DIAG DLL 绑定 (sha256)", False, "DIAG 里既无 DLL= 也无 DLL time=")
+                check("DIAG DLL 绑定 (sha256)", False,
+                      "DIAG 没有 [DLL SHA] 行 —— 旧版插件产生，无法与资产绑定，需重跑一次")
 
             hi = [l for l in dtext if "TMP hook OK: TMP_Text.set_text" in l]
             check("DIAG TMP 钩子已挂", bool(hi),
