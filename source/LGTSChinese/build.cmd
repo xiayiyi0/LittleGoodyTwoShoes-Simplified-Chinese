@@ -53,7 +53,11 @@ if not exist build mkdir build
  /reference:"%MAN%\Unity.TextMeshPro.dll" ^
  /reference:"%FW%\System.dll" ^
  /reference:"%FW%\System.Core.dll" ^
- Plugin.cs
+ Plugin.cs ^
+ Core.cs
+REM v1.3.33 结构侧: Core.cs 是零 Unity 依赖的译本引擎(Norm / ParseFlatJson / 六条模板规则),
+REM 同时被下面这行单独编译成 selftest.exe 在游戏外做自检, 见 tools/selftest.py。
+REM 它必须进本 DLL —— 少了它就是 LGTSChinese.dll 找不到 Core 类型 (CS0103)。
 REM 2026-11-04 (外部审查 F-10): 旧版无条件 exit /b 0, csc 报错也返回成功,
 REM 带病 DLL 能一路进 stage。这里显式判别, 成功才 0。
 if errorlevel 1 (

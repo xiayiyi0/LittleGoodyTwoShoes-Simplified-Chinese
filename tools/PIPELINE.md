@@ -195,14 +195,14 @@ csc 每次编译会重新生成 ModuleVersionId。跨机器比对 DLL 哈希没�
 验收器自己也需要被验收：旧版"没有 FAIL 就返回 0"，于是**带 SKIP 的报告**和**缺参数导致一批
 检查根本不执行**这两种情况都被读成"通过"。
 
-- `EXPECTED_CHECKS`（v1.3.32 起 **46**）与实际执行项数不符即 FAIL。缺 `--csv` 时译本相关的
-  15 项检查根本不会执行（连 SKIP 都不记；实测 46 项只跑 31 项），旧版汇总行照样只报 PASS。
+- `EXPECTED_CHECKS`（v1.3.33 起 **50**）与实际执行项数不符即 FAIL。缺 `--csv` 时译本相关的
+  整块检查根本不会执行（连 SKIP 都不记），旧版汇总行照样只报 PASS。
 - 退出码三分：**0** 全绿 / **1** 有 FAIL / **2** 有 SKIP 或检查项未跑全。未完成的验收不算通过。
 - 新增检查项时必须同步改 `EXPECTED_CHECKS`——不同步就必然 FAIL，这是故意的。
 - 新增断言「同归一键多译文 == `pick_overrides.txt`」双向相等。漏钉会让下次 `--scratch`
   重建按 CSV 行序取候选第一条，悄悄改掉上屏文案（v1.3.21 名牌事故就是此机制）；
   陈旧的 override 会掩盖规则变化，记录键改名时还会 `KeyError`。
-- **G 组「运行时诊断」**（v1.3.31 起；v1.3.32 扩到 6 项，需 `--diag <DIAG.txt>`）：
+- **G 组「运行时诊断」**（v1.3.31 起；v1.3.33 修正为 **7 项**，需 `--diag <DIAG.txt>`）：
   除「无 MISS / 无未登记 DEGRADE」外，还断言 **DIAG 与本批资产绑定**——首行版本 == `--version`、
   DIAG 里 `DLL=` 指向的文件 sha256 == stage 的 DLL、且存在 `TMP hook OK: TMP_Text.set_text`
   （缺它就是「钩子没挂上」，旧版这种情况会静默全绿）。行数门槛从 >100 降到 >20：那项只防空文件，
@@ -219,6 +219,33 @@ csc 每次编译会重新生成 ModuleVersionId。跨机器比对 DLL 哈希没�
 仓库与 stage 之间原本没有任何断言——2026-11-04 就出现过「仓库改了 `BUILDING.md`、stage 还是旧版、
 验收照样全绿」。现在对两边都存在的文件做逐字节比对（`source/*/build/` 的构建产物除外），
 **上线当天就抓到两条**：`Plugin.cs` 源码快照没同步、stage 里还躺着上一次编译的 DLL。
+
+**I 组「零 Unity 依赖自检」**（v1.3.33 结构侧）：`Norm` / `ParseFlatJson` / 六条模板规则
+（存档时间戳、数量角标、回合数、续关花费、日期时段、单独获得）原先埋在 `Plugin.cs` 里，
+而 `Plugin.cs` 依赖 UnityEngine + BepInEx + Harmony —— 这些纯逻辑**只能"进游戏看那一屏
+显示对不对"才能验证**，反馈周期以分钟计且要人眼。现在它们住在 `Core.cs`（只 `using
+System.*`，不得出现 UnityEngine / BepInEx / Harmony），同一份源码由 `tools/selftest.py`
+单独编译成 `selftest.exe`（不引用任何 Unity 程序集），在游戏外跑：
+
+- **126 条用例**：归一化、JSON 解析的转义边界（`\u` 畸形、尾部孤立反斜杠、重复键、
+  值里含花括号）、噪声判定白名单、六条规则的命中/不命中/顺序、整句包色与回包、
+  数字模板、恋人弹窗、道具复合弹窗；
+- **解析器等价性证明**：C# `ParseFlatJson` 解析三本真词典的键值必须与标准库 `json`
+  的解析结果**逐字节相同**（21,189 / 25,318 / 79 键）。这条比"键数对得上"强得多 ——
+  它同时覆盖键丢失、值转义错误、顺序稳定性；
+- 报告落 `tools/acceptance/selftest_v<VER>.txt` 并**入库**，验收 I 组三项断言：
+  报告存在且 `RESULT=PASS`、`plugin_ver` == `--version`、报告里的 `core_sha256` /
+  `selftest_sha256` == **当前** `Core.cs` / `SelfTest.cs` 的 sha256、用例数 ≥ 120 且
+  三本词典等价 3/3 PASS。
+
+**为什么要绑 sha256 而不是只认 `RESULT=PASS`**：改了 `Core.cs` 不重跑自检，旧报告照样
+写着 PASS —— 这和 2026-11-05 `DIAG` 那次踩的坑是同一个（当时只绑"路径字符串"，把新 DLL
+覆盖到老路径就能骗过）。所以报告里必须留**内容哈希**，验收侧现算现比。
+
+**顺带修掉的两处"文档与代码不符"**：① `EXPECTED_CHECKS` 注释里 G 组写成 6 项（实为 7 项），
+导致不带 `--diag` 跑时"应跑数"少算 1，自断言自己误报；② `build.cmd` 起 4 个文件
+（`Plugin.cs` + `Core.cs`）之后，`csproj` 必须 `<Compile Remove="selftest\**" />`，
+否则 `dotnet build` 会把带 `Main` 的自检程序一起编进插件 DLL。
 
 ## 2026-11-04 全量审计的处置
 

@@ -23,6 +23,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <!-- v1.3.33 结构侧: selftest/ 是独立控制台程序(带 Main, 由 tools/selftest.py 用 in-box
+         csc 单独编译), 不属于插件 DLL。SDK 默认会把目录下所有 .cs 收进来, 必须显式排除,
+         否则 dotnet build 会把自检程序一起编进 LGTSChinese.dll。
+         Core.cs 是零 Unity 依赖的译本引擎, 自动包含, 无需声明。 -->
+    <Compile Remove="selftest\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <!-- BepInEx / Harmony -->
     <Reference Include="BepInEx"><HintPath>$(BepInExCore)\BepInEx.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="0Harmony"><HintPath>$(BepInExCore)\0Harmony.dll</HintPath><Private>false</Private></Reference>

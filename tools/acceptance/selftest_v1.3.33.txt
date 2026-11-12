@@ -1,0 +1,140 @@
+=== LGTS Core 自检 v1.3.33 ===
+core_sha256=244936dcf4db432d0687ab822e6483e42320256b0848326aa2f4594a1b20c55f
+selftest_sha256=188acb83182dff99f40a2299fa325f29e94901605800b6e66428b01eef339023
+plugin_ver=1.3.33
+csc=csc.exe
+--- 用例 (Case.cs 纯函数) ---
+PASS ParseFlatJson 扫完 lgts_zh_by_refkey.json (21189 条)  | 条数 21189; 条数与内容由 json 比对负责
+PASS ParseFlatJson 扫完 lgts_display.json (25318 条)  | 条数 25318; 条数与内容由 json 比对负责
+PASS ParseFlatJson 扫完 lgts_item_names.json (79 条)  | 条数 79; 条数与内容由 json 比对负责
+PASS VER 形如 x.y.z  | 1.3.33
+PASS 阈值: display 下限 >= 20000  | 20000
+PASS 阈值: by_refkey 下限 >= 15000  | 15000
+PASS Norm(null)
+PASS Norm("")
+PASS Norm 折叠空白
+PASS Norm 剥 color 标签
+PASS Norm 剥 b/i/size 标签
+PASS Norm <br> 不加空格
+PASS Norm 真换行变空格
+PASS Norm 非标签尖括号保留
+PASS Norm 颜色简写
+PASS Norm sprite 标签剥掉
+PASS Norm 剥 U+00A0 空白
+PASS Norm 不剥零宽(归噪声判定负责)
+PASS RefKey 取斜杠之后
+PASS RefKey 无斜杠原样
+PASS RefKey 多斜杠只切第一个
+PASS RefKey null
+PASS JSON 两条
+PASS JSON 值 a
+PASS JSON 值 c
+PASS JSON 空白/换行不敏感
+PASS JSON \n 转义
+PASS JSON \t 转义
+PASS JSON 引号转义
+PASS JSON 反斜杠转义
+PASS JSON \u 转义
+PASS JSON \u30FB (中点)
+PASS JSON 坏 \u 降级为字面 u
+PASS JSON 尾部孤立反斜杠
+PASS JSON 空对象
+PASS JSON 重复键后者覆盖
+PASS JSON 值里含花括号
+PASS JSON 花括号后继续解析
+PASS JSON 中文值
+PASS JSON 带标签的值
+PASS IsCjk 汉字
+PASS IsCjk 全角标点
+PASS IsCjk 中点 U+30FB
+PASS IsCjk 拉丁字母否
+PASS IsCjk 半角数字否
+PASS IsCjk 假名也算(区间含 3040-30FF)  | u3042 落在 2E80-9FFF 内
+PASS IsCjk 西里尔否
+PASS HasCjk 混排
+PASS HasCjk 纯英文
+PASS 噪声: 空串
+PASS 噪声: 钱数 0
+PASS 噪声: 钱数 1,234
+PASS 噪声: 分辨率 1920x1080
+PASS 噪声: 分辨率 2560×1440
+PASS 噪声: 零宽空格
+PASS 噪声: 省略号
+PASS 噪声: 全角省略号
+PASS 噪声: 1 2 3
+PASS 非噪声: 拉丁串
+PASS 非噪声: 含数字的规则串 ROUND 3  | 必须先被模板规则拦下
+PASS 非噪声: x22
+PASS 非噪声: 汉字
+PASS 非噪声: x 夹在一串里
+PASS 规则 时间戳命中
+PASS 规则 时间戳两行
+PASS 规则 时间戳第二行是时间
+PASS 规则 时间戳跟随系统区域格式
+PASS 规则 数量角标 x22
+PASS 规则 数量角标 X1
+PASS 规则 数量角标 5 位数字不算
+PASS 规则 数量角标 后面带字母不算
+PASS 规则 回合 ROUND 3
+PASS 规则 回合 Round 12
+PASS 规则 回合 ROUNDS 3 不算
+PASS 规则 续关花费 (5T)
+PASS 规则 续关花费 小写 t
+PASS 规则 续关花费 纯括号数字不算
+PASS 规则 日期时段 Sat. Evening
+PASS 规则 日期时段 Monday . Afternoon(全量审计 F-02)
+PASS 规则 日期时段 缩写 Witch. Hour
+PASS 规则 日期时段 原串有换行则跟随分行
+PASS 规则 日期时段 缺时段不算
+PASS 规则 单独获得 Acquired 3x
+PASS 规则 单独获得 无 x
+PASS 规则 未命中放行: ITEM GET
+PASS 规则 未命中放行: Acquired 1x <color=red>Tinderbox</color>
+PASS 规则 未命中放行: 1920x1080
+PASS 规则 未命中放行: Need something?
+PASS 规则 未命中放行: Why, you...!
+PASS 规则 未命中放行: ...
+PASS 规则 命中时 zh 非空  | ×9
+PASS 包色: 整句包裹取开标签
+PASS 包色: 非整句(前后有内容)
+PASS 包色: 两段包裹不算整句
+PASS 包色: 无闭合
+PASS 包色: 内层标签不影响
+PASS 包色: 回包
+PASS 包色: 值已包裹不重复包
+PASS 包色: 原文没包就不包
+PASS 包色: null 安全
+PASS 数字模板 单数字
+PASS 数字模板 双数字
+PASS 数字模板 无字母不模板
+PASS 数字模板 无数字不模板
+PASS 数字模板 超 4 个数字不模板
+PASS 数字模板 词典无此模板
+PASS 数字模板 超长串不模板
+PASS 恋人 带 's 且双语都在
+PASS 恋人 名字未译则保留英文
+PASS 恋人 后缀缺失走固定译
+PASS 恋人 游戏错拼 Aquired 也命中
+PASS 恋人 非三人不算
+PASS 恋人 永恒之爱
+PASS ITEM GET 三段全译
+PASS ITEM GET 无漏名
+PASS 道具名表优先于整句词典(姜饼 不取 斯佩尔特)
+PASS 未知道具名保留英文
+PASS 未知道具名被记下
+PASS 未知道具名内容
+PASS 无可译返回 null
+PASS Escape 换行
+PASS Escape 制表
+PASS Escape 反斜杠
+PASS Escape 回车
+PASS Escape null
+PASS DumpFlat 按键序号排序
+RESULT=PASS cases=126 fail=0
+
+--- 词典等价 (Core.ParseFlatJson vs json) ---
+PASS lgts_zh_by_refkey.json C#解析 == json 解析 (21189 键 / 1309142 B)
+PASS lgts_display.json C#解析 == json 解析 (25318 键 / 2264394 B)
+PASS lgts_item_names.json C#解析 == json 解析 (79 键 / 4482 B)
+
+RESULT=PASS cases=126 fail=0

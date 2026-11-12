@@ -97,7 +97,16 @@ EXPECT_SUMS = 1 + len(FILES) + len(SHIPPED_TOP)
 # v1.3.31: 39 → 42 (新增 G 组 3 项运行时诊断; 不带 --diag 时基线自动 -3)。
 # v1.3.32 结构侧: 42 → 47 (G 组加入 DIAG 与资产的绑定断言: 首行版本 / DLL sha256 / TMP 钩子已挂;
 #                行数门槛从 >100 降到 >20, 那一项已不再是证据强度指标)。
-EXPECTED_CHECKS = 47
+# v1.3.33 结构侧: 47 → 50 (新增 I 组 3 项: 零 Unity 依赖自检报告的 存在/源码绑定/用例数)。
+EXPECTED_CHECKS = 50
+
+# G 组(运行时诊断)确实是 7 项, 而不是注释里写的 6 项 —— v1.3.33 修正了这个字面量,
+# 此前"不带 --diag 跑"会把应跑数算少 1, 自断言本身误报。
+G_CHECKS = 7
+
+# I 组(零 Unity 依赖自检)的用例数下限。selftest_v1.3.33 实测 126 条; 下限只防"报告被
+# 截断/只剩一行 RESULT", 真正的强度由 bind-open 断言(源码 sha256)和用例内容保证。
+MIN_SELFTEST_CASES = 120
 
 
 def main():
@@ -210,6 +219,46 @@ def main():
                 drift.append(rel.replace("\\", "/"))
     check("仓库==发布树 共有文件一致", not drift,
           "%d 个共有文件, 漂移 %d %s" % (n_shared, len(drift), drift[:5]))
+
+    # ---------- I 零 Unity 依赖自检 (v1.3.33) ----------
+    # Norm / ParseFlatJson / 六条模板规则 已从 Plugin.cs 搬进 Core.cs (不引用任何 Unity
+    # 程序集), 由 tools/selftest.py 单独编译成 selftest.exe 在游戏外跑一百多条用例 ——
+    # 这些用例证明不了"游戏里一定对", 但能证明"规则本身没坏", 且把反馈周期从
+    # "进游戏看那一屏" 降到 1 秒。
+    # 报告必须绑定**当前源码**: 光有 PASS 行不够 —— 改了 Core.cs 不重跑, 旧报告照样绿,
+    # 这正是 2026-11-05 DIAG 绑定那次踩过的坑(路径字符串绑不住内容), 所以这里比 sha256。
+    print("\n---------- I 零 Unity 依赖自检 ----------")
+    st_path = os.path.join(repo_root, "tools", "acceptance", "selftest_v%s.txt" % ver)
+    st_core = os.path.join(repo_root, "source", "LGTSChinese", "Core.cs")
+    st_self = os.path.join(repo_root, "source", "LGTSChinese", "selftest", "SelfTest.cs")
+    st_text = None
+    if os.path.exists(st_path):
+        st_text = rd(st_path)
+    if st_text is None:
+        check("自检报告 v%s 存在且 PASS" % ver, False, "缺文件 %s" % os.path.relpath(st_path, repo_root))
+        check("自检报告绑定当前 Core.cs (sha256)", False, "无报告")
+        check("自检用例 >= %d 且词典等价 3/3" % MIN_SELFTEST_CASES, False, "无报告")
+    else:
+        got_ver = re.search(r"^plugin_ver=(\S+)$", st_text, re.M)
+        got_res = re.search(r"^RESULT=(PASS|FAIL) cases=(\d+) fail=(\d+)$", st_text, re.M)
+        ok1 = bool(got_res) and got_res.group(1) == "PASS" and got_res.group(3) == "0" \
+            and bool(got_ver) and got_ver.group(1) == ver
+        check("自检报告 v%s 存在且 PASS" % ver, ok1,
+              "plugin_ver=%r RESULT=%r"
+              % (got_ver.group(1) if got_ver else None, got_res.group(0) if got_res else None))
+        mc = re.search(r"^core_sha256=([0-9a-f]{64})$", st_text, re.M)
+        ms = re.search(r"^selftest_sha256=([0-9a-f]{64})$", st_text, re.M)
+        ok2 = (bool(mc) and bool(ms) and os.path.exists(st_core) and os.path.exists(st_self)
+               and mc.group(1) == sha256(st_core) and ms.group(1) == sha256(st_self))
+        check("自检报告绑定当前 Core.cs (sha256)", ok2,
+              "报告 core=%s / 现 Core.cs=%s"
+              % (mc.group(1)[:12] if mc else None,
+                 sha256(st_core)[:12] if os.path.exists(st_core) else "缺文件"))
+        cases = int(got_res.group(2)) if got_res else 0
+        eq_pass = len([l for l in st_text.splitlines() if l.startswith("PASS lgts_")])
+        check("自检用例 >= %d 且词典等价 3/3" % MIN_SELFTEST_CASES,
+              cases >= MIN_SELFTEST_CASES and eq_pass == 3,
+              "cases=%d 词典等价 PASS %d/3" % (cases, eq_pass))
 
     print("\n---------- C 词典口径 ----------")
     base = args.live or stage
@@ -534,9 +583,9 @@ def main():
 
     # 2026-11-04 (外部审查 F-03): 验收器自身也要被验收。
     # 省略 --live 时 "live 比对" 这一项会以 SKIP 记录 (比全参数多 1 条), 基线相应 +1;
-    # 省略 --diag 时 G 组 6 项整体不执行, 基线相应 -6。
+    # 省略 --diag 时 G 组整体不执行, 基线相应 -G_CHECKS。
     n_ran = len(RESULTS)
-    expected = EXPECTED_CHECKS + (0 if args.live else 1) - (0 if args.diag else 6)
+    expected = EXPECTED_CHECKS + (0 if args.live else 1) - (0 if args.diag else G_CHECKS)
     if n_ran != expected:
         check("应跑检查项 %d (实跑 %d)" % (expected, n_ran), False,
               "差 %d 项未执行, 多半是缺 --csv (译本相关检查整块不跑); 发布门槛必须带全参数重跑"

@@ -24,15 +24,10 @@ namespace LGTSChinese
     [BepInPlugin("com.hanhua.lgts.chinese", "LGTS Simplified Chinese", Plugin.VER)]
     public class Plugin : BaseUnityPlugin
     {
-        // 1.3.31 (结构审查 F-02/F-11): DIAG 区分钟数噪声与真漏译、统一降级观测行
-        // 1.3.32: 补 11 条实机 miss (存档时间戳 / 任务日志标签 / 数量角标)
-        public const string VER = "1.3.32";
-        // v1.3.27 (G3): 显示词典条数下限。低于此值说明文件被截断或解析半途失败,
-        // 旧版会静默带病运行(玩家看到大面积英文, 日志却只有一行"载入 N 条")。
-        private const int MinDisplayEntries = 20000;
-        // v1.3.31: 译文表(by_refkey)同样要有下限 —— 旧版只有 display 有自检, 这张表
-        // 载入 0 条也能"正常"启动, 玩家看到全英文而日志只有一行载入失败。
-        private const int MinRefKeyEntries = 15000;
+        // v1.3.33 结构侧: 版本号与两个条数阈值统一由零 Unity 依赖的 Core 持有
+        // (见 Core.cs 顶部说明)。DIAG 首行 / 程序集版本资源 / selftest 报告全部引用
+        // 同一处 —— 升版本只改 Core.VER 一行, 不会出现"日志说 1.3.33、文件属性说 1.3.32"。
+        public const string VER = Core.VER;
         internal static ManualLogSource Log;
         internal static Dictionary<string, string> Zh = new Dictionary<string, string>(StringComparer.Ordinal);
         internal static int Hits, Miss;
@@ -63,19 +58,6 @@ namespace LGTSChinese
             Log.LogInfo("LGTS 中文插件已加载, 词条 " + Zh.Count + " 条。");
         }
 
-        // 去富文本标签 + 折叠空白, 作为显示层匹配键。含 </...> 与 <#rrggbb> 颜色简写。
-        private static readonly System.Text.RegularExpressions.Regex TagRe =
-            new System.Text.RegularExpressions.Regex("<[/#a-zA-Z][^>]*>");
-        private static readonly System.Text.RegularExpressions.Regex WsRe =
-            new System.Text.RegularExpressions.Regex("\\s+");
-        internal static string Norm(string s)
-        {
-            if (string.IsNullOrEmpty(s)) return s;
-            if (s.IndexOf('<') >= 0) s = TagRe.Replace(s, "");   // 无标签则跳过正则(P2-03 提速)
-            s = WsRe.Replace(s, " ");
-            return s.Trim();
-        }
-
         // 载入显示词典。优先单一确定性文件 translation/lgts_display.json(去标签英文->含标签中文);
         // 缺失时退回 AT 的 *.txt(纯文本)。(修 P1-04 确定性 / P0-05 计数口径)
         private void LoadDisplayDict()
@@ -86,14 +68,14 @@ namespace LGTSChinese
                 string js = Path.Combine(dir, "translation", "lgts_display.json");
                 if (File.Exists(js))
                 {
-                    ParseFlatJson(File.ReadAllText(js, System.Text.Encoding.UTF8), Disp);
+                    Core.ParseFlatJson(File.ReadAllText(js, System.Text.Encoding.UTF8), Disp);
                     D("显示词典(lgts_display.json)载入: " + Disp.Count + " 归一键");
                     Log.LogInfo("显示词典载入: " + Disp.Count + " 条 (lgts_display.json)");
-                    if (Disp.Count < MinDisplayEntries)
+                    if (Disp.Count < Core.MinDisplayEntries)
                     {
-                        D("[WARN] 显示词典仅 " + Disp.Count + " 条, 低于预期 " + MinDisplayEntries + " —— 文件可能损坏或被截断");
-                        Log.LogWarning("显示词典条目异常偏少: " + Disp.Count + " 条 (预期 > " + MinDisplayEntries + ")");
-                        Degrade("显示词典仅 " + Disp.Count + " 条 (< " + MinDisplayEntries + "), 疑似被截断");
+                        D("[WARN] 显示词典仅 " + Disp.Count + " 条, 低于预期 " + Core.MinDisplayEntries + " —— 文件可能损坏或被截断");
+                        Log.LogWarning("显示词典条目异常偏少: " + Disp.Count + " 条 (预期 > " + Core.MinDisplayEntries + ")");
+                        Degrade("显示词典仅 " + Disp.Count + " 条 (< " + Core.MinDisplayEntries + "), 疑似被截断");
                     }
                     return;
                 }
@@ -121,7 +103,7 @@ namespace LGTSChinese
                         if (raw.Length == 0 || raw[0] == '#') continue;
                         int eq = raw.IndexOf('=');
                         if (eq <= 0) continue;
-                        string k = Norm(raw.Substring(0, eq).Replace("\\n", " "));
+                        string k = Core.Norm(raw.Substring(0, eq).Replace("\\n", " "));
                         string v = raw.Substring(eq + 1).Replace("\\n", "\n");
                         if (k.Length == 0 || v.Length == 0) continue;
                         rows++;
@@ -141,7 +123,7 @@ namespace LGTSChinese
         // 同一英文串(Lebkuchen 既是角色"斯佩尔特"又是食品"姜饼"), display 词典在弹窗
         // 上下文无从区分, 旧版弹窗因此把姜饼显示成"斯佩尔特"。此表由离线脚本
         // (fix_batches_*/batch6_gen_item_names.py)从 Gridly ITM_*_N_* 名称记录 ×
-        // refkey 译文生成, 键归一规则与 Norm() 一致。文件缺失时静默降级(空表),
+        // refkey 译文生成, 键归一规则与 Core.Norm() 一致。文件缺失时静默降级(空表),
         // TryItemGet 回退 display 词典, 行为与旧版完全一致。
         private void LoadItemNames()
         {
@@ -150,7 +132,7 @@ namespace LGTSChinese
                 string dir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
                 string js = Path.Combine(dir, "translation", "lgts_item_names.json");
                 if (!File.Exists(js)) { D("道具名映射(lgts_item_names.json)不存在, 跳过"); Degrade("道具名映射缺失, 道具名回退整句词典(名/物同形时可能选错)"); return; }
-                ParseFlatJson(File.ReadAllText(js, System.Text.Encoding.UTF8), ItemNames);
+                Core.ParseFlatJson(File.ReadAllText(js, System.Text.Encoding.UTF8), ItemNames);
                 D("道具名映射(lgts_item_names.json)载入: " + ItemNames.Count + " 键");
                 Log.LogInfo("道具名映射载入: " + ItemNames.Count + " 条 (lgts_item_names.json)");
                 if (ItemNames.Count == 0) Degrade("道具名映射载入 0 条");
@@ -208,7 +190,7 @@ namespace LGTSChinese
 
             // 0) v1.3.7 (C6): 含 CJK 的写入是译文回流(AT/本插件替换后的二次 set)。原文全英,
             //    不可能命中英文键 —— 直接放行, 不进模板/词典/MISS 统计, 防 SeenMiss 被噪声占满。
-            if (HasCjk(s)) { TmpCjkSkip++; return; }
+            if (Core.HasCjk(s)) { TmpCjkSkip++; return; }
 
             // 1) 道具获得复合弹窗(多行含 color) (P0-2): 用原串处理, 逐行翻译保结构
             if (s.IndexOf("ITEM GET", StringComparison.OrdinalIgnoreCase) >= 0 && s.IndexOf('\n') >= 0)
@@ -217,67 +199,21 @@ namespace LGTSChinese
                 if (ig != null) { D("[ITEMGET HIT] " + Trunc(s) + " -> " + Trunc(ig)); __0 = ig; TmpFixed++; return; }
             }
 
-            string key = Norm(s);
+            string key = Core.Norm(s);
             if (key.Length < 1) return;
 
-            // 1.5) v1.3.32: 存档位时间戳 "DATE 2026/11/3 TIME 01:48:36"
-            //      (SaveSlots/Viewport/Content/Saveslot(Clone)/Info/SaveTime)。
-            //      运行时拼日期时间, 词典不可能有这条键 —— 实机 DIAG 曾因此每读一次存档
-            //      就漏一条英文。只换 DATE / TIME 两个词, 日期与时间原样保留。
-            var mSv = SaveTimeRe.Match(key);
-            if (mSv.Success)
+            // 1.5~3) v1.3.33 结构侧: 六条模板规则(存档时间戳 / 数量角标 / 回合数 / 续关花费 /
+            //     日期时段 / 单独获得)统一由 Core.MatchRule 判定。规则本身搬进 Core.cs 以后
+            //     可以在游戏外用 selftest 逐条验; 这里只做 DIAG 与上屏。
+            //     判定顺序与 v1.3.32 实机 DIAG 验证过的顺序逐条一致 —— 改顺序等于改上屏结果。
+            string ruleZh;
+            RuleHit ruleHit = Core.MatchRule(key, s, out ruleZh);
+            if (ruleHit != RuleHit.None)
             {
-                // v1.3.32 (同日第 7 次替换): 日期与时间必须分行。存档槽的文本框按字符换行,
-                // 单行串在中文下会在「时/间」中间断掉 (实机截图 2026-11-04 23:03)。
-                string sv = "日期 " + mSv.Groups[1].Value.Trim() + "\n时间 " + mSv.Groups[2].Value.Trim();
-                D("[SAVETIME HIT] " + Trunc(key) + " -> " + Trunc(sv.Replace("\n", "\\n")));
-                __0 = sv; TmpFixed++; return;
+                D("[" + Core.RuleLabel(ruleHit) + "] " + Trunc(key) + " -> " + Trunc(ruleZh.Replace("\n", "\\n")));
+                if (ruleHit == RuleHit.Acquired) LogTarget(s, key, true, __instance);
+                __0 = ruleZh; TmpFixed++; return;
             }
-
-            // 1.6) v1.3.32: 背包/食材列表的数量角标 "x22" (ItemView(Clone)/Quantity)。
-            //      数量无上限, 词典不可能穷举 x1..x999; 纯英文 x 换中文乘号。
-            var mQtySfx = QtySuffixRe.Match(key);
-            if (mQtySfx.Success)
-            {
-                D("[QTY SUFFIX] " + Trunc(key) + " -> ×" + mQtySfx.Groups[1].Value);
-                __0 = "×" + mQtySfx.Groups[1].Value; TmpFixed++; return;
-            }
-
-            // 1.7) v1.3.32: 小游戏回合数 "ROUND 3" / "Round 3" → 「第 3 回合」
-            var mRound = RoundRe.Match(key);
-            if (mRound.Success)
-            {
-                string rd = "第 " + mRound.Groups[1].Value + " 回合";
-                D("[ROUND HIT] " + Trunc(key) + " -> " + Trunc(rd));
-                __0 = rd; TmpFixed++; return;
-            }
-
-            // 1.8) v1.3.32: 小游戏续关花费 "(5T)" → 「（5T）」
-            var mCost = RetryCostRe.Match(key);
-            if (mCost.Success)
-            {
-                string cs = "（" + mCost.Groups[1].Value + "T）";
-                D("[RETRY COST] " + Trunc(key) + " -> " + Trunc(cs));
-                __0 = cs; TmpFixed++; return;
-            }
-
-            // 2) 日期+时段模板 (P0-3)
-            var mDt = DayTimeRe.Match(key);
-            if (mDt.Success)
-            {
-                string dd, tt;
-                if (DayMap.TryGetValue(mDt.Groups[1].Value, out dd) && TimeMap.TryGetValue(mDt.Groups[2].Value, out tt))
-                {
-                    string sep = s.IndexOf('\n') >= 0 ? "\n" : " ";
-                    string dt = dd + sep + tt;
-                    D("[DAYTIME HIT] " + Trunc(key) + " -> " + Trunc(dt));
-                    __0 = dt; TmpFixed++; return;
-                }
-            }
-
-            // 3) 单独 "Acquired {n}x" (P1-01)
-            var mAcq = AcquiredRe.Match(key);
-            if (mAcq.Success) { __0 = "获得了 " + mAcq.Groups[1].Value + " 个"; TmpFixed++; LogTarget(s, key, true, __instance); return; }
 
             // 3.5) v1.3.30 (F2): 道具名位 —— 先查 lgts_item_names.json, 未命中再回退整句词典。
             //      Lebkuchen 既是角色名("斯佩尔特")又是食品名("姜饼"), 显示词典按英文归一只
@@ -290,10 +226,10 @@ namespace LGTSChinese
                 {
                     // HUD 小提示是运行时拼接的 "名字 xN", 照 ITEM GET 弹窗的口径拆名字与数量,
                     // 中文侧沿用译本已有的「名字 ×N」形(参见 XUAT_03177 Item x5 -> 道具 ×5)。
-                    var mq = ItemQtyRe.Match(key);
+                    var mq = Core.ItemQtyRe.Match(key);
                     if (mq.Success)
                     {
-                        string zhQ = LookupItemName(Norm(mq.Groups[1].Value));
+                        string zhQ = LookupItemName(Core.Norm(mq.Groups[1].Value));
                         if (zhQ != null)
                         {
                             string rebuilt = zhQ + " ×" + mq.Groups[2].Value;
@@ -357,177 +293,41 @@ namespace LGTSChinese
             // 根本不需要译文, 旧版却把它们全记成 [TMP MISS]: 一次运行 1,002 条 uniqMiss 里
             // 1,001 条是 HUD 钱数, 真正的英文漏译被埋掉, "0 miss" 发布门槛事实上不可判定。
             // 现在这类串单独计数 (missNoise), 不再进 miss 统计与 DIAG。
-            if (IsNoiseOnly(key)) { TmpMissNoise++; return; }
+            if (Core.IsNoiseOnly(key)) { TmpMissNoise++; return; }
             if (SeenMiss.Count < 5000 && SeenMiss.Add(key)) D("[TMP MISS] \"" + Trunc(key) + "\" @" + CompPath(__instance));
             TmpMiss++;
         }
 
-        // v1.3.7 (C6): 是否含 CJK(含全角/CJK 标点)字符
-        private static bool HasCjk(string s)
-        {
-            for (int i = 0; i < s.Length; i++) if (IsCjk(s[i])) return true;
-            return false;
-        }
-
-        // v1.3.31 (结构审查 F-02): 判定某串是否"根本不需要译文"——只由数字、空白、零宽、
-        // 常见标点与符号组成。注意是**白名单式**判定: 任何其它字符(拉丁/假名/西里尔/汉字…)
-        // 都返回 false, 即照旧记 [TMP MISS], 避免把真实漏译误判成噪声而静默吞掉。
-        // v1.3.32 (2026-11-05 实机): 设置菜单的分辨率项 "1920x1080" 由 Screen.resolutions 动态生成,
-        // 每个玩家的显示器都不同, 根本没法定值 —— 它跟钱数一样属于"不需要译文"的噪声。
-        // 只在这种「数字 x 数字」整串形态下放行, 不放宽到任意含 x 的拉丁串。
-        private static readonly System.Text.RegularExpressions.Regex ResolutionRe =
-            new System.Text.RegularExpressions.Regex("^\\d{2,5}\\s*[xX\\u00D7]\\s*\\d{2,5}$");
-        private static bool IsNoiseOnly(string s)
-        {
-            if (string.IsNullOrEmpty(s)) return true;
-            if (ResolutionRe.IsMatch(s.Trim())) return true;
-            for (int i = 0; i < s.Length; i++)
-            {
-                char c = s[i];
-                if (c >= '0' && c <= '9') continue;              // 半角数字
-                if (c <= 0x20) continue;                          // 空格/控制符
-                if (c == '\u00A0' || c == '\u3000') continue;     // 不换行空格/全角空格
-                if (c == '\u200B' || c == '\u200C' || c == '\u200D' || c == '\uFEFF') continue; // 零宽/BOM
-                if (c >= '\uFF10' && c <= '\uFF19') continue;     // 全角数字
-                switch (c)
-                {
-                    case '.': case ',': case ':': case ';': case '/': case '\\': case '|':
-                    case '%': case '+': case '-': case '_': case '=': case '*': case '\u00D7': case '\u00F7':
-                    case '(': case ')': case '[': case ']': case '{': case '}': case '<': case '>':
-                    case '\'': case '"': case '`': case '^': case '~': case '@': case '#': case '&': case '$':
-                    case '!': case '?': case '\u2026': case '\u00B7': case '\u2014': case '\u2013':
-                    case '\u201C': case '\u201D': case '\u2018': case '\u2019':
-                        continue;
-                }
-                return false;
-            }
-            return true;
-        }
-
-        // v1.3.7 (C1): 检测整句被单一 <color=...>...</color> 包裹(思考独白 thoughtColor /
-        // 恐怖台词 horrorColor 由 DialogueWindow 运行时整句包色)。返回开标签, 未包裹返回 null。
-        // 深度扫描: 外层开标签若在结尾之前就被闭合(如 "<c>A</c> x <c>B</c>")则不算整句包裹。
-        private static string WholeWrapOpen(string s)
-        {
-            if (s.Length < 16 || s[0] != '<') return null;
-            if (!s.StartsWith("<color=", StringComparison.OrdinalIgnoreCase)) return null;
-            if (!s.EndsWith("</color>", StringComparison.OrdinalIgnoreCase)) return null;
-            int gt = s.IndexOf('>');
-            if (gt < 0) return null;
-            int endTag = s.Length - 8;   // 末尾 "</color>" 的起点
-            int depth = 1, i = gt + 1;
-            while (i < s.Length)
-            {
-                int lt = s.IndexOf('<', i);
-                if (lt < 0) break;
-                if (lt + 8 <= s.Length && string.Compare(s, lt, "</color>", 0, 8, StringComparison.OrdinalIgnoreCase) == 0)
-                {
-                    depth--;
-                    if (depth == 0) return lt == endTag ? s.Substring(0, gt + 1) : null;
-                    i = lt + 8;
-                }
-                else if (lt + 6 <= s.Length && string.Compare(s, lt, "<color", 0, 6, StringComparison.OrdinalIgnoreCase) == 0)
-                {
-                    depth++; i = lt + 6;
-                }
-                else i = lt + 1;
-            }
-            return null;
-        }
-
-        // v1.3.7 (C1): 原串整句包色而词典值不含运行时包裹时回包。同时修复 LogMenu 对恐怖行的
-        // ReplaceFirstOccurrence(text, horrorCode, ...) —— 回包后译文重新含 horrorColor hex。
+        // v1.3.33 结构侧: 整句包色判定与回包逻辑搬进 Core.cs(零 Unity 依赖, 可在游戏外自检)。
+        // 这里只保留 DIAG 记录 —— 每次回包写一行 [WRAP], 实机据此确认包裹有没有被吃掉。
         private static int WrapLogged;
         private static string RewrapColor(string orig, string zh)
         {
-            string open = WholeWrapOpen(orig);
-            if (open == null) return zh;
-            if (WholeWrapOpen(zh) != null) return zh;   // 词典值已整句包裹, 不重复包
-            if (WrapLogged < 50) { WrapLogged++; D("[WRAP] 回包 " + open + " : " + Trunc(zh)); }
-            return open + zh + "</color>";
+            string open = Core.WholeWrapOpen(orig);
+            if (open != null && Core.WholeWrapOpen(zh) == null && WrapLogged < 50)
+            { WrapLogged++; D("[WRAP] 回包 " + open + " : " + Trunc(zh)); }
+            return Core.RewrapColor(orig, zh);
         }
-
-        // v1.3.7 (C2): 数字模板 —— 把 key 中的数字串依次替换为 {0},{1}... 查词典模板键。
-        private static string TryNumTemplate(string key)
-        {
-            if (key.Length > 300) return null;
-            bool hasDigit = false, hasAlpha = false;
-            for (int i = 0; i < key.Length; i++)
-            {
-                char c = key[i];
-                if (char.IsDigit(c)) hasDigit = true;
-                else if (char.IsLetter(c)) hasAlpha = true;
-            }
-            if (!hasDigit || !hasAlpha) return null;   // 纯数字/无字母串不模板化
-            var nums = new List<string>();
-            string tpl = NumRe.Replace(key, delegate(System.Text.RegularExpressions.Match m)
-            {
-                nums.Add(m.Value);
-                return "{" + (nums.Count - 1) + "}";
-            });
-            if (nums.Count > 4) return null;
-            string zh;
-            if (!(Disp.TryGetValue(tpl, out zh) && !string.IsNullOrEmpty(zh))) return null;
-            for (int i = 0; i < nums.Count; i++) zh = zh.Replace("{" + i + "}", nums[i]);
-            return zh;
-        }
-
-        // v1.3.7 (C2): 恋人弹窗两段式。实机与反编译存在两种形态(带 's + 原版错拼 "Aquired" /
-        // 不带 's + "Acquired"), 正则同时覆盖; 名字与后缀分别查词典, 后缀缺失用 refkey 词典同源兜底。
-        private static string TryRomance(string key)
-        {
-            var m = RomanceRe.Match(key);
-            if (!m.Success) return null;
-            string name = m.Groups[1].Value;
-            bool poss = m.Groups[2].Success && m.Groups[2].Value.Length > 0;
-            string tail = m.Groups[3].Value;
-            string zhName, zhTail;
-            if (!(Disp.TryGetValue(name, out zhName) && !string.IsNullOrEmpty(zhName))) zhName = name;
-            if (!(Disp.TryGetValue(tail, out zhTail) && !string.IsNullOrEmpty(zhTail)))
-            {
-                if (tail.StartsWith("Heart Piece", StringComparison.OrdinalIgnoreCase)) zhTail = "获得爱心碎片!";
-                else if (tail.StartsWith("Everlasting", StringComparison.OrdinalIgnoreCase)) zhTail = "永恒之爱!";
-                else zhTail = "深厚羁绊";
-            }
-            return "<b>" + zhName + (poss ? "的" : "") + "</b>\n" + zhTail;
-        }
-
-        // 逐行翻译道具复合串, 保留换行与颜色标签 (P0-2)
+        // v1.3.33 结构侧: 数字模板 / 恋人弹窗 / 道具复合弹窗 / 道具名取值的纯逻辑
+        // 都搬进 Core.cs(词典由调用方传入, Core 不持有任何全局状态)。
+        // 这里四个薄壳只做两件 Plugin 才有的事: 喂插件持有的词典, 写 DIAG。
+        private static string TryNumTemplate(string key) { return Core.TryNumTemplate(key, Disp); }
+        private static string TryRomance(string key) { return Core.TryRomance(key, Disp); }
+        private static string LookupItemName(string key) { return Core.LookupItemName(key, Disp, ItemNames); }
         private static string TryItemGet(string s)
         {
-            var lines = s.Replace("\r", "").Split('\n');
-            bool any = false;
-            for (int i = 0; i < lines.Length; i++)
-            {
-                string ln = lines[i].Trim();
-                if (ln.Length == 0) continue;
-                var m = AcqItemRe.Match(ln);
-                if (m.Success)
-                {
-                    string cnt = m.Groups[1].Value;
-                    string colorOpen = m.Groups[2].Value;   // <color=red> 或 ""
-                    string name = m.Groups[3].Value;
-                    // v1.3.18 (F1) / v1.3.30 (F2): 道具上下文优先查专用映射 —— Lebkuchen 在道具位
-                    // 是"姜饼"而非角色名"斯佩尔特"; 未命中再回退 display 词典。
-                    string zhName = LookupItemName(Norm(name));
-                    if (zhName == null) { zhName = name; D("[ITEM_NAME MISS] " + Trunc(name)); }
-                    string colorClose = string.IsNullOrEmpty(colorOpen) ? "" : "</color>";
-                    lines[i] = "获得了 " + cnt + " 个 " + colorOpen + zhName + colorClose;
-                    any = true; continue;
-                }
-                string zh;
-                if (Disp.TryGetValue(Norm(ln), out zh) && !string.IsNullOrEmpty(zh)) { lines[i] = zh; any = true; }
-            }
-            return any ? string.Join("\n", lines) : null;
+            List<string> miss;
+            string r = Core.TryItemGet(s, Disp, ItemNames, out miss);
+            for (int i = 0; i < miss.Count; i++) D("[ITEM_NAME MISS] " + Trunc(miss[i]));
+            return r;
         }
-
         // v1.3.30 (F2): 判定当前 TMP 文本位是不是"道具名"位, 以及是否为 HUD 的"名字 xN"小提示。
         // 道具名位与角色名牌拿到的是同一串英文(Lebkuchen), 显示词典按英文归一只能二选一;
         // 二者真正的差别只在组件路径上, 所以按路径判上下文。路径口径来自实机 DIAG 的 @组件路径:
         //   商店列表  NormalItems/…/ShopItemView(Clone)/Name
         //   背包列表  NormalItems|FoodItems|KeyItems/…/ItemView(Clone)/Name
         //   道具详情  …/ItemDetail/…/Name
-        //   HUD 提示  HUD/ItemStatus/ItemGetSmall/Name   ("名字 xN", 见 ItemQtyRe)
+        //   HUD 提示  HUD/ItemStatus/ItemGetSmall/Name   ("名字 xN", 见 Core.ItemQtyRe)
         // 先做廉价前置过滤(叶子名), 只有候选位才去拼路径 —— CompPath 有字符串开销,
         // 每次文本写入都无谓调用会白白摊薄帧率。
         private static bool ItemNameCtx(object inst, string key, out bool hudToast)
@@ -549,15 +349,7 @@ namespace LGTSChinese
             return false;
         }
 
-        // v1.3.30 (F2): 道具名取值 —— 专用表优先, 整句词典兜底(未命中返回 null, 由调用方决定行为)。
-        private static string LookupItemName(string key)
-        {
-            if (string.IsNullOrEmpty(key)) return null;
-            string zh;
-            if (ItemNames.TryGetValue(key, out zh) && !string.IsNullOrEmpty(zh)) return zh;
-            if (Disp.TryGetValue(key, out zh) && !string.IsNullOrEmpty(zh)) return zh;
-            return null;
-        }
+        // (v1.3.33) 道具名取值的实现已搬进 Core.LookupItemName, 本文件上面留了薄壳。
 
         // 组件层级路径(诊断右侧栏目丝带是否 TMP 文本) (P1)
         private static string CompPath(object inst)
@@ -667,10 +459,10 @@ namespace LGTSChinese
         // ---- v1.3.32 精确取词: Gridly 取词汇聚点 (2026-11-12 启用) ----
         // 背景: 本作不用 I2.English/中文, 而是 LocalizationMediator -> GridlyLocal.GetStringData(tab, recordID),
         //       其中 recordID 就是译本记录键(DLG_.../CUT_...)。插件此前只挂 I2 与 TMP, 拿不到 RefKey,
-        //       只能按 Norm(英文) 查 display —— 同一英文只能一条译文, 译者的语域细化无法上屏。
+        //       只能按 Core.Norm(英文) 查 display —— 同一英文只能一条译文, 译者的语域细化无法上屏。
         // 该钩子覆盖 47 个调用点(42 处走 mediator + 5 处直调 Gridly), 是拿到 RefKey 的唯一单点。
         // v1.3.32 已启用: 命中 by_refkey 即返回该行专属译文(语域区分得以保留); 未命中放行。
-        private static int GProbeSeen, GProbeFixed, GProbeMiss, GProbeHit;
+        private static int GProbeSeen, GProbeFixed, GProbeMiss;   // v1.3.33: 删掉从未使用的 GProbeHit (CS0169)
         private static readonly HashSet<string> GProbeHitKeys = new HashSet<string>(StringComparer.Ordinal);
         private static readonly HashSet<string> GProbeMissKeys = new HashSet<string>(StringComparer.Ordinal);
 
@@ -817,7 +609,7 @@ namespace LGTSChinese
                 }
                 catch { }
                 string zh;
-                if (!string.IsNullOrEmpty(term) && Zh.TryGetValue(RefKey(term), out zh) && !string.IsNullOrEmpty(zh))
+                if (!string.IsNullOrEmpty(term) && Zh.TryGetValue(Core.RefKey(term), out zh) && !string.IsNullOrEmpty(zh))
                 {
                     if (DoLocHit < 300) D("DoLoc HIT  term=" + term + " was=" + Trunc(__1));
                     __1 = zh; DoLocHit++;
@@ -947,93 +739,12 @@ namespace LGTSChinese
                 string path = Path.Combine(dir, "translation", "lgts_zh_by_refkey.json");
                 if (!File.Exists(path)) { Log.LogError("译文表缺失: " + path); Degrade("译文表缺失: " + path); return; }
                 string json = File.ReadAllText(path, System.Text.Encoding.UTF8);
-                ParseFlatJson(json, Zh);
+                Core.ParseFlatJson(json, Zh);
                 D("译文表(by_refkey)载入: " + Zh.Count + " 条");
-                if (Zh.Count == 0 || Zh.Count < MinRefKeyEntries)
-                    Degrade("译文表仅 " + Zh.Count + " 条 (< " + MinRefKeyEntries + "), I2 取词会大面积回退英文");
+                if (Zh.Count == 0 || Zh.Count < Core.MinRefKeyEntries)
+                    Degrade("译文表仅 " + Zh.Count + " 条 (< " + Core.MinRefKeyEntries + "), I2 取词会大面积回退英文");
             }
             catch (Exception e) { Log.LogError("载入译文表失败: " + e); Degrade("译文表载入异常: " + e.Message); }
-        }
-
-        // 极简 JSON 平表解析(键值均为字符串), 避免引入额外依赖。
-        private static void ParseFlatJson(string s, Dictionary<string, string> outMap)
-        {
-            int i = 0, n = s.Length;
-            Func<char, bool> ws = c => c == ' ' || c == '\t' || c == '\r' || c == '\n';
-            System.Func<string> readStr = () =>
-            {
-                while (i < n && s[i] != '"') i++;
-                i++; // opening quote
-                var sb = new System.Text.StringBuilder();
-                while (i < n)
-                {
-                    char c = s[i++];
-                    if (c == '\\')
-                    {
-                        // v1.3.17 (C5): 孤立尾部反斜杠不越界, 按字面量输出
-                        if (i >= n) { sb.Append(c); break; }
-                        char e = s[i++];
-                        switch (e)
-                        {
-                            case 'n': sb.Append('\n'); break;
-                            case 'r': sb.Append('\r'); break;
-                            case 't': sb.Append('\t'); break;
-                            case '"': sb.Append('"'); break;
-                            case '\\': sb.Append('\\'); break;
-                            case '/': sb.Append('/'); break;
-                            case 'u':
-                                // v1.3.17 (C5): \u 转义边界保护 —— 剩余不足 4 位或非十六进制
-                                // 时降级为字面 'u', 不再抛 ArgumentOutOfRangeException/FormatException
-                                // (此前畸形转义会让整张译文表加载失败)。
-                                if (i + 4 <= n && IsHex4(s, i))
-                                { sb.Append((char)Convert.ToInt32(s.Substring(i, 4), 16)); i += 4; }
-                                else sb.Append(e);
-                                break;
-                            default: sb.Append(e); break;
-                        }
-                    }
-                    else if (c == '"') break;
-                    else sb.Append(c);
-                }
-                return sb.ToString();
-            };
-            while (i < n && s[i] != '{') i++;
-            i++;
-            while (i < n)
-            {
-                while (i < n && ws(s[i])) i++;
-                if (i < n && s[i] == '}') break;
-                if (i >= n || s[i] != '"') break;
-                string key = readStr();
-                while (i < n && s[i] != ':') i++;
-                i++;
-                while (i < n && ws(s[i])) i++;
-                string val = readStr();
-                outMap[key] = val;
-                while (i < n && s[i] != ',' && s[i] != '}') i++;
-                if (i < n && s[i] == ',') { i++; continue; }
-                if (i < n && s[i] == '}') break;
-            }
-        }
-
-        // v1.3.17 (C5): 判 s[pos..pos+4) 是否全为十六进制字符
-        private static bool IsHex4(string s, int pos)
-        {
-            for (int k = pos; k < pos + 4; k++)
-            {
-                char h = s[k];
-                bool ok = (h >= '0' && h <= '9') || (h >= 'a' && h <= 'f') || (h >= 'A' && h <= 'F');
-                if (!ok) return false;
-            }
-            return true;
-        }
-
-        // ---- RefKey 归一: I2 term key = "Category/RefKey"; 取 '/' 之后 ----
-        internal static string RefKey(string term)
-        {
-            if (string.IsNullOrEmpty(term)) return term;
-            int slash = term.IndexOf('/');
-            return slash >= 0 ? term.Substring(slash + 1) : term;
         }
 
         // ---- Harmony 补丁: 后置钩 I2 取词 ----
@@ -1047,59 +758,6 @@ namespace LGTSChinese
         private static readonly HashSet<string> SeenMiss = new HashSet<string>(StringComparer.Ordinal);
         // v1.3.30 (F2): 道具名串在道具名位之外被显示成别的意思时的去重集合(键+路径)
         private static readonly HashSet<string> SeenNameCollide = new HashSet<string>(StringComparer.Ordinal);
-        private static readonly System.Text.RegularExpressions.Regex AcquiredRe =
-            new System.Text.RegularExpressions.Regex("^Acquired\\s+(\\d+)\\s*[xX]?$");
-        // 道具复合行: "Acquired 1x <color=red>Tinderbox</color>" (P0-2)
-        private static readonly System.Text.RegularExpressions.Regex AcqItemRe =
-            new System.Text.RegularExpressions.Regex("^Acquired\\s+(\\d+)\\s*[xX]\\s*(<color=[^>]+>)?\\s*(.+?)\\s*(</color>)?\\s*$");
-        // v1.3.30 (F2): HUD 小提示的道具名+数量拼接串 "Lebkuchen x5" (ItemGetSmall/Name)。
-        // 与 ITEM GET 弹窗同源的拆分口径, 只是顺序反过来(名字在前, 数量在后)。
-        private static readonly System.Text.RegularExpressions.Regex ItemQtyRe =
-            new System.Text.RegularExpressions.Regex("^(.+?)\\s*[xX×]\\s*(\\d+)$");
-        // 日期+时段模板 (P0-3): 支持全称/缩写、点/空格分隔。
-        // v1.3.7 (C2): 补 "Witch. Hour" —— 存档槽用 WitchingHourAbv 的缩写形态(SaveSlot.cs:274)。
-        private static readonly System.Text.RegularExpressions.Regex DayTimeRe =
-            new System.Text.RegularExpressions.Regex(
-                "^(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sun\\.|Mon\\.|Tue\\.|Wed\\.|Thu\\.|Fri\\.|Sat\\.)\\s*\\.?\\s*(Morning|Afternoon|Evening|Night|Dawn|Dusk|Noon|Daytime|Witching Hour|Witch\\. Hour)$",
-                System.Text.RegularExpressions.RegexOptions.IgnoreCase);
-        // v1.3.32: 存档位时间戳 "DATE 2026/11/3 TIME 01:48:36" (SaveSlots/.../Info/SaveTime)。
-        // 日期格式随系统区域变, 所以两段都用 .+? 兜住, 只认 DATE/TIME 两个词。
-        private static readonly System.Text.RegularExpressions.Regex SaveTimeRe =
-            new System.Text.RegularExpressions.Regex("^DATE\\s+(.+?)\\s+TIME\\s+(.+)$");
-        // v1.3.32: 背包/食材列表的数量角标 "x22" (ItemView(Clone)/Quantity)。
-        // 数量无上限, 词典不可能穷举, 只能按规则把纯英文 x 换成乘号。
-        private static readonly System.Text.RegularExpressions.Regex QtySuffixRe =
-            new System.Text.RegularExpressions.Regex("^[xX]\\s*(\\d{1,4})$");
-        // v1.3.32: 小游戏回合数 "ROUND 3" (ChickenFrenzy/ChopChop/RApples 等 SetCountdownTimer)
-        // 与 "Round 3" (MinigameUI.SetRoundDisplay) 两种写法都在。数字无上限, 只能按规则。
-        private static readonly System.Text.RegularExpressions.Regex RoundRe =
-            new System.Text.RegularExpressions.Regex("^ROUND\\s+(\\d+)$",
-                System.Text.RegularExpressions.RegexOptions.IgnoreCase);
-        // v1.3.32: 小游戏续关花费 "(5T)" (Minigame.cs:152 retryCost)。T 是游戏内的货币记号,
-        // 原样保留, 只把半角括号换成全角(与其余五层口径一致)。
-        private static readonly System.Text.RegularExpressions.Regex RetryCostRe =
-            new System.Text.RegularExpressions.Regex("^\\((\\d+)\\s*[Tt]\\)$");
-        // v1.3.7 (C2): 数字模板抠取
-        private static readonly System.Text.RegularExpressions.Regex NumRe =
-            new System.Text.RegularExpressions.Regex("\\d+");
-        // v1.3.7 (C2): 恋人弹窗归一键 "名字['s] 后缀"。名字 = 三位恋爱对象(Constants.LoveInterests);
-        // 后缀 = UI 表 HEART_ACQUIRED / MAX_LOVE_ACQUIRED / STRONG_BOND_ACQUIRED 的英文,
-        // "Ac?quired" 同时覆盖游戏正拼与实机曾出现的错拼。
-        private static readonly System.Text.RegularExpressions.Regex RomanceRe =
-            new System.Text.RegularExpressions.Regex(
-                "^(Rozenmarine|Freya|Lebkuchen)('s)?\\s+(Heart Piece Ac?quired!|Everlasting Love!|Strong Bond)$",
-                System.Text.RegularExpressions.RegexOptions.IgnoreCase);
-        private static readonly Dictionary<string, string> DayMap = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
-        {
-            {"Sunday","周日"},{"Sun.","周日"},{"Monday","周一"},{"Mon.","周一"},{"Tuesday","周二"},{"Tue.","周二"},
-            {"Wednesday","周三"},{"Wed.","周三"},{"Thursday","周四"},{"Thu.","周四"},{"Friday","周五"},{"Fri.","周五"},
-            {"Saturday","周六"},{"Sat.","周六"},
-        };
-        private static readonly Dictionary<string, string> TimeMap = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
-        {
-            {"Morning","上午"},{"Afternoon","下午"},{"Evening","傍晚"},{"Night","夜晚"},{"Dawn","黎明"},
-            {"Dusk","黄昏"},{"Noon","正午"},{"Daytime","白天"},{"Witching Hour","巫魅时分"},{"Witch. Hour","巫魅时分"},
-        };
         private static readonly string[] Targets =
             { "ITEM GET", "Acquired", "Tinderbox", "What if it was that", "Sat. Evening", "light the fire" };
         // 显示词典: 去标签英文(归一) -> 中文。用于在 TMP 渲染层直接替换游戏自绘/AT漏掉的文本。
@@ -1251,7 +909,7 @@ namespace LGTSChinese
         private static void LogTerm(string term, bool hit, string src)
         {
             if (Logged.Count < 400 && Logged.Add(src + ":" + term))
-                D("[" + src + "] " + (hit ? "HIT  " : "MISS ") + "term=" + term + " refkey=" + RefKey(term));
+                D("[" + src + "] " + (hit ? "HIT  " : "MISS ") + "term=" + term + " refkey=" + Core.RefKey(term));
             if ((Hits + Miss) % 500 == 0)
                 D("[HEARTBEAT] GT/TRY/TD hits=" + Hits + " miss=" + Miss
                   + " | DoLoc hit=" + DoLocHit + " miss=" + DoLocMiss
@@ -1275,7 +933,7 @@ namespace LGTSChinese
             if (!I2LangIsEnglish()) return;
             if (SuppressTermInject) return;   // v1.3.16: 对象选择器取词, 键不可译
             string zh;
-            bool hit = Zh.TryGetValue(RefKey(Term), out zh) && !string.IsNullOrEmpty(zh);
+            bool hit = Zh.TryGetValue(Core.RefKey(Term), out zh) && !string.IsNullOrEmpty(zh);
             if (hit) { __result = zh; Hits++; } else Miss++;
             LogTerm(Term, hit, "GT");
         }
@@ -1295,7 +953,7 @@ namespace LGTSChinese
             if (!I2LangIsEnglish()) return;
             if (SuppressTermInject) return;   // v1.3.16: 对象选择器取词, 键不可译
             string zh;
-            if (Zh.TryGetValue(RefKey(Term), out zh) && !string.IsNullOrEmpty(zh))
+            if (Zh.TryGetValue(Core.RefKey(Term), out zh) && !string.IsNullOrEmpty(zh))
             { __1 = zh; Hits++; LogTerm(Term, true, "TRY"); }
             else { Miss++; LogTerm(Term, false, "TRY"); }
         }
@@ -1317,7 +975,7 @@ namespace LGTSChinese
             string Term = TermField.GetValue(__instance) as string;
             if (string.IsNullOrEmpty(Term)) return;
             string zh;
-            if (Zh.TryGetValue(RefKey(Term), out zh) && !string.IsNullOrEmpty(zh))
+            if (Zh.TryGetValue(Core.RefKey(Term), out zh) && !string.IsNullOrEmpty(zh))
             { __result = zh; Hits++; LogTerm(Term, true, "TD"); }
             else { Miss++; LogTerm(Term, false, "TD"); }
         }
@@ -1388,7 +1046,6 @@ namespace LGTSChinese
             }
         }
 
-        private static bool IsCjk(char c) { return c >= '⺀' && c <= '鿿' || c >= '＀' && c <= '￯' || c >= '　' && c <= '〿'; }
 
         private static void UguiScan()
         {
@@ -1402,14 +1059,14 @@ namespace LGTSChinese
 
                 // 1) 词典补翻(仅纯非中文文本; 幂等, AT 已翻则跳过)
                 char firstCjk = '\0';
-                for (int k = 0; k < s.Length; k++) if (IsCjk(s[k])) { firstCjk = s[k]; break; }
+                for (int k = 0; k < s.Length; k++) if (Core.IsCjk(s[k])) { firstCjk = s[k]; break; }
                 if (firstCjk == '\0')
                 {
                     string zh;
-                    if (Disp.TryGetValue(Norm(s), out zh) && !string.IsNullOrEmpty(zh) && zh != s)
+                    if (Disp.TryGetValue(Core.Norm(s), out zh) && !string.IsNullOrEmpty(zh) && zh != s)
                     {
                         t.text = zh; s = zh; UguiTextFixed++;
-                        for (int k = 0; k < s.Length; k++) if (IsCjk(s[k])) { firstCjk = s[k]; break; }
+                        for (int k = 0; k < s.Length; k++) if (Core.IsCjk(s[k])) { firstCjk = s[k]; break; }
                         if (UguiLoggedIds.Count < 200 && UguiLoggedIds.Add(t.GetInstanceID()))
                             D("[UGUI TEXT] " + CompPath(t) + " -> " + Trunc(zh));
                     }
