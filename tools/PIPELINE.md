@@ -78,6 +78,23 @@ python tools/check_localization.py --live "<游戏根目录>"  # 查实机安装
 
 ## 关键约定
 
+**两条取词路径（2026-11-12 查清并启用）。**
+本作**不用 I2**，而是 `LGTS.LGTS_Utils.LocalizationMediator` → `Gridly.GridlyLocal.GetStringData(tab, recordID)`，
+其中 `recordID` 就是译本记录键（`DLG_...`/`CUT_...`/`ITM_...`）。插件自 v1.3.32 起挂
+`GridlyLocal.GetStringData` 的 postfix：**命中 `by_refkey` 就返回该行专属译文**，未命中放行。
+
+- 精确路径（`by_refkey`，21,189 条）：对话 `DLG`/过场 `CUT`/恋爱 `LVE`/村镇 `CHR`/闲话 `FLV`/
+  物品 `ITM`/任务 `TASK`/提示 `HINT` 等**按 RefKey 各取各的**。这是译者的语域细分
+  （同一英文按说话人/对象给不同译法）能真正上屏的唯一途径。
+- 兜底路径（`display`，25,318 条 + `runtime_lines` 64 条）：UI 按钮、地图地名、日期时段、
+  硬编码拼串（`READY`/`ROUND N`/`x22`/存档时间/设置枚举名）。这些的 recordID 是
+  `TOGGLE`/`NAVIGATE`/`Mon` 这类短键，`by_refkey` 里没有，钩子自动放行，仍由 TMP 前缀翻译。
+
+实测（2026-11-12 实机）：`seen=503 fixed=399 pass=104`（79% 精确取词），
+`DLG=69 / ITM=256 / VILLAGE=15 / LVE` 等全部精确命中，`pass` 全是 `UI=`/`World_Map=`，`TMP MISS=0`。
+
+**为什么还需要 display 的自定义键。** 上面这些短键没有译本记录行，只能按英文归一。
+
 **为什么 display/AT 用 "Norm(英文)" 而不是 RefKey。**
 RefKey 只在 I2 取词路径可用；Timeline 旁白、部分弹窗、UGUI 文本拿不到 RefKey，
 只有英文原文。所以这两层以 `Norm(英文)`（去富文本标签 + 折叠空白）作键。

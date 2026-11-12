@@ -95,9 +95,9 @@ EXPECT_SUMS = 1 + len(FILES) + len(SHIPPED_TOP)
 # 直接不执行且不留 SKIP, 汇总行照样只报 PASS — 只有"应跑 == 实跑"才能发现。
 # 改检查项时必须同步改这个数。
 # v1.3.31: 39 → 42 (新增 G 组 3 项运行时诊断; 不带 --diag 时基线自动 -3)。
-# v1.3.32 结构侧: 42 → 46 (G 组加入 DIAG 与资产的绑定断言: 首行版本 / DLL sha256 / TMP 钩子已挂;
+# v1.3.32 结构侧: 42 → 47 (G 组加入 DIAG 与资产的绑定断言: 首行版本 / DLL sha256 / TMP 钩子已挂;
 #                行数门槛从 >100 降到 >20, 那一项已不再是证据强度指标)。
-EXPECTED_CHECKS = 46
+EXPECTED_CHECKS = 47
 
 
 def main():
@@ -513,6 +513,20 @@ def main():
             else:
                 check("DIAG DLL 绑定 (sha256)", False,
                       "DIAG 没有 [DLL SHA] 行 —— 旧版插件产生，无法与资产绑定，需重跑一次")
+
+            # 2026-11-12 (结构侧): Gridly 精确取词是新的核心机制 —— recordID 即译本记录键,
+            # 命中 by_refkey 就返回该行专属译文(语域区分靠它上屏)。钩子挂不上时表现为
+            # "没有 [GRIDLY SUMMARY] 行", 整个机制会静默退化成按英文归一键, 外人看不出来。
+            g_line = [l for l in dtext if l.startswith("[GRIDLY SUMMARY]")]
+            g_seen = g_fixed = 0
+            if g_line:
+                import re as _re
+                m1 = _re.search(r"seen=(\d+)", g_line[0])
+                m2 = _re.search(r"fixed=(\d+)", g_line[0])
+                g_seen = int(m1.group(1)) if m1 else 0
+                g_fixed = int(m2.group(1)) if m2 else 0
+            check("DIAG Gridly 精确取词已生效", bool(g_line) and g_seen > 0 and g_fixed > 0,
+                  "summary=%r (seen=%d fixed=%d)" % (g_line[0][:60] if g_line else None, g_seen, g_fixed))
 
             hi = [l for l in dtext if "TMP hook OK: TMP_Text.set_text" in l]
             check("DIAG TMP 钩子已挂", bool(hi),

@@ -72,6 +72,25 @@ v1.3.32 (2026-11-04)
   （`DLG_3_3_VBA_02_051` 语序、`DLG_4_4_VIN_04_002` 复读点、`DLG_4_5_WCR_C_03_014` 与
   `XUAT_00218` 回声句统一、`DLG_4_5_WCR_C_04_006` 句尾交下一行承接），四层键数不变：
   by_refkey 改值 4 / display 5 / AT 5 / item_names 0。DLL 未改动。
+- 同日第九次补充（**同版替换资产, 不升版本；本次改动 DLL 行为**，批号 `2026-11-04#10`）：
+  两项。
+  (a) **精确取词接通（根本性改动）**。此前插件挂的是 I2 的显示层钩子，但本作**不用 I2**——
+  它走 `LocalizationMediator` → `Gridly.GridlyLocal.GetStringData(tab, recordID)`，而
+  `recordID` 正是译本记录键（`DLG_...`/`CUT_...`）。旧版只挂 TMP，手里只剩渲染后的英文，
+  只能按「英文归一键」查 `display`，**同一英文只能存一条译文**，译者按说话人/场景做的
+  语域细分（如对顽童「好你个小鬼……！」、对长辈「你这丫头！」）全部无法上屏。
+  现在挂 `GridlyLocal.GetStringData` 的 postfix：命中 `by_refkey` 就返回该行专属译文，
+  未命中放行。实测 `seen=503 fixed=399`（79% 精确取词），对话 `DLG=69` 全部精确命中，
+  放行的 104 次全是 `UI=`/`World_Map=`（按钮/地名/日期，本来就没有记录行），`[TMP MISS]=0`。
+  (b) 采用译者 2026-11-12 正本（**4,632,838 B / SHA-256 `e5be35ad…`**）：相对上一份
+  **385 行**修订（248 行中文 + 340 行备注 + 2 行状态），落到 by_refkey 改值 181 /
+  display 197 / AT 197，四层键数不变。其中 `TASK_LUDWIG_CHICKENS` 的英文源表笔误
+  已由译者按记录键改为「帮路德维希照料鸡群！」，与 `TASK_LUDWIG_APPLES`「帮路德维希摘苹果！」
+  分开——精确取词生效后两者终于各显示各的。
+  同一英文多语域新增 7 组（`I suppose...`/`Why, you...!`/`(That old hag...!)`/`Why, you!`/
+  `I'll do it!`/`Of course, Mrs. Elma.`/`Help Ludwig with the apples!`），
+  `pick_overrides.txt` 20 → 27 条钉住 display 兜底值（精确路径不受影响，各取各的）。
+  `CUT_3_1_VSQ_03_019` 有意合并相邻粗体（`</b><b>` 会打断 TMP 网格），加入标签白名单。
 - 词典条数: display 25,293 → 25,304 → **25,305** (新增 11 键 + 1 个模板键);
   by_refkey 21,189 / item_names 79 / AT 24,700 / UI_System 536 **键数**全部不变。
 - 版本号升至 1.3.32 (文件版本 1.3.32.0)。

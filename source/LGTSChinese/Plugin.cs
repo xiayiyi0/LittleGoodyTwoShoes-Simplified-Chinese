@@ -52,6 +52,7 @@ namespace LGTSChinese
             PatchDoLocalize(harmony);
             PatchLocalizeGuard(harmony);
             PatchTmp(harmony);
+            PatchGridlyProbe(harmony);   // v1.3.32 探针: 物品/UI 的取词汇聚点
             // 本作会在启动早期销毁 BepInEx 的插件宿主(DIAG 中 [HOST DESTROYED] 紧跟启动即证据),
             // 挂在本组件上的协程活不过第一帧, 因此协程一律放到自愈的独立 Runner 上,
             // Runner 被销毁后由 TMP 钩子在下次任意文本写入时重建。
@@ -640,6 +641,7 @@ namespace LGTSChinese
               + " uniqHit=" + SeenHit.Count + " uniqMiss=" + SeenMiss.Count
               + " | I2 hits=" + Hits + " miss=" + Miss + " | DoLoc hit=" + DoLocHit + " miss=" + DoLocMiss
               + " | UGUI text=" + UguiTextFixed + " font=" + UguiFontFixed
+              + " | Gridly seen=" + GProbeSeen + " fixed=" + GProbeFixed + " pass=" + GProbeMiss
               + " | DEGRADE=" + DegradeCount);
             try { if (Diag != null) Diag.Flush(); } catch { }
         }
@@ -647,6 +649,7 @@ namespace LGTSChinese
         private static void OnAppQuitting()
         {
             Quitting = true;
+            WriteGridlyProbeSummary();
             WriteStats("[FINAL]");
             // v1.3.27 (G1): 退出时关闭 DIAG 句柄。此前 StreamWriter 从不 Dispose,
             // 文件句柄留到进程结束; 句柄没关时外部工具无法读取/另存, 排障要等游戏完全退出。
@@ -659,6 +662,103 @@ namespace LGTSChinese
         private void OnDestroy()
         {
             WriteStats(Quitting ? "[FINAL]" : "[HOST DESTROYED]");
+        }
+
+        // ---- v1.3.32 精确取词: Gridly 取词汇聚点 (2026-11-12 启用) ----
+        // 背景: 本作不用 I2.English/中文, 而是 LocalizationMediator -> GridlyLocal.GetStringData(tab, recordID),
+        //       其中 recordID 就是译本记录键(DLG_.../CUT_...)。插件此前只挂 I2 与 TMP, 拿不到 RefKey,
+        //       只能按 Norm(英文) 查 display —— 同一英文只能一条译文, 译者的语域细化无法上屏。
+        // 该钩子覆盖 47 个调用点(42 处走 mediator + 5 处直调 Gridly), 是拿到 RefKey 的唯一单点。
+        // v1.3.32 已启用: 命中 by_refkey 即返回该行专属译文(语域区分得以保留); 未命中放行。
+        private static int GProbeSeen, GProbeFixed, GProbeMiss, GProbeHit;
+        private static readonly HashSet<string> GProbeHitKeys = new HashSet<string>(StringComparer.Ordinal);
+        private static readonly HashSet<string> GProbeMissKeys = new HashSet<string>(StringComparer.Ordinal);
+
+        private void PatchGridlyProbe(Harmony harmony)
+        {
+            try
+            {
+                Type t = AccessTools.TypeByName("Gridly.GridlyLocal");
+                if (t == null) { D("[GRIDLY PROBE] 未找到 Gridly.GridlyLocal, 探针未装"); Log.LogWarning("未找到 Gridly.GridlyLocal"); return; }
+                var m = AccessTools.Method(t, "GetStringData", new[] { typeof(string), typeof(string) });
+                if (m == null) { D("[GRIDLY PROBE] 未找到 GetStringData(string,string), 探针未装"); Log.LogWarning("未找到 GridlyLocal.GetStringData"); return; }
+                var post = new HarmonyMethod(typeof(Plugin).GetMethod("GridlyProbe_Postfix",
+                    BindingFlags.Static | BindingFlags.NonPublic));
+                harmony.Patch(m, postfix: post);
+                D("[GRIDLY PROBE] 已挂钩 GridlyLocal.GetStringData (只观测, 不改输出)");
+            }
+            catch (Exception e)
+            {
+                D("[GRIDLY PROBE] 挂钩失败: " + e.Message);
+                Log.LogWarning("Gridly 探针挂钩失败: " + e.Message);
+            }
+        }
+
+        private static void GridlyProbe_Postfix(string __0, string __1, ref string __result)
+        {
+            // v1.3.32 启用: recordID 即译本记录键 -> 命中 by_refkey 就直接返回该行专属译文。
+            // 未命中一律放行(UI/World_Map 等短键), 由 TMP 前缀 + display 继续兜底。
+            try
+            {
+                string grid = __0;
+                string rec = __1;
+                GProbeSeen++;
+                string zh = null;
+                bool hit = false;
+                if (!string.IsNullOrEmpty(rec) && Zh.TryGetValue(rec, out zh) && !string.IsNullOrEmpty(zh))
+                    hit = true;
+                if (hit)
+                {
+                    GProbeFixed++;
+                    __result = zh;
+                    GCount(GHitByPrefix, rec);
+                    if (GProbeHitKeys.Count < 30) GProbeHitKeys.Add(grid + "|" + rec);
+                    if (GProbeFixed <= 15 || GProbeFixed % 200 == 0)
+                        D("[GRIDLY HIT] #" + GProbeFixed + " " + grid + "|" + Trunc(rec)
+                          + " -> " + Trunc(zh));
+                }
+                else
+                {
+                    GProbeMiss++;
+                    GCount(GPassByPrefix, rec);
+                    if (GProbeMissKeys.Count < 30) GProbeMissKeys.Add(grid + "|" + (rec ?? "(null)"));
+                }
+            }
+            catch { }
+        }
+
+        private static readonly Dictionary<string, int> GHitByPrefix = new Dictionary<string, int>();
+        private static readonly Dictionary<string, int> GPassByPrefix = new Dictionary<string, int>();
+
+        private static void GCount(Dictionary<string, int> d, string rec)
+        {
+            string p = "(null)";
+            if (!string.IsNullOrEmpty(rec))
+            {
+                int us = rec.IndexOf('_');
+                p = us > 0 ? rec.Substring(0, us) : rec;
+            }
+            int n;
+            d.TryGetValue(p, out n);
+            d[p] = n + 1;
+        }
+
+        private static string Fmt(Dictionary<string, int> d)
+        {
+            var parts = new List<string>();
+            foreach (var kv in d) parts.Add(kv.Key + "=" + kv.Value);
+            parts.Sort(StringComparer.Ordinal);
+            return string.Join(",", parts.ToArray());
+        }
+
+        internal static void WriteGridlyProbeSummary()
+        {
+            D("[GRIDLY SUMMARY] seen=" + GProbeSeen + " fixed=" + GProbeFixed + " pass=" + GProbeMiss
+              + " (精确取词覆盖 " + (GProbeSeen == 0 ? "-" : (100 * GProbeFixed / GProbeSeen) + "%") + ")");
+            D("[GRIDLY FIXED BY PREFIX] " + Fmt(GHitByPrefix));
+            D("[GRIDLY PASS  BY PREFIX] " + Fmt(GPassByPrefix));
+            D("[GRIDLY FIXED SAMPLES] " + string.Join(" ; ", new List<string>(GProbeHitKeys).ToArray()));
+            D("[GRIDLY PASS  SAMPLES] " + string.Join(" ; ", new List<string>(GProbeMissKeys).ToArray()));
         }
 
         // ---- 挂钩 I2 显示层: LocalizeTarget_TextMeshPro_*.DoLocalize ----
