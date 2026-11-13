@@ -172,7 +172,13 @@ def main():
             out.append(line)
             continue
         k, v = line.split("=", 1)
-        cand = exact.get(norm(k.replace(NB, " ")))
+        # 2026-11-13: 先按"保留字面 \n 的原始归一键"精确查, 查不到才折掉 \n 再查。
+        # 之前直接折掉 \n 查, 于是 "A,\nB" 与 "A, B" 两条 CSV 行会撞到同一个键,
+        # setdefault 先到先得 —— 两行文本合并成一行, verify 的「三层值均与译本一致」
+        # 当场报 AT:1 (实例 XUAT_00495 / XUAT_00496)。
+        cand = exact.get(norm(k))
+        if cand is None:
+            cand = exact.get(norm(k.replace(NB, " ")))
         if cand is not None:
             n_exact += 1
         else:
@@ -190,7 +196,7 @@ def main():
                 n_mech += 1
             else:
                 n_keep += 1
-        out.append(k + "=" + esc(nv))
+        out.append(k + "=" + esc(nv.replace("<br>", NB)))
 
     with open(dst, "w", encoding="utf-8", newline="") as f:
         f.write("\n".join(out))

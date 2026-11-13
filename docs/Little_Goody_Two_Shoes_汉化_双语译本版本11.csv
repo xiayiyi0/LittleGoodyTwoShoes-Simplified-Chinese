@@ -10247,7 +10247,7 @@ DLG_LPROMPT_001,她在那儿……,10245,主线对白DLG,—,,,已译,There she 
 DLG_LPROMPT_002,我要陪她待一会儿！,10246,主线对白DLG,—,,,已译,I'll spend some time with her!
 DLG_LPROMPT_003,我还有更要紧的事要做……,10247,主线对白DLG,—,,,已译,I have better things to do...
 DLG_TUTORIALS_001,要重温游戏教程吗？,10248,主线对白DLG,—,,,已译,Would you like to revisit the game's tutorials?
-DLG_TUTORIALS_002,好！,10249,主线对白DLG,—,,,已译,Yes
+DLG_TUTORIALS_002,好,10249,主线对白DLG,—,,,已译,Yes
 DLG_TUTORIALS_003,不用了,10250,主线对白DLG,—,,[系统] 修正弹窗按钮TM错误,已译,No
 DLG_WCW_AW_PATHS_01_001,来吧！我需要你站到那边去。,10251,主线对白DLG,—,WCW_AW_PATHS,,已译,"Come, now! I need you to stand over there."
 DLG_WCW_AW_PATHS_01_002,好吧。,10252,主线对白DLG,—,WCW_AW_PATHS,[标点] 还原句号,已译,All right.
@@ -11022,7 +11022,7 @@ CUT_3_1_HBY_01_003,现在可不是闲晃的时候！,11020,过场对白CUT,3月1
 CUT_3_1_HBY_01_004,现在可不是闲晃的时候！,11021,过场对白CUT,3月1日,HBY,,已译,This is no time to loiter about!
 CUT_3_1_HBY_01_005,这是什么？,11022,过场对白CUT,3月1日,HBY,[标点] 删多余省略号/感叹号,已译,What's this?
 CUT_3_1_HBY_01_006,一双鞋子……？,11023,过场对白CUT,3月1日,HBY,,已译,A pair of shoes...?
-CUT_3_1_HBY_01_007,它们究竟怎会跑到我这园子里来的？,11024,过场对白CUT,3月1日,HBY,,已译,How could they possibly have wound up here in my garden?
+CUT_3_1_HBY_01_007,它们究竟怎会跑到我这菜园里来的？,11024,过场对白CUT,3月1日,HBY,[专名] 这是她翻地的那块菜园，garden＝菜园，收口「园子」,已译,How could they possibly have wound up here in my garden?
 CUT_3_1_HBY_01_008,哇，真是太美了……！,11025,过场对白CUT,3月1日,HBY,[语气] Oh依语境改译,已译,"Oh, they're wonderful...!"
 CUT_3_1_HBY_01_009,而且不大不小，正正好合脚！,11026,过场对白CUT,3月1日,HBY,[标点] 删多余省略号/感叹号,已译,"And they fit me like a glove, too!"
 CUT_3_1_HBY_01_010,这双鞋……！,11027,过场对白CUT,3月1日,HBY,,已译,These shoes...!
@@ -12112,10 +12112,10 @@ CUT_4_2_VSQ_01_002,真是的，玛姬——我可没工夫陪你耗！,12110,过
 CUT_4_2_VSQ_01_003,把<color=#f344a2>葡萄汁</color>给我，伊莉丝……！,12111,过场对白CUT,4月2日,VSQ,,已译,"Give me the <color=#f344a2>grape juice</color>, Elise...!"
 CUT_4_2_VSQ_01_004,我、我今天没吃早饭，所以……！,12112,过场对白CUT,4月2日,VSQ,,已译,"I didn't have b-breakfast today, so...!"
 CUT_4_2_VSQ_01_005,够了——我这就去告诉你姑姑你又在讨饭了！,12113,过场对白CUT,4月2日,VSQ,,已译,That's it — I'm telling your auntie you're begging for food again!
-CUT_4_2_VSQ_01_006,啊！可、可我不是在讨、讨饭啊，伊莉丝！,12114,过场对白CUT,4月2日,VSQ,[语气] Oh依语境改译,已译,"Oh! Oh, but I'm not b-begging, Elise!"
+CUT_4_2_VSQ_01_006,啊！可我不是在讨、讨饭啊，伊莉丝！,12114,过场对白CUT,4月2日,VSQ,[结巴] 原文只有 b-begging 一处结巴，but 没有；「可、可」是无源结巴,已译,"Oh! Oh, but I'm not b-begging, Elise!"
 CUT_4_2_VSQ_01_007,我看见你、你现在养了只山羊！,12115,过场对白CUT,4月2日,VSQ,[校正] 结巴在 y-you，落「你、你」（§7）,已译,I saw y-you have a goat now!
 CUT_4_2_VSQ_01_008,怎么，我就不能养只山羊吗？,12116,过场对白CUT,4月2日,VSQ,,已译,"Why, am I not allowed to have a goat?"
-CUT_4_2_VSQ_01_009,天呐，伊莉丝，你、你穷得叮当响啊！,12117,过场对白CUT,4月2日,VSQ,,已译,"Golly, Elise — you're dirt poor!"
+CUT_4_2_VSQ_01_009,天呐，伊莉丝——你穷得叮当响啊！,12117,过场对白CUT,4月2日,VSQ,[结巴] 本行原文 you're 没有结巴（同源 XUAT_01511 才是 y-you're），去掉「你、你」,已译,"Golly, Elise — you're dirt poor!"
 CUT_4_2_VSQ_01_010,你、你到底是怎么弄到一只山、山羊的！,12118,过场对白CUT,4月2日,VSQ,,已译,How would you g-get your hands on a g-goat!
 CUT_4_2_VSQ_01_011,你这家伙……！,12119,过场对白CUT,4月2日,VSQ,"[语气] 修正Why, you...!误译为质问句",已译,"Why, you...!"
 CUT_4_2_VSQ_01_012,看、看来咱们达成共识了，伊莉丝！,12120,过场对白CUT,4月2日,VSQ,,已译,"I see w-we have an u-understanding, Elise!"
@@ -12138,7 +12138,7 @@ CUT_4_2_VSQ_01_028,这不是威胁，明蒂——我现在，就在这儿，把�
 CUT_4_2_VSQ_01_029,呀！,12137,过场对白CUT,4月2日,VSQ,,已译,Eek!
 CUT_4_2_VSQ_01_030,走开，走开！,12138,过场对白CUT,4月2日,VSQ,,已译,"Shoo, shoo!"
 CUT_4_2_VSQ_01_031,要、要是你回心转意了，伊莉丝，明天给我带点<color=#f344a2>姜饼</color>来！,12139,过场对白CUT,4月2日,VSQ,,已译,"I-If you reconsider, Elise, bring me some <color=#f344a2>lebkuchen</color> tomorrow!"
-CUT_4_2_VSQ_01_032,我、我会原谅你的，也、也不跟任何人说那件……,12140,过场对白CUT,4月2日,VSQ,,已译,"And I'll forgive you, a-and not tell anyone about the..."
+CUT_4_2_VSQ_01_032,我会原谅你的，也、也不跟任何人说那件……,12140,过场对白CUT,4月2日,VSQ,[结巴] 原文只有 a-and 一处结巴，And I'll 没有；「我、我」是无源结巴,已译,"And I'll forgive you, a-and not tell anyone about the..."
 CUT_4_2_VSQ_01_033,走开！,12141,过场对白CUT,4月2日,VSQ,,已译,Go away!
 CUT_4_2_VSQ_01_034,呀！,12142,过场对白CUT,4月2日,VSQ,,已译,Eek!
 CUT_4_2_VSQ_01_035,（我看还是照她说的给算了……）,12143,过场对白CUT,4月2日,VSQ,,已译,(It might be best I start giving her what she wants...)
@@ -12279,7 +12279,7 @@ CUT_4_5_HLR_01_023,我……这对我来说太沉重了，萝丝玛琳……,122
 CUT_4_5_HLR_01_024,他还说了什么，伊莉丝？,12278,过场对白CUT,4月5日,HLR,[称谓] 补呼语删增译且乌鸦作「他」,已译,"What else did he say, Elise?"
 CUT_4_5_HLR_01_025,我好累……,12279,过场对白CUT,4月5日,HLR,,已译,I'm so tired...
 CUT_4_5_HLR_01_026,啊？,12280,过场对白CUT,4月5日,HLR,,已译,Huh?
-CUT_4_5_HLR_01_027,总之，我跑回去把看见的事告诉村里人，结果他们……,12281,过场对白CUT,4月5日,HLR,,已译,"I ran back to town to tell everyone about the horse, and they..."
+CUT_4_5_HLR_01_027,我跑回镇上把那匹马的事告诉村里人，结果他们……,12281,过场对白CUT,4月5日,HLR,[校正] 原文是 I ran back... about the horse，没有 Anyhow，宾语是「那匹马的事」；「总之／看见的事」出自同源 XUAT_00711 的英文，不能拿它覆盖本行,已译,"I ran back to town to tell everyone about the horse, and they..."
 CUT_4_5_HLR_01_028,他们羞辱了我，萝丝玛琳……,12282,过场对白CUT,4月5日,HLR,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,"They humiliated me, Rosmarine..."
 CUT_4_5_HLR_01_029,伊莉丝……,12283,过场对白CUT,4月5日,HLR,[标点] 还原省略号,已译,Elise...
 CUT_4_5_HLR_01_030,每一天，他们都把我当成……什么可怜虫一样……！,12284,过场对白CUT,4月5日,HLR,,已译,Each and every day I'm treated as though I'm some wretch...!
@@ -12363,7 +12363,7 @@ CUT_4_5_OCR_02_001,它……它明明就在这儿！我发誓！,12361,过场对
 CUT_4_5_OCR_02_002,老天爷，伊莉丝……,12362,过场对白CUT,4月5日,OCR,[标点] 还原省略号,已译,"Good Lord, Elise..."
 CUT_4_5_OCR_02_003,你能不能跟我们说说你看见了什么，伊莉丝？,12363,过场对白CUT,4月5日,OCR,,已译,"Would you tell us what you saw, Elise?"
 CUT_4_5_OCR_02_004,有一群乌鸦，那匹马当时……！,12364,过场对白CUT,4月5日,OCR,,已译,"There were crows, and the horse was...!"
-CUT_4_5_OCR_02_005,你确定这就是你最后看见它的地方吗？,12365,过场对白CUT,4月5日,OCR,,已译,Are you certain this is where you saw it?
+CUT_4_5_OCR_02_005,你确定这就是你看见它的地方吗？,12365,过场对白CUT,4月5日,OCR,[校正] 原文是 where you saw it，没有 last；「最后」出自同源 XUAT_00759 的英文，会把死马说成「最后目击处」,已译,Are you certain this is where you saw it?
 CUT_4_5_OCR_02_006,是的！是的，我确定！,12366,过场对白CUT,4月5日,OCR,[校正] 答句承接理顺作「我确定」,已译,"Yes! Yes, I am!"
 CUT_4_5_OCR_02_007,你累了，伊莉丝——这肯定只是……,12367,过场对白CUT,4月5日,OCR,[去腔] I'm certain 化入句中作「肯定」,已译,"You're tired, Elise — I'm certain this was just..."
 CUT_4_5_OCR_02_008,这事只有一个答案，各位！,12368,过场对白CUT,4月5日,OCR,,已译,"There's only one answer to this, folks!"
@@ -12754,7 +12754,7 @@ CUT_4_5_VSQ_01_005,欧根！过来，小子！,12752,过场对白CUT,4月5日,VS
 CUT_4_5_VSQ_01_006,你确定吗，伊莉丝？,12753,过场对白CUT,4月5日,VSQ,,已译,"Are you certain, Elise?"
 CUT_4_5_VSQ_01_007,是的！是的，我确定！,12754,过场对白CUT,4月5日,VSQ,[语气] 保留Yes! Yes!急切重复,已译,"Yes! Yes, I'm certain!"
 CUT_4_5_VSQ_01_008,这丫头说她找到你的马了，欧根！,12755,过场对白CUT,4月5日,VSQ,,已译,"The lass says she found your horse, Eugen!"
-CUT_4_5_VSQ_01_009,你看见了吗，伊莉丝……？！,12756,过场对白CUT,4月5日,VSQ,,已译,"Did you, Elise...?!"
+CUT_4_5_VSQ_01_009,你找到了吗，伊莉丝……？！,12756,过场对白CUT,4月5日,VSQ,[代动词] Did 回指上一句 found your horse（找到），不是 see（看见）,已译,"Did you, Elise...?!"
 CUT_4_5_VSQ_01_010,带我去那儿，丫头！,12757,过场对白CUT,4月5日,VSQ,[称谓] 补出呼语lass,已译,"Take me there, lass!"
 CUT_4_5_VSQ_01_011,我去叫其他人来！,12758,过场对白CUT,4月5日,VSQ,,已译,I'll go fetch the others!
 CUT_4_5_VSQ_01_012,它死了，欧根先生……,12759,过场对白CUT,4月5日,VSQ,,已译,"But it's dead, Mr. Eugen..."
@@ -12992,7 +12992,7 @@ CUT_5_1_HBY_01_030,啊！你拿到了吗？,12990,过场对白CUT,5月1日,HBY,[
 CUT_5_1_HBY_01_031,啊？,12991,过场对白CUT,5月1日,HBY,,已译,Huh?
 CUT_5_1_HBY_01_032,就是那件<color=#ed1c24><b>信物</b></color>呀，伊莉丝！,12992,过场对白CUT,5月1日,HBY,,已译,"Why, the <color=#ed1c24><b>Testament</b></color>, Elise!"
 CUT_5_1_HBY_01_033,是啊，我……那些乌鸦，它们……,12993,过场对白CUT,5月1日,HBY,,已译,"Yes, I... Those crows, they..."
-CUT_5_1_HBY_01_034,我……它们向我<i>献上</i>了一缕我自己的头发，然后……,12994,过场对白CUT,5月1日,HBY,,已译,"I was <i>offered</i> a strand of my own hair, and..."
+CUT_5_1_HBY_01_034,它们向我<i>献上</i>了一缕我自己的头发，然后……,12994,过场对白CUT,5月1日,HBY,[去增译] 本行原文没有省略号（同源 XUAT_02270 的 I was... Offered 才有），「我……」是照它抄来的,已译,"I was <i>offered</i> a strand of my own hair, and..."
 CUT_5_1_HBY_01_035,哎呀，伊莉丝——这太美妙了！,12995,过场对白CUT,5月1日,HBY,[语气] Oh依语境改译,已译,"Oh, Elise — that's wonderful!"
 CUT_5_1_HBY_01_036,你只要把它做成能吃的就行了！,12996,过场对白CUT,5月1日,HBY,[校正] 纠正将头发制为食物之语意,已译,All you need to do is prepare it to be eaten!
 CUT_5_1_HBY_01_037,吃掉？！,12997,过场对白CUT,5月1日,HBY,,已译,Eaten?!
@@ -13224,7 +13224,7 @@ CUT_5_5_VIN_02_010,敬伊莉丝！敬伊莉丝！,13222,过场对白CUT,5月5日
 CUT_5_5_VIN_02_011,哎呀，不必这样……,13223,过场对白CUT,5月5日,VIN,,已译,"Oh, you don't have to..."
 CUT_5_5_VIN_02_012,说什么呢，丫头！,13224,过场对白CUT,5月5日,VIN,,已译,"Nonsense, lass!"
 CUT_5_5_VIN_02_013,这可比节庆还热闹哩！,13225,过场对白CUT,5月5日,VIN,,已译,"This is better than the festival, even!"
-CUT_5_5_VIN_02_014,确实要高兴得多！,13226,过场对白CUT,5月5日,VIN,,已译,A great deal better indeed!
+CUT_5_5_VIN_02_014,确实要热闹得多！,13226,过场对白CUT,5月5日,VIN,[上下文] 上一句是「这可比节庆还热闹哩」，本行 better 承「热闹」；同英文 6729 的上句说的是「叫人高兴」，两行各自成句,已译,A great deal better indeed!
 CUT_5_5_VIN_02_015,乡亲们，正好松快松快！,13227,过场对白CUT,5月5日,VIN,,已译,"It's our chance to unwind, folks!"
 CUT_5_5_VIN_02_016,伊莉丝，何不端杯麦酒，拉上芙蕾雅跳支舞？,13228,过场对白CUT,5月5日,VIN,,已译,"Why don't you grab some ale and go grab Freya for a dance, Elise?"
 CUT_5_5_VIN_02_017,啊，是的！,13229,过场对白CUT,5月5日,VIN,[标点] 删多余省略号/感叹号,已译,"Ah, yes!"
@@ -13236,7 +13236,7 @@ CUT_5_5_VSQ_01_003,这是怎么回事？,13234,过场对白CUT,5月5日,VSQ,[标
 CUT_5_5_VSQ_01_004,阿普菲尔不见了，伊莉丝！,13235,过场对白CUT,5月5日,VSQ,,已译,"Apfel's gone missing, Elise!"
 CUT_5_5_VSQ_01_005,但愿小伙子们巡查的时候能找到他。,13236,过场对白CUT,5月5日,VSQ,,已译,Hopefully the lads will find him on their patrol.
 CUT_5_5_VSQ_01_006,他们巡查时肯定会碰见那孩子的。,13237,过场对白CUT,5月5日,VSQ,,已译,"They will happen upon him, I'm certain."
-CUT_5_5_VSQ_01_007,男人们根本不知道他失踪了，神父！,13238,过场对白CUT,5月5日,VSQ,,已译,"They don't know he's missing, Father!"
+CUT_5_5_VSQ_01_007,他们根本不知道他失踪了，神父！,13238,过场对白CUT,5月5日,VSQ,[指代] 上两句说的是「小伙子们」，本行 They 回指他们；「男人们」出自同源 XUAT_05257 的英文 The men，不能拿它覆盖本行,已译,"They don't know he's missing, Father!"
 CUT_5_5_VSQ_01_008,等他们回来的时候，我那可怜的孩子恐怕已经……,13239,过场对白CUT,5月5日,VSQ,,已译,"By the time they're back, my poor boy could've..."
 CUT_5_5_VSQ_01_009,妈妈！,13240,过场对白CUT,5月5日,VSQ,[标点] 还原Mama!呼喊急切叹号,已译,Mama!
 CUT_5_5_VSQ_01_010,大家还是冷静一点。,13241,过场对白CUT,5月5日,VSQ,[校正] 删去译文增译呼语「乡亲们」,已译,We all need to remain calm.
@@ -13380,7 +13380,7 @@ CUT_6_1_VCH_01_005,那可不妙，阿丽亚娜——一点都不妙！,13378,过
 CUT_6_1_VCH_01_006,我这就帮您弄紧，阿丽亚娜太太，不过我得先……,13379,过场对白CUT,6月1日,VCH,,已译,"I'll tighten it for you, Mrs. Ariane, but first I ought to..."
 CUT_6_1_VCH_01_007,我能帮忙，斯佩尔特。,13380,过场对白CUT,6月1日,VCH,,已译,"I can help, Lebkuchen."
 CUT_6_1_VCH_01_008,啊！伊莉丝！,13381,过场对白CUT,6月1日,VCH,,已译,"Ah, Elise!"
-CUT_6_1_VCH_01_009,你这是说的什么话，丫头！,13382,过场对白CUT,6月1日,VCH,,已译,"What are you saying, lassie?"
+CUT_6_1_VCH_01_009,你这是说的什么话，丫头？,13382,过场对白CUT,6月1日,VCH,[标点] 原文以 ? 收尾，是本句斥问；同源 XUAT_05921 原文才是 !，两行各自按原文,已译,"What are you saying, lassie?"
 CUT_6_1_VCH_01_010,一个杂役女佣怎么可能为我们诵祷祝福——我们需要斯佩尔特！,13383,过场对白CUT,6月1日,VCH,,已译,A maid-of-all-work can't possibly pray our blessings — we need Lebkuchen!
 CUT_6_1_VCH_01_011,唉，汉斯神父这个时候到底在哪儿呢？,13384,过场对白CUT,6月1日,VCH,,已译,"Oh, where is Father Hans when we need him most?"
 CUT_6_1_VCH_01_012,汉斯神父有他自己的事要忙，我可以……,13385,过场对白CUT,6月1日,VCH,,已译,"Father Hans has his own matters to attend to, I can..."
@@ -13678,7 +13678,7 @@ CUT_7_2_VIN_01_002,我这又是做错什么了，玛莎？,13676,过场对白CUT
 CUT_7_2_VIN_01_003,你、你把五月柱给拆了！,13677,过场对白CUT,7月2日,VIN,[标点] 删多余省略号/感叹号,已译,Y-You tore down the maypole!
 CUT_7_2_VIN_01_004,你是彻底疯了不成，梅莉？！,13678,过场对白CUT,7月2日,VIN,,已译,"Have you completely lost your mind, Melly?!"
 CUT_7_2_VIN_01_005,啊，那、那不是你，伊莉丝？,13679,过场对白CUT,7月2日,VIN,,已译,"Ah, s-so it wasn't you, Elise?"
-CUT_7_2_VIN_01_006,当然不是我，你这……！,13680,过场对白CUT,7月2日,VIN,,已译,"Of course it wasn't me, you little...!"
+CUT_7_2_VIN_01_006,当然不是我，你这小……！,13680,过场对白CUT,7月2日,VIN,[补译] you little...! 的 little 不能吞，截断仍作「你这小……」；同源 XUAT_03843 原文没有 little，保持「你这个……」,已译,"Of course it wasn't me, you little...!"
 CUT_7_2_VIN_01_007,呀！,13681,过场对白CUT,7月2日,VIN,,已译,Eek!
 CUT_7_2_VIN_01_008,等等——你是不是一直跟大伙儿说，是我……,13682,过场对白CUT,7月2日,VIN,,已译,Wait — have you been telling folks it was me who...
 CUT_7_2_VIN_01_009,还、还没有！我是来找你要点<color=#f344a2>苹果酥卷</color>的！,13683,过场对白CUT,7月2日,VIN,,已译,N-Not yet! I came to you for some <color=#f344a2>apple strudel</color>!
@@ -13765,9 +13765,9 @@ CUT_7_3_VSQ_01_053,就是这样，各位！她们就是<color=#934494><b>女巫<
 CUT_7_3_VSQ_01_054,啊，阿普菲尔！,13764,过场对白CUT,,VSQ,[语气] Oh依语境改译,已译,"Oh, Apfel!"
 CUT_7_3_VSQ_01_055,振作点，老家伙！,13765,过场对白CUT,,VSQ,,已译,"Get a hold of yourself, old lad!"
 CUT_7_3_VSQ_01_056,这么说是真的了，伊莉丝！,13766,过场对白CUT,,VSQ,[标点] 删多余省略号/感叹号,已译,"So it was true, Elise!"
-CUT_7_3_VSQ_01_057,是你和你表妹把咱们的日子搅得跟地狱一样！,13767,过场对白CUT,,VSQ,[标点] 删多余省略号/感叹号,已译,You and your cousin are the ones who've been making our lives hell!
-CUT_7_3_VSQ_01_058,是你和芙蕾雅把咱们的日子搅得跟地狱一样！,13768,过场对白CUT,,VSQ,[标点] 删多余省略号/感叹号,已译,You and Freya are the ones who've been making our lives hell!
-CUT_7_3_VSQ_01_059,是你和斯佩尔特把咱们的日子搅得跟地狱一样！,13769,过场对白CUT,,VSQ,[标点] 删多余省略号/感叹号,已译,You and Lebkuchen are the ones who've been making our lives hell!
+CUT_7_3_VSQ_01_057,是你和你表妹把我们的日子搅得跟地狱一样！,13767,过场对白CUT,,VSQ,[称谓] 当面指控「你和你表妹」，our 排除听者；同场上一句已作「我们最好先把你解决了」,已译,You and your cousin are the ones who've been making our lives hell!
+CUT_7_3_VSQ_01_058,是你和芙蕾雅把我们的日子搅得跟地狱一样！,13768,过场对白CUT,,VSQ,[称谓] 同场并行分支，our 排除听者,已译,You and Freya are the ones who've been making our lives hell!
+CUT_7_3_VSQ_01_059,是你和斯佩尔特把我们的日子搅得跟地狱一样！,13769,过场对白CUT,,VSQ,[称谓] 同场并行分支，our 排除听者,已译,You and Lebkuchen are the ones who've been making our lives hell!
 CUT_7_3_VSQ_01_060,不！,13770,过场对白CUT,,VSQ,[标点] 删多余省略号/感叹号,已译,No!
 CUT_7_3_VSQ_01_061,你、你搞错了，我们根本没干这种事！,13771,过场对白CUT,,VSQ,[标点] 删多余省略号/感叹号,已译,"Y-You're mistaken, we've done nothing of the sort!"
 CUT_7_3_VSQ_01_062,我绝不会做这种事！,13772,过场对白CUT,,VSQ,[标点] 删多余省略号/感叹号,已译,I would never do such a thing!
@@ -13788,7 +13788,7 @@ CUT_7_3_VSQ_01_076,大家务必保持冷静！冷静！,13786,过场对白CUT,,V
 CUT_7_3_VSQ_01_077,她确实在那儿，我亲眼看见的！她还长着一双黄眼睛！,13787,过场对白CUT,,VSQ,[标点] 删多余省略号/感叹号,已译,"She was there, I saw her! She had yellow eyes!"
 CUT_7_3_VSQ_01_078,你还有什么可说的，丫头？,13788,过场对白CUT,,VSQ,,已译,"What do you have to say for yourself, lass?"
 CUT_7_3_VSQ_01_079,我根本没靠近过林子，那时候我早就回家了！,13789,过场对白CUT,,VSQ,,已译,"I was nowhere near the woods, I'd gone home by then!"
-CUT_7_3_VSQ_01_080,咱们又怎么知道这种事，你这<color=#934494><b>女巫</b></color>！,13790,过场对白CUT,,VSQ,[标签] 补全女巫紫色强调标签,已译,"How are we to know such a thing, you <color=#934494><b>witch</b></color>!"
+CUT_7_3_VSQ_01_080,我们又怎么知道这种事，你这<color=#934494><b>女巫</b></color>！,13790,过场对白CUT,,VSQ,[称谓] 当面骂「你这女巫」，we 排除听者,已译,"How are we to know such a thing, you <color=#934494><b>witch</b></color>!"
 CUT_7_3_VSQ_01_081,要是这小子说他看见了你，丫头……！,13791,过场对白CUT,,VSQ,[标点] 补呼语lass并还原「……！」,已译,"If the lad says he saw you, lass...!"
 CUT_7_3_VSQ_01_082,不、不是的，我……我真的已经回家了！,13792,过场对白CUT,,VSQ,,已译,"N-No, I... I truly had gone home!"
 CUT_7_3_VSQ_01_083,黄眼睛？我、我不明白！,13793,过场对白CUT,,VSQ,[标点] 删多余省略号/感叹号,已译,Yellow eyes? I-I don't understand!
@@ -13834,7 +13834,7 @@ CUT_7_3_VSQ_01_122,我没有！,13832,过场对白CUT,,VSQ,[标点] 删多余省
 CUT_7_3_VSQ_01_123,咱们说的可是斯佩尔特啊！,13833,过场对白CUT,,VSQ,,已译,It's Lebkuchen we're talking about!
 CUT_7_3_VSQ_01_124,你们这些人都是疯了吧！,13834,过场对白CUT,,VSQ,,已译,You folks are losing your wits here!
 CUT_7_3_VSQ_01_125,我一整天都在这儿——你们都看见了！,13835,过场对白CUT,,VSQ,,已译,I was here all day - you've all seen me!
-CUT_7_3_VSQ_01_126,你们这些丫头说的话，叫咱们怎么信得过？,13836,过场对白CUT,,VSQ,,已译,How are we to believe anything you lassies say?
+CUT_7_3_VSQ_01_126,你们这些丫头说的话，叫我们怎么信得过？,13836,过场对白CUT,,VSQ,[称谓] 当面质问「你们这些丫头」，we 排除听者,已译,How are we to believe anything you lassies say?
 CUT_7_3_VSQ_01_127,哎呀，可是吉多啊……！斯佩尔特才不是那种丫头……！,13837,过场对白CUT,,VSQ,,已译,"Oh, but Guido...! Lebkuchen's not that kind of lass...!"
 CUT_7_3_VSQ_01_128,跟他们说清楚，伊莉丝！告诉他们我没做那种事……！,13838,过场对白CUT,,VSQ,,已译,"Tell them, Elise! Tell them I did no such thing...!"
 CUT_7_3_VSQ_01_129,我今天下午才刚见过斯佩尔特……！,13839,过场对白CUT,,VSQ,,已译,I met Lebkuchen just this afternoon...!
@@ -13911,7 +13911,7 @@ CUT_7_3_VSQ_01_199,就是这样！这正是我跟老约亨一整个星期都在�
 CUT_7_3_VSQ_01_200,老斯特凡临终前也是这么说的！,13910,过场对白CUT,,VSQ,,已译,What Old Stefan said on his deathbed!
 CUT_7_3_VSQ_01_201,你、你们这些混蛋别想碰我一根手指！,13911,过场对白CUT,,VSQ,[标点] 删多余省略号/感叹号,已译,Y-You wretches aren't laying a finger on me!
 CUT_7_3_VSQ_01_202,我们最好先把你解决了，伊莉丝。,13912,过场对白CUT,,VSQ,[校正] we 不含听者伊莉丝，「咱们」含听者会让逻辑自相矛盾,已译,"It's for the best we do away with you, Elise."
-CUT_7_3_VSQ_01_203,你表妹随后也跑不掉——咱们得把这事办得妥妥当当。,13913,过场对白CUT,,VSQ,,已译,Your cousin will follow — we need to make certain we do this right.
+CUT_7_3_VSQ_01_203,你表妹随后也跑不掉——我们得把这事办得妥妥当当。,13913,过场对白CUT,,VSQ,[称谓] 承接上一句「我们最好先把你解决了」，we 排除听者,已译,Your cousin will follow — we need to make certain we do this right.
 CUT_7_3_VSQ_01_204,你、你们要做什么……？,13914,过场对白CUT,,VSQ,[标点] 还原未说完追问标点,已译,Wh-What are you...?
 CUT_7_3_VSQ_01_205,伊莉丝！,13915,过场对白CUT,,VSQ,,已译,Elise!
 CUT_7_3_VSQ_01_206,伊莉丝！,13916,过场对白CUT,,VSQ,,已译,Elise!
@@ -13919,7 +13919,7 @@ CUT_7_3_VSQ_01_207,伊莉丝！,13917,过场对白CUT,,VSQ,,已译,Elise!
 CUT_7_3_VSQ_01_208,那<color=#934494><b>女巫</b></color>明明就在基弗伯格，丫头！,13918,过场对白CUT,,VSQ,[标签] 补全女巫紫,已译,"The <color=#934494><b>witch</b></color> is clearly right here in Kieferberg, lass!"
 CUT_7_3_VSQ_01_209,基弗伯格没人会做出这种事，老约亨！,13919,过场对白CUT,,VSQ,,已译,"Nobody in Kieferberg could ever do such a thing, Old Jochen!"
 CUT_7_3_VSQ_01_210,咱们是一家人！整个基弗伯格，一个都不例外！,13920,过场对白CUT,,VSQ,,已译,"We're a family! All of Kieferberg, no exceptions!"
-CUT_7_3_VSQ_01_211,虽然咱们都理解你的心情，芙蕾雅……,13921,过场对白CUT,,VSQ,,已译,"Although we all understand your feelings, Freya..."
+CUT_7_3_VSQ_01_211,虽然我们都理解你的心情，芙蕾雅……,13921,过场对白CUT,,VSQ,[称谓] 神父对芙蕾雅说「都理解你」，we all 把芙蕾雅排除在外,已译,"Although we all understand your feelings, Freya..."
 CUT_7_3_VSQ_01_212,您显然不理解，神父——谁都不理解！,13922,过场对白CUT,,VSQ,,已译,"You clearly don't, Father — nobody does!"
 CUT_7_3_VSQ_01_213,阿普菲尔坚信自己看见了<color=#934494><b>女巫</b></color>，大家一整天都提心吊胆！,13923,过场对白CUT,,VSQ,[标签] 补全女巫紫色强调标签,已译,Apfel believes he's seen the <color=#934494><b>witch</b></color> — folks have been on edge all day!
 CUT_7_3_VSQ_01_214,这一切，都是咱们面对这场危机的样子招来的！,13924,过场对白CUT,,VSQ,,已译,All of this is a consequence of how we've been facing this crisis!
@@ -14140,7 +14140,7 @@ CUT_8_3_VIN_01_007,拿它就能跟我们一起玩呀，小笨蛋！,14138,过场
 CUT_8_3_VIN_01_008,雅各布想跟你玩「亲吻老鼠」呢，伊莉丝。,14139,过场对白CUT,8月3日,VIN,[专名] Kiss the Rat作亲吻老鼠,已译,"Jakob wants to play ""Kiss the Rat"" with you, Elise."
 CUT_8_3_VIN_01_009,阿普菲尔！,14140,过场对白CUT,8月3日,VIN,,已译,Apfel!
 CUT_8_3_VIN_01_010,你们这帮小鬼，还有那脏东西！,14141,过场对白CUT,8月3日,VIN,,已译,You brats and that filthy thing!
-CUT_8_3_VIN_01_011,妈妈会跟你换票的，伊莉丝！,14142,过场对白CUT,8月3日,VIN,,已译,"Mama will trade it for you, Elise!"
+CUT_8_3_VIN_01_011,妈妈会替你兑票的，伊莉丝！,14142,过场对白CUT,8月3日,VIN,[术语] trade it for you＝替你兑（for 是「替」，不是 with）；与同线 19508「兑」及 U 组六行同口径,已译,"Mama will trade it for you, Elise!"
 CUT_8_3_VIN_01_012,啊，古斯塔夫先生和阿丽亚娜太太也入伙了——快去找他们！,14143,过场对白CUT,8月3日,VIN,,已译,"Ah, Mr. Gustav and Mrs. Ariane are also in on it — so go talk to them!"
 CUT_8_3_VIN_01_013,大家都会照老规矩<i>付你报酬</i>的！,14144,过场对白CUT,8月3日,VIN,[校正] 纠正付报酬动作方向,已译,Everyone will <i>pay you for it</i> as usual!
 CUT_8_3_VIN_01_014,啊！芙蕾雅还编了花冠呢！,14145,过场对白CUT,8月3日,VIN,,已译,"Ah! Freya's made some flower crowns, too!"
@@ -14460,7 +14460,7 @@ CUT_8_END_L_F_02_004,说起来，伊莉丝……,14458,过场对白CUT,8,END_L_F
 CUT_8_END_L_F_02_005,嗯？,14459,过场对白CUT,8,END_L_F,,已译,Hmm?
 CUT_8_END_L_F_02_006,这一路你一直在支持我……,14460,过场对白CUT,8,END_L_F,,已译,You've been so supportive all this time...
 CUT_8_END_L_F_02_007,我也想为你做点什么，伊莉丝。,14461,过场对白CUT,8,END_L_F,,已译,"I want to do something for you too, Elise."
-CUT_8_END_L_F_02_008,没什么好做的，芙蕾雅。,14462,过场对白CUT,8,END_L_F,,已译,"There's nothing for you to do, Freya."
+CUT_8_END_L_F_02_008,没什么需要你做的，芙蕾雅。,14462,过场对白CUT,8,END_L_F,[补译] for you 是「要你做的」——上一句芙蕾雅刚说「我也想为你做点什么」，省成「没什么好做的」会把回应落空,已译,"There's nothing for you to do, Freya."
 CUT_8_END_L_F_02_009,那你的梦想呢，伊莉丝？,14463,过场对白CUT,8,END_L_F,,已译,"What about your dream, Elise?"
 CUT_8_END_L_F_02_010,咱们做的一切都是为了我，我心里……,14464,过场对白CUT,8,END_L_F,,已译,"Everything we've done has been for me, and I feel..."
 CUT_8_END_L_F_02_011,这<i>就是</i>我的梦想，芙蕾雅。,14465,过场对白CUT,8,END_L_F,,已译,"This <i>is</i> my dream, Freya."
@@ -15200,7 +15200,7 @@ CUT_D_WSN-X_01_017,沉入我这深渊之中吧，我便会给你你想要的一�
 CUT_D_WSN-X_01_018,那个肮脏的贱货……！,15199,过场对白CUT,—,D_WSN-X,,已译,That filthy wretch...!
 CUT_D_WSN-X_01_019,（别让它得逞，伊莉丝……）,15200,过场对白CUT,—,D_WSN-X,,已译,"(Ought not to let it taunt you, Elise...)"
 CUT_D_WSN-X_01_020,（你都走了这么远了，现在可不是退缩的时候……）,15201,过场对白CUT,—,D_WSN-X,,已译,"(You've come a long way, now is not the time to falter...)"
-CUT_D_WSN-X_01_021,我会找到祂的……你们等着瞧……！,15202,过场对白CUT,—,D_WSN-X,,已译,I'll find Him... You'll see...!
+CUT_D_WSN-X_01_021,我会找到祂的……你等着瞧……！,15202,过场对白CUT,—,D_WSN-X,[单复数] 全场是伊莉丝与阿兹尔一对一（15197 只标了阿兹尔一个 sprite）；You'll see 冲她说的，作「你等着瞧」,已译,I'll find Him... You'll see...!
 CUT_D_WSN-X_02_001,这锁头真是古怪……,15203,过场对白CUT,—,D_WSN-X,,已译,This is such an odd lock...
 CUT_D_WSN-X_02_002,我该怎么打开它呢……？,15204,过场对白CUT,—,D_WSN-X,,已译,"How am I to get it open, I wonder...?"
 CUT_D_WSN-X_02_003,这肯定是要配某种钥匙用的，可是……,15205,过场对白CUT,—,D_WSN-X,,已译,"It must be meant for some sort of key, but..."
@@ -15330,7 +15330,7 @@ CUT_WCW_A_HOUSE_INTERIOR_01_009,那个女人……她祈愿拥有一个属于自
 CUT_WCW_A_HOUSE_INTERIOR_01_010,她跪在<b>祂</b>的门前……祈祷着——不是向我，而是向<b>祂</b>。,15329,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,[标签] 补全<b>祂</b>,已译,"At <b>His</b> doorstep she kneeled, and she prayed — not to me, but to <b>Him</b>."
 CUT_WCW_A_HOUSE_INTERIOR_01_011,我的小树林成了容器，我的泥土成了那婴孩凡俗的肉身……,15330,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,,已译,"My grove became the vessel, my soil the babe's mortal body..."
 CUT_WCW_A_HOUSE_INTERIOR_01_012,就在我的子宫之内……他们庆贺着彼此的约定……,15331,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,,已译,In my very womb... They celebrated their agreement...
-CUT_WCW_A_HOUSE_INTERIOR_01_013,从<b>祂</b>那里得来了我所缺失、我不曾能触及之物……,15332,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,,已译,"From <b>Him</b> came what I lack, what I've failed to lay my hands upon..."
+CUT_WCW_A_HOUSE_INTERIOR_01_013,从<b>祂</b>那里得来了我所缺失、我未能触及之物……,15332,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,[去腔] 「不曾能」不成词，作「未能」,已译,"From <b>Him</b> came what I lack, what I've failed to lay my hands upon..."
 CUT_WCW_A_HOUSE_INTERIOR_01_014,一个人类的灵魂……要在我的子宫中孕育……,15333,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,,已译,A human soul... to be nurtured in my womb...
 CUT_WCW_A_HOUSE_INTERIOR_01_015,而后交给她……作为她的女儿……,15334,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,,已译,And later given to her... as her daughter...
 CUT_WCW_A_HOUSE_INTERIOR_01_016,可事实上……你的身体是属于我的，伊莉丝……,15335,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,,已译,"When in truth... It's me your body belongs to, Elise..."
@@ -15347,7 +15347,7 @@ CUT_WCW_A_HOUSE_INTERIOR_03_001,那丫头……仿佛她认得我似的……,15
 CUT_WCW_A_HOUSE_INTERIOR_03_002,我不知道这里究竟出了什么事，可是……,15346,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,,已译,"I don't know what's going on here, but..."
 CUT_WCW_A_HOUSE_INTERIOR_03_003,我不能再待在这儿了！,15347,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,[标点] 还原感叹号,已译,I can't stay here any longer!
 CUT_WCW_A_HOUSE_INTERIOR_03_004,我该去找到阿普菲尔，把他救出来！,15348,过场对白CUT,—,WCW_A_HOUSE_INTERIOR,,已译,I ought to find and save Apfel!
-CUT_WCW_B_INTRO_01_001,这不是我昨天待的地方……对吧？,15349,过场对白CUT,—,WCW_B_INTRO,,已译,This isn't where I was yesterday... Is it?
+CUT_WCW_B_INTRO_01_001,这不是我昨天待的地方……,15349,过场对白CUT,—,WCW_B_INTRO,[独白] 15347／15348 刚独自离开小屋、15350／15351 呼喊阿普菲尔无人应答，本行没有受话人；附加问 Is it? 转陈述，问号一并去掉,已译,This isn't where I was yesterday... Is it?
 CUT_WCW_B_INTRO_01_002,阿普菲尔……！,15350,过场对白CUT,—,WCW_B_INTRO,[标点] 补回省略号对齐同键,已译,Apfel...!
 CUT_WCW_B_INTRO_01_003,阿普菲尔！你能听见我吗？,15351,过场对白CUT,—,WCW_B_INTRO,[标点] 补全问句缺失问号,已译,Apfel! Can you hear me?
 CUT_WCW_B_INTRO_01_004,我得找到他……,15352,过场对白CUT,—,WCW_B_INTRO,,已译,I have to find him...
@@ -15574,7 +15574,7 @@ CUT_WSV-D_02_064,她的梦想才是货真价实的！,15572,过场对白CUT,—,
 CUT_WSV-D_02_065,芙蕾雅梦想着出人头地，我却只顾着斤斤计较！,15573,过场对白CUT,—,WSV-D,,已译,"Freya dreams of becoming someone, while I'm so caught up with being petty!"
 CUT_WSV-D_02_066,她比我好！,15574,过场对白CUT,—,WSV-D,,已译,She's better than me!
 CUT_WSV-D_02_067,我永远成不了她——所以我才需要<b>祂</b>来实现这个愿望！,15575,过场对白CUT,—,WSV-D,,已译,I can never be like her — that's why I need <b>Him</b> to grant me this wish!
-CUT_WSV-D_02_068,噢，何其可怜，当真！,15576,过场对白CUT,—,WSV-D,,已译,"Oh, how pitiful, truly!"
+CUT_WSV-D_02_068,噢，真是何其可怜！,15576,过场对白CUT,—,WSV-D,"[去腔] 「，当真！」是照英文 how pitiful, truly 的词序收尾，中文作「真是何其可怜」",已译,"Oh, how pitiful, truly!"
 CUT_WSV-D_02_069,你不配耗费我的光阴，更遑论<b>祂</b>的！,15577,过场对白CUT,—,WSV-D,,已译,"You're not worth my time, let alone <b>His</b>!"
 CUT_WSV-D_02_070,她总是那么尽心，把每个人的需要都放在心上！,15578,过场对白CUT,—,WSV-D,,已译,"She's always so dedicated, so mindful of everyone's needs!"
 CUT_WSV-D_02_071,我大概永远成不了她那样，可她总能引出我最好的一面！,15579,过场对白CUT,—,WSV-D,,已译,"I don't think I can ever be like her, but she's been bringing out the best in me!"
@@ -15977,7 +15977,7 @@ LVE_2_4_HBY_R_024,我一直知道，我的命运系于你身，伊莉丝。,1594
 LVE_2_4_HBY_R_24,我一直都知道，我的命运是与你相连的。,15945,恋爱事件LVE,2月4日,HBY_R,,已译,I've always known my fate was with you.
 LVE_2_4_HBY_R_25,我注定要找到你，引你走向属于你自己的命运，伊莉丝。,15946,恋爱事件LVE,2月4日,HBY_R,,已译,"That I was to find you and guide you toward your own, Elise."
 LVE_2_4_HBY_R_025,啊……？,15947,恋爱事件LVE,2月4日,HBY_R,[标点] 补回Huh...?省略号,已译,Huh...?
-LVE_2_4_HBY_R_026,其实……现在谈这个还太早了。,15948,恋爱事件LVE,2月4日,HBY_R,,已译,"It's too soon to be having this conversation, if I'm honest."
+LVE_2_4_HBY_R_026,其实，现在谈这个还太早了。,15948,恋爱事件LVE,2月4日,HBY_R,[标点] 原文无省略号，if I'm honest 化入句首作「其实，」,已译,"It's too soon to be having this conversation, if I'm honest."
 LVE_2_4_HBY_R_26,那是……,15949,恋爱事件LVE,2月4日,HBY_R,,已译,That's...
 LVE_2_4_HBY_R_027,我本想等你准备好再说，可……,15950,恋爱事件LVE,2月4日,HBY_R,,已译,"I meant to wait until you were ready, but..."
 LVE_2_4_HBY_R_27,照理说，现在跟你谈这个还太早了。,15951,恋爱事件LVE,2月4日,HBY_R,,已译,"It's too soon to be having this conversation with you, in all honesty."
@@ -16042,7 +16042,7 @@ LVE_3_4_HAT_R_007,（她这也想得太远了点……）,16009,恋爱事件LVE,
 LVE_3_4_HAT_R_008,说来，睡在屋子里这事，我还挺不习惯的……,16010,恋爱事件LVE,3月4日,HAT_R,[标点] 还原省略号,已译,Sleeping under a roof took some getting used to...
 LVE_3_4_HAT_R_009,我从小就是睡在星空下的嘛。,16011,恋爱事件LVE,3月4日,HAT_R,[去腔] you see/know转句末语气,已译,"I've been sleeping under the stars since I was little, you see?"
 LVE_3_4_HAT_R_010,你说过你是个旅人……,16012,恋爱事件LVE,3月4日,HAT_R,,已译,You did say you're a traveler...
-LVE_3_4_HAT_R_011,以前奶奶身体还硬朗的时候，我常跟她一起四处漂泊！,16013,恋爱事件LVE,3月4日,HAT_R,[标点] 还原感叹号,已译,"Ah, yes — I used to travel about with my granny while she was still in good health!"
+LVE_3_4_HAT_R_011,啊，是的——以前奶奶身体还硬朗的时候，我常跟她一起四处漂泊！,16013,恋爱事件LVE,3月4日,HAT_R,"[补译] Ah, yes — 是对 16012「你说过你是个旅人」的应答，补回「啊，是的——」",已译,"Ah, yes — I used to travel about with my granny while she was still in good health!"
 LVE_3_4_HAT_R_012,她现在在哪儿，萝丝玛琳？,16014,恋爱事件LVE,3月4日,HAT_R,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,"Where is she now, Rosmarine?"
 LVE_3_4_HAT_R_013,来吧——快坐下！,16015,恋爱事件LVE,3月4日,HAT_R,,已译,"Come, now — sit! "
 LVE_3_4_HAT_R_014,把手伸给我看看，伊莉丝！,16016,恋爱事件LVE,3月4日,HAT_R,,已译,"Show me your hand, Elise!"
@@ -16343,7 +16343,7 @@ LVE_4_2_OCR_R_033,你的经历、你的梦想，还有你所珍视的一切…�
 LVE_4_2_OCR_R_034,所有这些，都跟这颗松果上的鳞片一模一样……,16311,恋爱事件LVE,4月2日,OCR_R,,已译,All those things are just the same as the scales on this pinecone...
 LVE_4_2_OCR_R_035,萝丝玛琳……,16312,恋爱事件LVE,4月2日,OCR_R,[专名] Rosmarine作萝丝玛琳并还原语气,已译,Rosmarine...
 LVE_4_2_OCR_R_036,有时候，其中一片鳞片会脱落，或是受损……,16313,恋爱事件LVE,4月2日,OCR_R,,已译,"There are times when one falls off, or gets damaged..."
-LVE_4_2_OCR_R_037,然后你就觉得自己不再完整了……,16314,恋爱事件LVE,4月2日,OCR_R,,已译,"And you don't feel as whole anymore, but..."
+LVE_4_2_OCR_R_037,然后你就觉得自己不再完整了，可是……,16314,恋爱事件LVE,4月2日,OCR_R,[补译] 句末 but... 是与下句「你会学着没有它也能过下去」的转折，补「可是……」,已译,"And you don't feel as whole anymore, but..."
 LVE_4_2_OCR_R_038,你会学着没有它也能过下去，然后发现少了一片鳞片，并不代表……,16315,恋爱事件LVE,4月2日,OCR_R,,已译,"You learn to be without it, and find that losing one doesn't mean..."
 LVE_4_2_OCR_R_039,你会失去其他所有的鳞片……,16316,恋爱事件LVE,4月2日,OCR_R,,已译,That you'll lose all the others...
 LVE_4_2_OCR_R_040,啊，伊莉丝……！,16317,恋爱事件LVE,4月2日,OCR_R,[语气] Oh依语境改译,已译,"Oh, Elise...!"
@@ -16358,7 +16358,7 @@ LVE_4_2_OCR_R_048,我明白！我明白！,16325,恋爱事件LVE,4月2日,OCR_R,
 LVE_4_2_OCR_R_049,啊，终于能把这事告诉你，我真是太高兴了！,16326,恋爱事件LVE,4月2日,OCR_R,[语气] Oh依语境改译,已译,"Oh, I'm so glad I could finally tell you about it!"
 LVE_4_2_OCR_R_050,弗洛克也是这些鳞片中的一片呢！你知道吗，它其实是……,16327,恋爱事件LVE,4月2日,OCR_R,[称谓] Flocke 代词 本行作「它」；[统一] 同上，本段作「鳞片」,已译,"Flocke is one of these scales, too! Did you know that he's..."
 LVE_4_2_OCR_R_051,喘口气，萝丝玛琳！,16328,恋爱事件LVE,4月2日,OCR_R,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,"Breathe, Rosmarine!"
-LVE_4_2_OCR_R_052,是、是你让我变得完整，伊莉丝！,16329,恋爱事件LVE,4月2日,OCR_R,[标点] 还原感叹号，保留结巴,已译,"Y-You make me whole, Elise!"
+LVE_4_2_OCR_R_052,你、你让我变得完整，伊莉丝！,16329,恋爱事件LVE,4月2日,OCR_R,[结巴] Y-You 的卡顿落在 You 上，作「你、你」；原译「是、是」把结巴挪到了原文没有的系词上,已译,"Y-You make me whole, Elise!"
 LVE_4_2_OCR_R_053,那就是……我一直想跟你说的话……,16330,恋爱事件LVE,4月2日,OCR_R,,已译,That's... what I'm trying to tell you...
 LVE_4_2_OCR_R_054,……！,16331,恋爱事件LVE,4月2日,OCR_R,,已译,...!
 LVE_4_2_OCR_R_055,哎呀，别慌嘛——你一慌，我也要跟着慌了！,16332,恋爱事件LVE,4月2日,OCR_R,[语气] Oh依语境改译,已译,"Oh, don't get flustered — I'll get flustered, too!"
@@ -16427,7 +16427,7 @@ LVE_4_3_VBA_F_030,记得分给萝森玛琳一些，好吗？,16394,恋爱事件L
 LVE_4_3_VBA_F_031,你专门给我烤了一整个派，芙蕾雅！,16395,恋爱事件LVE,4月3日,VBA_F,,已译,"You baked me an entire pie, Freya!"
 LVE_4_3_VBA_F_032,我本来就是给全基弗伯格做的——怎么能把你忘了呢？,16396,恋爱事件LVE,4月3日,VBA_F,[修正] 补回呼语/删增译人名,已译,"I'm doing it for all of Kieferberg — I couldn't forget about you, could I?"
 LVE_4_3_VBA_F_033,……,16397,恋爱事件LVE,4月3日,VBA_F,,已译,...
-LVE_4_3_VBA_F_034,我记得你说过我老拿礼物把你宠坏，可是……,16398,恋爱事件LVE,4月3日,VBA_F,,已译,"I remember what you said about me showering you with gifts, but..."
+LVE_4_3_VBA_F_034,我记得你说过我天天送你礼物，可是……,16398,恋爱事件LVE,4月3日,VBA_F,[校正] Elise 原话只说过天天送礼、太热情、刻意讨好，没有「把我宠坏」；「宠坏」出自下句 16399 的 spoiling you，不能提前塞进对原话的转述,已译,"I remember what you said about me showering you with gifts, but..."
 LVE_4_3_VBA_F_035,只要一有机会，我就忍不住要宠着你！,16399,恋爱事件LVE,4月3日,VBA_F,,已译,I can't keep myself from spoiling you every chance I get!
 LVE_4_3_VBA_F_036,你真是……,16400,恋爱事件LVE,4月3日,VBA_F,[去腔] 配合跨行抢白续句,已译,You're truly...
 LVE_4_3_VBA_F_037,……一门心思想要让你明白我的心意呀，伊莉丝！,16401,恋爱事件LVE,4月3日,VBA_F,[校正] 顺接前句分词结构,已译,"Trying to show you how I feel, Elise!"
@@ -16866,7 +16866,7 @@ LVE_6_2_BLR_L_031,你才不是什么伪君子呢，斯佩尔特！,16833,恋爱�
 LVE_6_2_BLR_L_032,你善良，尽心尽力——你是这些人的依靠！,16834,恋爱事件LVE,6月2日,BLR_L,[标点] 还原感叹号与破折号,已译,"You're kind, you're dedicated — you're a rock for these folks!"
 LVE_6_2_BLR_L_033,是不是这样且不说，伊莉丝……我只觉得自己被困住了……,16835,恋爱事件LVE,6月2日,BLR_L,[校正] 补足「是不是」的宾语「这样」，消除欧化残缺,已译,"Whether that's true or not, Elise... I feel trapped..."
 LVE_6_2_BLR_L_034,跟你是一样的，只不过换了别的责任，还有……,16836,恋爱事件LVE,6月2日,BLR_L,,已译,"The same way you do, only with other obligations and..."
-LVE_6_2_BLR_L_035,然后呢？,16837,恋爱事件LVE,6月2日,BLR_L,[去腔] And?催问改作「还有呢？」,已译,And?
+LVE_6_2_BLR_L_035,还有呢？,16837,恋爱事件LVE,6月2日,BLR_L,[去腔] And? 是承接 16836「还有……」、下接 16838「还有别的方面」的列举催问，作「还有呢？」；同英文 17804 是叙事推进，仍作「然后呢？」,已译,And?
 LVE_6_2_BLR_L_036,还有别的方面——我被夹在职责和我的……,16838,恋爱事件LVE,6月2日,BLR_L,[标点] 移除多余引号,已译,"In other ways, as well — I'm torn between my duty and my..."
 LVE_6_2_BLR_L_037,心意……,16839,恋爱事件LVE,6月2日,BLR_L,[标点] 移除多余引号,已译,Feelings...
 LVE_6_2_BLR_L_038,你什么意思？什么样的心意？,16840,恋爱事件LVE,6月2日,BLR_L,[标点] 移除多余引号,已译,What do you mean? What kind of feelings?
@@ -17122,7 +17122,7 @@ LVE_7_3_OCK_R_008,原来你就是这样拼那条手链的啊……,17089,恋爱�
 LVE_7_3_OCK_R_009,啊，对了！没错！,17090,恋爱事件LVE,,OCK_R,,已译,"Ah, yes! That's right!"
 LVE_7_3_OCK_R_010,天知道你为什么这么迷恋这些没用的破玩意儿……,17091,恋爱事件LVE,,OCK_R,,已译,Lord knows why you're so drawn to useless junk...
 LVE_7_3_OCK_R_011,一旦你赋予它意义，它就不再是破玩意儿了，伊莉丝！,17092,恋爱事件LVE,,OCK_R,,已译,"It stops being junk the moment you give it meaning, Elise!"
-LVE_7_3_OCK_R_012,那条手链对我们俩都意义重大，你说是吧……,17093,恋爱事件LVE,,OCK_R,,已译,"That bracelet means plenty to both of us, wouldn't you say?"
+LVE_7_3_OCK_R_012,那条手链对我们俩都意义重大，你说是吧？,17093,恋爱事件LVE,,OCK_R,[标点] 原文以 ? 收尾，中文还原问号；附加问「你说是吧」后面不留省略号,已译,"That bracelet means plenty to both of us, wouldn't you say?"
 LVE_7_3_OCK_R_013,哎呀，闭嘴吧……,17094,恋爱事件LVE,,OCK_R,[语气] Oh依语境改译,已译,"Oh, shush it..."
 LVE_7_3_OCK_R_014,我说，萝丝玛琳——我怎么就是没法从这一切里找到什么意义呢？,17095,恋爱事件LVE,,OCK_R,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,"Say, Rosmarine — how come I can't seem to find meaning in any of this?"
 LVE_7_3_OCK_R_015,你这话什么意思，伊莉丝？,17096,恋爱事件LVE,,OCK_R,,已译,"What do you mean, Elise?"
@@ -17588,7 +17588,7 @@ CSM_01_010,唉，安妮卡！我们怎么能这样？,17555,诅咒回忆CSM,,—
 CSM_01_011,我们怎么能这样？我们怎么能这样？,17556,诅咒回忆CSM,,—,,已译,How could we? How could we?
 CSM_01_012,早就注定我要蒙受这般羞辱，这般悔恨，这般耻辱！,17557,诅咒回忆CSM,,—,,已译,"It was meant to be that I'm so humiliated, so remorseful, so disgraced!"
 CSM_01_013,安妮卡！安妮卡，你答应过我们会上天堂的……！,17558,诅咒回忆CSM,,—,,已译,"Annika! Annika, you promised we'd go to Heaven...!"
-CSM_01_014,我们说好了的……！,17559,诅咒回忆CSM,,—,,已译,We were promised...!
+CSM_01_014,答应过我们的……！,17559,诅咒回忆CSM,,—,[语态] We were promised 是被动，上一句 17558 刚说「你答应过我们会上天堂」；作「答应过我们的」，不改「我们说好了的」（那是双方约定）,已译,We were promised...!
 CSM_01_015,你怎么能这样……！,17560,诅咒回忆CSM,,—,,已译,How could you...!
 CSM_01_016,你竟害我……堕入这狱火……！,17561,诅咒回忆CSM,,—,[专名] 地狱业火简作「狱火」区分炼狱,已译,Damn me... to this hell-fire...!
 CSM_01_017,安妮……,17562,诅咒回忆CSM,,—,,已译,Anni...
@@ -17695,7 +17695,7 @@ CSM_GG_03_004,我们都曾喂养<b>祂</b>的贪欲——一个接一个！,1766
 CSM_GG_03_005,我们的罪孽被掘出，成了众人围观的把戏！,17663,诅咒回忆CSM,—,GG,,已译,"Our sins unearthed, made into a spectacle for all to see!"
 CSM_GG_03_006,<b>祂</b>是谁？,17664,诅咒回忆CSM,—,GG,[标签] 补全<b>祂</b>,已译,Who is <b>He</b>?
 CSM_GG_03_007,你注定要成为我们中的一员，你这愚蠢的丫头！,17665,诅咒回忆CSM,—,GG,[去腔] 消除欧化主语结构,已译,"Your fate as one of us is sealed, you foolish girl!"
-CSM_GG_03_008,（主啊，她刚才到底在唠叨些什么？）,17666,诅咒回忆CSM,—,GG,[标点] 删多余省略号/感叹号,已译,(What in the Lord's name is she wittering on about?)
+CSM_GG_03_008,（主啊，她到底在唠叨些什么？）,17666,诅咒回忆CSM,—,GG,[时态] 原文是现在进行时 is she wittering，删「刚才」,已译,(What in the Lord's name is she wittering on about?)
 CSM_GG_04_001,看来你打算接受<b>祂</b>的邀请了……,17667,诅咒回忆CSM,—,GG,[标签] 补全<b>祂</b>,已译,"You're going forth with <b>His</b> invitation, I see..."
 CSM_GG_04_002,那跟你又有什么关系？,17668,诅咒回忆CSM,—,GG,,已译,What would that matter to you?
 CSM_GG_04_003,我也曾穿着这双鞋，走过你这条路——连那份心高气傲都一模一样！,17669,诅咒回忆CSM,—,GG,[双关] in your shoes保留红鞋双关,已译,I was once in your shoes – haughtiness and all!
@@ -17723,7 +17723,7 @@ CSM_GG_06_008,（这小姑娘真能把人气死！）,17690,诅咒回忆CSM,—,
 CSM_GG_07_001,你见过它们了！你见过它们了！,17691,诅咒回忆CSM,—,GG,[校正] 下句 17693 明写 those wretched blackbirds，代词用「它们」；遗留层 XUAT_04832 已作「它们」,已译,You've met them! You've met them!
 CSM_GG_07_002,你这是在嘲笑我，你……！,17692,诅咒回忆CSM,—,GG,,已译,"You're mocking me, you...!"
 CSM_GG_07_003,它们也是啊——那群该死的黑鸟。,17693,诅咒回忆CSM,—,GG,[校正] 同上，与 XUAT_04832「它们也是啊，丫头——那群该死的黑鸟」对齐,已译,So are they — those wretched blackbirds.
-CSM_GG_07_004,他们全都……都是<b>祂</b>那些可鄙的仆从……,17694,诅咒回忆CSM,—,GG,[标签] 补全<b>祂</b>,已译,All of them... <b>His</b> despicable vassals...
+CSM_GG_07_004,它们全都……都是<b>祂</b>那些可鄙的仆从……,17694,诅咒回忆CSM,—,GG,[指代] 17691／17693 明写指那群黑鸟（「你见过它们了」「它们也是啊」），本行 All of them 同指，作「它们」,已译,All of them... <b>His</b> despicable vassals...
 CSM_GG_07_005,你在说什么呢？,17695,诅咒回忆CSM,—,GG,[标点] 删多余省略号/感叹号,已译,What are you talking about?
 CSM_GG_07_006,"<sprite=""murim"" name=""black"">……<b>祂</b>忠实的乌鸦……",17696,诅咒回忆CSM,—,GG,[标签] 补全<b>祂</b>,已译,"<sprite=""murim"" name=""black"">... <b>His</b> faithful crow..."
 CSM_GG_07_007,别去相信他——不管他看起来多么友善。,17697,诅咒回忆CSM,—,GG,,已译,Don't trust him — regardless of how friendly he appears.
@@ -18856,7 +18856,7 @@ CHR_023_036,这些小苹果，就换这个给你吧，伊莉丝。,18823,村镇�
 CHR_023_037,谢谢您，埃尔玛太太……,18824,村镇日常CHR,023-037,—,[标点] 还原省略号,已译,"Thank you, Mrs. Elma..."
 CHR_024_001,哎，伊莉丝，能搭把手吗？,18825,村镇日常CHR,024-001,—,[语气] Oh依语境改译,已译,"Oh, won't you lend me a hand, Elise?"
 CHR_024_002,您要帮什么忙，玛丽勒太太？,18826,村镇日常CHR,024-002,—,,已译,"What do you need, Mrs. Mariele?"
-CHR_024_003,帮我弄些烧炉子的柴，要是不太麻烦的话？,18827,村镇日常CHR,024-003,—,,已译,"Some wood for the hearth, if it's not too much trouble?"
+CHR_024_003,要是不太麻烦，能帮我弄些烧炉子的柴吗？,18827,村镇日常CHR,024-003,—,[去腔] if it's not too much trouble 是后置条件，中文前置更顺；句末问号挂在「吗」上，不挂「的话」,已译,"Some wood for the hearth, if it's not too much trouble?"
 CHR_024_004,想当年我还能自己来呢……,18828,村镇日常CHR,024-004,—,,已译,To think I used to be able to do it myself...
 CHR_024_005,好的，玛丽勒太太。,18829,村镇日常CHR,024-005,—,,已译,"Of course, Mrs. Mariele."
 CHR_024_006,我这就去办！,18830,村镇日常CHR,024-006,—,,已译,I'll get right to it!
@@ -18908,7 +18908,7 @@ CHR_025_017,我现在实在没空。,18875,村镇日常CHR,025-017,—,,已译,I
 CHR_025_018,天哪，我该怎么办才好？！,18876,村镇日常CHR,025-018,—,[语气] Oh依语境改译,已译,"Oh, what am I to do?!"
 CHR_025_019,啊，有你真是天大的福气，伊莉丝！,18877,村镇日常CHR,025-019,—,,已译,"Ah, I'm so blessed to have you, Elise!"
 CHR_025_020,就算果园烧了，我的苹果也够吃啦！,18878,村镇日常CHR,025-020,—,,已译,I'll have plenty of apples even if that orchard catches fire!
-CHR_025_021,主啊，果园好端端的究竟怎么会烧起来，玛尔伦太太？,18879,村镇日常CHR,025-021,—,[去腔] Lord's name习语转加强语气,已译,"Why in the Lord's name would the orchard catch on fire, Mrs. Marlen?"
+CHR_025_021,果园好端端的究竟怎么会烧起来，玛尔伦太太？,18879,村镇日常CHR,025-021,—,[去腔] in the Lord's name 只作加强语气，不另译「主啊」；本行落在「究竟」上，与「主啊」并置会重复,已译,"Why in the Lord's name would the orchard catch on fire, Mrs. Marlen?"
 CHR_025_022,这种事还是别刨根问底的好，伊莉丝！,18880,村镇日常CHR,025-022,—,,已译,"It's best we don't question such things, Elise!"
 CHR_025_023,拿着吧，好孩子——算你辛苦一场。,18881,村镇日常CHR,025-023,—,[称谓] 规范好孩子/乖丫头/老姐姐,已译,"Here you go, dear — for your time."
 CHR_025_024,哎呀，你可算来了，太好了，伊莉丝！,18882,村镇日常CHR,025-024,—,[语气] Oh依语境改译,已译,"Oh, I'm so glad you made it, Elise!"
@@ -18950,7 +18950,7 @@ CHR_026_024,这是给你的酬劳。,18917,村镇日常CHR,026-024,—,,已译,F
 CHR_026_025,谢谢您，埃尔玛太太。,18918,村镇日常CHR,026-025,—,,已译,"Thank you, Mrs. Elma."
 CHR_026_026,也罢，你大概也只能做到这样了。,18919,村镇日常CHR,026-026,—,,已译,I suppose you couldn't have done much better.
 CHR_026_027,给你，伊莉丝——谢你抽空。,18920,村镇日常CHR,026-027,—,,已译,"Here you go, Elise — for your time."
-CHR_026_028,行吧……,18921,村镇日常CHR,026-028,—,[语气] 解除「I suppose...」定句覆写：此处伊莉丝不服气，下一句 18922 立即被呵斥「犯不着冲我生气」，定句抹平后话轮无支点,已译,I suppose...
+CHR_026_028,行吧……,18921,村镇日常CHR,026-028,—,[语气] I suppose… 多数行作「嗯……」，本行为单行破例「行吧……」：下一句 18922 立即被呵斥「犯不着冲我生气」，此处是不服气的应声，定句会抹平话轮支点；已进构建词典，不再改回,已译,I suppose...
 CHR_026_029,哎呀，犯不着冲我生气呀，丫头！,18922,村镇日常CHR,026-029,—,,已译,"My, there's no need to get angry with me, lass!"
 CHR_026_030,你这是越帮越忙啊，伊莉丝！,18923,村镇日常CHR,026-030,—,,已译,"Way to make things worse, Elise!"
 CHR_026_031,我想我还是该给你点报酬——虽说你不配。,18924,村镇日常CHR,026-031,—,,已译,I suppose I still ought to compensate you — not that you deserve it.
@@ -18998,7 +18998,7 @@ CHR_028_006,你们还真是缠人没个够，是吧？,18965,村镇日常CHR,028
 CHR_028_007,明明是你自己装作讨厌这游戏，伊莉丝！,18966,村镇日常CHR,028-007,—,,已译,"You're the one pretending to hate this game, Elise!"
 CHR_028_008,好啦好啦……速战速决！,18967,村镇日常CHR,028-008,—,,已译,"All right, all right... Let's get this over with!"
 CHR_028_009,我忙着呢，小鬼头们！,18968,村镇日常CHR,028-009,—,,已译,"I'm busy, you brats!"
-CHR_028_010,我的时间还得留着办正事呢！,18969,村镇日常CHR,028-010,—,[去腔] 受 with my time 干扰，把「我的时间」当「有正经事要做」的主语；改「时间还得留着办正事」，主谓归位,已译,I have better things to be doing with my time!
+CHR_028_010,我还有正经事要办呢！,18969,村镇日常CHR,028-010,—,[去腔] have better things to be doing with my time 原译「我的时间还得留着办正事」把时间当主语；本行作「我还有正经事要办呢」,已译,I have better things to be doing with my time!
 CHR_028_011,你真扫兴，伊莉丝！,18970,村镇日常CHR,028-011,—,,已译,"You're such a kill joy, Elise!"
 CHR_028_012,扫兴鬼！扫兴鬼！,18971,村镇日常CHR,028-012,—,,已译,Kill joy! Kill joy!
 CHR_028_013,你回来啦，伊莉丝！,18972,村镇日常CHR,028-013,—,,已译,"You're back, Elise!"
@@ -19026,7 +19026,7 @@ CHR_028_034,我们赢啦！我们赢啦！,18993,村镇日常CHR,028-034,—,,�
 CHR_028_035,这是你的安慰奖，伊莉丝！,18994,村镇日常CHR,028-035,—,,已译,"Here's your pity prize, Elise!"
 CHR_028_036,你们这两个家伙……！,18995,村镇日常CHR,028-036,—,[语气] 同场景两小鬼「我们赢啦！」（18993）、「我们大人有大量」（18991）起哄，指代复数,已译,"Why, you...!"
 CHR_029_001,能搭把手吗，丫头？,18996,村镇日常CHR,029-001,—,,已译,"Would you lend me a hand, lass?"
-CHR_029_002,您要帮什么忙，路德维希先生？,18997,村镇日常CHR,029-002,—,,已译,"What do you need, Mr. Ludwig?"
+CHR_029_002,您要我帮什么忙，路德维希先生？,18997,村镇日常CHR,029-002,—,[语义] 上文「能搭把手吗」，本行是问对方要自己帮什么；「您要帮什么忙」会读成问对方想帮什么,已译,"What do you need, Mr. Ludwig?"
 CHR_029_003,想请你替我摘些苹果，成不成？,18998,村镇日常CHR,029-003,—,,已译,I was hoping you could pick some apples for me?
 CHR_029_004,贝尔塔光顾着念叨<color=#934494><b>女巫</b></color>的事，哪还顾得上这个？,18999,村镇日常CHR,029-004,—,,已译,"Bertha's too busy wittering on about the <color=#934494><b>witch</b></color> to bother, you see?"
 CHR_029_005,当然可以，路德维希先生。,19000,村镇日常CHR,029-005,—,,已译,"Of course, Mr. Ludwig."
@@ -19052,7 +19052,7 @@ CHR_029_024,谢谢您，路德维希先生！,19019,村镇日常CHR,029-024,—,
 CHR_029_025,好样的，伊莉丝！,19020,村镇日常CHR,029-025,—,,已译,"Attagirl, Elise!"
 CHR_029_026,拿着吧，算你的辛苦钱。,19021,村镇日常CHR,029-026,—,,已译,"Here you go, for your time."
 CHR_029_027,谢谢您，路德维希先生！,19022,村镇日常CHR,029-027,—,,已译,"Thank you, Mr. Ludwig!"
-CHR_029_028,往后好一阵子都有苹果派吃喽！,19023,村镇日常CHR,029-028,—,句首已有「喽」，再加问尾叠床架屋；自说自话用叹号,已译,"I'll be eating apple pie for a long while, won't I?"
+CHR_029_028,往后好一阵子都有苹果派吃喽！,19023,村镇日常CHR,029-028,—,句尾已有「喽」，再加问尾叠床架屋；自说自话用叹号,已译,"I'll be eating apple pie for a long while, won't I?"
 CHR_029_029,这些准够用了。,19024,村镇日常CHR,029-029,—,,已译,"This will be enough, I'm certain."
 CHR_029_030,拿着吧，算你的辛苦钱。,19025,村镇日常CHR,029-030,—,,已译,"Here you go, for your time."
 CHR_029_031,嗯……,19026,村镇日常CHR,029-031,—,,已译,Hmm...
@@ -19112,7 +19112,7 @@ CHR_031_012,亲！,19079,村镇日常CHR,031-012,—,,已译,Kiss!
 CHR_031_013,老！,19080,村镇日常CHR,031-013,—,,已译,The!
 CHR_031_014,鼠！,19081,村镇日常CHR,031-014,—,,已译,Rat!
 CHR_031_015,好啦！好啦！,19082,村镇日常CHR,031-015,—,,已译,"All right, all right!"
-CHR_031_016,你们俩都开始吓着我了，小捣蛋！,19083,村镇日常CHR,031-016,—,,已译,"You're starting to scare me, you brats!"
+CHR_031_016,你们俩都开始吓着我了，小捣蛋们！,19083,村镇日常CHR,031-016,—,[同步] 同段 19075／19088 作「小捣蛋们」，英文 brats 是复数,已译,"You're starting to scare me, you brats!"
 CHR_031_017,亲一个嘛，伊莉丝——你其实想亲的！,19084,村镇日常CHR,031-017,—,,已译,"Kiss it, Elise — you know you want to!"
 CHR_031_018,不。,19085,村镇日常CHR,031-018,—,[语气] 定句「不。」还原冷淡死板,已译,No.
 CHR_031_019,我才不要。,19086,村镇日常CHR,031-019,—,,已译,I'll pass.
@@ -19211,15 +19211,15 @@ CHR_034_002,……,19178,村镇日常CHR,034-002,—,,已译,...
 CHR_034_003,看来你又回来干活了。,19179,村镇日常CHR,034-003,—,,已译,I see you're back at work.
 CHR_034_004,是的，贝尔塔太太。,19180,村镇日常CHR,034-004,—,,已译,"I am, Mrs. Bertha."
 CHR_034_005,我本不想让<color=#934494><b>女巫</b></color>替我捡鸡蛋，不过……,19181,村镇日常CHR,034-005,—,,已译,"I wouldn't want a <color=#934494><b>witch</b></color> picking eggs for me, but..."
-CHR_034_006,我能做。,19182,村镇日常CHR,034-006,—,,已译,I can do it.
-CHR_034_007,虽不情愿——我还是会做。,19183,村镇日常CHR,034-007,—,,已译,Even though I don't want to — I'll do it.
+CHR_034_006,我做得来。,19182,村镇日常CHR,034-006,—,[去腔] I can do it 保能力义作「我做得来」，不改「我来干」（can 改成 will）,已译,I can do it.
+CHR_034_007,就算不情愿——我还是会去干的。,19183,村镇日常CHR,034-007,—,,已译,Even though I don't want to — I'll do it.
 CHR_034_008,……,19184,村镇日常CHR,034-008,—,,已译,...
 CHR_034_009,您自己捡吧。,19185,村镇日常CHR,034-009,—,,已译,Pick them yourself.
 CHR_034_010,我不为信不过我的人干活，贝尔塔太太。,19186,村镇日常CHR,034-010,—,,已译,"I won't work for someone who doesn't trust me, Mrs. Bertha."
-CHR_034_011,祝您今天愉快。,19187,村镇日常CHR,034-011,—,[去腔] Have a good day. 原译「恕不奉陪了，告辞」两处武侠词；同问候系列作「祝你今天愉快」,已译,Have a good day.
+CHR_034_011,祝您今天愉快。,19187,村镇日常CHR,034-011,—,[去腔] Have a good day. 原译「恕不奉陪了，告辞」两处武侠词；本行对贝尔塔太太保持讽刺性客气，用「您」，同系列其余行用「祝你今天愉快」,已译,Have a good day.
 CHR_034_012,回来求我了，是吧？,19188,村镇日常CHR,034-012,—,,已译,"Came back begging, did you?"
 CHR_034_013,我干就是了。,19189,村镇日常CHR,034-013,—,,已译,I'll do it.
-CHR_034_014,虽不情愿——我还是会做。,19190,村镇日常CHR,034-014,—,,已译,Even though I don't want to — I'll do it.
+CHR_034_014,就算不情愿——我还是会去干的。,19190,村镇日常CHR,034-014,—,,已译,Even though I don't want to — I'll do it.
 CHR_034_015,……,19191,村镇日常CHR,034-015,—,,已译,...
 CHR_034_016,不，我没有。,19192,村镇日常CHR,034-016,—,[标点] 还原句号,已译,"No, I didn't."
 CHR_034_017,您何不去找芙蕾雅？,19193,村镇日常CHR,034-017,—,,已译,Why don't you ask Freya?
@@ -19269,7 +19269,7 @@ CHR_035_019,唉，我们怎么也赢不了她！,19236,村镇日常CHR,035-019,�
 CHR_035_020,这个给你，伊莉丝。,19237,村镇日常CHR,035-020,—,[标点] 还原句号,已译,"You can have this, Elise."
 CHR_035_021,话说，你们俩这些东西都是哪来的？,19238,村镇日常CHR,035-021,—,,已译,"Where do you two get all this from, anyhow?"
 CHR_035_022,啊，雅各布攒了好一阵子零花钱呢！,19239,村镇日常CHR,035-022,—,,已译,"Ah, Jakob's been saving his allowance for a while!"
-CHR_035_023,你从来不出份子，太不公平了，格吕妮。,19240,村镇日常CHR,035-023,—,,已译,"It's unfair that you never pitch in, Grüne."
+CHR_035_023,你从来不凑份钱，太不公平了，格吕妮。,19240,村镇日常CHR,035-023,—,[去腔] pitch in 在孩童零花钱语境是凑钱，作「凑份钱」；「出份子」是婚丧份子钱的词,已译,"It's unfair that you never pitch in, Grüne."
 CHR_035_024,（这下赢得我都过意不去了！）,19241,村镇日常CHR,035-024,—,,已译,(Now I feel bad for winning!)
 CHR_035_025,呃！就差一点就赢她了！,19242,村镇日常CHR,035-025,—,,已译,Ugh! We almost had her!
 CHR_035_026,给你，伊莉丝——谢谢你陪我们玩！,19243,村镇日常CHR,035-026,—,,已译,"Here you go, Elise — thanks for playing with us!"
@@ -19352,7 +19352,7 @@ CHR_037_032,怎么样？我的蒂芙勒呢？快交出来！,19319,村镇日常C
 CHR_037_033,啊，给你！,19320,村镇日常CHR,037-033,—,,已译,"Ah, here you go!"
 CHR_037_034,再来一局！接着玩！,19321,村镇日常CHR,037-034,—,,已译,Another round! Let's play some more!
 CHR_037_035,哎呀，我可没那么多闲工夫，格吕妮！,19322,村镇日常CHR,037-035,—,[语气] Oh依语境改译,已译,"Oh, I don't have all day, Grüne!"
-CHR_037_036,你随时可以再换一张票嘛！,19323,村镇日常CHR,037-036,—,,已译,You can always trade in another ticket!
+CHR_037_036,你随时可以再拿一张票来兑嘛！,19323,村镇日常CHR,037-036,—,[术语] 摊位 trade in 是交票兑玩，本线作「兑」（同线 19508 已作「好兑他们那些傻乎乎的票」）；「换一张票」会被读成再领一张,已译,You can always trade in another ticket!
 CHR_037_037,咱们也该玩点别的了！,19324,村镇日常CHR,037-037,—,,已译,"It's about time we do something else, too!"
 CHR_037_038,可今天是节庆呀！,19325,村镇日常CHR,037-038,—,[专名] festival 本行作「节庆」,已译,But it's the day of the festival!
 CHR_037_039,话说回来，你俩到底指望啥呀？,19326,村镇日常CHR,037-039,—,,已译,"What were you two expecting, anyhow?"
@@ -19453,29 +19453,29 @@ CHR_038_059,跟她娘一个样！,19420,村镇日常CHR,038-059,—,,已译,Just
 CHR_038_060,呃……是啊……,19421,村镇日常CHR,038-060,—,,已译,Uh... Right...
 CHR_038_061,还想再来一回，伊莉丝？,19422,村镇日常CHR,038-061,—,,已译,"Back for more, Elise?"
 CHR_038_062,再试一次！,19423,村镇日常CHR,038-062,—,,已译,One more try!
-CHR_038_063,票总该用完才好，不是吗？,19424,村镇日常CHR,038-063,—,,已译,"I really should use all my tickets, shouldn't I?"
+CHR_038_063,我真该把票都用完才对。,19424,村镇日常CHR,038-063,—,"[语气] 第一人称自省（should…, shouldn't I）去反问尾，作陈述",已译,"I really should use all my tickets, shouldn't I?"
 CHR_038_064,这才像话，丫头——使出全身的劲儿！,19425,村镇日常CHR,038-064,—,,已译,"Now we're talking, lass — put your weight into it!"
 CHR_038_065,回头再说吧……,19426,村镇日常CHR,038-065,—,,已译,Maybe later...
 CHR_038_066,动手之前，我还是先歇口气。,19427,村镇日常CHR,038-066,—,,已译,I'd best have a bit of a rest before I attempt anything.
 CHR_038_067,我就在这儿，伊莉丝！不用急！,19428,村镇日常CHR,038-067,—,,已译,"I'll be here, Elise! No need to hurry!"
 CHR_038_068,票都用完啦？,19429,村镇日常CHR,038-068,—,,已译,"Used all your tickets, did you?"
-CHR_038_069,抱歉啦伊莉丝，我答应过孩子们天黑前把票还回去！,19430,村镇日常CHR,038-069,—,,已译,"I'm sorry, Elise, I promised the children I'd give them back by the end of the day!"
+CHR_038_069,抱歉啦，伊莉丝，我答应过孩子们天黑前把票还回去！,19430,村镇日常CHR,038-069,—,,已译,"I'm sorry, Elise, I promised the children I'd give them back by the end of the day!"
 CHR_038_070,我明白了……,19431,村镇日常CHR,038-070,—,,已译,I see...
 CHR_038_071,去跟芙蕾雅跳支舞吧？,19432,村镇日常CHR,038-071,—,,已译,Why don't you go dance with Freya?
-CHR_039_001,瞧基弗伯格又热闹起来，真叫人宽心，是吧，伊莉丝？,19433,村镇日常CHR,039-001,—,,已译,"Isn't it a relief to see all this cheer in Kieferberg, Elise?"
+CHR_039_001,伊莉丝，瞧基弗伯格又热闹起来，真叫人宽心啊！,19433,村镇日常CHR,039-001,—,,已译,"Isn't it a relief to see all this cheer in Kieferberg, Elise?"
 CHR_039_002,跟从前不大一样了，不是吗？,19434,村镇日常CHR,039-002,—,,已译,"Doesn't quite look the same, does it?"
 CHR_039_003,可不是嘛！,19435,村镇日常CHR,039-003,—,,已译,You said it!
 CHR_039_004,说吧，你是为那些票来的吧？,19436,村镇日常CHR,039-004,—,,已译,"Now, you're here because of those tickets, aren't you?"
 CHR_039_005,是，孩子们给了我几张。,19437,村镇日常CHR,039-005,—,,已译,"The children gave me a few, yes."
 CHR_039_006,那仨孩子，鬼点子就没断过！,19438,村镇日常CHR,039-006,—,,已译,"Always busy with their silly ideas, those three!"
-CHR_039_007,怎么样？换一张不，伊莉丝？,19439,村镇日常CHR,039-007,—,,已译,"Well? Are you trading one in, Elise?"
+CHR_039_007,怎么样？要兑一张票不，伊莉丝？,19439,村镇日常CHR,039-007,—,,已译,"Well? Are you trading one in, Elise?"
 CHR_039_008,为什么不呢？,19440,村镇日常CHR,039-008,—,[v10修订] 定句：反诘改「为什么不呢？」,已译,Why not?
-CHR_039_009,他们说换了票，您这儿有好东西给我！,19441,村镇日常CHR,039-009,—,,已译,They told me you'd have something nice for me if I did!
+CHR_039_009,他们说只要把票兑了，您这儿就有好东西给我！,19441,村镇日常CHR,039-009,—,,已译,They told me you'd have something nice for me if I did!
 CHR_039_010,那就瞧瞧你喜不喜欢吧！,19442,村镇日常CHR,039-010,—,,已译,"Let's see how you like it, then!"
 CHR_039_011,回头再说吧，阿丽亚娜太太。,19443,村镇日常CHR,039-011,—,,已译,"Maybe later, Mrs. Ariane."
 CHR_039_012,这些票怎么用，我还没想好呢。,19444,村镇日常CHR,039-012,—,,已译,I'm still figuring out what to do with these.
 CHR_039_013,行，不打紧！,19445,村镇日常CHR,039-013,—,,已译,"All right, there's no harm!"
-CHR_039_014,我肯掺和，还不是瞧阿普菲尔那么开心！,19446,村镇日常CHR,039-014,—,,已译,"I'm only playing along because Apfel's looking so cheery, anyhow!"
+CHR_039_014,我肯捧场，还不是瞧阿普菲尔那么开心！,19446,村镇日常CHR,039-014,—,,已译,"I'm only playing along because Apfel's looking so cheery, anyhow!"
 CHR_039_015,他气色确实好多了。,19447,村镇日常CHR,039-015,—,,已译,"He's looking a great deal better, that's true."
 CHR_039_016,这可得谢圣瓦尔普加，伊莉丝！,19448,村镇日常CHR,039-016,—,,已译,"We must thank St. Walpurga for that, Elise!"
 CHR_039_017,啊，是啊……,19449,村镇日常CHR,039-017,—,,已译,"Ah, truly..."
@@ -19497,7 +19497,7 @@ CHR_039_032,给你，伊莉丝。,19464,村镇日常CHR,039-032,—,[标点] 还
 CHR_039_033,谢谢您，阿丽亚娜太太！,19465,村镇日常CHR,039-033,—,[标点] 还原感叹号,已译,"Thank you, Mrs. Ariane!"
 CHR_039_034,我一定跟小子们讲你多能干，伊莉丝——他们准服气！,19466,村镇日常CHR,039-034,—,,已译,"I'll definitely tell the boys how well you did, Elise — they'll be impressed!"
 CHR_039_035,啊……也许吧……,19467,村镇日常CHR,039-035,—,,已译,"Ah, I suppose..."
-CHR_039_036,哎哟，你还挺有天分的嘛？,19468,村镇日常CHR,039-036,—,,已译,"Why, you're rather talented, aren't you?"
+CHR_039_036,哎哟，你还挺有天分的嘛！,19468,村镇日常CHR,039-036,—,[语气] 当面夸奖带打趣，aren't you 不是真问，去问尾收「！」（手册 §3.4）,已译,"Why, you're rather talented, aren't you?"
 CHR_039_037,捡鸡蛋的天分吗，阿丽亚娜太太？,19469,村镇日常CHR,039-037,—,,已译,"At collecting eggs, Mrs. Ariane?"
 CHR_039_038,天分可是五花八门的，丫头！,19470,村镇日常CHR,039-038,—,,已译,"Talent comes in many forms, lass!"
 CHR_039_039,拿好，伊莉丝！干得不错！,19471,村镇日常CHR,039-039,—,,已译,"Here you go, Elise! You did well!"
@@ -19523,8 +19523,8 @@ CHR_039_058,这些够买一两块派了，你说是吧？,19490,村镇日常CHR,
 CHR_039_059,（可我明明尽力了！）,19491,村镇日常CHR,039-059,—,,已译,(But I tried my best!)
 CHR_039_060,你还剩着票吗，伊莉丝？,19492,村镇日常CHR,039-060,—,,已译,"Do you still have tickets left, Elise?"
 CHR_039_061,还有！,19493,村镇日常CHR,039-061,—,,已译,"Yes, I do!"
-CHR_039_062,我愿意在您这儿换一张，阿丽亚娜太太。,19494,村镇日常CHR,039-062,—,,已译,"I wouldn't mind trading it in with you, Mrs. Ariane."
-CHR_039_063,那些母鸡今儿可有得受喽，是吧？,19495,村镇日常CHR,039-063,—,,已译,"Those hens are going to get it today, aren't they?"
+CHR_039_062,我挺乐意在您这儿把票兑了，阿丽亚娜太太。,19494,村镇日常CHR,039-062,—,,已译,"I wouldn't mind trading it in with you, Mrs. Ariane."
+CHR_039_063,那些母鸡今儿可有得受喽！,19495,村镇日常CHR,039-063,—,[语气] 句中已有「喽」，句尾再挂「，是吧？」是两个尾巴叠着，删一个,已译,"Those hens are going to get it today, aren't they?"
 CHR_039_064,您这么一说……,19496,村镇日常CHR,039-064,—,,已译,When you put it like that...
 CHR_039_065,现在不行……,19497,村镇日常CHR,039-065,—,[标点] 还原省略号,已译,Not right now...
 CHR_039_066,您瞧，我这会儿还累着呢。,19498,村镇日常CHR,039-066,—,,已译,"I'm still quite tired, you see."
@@ -19534,7 +19534,7 @@ CHR_039_069,啊，也是……,19501,村镇日常CHR,039-069,—,,已译,"Ah, I 
 CHR_039_070,孩子们要在天黑前把票收回去呢。,19502,村镇日常CHR,039-070,—,[去腔] you see/know转句末语气,已译,"The children want them back by the end of the day, you see?"
 CHR_039_071,去好好逛逛节庆吧，伊莉丝？,19503,村镇日常CHR,039-071,—,,已译,"Why don't you go enjoy the festival, Elise?"
 CHR_040_001,节庆玩得开心吗，好孩子？,19504,村镇日常CHR,040-001,—,,已译,"Enjoying the festival, my dear?"
-CHR_040_002,当然，莉丝贝特太太——愿您也一样。,19505,村镇日常CHR,040-002,—,,已译,"Of course, Mrs. Lisbeth — I hope you are, too."
+CHR_040_002,当然，莉丝贝特太太——愿您也玩得开心。,19505,村镇日常CHR,040-002,—,[语气] 保留 hope＝愿（不改成「祝」），把 are 展开成「也玩得开心」,已译,"Of course, Mrs. Lisbeth — I hope you are, too."
 CHR_040_003,伊莉丝……,19506,村镇日常CHR,040-003,—,[标点] 按原文还原省略号,已译,"Oh, Elise..."
 CHR_040_004,更要紧的是——小子们说你会来这儿！,19507,村镇日常CHR,040-004,—,[v1.3.27修] 全段用“你”；you'd be here=会来这儿,已译,More importantly — the laddies told me you'd be here!
 CHR_040_005,好兑他们那些傻乎乎的票！,19508,村镇日常CHR,040-005,—,,已译,To trade in their silly tickets!
@@ -19550,7 +19550,7 @@ CHR_040_014,啊，你想先去跟他们说句话？,19517,村镇日常CHR,040-01
 CHR_040_015,没关系，伊莉丝！慢慢来，好孩子。,19518,村镇日常CHR,040-015,—,,已译,"That's all right, Elise! Take your time, my dear."
 CHR_040_016,谢谢您，莉丝贝特太太！,19519,村镇日常CHR,040-016,—,[标点] 还原感叹号,已译,"Thank you, Mrs. Lisbeth!"
 CHR_040_017,在镇上逛过一圈了吗？,19520,村镇日常CHR,040-017,—,,已译,Had a chance to look about town?
-CHR_040_018,换了吧，莉丝贝特太太！,19521,村镇日常CHR,040-018,—,,已译,"Trade it in, Mrs. Lisbeth!"
+CHR_040_018,把这票兑了吧，莉丝贝特太太！,19521,村镇日常CHR,040-018,—,,已译,"Trade it in, Mrs. Lisbeth!"
 CHR_040_019,我跟您一起玩这个，小子们准高兴！,19522,村镇日常CHR,040-019,—,,已译,The laddies would be happy if I did it with you!
 CHR_040_020,啊，伊莉丝！,19523,村镇日常CHR,040-020,—,[语气] Oh依语境改译,已译,"Oh, Elise!"
 CHR_040_021,可别太勉强自己，听见没？,19524,村镇日常CHR,040-021,—,,已译,"Don't push yourself, you hear?"
@@ -19558,11 +19558,11 @@ CHR_040_022,暂时不行……,19525,村镇日常CHR,040-022,—,,已译,Not yet
 CHR_040_023,我还是再四处看看吧。,19526,村镇日常CHR,040-023,—,,已译,I'd best look about a little longer.
 CHR_040_024,节庆上慢慢玩，伊莉丝！好好享受！,19527,村镇日常CHR,040-024,—,[专名] festival 本行作「节庆」,已译,"Take your time at the festival, Elise! Make the most of it!"
 CHR_040_025,反正我一整天都在这儿看着小子们呢。,19528,村镇日常CHR,040-025,—,,已译,"I'll be here all day looking after the laddies, anyhow."
-CHR_040_026,你干这个是越来越拿手了，不是吗？,19529,村镇日常CHR,040-026,—,,已译,"You've got quite good at this, haven't you?"
+CHR_040_026,你干这个真是越来越拿手啦！,19529,村镇日常CHR,040-026,—,,已译,"You've got quite good at this, haven't you?"
 CHR_040_027,我倒也不是特意的……,19530,村镇日常CHR,040-027,—,,已译,I didn't quite do it on purpose...
 CHR_040_028,何不给你家表亲捎点好吃的当晚饭？,19531,村镇日常CHR,040-028,—,,已译,Why don't you get your cousin something tasty for supper?
 CHR_040_029,谢谢您，莉丝贝特太太！,19532,村镇日常CHR,040-029,—,[标点] 还原感叹号,已译,"Thank you, Mrs. Lisbeth!"
-CHR_040_030,基弗伯格总算恢复如常了，伊莉丝，我真高兴。,19533,村镇日常CHR,040-030,—,,已译,"I'm so glad Kieferberg is back to normal, Elise."
+CHR_040_030,伊莉丝，基弗伯格总算恢复如常了，我真高兴。,19533,村镇日常CHR,040-030,—,,已译,"I'm so glad Kieferberg is back to normal, Elise."
 CHR_040_031,也是时候了，不是吗？,19534,村镇日常CHR,040-031,—,,已译,"It was about time, wasn't it?"
 CHR_040_032,确实如此……,19535,村镇日常CHR,040-032,—,[标点] 还原省略号,已译,Truly...
 CHR_040_033,哎呀，伊莉丝！孩子们准会佩服你的！,19536,村镇日常CHR,040-033,—,,已译,"My, Elise! The children will be impressed!"
@@ -19581,14 +19581,14 @@ CHR_040_045,给你——辛苦你了。,19548,村镇日常CHR,040-045,—,,已�
 CHR_040_046,谢谢您，莉丝贝特太太！,19549,村镇日常CHR,040-046,—,[标点] 还原感叹号,已译,"Thank you, Mrs. Lisbeth!"
 CHR_040_047,真过意不去，偏偏今儿这日子，小子们还支使你干活。,19550,村镇日常CHR,040-047,—,,已译,"I'm sorry the laddies had you working today, of all days."
 CHR_040_048,哎，还别说，今天干活一点儿不像在干活！,19551,村镇日常CHR,040-048,—,,已译,"Well, I must say, it doesn't feel quite like work today!"
-CHR_040_049,看到基弗伯格这么喜气洋洋，真叫人高兴，不是吗？,19552,村镇日常CHR,040-049,—,,已译,"Truly, it's wonderful to see Kieferberg in such good spirits, isn't it?"
+CHR_040_049,看到基弗伯格这么喜气洋洋，可真叫人高兴啊！,19552,村镇日常CHR,040-049,—,,已译,"Truly, it's wonderful to see Kieferberg in such good spirits, isn't it?"
 CHR_040_050,今儿这日子，实在提不起劲干活，对吧？,19553,村镇日常CHR,040-050,—,,已译,"It's quite difficult to find the motivation to work today, isn't it?"
 CHR_040_051,啊，我不是那个意思……,19554,村镇日常CHR,040-051,—,,已译,"Ah, I didn't mean to..."
 CHR_040_052,没关系的，伊莉丝。,19555,村镇日常CHR,040-052,—,[标点] 还原句号,已译,"That's all right, Elise."
 CHR_040_053,莉丝贝特太太……,19556,村镇日常CHR,040-053,—,,已译,Mrs. Lisbeth...
 CHR_040_054,去买点好吃的吧，伊莉丝——多谢你费心。,19557,村镇日常CHR,040-054,—,,已译,"Get yourself something tasty, Elise — I appreciate your time."
 CHR_040_055,谢谢。,19558,村镇日常CHR,040-055,—,[标点] 还原句号,已译,Thank you.
-CHR_040_056,还要再换票吗，伊莉丝？,19559,村镇日常CHR,040-056,—,,已译,"Looking to trade in any more tickets, Elise?"
+CHR_040_056,还要再兑几张票吗，伊莉丝？,19559,村镇日常CHR,040-056,—,,已译,"Looking to trade in any more tickets, Elise?"
 CHR_040_057,我还有一张！,19560,村镇日常CHR,040-057,—,,已译,I have one!
 CHR_040_058,不用白不用，您说是吧？,19561,村镇日常CHR,040-058,—,,已译,"Might as well use it, wouldn't you say?"
 CHR_040_059,孩子们准会乐坏的。,19562,村镇日常CHR,040-059,—,[去腔] I'm certain 化入句中作「准」,已译,"The boys will be pleased, I'm certain."
@@ -19601,7 +19601,7 @@ CHR_040_065,没关系的，莉丝贝特太太！,19568,村镇日常CHR,040-065,�
 CHR_040_066,哎呀，今天真是个好日子！,19569,村镇日常CHR,040-066,—,,已译,"Oh, what a great day we're having!"
 CHR_040_067,可不是嘛！,19570,村镇日常CHR,040-067,—,[语气] 还原欢快赞同语气,已译,I suppose!
 CHR_100_001,"
-<b>让开</b>，你这只长着羽毛的讨厌<b>耗子</b>！",19571,村镇日常CHR,100-001,—,[专名] feathered rat 本行作「耗子」,已译,"
+<b>让开</b>，你这只长着羽毛的讨厌<b>耗子</b>！",19571,村镇日常CHR,100-001,—,[专名] feathered rat 本行作「耗子」；行首换行是源文原貌（手册 §8 第二十五条），不得删,已译,"
 <b>Out of my way</b>, you wretched feathered <b>rat</b>!"
 CHR_100_002,我这脑袋上的包这辈子都好不了了！,19572,村镇日常CHR,100-002,—,,已译,I'll never recover from all these bumps on my head!
 CHR_100_003,只要想着那些老太婆的脑袋，打起来就顺手多了！,19573,村镇日常CHR,100-003,—,,已译,It's easier to hit if I picture those old hags' heads!
@@ -19623,7 +19623,7 @@ FLV_1_5_HBR_05_001,要是霍尔奶奶还在，她会怎么做呢？,19588,风味
 FLV_1_5_HBR_05_002,玻璃窗在风中瑟瑟发抖，在木框里微微震颤。,19589,风味闲话FLV,1月5日,HBR,,已译,"Shuddering in the wind, the glass panes tremble in their wooden frames."
 FLV_1_5_HBY_01_001,我上一次用这东西，都过去多久了呢？,19590,风味闲话FLV,1月5日,HBY,,已译,"How long has it been since I last used this thing, I wonder?"
 FLV_1_5_HBY_01_002,丝丝缕缕的蛛网与尘埃紧附在旧烤炉的木门上，仿佛要将它们封死。,19591,风味闲话FLV,1月5日,HBY,,已译,Stringy cobwebs and dust cling to the old oven's wooden doors as though sealing them.
-FLV_1_5_HBY_02_001,现在可不是浇花的时候。,19592,风味闲话FLV,1月5日,HBY,[独白] 附加问转陈述，删多余标点,已译,"This isn't the time to be watering the garden, is it?"
+FLV_1_5_HBY_02_001,现在可不是给菜园浇水的时候。,19592,风味闲话FLV,1月5日,HBY,[专名] 伊莉丝后院 garden＝菜园（主线 1265／19895、地图 STABLES_DESC 同作），不译「浇花」,已译,"This isn't the time to be watering the garden, is it?"
 FLV_1_5_HBY_02_002,水井的木制结构历经风霜，已是破败磨损。,19593,风味闲话FLV,1月5日,HBY,,已译,"Weathered by time, the well's wooden structure stands frayed and worn."
 FLV_1_5_HBY_03_001,要是他们躲在谷仓里呢……？,19594,风味闲话FLV,1月5日,HBY,[v1.3.27修] granary=谷仓,已译,What if they're in the granary...?
 FLV_1_5_HBY_03_002,在贸然行动之前，最好先去拿我的<color=#DB4D35>扫帚</color>……,19595,风味闲话FLV,1月5日,HBY,,已译,Best go grab my <color=#DB4D35>broom</color> before I attempt anything...
@@ -19631,7 +19631,7 @@ FLV_1_5_HBY_04_001,这些大概够我用到周末，可……,19596,风味闲话
 FLV_1_5_HBY_04_002,一堆柴火整整齐齐地码在墙边。,19597,风味闲话FLV,1月5日,HBY,,已译,A pile of firewood rests neatly stacked against the wall.
 FLV_1_5_HCR_01_001,这玩意儿还是不能用啊。,19598,风味闲话FLV,1月5日,HCR,[独白] 附加问转陈述,已译,"This thing's still not working, is it?"
 FLV_1_5_HCR_01_002,我看是该找威廉先生聊一聊了吧。,19599,风味闲话FLV,1月5日,HCR,[标点] 原文陈述句，不作问句,已译,"I ought to have a word with Mr. Wilhelm sometime soon, I suppose."
-FLV_1_5_HCR_01_003,时钟的指针吱嘎作响地走着，却仍尽职尽责，每走一秒都转得无比吃力。,19600,风味闲话FLV,1月5日,HCR,[校正] 补回 grate 的摩擦声响与 dutifully 的拟人色彩（前文 19598 已交代钟坏了）；原译「缓缓前行」把故障感抹平了,已译,"The clock's hands grate dutifully through time, struggling to turn with each passing second."
+FLV_1_5_HCR_01_003,时钟的指针吱嘎作响地走着，虽算尽职尽责，每走一秒却都转得无比吃力。,19600,风味闲话FLV,1月5日,HCR,[校正] 让步与吃力分属两个分句：「虽算尽职，每走一秒却转得吃力」；「却」落在前分句会读成「却算尽职」,已译,"The clock's hands grate dutifully through time, struggling to turn with each passing second."
 FLV_1_5_HCR_03_001,好久没进霍尔奶奶的房间了……,19601,风味闲话FLV,1月5日,HCR,[去腔] 删去无源附加问「是吧」,已译,It's been a long time since I've gone into Granny Holle's room...
 FLV_1_5_HCR_03_002,反正那儿也没什么好看的……,19602,风味闲话FLV,1月5日,HCR,[标点] 还原省略号,已译,"Not that there's anything to see there, anyhow..."
 FLV_1_5_HCR_04_001,霍尔奶奶以前可喜欢这东西了呢……,19603,风味闲话FLV,1月5日,HCR,[独白] 内心独白不设问（指南 §3）：伊莉丝独自缅怀，删掉向旁人求证语感的「是吧…」，与 19601 删「无源附加问」同规则,已译,"Granny Holle used to love this thing, didn't she..."
@@ -19684,7 +19684,7 @@ FLV_2_1_HBY_2_002,我只要保证自己不惹人起疑就好……,19647,风味�
 FLV_2_1_HBY_02_002,不，绝不！这烂摊子我自己来收拾！,19648,风味闲话FLV,2月1日,HBY,,已译,"No, not a chance! I'll deal with this mess myself!"
 FLV_2_1_HBY_02_003,基弗伯格的屋顶点缀着远方绵延起伏的山丘。,19649,风味闲话FLV,2月1日,HBY,,已译,Kieferberg's rooftops decorate the rolling hills far off in the distance.
 FLV_2_1_HBY_2_003,沐浴在阳光下，色彩斑斓的基弗伯格村仿佛未曾被时光触碰。,19650,风味闲话FLV,2月1日,HBY,,已译,"Basking in sunlight, the colorful village of Kieferberg stands as though untouched by time."
-FLV_2_1_HBY_3_001,该好好打理一下我的花园了……也许明天吧……,19651,风味闲话FLV,2月1日,HBY,,已译,Ought to tend to my garden soon enough...maybe tomorrow...
+FLV_2_1_HBY_3_001,该好好打理一下我的菜园了……也许明天吧……,19651,风味闲话FLV,2月1日,HBY,[专名] 同上：伊莉丝后院 garden＝菜园,已译,Ought to tend to my garden soon enough...maybe tomorrow...
 FLV_2_1_HBY_3_002,水井的木制结构历经风霜，已是破败磨损。,19652,风味闲话FLV,2月1日,HBY,,已译,"Weathered by time, the well's wooden structure stands frayed and worn."
 FLV_2_1_HBY_4_001,要不是有主日弥撒，我能腾出多少工夫做事呀！,19653,风味闲话FLV,2月1日,HBY,,已译,Imagine the things I could do with my time if it weren't for Sunday Mass!
 FLV_2_1_HBY_4_002,基弗伯格的屋顶点缀着远方绵延起伏的山丘。,19654,风味闲话FLV,2月1日,HBY,,已译,Kieferberg's rooftops decorate the rolling hills far off in the distance.
@@ -19698,9 +19698,9 @@ FLV_2_1_HFY_01_002,一只破旧的木桶，里头装了半桶泥土。,19661,风
 FLV_2_1_HFY_02_001,这些还得再等等了。,19662,风味闲话FLV,2月1日,HFY,,已译,These are going to have to wait a little while longer.
 FLV_2_1_HFY_02_002,各式衣物在微风中悠悠摆动。,19663,风味闲话FLV,2月1日,HFY,,已译,Various clothing articles sway calmly in the passing breeze.
 FLV_2_1_HFY_03_001,我得再去劈点柴了……,19664,风味闲话FLV,2月1日,HFY,[标点] 还原省略号,已译,I suppose I ought to chop some more wood soon...
-FLV_2_1_HFY_03_002,好不容易才把那些讨厌的木刺和水泡都弄好！,19665,风味闲话FLV,2月1日,HFY,,已译,Just when I'd gotten rid of all those pesky splinters and blisters!
+FLV_2_1_HFY_03_002,好不容易才把那些讨厌的木刺挑干净、水泡也消下去了！,19665,风味闲话FLV,2月1日,HFY,[校正] 木刺只能「挑」、水泡只能「消」，原译「把木刺和水泡都弄好」动宾搭配不成立,已译,Just when I'd gotten rid of all those pesky splinters and blisters!
 FLV_2_1_HFY_03_003,树干布满岁月的伤痕，干枯赤裸地暴露在风霜之中。,19666,风味闲话FLV,2月1日,HFY,,已译,"Covered in aged scars, the tree trunk sits bare, its dry surface exposed to the elements."
-FLV_2_1_HLR_1_001,这东西，我到底还是舍不得送人啊。,19667,风味闲话FLV,2月1日,HLR,[修正] 补回呼语/删增译人名,已译,"Still can't bring myself to give this thing away, can I?"
+FLV_2_1_HLR_1_001,这东西，我到底还是舍不得送人啊。,19667,风味闲话FLV,2月1日,HLR,,已译,"Still can't bring myself to give this thing away, can I?"
 FLV_2_1_HLR_1_002,一架古老的纺车，静静立在角落，蒙着厚厚一层灰尘和闪亮的蛛网。,19668,风味闲话FLV,2月1日,HLR,,已译,An old spinning wheel rests in the corner covered in a thick layer of dust and glistening cobwebs.
 FLV_2_1_HLR_2_001,你睡在那种地方是会着凉的！,19669,风味闲话FLV,2月1日,HLR,,已译,You could’ve caught a cold sleeping in there!
 FLV_2_1_HLR_2_002,跟我要条毯子不就得了！,19670,风味闲话FLV,2月1日,HLR,,已译,Could’ve at least asked me for a blanket!
@@ -19731,7 +19731,7 @@ FLV_2_1_HLR_5_005,啊，那是当然！,19694,风味闲话FLV,2月1日,HLR,,已�
 FLV_2_1_HLR_6_001,不知道今晚该吃点什么……,19695,风味闲话FLV,2月1日,HLR,,已译,I wonder what I'll be having for dinner tonight...
 FLV_2_1_HLR_6_002,每次都为这事发愁！,19696,风味闲话FLV,2月1日,HLR,,已译,This is always such a pain!
 FLV_2_1_HLR_6_003,一口又大又亮的铁锅，内壁布满了刮痕。,19697,风味闲话FLV,2月1日,HLR,,已译,"A big, shiny iron pot. Its inner surface is covered in scratches."
-FLV_2_1_HLR_7_001,不得不说，她把那污渍弄得挺干净的。,19698,风味闲话FLV,2月1日,HLR,,已译,"She got that stain off pretty well, I ought to say."
+FLV_2_1_HLR_7_001,不得不说，她把那块污渍擦得挺干净的。,19698,风味闲话FLV,2月1日,HLR,,已译,"She got that stain off pretty well, I ought to say."
 FLV_2_1_HLR_8_001,我上次用这些是什么时候来着？,19699,风味闲话FLV,2月1日,HLR,[标点] 删多余省略号/感叹号,已译,"When was the last time I even used these, I wonder?"
 FLV_2_1_HLR_8_002,这些日子，我干什么都用那口大锅……,19700,风味闲话FLV,2月1日,HLR,,已译,I've been using the cauldron for everything these days...
 FLV_2_1_HLR_30_001,进食品间也没用啊。,19701,风味闲话FLV,2月1日,HLR,[独白] 附加问转陈述,已译,"It's no use going in the pantry, is it?"
@@ -19761,7 +19761,7 @@ FLV_2_2_OCR_01_001,该回去干活了……,19724,风味闲话FLV,2月2日,OCR,,
 FLV_2_2_OCR_01_002,我可不能把上工时间都花在闲逛上。,19725,风味闲话FLV,2月2日,OCR,,已译,Can't spend my working hours loitering about as I please.
 FLV_2_2_OCR_02_001,施……施瓦……？,19726,风味闲话FLV,2月2日,OCR,,已译,Sch... Schwa...?
 FLV_2_2_OCR_02_002,这玩意儿都褪色成这样了，我根本看不清！,19727,风味闲话FLV,2月2日,OCR,[标点] 删多余省略号/感叹号,已译,This thing's so faded I can't even read it!
-FLV_2_2_OCR_02_003,"左：？？？？？
+FLV_2_2_OCR_02_003,"左：？？？？？？
 右：普里梅尔多夫
 上：基弗伯格峰",19728,风味闲话FLV,2月2日,OCR,,已译,"Left: ??????
 Right: Primeldorf
@@ -19785,7 +19785,7 @@ FLV_2_2_VCH_6_003,每支蜡烛都在祈祷过后静静燃烧，火苗安详地�
 FLV_2_2_VCH_7_001,这地方总能勾起许多美好的回忆……,19745,风味闲话FLV,2月2日,VCH,,已译,This place always brings back such good memories...
 FLV_2_2_VCH_7_002,芬芳的山风在连绵起伏的山丘间嬉戏，将春日的欢欣播撒到基弗伯格的每一个角落。,19746,风味闲话FLV,2月2日,VCH,,已译,The fragrant mountain breeze frolicks about the rolling hills spreading its Spring cheer all across Kieferberg.
 FLV_2_2_VCH_7_003,（就当是为了旧日情分吧。）,19747,风味闲话FLV,2月2日,VCH,,已译,(For old times' sake.)
-FLV_2_2_VCH_8_001,（怪不得汉斯神父是这么副倒霉相！）,19748,风味闲话FLV,2月2日,VCH,[校正] 纠偏miserable wretch译法,已译,(No wonder Father Hans is such a miserable wretch!)
+FLV_2_2_VCH_8_001,（怪不得汉斯神父是这么个苦命人！）,19748,风味闲话FLV,2月2日,VCH,[校正] miserable wretch＝苦命人；「整天」是下一行 19749 的词，「苦大仇深」添了原文没有的怨气，都不采,已译,(No wonder Father Hans is such a miserable wretch!)
 FLV_2_2_VCH_8_002,（要是让我整天读这些鬼画符，我也会变成那样的！）,19749,风味闲话FLV,2月2日,VCH,,已译,"(I would be too, if I had to read this gibberish all day!)"
 FLV_2_2_VCH_8_003,汉斯神父的圣典摊在祭坛上，每一页都潦草地写满了批注。,19750,风味闲话FLV,2月2日,VCH,,已译,"Father Hans' Holy Scripture rests upon the altar, each page scrawled with annotations."
 FLV_2_2_VCH_10_001,（这一定是斯佩尔特的圣经……让我瞧瞧……）,19751,风味闲话FLV,2月2日,VCH,,已译,(This must be Lebkuchen's Bible... Let's see...)
@@ -19802,14 +19802,14 @@ FLV_2_2_VIN_04_002,（这些老太婆整天聚在这儿，伯恩哈德先生肯�
 FLV_2_2_VIN_05_001,（老人们去见了主之后，他们的屋子就被撂在这儿任其朽烂呢……）,19762,风味闲话FLV,2月2日,VIN,[独白] huh转沉思自语；术语 meet one's maker 本行作「去见主」（手册 §4.3）,已译,"(Old folks' homes are left behind to rot after they go on to meet their maker, huh?)"
 FLV_2_2_VIN_05_002,（真是太浪费了。）,19763,风味闲话FLV,2月2日,VIN,[独白] 附加问转陈述,已译,"(It's such a waste, isn't it?)"
 FLV_2_2_VIN_06_001,（里头全是泥土……）,19764,风味闲话FLV,2月2日,VIN,,已译,(It's filled with dirt...)
-FLV_2_2_VIN_06_002,（看来威尔玛想把这个改成花盆，结果没弄成，哈！）,19765,风味闲话FLV,2月2日,VIN,,已译,"(That Wilma tried to make a planter but it fell flat, huh!)"
+FLV_2_2_VIN_06_002,（看来威尔玛本想把这个改成花盆，结果没弄成啊！）,19765,风味闲话FLV,2月2日,VIN,[语气] 独白句尾 huh! 转自语感叹「啊！」；「没弄成，哈！」是照字面搬语气词,已译,"(That Wilma tried to make a planter but it fell flat, huh!)"
 FLV_2_2_VIN_07_001,（威尔玛的小棚屋……）,19766,风味闲话FLV,2月2日,VIN,,已译,(Wilma's shack...)
 FLV_2_2_VIN_07_002,（真好奇她这里头都放了些什么……）,19767,风味闲话FLV,2月2日,VIN,,已译,(I wonder what she keeps in here...)
 FLV_2_2_VIN_08_001,（埃利亚斯喜欢阿达莉……？）,19768,风味闲话FLV,2月2日,VIN,,已译,(Elias loves Adalie...?)
 FLV_2_2_VIN_08_002,（我猜这准是哪位客人落下的。）,19769,风味闲话FLV,2月2日,VIN,,已译,"(This must have been left by some guests, I guess.)"
 FLV_2_2_VIN_09_001,（听说把这磨石运下山，可费了老大的劲……）,19770,风味闲话FLV,2月2日,VIN,,已译,(I heard it was a whole ordeal to get this grindstone down the hill...)
 FLV_2_2_VIN_09_002,这块磨得粗糙陈旧的磨石，立在歇脚处的正中央。,19771,风味闲话FLV,2月2日,VIN,,已译,"The worn-down, rough-looking grindstone sits as the centerpiece of a resting area."
-FLV_2_2_VSQ_1_001,（总算给那帮臭小子点颜色瞧瞧了！）,19772,风味闲话FLV,2月2日,VSQ,,已译,(I showed those little brats!)
+FLV_2_2_VSQ_1_001,（总算给那帮小鬼点颜色瞧瞧了！）,19772,风味闲话FLV,2月2日,VSQ,[性别] brats 无性别标记，作中性「小鬼」；「臭小子」会把女孩排除在外,已译,(I showed those little brats!)
 FLV_2_2_VSQ_1_002,（该回去继续干刚才的事了。）,19773,风味闲话FLV,2月2日,VSQ,,已译,"(Ought to get back to whatever I was doing, now.)"
 FLV_2_2_VSQ_02_001,（霍尔奶奶以前常说，梅希蒂尔德太太家是大家最爱聚的地方。）,19774,风味闲话FLV,2月2日,VSQ,,已译,(Granny Holle used to say Mrs. Mechtilde's home was where they used to gather most often.)
 FLV_2_2_VSQ_02_002,（我猜是因为那儿正好在村广场上吧？）,19775,风味闲话FLV,2月2日,VSQ,,已译,"(Because it's right in the village square, I suppose?)"
@@ -19821,7 +19821,7 @@ FLV_2_3_VSQ_4_001,琳达太太还真是喜欢花啊……,19780,风味闲话FLV,
 FLV_2_3_VSQ_4_002,换作是我，绝没耐心照料这么多花。,19781,风味闲话FLV,2月3日,VSQ,,已译,I would never have the patience to look after this many.
 FLV_2_3_VSQ_4_003,大大小小的花盆整齐排列，繁花簇拥，色彩斑斓。,19782,风味闲话FLV,2月3日,VSQ,,已译,"Neatly potted in vases of all sizes, the many bristling flowers bloom in colorful clusters."
 FLV_2_3_VSQ_5_001,斯佩尔特和我以前总在水里嬉戏呢。,19783,风味闲话FLV,2月3日,VSQ,[独白] 附加问转陈述,已译,"Lebkuchen and I used to play about in the water all the time, didn't we?"
-FLV_2_3_VSQ_5_002,咱们都这么大了，做不来那些了吧……,19784,风味闲话FLV,2月3日,VSQ,,已译,"Though we're a little too old for that now, I suppose..."
+FLV_2_3_VSQ_5_002,虽说咱们现在年纪都有点大了，大概做不来那些了吧……,19784,风味闲话FLV,2月3日,VSQ,[去腔] Though／a little／I suppose 三层都落：虽说…年纪都有点…大概；本条与 19785 同点连句，两条译成一句是撞车，本条据原句多出的让步与不确定语气错开,已译,"Though we're a little too old for that now, I suppose..."
 FLV_2_3_VSQ_5_003,咱们都这么大了，做不来那些了吧……,19785,风味闲话FLV,2月3日,VSQ,,已译,"We're too old for that now, aren't we..."
 FLV_2_3_VSQ_5_004,基弗伯格的徽章永远缀满盛开的花朵，庄严地立于广场喷泉之上，尽显往日荣光。,19786,风味闲话FLV,2月3日,VSQ,,已译,"Forevermore decorated with blooming flowers, Kieferberg's crest rests atop the square fountain in its ancient glory."
 FLV_2_3_VSQ_6_001,看来威廉先生一直忙个不停。,19787,风味闲话FLV,2月3日,VSQ,,已译,"Mr. Wilhelm's been keeping himself busy, it seems."
@@ -19997,7 +19997,7 @@ FLV_3_2_VWM_10_002,牲口的水槽里积着一汪浑浊的死水。,19954,风味
 FLV_3_2_VWM_11_001,我记得霍尔奶奶带我去过一次湖边……,19955,风味闲话FLV,3月2日,VWM,,已译,"Granny Holle took me down to the lake once, I remember..."
 FLV_3_2_VWM_11_002,基弗伯格湖深嵌谷底，在群山之间铺展开来。,19956,风味闲话FLV,3月2日,VWM,,已译,"Carved deep into valleys, Kieferberg Lake spreads out between the hills."
 FLV_3_2_VWM_12_001,要不是有格蕾特奶奶，我隔天就得自己烤面包……,19957,风味闲话FLV,3月2日,VWM,,已译,"If it wasn't for Granny Gretel, I'd have to make my own bread every other day..."
-FLV_3_2_VWM_12_002,屋外摆着一张工作台，基弗伯格的村民常在这里把新磨的面粉装袋。,19958,风味闲话FLV,3月2日,VWM,[修正] 补回呼语/删增译人名,已译,"A work bench sits outside, typically used by the townsfolk of Kieferberg to bag newly-milled flour."
+FLV_3_2_VWM_12_002,屋外摆着一张工作台，基弗伯格的村民常在这里把新磨的面粉装袋。,19958,风味闲话FLV,3月2日,VWM,,已译,"A work bench sits outside, typically used by the townsfolk of Kieferberg to bag newly-milled flour."
 FLV_3_2_VWM_13_001,锁上了啊……,19959,风味闲话FLV,3月2日,VWM,,已译,"It's locked, I suppose..."
 FLV_3_2_VWM_13_002,反正我又不自己烤面包，没必要进去。,19960,风味闲话FLV,3月2日,VWM,,已译,"It's not like I make my own bread, I don't need to get in here."
 FLV_3_2_VWW_01_001,后院有口自家的井，我还挺走运的呢。,19961,风味闲话FLV,3月2日,VWW,[独白] huh?转自语「呢」,已译,"I'm rather lucky to have my own well in the backyard, huh?"
@@ -20008,7 +20008,7 @@ FLV_3_2_VWW_02_002,基弗伯格的洗衣池。中央立着一尊鱼的雕像。,
 FLV_3_2_VWW_03_001,我一直好奇，那些山丘的另一头是什么……,19966,风味闲话FLV,3月2日,VWW,,已译,I've always wondered what lies beyond those hills...
 FLV_3_2_VWW_03_002,辽阔的谷地散落着孤零零的农舍与成排的庄稼，一路铺向远方。,19967,风味闲话FLV,3月2日,VWW,,已译,"Spotted with isolated homes and rows of crops, the broad valley's fields spread out into the distance."
 FLV_3_2_VWW_04_001,威尔玛太太明明有一整间棚子，可……,19968,风味闲话FLV,3月2日,VWW,,已译,"Mrs. Wilma's got a whole shed for herself, and yet..."
-FLV_3_2_VWW_04_002,旧木桶改成的破推车，兜着几只用旧的水桶。,19969,风味闲话FLV,3月2日,VWW,,已译,"Fashioned out of an old barrel, the rickety cart rests cradling a couple worn-out buckets."
+FLV_3_2_VWW_04_002,旧木桶改成的破推车上，放着几只磨旧了的水桶。,19969,风味闲话FLV,3月2日,VWW,[校正] 原译「旧木桶」与「用旧的水桶」重字，且「兜着」配推车生硬,已译,"Fashioned out of an old barrel, the rickety cart rests cradling a couple worn-out buckets."
 FLV_3_3_OLH_01_001,（不跟萝丝玛琳谈谈我可走不了……）,19970,风味闲话FLV,3月3日,OLH,[专名] 区分错叫名萝丝玛琳/真名萝森玛琳,已译,(I can't leave without talking to Rosmarine...)
 FLV_3_3_OLH_01_002,（这事我得弄个明白！）,19971,风味闲话FLV,3月3日,OLH,,已译,(Ought to get to the bottom of this!)
 FLV_3_4_KIE_01_001,好你个小鬼……！,19972,风味闲话FLV,3月4日,KIE,"[语气] 修正Why, you...!误译为质问句；[去腔] Why, you...! 伊莉丝对顽童起哄的恼羞，改小鬼系",已译,Why you...!
@@ -20058,7 +20058,7 @@ FLV_3_6_WDM_C_03_001,那头公鹿的尸骸还挺新鲜……,20015,风味闲话F
 FLV_3_6_WDM_C_03_002,我得想个法子把那些飞蛾引过去……,20016,风味闲话FLV,3月6日,WDM_C,,已译,I ought to draw those moths' attention to it somehow...
 FLV_3_6_WDM_C_04_001,我一路总瞧见这些涂画散落各处……,20017,风味闲话FLV,3月6日,WDM_C,,已译,I've been spotting these scribbles scattered about...
 FLV_3_6_WDM_C_04_002,这些是……人？,20018,风味闲话FLV,3月6日,WDM_C,,已译,Are these... People?
-FLV_3_6_WDM_C_04_003,岩面深处刻着几个似曾相识的形状，令人想起人的模样。,20019,风味闲话FLV,3月6日,WDM_C,,已译,Engraved deep into the rocky surface are several familiar shapes reminiscent of human life.
+FLV_3_6_WDM_C_04_003,岩面上深深镌刻着几道似曾相识的纹样，仿佛人的轮廓。,20019,风味闲话FLV,3月6日,WDM_C,[校正] engraved deep into the rocky surface 是刻痕很深，不是「岩石内部深处」；上下文 20018「这些是……人？」点明是人形纹样,已译,Engraved deep into the rocky surface are several familiar shapes reminiscent of human life.
 FLV_4_1_HBR_01_001,我不确定该不该蹚这趟浑水，可……,20020,风味闲话FLV,4月1日,HBR,,已译,"I'm not sure I should be getting involved in all this, but..."
 FLV_4_1_HBR_01_002,我得把这团乱麻理清楚——越快越好。,20021,风味闲话FLV,4月1日,HBR,,已译,I need to make sense of this mess — and the sooner the better.
 FLV_4_1_HBY_01_001,（这些人做梦也想不到我昨晚看见了什么……）,20022,风味闲话FLV,4月1日,HBY,,已译,(None of these folk could ever imagine what I saw last night...)
@@ -20141,7 +20141,7 @@ FLV_4_5_WCR_A_03_004,（她倒是挺机灵的。）,20098,风味闲话FLV,4月5�
 FLV_4_5_WCR_A_03_005,（得找到那只死乌鸦，把戒指夺回来……！）,20099,风味闲话FLV,4月5日,WCR_A,,已译,(Ought to find that wretched crow and get that ring back...!)
 FLV_4_5_WCR_A_03_006,我们没工夫去寻那个恶徒了……,20100,风味闲话FLV,4月5日,WCR_A,,已译,We don't have time to be looking for that fiend...
 FLV_4_5_WCR_A_03_007,反正我们也没得选！走吧！,20101,风味闲话FLV,4月5日,WCR_A,,已译,"It's not like we have a choice, anyhow! Let's go!"
-FLV_4_5_WCR_A_04_001,这口井还挺深的，不是吗？,20102,风味闲话FLV,4月5日,WCR_A,,已译,"This well is rather deep, isn't it?"
+FLV_4_5_WCR_A_04_001,这口井还挺深的，是吧？,20102,风味闲话FLV,4月5日,WCR_A,,已译,"This well is rather deep, isn't it?"
 FLV_4_5_WCR_A_04_002,……,20103,风味闲话FLV,4月5日,WCR_A,,已译,...
 FLV_4_5_WCR_A_04_003,（她不怎么搭理人呢。）,20104,风味闲话FLV,4月5日,WCR_A,[独白] 附加问转陈述,已译,"(Not very responsive, is she?)"
 FLV_4_5_WCR_A_04_004,一口狭窄的砖井深入地底，井壁龟裂干缩。,20105,风味闲话FLV,4月5日,WCR_A,,已译,"A narrow brick well reaches deep into the earth's depths, its walls cracked and shriveled."
@@ -20174,7 +20174,7 @@ FLV_5_6_VWM_01_001,我都走到这一步了，现在可不能放弃！,20131,风
 FLV_5_6_VWM_02_001,呃……这东西真脏……,20132,风味闲话FLV,5月6日,VWM,,已译,Ugh... This thing's filthy...
 FLV_5_6_VWM_02_002,红砖烤炉里塞满了乌鸦羽毛，高高地倚靠在磨坊的墙边。,20133,风味闲话FLV,5月6日,VWM,[去腔] 一句三个「的」，压缩修饰,已译,"Stuffed with crow's feathers, the red brick oven stands tall against the windmill's wall."
 FLV_5_6_VWM_03_001,这些东西我应该都用不上……,20134,风味闲话FLV,5月6日,VWM,,已译,I don't think I'll be needing any of these...
-FLV_5_6_VWM_03_002,各处的台面上摆着大大小小的罐子，里面装着面粉、盐和果酱。,20135,风味闲话FLV,5月6日,VWM,,已译,"Lined up on the various surfaces are miscellaneous pots containing flour, salt and jam."
+FLV_5_6_VWM_03_002,各处的台面上摆着各式各样的罐子，里面装着面粉、盐和果酱。,20135,风味闲话FLV,5月6日,VWM,[校正] miscellaneous 是杂七杂八／各式各样，不是尺寸「大大小小」,已译,"Lined up on the various surfaces are miscellaneous pots containing flour, salt and jam."
 FLV_5_6_VWM_04_001,趁还没人来找我，我最好赶紧离开这里……,20136,风味闲话FLV,5月6日,VWM,,已译,I'd better get out of here before anyone comes to look for me....
 FLV_5_6_VWM_05_001,（到头来还是没能拿到那把钥匙……）,20137,风味闲话FLV,5月6日,VWM,,已译,(I couldn't get my hands on that key in the end...)
 FLV_5_6_VWM_05_002,（还是乖乖回家吧。）,20138,风味闲话FLV,5月6日,VWM,,已译,(I suppose it's best to just go home.)
@@ -20232,7 +20232,7 @@ FLV_6_2_VWW_20_014,<i>「那六环五月柱，我们今日敬奉的圣瓦尔普�
 FLV_6_2_VWW_20_015,<i>「最初正是作为<color=#934494><b>女巫</b></color>神迹与慈悲的象征而受人敬拜。」</i>,20190,风味闲话FLV,6月2日,VWW,,已译,"<i>""Was first adored as the symbol of the <color=#934494><b>witch's</b></color> miracles and mercy.""</i>"
 FLV_6_2_VWW_20_016,<i>「然而那已成过往——圣瓦尔普加如今是教会的主保，我们信仰中仁慈的圣者。」</i>,20191,风味闲话FLV,6月2日,VWW,,已译,"<i>""That is no more, however — St. Walpurga is a patroness of the Church, a benevolent figure in our faith.""</i>"
 FLV_6_2_VWW_20_017,<i>「随着主的使者来到群峰，瓦尔普加的教派被连根铲除。」</i>,20192,风味闲话FLV,6月2日,VWW,,已译,"<i>""With the arrival of the Lord's messengers to these peaks, the cult of Walpurga was eradicated.""</i>"
-FLV_6_2_VWW_20_018,<i>「然而事实是，少数幸存者从此四处流浪。」</i>,20193,风味闲话FLV,6月2日,VWW,,已译,"<i>""It is fact, however, that the few who lived have become nomads of sorts.""</i>"
+FLV_6_2_VWW_20_018,<i>「然而事实是，少数幸存者如今成了某种意义上的游民。」</i>,20193,风味闲话FLV,6月2日,VWW,,已译,"<i>""It is fact, however, that the few who lived have become nomads of sorts.""</i>"
 FLV_6_2_VWW_20_019,<i>「最令我困惑的是，我的研究与这一切历史……」</i>,20194,风味闲话FLV,6月2日,VWW,,已译,"<i>""What is most puzzling to me, is that my research and all of this History...""</i>"
 FLV_6_2_VWW_20_020,<i>「竟与老霍尔的忏悔对不上。」</i>,20195,风味闲话FLV,6月2日,VWW,,已译,"<i>""It doesn't quite align with Old Holle's confession.""</i>"
 FLV_6_2_VWW_20_021,<i>「据传<color=#934494><b>女巫</b></color>瓦尔普加施予祝福，从不索取分毫回报……」</i>,20196,风味闲话FLV,6月2日,VWW,,已译,"<i>""Walpurga, the <color=#934494><b>witch</b></color>, never once was said to ask anything in return for its blessings...""</i>"
@@ -20277,14 +20277,14 @@ FLV_7_2_OVP_01_007,<i>「除了亲自唤出<color=#934494><b>女巫</b></color>�
 FLV_7_2_OVP_01_008,<i>「一旦见到这<color=#934494><b>女巫</b></color>，我便可断定两者之一。」</i>,20235,风味闲话FLV,7月2日,OVP,,已译,"<i>""Once I meet this <color=#934494><b>witch</b></color>, I will be able to determine one of two things.""</i>"
 FLV_7_2_OVP_01_009,<i>「倘若她真是我们的主保圣瓦尔普加，是主所昭示的，洗心革面的荣光之身……」</i>,20236,风味闲话FLV,7月2日,OVP,,已译,"<i>""If she truly is our patroness, St. Walpurga, in her reformed glory as dictated by the Lord...""</i>"
 FLV_7_2_OVP_01_010,<i>「我将以教士之身，倾余生敬奉她，颂扬她的神迹。」</i>,20237,风味闲话FLV,7月2日,OVP,,已译,"<i>""I can fully dedicate the rest of my life as a clergyman to her adoration and celebration of her miracles.""</i>"
-FLV_7_2_OVP_01_011,<i>「可倘若……她不止是<color=#934494><b>女巫</b></color>，而是假扮女巫的恶魔……」</i>,20238,风味闲话FLV,7月2日,OVP,,已译,"<i>""If, however... She's not only a <color=#934494><b>witch</b></color>, but a demonic entity masquerading as one...""</i>"
+FLV_7_2_OVP_01_011,<i>「可倘若……她不仅是<color=#934494><b>女巫</b></color>，更是假扮成女巫的恶魔……」</i>,20238,风味闲话FLV,7月2日,OVP,[校正] not only… but… 是递进，原译「不止是……而是……」关联词失配,已译,"<i>""If, however... She's not only a <color=#934494><b>witch</b></color>, but a demonic entity masquerading as one...""</i>"
 FLV_7_2_OVP_01_012,<i>「我便只得将主的正义降于她与伊莉丝那两个可悲的灵魂……」</i>,20239,风味闲话FLV,7月2日,OVP,,已译,"<i>""I have no choice but to bring the Lord's justice upon hers and Elise's wretched souls...""</i>"
 FLV_7_2_OVP_01_013,<i>「并将她的统治一举终结。」</i>,20240,风味闲话FLV,7月2日,OVP,,已译,"<i>""And end her reign once and for all.""</i>"
 FLV_7_2_OVP_01_014,不……不，不可能……,20241,风味闲话FLV,7月2日,OVP,,已译,"No... No, this can't be..."
 FLV_7_2_OVP_01_015,这不可能是真的……,20242,风味闲话FLV,7月2日,OVP,,已译,This can't be true...
 FLV_7_2_OVP_01_016,我得……,20243,风味闲话FLV,7月2日,OVP,,已译,I ought to...
 FLV_7_2_OVP_01_017,我得查清楚……我必须闯进他的书房……！,20244,风味闲话FLV,7月2日,OVP,,已译,I have to find out more... I have to break into his study...!
-FLV_7_2_VWW_01_001,可以拿这几把钥匙试试——说不定能对上。,20245,风味闲话FLV,7月2日,VWW,,已译,I could try one of these keys — maybe they'll fit.
+FLV_7_2_VWW_01_001,挑一把钥匙试试——说不定能对上。,20245,风味闲话FLV,7月2日,VWW,,已译,I could try one of these keys — maybe they'll fit.
 FLV_7_2_VWW_02_001,塌了啊……,20246,风味闲话FLV,7月2日,VWW,,已译,"It caved in, huh?"
 FLV_7_2_VWW_02_002,这里以前通向哪儿呢……,20247,风味闲话FLV,7月2日,VWW,,已译,I wonder where this used to lead...
 FLV_7_5_HBR_01_001,该做决定了，可是……,20248,风味闲话FLV,7月5日,HBR,,已译,"It's time I make a decision, but..."
@@ -20306,11 +20306,11 @@ FLV_8_1_HBY_01_001,也许这是我最后一次这样眺望基弗伯格了……,
 FLV_8_1_HBY_01_002,想到我终于能离开这个地方……,20264,风味闲话FLV,8月1日,HBY,,已译,To think I'll finally be able to leave this place...
 FLV_8_1_OVP_01_001,我已经这么近了……,20265,风味闲话FLV,8月1日,OVP,,已译,I'm so close...
 FLV_8_1_OVP_01_002,我心里还有那么多疑问，可是……,20266,风味闲话FLV,8月1日,OVP,,已译,"I still have so many questions, but..."
-FLV_8_1_OVP_01_003,我会拼尽全力去实现它——让自己终于能踏进那座城堡！,20267,风味闲话FLV,8月1日,OVP,,已译,I'll do everything I can to make it happen — to finally reach that castle!
+FLV_8_1_OVP_01_003,我会拼尽全力去实现它——终于踏进那座城堡！,20267,风味闲话FLV,8月1日,OVP,[校正] finally＝终于；旧译「让自己终于能…」啰嗦可删，但外评改「一定要」既丢 finally、又添原文没有的情态，不采,已译,I'll do everything I can to make it happen — to finally reach that castle!
 FLV_8_1_VSQ_01_001,看来那场游行我是躲不掉了……,20268,风味闲话FLV,8月1日,VSQ,,已译,"I can't avoid going to that procession, I suppose..."
 FLV_8_3_VCC_01_001,一枚马蹄铁……,20269,风味闲话FLV,8月3日,VCC,,已译,A horseshoe...
 FLV_8_3_VCC_01_002,大得根本钉不上马蹄，可……,20270,风味闲话FLV,8月3日,VCC,,已译,"It's too big to be fitted onto a hoof, but..."
-FLV_8_3_VCC_01_003,一枚崭新的马蹄铁，铁面未经磨损，黯淡无光。,20271,风味闲话FLV,8月3日,VCC,,已译,"A brand new horsehoe, its steel surface unworn and dull."
+FLV_8_3_VCC_01_003,一枚崭新的马蹄铁，钢面未经磨损，黯淡无光。,20271,风味闲话FLV,8月3日,VCC,[校正] steel 作「钢面」，同时避开「马蹄铁…铁面」重字,已译,"A brand new horsehoe, its steel surface unworn and dull."
 FLV_8_3_VCC_02_001,一个木偶人……,20272,风味闲话FLV,8月3日,VCC,,已译,A wooden doll...
 FLV_8_3_VCC_02_002,这顶帽子和阿普菲尔的好像……,20273,风味闲话FLV,8月3日,VCC,,已译,This cap is so similar to Apfel's...
 FLV_8_3_VCC_02_003,木偶靠墙而坐，面上没有一丝表情。,20274,风味闲话FLV,8月3日,VCC,,已译,"Left leaning against the wall, the wooden puppet sits emotionless."
@@ -20335,7 +20335,7 @@ FLV_8_3_VCS_03_003,<i>「除了召唤<color=#934494><b>女巫</b></color>瓦尔�
 FLV_8_3_VCS_03_004,<i>「然而为此……我必得背弃我挚爱的基弗伯格……」</i>,20293,风味闲话FLV,8月3日,VCS,,已译,"<i>""In order to do that, however... I ought to turn my back on my beloved Kieferberg...""</i>"
 FLV_8_3_VCS_03_005,<i>「诱出瓦尔普加，须以重祭为饵。」</i>,20294,风味闲话FLV,8月3日,VCS,,已译,"<i>""Luring Walpurga requires heavy sacrifices.""</i>"
 FLV_8_3_VCS_03_006,<i>「一头供她骑乘的牲畜，一个供她饱餐的男人，最后……」</i>,20295,风味闲话FLV,8月3日,VCS,,已译,"<i>""A beast for her to ride, a man for her to feast upon, and lastly...""</i>"
-FLV_8_3_VCS_03_007,<i>「以下不过是我的妄测，却自信足以照亮我此番险途……」</i>,20296,风味闲话FLV,8月3日,VCS,,已译,"<i>""What is no more than a wild guess of mine, but one I believe can truly cast light upon this peril of mine...""</i>"
+FLV_8_3_VCS_03_007,<i>「这一切不过是我的妄测，但我相信，它足以照亮我此番险途……」</i>,20296,风味闲话FLV,8月3日,VCS,[校正] but one I believe 是定语从句，不是转折「却自信」；「以下」指代的是上文那套方案，改「这一切」,已译,"<i>""What is no more than a wild guess of mine, but one I believe can truly cast light upon this peril of mine...""</i>"
 FLV_8_3_VCS_03_008,<i>「伊莉丝本人。」</i>,20297,风味闲话FLV,8月3日,VCS,,已译,"<i>""Elise herself.""</i>"
 FLV_8_3_VCS_03_009,<i>「倘若她当真孕自那片林地……但愿那可憎的<color=#934494><b>女巫</b></color>还想要回她。」</i>,20298,风味闲话FLV,8月3日,VCS,,已译,"<i>""If she truly was conceived in that woodland... I can only hope that wretched <color=#934494><b>witch</b></color> will want her back.""</i>"
 FLV_8_3_VCS_03_010,<i>「我确信那丫头正是老霍尔罪孽往事的钥匙，故而……」</i>,20299,风味闲话FLV,8月3日,VCS,,已译,"<i>""I believe that lass is the key to Old Holle's sinful past, and thus...""</i>"
@@ -20382,7 +20382,7 @@ FLV_8_3_VIN_02_001,芙蕾雅干得可真漂亮。,20339,风味闲话FLV,8月3日
 FLV_8_3_VIN_02_002,基弗伯格的六环五月柱昂然矗立，缀满柔滑的丝带与斑斓的花朵。,20340,风味闲话FLV,8月3日,VIN,,已译,"Kieferberg's six-ringed maypole stands proud, decorated with silky ribbons and colorful flowers."
 FLV_8_3_VIN_03_001,古斯塔夫先生手艺可真好。,20341,风味闲话FLV,8月3日,VIN,[独白] 附加问转陈述,已译,"Mr. Gustav's really talented, isn't he?"
 FLV_8_3_VIN_03_002,几件木雕人偶与雕像正待出售，件件出自古斯塔夫之手。,20342,风味闲话FLV,8月3日,VIN,,已译,"Several wooden figurines and statues are up for sale, all of them crafted by Gustav himself."
-FLV_8_3_VSQ_01_001,大伙儿八成都已经去节庆上了。,20343,风味闲话FLV,8月3日,VSQ,[去腔] I'd wager 化入句中作「八成」,已译,"Everyone's already at the festival, I wager."
+FLV_8_3_VSQ_01_001,大伙儿八成都已经到节庆上去了。,20343,风味闲话FLV,8月3日,VSQ,[校正]「去节庆上」不成搭配；everyone's already at the festival 是「已经到节庆上去了」,已译,"Everyone's already at the festival, I wager."
 FLV_8_5_OCR_01_001,（不能再耽搁了……）,20344,风味闲话FLV,8月5日,OCR,,已译,(I'd best not waste any more time...)
 FLV_8_5_OCR_01_002,（我该动身去森林了！）,20345,风味闲话FLV,8月5日,OCR,,已译,(I ought to get going to the woods!)
 FLV_8_6_WDM_01_001,（尘世欲望之<color=#ed1c24><b>鲜嫩的血肉</b></color>……）,20346,风味闲话FLV,8月6日,WDM,,已译,(The <color=#ed1c24><b>Tender Flesh</b></color> of earthly desire...)
@@ -20416,7 +20416,7 @@ FLV_8_END_W_02_001,它……在抽动……,20373,风味闲话FLV,8,END_W,,已�
 FLV_8_END_W_02_002,我快要吐了……,20374,风味闲话FLV,8,END_W,,已译,I think I'm going to be sick...
 FLV_8_END_W_02_003,一截断肢在地上扭动，手指徒然抓挠着空气。,20375,风味闲话FLV,8,END_W,,已译,"A severed member writhes on the ground, its fingers clawing at the air."
 FLV_8_END_W_03_001,这东西……它在看我！,20376,风味闲话FLV,8,END_W,,已译,This thing... It's looking at me!
-FLV_8_END_W_03_002,畸形的怪物在地上缓缓蠕动，嘶嘶喘息，仿佛挣扎着想要呼吸。,20377,风味闲话FLV,8,END_W,,已译,"Wriggling slowly on the ground, the strange, deformed creature wheezes as though struggling to breathe."
+FLV_8_END_W_03_002,那怪异而畸形的怪物在地上缓缓蠕动，嘶嘶喘息，仿佛挣扎着想要呼吸。,20377,风味闲话FLV,8,END_W,,已译,"Wriggling slowly on the ground, the strange, deformed creature wheezes as though struggling to breathe."
 FLV_8_WDS_SAC_01_001,我没法再回到那里面去……,20378,风味闲话FLV,8,WDS_SAC,,已译,I can't go back in there...
 FLV_8_WDS_SAC_02_001,这里<i>究竟</i>是什么地方？,20379,风味闲话FLV,8,WDS_SAC,,已译,What <i>is</i> this place?
 FLV_8_WDS_SAC_02_002,如地狱般荒芜的景象，绵延至天际尽头。,20380,风味闲话FLV,8,WDS_SAC,,已译,Hellish visions of desolate lands extend into the horizon.
@@ -20433,7 +20433,7 @@ FLV_D_WSN-A_05_001,这扇门看起来好沉……,20390,风味闲话FLV,—,D_WS
 FLV_D_WSN-A_05_002,我力气不够，推不开它……,20391,风味闲话FLV,—,D_WSN-A,,已译,I'm not strong enough to push it open...
 FLV_D_WSN-A_05_003,一扇高大的铁门森然矗立，铁栏上雕着诡异的纹样。,20392,风味闲话FLV,—,D_WSN-A,,已译,"A tall iron gate stands imposigly, its metal bars decorated with eerie sculpted motifs."
 FLV_D_WSN-A_06_001,现在我不能回头！我必须坚持到底！,20393,风味闲话FLV,—,D_WSN-A,,已译,I can't head back now! I must see this through!
-FLV_D_WSN-A_07_001,她的决心动摇了，是这样吗……,20394,风味闲话FLV,—,D_WSN-A,,已译,"She faltered in her resolve, was it..."
+FLV_D_WSN-A_07_001,她的决心动摇了吧……,20394,风味闲话FLV,—,D_WSN-A,,已译,"She faltered in her resolve, was it..."
 FLV_D_WSN-A_07_002,唯有那川流不息的水波搅动其间，月影长伴水面，永不分离。,20395,风味闲话FLV,—,D_WSN-A,,已译,"Disturbed solely by the endless water stream, the moon's reflection graces its surface in everlasting companionship."
 FLV_D_WSN-G_02_001,这些雕像还真是无处不在啊……,20396,风味闲话FLV,—,D_WSN-G,[独白] 附加问转陈述；[语气] 补「还真是……啊」保留压迫感；独白不加问号（见手册§3.4）,已译,"These statues are everywhere, aren't they?"
 FLV_D_WSN-G_02_002,雕像面容全无神情可辨，双手交叠置于胸前，姿态优雅。,20397,风味闲话FLV,—,D_WSN-G,,已译,"Devoid of any traceable expression, the statue's hands rest crossed across its chest in an elegant pose."
@@ -20447,7 +20447,7 @@ FLV_D_WSN-H_01_001,<i>你</i>笑什么呢？,20404,风味闲话FLV,—,D_WSN-H,,
 FLV_D_WSN-H_01_002,尽管容貌已然破碎，雕像的面容仍凝固成一抹纯真的微笑。,20405,风味闲话FLV,—,D_WSN-H,[校正] candid smile=天真不设防，制造反差惊悚；原「坦然」是褒义心境词,已译,"In spite of its shattered appearance, the statue's features remain stiffened into a candid smile."
 FLV_D_WSN-Z_01_001,继续走吧，伊莉丝……,20406,风味闲话FLV,—,D_WSN-Z,,已译,"Ought to keep going, Elise..."
 FLV_D_WSN-Z_01_002,都走到这一步了，回头也没用了。,20407,风味闲话FLV,—,D_WSN-Z,,已译,No use turning back after making it this far.
-FLV_D_WSV_A_01_001,毫无疑问，我正在那条毒蛇的巢穴深处……,20408,风味闲话FLV,—,D_WSV_A,,已译,"I'm in that serpent's depths, no doubt..."
+FLV_D_WSV_A_01_001,毫无疑问，我正身处那条毒蛇的深渊之中……,20408,风味闲话FLV,—,D_WSV_A,[校正] serpent's depths 只写「深处／深渊」，原译「巢穴」是无源实词,已译,"I'm in that serpent's depths, no doubt..."
 FLV_D_WSV_A_01_002,一座雕饰精巧的喷泉高踞村广场，石面上布满诡异的纹样。,20409,风味闲话FLV,—,D_WSV_A,,已译,"A delicately decorated fountain stands tall in the village square, its stone surface adorned with eerie motifs."
 FLV_D_WSV_A_02_001,琳达太太的家……,20410,风味闲话FLV,—,D_WSV_A,,已译,Mrs. Linda's house...
 FLV_D_WSV_A_02_002,屋顶被荆棘与枝条撕成两半，悬浮在地基上方。,20411,风味闲话FLV,—,D_WSV_A,,已译,"Torn in half by thorns and branches, the home's roof floats above its foundations."
@@ -20484,9 +20484,9 @@ FLV_WCW_A_HOUSE_02_001,不行，我不能对此视而不见……,20441,风味�
 FLV_WCW_A_HOUSE_02_002,不管这片森林想告诉我什么……,20442,风味闲话FLV,—,WCW_A_HOUSE,,已译,Whatever it is these woods are trying to tell me...
 FLV_WCW_A_HOUSE_02_003,我都得把它弄个明白！,20443,风味闲话FLV,—,WCW_A_HOUSE,[标点] 删多余省略号/感叹号,已译,I must get to the bottom of it!
 FLV_WCW_A_HOUSE_INTERIOR_01_001,好难闻的气味……,20444,风味闲话FLV,—,WCW_A_HOUSE_INTERIOR,,已译,Such a foul smell...
-FLV_WCW_A_HOUSE_INTERIOR_01_002,浓稠的暗红血液从破裂的大锅边缘溢出，将四周涂抹得一片黏稠光泽。,20445,风味闲话FLV,—,WCW_A_HOUSE_INTERIOR,,已译,"Thick crimson blood overflows from the cauldron's shattered rim, coating everything in its viscous sheen."
+FLV_WCW_A_HOUSE_INTERIOR_01_002,浓稠的暗红血液从大锅碎裂的边缘漫溢出来，让四周泛起一层黏腻的微光。,20445,风味闲话FLV,—,WCW_A_HOUSE_INTERIOR,[校正] 原译「将四周涂抹得一片黏稠光泽」动宾补不成句；coating everything in its viscous sheen 是「让四周泛起一层黏腻的微光」,已译,"Thick crimson blood overflows from the cauldron's shattered rim, coating everything in its viscous sheen."
 FLV_WCW_A_HOUSE_INTERIOR_02_001,我不想看这个……,20446,风味闲话FLV,—,WCW_A_HOUSE_INTERIOR,,已译,I don't want to look at it...
-FLV_WCW_A_HOUSE_INTERIOR_02_002,血迹渗透了挂毯的下半部分，将每一针每一线都彻底染成深红污秽。,20447,风味闲话FLV,—,WCW_A_HOUSE_INTERIOR,,已译,"Blood clings to the tapestry's bottom half, thoroughly coating each stitch in deep red filth."
+FLV_WCW_A_HOUSE_INTERIOR_02_002,血迹浸透了挂毯的下半幅，每一针每一线都被污血彻底染成深红。,20447,风味闲话FLV,—,WCW_A_HOUSE_INTERIOR,[校正]「染成深红污秽」把颜色与污物混成一个宾语；filth 是「污血」，深红是「染成」的补语,已译,"Blood clings to the tapestry's bottom half, thoroughly coating each stitch in deep red filth."
 FLV_WCW_A_HOUSE_INTERIOR_03_001,整个上层都不见了……,20448,风味闲话FLV,—,WCW_A_HOUSE_INTERIOR,,已译,The whole upper floor is missing...
 FLV_WCW_A_HOUSE_INTERIOR_03_002,楼梯如今已通向虚无，那些干裂破损的台阶悬在那里，仿佛浮在半空。,20449,风味闲话FLV,—,WCW_A_HOUSE_INTERIOR,[用词] 朽木台阶 wrinkly 直译「起皱」不合汉语器物搭配（起皱多修饰皮肤、衣物、纸张），改「干裂」,已译,"Now leading nowhere, the staircase's wrinkly and damaged steps are suspended as though floating in midair."
 FLV_WCW_A_HOUSE_INTERIOR_04_001,这不是奶奶的纺车……,20450,风味闲话FLV,—,WCW_A_HOUSE_INTERIOR,[校正] 辨析器物指代为纺车,已译,This isn't Granny's spindle...
@@ -20533,7 +20533,7 @@ FLV_WSV-C_03_003,一尊伊莉丝的雕像以空洞冰冷的目光凝视着来者
 FLV_WSV_Z_Intro_01_001,不，我必须走下去……,20491,风味闲话FLV,—,WSV_Z_Intro,,已译,"No, I must carry on..."
 FLV_WSV_Z_Intro_01_002,我被带到这里，一定有什么缘由……,20492,风味闲话FLV,—,WSV_Z_Intro,,已译,I must have been brought here for a reason...
 Basket_Choice_1,要把手上的东西放进篮子里吗？,20493,商店与道具,—,Choice,[英文回填] 本体对话JSON,已译,Should I place the item I have in my basket?
-Basket_Choice_2,好！,20494,商店与道具,—,Choice,[英文回填] 本体对话JSON,已译,Yes
+Basket_Choice_2,好,20494,商店与道具,—,Choice,[系统] 与同组 Basket_Choice_3「不用了」成对，源文 Yes 无标点；本行与 DLG_TUTORIALS_002、YES 同作「好」；带感叹号的 `Yes!` 仍作「好！」,已译,Yes
 Basket_Choice_3,不用了,20495,商店与道具,—,Choice,[英文回填] 本体对话JSON；[重译] 旧缓存 No...! → 本体 No,已译,No
 ClueHiddenObject_1,里面什么都没有,20496,商店与道具,1,—,[英文回填] 本体对话JSON,已译,There's nothing inside
 ClueHiddenObject_2,上面写着字！,20497,商店与道具,2,—,[英文回填] 本体对话JSON,已译,There's something written!
@@ -20563,7 +20563,7 @@ ITM_F_D_06,鲜亮的紫色茄子，表皮光滑，仿佛被精心打磨过。,20
 ITM_F_D_07,厚重敦实的一块南瓜。,20521,商店与道具,—,F_D,,已译,"A bulky, heavy slice of pumpkin."
 ITM_F_D_08,一包用不同面团、馅料和装饰配料制成的姜饼点心。,20522,商店与道具,—,F_D,[专名] 描述对齐同名道具 20538 ITM_F_N_08「姜饼」(Lebkuchen)；原文 cookies 在本条即该道具本体,已译,"A bundle of cookies made with different doughs, fillings and toppings."
 ITM_F_D_09,酥脆的苹果酥卷，装饰精致，切成厚厚的几块。,20523,商店与道具,—,F_D,,已译,Flaky apple strudel neatly decorated and sliced into thick portions.
-ITM_F_D_10,一对饱满油亮的浆果，散发出令人想起石榴的香气。,20524,商店与道具,—,F_D,,已译,"A pair of shiny, plump berries with an aroma reminiscent of that of a pomegranate."
+ITM_F_D_10,一对饱满晶亮的浆果，散发着宛如石榴般的香气。,20524,商店与道具,—,F_D,"[校正] 浆果用「油亮」显油腻（下一行 20525 香肠才是「油亮」）；shiny, plump 作「饱满晶亮」，plump 不丢",已译,"A pair of shiny, plump berries with an aroma reminiscent of that of a pomegranate."
 ITM_F_D_11,一根油亮饱满、加了香料的香肠。,20525,商店与道具,—,F_D,,已译,A shiny and plump spiced sausage.
 ITM_F_D_12,一大碗浓汤，满满地盛着蔬菜与香肠。,20526,商店与道具,—,F_D,,已译,A hearty bowl of brothy soup loaded with vegetables and sausages.
 ITM_F_D_13,装进玻璃瓶里的香甜葡萄汁。据说能抚慰烦乱的心绪。,20527,商店与道具,—,F_D,,已译,Sweet grape juice bottled into a glass container. Said to soothe one's troubled mind.
@@ -20593,10 +20593,10 @@ ITM_K_D_01,一枚绿宝石胸针，是祖母临终前赠予伊莉丝的。,20550
 ITM_K_D_02,伊莉丝的衣裳，是霍尔亲手为她缝制的。随着时光流逝，如今穿在她身上已渐渐显小。,20551,商店与道具,—,K_D,,已译,"Elise's clothes made for her by Holle. With the passage of time, they've started to grow small on her frame."
 ITM_K_D_03,伊莉丝的红丝带，霍尔用她第一件裙子的碎布为她做成。,20552,商店与道具,—,K_D,,已译,Elise's red ribbon made for her by Holle with the scraps of her very first dress.
 ITM_K_D_04,刀柄雕琢精巧，刀刃却已发钝，明显承载着岁月的痕迹。,20553,商店与道具,—,K_D,,已译,"With a daintily decorated handle, the knife's dull blade visibly bears the weight of time."
-ITM_K_D_05,一把沉甸甸的银钥匙，钥匙柄上盘绕着一条蛇形雕饰。,20554,商店与道具,—,K_D,,已译,A heavy silver key adorned with a snake coiled around its shaft.
+ITM_K_D_05,一把沉甸甸的银钥匙，钥匙杆上盘绕着一条蛇形雕饰。,20554,商店与道具,—,K_D,,已译,A heavy silver key adorned with a snake coiled around its shaft.
 ITM_K_D_06,一块刻着乌鸦图案的沉重石板。,20555,商店与道具,—,K_D,,已译,A heavy stone slate carrying the depiction of a crow.
 ITM_K_D_09,一只衬着内里的草编篮子，饰有红色的丝滑缎带。,20556,商店与道具,—,K_D,,已译,"A lined straw basket decorated with red, silky ribbon."
-ITM_K_D_10,一段直接献给圣瓦尔普加的祷词。,20557,商店与道具,—,K_D,[去腔] 直译本人改写，祷词选词一致,已译,A prayer directed at St. Walpurga herself.
+ITM_K_D_10,一段专门献给圣瓦尔普加本人的祷词。,20557,商店与道具,—,K_D,[去腔] 直译本人改写，祷词选词一致,已译,A prayer directed at St. Walpurga herself.
 ITM_K_D_12,一把古旧的铁钥匙，尖端刻着字母「W」。,20558,商店与道具,—,K_D,,已译,An old iron key bearing the letter 'W' on its tip.
 ITM_K_D_13,"<sprite=""murim"" name=""black"">的紫水晶金戒指，据说能开启通往乌鸦荒原的道路。",20559,商店与道具,—,K_D,,已译,"<sprite=""murim"" name=""black"">'s amethyst gold ring, said to unlock the path to the crows' barren lands."
 ITM_K_D_14,通往内心欲望深处的钥匙。,20560,商店与道具,—,K_D,,已译,The key to the depths of one's desire.
@@ -20689,8 +20689,8 @@ Might fetch a moderate price."
 ITM_N_D_20,"一只暗淡破旧的皮钱袋，满是破洞。
 或许能卖个低价。",20635,商店与道具,—,N_D,,已译,"A dull, worn down leather purse riddled with holes.
 May be sold for a low price."
-ITM_N_D_21,"一只精致的丝质钱袋，穿着红色缎带，饰有花朵图案。
-或许能卖个好价钱。",20636,商店与道具,—,N_D,,已译,"A dainty, silky purse threaded in red ribbon and decorated with a flower motif.
+ITM_N_D_21,"一只精致的丝质钱袋，系着红色缎带，饰有花朵图案。
+或许能卖个好价钱。",20636,商店与道具,—,N_D,[校正] threaded in red ribbon 是「系着红缎带」，原译「穿着」会读成穿戴衣物,已译,"A dainty, silky purse threaded in red ribbon and decorated with a flower motif.
 May be sold for a good price."
 ITM_N_N_01,提灯,20637,商店与道具,—,N_N,,已译,Lantern
 ITM_N_N_02,扫帚,20638,商店与道具,—,N_N,,已译,Broom
@@ -20712,7 +20712,7 @@ ITM_N_N_17,珍珠玫瑰念珠,20653,商店与道具,—,N_N,[专名] rosary 本�
 ITM_N_N_18,玩具马,20654,商店与道具,—,N_N,,已译,Toy Horse
 ITM_N_N_19,华丽玩具马,20655,商店与道具,—,N_N,,已译,Ornate Toy Horse
 ITM_N_N_20,皮钱袋,20656,商店与道具,—,N_N,,已译,Leather Purse
-ITM_N_N_21,丝钱袋,20657,商店与道具,—,N_N,,已译,Silk Purse
+ITM_N_N_21,丝质钱袋,20657,商店与道具,—,N_N,[专名] 对齐描述行 20636「丝质钱袋」,已译,Silk Purse
 ItemChoiceText_1,这是道具选择测试。你要给一件道具吗？,20658,商店与道具,1,—,[英文回填] 本体对话JSON,已译,This is the ITEM CHOICE test. Will you give an item?
 ItemChoiceText_2,好啊，让我选一个！,20659,商店与道具,2,—,[英文回填] 本体对话JSON,已译,"Yeah, let me choose one!"
 ItemChoiceText_4,不！,20660,商店与道具,4,—,[英文回填] 本体对话JSON；[重译] 旧缓存 No...! → 本体 No!,已译,No!
@@ -20734,14 +20734,14 @@ LEB_MAP_DESC,你可以在此找到斯佩尔特的家与面包坊。,20675,商店
 PIC_1_5_001_001,我怎么会把它落在这儿呢？,20676,商店与道具,1月5日,—,,已译,What was I thinking leaving it here?
 PIC_1_5_001_002,该<color=#D90000>生火</color>了。,20677,商店与道具,1月5日,—,[标签] 清理无据标签，恢复源文颜色值,已译,"I ought to <color=#D90000>light the fire</color>, now."
 PIC_4_2_OVP_01_001,这山洞里……这人偶断成两截了……,20678,商店与道具,4月2日,OVP,[校正] 明确代词It指代木制人偶,已译,This cave... It's broken in half...
-PIC_4_2_OVP_01_002,话说回来，这个玩偶怎么会在这种地方？,20679,商店与道具,4月2日,OVP,,已译,"What's this doll doing in such a place, anyhow?"
+PIC_4_2_OVP_01_002,话说回来，这个人偶怎么会在这种地方？,20679,商店与道具,4月2日,OVP,[专名] 同物 20678 与道具名都作「人偶」，不并用「玩偶」,已译,"What's this doll doing in such a place, anyhow?"
 PIC_4_2_OVP_01_003,而且它还这么脆弱——我轻轻一下就能把它弄碎。,20680,商店与道具,4月2日,OVP,[独白] 附加问转陈述,已译,"It's so flimsy, too — I could break it rather easily, couldn't I?"
 PIC_4_2_OVP_02_001,看起来像条鱼……不知道这是做什么用的……,20681,商店与道具,4月2日,OVP,,已译,It looks like a fish... I wonder what this is for...
 PIC_4_2_OVP_02_002,这一切荒唐事背后一定有人在捣鬼……,20682,商店与道具,4月2日,OVP,,已译,Someone has to be behind all this nonsense...
 PIC_4_2_OVP_02_003,对这一切，我有种很不好的预感。,20683,商店与道具,4月2日,OVP,,已译,I have a very bad feeling about all this.
 PIC_4_2_OVP_03_001,这个湿透了……,20684,商店与道具,4月2日,OVP,,已译,This is soaked...
 PIC_4_2_OVP_03_002,这又是一篇那样的祷词。,20685,商店与道具,4月2日,OVP,[独白] 自语转陈述，prayer作祷词,已译,"It's another one of those prayers, isn't it?"
-PIC_4_2_OVP_03_003,大部分我都读不懂，但这里有些东西……,20686,商店与道具,4月2日,OVP,,已译,"I can't read most of it, but there's something here..."
+PIC_4_2_OVP_03_003,多半都看不清了，不过这儿还有点字迹……,20686,商店与道具,4月2日,OVP,[校正] 紧承 20684「这个湿透了」：can't read 是纸面字迹糊了看不清，不是理解层「读不懂」,已译,"I can't read most of it, but there's something here..."
 PIC_4_2_OVP_03_004,<i>「供品……由钥匙指引……」</i>,20687,商店与道具,4月2日,OVP,,已译,"<i>""Offering... which the key leads...""</i>"
 PIC_4_2_OVP_03_005,<i>「埋藏……于基弗伯格深处……水井……」</i>,20688,商店与道具,4月2日,OVP,,已译,"<i>""Buried... deep in Kieferberg... well...""</i>"
 PIC_4_2_OVP_03_006,基弗伯格的水井？那口水井？,20689,商店与道具,4月2日,OVP,,已译,Kieferberg's well? The water well?
@@ -20808,7 +20808,7 @@ PIC_WSV-C_01_7,PIC_WSV-C_01_007,20749,商店与道具,—,WSV-C,[系统] 指针�
 PIC_WSV-C_01_008,取决于你愿意付出的牺牲……,20750,商店与道具,—,WSV-C,,已译,The sacrifices you're willing to make...
 PIC_WSV-C_01_8,PIC_WSV-C_01_008,20751,商店与道具,—,WSV-C,[系统] 指针行免译,指针行免译,
 PIC_WSV-C_01_9,PIC_WSV-C_01_009,20752,商店与道具,—,WSV-C,[系统] 指针行免译,指针行免译,
-PIC_WSV-C_01_009,我都已经走到这一步了，不是吗？,20753,商店与道具,—,WSV-C,,已译,"I've come this far, haven't I?"
+PIC_WSV-C_01_009,我都已经走到这一步了，不是吗？,20753,商店与道具,—,WSV-C,[语气] 前肯后否·有把握档作「不是吗」；同段 20762 已用「是吧」，本行不跟它叠成同一尾巴,已译,"I've come this far, haven't I?"
 PIC_WSV-C_01_010,这还不是你要面对的最后一重险境……,20754,商店与道具,—,WSV-C,,已译,This isn't the last of your perils...
 PIC_WSV-C_01_10,PIC_WSV-C_01_010,20755,商店与道具,—,WSV-C,[系统] 指针行免译,指针行免译,
 PIC_WSV-C_01_011,你必须在自己内心深处找到决心，伊莉丝。,20756,商店与道具,—,WSV-C,,已译,"You must find your resolve deep within yourself, Elise."
@@ -20880,16 +20880,16 @@ SHP_LEB_10_001,我要<b>买</b>……,20819,商店与道具,—,LEB,,已译,I'm 
 SHP_LEB_11_001,我要<b>卖</b>……,20820,商店与道具,—,LEB,,已译,I'm <b>Selling</b>...
 SHP_LEB_12_001,再见，奶奶！,20821,商店与道具,—,LEB,,已译,"See you, Granny!"
 ShopChoiceText_1,需要点什么吗？,20822,商店与道具,1,—,[英文回填] 本体对话JSON,已译,Need something?
-ShopChoiceText_3,我要买！,20823,商店与道具,3,—,[v1.3.27修] IM BUYING 是玩家的选项，非进度状态,已译,IM BUYING
-ShopChoiceText_5,我要卖！,20824,商店与道具,5,—,[v1.3.27修] IM SELLING 是玩家的选项，非进度状态,已译,IM SELLING
+ShopChoiceText_3,我要买,20823,商店与道具,3,—,[系统] 商店按钮标签：源文 IM BUYING 无标点，同菜单 BUY／SELL 作「购买／出售」、other OPTION 作「其他选项」也都不带；本行与同句其余 UI、三条 XUAT 孪生（02749/2750/2751）一并去句末「！」,已译,IM BUYING
+ShopChoiceText_5,我要卖,20824,商店与道具,5,—,[v1.3.27修] IM SELLING 是玩家的选项，非进度状态,已译,IM SELLING
 ShopChoiceText_7,还需要别的吗？,20825,商店与道具,7,—,[英文回填] 本体对话JSON,已译,Anything else?
 ShopChoiceText_8,下次再来吧！,20826,商店与道具,8,—,[英文回填] 本体对话JSON,已译,See you next time!
 ShopChoiceText_BUY,购买,20827,商店与道具,—,BUY,[英文回填] 本体对话JSON,已译,BUY
 ShopChoiceText_EXIT,再见！！！,20828,商店与道具,—,EXIT,[标点] GOODBYE!!!保留三感叹号; [英文回填] 本体对话JSON,已译,GOODBYE!!!
 ShopChoiceText_SELL,出售,20829,商店与道具,—,SELL,[英文回填] 本体对话JSON,已译,SELL
 ShopLebText_1,SHP_LEB_01_001,20830,商店与道具,1,—,[系统] 指针行免译；[格式] 原表指针多打一个 0，改为真实键 SHP_LEB_01_001（问候语见 SHP_LEB_01_001）,指针行免译,
-ShopLebText_3,我要买！,20831,商店与道具,3,—,[v1.3.27修] IM BUYING 是玩家的选项，非进度状态,已译,IM BUYING
-ShopLebText_5,我要卖！,20832,商店与道具,5,—,[v1.3.27修] IM SELLING 是玩家的选项，非进度状态,已译,IM SELLING
+ShopLebText_3,我要买,20831,商店与道具,3,—,[v1.3.27修] IM BUYING 是玩家的选项，非进度状态,已译,IM BUYING
+ShopLebText_5,我要卖,20832,商店与道具,5,—,[v1.3.27修] IM SELLING 是玩家的选项，非进度状态,已译,IM SELLING
 ShopLebText_7,还需要别的吗？,20833,商店与道具,7,—,[英文回填] 本体对话JSON,已译,Anything else?
 ShopLebText_8,下次再来吧！,20834,商店与道具,8,—,[英文回填] 本体对话JSON,已译,See you next time!
 ShopLebText_BUY,购买,20835,商店与道具,—,BUY,[英文回填] 本体对话JSON,已译,BUY
@@ -20947,7 +20947,7 @@ GO_TO_COUNCIL,参加教堂里的村民议事会！,20886,任务与引导,—,TO_
 GO_TO_FESTIVAL,前往节庆！,20887,任务与引导,—,TO_FESTIVAL,[专名] festival 本行作「节庆」,已译,Head to the Festival!
 GO_TO_INN,去旅店与众人相聚！,20888,任务与引导,—,TO_INN,,已译,Join folks by the Inn!
 GO_TO_VIGIL,前去守夜。,20889,任务与引导,—,TO_VIGIL,,已译,Go to Vigil.
-GO_TO_VILLAGE,前往基弗伯格村庄！,20890,任务与引导,—,TO_VILLAGE,,已译,Head to Kieferberg Village!
+GO_TO_VILLAGE,前往基弗伯格村！,20890,任务与引导,—,TO_VILLAGE,[专名] 地名作「基弗伯格村」，与地图／任务提示同用，「村庄」二字多余,已译,Head to Kieferberg Village!
 HEAD_HOME,找到回家的路！,20891,任务与引导,—,HOME,,已译,Find your way home!
 HEAD_TO_WORK,回去干活！,20892,任务与引导,—,TO_WORK,,已译,Head back to work!
 HEART_ACQUIRED,获得爱心碎片！,20893,任务与引导,—,ACQUIRED,,已译,Heart Piece Acquired!
@@ -20965,23 +20965,23 @@ INSPECT_ITEM,查看,20904,任务与引导,—,ITEM,,已译,Inspect
 LEAVE_ROOM,离开房间！,20905,任务与引导,—,ROOM,,已译,Leave the room!
 LIGHT_FIREPLACE,点燃壁炉！,20906,任务与引导,—,FIREPLACE,,已译,Light the fireplace!
 LoopChoiceText_2_1,需要点什么吗？,20907,任务与引导,2月1日,—,[英文回填] 本体对话JSON,已译,Need something?
-LoopChoiceText_2_2,反正，有什么好原谅的呢？,20908,任务与引导,2月2日,—,[英文回填] 本体对话JSON；[重译] 补全anyhow并对齐XUAT_06086口语译文，旧值「这有什么好宽恕的？」,已译,"What's there to forgive, anyhow?"
-LoopChoiceText_2_3,我要买！,20909,任务与引导,2月3日,—,[v1.3.27修] IM BUYING 是玩家的选项，非进度状态,已译,IM BUYING
+LoopChoiceText_2_2,反正有什么好原谅的呢？,20908,任务与引导,2月2日,—,[英文回填] 本体对话JSON；[重译] 补全anyhow并对齐XUAT_06086口语译文，旧值「这有什么好宽恕的？」,已译,"What's there to forgive, anyhow?"
+LoopChoiceText_2_3,我要买,20909,任务与引导,2月3日,—,[v1.3.27修] IM BUYING 是玩家的选项，非进度状态,已译,IM BUYING
 LoopChoiceText_2_6,你没瞧见把她吓成什么样了吗？,20910,任务与引导,2月6日,—,[同键] 与 XUAT_00970 同英文，同值；英文键兜底表只能显示一条,已译,Can't you see you're frightening her?
 LoopChoiceText_3_1,需要点什么吗？,20911,任务与引导,3月1日,—,[英文回填] 本体对话JSON,已译,Need something?
 LoopChoiceText_3_2,购买,20912,任务与引导,3月2日,—,[英文回填] 本体对话JSON,已译,BUY
-LoopChoiceText_3_3,我要买！,20913,任务与引导,3月3日,—,[v1.3.27修] IM BUYING 是玩家的选项，非进度状态,已译,IM BUYING
+LoopChoiceText_3_3,我要买,20913,任务与引导,3月3日,—,[v1.3.27修] IM BUYING 是玩家的选项，非进度状态,已译,IM BUYING
 LoopChoiceText_3_4,出售,20914,任务与引导,3月4日,—,[英文回填] 本体对话JSON,已译,SELL
-LoopChoiceText_3_5,我要卖！,20915,任务与引导,3月5日,—,[v1.3.27修] IM SELLING 是玩家的选项，非进度状态,已译,IM SELLING
+LoopChoiceText_3_5,我要卖,20915,任务与引导,3月5日,—,[v1.3.27修] IM SELLING 是玩家的选项，非进度状态,已译,IM SELLING
 LoopChoiceText_3_6,再见！！！,20916,任务与引导,3月6日,—,[标点] GOODBYE!!!保留三感叹号; [英文回填] 本体对话JSON,已译,GOODBYE!!!
 LoopChoiceText_4_1,需要点什么吗？,20917,任务与引导,4月1日,—,[英文回填] 本体对话JSON,已译,Need something?
 LoopChoiceText_4_2,购买,20918,任务与引导,4月2日,—,[英文回填] 本体对话JSON,已译,BUY
-LoopChoiceText_4_3,我要买！,20919,任务与引导,4月3日,—,[v1.3.27修] IM BUYING 是玩家的选项，非进度状态,已译,IM BUYING
+LoopChoiceText_4_3,我要买,20919,任务与引导,4月3日,—,[v1.3.27修] IM BUYING 是玩家的选项，非进度状态,已译,IM BUYING
 LoopChoiceText_4_4,出售,20920,任务与引导,4月4日,—,[英文回填] 本体对话JSON,已译,SELL
-LoopChoiceText_4_5,我要卖！,20921,任务与引导,4月5日,—,[v1.3.27修] IM SELLING 是玩家的选项，非进度状态,已译,IM SELLING
+LoopChoiceText_4_5,我要卖,20921,任务与引导,4月5日,—,[v1.3.27修] IM SELLING 是玩家的选项，非进度状态,已译,IM SELLING
 LoopChoiceText_4_6,再见！！！,20922,任务与引导,4月6日,—,[标点] GOODBYE!!!保留三感叹号; [英文回填] 本体对话JSON,已译,GOODBYE!!!
 LoopChoiceText_4_8,其他选项,20923,任务与引导,4月8日,—,[英文回填] 本体对话JSON,已译,other OPTION
-LoopChoiceText_4_9,选其他的！,20924,任务与引导,4月9日,—,[v1.3.27修] IM other optioning 是玩家的选项，非进度状态,已译,IM other optioning
+LoopChoiceText_4_9,选其他的,20924,任务与引导,4月9日,—,[v1.3.27修] IM other optioning 是玩家的选项，非进度状态,已译,IM other optioning
 MAKE_COMPANY,获得良伴！,20925,任务与引导,—,COMPANY,,已译,Acquire the Good Company!
 MAKE_WINE,酿造最甜美的琼浆！,20926,任务与引导,—,WINE,,已译,Craft the Sweetest Nectar!
 MAX_LOVE_ACQUIRED,永恒之爱！,20927,任务与引导,—,LOVE_ACQUIRED,,已译,Everlasting Love!
@@ -20997,7 +20997,7 @@ OverarchingGoal_Bread,获取,20936,任务与引导,—,BREAD,,已译,Acquire
 OverarchingGoal_Virgin,获取,20937,任务与引导,—,VIRGIN,,已译,Acquire
 OverarchingGoal_Wine,获取,20938,任务与引导,—,WINE,,已译,Acquire
 PROGRESS_SAVED,进度已保存！,20939,任务与引导,—,SAVED,,已译,Progress Saved!
-PathBlockMonday_1,我得去照料我的园子。,20940,任务与引导,1,—,[英文回填] 本体对话JSON,已译,Need to tend to my garden.
+PathBlockMonday_1,我得去照料我的菜园。,20940,任务与引导,1,—,[专名] garden＝菜园，与 19651／1265 同；第三种写法「园子」一并收口,已译,Need to tend to my garden.
 RETRIEVE_ITEM,取回道具？,20941,任务与引导,—,ITEM,,已译,Retrieve item?
 RETRIEVE_RING,取回戒指！,20942,任务与引导,—,RING,,已译,Retrieve the ring!
 ROMANTIC_AVAILABLE,可发起浪漫约会！,20943,任务与引导,—,AVAILABLE,[系统] UI提示消除同义重叠赘余,已译,Romantic Date Available!
@@ -21033,7 +21033,7 @@ TASK_LISBETH_APPLES,帮莉丝贝特摘苹果！,20972,任务与引导,—,LISBET
 TASK_LISBETH_WOOD,帮莉丝贝特劈些木柴！,20973,任务与引导,—,LISBETH_WOOD,,已译,Help Lisbeth chop some wood!
 TASK_LORELEY_APPLES,帮罗蕾莱摘苹果！,20974,任务与引导,—,LORELEY_APPLES,,已译,Help Loreley with the apples!
 TASK_LUDWIG_APPLES,帮路德维希摘苹果！,20975,任务与引导,—,LUDWIG_APPLES,,已译,Help Ludwig with the apples!
-TASK_LUDWIG_CHICKENS,帮路德维希照料鸡群！,20976,任务与引导,—,LUDWIG_CHICKENS,[校正] 源表英文笔误：本条英文与上一条 TASK_LUDWIG_APPLES 串行（同为 Help Ludwig with the apples!）；按记录键 CHICKENS 定：同系列任务名（ARIANE／BERTHA／DOROTHEA 等）皆作「照料鸡群」,已译,Help Ludwig with the apples!
+TASK_LUDWIG_CHICKENS,帮路德维希照料鸡群！,20976,任务与引导,—,LUDWIG_CHICKENS,[校正] 源表英文列保留笔误（与上一条 TASK_LUDWIG_APPLES 串行，同为 Help Ludwig with the apples!）；译文按记录键 CHICKENS 与同系列任务作「照料鸡群」，不据该英文列回退,已译,Help Ludwig with the apples!
 TASK_MARIELE_CHICKENS,帮玛丽勒照料鸡群！,20977,任务与引导,—,MARIELE_CHICKENS,,已译,Help Mariele with the chickens!
 TASK_MARIELE_WOOD,帮玛丽勒劈些木柴！,20978,任务与引导,—,MARIELE_WOOD,,已译,Help Mariele chop some wood!
 TASK_MARLEN_APPLES,帮玛尔伦摘苹果！,20979,任务与引导,—,MARLEN_APPLES,[专名] 摘苹果小游戏任务引导定名,已译,Help Marlen with the apples!
@@ -21150,7 +21150,7 @@ VIEWPOINT_DESC,基弗伯格的老风车俯瞰远方大地之处。,21059,场景�
 VILLAGE_ALLEY,后巷,21060,场景与地点,—,ALLEY,,已译,Back Alleys
 VILLAGE_ALLEY_DESC,芙蕾雅与古斯塔夫居住的狭窄小巷。,21061,场景与地点,—,ALLEY_DESC,,已译,The narrow alleyway where Freya and Gustav live.
 VILLAGE_INN,村庄旅店,21062,场景与地点,—,INN,,已译,Village Inn
-VILLAGE_INN_DESC,镇子东侧，你可以在此找到基弗伯格唯一的旅店。,21063,场景与地点,—,INN_DESC,,已译,The East side of town where you can find Kieferberg's only inn.
+VILLAGE_INN_DESC,镇子东侧，基弗伯格唯一的旅店就在这儿。,21063,场景与地点,—,INN_DESC,,已译,The East side of town where you can find Kieferberg's only inn.
 VILLAGE_SQUARE,村广场,21064,场景与地点,—,SQUARE,[专名] 与对白一致作「村广场」,已译,Village Square
 VILLAGE_SQUARE_DESC,基弗伯格的广场，喷泉与镇上教堂的所在地。,21065,场景与地点,—,SQUARE_DESC,,已译,"Kieferberg's square, home to the fountain and the town's church."
 VILLAGE_WELL,水井,21066,场景与地点,—,WELL,,已译,Water Well
@@ -21180,7 +21180,7 @@ COM_019,,21089,系统与界面,19,—,[系统] 空记录键占位,空占位,
 COM_020,,21090,系统与界面,20,—,[系统] 空记录键占位,空占位,
 COM_021,,21091,系统与界面,21,—,[系统] 空记录键占位,空占位,
 COM_022,,21092,系统与界面,22,—,[系统] 空记录键占位,空占位,
-IMG_Place,EN/Place,21093,系统与界面,—,Place,[系统] 图片路径键免译,已译,EN/Place
+IMG_Place,EN/Place,21093,系统与界面,—,Place,[系统] 图片路径键，中文照录英文原值（不进正文替换）；状态仍记「已译」表示已处理，非「已翻译」,已译,EN/Place
 LOAD_QUERY,载入此存档？,21094,系统与界面,—,QUERY,,已译,Load this save?
 MAP_MENU,基弗伯格地图,21095,系统与界面,—,MENU,,已译,Map of Kieferberg
 RELATIONSHIP_MENU,人际关系菜单,21096,系统与界面,—,MENU,,已译,Relationships Menu
@@ -21219,11 +21219,11 @@ STG_VSYNC,垂直同步,21128,系统与界面,—,VSYNC,,已译,VSync
 STG_WINDOWED,窗口模式,21129,系统与界面,—,WINDOWED,,已译,Windowed
 CROW_WOODS,陶瓷麦林,21130,结局与其他,—,WOODS,,已译,Ceramic Grove of Wheat
 Cancel,取消,21131,结局与其他,—,Cancel,,已译,Cancel
-DLG_DEV_Test-multiStartDialogue_1,成功,21132,结局与其他,—,DEV_Test-multiStartDialogue,[系统] 测试残留条目免译; [英文回填] 本体对话JSON,已译,Success
-DLG_DEV_Test-multiStartDialogue_2,成功 成功 成功 成功 成功 成功 成功 成功 成功 成功,21133,结局与其他,—,DEV_Test-multiStartDialogue,[系统] 测试残留条目免译; [英文回填] 本体对话JSON,已译,Success Success Success Success Success Success Success Success Success Success
-DLG_DEV_Test-multiStartDialogue_3,开始第2段对话,21134,结局与其他,—,DEV_Test-multiStartDialogue,[系统] 测试残留条目免译; [英文回填] 本体对话JSON,已译,START 2 dialogue
-DLG_DEV_Test-multiStartDialogue_4,开始第3段对话,21135,结局与其他,—,DEV_Test-multiStartDialogue,[系统] 测试残留条目免译; [英文回填] 本体对话JSON,已译,START 3 dialogue
-DLG_DEV_Test-multiStartDialogue_5,开始第4段对话,21136,结局与其他,—,DEV_Test-multiStartDialogue,[系统] 测试残留条目免译; [英文回填] 本体对话JSON,已译,START 4 dialogue
+DLG_DEV_Test-multiStartDialogue_1,成功,21132,结局与其他,—,DEV_Test-multiStartDialogue,[系统] DEV 测试残留条目，译文照录；不影响正式流程,已译,Success
+DLG_DEV_Test-multiStartDialogue_2,成功 成功 成功 成功 成功 成功 成功 成功 成功 成功,21133,结局与其他,—,DEV_Test-multiStartDialogue,[系统] DEV 测试残留条目，译文照录；不影响正式流程,已译,Success Success Success Success Success Success Success Success Success Success
+DLG_DEV_Test-multiStartDialogue_3,开始第2段对话,21134,结局与其他,—,DEV_Test-multiStartDialogue,[系统] DEV 测试残留条目，译文照录；不影响正式流程,已译,START 2 dialogue
+DLG_DEV_Test-multiStartDialogue_4,开始第3段对话,21135,结局与其他,—,DEV_Test-multiStartDialogue,[系统] DEV 测试残留条目，译文照录；不影响正式流程,已译,START 3 dialogue
+DLG_DEV_Test-multiStartDialogue_5,开始第4段对话,21136,结局与其他,—,DEV_Test-multiStartDialogue,[系统] DEV 测试残留条目，译文照录；不影响正式流程,已译,START 4 dialogue
 DREAM_PALACE,？？？？？？,21137,结局与其他,—,PALACE,,已译,??????
 Demon_Test_Names_1,成功 成功 成功,21138,结局与其他,—,Test_Names,[系统] 归一键共用，取纯文本避免给另两个角色显示错头像,已译,"Success <sprite=""ozzy"" name=""white""> Success <sprite=""ozzy"" name=""black""> Success"
 Demon_Test_Names_2,成功 成功 成功,21139,结局与其他,—,Test_Names,[系统] 归一键共用，取纯文本避免给另两个角色显示错头像,已译,"Success <sprite=""aziel"" name=""white""> Success <sprite=""aziel"" name=""black""> Success"
@@ -21287,7 +21287,7 @@ SSS1_B_1,什么谢礼？,21196,结局与其他,—,B,[英文回填] 本体对话
 SSS1_B_2,我就知道这样能引起你的注意！,21197,结局与其他,—,B,[英文回填] 本体对话JSON,已译,I knew that would get your attention!
 SSS1_B_3,真是的，芙蕾雅！你到底要不要我帮忙啊！,21198,结局与其他,—,B,[英文回填] 本体对话JSON；[语气] 补明宾语（上文 21191「还指望着你能帮我」），消除「要不要」正反疑问与句末「吧」的杂糅,已译,"For Heaven's sake, Freya! Take it or leave it!"
 SSS1_B_4,是这样的，我最近在捣鼓药膏的香味呢！,21199,结局与其他,—,B,[英文回填] 本体对话JSON,已译,"You see, I've been playing about with scents for ointments lately!"
-SSS1_B_5,我还剩不少，你要的话就拿去？,21200,结局与其他,—,B,[英文回填] 本体对话JSON,已译,"I have plenty to spare, if you'd like?"
+SSS1_B_5,我还剩不少，你要的话，我可以分你点？,21200,结局与其他,—,B,[英文回填] 本体对话JSON,已译,"I have plenty to spare, if you'd like?"
 SSS1_B_6,好吧！就这么说定了！,21201,结局与其他,—,B,[英文回填] 本体对话JSON,已译,Fine! We're settled!
 SSS1_B_7,这也太容易了吧！,21202,结局与其他,—,B,[英文回填] 本体对话JSON,已译,That was too easy!
 SSS1_B_8,我总不能眼睁睁看你被人欺负吧？,21203,结局与其他,—,B,[英文回填] 本体对话JSON；[语气] am I? 反问表安抚，单用「吧？」已够,已译,"I'm not about to leave you to the wolves now, am I?"
@@ -21297,7 +21297,7 @@ TALK_ROZEN,与萝森玛琳交谈！,21206,结局与其他,—,ROZEN,,已译,Talk
 TALK_ROZENMARINE,去和萝森玛琳聊聊那些赠礼！,21207,结局与其他,—,ROZENMARINE,[专名] Gifts 本行作「赠礼」（手册 §4.3）,已译,Talk to Rozenmarine about the Gifts!
 TALK_ROZENMARINE_2,去外面和萝森玛琳聊聊！,21208,结局与其他,—,ROZENMARINE,,已译,Talk to Rozenmarine outside!
 WITCH_WOODS,生机盎然的圣林,21209,结局与其他,—,WOODS,,已译,Living Hallowed Coppice
-YES,好！,21210,结局与其他,—,Yes,,已译,YES
+YES,好,21210,结局与其他,—,Yes,,已译,YES
 XUAT_00001,<i>「一切都指向基弗伯格——<color=#934494><b>女巫</b></color>瓦尔普加及其教派的发源之地。」</i>,21211,遗留层XUAT,—,XUAT,[v1.3.26修] 补回瓦尔普加及背景；回修补回 <i>「」</i> 与女巫高亮,已译,"""Everything points back to Kieferberg the birthplace of the witch, Walpurga, and her cult."""
 XUAT_00002,献给主人的赠礼——食物、饮品与良伴！,21212,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_5_1_HBY_01_041,已译,"""Gifts for the host - food, drink and good company!"""
 XUAT_00003,<i>「恳请你赐下一个征兆——作为对我祈求的证言。」</i>,21213,遗留层XUAT,—,XUAT,[v11修订] 清理外层裸引号,已译,"""I beg thou for a sign a testimony to my plea."""
@@ -21307,7 +21307,7 @@ XUAT_00006,「我的职责就是照顾老人家，顺便把自己气疯！」,21
 XUAT_00007,<i>「它也从未被称作神明或男性神祇——而是一个女人。」</i>,21217,遗留层XUAT,—,XUAT,[v11修订] 清理双重引号与嵌套标签,已译,"""Neither was it ever referred to as a God, or a male deity rather, a woman."""
 XUAT_00008,「先别管招牌了——得先给你张罗间正经铺子！」,21218,遗留层XUAT,—,XUAT,[v11修订] 消除外层ASCII引号,已译,"""Never mind the sign we need to get you a proper shop first!"""
 XUAT_00009,<i>「我的研究无一能佐证她的忏悔——其中根本不曾提及<b>祂</b>。」</i>,21219,遗留层XUAT,—,XUAT,[v11修订] 清理双重引号与嵌套标签；[v11终审修] 魔神代词 Him 严格规范为粗体 <b>祂</b>,已译,"""No part of my research has corroborated her confession none of it mentions Him."""
-XUAT_00010,<i>「异教徒、巫会与不信者——形形色色，数不胜数。」</i>,21220,遗留层XUAT,—,XUAT,[对齐] 与主表 FLV_4_2_OVP_10_004 同源统一：顿号改逗号（外评同源 60 组）,已译,"""Pagan heretics, covenants and non-believers all of them plentiful and diverse."""
+XUAT_00010,<i>「异教徒、巫会与不信者——形形色色，数不胜数。」</i>,21220,遗留层XUAT,—,XUAT,[对齐] 与主表 FLV_4_2_OVP_10_004 同译；英文一处无破折号、一处有，中文两边都用顿号「、」，不改为逗号,已译,"""Pagan heretics, covenants and non-believers all of them plentiful and diverse."""
 XUAT_00011,<i>「然而那已成过往——圣瓦尔普加如今是教会的主保，我们信仰中仁慈的圣者。」</i>,21221,遗留层XUAT,—,XUAT,[v11修订] 清理双重引号与嵌套标签；[v11终审修] 剔除脑补神学祈求辞，还原客观文献口吻,已译,"""That is no more, however St. Walpurga is a patroness of the Church, a benevolent figure in our faith."""
 XUAT_00012,<i>「而老霍尔声称从林地带回的，恰恰正是——一个婴孩。」</i>,21222,遗留层XUAT,—,XUAT,[v11修订] 清理双重引号与嵌套标签,已译,"""That is precisely what Old Holle claimed she got out of the woodland a baby."""
 XUAT_00013,<i>「这意识——即我们如今所称的<color=#934494><b>女巫</b></color>——名叫瓦尔普加。」</i>,21223,遗留层XUAT,—,XUAT,[v1.3.26修] 补回瓦尔普加并清理标签；回修补回 <i>「」</i> 与女巫高亮,已译,"""This consciousness what we now call a witch was named Walpurga."""
@@ -21318,10 +21318,10 @@ XUAT_00017,（现在才说这个，未免太晚了点。）,21227,遗留层XUAT,
 XUAT_00018,（守夜啊……）,21228,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(A vigil...)
 XUAT_00019,（我只能盼着他们别改主意了，我想……）,21229,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(All I can do is hope they don't change their minds, I suppose...)"
 XUAT_00020,（但愿这事跟我一点关系都没有……）,21230,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(All I can do is hope this doesn't involve me in any way...)
-XUAT_00021,（这些荒唐事……真的正在发生，是不是……）,21231,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(All of this nonsense... It trully is happening, isn't it...)"
+XUAT_00021,（这些荒唐事……真的正在发生啊……）,21231,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(All of this nonsense... It trully is happening, isn't it...)"
 XUAT_00022,（而汉斯神父却始终袖手旁观……）,21232,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(All the while Father Hans won't lift a finger or lend a hand...)
 XUAT_00023,（不管怎么说……？）,21233,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(All things considered...?)
-XUAT_00024,（我是不是该把这事告诉斯佩尔特呢……？）,21234,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Am I to bring this to Lebkuchen, I wonder...?)"
+XUAT_00024,（我是不是该把这个拿去给斯佩尔特呢……？）,21234,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Am I to bring this to Lebkuchen, I wonder...?)"
 XUAT_00025,（凶兆……？）,21235,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(An ill omen...?)
 XUAT_00026,（但愿她再也别回来了！）,21236,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(And may she never come back!)
 XUAT_00027,（又一段祷词……）,21237,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CSM_3_2_OCR_01_002,已译,(Another prayer...)
@@ -21342,7 +21342,7 @@ XUAT_00041,（她说话的时候自己听得进去吗？）,21251,遗留层XUAT,
 XUAT_00042,（虽说我早就知道了，可这心里还是……）,21252,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Even if I already knew that, it's still...)"
 XUAT_00043,（即便如此，我……）,21253,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Even that being so, I...)"
 XUAT_00044,（一切真是彻底失控了呢……）,21254,遗留层XUAT,—,XUAT,[v11修订] 独白句尾huh转自语口吻,已译,"(Everything truly is out of hand, huh...)"
-XUAT_00045,（她来之前，日子好像都没这么鲜活呢……？）,21255,遗留层XUAT,—,XUAT,[v11修订] 独白句尾huh转自语口吻,已译,"(Everything used to feel duller before she got here, huh...?)"
+XUAT_00045,（她来之前，日子好像都没这么鲜活呢……）,21255,遗留层XUAT,—,XUAT,[v11修订] 独白句尾huh转自语口吻,已译,"(Everything used to feel duller before she got here, huh...?)"
 XUAT_00046,（汉斯神父……？）,21256,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_5_1_OLH_01_012,已译,(Father Hans...?)
 XUAT_00047,（总算！总算还有个明白事理的人！）,21257,遗留层XUAT,—,XUAT,[v1.3.27修] “总算了”不成词,已译,(Finally! Some common sense!)
 XUAT_00048,（先是答应让这个……丫头住下……）,21258,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(First I agreed to house this...lassie...)
@@ -21350,7 +21350,7 @@ XUAT_00049,（先是斯佩尔特，现在又是萝丝玛琳……）,21259,遗�
 XUAT_00050,（先是那老巫婆……现在又是这个自称什么先知的人……）,21260,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(First that old hag... Now this seer, or whatever she called herself...)"
 XUAT_00051,（先是那双鞋，然后是那个老巫婆……）,21261,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(First the shoes, then that old hag...)"
 XUAT_00052,（大伙儿都这么紧张，弄得我也跟着紧张起来了……）,21262,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(Folks being on edge is making me feel on edge...)
-XUAT_00053,（今天大伙儿是真的心神不宁啊……？）,21263,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Folks truly are on edge today, aren't they...?)"
+XUAT_00053,（今天大伙儿是真的心神不宁啊……）,21263,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Folks truly are on edge today, aren't they...?)"
 XUAT_00054,（她说这是有道理的！）,21264,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(For good reason, she says!)"
 XUAT_00055,（真是的！在这村子里都要被逼疯了！）,21265,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(For goodness' sake! I'm losing my wits in this town!)
 XUAT_00056,（芙蕾雅真的把事情平息下来了呢……）,21266,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(Freya truly did matters to rest there...)
@@ -21363,7 +21363,7 @@ XUAT_00062,（霍尔奶奶的房间呢……）,21272,遗留层XUAT,—,XUAT,[v1
 XUAT_00063,（好极了！来得可真是时候！）,21273,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(Great! Right what I needed!)
 XUAT_00064,（祂爱留着就留着吧，我才不稀罕，你个老家伙！）,21274,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(He can keep it for all I care, you old geezer!)"
 XUAT_00065,（他肯定最讨厌承认我是对的了！）,21275,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(He hated admitting I was right, I'm certain!)"
-XUAT_00066,（他今天可真是格外开心呢……？）,21276,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(He's rather cheery, isn't he...?)"
+XUAT_00066,（他今天可真是格外开心呢……）,21276,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(He's rather cheery, isn't he...?)"
 XUAT_00067,（又来了，老太太们的那套鬼话！）,21277,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(Here we go again with the old wives' tales!)
 XUAT_00068,（但愿路德维希先生过后能把这事忘个干净……）,21278,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_5_3_VSQ_01_045,已译,(Hopefully Mr Ludwig will forget all about it later...)
 XUAT_00069,（布伦希尔德怎么受得了这老太婆，真是个谜！）,21279,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(How Brunhilde puts up with this old hag is a mystery to me!)
@@ -21386,7 +21386,7 @@ XUAT_00085,（我可不敢打包票，不过……）,21295,遗留层XUAT,—,XU
 XUAT_00086,（我可不敢保证什么……）,21296,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(I can't make any proper promises...)
 XUAT_00087,（我动不了……！）,21297,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(I can't move...!)
 XUAT_00088,（我信不过他——基弗伯格也一样指望不上他！）,21298,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(I can't rely on him - and neither can Kieferberg!)
-XUAT_00089,（我不能告诉她我看见了什么……）,21299,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_3_2_VSQ_01_046,已译,(I can't tell her about what I saw...)
+XUAT_00089,（我不能告诉她我看见了什么……）,21299,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录；旧备注引的 DLG_3_2_VSQ_01_046 原文是 (I wonder what that's all about...)，与本条不同源，已删,已译,(I can't tell her about what I saw...)
 XUAT_00090,（偏偏是威尔玛，我才懒得管她呢！）,21300,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(I couldn't care less about Wilma, of all people!)"
 XUAT_00091,（我确实看见了！还有那只乌鸦……！）,21301,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(I did see it! That crow, too...!)"
 XUAT_00092,（我都还没说出女巫两个字，她就吓得魂不守舍了呢……）,21302,遗留层XUAT,—,XUAT,[v11修订] 独白huh转自语口吻,已译,"(I didn't even say Witch and she's already losing her wits, huh?)"
@@ -21416,7 +21416,7 @@ XUAT_00115,（我看我最好过去一趟，免得她跑丢了……）,21325,�
 XUAT_00116,（我想我是没什么特别的，可我还是忍不住想……）,21326,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(I suppose I'm not special, but I'm left to wonder...)"
 XUAT_00117,（想来也是。）,21327,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_4_1_VIN_04_022,已译,(I suppose not...)
 XUAT_00118,（我想她这是心里过意不去了呢……）,21328,遗留层XUAT,—,XUAT,[v11修订] 独白huh转自语口吻,已译,"(I suppose she's feeling guilty, huh...)"
-XUAT_00119,（但愿如此——这是肯定的。）,21329,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(I surely hope I don't - that's for certain.)
+XUAT_00119,（但愿别那样——这倒是可以肯定。）,21329,遗留层XUAT,—,XUAT,[校正] 原值把极性译反了：hope I don't＝但愿别那样；「这是肯定的」对应 that's for certain，本条无上文，保持不点明所指,已译,(I surely hope I don't - that's for certain.)
 XUAT_00120,（我实在没法开口告诉她……）,21330,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(I truly can't bring myself to tell her...)
 XUAT_00121,（这种胡话我实在没法附和，可是……）,21331,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(I truly can't stomach agreeing with this nonsense, but...)"
 XUAT_00122,（我是真的没法跟她说……）,21332,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(I truly can't tell her...)
@@ -21470,13 +21470,13 @@ XUAT_00169,（她们就只会聊生孩子的事吗？）,21379,遗留层XUAT,—
 XUAT_00170,（那是欧根先生的……？！）,21380,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(Is that Mr Eugen's...?!)
 XUAT_00171,（她是不是有点想太远了？）,21381,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(Isn't she getting ahead of herself here?)
 XUAT_00172,（这话不是该跟奥蒂莉太太说去吗？）,21382,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Isn't this a conversation to have with Mrs Odilie, I wonder?)"
-XUAT_00173,（我同意也好，反驳也罢，反正都没差，不是吗？）,21383,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(It doesn't matter whether I agree or deny it, does it?)"
+XUAT_00173,（我同意也好，反驳也罢，反正都没差……）,21383,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(It doesn't matter whether I agree or deny it, does it?)"
 XUAT_00174,（它似乎不会追到陆地上来……）,21384,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(It doesn't seem like it'll follow me onto solid ground...)
 XUAT_00175,（我总觉得他好像是想告诉我什么……）,21385,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(It feels to me he was trying to tell me something...)
 XUAT_00176,（或许我能找点什么东西放进去……）,21386,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(It may be I can find something to place in it...)
 XUAT_00177,（看来奥蒂莉太太是彻底疯魔了……）,21387,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(It seems Mrs Odilie's lost her wits for good, huh...)"
 XUAT_00178,（看来他们还没完全丧失理智嘛……）,21388,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(It seems they haven't completely lost their wits yet...)
-XUAT_00179,（这地方对她真的没好处，是不是……？）,21389,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(It truly isn't good for her, is it...?)"
+XUAT_00179,（这对她实在没什么好处啊……）,21389,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(It truly isn't good for her, is it...?)"
 XUAT_00180,（早该如此了，这是肯定的！）,21390,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(It was about time, that's for certain!)"
 XUAT_00181,（一定是有窃贼闯进来了！）,21391,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CUT_1_5_HLR_02_004,已译,(It was definitely a burglar!)
 XUAT_00182,（那就是基弗伯格村里的人干的……？）,21392,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(It was someone from Kiefeberg...?)
@@ -21496,16 +21496,16 @@ XUAT_00195,（它都快死了……！）,21405,遗留层XUAT,—,XUAT,[遗留�
 XUAT_00196,（她这么打招呼，就没一次是好事。）,21406,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(It's never a good thing when she greets me this way.)
 XUAT_00197,（没用的，她一眼就看穿我了！）,21407,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_3_3_VCH_01_026,已译,"(It's no use, she's seeing right through me!)"
 XUAT_00198,（这也没什么大不了的，真是的……）,21408,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(It's not that great a deal, for goodness' sake...)"
-XUAT_00199,（这也没什么大不了的吧？）,21409,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(It's not that great a deal, is it?)"
+XUAT_00199,（这也没什么大不了的嘛。）,21409,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(It's not that great a deal, is it?)"
 XUAT_00200,（到目前为止效果正相反……）,21410,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(It's only done the opposite so far...)
 XUAT_00201,（这些丫头难得会鼓励我一回……）,21411,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(It's rather rare for these lasses to encourage me...)
 XUAT_00202,（真是不巧，可是……）,21412,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(It's unfortunate, but...)"
-XUAT_00203,（冷静点，伊莉丝……不值得跟他计较……！）,21413,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Keep calm, Elise... It's not worth the hassle...!)"
+XUAT_00203,（冷静点，伊莉丝……犯不着为这事费心……！）,21413,遗留层XUAT,—,XUAT,[校正] 原文无「他」；同场 21414 说的是「她」，男性指代无源，改「为这事费心」,已译,"(Keep calm, Elise... It's not worth the hassle...!)"
 XUAT_00204,（再这么被她的小恩小惠哄下去，你迟早死路一条，伊莉丝！）,21414,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 SSS1_B_10；[重译同步] 对齐新译,已译,"(Keep falling for her graces and you'll be as good as dead, Elise!)"
 XUAT_00205,（基弗伯格衰败的速度，比我想的还要快……）,21415,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_7_4_OLH_01_013,已译,(Kieferberg's dying out faster than I would've thought...)
 XUAT_00206,（要我说，昨晚吓人可不是因为这个！）,21416,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Last night was frightening for different reasons, I'd say!)"
 XUAT_00207,（斯佩尔特才不需要遭这份罪呢……）,21417,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(Lebkuchen doesn't need any of this nonsense...)
-XUAT_00208,（斯佩尔特这是快没耐心了吧……？）,21418,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Lebkuchen's patience is wearing thin, isn't it...?)"
+XUAT_00208,（斯佩尔特这是快没耐心了啊……）,21418,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Lebkuchen's patience is wearing thin, isn't it...?)"
 XUAT_00209,（斯佩尔特……？）,21419,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_8_END_B_L_054,已译,(Lebkuchen...?)
 XUAT_00210,（随她去吧，伊莉丝。）,21420,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Let her be, Elise.)"
 XUAT_00211,（我看看……）,21421,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 FLV_2_5_DPL_A_02_001,已译,(Let's see...)
@@ -21518,8 +21518,8 @@ XUAT_00217,（黄昏在这儿见她呢……）,21427,遗留层XUAT,—,XUAT,[v1
 XUAT_00218,（嘲弄我，是吗……）,21428,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_4_5_WCR_C_03_014；[校正] 与主线同值,已译,"(Mocking me, is he...?)"
 XUAT_00219,（钥匙在欧根先生手上，我差点忘了……）,21429,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Mr Eugen has the key, I nearly forgot...)"
 XUAT_00220,（欧根先生还紧攥着那把钥匙呢……）,21430,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_5_5_VWM_01_016,已译,(Mr Eugen's still holding onto that key...)
-XUAT_00221,（古斯塔夫先生这是在孤军奋战啊，不是吗……）,21431,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Mr Gustav's fighting a lonesome battle here, isn't he...)"
-XUAT_00222,（特里斯坦先生今天可没什么耐心，是不是？）,21432,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Mr Tristan's patience isn't with him today, is it?)"
+XUAT_00221,（古斯塔夫先生这是在孤军奋战啊……）,21431,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Mr Gustav's fighting a lonesome battle here, isn't he...)"
+XUAT_00222,（特里斯坦先生今天可没什么耐心啊……）,21432,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Mr Tristan's patience isn't with him today, is it?)"
 XUAT_00223,（布伦希尔德太太先前也念叨过他。）,21433,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Mrs Brunhilde was whining about him earlier, too.)"
 XUAT_00224,（莉丝贝特太太也有自己的家要照顾啊！）,21434,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Mrs Lisbeth has her own family to look after, too!)"
 XUAT_00225,（莉丝贝特太太看上去糟透了……）,21435,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(Mrs Lisbeth looks awful...)
@@ -21563,7 +21563,7 @@ XUAT_00262,（老约亨死活不肯让步，古斯塔夫先生的耐心也快耗
 XUAT_00263,（老人们去见了主，留下这些屋子在这儿慢慢腐朽……真是可惜……）,21473,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录；术语 meet one's maker 本行作「去见主」（手册 §4.3）,已译,(Old folks go on to meet their maker and leave these behind to rot... Such a waste...)
 XUAT_00264,（转念一想，那我不就成了埃尔玛的邻居了。）,21474,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(On second thought, I'd be Elma's neighbour.)"
 XUAT_00265,（这话真让我想给她送一坨牛粪去！）,21475,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(Only makes me want to bring her cow dung instead!)
-XUAT_00266,（还是说……我以前是不信的……）,21476,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(Or... I didn't...)
+XUAT_00266,（或者……我并没有……）,21476,遗留层XUAT,—,XUAT,[遗留收编] 原值「我以前是不信的」无据臆增（本条独句、上下无承接），改回截断自语的「我并没有……」,已译,(Or... I didn't...)
 XUAT_00267,（可别忘了伯恩哈德先生先前未必站在我这边……）,21477,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_7_3_VST_02_015,已译,(Ought not to forget Mr Bernhard wasn't necessarily on my side earlier...)
 XUAT_00268,（想必又是那条毒蛇的把戏……）,21478,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(Ought to be more of that serpent's foolery...)
 XUAT_00269,（真替这些荒废的房子感到难过……）,21479,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(Ought to feel bad for these abandoned homes...)
@@ -21578,9 +21578,9 @@ XUAT_00277,（我看是未必吧！）,21487,遗留层XUAT,—,XUAT,[遗留收�
 XUAT_00278,（真好奇奥蒂莉太太每天是怎么爬上这些台阶的……）,21488,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 FLV_2_2_VIN_01_001,已译,(Ought to wonder how Mrs Odilie climbs these every day...)
 XUAT_00279,（咱们最后一顿晚饭啊……）,21489,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录；[校正] 内心独白不设真问尾，收成感叹（§12）,已译,"(Our last supper, huh...)"
 XUAT_00280,（盘子啊……）,21490,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(Plates...)
-XUAT_00281,（比起相信是基弗伯格自己人干的，是吧……）,21491,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Rather than believing someone from Kieferberg would do such a thing, huh...)"
+XUAT_00281,（与其相信这是基弗伯格自己人干的，倒不如……）,21491,遗留层XUAT,—,XUAT,[校正] Rather than believing 是被截断的让步从句，原译「比起相信……，是吧」丢了主句也丢了句式；改「与其……倒不如……」保住截断,已译,"(Rather than believing someone from Kieferberg would do such a thing, huh...)"
 XUAT_00282,（萝丝玛琳终究不知道那片森林里究竟藏着什么……）,21492,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Rosmarine doesn't know what's truly in those woods, after all...)"
-XUAT_00283,（萝丝玛琳今天有点怪，是不是……）,21493,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Rosmarine is acting rather strange, isn't she...)"
+XUAT_00283,（萝丝玛琳今天有点怪啊……）,21493,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Rosmarine is acting rather strange, isn't she...)"
 XUAT_00284,（萝丝玛琳……也失去了她的奶奶啊……）,21494,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Rosmarine's also lost her granny, huh...)"
 XUAT_00285,（看来这周我都得听这些林地的胡话了……）,21495,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_2_5_VSQ_01_016,已译,(Seems to me I'll be hearing about this woodland nonsense all week...)
 XUAT_00286,（活该，你这老家伙！）,21496,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Serves you right, you old geezer!)"
@@ -21594,7 +21594,7 @@ XUAT_00293,（她自己的烦心事已经够多了……）,21503,遗留层XUAT,
 XUAT_00294,（我猜她大概还是没缓过来吧……）,21504,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_7_1_OLH_01_013,已译,"(She's likely still not feeling her best, I wager...)"
 XUAT_00295,（她看着累得太过头了……）,21505,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(She's looking too tired for her own good...)
 XUAT_00296,（她这是糊涂了，就是这么回事！）,21506,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(She's losing her wits, that's what!)"
-XUAT_00297,（她这是在挖苦我吧？）,21507,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(She's mocking me, isn't she?)"
+XUAT_00297,（她这是在挖苦我呢。）,21507,遗留层XUAT,—,XUAT,[独白] 括号独白不向旁人求证，isn't she 转陈述收「呢」,已译,"(She's mocking me, isn't she?)"
 XUAT_00298,（她好冷！冷得像石头一样……！）,21508,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(She's so cold! Like stone...!)
 XUAT_00299,（她可真让人不好意思……！）,21509,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(She's so embarrassing...!)
 XUAT_00300,（她大概还在睡吧。）,21510,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(She's still asleep, I'll wager.)"
@@ -21616,9 +21616,9 @@ XUAT_00315,（那老太婆真是恨不得把小子们都使唤起来！）,21525
 XUAT_00316,（那条蛇的声音……！）,21526,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(That snake's voice...!)
 XUAT_00317,（这女巫要是能把这村子整个吞了才好呢……！）,21527,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(That witch can swallow this town whole for all I care...!)
 XUAT_00318,（那条可恶的毒蛇……）,21528,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(That wretched serpent...)
-XUAT_00319,（那也用不着吧……？）,21529,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(That's not really necessary, is it...?)"
+XUAT_00319,（那也用不着吧……）,21529,遗留层XUAT,—,XUAT,[独白] 括号独白去问尾，is it...? 收「吧……」，问号也一起去,已译,"(That's not really necessary, is it...?)"
 XUAT_00320,（主本来就会拦住他，不让他跑丢的！）,21530,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(The Lord would've prevented him from wandering in the first place!)
-XUAT_00321,（那些乌鸦不会走了，是不是……？）,21531,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(The crows aren't leaving, are they...?)"
+XUAT_00321,（那些乌鸦是不打算走了啊……）,21531,遗留层XUAT,—,XUAT,[语气] 独白去附加问，收「啊……」,已译,"(The crows aren't leaving, are they...?)"
 XUAT_00322,（节庆啊……）,21532,遗留层XUAT,—,XUAT,[v11修订] festival 本行作「节庆」,已译,"(The festival, huh...)"
 XUAT_00323,（那个节庆……那是……）,21533,遗留层XUAT,—,XUAT,[v11修订] festival 本行作「节庆」,已译,(The festival... That's...)
 XUAT_00324,（我在这片树林里走得越深，就越糊涂……）,21534,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(The further I get into these woods the more confused I become...)
@@ -21630,14 +21630,14 @@ XUAT_00329,（这场女巫闹剧是一回事，可是……）,21539,遗留层XU
 XUAT_00330,（瞧他那副样子，这老家伙……）,21540,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(There he goes, that old geezer...)"
 XUAT_00331,（有一张纸绑在蜡烛上……）,21541,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(There's a piece of paper tied to a candle...)
 XUAT_00332,（中间有个小小的凹陷……）,21542,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(There's a slight cavity in the center...)
-XUAT_00333,（事情另有内情，是不是……？）,21543,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(There's more to it, isn't there...?)"
+XUAT_00333,（这事恐怕另有隐情啊……）,21543,遗留层XUAT,—,XUAT,[语气] 独白去附加问，收「啊……」,已译,"(There's more to it, isn't there...?)"
 XUAT_00334,（跟这些人根本讲不通道理！）,21544,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(There's no reasoning with these folks!)
 XUAT_00335,（这些不是……！）,21545,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(These aren't...!)
 XUAT_00336,（这些乌鸦不管咱们做什么都要嘲弄一番……）,21546,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_4_5_WCR_B_05_007,已译,(These crows keep mocking us whatever we do...)
 XUAT_00337,（这些人也是没辙了呢……）,21547,遗留层XUAT,—,XUAT,[v11修订] 独白句尾huh转自语口吻,已译,"(These folks are at a loss, huh...)"
 XUAT_00338,（这些人都魔怔了……！）,21548,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(These folks are losing their wits...!)
 XUAT_00339,（这些人竟没意识到自己在拖垮她……）,21549,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(These folks not realizing they're overwhelming her is...)
-XUAT_00340,（这些人压根不在乎我，是不是……？）,21550,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_7_3_VBA_02_030,已译,"(These folks truly don't care about me, do they...?)"
+XUAT_00340,（这些人压根不在乎我。）,21550,遗留层XUAT,—,XUAT,[同步] 与主线 DLG_7_3_VBA_02_030 同步，去附加问,已译,"(These folks truly don't care about me, do they...?)"
 XUAT_00341,（这些人才不会答应呢！）,21551,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(These folks wouldn't have any of it!)
 XUAT_00342,（这帮蠢货就是基弗伯格变成这副猪窝样的原因！）,21552,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(These fools are the reason Kieferberg is such a pigsty!)
 XUAT_00343,（这些老太婆改起口来跟没事人一样……！）,21553,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(These old hags change their tune like it's nothing...!)
@@ -21649,7 +21649,7 @@ XUAT_00348,（完了，她这是彻底疯了……）,21558,遗留层XUAT,—,XU
 XUAT_00349,（现在不是动摇的时候，我想……）,21559,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(This isn't the time to waver, I suppose...)"
 XUAT_00350,（这老家伙压根什么都不在乎……！）,21560,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(This old geezer couldn't care less about anything...!)
 XUAT_00351,（这条蛇……我一点儿也不喜欢它……）,21561,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(This serpent... I'm not fond of it, not one bit...)"
-XUAT_00352,（这条巨蛇……！）,21562,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(This serpent...!)
+XUAT_00352,（这条蛇……！）,21562,遗留层XUAT,—,XUAT,[同步] 同段 21561 英文同为 serpent，作「蛇」，不加「巨」,已译,(This serpent...!)
 XUAT_00353,（那些小子们要一整天闷在家里，怕是不会乐意呢。）,21563,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"(Those laddies won't take kindly to staying home all day, I wager.)"
 XUAT_00354,（埃尔玛见鬼去吧！）,21564,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,(To Hell with Elma!)
 XUAT_00355,（老约亨见鬼去吧！）,21565,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_2_3_VST_06_020,已译,(To Hell with Old Jochen!)
@@ -21708,8 +21708,8 @@ XUAT_00406,<b>2D 角色美术</b>,21616,遗留层XUAT,—,XUAT,[遗留收编] �
 XUAT_00407,第二句,21617,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CUT_BOSS_Text_2,已译,2nd Sentence
 XUAT_00408,把一堆木板随便钉一钉，做出来的水桶都比这些强！,21618,遗留层XUAT,—,XUAT,[标签] 去正文无源强调加粗,已译,A bunch of wooden planks nailed together would make better buckets than these!
 XUAT_00409,你说是只乌鸦……？,21619,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"A crow, you say...?"
-XUAT_00410,"一只精致的丝质钱袋，穿着红色缎带，饰有花朵图案。
-或许能卖个好价钱。",21620,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 ITM_N_D_21（仅AT有）,已译,"A dainty, silky purse threaded in red ribbon and decorated with a flower motif.\nMay be sold for a good price."
+XUAT_00410,"一只精致的丝质钱袋，系着红色缎带，饰有花朵图案。
+或许能卖个好价钱。",21620,遗留层XUAT,—,XUAT,[同步] 随主线 ITM_N_D_21 改「系着红色缎带」（原「穿着」）,已译,"A dainty, silky purse threaded in red ribbon and decorated with a flower motif.\nMay be sold for a good price."
 XUAT_00411,"一只暗淡破旧的皮钱袋，满是破洞。
 或许能卖个低价。",21621,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 ITM_N_D_20（仅AT有）,已译,"A dull, worn down leather purse riddled with holes.\nMay be sold for a low price."
 XUAT_00412,你要请我帮忙，伊莉丝？,21622,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"A favor from you, Elise?"
@@ -21720,7 +21720,7 @@ XUAT_00416,依我说，这可是个大错！,21626,遗留层XUAT,—,XUAT,[遗�
 XUAT_00417,古斯塔夫的好兴致也感染了我们不少。,21627,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"A great deal of Gustav's good spirits rub off on us, too."
 XUAT_00418,依我看这主意不错——除非您有什么见不得人的？,21628,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"A great idea, if you ask me - unless you have anything to hide?"
 XUAT_00419,真是天上掉下来的福气啊，伊莉丝！,21629,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_3_4_VBA_01_006,已译,"A heaven-sent, Elise!"
-XUAT_00420,一把沉甸甸的银钥匙，钥匙柄上盘绕着一条蛇形雕饰。,21630,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 ITM_K_D_05,已译,A heavy silver key adorned with a snake coiled around its stem.
+XUAT_00420,一把沉甸甸的银钥匙，钥匙杆上盘绕着一条蛇形雕饰。,21630,遗留层XUAT,—,XUAT,[同步] stem 同指钥匙杆，随 ITM_K_D_05 改「杆」,已译,A heavy silver key adorned with a snake coiled around its stem.
 XUAT_00421,一个人类的灵魂……要在这子宫中孕育……,21631,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CUT_WCW_A_HOUSE_INTERIOR_01_014,已译,A human soul... To be nurtured in the womb...
 XUAT_00422,珠宝匠……！,21632,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 LVE_7_3_OGR_F_024,已译,A jeweler...!
 XUAT_00423,依我说，小子就该好好享受剩下的日子！,21633,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"A lad ought to make the most of what he's got left, I'd say!"
@@ -21767,7 +21767,7 @@ XUAT_00459,一个女巫！老霍尔的血脉里出来的女巫！,21669,遗留�
 XUAT_00460,您是说女巫！,21670,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"A witch, you say!"
 XUAT_00461,子宫，孕育生命之器——你的篮子当盛放一切神圣之物。,21671,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_3_1_VSQ_04_005,已译,"A womb, carrier of life... Your basket is to hold all that is sacred..."
 XUAT_00462,一只破旧的木桶，里头装了半桶泥土。,21672,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 FLV_2_1_HFY_01_002,已译,A worn down wooden barrel filled halfway up with soil.
-XUAT_00463,那、那个！,21673,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,A-anyhow!
+XUAT_00463,总、总之！,21673,遗留层XUAT,—,XUAT,[结巴] A-anyhow 的卡顿落在 anyhow，作「总、总之」；「那、那个」对应的是 Th-That 一类,已译,A-anyhow!
 XUAT_00464,下午,21674,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,AFTERNOON
 XUAT_00465,涂抹,21675,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 APPLY_ITEM,已译,APPLY
 XUAT_00466,说过祂的恩赐，是的……,21676,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"About His blessings, yes..."
@@ -21786,7 +21786,7 @@ XUAT_00478,道具使用方法,21688,遗留层XUAT,—,XUAT,[用语] 同步 TUT_1
 XUAT_00479,什么事，吉多先生？,21689,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,About what Mr Guido?
 XUAT_00480,是她跟琳达太太说的那些话吗？,21690,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,About what she told Mrs Linda?
 XUAT_00481,谈什么呢，海因里希先生？,21691,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_5_4_VST_01_012,已译,"About what, Mr Heinrich?"
-XUAT_00482,听说什么，埃尔玛太太？,21692,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_2_2_VIN_03_002,已译,"About what, Mrs Elma?"
+XUAT_00482,什么事，埃尔玛太太？,21692,遗留层XUAT,—,XUAT,[同步] About what 族作「什么事」（同 97／206／241 等），「听说什么」把 ask 误读成 hear,已译,"About what, Mrs Elma?"
 XUAT_00483,说什么，罗蕾莱太太？,21693,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_4_1_VIN_03_002,已译,"About what, Mrs Loreley?"
 XUAT_00484,真是吓死我了，我告诉你！,21694,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Absolutely horrified, I was!"
 XUAT_00485,绝对不行！我已经受够了到处找你的日子！,21695,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CUT_2_1_HLR_02_016,已译,Absolutely not! I've had my fill of running about looking for you!
@@ -21799,8 +21799,7 @@ XUAT_00491,行动,21701,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值
 XUAT_00492,额外配音,21702,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Additional Voice Acting
 XUAT_00493,毕竟刚才闹了那么一场嘛……,21703,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"After all that ordeal earlier, you know..."
 XUAT_00494,昨天我才吃了那么大的苦头！,21704,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_7_2_VSQ_04_002,已译,After all that trouble I had yesterday...!
-XUAT_00495,"毕竟，一辈子受人伺候，
-又能推卸掉我所有的责任——",21705,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"After all, a life filled with the servitude of others, and where I can shirk all my responsibilities -"
+XUAT_00495,毕竟，一辈子受人伺候，又能推卸掉我所有的责任——,21705,遗留层XUAT,—,XUAT,[格式] 本行英文是单行，换行无源（下一行 XUAT_00496 的英文才带字面 \n，两行不可互抄）,已译,"After all, a life filled with the servitude of others, and where I can shirk all my responsibilities -"
 XUAT_00496,"毕竟，一辈子受人伺候，
 又能推卸掉我所有的责任——",21706,遗留层XUAT,—,XUAT,[遗留收编] 独立条目（仅AT有）,已译,"After all, a life filled with the servitude of others,\nand where I can shirk all my responsibilities -"
 XUAT_00497,那匹马出事之后……,21707,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,After that ordeal with the horse...
@@ -21811,7 +21810,7 @@ XUAT_00501,下午,21711,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值
 XUAT_00502,防范什么，伊莉丝？,21712,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录；[校正] Against 是「防备」，非 argue against；对齐 CHR_025_031,已译,"Against what, Elise?"
 XUAT_00503,啊！伊、伊莉丝！这、这不是你想的那样……！,21713,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Ah! E-Elise! I-It's not what you think...!
 XUAT_00504,啊！伊莉丝！,21714,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_2_4_OLH_01_001,已译,Ah! Elise!
-XUAT_00505,啊！再、再见！,21715,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Ah! G-Good day!
+XUAT_00505,啊！日、日安！,21715,遗留层XUAT,—,XUAT,[校正] Good day 是见面问候不是道别；同场 1359／22683 作「您好」，本行按告示语作「日安」,已译,Ah! G-Good day!
 XUAT_00506,啊！是她奶奶呀，告诉她说她在基弗伯格有亲戚！,21716,遗留层XUAT,—,XUAT,[遗留收编] 去腔：句中 you see? 表提顿解释，改作句中语气词「呀，」贯通主语,已译,"Ah! Her granny, you see? Told her she had family in Kieferberg!"
 XUAT_00507,啊！她来了！,21717,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Ah! Here she comes!
 XUAT_00508,啊！咱们的丫头来了！,21718,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Ah! Here's our lass!
@@ -21840,7 +21839,7 @@ XUAT_00530,啊，我明白她的意思了，布伦希尔德太太！,21740,遗�
 XUAT_00531,啊，我正找你呢，好孩子！,21741,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Ah, I was looking for you, dearie!"
 XUAT_00532,啊，我正想问你呢，伊莉丝……,21742,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Ah, I was meaning to ask you, Elise..."
 XUAT_00533,啊，对不起……,21743,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_1_5_HLR_04_017,已译,"Ah, I'm sorry...!"
-XUAT_00534,啊，我、我是在找伊莉丝？您认识她吗？,21744,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Ah, I-I am looking for Elise? If you happen know her?"
+XUAT_00534,啊，我、我是在找伊莉丝？您认识她吗？,21744,遗留层XUAT,—,XUAT,[标点] 原文句中就是「？」，恢复；不是迟疑改省略号,已译,"Ah, I-I am looking for Elise? If you happen know her?"
 XUAT_00535,啊，阿丽亚娜太太，我……,21745,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CHR_001_015,已译,"Ah, Mrs Ariane, I..."
 XUAT_00536,啊，就是那件事……,21746,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Ah, about that..."
 XUAT_00537,啊，不过在那之前，斯佩尔特，你能不能……,21747,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_6_1_VCH_01_018,已译,"Ah, but before then, Lebkuchen, could you...?"
@@ -21938,7 +21937,7 @@ XUAT_00607,她一心只想搅乱我们的心思！挑拨我们互相猜忌！,21
 XUAT_00608,那一通可怕的嚷嚷……！图个什么劲儿……！,21818,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,All that dreadful yelling...! And for what...!
 XUAT_00609,这么大惊小怪对基弗伯格可没什么好处，您说是不是？,21819,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"All that fretting is of no use to Kieferberg, wouldn't you say?"
 XUAT_00610,唯一的回报，是虔诚、敬畏、以及你心愿的信物……,21820,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"All that is requested in return is devotion, reverence and a testament of one's desire..."
-XUAT_00611,那些荒唐事本可能严重连累我！,21821,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,All that nonsense could've seriously compromised me!
+XUAT_00611,那些荒唐事差点就严重牵连到我！,21821,遗留层XUAT,—,XUAT,[校正] 补回 seriously＝严重；删无源「也」,已译,All that nonsense could've seriously compromised me!
 XUAT_00612,那阵嚷嚷只会让事情更糟……,21822,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,All that yelling only made matters worse...
 XUAT_00613,那阵嚷嚷，看来是把可怜的奥蒂莉彻底压垮了……,21823,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"All that yelling was the last drop for poor Odilie, it seems..."
 XUAT_00614,你所渴望的一切，丫头——近在咫尺，却又远在天边！,21824,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CUT_4_5_WCR_A_02_022,已译,"All that you desire, lass - so close, yet so far!"
@@ -21971,14 +21970,14 @@ XUAT_00640,阿尔卑斯玫瑰,21850,遗留层XUAT,—,XUAT,[遗留收编] 独立
 XUAT_00641,已经谢过了，萝丝玛琳……,21851,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Already did, Rosmarine..."
 XUAT_00642,还有……,21852,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Also...
 XUAT_00643,不过她也不会在这儿晃太久了，不是吗？,21853,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Although it's not like she's going to loiter about for much longer, is it?"
-XUAT_00644,虽然咱们都理解你的心情，芙蕾雅——,21854,遗留层XUAT,—,XUAT,[v11修订] 演出打断批注转破折号,已译,"Although we all understand your feelings, Freya (interrupted)"
+XUAT_00644,虽然我们都理解你的心情，芙蕾雅——,21854,遗留层XUAT,—,XUAT,[同步] 主线 CUT_7_3_VSQ_01_211 改「我们」；演出打断仍作破折号,已译,"Although we all understand your feelings, Freya (interrupted)"
 XUAT_00645,整天就追着别的营生、更大的营生跑！,21855,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Always chasing after other business, bigger business!"
 XUAT_00646,总是跟汉斯神父说话，跟那些小子说话……,21856,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_6_3_VBA_01_016,已译,"Always having a word with Father Hans, having a word with the lads..."
 XUAT_00647,看来是一如既往地寻欢作乐啊。,21857,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Always making merry, I see."
 XUAT_00648,总是跟你那个该死的女巫混在一起！,21858,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Always with that wretched witch of yours!
 XUAT_00649,总是？你这话什么意思？,21859,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Always? What do you mean?
 XUAT_00650,我是不是打扰到什么了，莉丝贝特太太？,21860,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Am I interrupting something, Mrs Lisbeth?"
-XUAT_00651,我难道连开心都不被允许？想唱想跳都不行？,21861,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Am I not allowed to be joyful? Sing and dance as I see fit?
+XUAT_00651,我难道连开心都不许？想唱想跳都不行吗？,21861,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Am I not allowed to be joyful? Sing and dance as I see fit?
 XUAT_00652,我就不能安静一会儿吗？,21862,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Am I not allowed to be silent?
 XUAT_00653,难道我还不够虔诚吗，毒蛇？,21863,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Am I not committed enough, serpent?"
 XUAT_00654,我说错了吗？,21864,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Am I wrong?
@@ -21997,8 +21996,8 @@ XUAT_00664,我也确实跟你说过，那是因为埃尔玛拉着我擦她家地
 XUAT_00665,我没有做过，神父……！,21875,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_7_3_VSQ_01_190,已译,"And I didn't, Father...!"
 XUAT_00666,我没有做过……！,21876,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_7_3_VSQ_01_187,已译,And I didn't...!
 XUAT_00667,我是在镇上啊！,21877,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CUT_4_5_OCR_02_013,已译,And I was!
-XUAT_00668,而我才怕你天天晚上跟老鼠壁虎作伴呢！,21878,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CUT_2_1_HLR_02_019,已译,And I would dread you spending your evenings nesting with the mice and the geckos!
-XUAT_00669,而我才怕你天天晚上跟老鼠壁虎作伴呢！,21879,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CUT_2_1_HLR_02_019（仅AT有）,已译,And I  would dread you spending your evenings nesting with the mice and the geckos!
+XUAT_00668,我才怕你天天晚上跟老鼠壁虎作伴呢！,21878,遗留层XUAT,—,XUAT,[遗留收编] 近同句（CUT_2_1_HLR_02_019），英文措辞略异，不机械对齐,已译,And I would dread you spending your evenings nesting with the mice and the geckos!
+XUAT_00669,我才怕你天天晚上跟老鼠壁虎作伴呢！,21879,遗留层XUAT,—,XUAT,[遗留收编] 近同句（CUT_2_1_HLR_02_019，仅AT有），英文措辞略异，不机械对齐,已译,And I  would dread you spending your evenings nesting with the mice and the geckos!
 XUAT_00670,而它们合在一起，代表的就是你，伊莉丝！,21880,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"And altogether they represent you, Elise!"
 XUAT_00671,并酿成虚假殉道者的圣泪……,21881,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,And brewed into the holy tears of false martyrs...
 XUAT_00672,别再回来了！不然的话……！,21882,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_2_5_HLR_01_034,已译,And don't come back! Or else!
@@ -22110,7 +22109,7 @@ XUAT_00766,您感觉好些了吗，莉丝贝特太太？,21976,遗留层XUAT,—
 XUAT_00767,你们几位在找什么吗？,21977,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Are you folks looking for something?
 XUAT_00768,那<i>您</i>来做这事吗，路德维希先生？,21978,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_7_3_VSQ_01_029,已译,"Are you going to do it then, Mr Ludwig?"
 XUAT_00769,你到底说不说？,21979,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Are you going to say it or not?
-XUAT_00770,你是不是还要跟我说，主也能听见，审判我的心思？,21980,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Are you going to tell me the Lord can hear and judge my thoughts, too?"
+XUAT_00770,你是不是还要跟我说，主也能听见并审判我的心思？,21980,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Are you going to tell me the Lord can hear and judge my thoughts, too?"
 XUAT_00771,你这是要回家了吗，好孩子？,21981,遗留层XUAT,—,XUAT,[v11修订] my dear规范作「好孩子」,已译,"Are you heading on home, my dear?"
 XUAT_00772,你也是来整那老太婆威尔玛的吗？,21982,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Are you here to prank that old hag Wilma, too?"
 XUAT_00773,你有没有在听我说话？,21983,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Are you listening to me?
@@ -22698,8 +22697,7 @@ XUAT_01279,"每次你举止可疑，你的嫌疑<sprite=""balloonicons"" name=""
 说话前最好想清楚！",22489,遗留层XUAT,—,XUAT,[v1.3.27修] 按本体英文恢复/补回 sprite 标签,已译,"Every time you act suspiciously, your Suspicion will increase. You'd best mind what you say!"
 XUAT_01280,"每次你举止可疑，你的嫌疑<sprite=""balloonicons"" name=""hat"">就会增加。
 说话前最好想清楚！",22490,遗留层XUAT,—,XUAT,[v1.3.27修] 与真换行孪生行同步 sprite 标签,已译,"Every time you act suspiciously, your Suspicion  will increase.\nYou'd best mind what you say!"
-XUAT_01281,"每次你举止无礼，你的声望就会下降。
-最好留心自己的态度！",22491,遗留层XUAT,—,XUAT,[v1.3.27修] reputation 图集不存在，去假 sprite 保留纯文本,已译,"Every time you're impolite, your Reputation [shoe] will decrease.\nYou'd best mind your atittude!"
+XUAT_01281,每次你举止无礼，你的声望就会下降。<br>最好留心自己的态度！,22491,遗留层XUAT,—,XUAT,[格式] 英文带字面 \n，中文用 <br>（手册 §5.5、§8 第五十一条，11-05 实机验过）；11-12 批误改真换行，已回退,已译,"Every time you're impolite, your Reputation [shoe] will decrease.\nYou'd best mind your atittude!"
 XUAT_01282,打从主日起大伙儿就一直心浮气躁的！,22492,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Everybody's been on edge since Sunday!
 XUAT_01283,大伙儿都在背后说彼此的坏话，伊莉丝。,22493,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_6_3_VBA_01_003,已译,"Everybody's talking ill of each other behind their backs, Elise..."
 XUAT_01284,大家都在念叨这个节庆，我真的很期待呢！,22494,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_3_3_VIN_03_015,已译,"Everyone keeps talking about this festival, I'm very much looking forward to it!"
@@ -23168,7 +23166,7 @@ XUAT_01737,可没了老威廉，咱们要怎么弄这事呢……,22947,遗留�
 XUAT_01738,这树林子里咱们要怎么找他，萝丝玛琳？,22948,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"How are we to find him in these woods, Rosmarine?"
 XUAT_01739,那咱们该怎么处理这种事呢，您说说看？,22949,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"How are we to handle such a thing, would you say?"
 XUAT_01740,咱们要是不这么做，又怎么知道咱们中间有没有女巫……！,22950,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,How are we to know if there's a witch among us if we don't...!
-XUAT_01741,咱们又怎么知道这种事，你这女巫……！,22951,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"How are we to know such a thing, you witch...!"
+XUAT_01741,我们又怎么知道这种事，你这女巫……！,22951,遗留层XUAT,—,XUAT,[同步] 主线 CUT_7_3_VSQ_01_080 改「我们」；本行原文以 ...! 收，保留省略号,已译,"How are we to know such a thing, you witch...!"
 XUAT_01742,我何等有幸，就摔坏了几个花瓶而已！,22952,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,How blessed I am all I got was a couple broken vases!
 XUAT_01743,我该怎么报答你才好呢，我的乖丫头？,22953,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"How can I ever repay you, my sweet lass?"
 XUAT_01744,我能帮上什么忙吗，莉丝贝特太太？,22954,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"How can I lend a hand, Mrs Lisbeth?"
@@ -23458,7 +23456,7 @@ XUAT_02027,这都多亏了您了，玛丽勒太太。,23237,遗留层XUAT,—,XU
 XUAT_02028,我正忙着切凝乳呢。,23238,遗留层XUAT,—,XUAT,[遗留收编] 去腔：you see? 解释为何腾不出手，删「你瞧？」问尾,已译,"I have my hands full cutting the curds, you see?"
 XUAT_02029,我没什么可悔改的——也没什么要求宽恕的！,23239,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,I have nothing to repent for - no forgiveness to plead!
 XUAT_02030,我没什么好给你瞧的……！,23240,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,I have nothing to show you...!
-XUAT_02031,我还剩不少，你要的话就拿去？,23241,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 SSS1_B_5,已译,"I have plenty to spare, if you'd like?"
+XUAT_02031,我还剩不少，你要的话，我可以分你点？,23241,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 SSS1_B_5,已译,"I have plenty to spare, if you'd like?"
 XUAT_02032,我这儿有些新鲜面包卷，保准让你立马高兴起来！,23242,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,I have some fresh buns that'll cheer you right up!
 XUAT_02033,我这儿有锅汤，明天就该馊了嘛。,23243,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"I have some soup spoiling sometime tomorrow, you see?"
 XUAT_02034,我有件事要告诉你，伊莉丝。,23244,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"I have something to tell you, Elise."
@@ -24176,9 +24174,9 @@ XUAT_02745,我……我需要点时间好好想想，萝丝玛琳……,23955,�
 XUAT_02746,我……我也不知道，特里斯坦先生……！,23956,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"I... I wouldn't know, Mr Tristan...!"
 XUAT_02747,我……有只乌鸦，那匹马当时……！,23957,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"I... There was this crow, and the horse was...!"
 XUAT_02748,我……那些乌鸦，它们……,23958,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"I... Those crows, they..."
-XUAT_02749,我要买！,23959,遗留层XUAT,—,XUAT,[v1.3.27修] 与主线同句孪生同步（IM BUYING/SELLING）,已译,IM BUYING
-XUAT_02750,我要卖！,23960,遗留层XUAT,—,XUAT,[v1.3.27修] 与主线同句孪生同步（IM BUYING/SELLING）,已译,IM SELLING
-XUAT_02751,选其他的！,23961,遗留层XUAT,—,XUAT,[v1.3.27修] 与主线同句孪生同步（IM BUYING/SELLING）,已译,IM other optioning
+XUAT_02749,我要买,23959,遗留层XUAT,—,XUAT,[v1.3.27修] 与主线同句孪生同步（IM BUYING/SELLING）；2026-11-13 随主线去句末感叹号,已译,IM BUYING
+XUAT_02750,我要卖,23960,遗留层XUAT,—,XUAT,[v1.3.27修] 与主线同句孪生同步（IM BUYING/SELLING）；2026-11-13 随主线去句末感叹号,已译,IM SELLING
+XUAT_02751,选其他的,23961,遗留层XUAT,—,XUAT,[v1.3.27修] 与主线同句孪生同步（IM BUYING/SELLING）；2026-11-13 随主线去句末感叹号,已译,IM other optioning
 XUAT_02752,要是阿普菲尔的烧不再犯，我兴许能睡。,23962,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"If Apfel's fever doesn't come back, I might."
 XUAT_02753,要是我真的离开了基弗伯格，然后……,23963,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"If I do leave Kieferberg, and..."
 XUAT_02754,要是不做晚祷，说不定连我都会被那东西盯上！,23964,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_7_5_VSQ_01_011,已译,If I don't do my nightly prayers even I might fall prey to that thing...!
@@ -24748,9 +24746,9 @@ XUAT_03281,斯佩尔特，我……我是真心……,24491,遗留层XUAT,—,XU
 XUAT_03282,斯佩尔特？她还好吗？,24492,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Lebkuchen? Is she all right?
 XUAT_03283,左,24493,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Left
 XUAT_03284,把那地方弄得跟遭了暴风一样乱七八糟！,24494,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Left the place looking like it'd been hit by a windstorm, too!"
-XUAT_03285,"左：？？？？？
+XUAT_03285,"左：？？？？？？
 右：普里梅尔多夫
-上：基弗伯格峰",24495,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 FLV_2_2_OCR_02_003（仅AT有）,已译,Left: ??????\nRight: Primeldorf\nUp: Kieferberg Peaks
+上：基弗伯格峰",24495,遗留层XUAT,—,XUAT,[同步] 问号六个对六个（主线 FLV_2_2_OCR_02_003 本批已改）,已译,Left: ??????\nRight: Primeldorf\nUp: Kieferberg Peaks
 XUAT_03286,"左：小巷
 下：基弗伯格旅店",24496,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 FLV_3_2_VST_02_001（仅AT有）,已译,Left: Alleyway\nDown: Kieferberg Inn
 XUAT_03287,搭把手弄五月柱？,24497,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_7_1_VIN_01_004,已译,Lend a hand with the maypole...?
@@ -25173,7 +25171,7 @@ XUAT_03638,在伐木场附近，吉多。,24848,遗留层XUAT,—,XUAT,[遗留�
 XUAT_03639,差点被你逮个正着，伊莉丝！,24849,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Nearly caught us red-handed, Elise!"
 XUAT_03640,简直让人怀疑你当时就在场！,24850,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Nearly makes one think you were there!
 XUAT_03641,大白天的都快要点灯笼了……！,24851,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Nearly ought to bring out our lanterns in broad daylight...!
-XUAT_03642,我得去照料我的园子。,24852,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 PathBlockMonday_1,已译,Need to tend to my garden.
+XUAT_03642,我得去照料我的菜园。,24852,遗留层XUAT,—,XUAT,[同步] 孪生 PathBlockMonday_1 作「菜园」,已译,Need to tend to my garden.
 XUAT_03643,我也笑不出来，芙蕾雅……,24853,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Neither can I, Freya..."
 XUAT_03644,我也不敢相信，海因里希……,24854,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Neither can I, Heinrich..."
 XUAT_03645,咱们也一样摸不着头脑，丫头。,24855,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Neither can we, lass."
@@ -25856,7 +25854,7 @@ XUAT_04305,依我看，该跟这丫头道个歉。,25515,遗留层XUAT,—,XUAT,
 XUAT_04306,该好好感激我的慷慨才对，听见没？,25516,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Ought to appreciate my generosity, you hear?"
 XUAT_04307,该问问你来基弗伯格有何打算了，丫头。,25517,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Ought to ask what your intentions are here in Kieferberg, lass."
 XUAT_04308,看来你还没为这事跟他谈过吧。,25518,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Ought to assume you haven't had a word with him about this issue.
-XUAT_04309,好歹也该去看看花园的情况了……,25519,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Ought to at least take a look at the garden...
+XUAT_04309,好歹也该去看看菜园的情况了……,25519,遗留层XUAT,—,XUAT,[专名] 与主线 FLV_3_1_HLR_01_001 同句，garden＝菜园；原「花园」漏同步,已译,Ought to at least take a look at the garden...
 XUAT_04310,那就只能等着了。,25520,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Ought to be a matter of waiting, then."
 XUAT_04311,肯定是因为咱们都守在这儿呢！,25521,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Ought to be because we're standing here, surely!"
 XUAT_04312,这种赌可要小心打，贝尔塔太太。,25522,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Ought to be careful with such wagers, Mrs Bertha."
@@ -26436,7 +26434,7 @@ XUAT_04817,既然你在这儿，丫头——能帮我个忙吗？,26027,遗留�
 XUAT_04818,跳过,26028,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Skip
 XUAT_04819,跳过对话,26029,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Skip Dialogue
 XUAT_04820,这样一来晚上也能睡得安稳些，那是肯定的……,26030,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Sleep would come about easier, that's for certain..."
-XUAT_04821,时钟的指针缓缓前行，每一秒都像是费力挣扎着才转动。,26031,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 FLV_1_5_HCR_01_003,已译,"Slowly, the clock's hands carry on their march as though struggling to turn with each second passed by."
+XUAT_04821,时钟的指针缓缓前行，每一秒都像是费力挣扎着才转动。,26031,遗留层XUAT,—,XUAT,[遗留收编] 近同句（FLV_1_5_HCR_01_003），英文不同（Slowly…as though vs grate dutifully），不机械对齐,已译,"Slowly, the clock's hands carry on their march as though struggling to turn with each second passed by."
 XUAT_04822,小目标,26032,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Small Objective
 XUAT_04823,杂草丛生，这座荒废的老屋每个角落都爬满了苔藓。,26033,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 FLV_2_1_OLH_06_002,已译,"Smothered in overgrowth, the abandoned home's every nook and cranny now cradles numerous mossy clumps."
 XUAT_04824,蛇,26034,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Snake
@@ -27131,7 +27129,7 @@ XUAT_05498,这……是我……？,26708,遗留层XUAT,—,XUAT,[遗留收编] 
 XUAT_05499,这不是奶奶的纺车……,26709,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 FLV_WCW_A_HOUSE_INTERIOR_04_001（取display侧）,已译,This isn't granny's spindle...
 XUAT_05500,这点报酬可远远配不上你做的事，不过……,26710,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CHR_010_030,已译,"This isn't nearly enough for what you've done, but..."
 XUAT_05501,现在可不是闹分歧的时候。,26711,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,This isn't quite the time for disagreements.
-XUAT_05502,现在可不是浇花的时候吧……？,26712,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 FLV_1_5_HBY_02_001,已译,"This isn't the time to be watering the garden, is it...?"
+XUAT_05502,现在可不是给菜园浇水的时候。,26712,遗留层XUAT,—,XUAT,[同步] 随主线 FLV_1_5_HBY_02_001：garden＝菜园，附加问与问号一并去（原「浇花……吧……？」）,已译,"This isn't the time to be watering the garden, is it...?"
 XUAT_05503,我来不是为了说这个的，伊莉丝……,26713,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"This isn't what I'm here for, Elise..."
 XUAT_05504,这小子为这事翻来覆去想了一整晚！,26714,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,This lad's been tossing and turning all night thinking about it!
 XUAT_05505,埃尔玛太太，您刚才叫她穷要饭的这位丫头，正好是我表妹。,26715,遗留层XUAT,—,XUAT,[v1.3.26修] 删重复的「的」,已译,"This lass you called a penny beggar, Mrs Elma, happens to be my cousin."
@@ -27730,7 +27728,7 @@ XUAT_06082,怎么了吗，罗蕾莱太太？,27292,遗留层XUAT,—,XUAT,[遗�
 XUAT_06083,怎么了，梅希蒂尔德太太？,27293,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CUT_3_4_VSQ_01_002,已译,"What's the matter, Mrs Mechtilde?"
 XUAT_06084,怎么了，威尔玛太太？,27294,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_8_1_VCH_01_005,已译,"What's the matter, Mrs Wilma?"
 XUAT_06085,还有什么好确定的，小子？,27295,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"What's there to be certain about, lad?"
-XUAT_06086,反正，有什么好原谅的呢？,27296,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"What's there to forgive, anyhow?"
+XUAT_06086,反正有什么好原谅的呢？,27296,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"What's there to forgive, anyhow?"
 XUAT_06087,捉弄威尔玛太太是怎么回事？,27297,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_2_2_VIN_01_003,已译,What's this about pranking Mrs Wilma?
 XUAT_06088,这是怎么回事，玛尔伦太太？,27298,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_2_2_VIN_03_002,已译,"What's this about, Mrs Marlen?"
 XUAT_06089,这是什么东西……？,27299,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 DLG_WCW_B_INTRO_02_001,已译,What's this thing...?
@@ -27749,7 +27747,7 @@ XUAT_06101,你对威尔玛什么感觉，丫头？,27311,遗留层XUAT,—,XUAT,
 XUAT_06102,什么，梅希蒂尔德太太？,27312,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"What, Mrs Mechtilde?"
 XUAT_06103,您觉得到底会发生什么事？,27313,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"What, exactly, do you think is coming?"
 XUAT_06104,那是什么呢？,27314,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"What, then?"
-XUAT_06105,这是什么？,27315,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 RedDoorText_1,已译,What... Is this...
+XUAT_06105,这……是什么……,27315,遗留层XUAT,—,XUAT,[标点] 英文两处省略号，恢复「这……是什么……」；RedDoorText_1 英文是 What is this?，属伪同源，不能拿它覆盖本行,已译,What... Is this...
 XUAT_06106,万一……万一是那个……？,27316,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,What... What if it's the...?
 XUAT_06107,什么……？怎么了……？,27317,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,What...? What is it...?
 XUAT_06108,怎么，你这就开始抱怨了？,27318,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CUT_1_5_HGR_02_041,已译,What? Are you complaining already?
@@ -28088,11 +28086,11 @@ XUAT_06440,您节庆前的事都已经够多了。,27650,遗留层XUAT,—,XUAT,
 XUAT_06441,你已经知道我要问什么了，我敢肯定……,27651,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"You already know what I'm going to ask, I'm certain..."
 XUAT_06442,你总是把我往坏处想！真是的！,27652,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,You always assume the worst of me! Frankly!
 XUAT_06443,你每次都做得这么好，好孩子。,27653,遗留层XUAT,—,XUAT,[v11修订] my dear规范作「好孩子」,已译,"You always do such a good job of it, my dear."
-XUAT_06444,是你和芙蕾雅把咱们的日子搅得跟地狱一样！,27654,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_7_3_VSQ_01_058,已译,You and Freya are the ones who've been making our lives Hell...!
-XUAT_06445,是你和斯佩尔特把咱们的日子搅得跟地狱一样！,27655,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_7_3_VSQ_01_059,已译,You and Lebkuchen are the ones who've been making our lives Hell...!
+XUAT_06444,是你和芙蕾雅把我们的日子搅得跟地狱一样！,27654,遗留层XUAT,—,XUAT,[同步] 孪生主线 CUT_7_3_VSQ_01_058 改「我们」,已译,You and Freya are the ones who've been making our lives Hell...!
+XUAT_06445,是你和斯佩尔特把我们的日子搅得跟地狱一样！,27655,遗留层XUAT,—,XUAT,[同步] 孪生主线 CUT_7_3_VSQ_01_059 改「我们」,已译,You and Lebkuchen are the ones who've been making our lives Hell...!
 XUAT_06446,你和你那个表妹——,27656,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,You and that cousin of
 XUAT_06447,你和那只山羊啊……,27657,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,You and that goat...
-XUAT_06448,是你和你表妹把咱们的日子搅得跟地狱一样！,27658,遗留层XUAT,—,XUAT,[v11修订] 对齐主线 CUT_7_3_VSQ_01_057,已译,You and your cousin are the ones who've been making our lives Hell...!
+XUAT_06448,是你和你表妹把我们的日子搅得跟地狱一样！,27658,遗留层XUAT,—,XUAT,[同步] 孪生主线 CUT_7_3_VSQ_01_057 改「我们」,已译,You and your cousin are the ones who've been making our lives Hell...!
 XUAT_06449,承蒙各位盛情，可我们该上路了。,27659,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"You are all very welcoming, but we ought to move along."
 XUAT_06450,你要携着最甜美的琼浆，供人诚心饮下。,27660,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"You are to carry the sweetest nectar, to be drunk in earnest."
 XUAT_06451,你当拥抱祂的祝福，伊莉丝，因为祂已在你的血脉中翻涌……,27661,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"You are to embosom His blessings, Elise, for He is already writhing within your veins..."
@@ -28596,7 +28594,7 @@ XUAT_06940,你的血，伊莉丝，注定要在雷鸣之中泼洒……,28150,�
 XUAT_06941,你的手链对我来说意义重大，而且……,28151,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Your bracelet means plenty to me, and..."
 XUAT_06942,你眉头动的样子可不一样。,28152,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Your brows don't twitch quite the same way.
 XUAT_06943,您的卷心菜，路德维希先生？,28153,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 DLG_5_2_VBA_02_013,已译,"Your cabbages, Mr Ludwig?"
-XUAT_06944,你表妹随后也跑不掉——咱们得把这事办得妥妥当当。,28154,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CUT_7_3_VSQ_01_203,已译,Your cousin will follow - we ought to make certain we do this right.
+XUAT_06944,你表妹随后也跑不掉——我们得把这事办得妥妥当当。,28154,遗留层XUAT,—,XUAT,[同步] 主线 CUT_7_3_VSQ_01_203 改「我们」,已译,Your cousin will follow - we ought to make certain we do this right.
 XUAT_06945,你的渴望——你那炽热的贪婪，那对荣耀无尽的饥渴！,28155,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,"Your desire - your fervent greed, your boundless hunger for glory!"
 XUAT_06946,你注定要成为我们中的一员，你这愚蠢的丫头！,28156,遗留层XUAT,—,XUAT,[遗留收编] 对照同源 CSM_GG_03_007；[对齐] 与主表 CSM_GG_03_007 同源统一（去欧化主语）,已译,"Your fate as one of us is sealed, you foolish lass!"
 XUAT_06947,你的命运，早已被祂那福音亲口许下……,28157,遗留层XUAT,—,XUAT,[遗留收编] 独立条目原值照录,已译,Your fate was pledged by none other than His blissful word...
