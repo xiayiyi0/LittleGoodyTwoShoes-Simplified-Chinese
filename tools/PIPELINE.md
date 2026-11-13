@@ -99,6 +99,25 @@ python tools/check_localization.py --live "<游戏根目录>"  # 查实机安装
 RefKey 只在 I2 取词路径可用；Timeline 旁白、部分弹窗、UGUI 文本拿不到 RefKey，
 只有英文原文。所以这两层以 `Norm(英文)`（去富文本标签 + 折叠空白）作键。
 
+**`<br>` 的既定口径（2026-11-13 复核，别再当风险重提）。**
+`<br>` 是**游戏自己**的换行标记，不是我们发明的：译本里就有 2 行英文原文本身带 `<br>`——
+`NARR_001`「A carefree life where I'm in charge<br>is much more fitting to me, right?」、
+`NARR_007`「Every year, no matter by whom<br>or how many times I was adorned」。
+这两行走的是同一条 TMP 渲染路径（`by_refkey` 里现在就是带 `<br>` 的值，已随包发了很久），
+所以**引擎一定认这个标签**——不认的话游戏自己的英文旁白就会把 `<br>` 显示成字面量。
+`Norm()` 里"`<br>` 直接删除、不换空格"正是为这个标记服务的（`A<br>B` → `AB`，
+而真换行的 `A B` 归一成 `A B`，是两个不同的键）。
+
+口径是**跟原文一致**：英文用 `<br>` 的中文也用 `<br>`；英文用真换行（或 AT 键里的字面 `\n`）的，
+中文也用真换行。目前只有 4 行不完全遵守（`XUAT_00574/00578/00580/01281`：英文是字面 `\n`、
+中文写成 `<br>`），**而且这 4 行一条都没上屏**：`by_refkey` 不收 `XUAT_` 键；
+`display` 的 `pick()` 保住了孪生行的真换行版；`AT` 层自 2026-11-13 起把值里的 `<br>`
+统一写成字面 `\n`。因此"`<br>` 万一不被识别会原样显示"这个担心**只在下面这一种情况下**才可能发生：
+`display` 那条候选在 `--scratch` 全量重建（没有既有值可保）时翻到了 `<br>` 版 —— 而即便翻到，
+TMP 照样渲染成换行，**不会**显示字面量。唯一真正不认富文本标签的组件是旧版
+`UnityEngine.UI.Text`（暂停菜单丝带那几处），但这 4 条里 3 条带 `<sprite>`（只有 TMP 能画），
+第 4 条是教程弹窗、与它们同族，都到不了那条路径。
+
 **为什么还要有 `runtime_lines.txt`（v1.3.30 起）。**
 视频时间轴的部分 cue 不是"整条记录上屏"，而是把一条多行记录**拆成逐句**推给
 `Subtitle Canvas/Subtitle Text`。实机 DIAG 抓到的原文是 `Make everyone look at me`、
