@@ -308,8 +308,16 @@ SUMMARY 必须存在、seen>0 且 fixed>0，防钩子静默失效退化成按英
 证据：`tools/acceptance/DIAG_20261105_1811_设置修复后.txt`（`miss=0 uniqMiss=0`，
 `[DLL SHA] e40689f9…` 与资产一致；设置菜单与退出弹窗的中文即由该轮验证）。
 
-**遗留**：`Of course, Mr. Ludwig.` 的两种译法只能靠 RefKey 分流，而 TMP 显示层按英文归一只取一条；
-已用 `pick_overrides` 钉住附和义。若要让两处各自正确，需要在插件里按组件路径分流（DLL 改动，记待办）。
+**说明（不是待办 —— 2026-11-14 更正）**：`Of course, Mr. Ludwig.` 这类「同一英文、两种语域」的分流
+**已经实现并启用**：v1.3.32 挂钩 `Gridly.GridlyLocal.GetStringData(grid, recordID)`（覆盖 47 个调用点，
+42 处 mediator + 5 处直调 Gridly），用 recordID 查 `by_refkey` 后**逐行返回该行专属译文**，译者的
+语域细化能上屏（实现见 `source/LGTSChinese/Plugin.cs` 的 `GridlyProbe_Postfix`；
+`待实机验证.md` #7 只是等「看一眼确认」，不是在等代码）。
+
+`pick_overrides` 只作用于**另一条路**：英文到达插件时 recordID 已经丢了（TMP 直设文本 / UGUI 文本 /
+组件把英文字面量送进 `Get`），那时只能按 `Norm(英文)` 取一条。这条路上「按组件路径分流」不成立 ——
+插件拿不到「这是哪个组件」的信息，硬做只能靠调用栈猜，脆弱且不可自动验证，故**不列为待办**。
+此前本文件把它写成「记待办」是我记录错误，已按上述口径更正。
 
 ## v1.3.32 — 资产第七次替换（2026-11-04 23:1x，读档界面换行修复，不升版本；本次动 DLL）
 
