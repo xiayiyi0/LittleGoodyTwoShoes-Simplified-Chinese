@@ -46,6 +46,7 @@ WS_RE = re.compile(r"\s+")
 NB = chr(92) + "n"
 
 # 资产里只有内部 ID、没有显示名的说话人。**这里写了就以这里为准**，否则才去译本裸名行找。
+# 每条都要能在译本里指到出处（见行内注释）—— 没有证据的宁可留空。
 AUTHOR_NOTES = {
     # 游戏侧用 Player 表示玩家角色（伊莉丝），译本里没有 "Player" 这个裸名行
     "Player": "伊莉丝",
@@ -56,8 +57,15 @@ AUTHOR_NOTES = {
     "Lebkuchen": "斯佩尔特",
     # 资产写 ASCII "Grune"，译文里是 Grüne → 格吕妮（117 行）
     "Grune": "格吕妮",
-    "Murim": "穆里姆",
+    "Murim": "穆里姆",                 # DLG_4_5_WCR_A_04_012「去陪穆里姆大人吧」
     "?????": "未标注（资产未填）",
+    # 以下 6 个在译本里没有「裸名行」（名字只以 <sprite> 或称呼出现），按译文口径钉住：
+    "Hans": "汉斯",                    # 250 行，其中 233 行是「汉斯神父」
+    "Aziel": "阿兹尔",                 # XUAT_00214「穆里姆大人和阿兹尔女士……」
+    "Ozzy": "奥兹",                    # XUAT_01196 配音阵容串「……古斯塔夫\n奥兹」
+    "Valerie": "瓦莱丽",               # CUT_END_GG_03_004~021 共 4 行
+    "Demon": "恶魔",                   # 泛指：DEMON_PARADE=恶魔巡游、CUT_END_GG_02_003「恶魔」
+    "Anonymous": "匿名",               # 译本没有出现；无具名说话人的兜底标签
 }
 
 
@@ -310,6 +318,26 @@ def main():
     with open(main_tsv, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines) + "\n")
 
+    # ---- 可直接粘贴的一列: 行序与译本 CSV 逐行对齐 ----
+    # 只填「节点直证」的键; XUAT 的同文推断/近似不在这一列(证据强度不同, 混进来会失真)。
+    paste_tsv = os.path.join(out_dir, "说话人列_可粘贴.tsv")
+    n_paste = 0
+    with open(paste_tsv, "w", encoding="utf-8", newline="\n") as f:
+        f.write("记录键\t说话人ID\t说话人显示名\t同场人物\n")
+        for r in rows:                      # rows 就是译本原序
+            k = r["记录键"]
+            rs = hits.get(k)
+            if rs:
+                n_paste += 1
+                f.write("\t".join([
+                    k,
+                    "/".join(sorted(set(x[2] for x in rs))),
+                    "/".join(sorted(set(x[3] or names.get(x[2], "") for x in rs if (x[3] or names.get(x[2], ""))))),
+                    ",".join(sorted(set(p for x in rs for p in convs[x[0]]["participants"]))),
+                ]) + "\n")
+            else:
+                f.write(k + "\t\t\t\n")
+
     # ---- XUAT 推断: 只认「英文串与当前 Gridly 某键正文相同」，不按序号猜 ----
     bridge_tsv = os.path.join(out_dir, "说话人映射_推断XUAT.tsv")
     n_bridge = n_bridge_node = 0
@@ -402,6 +430,7 @@ def main():
     }
     print(json.dumps(out, ensure_ascii=False))
     print("TSV:", main_tsv, os.path.getsize(main_tsv), "B")
+    print("TSV:", paste_tsv, os.path.getsize(paste_tsv), "B", "(填 %d 行 / 共 %d 行)" % (n_paste, len(rows)))
     if args.gridly:
         print("TSV:", bridge_tsv, os.path.getsize(bridge_tsv), "B")
         print("TSV:", near_tsv, os.path.getsize(near_tsv), "B")
