@@ -38,7 +38,7 @@ namespace LGTSChinese
     {
         // 版本号的唯一来源。Plugin.VER 直接引用它, 构建脚本 / DIAG / selftest 报告
         // 全部由这里派生 —— 升版本只改这一行。
-        internal const string VER = "1.3.33";
+        internal const string VER = "1.3.34";
 
         // v1.3.27 (G3): 显示词典条数下限。低于此值说明文件被截断或解析半途失败,
         // 旧版会静默带病运行(玩家看到大面积英文, 日志却只有一行"载入 N 条")。
