@@ -98,7 +98,7 @@ EXPECT_SUMS = 1 + len(FILES) + len(SHIPPED_TOP)
 # v1.3.32 结构侧: 42 → 47 (G 组加入 DIAG 与资产的绑定断言: 首行版本 / DLL sha256 / TMP 钩子已挂;
 #                行数门槛从 >100 降到 >20, 那一项已不再是证据强度指标)。
 # v1.3.33 结构侧: 47 → 50 (新增 I 组 3 项: 零 Unity 依赖自检报告的 存在/源码绑定/用例数)。
-EXPECTED_CHECKS = 50
+EXPECTED_CHECKS = 51
 
 # G 组(运行时诊断)确实是 7 项, 而不是注释里写的 6 项 —— v1.3.33 修正了这个字面量,
 # 此前"不带 --diag 跑"会把应跑数算少 1, 自断言本身误报。
@@ -446,6 +446,21 @@ def main():
                 if wrong in zv and re.search(r"\b" + en_pat + r"\b", en, flags):
                     ng["csv:" + en_pat] = ng.get("csv:" + en_pat, 0) + 1
         check("display/AT 错叫名未串名", not ng, str(ng))
+
+        # PV / 旁白字幕的中文行数不得超过源文。
+        # 2026-11-14 实机: 歌 1 `PV_RubyShoes` 有 3 条 cue 的中文断行多于源文
+        # (SUB_001_012 源文 1 行→中文 6 行等), 一条字幕里堆 3~6 行, 观感挤。
+        # 只对 SUB_/NARR_ 生效 —— 普通对话允许按中文语序断行, 不受此限。
+        sub_over = []
+        for r in rows:
+            k = r["记录键"]
+            if not (k.startswith("SUB_") or k.startswith("NARR_")):
+                continue
+            en_lines = (r["英文原文"] or "").count("\n") + 1
+            zh_lines = (((r.get("修订译文") or "").strip() or r["中文译文"] or "")).count("\n") + 1
+            if zh_lines > en_lines:
+                sub_over.append("%s(%d>%d)" % (k, zh_lines, en_lines))
+        check("PV/字幕行数不超过源文", not sub_over, "%d 条 %s" % (len(sub_over), sub_over[:8]))
 
         # 半角括号/冒号/分号只该出现在遗留层, 已由工具规范化。UI_System 是
         # display.json 缺失才走的退回路径, 不在本检查范围。

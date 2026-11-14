@@ -16111,10 +16111,10 @@ Like a wildflower who couldn’t bloom by herself,\nI was left to be overshadowe
 Oh ruby red who guides my dreams,\nwon't you let me be selfish for once?=在梦中引导着奇迹成真的红宝石\n能否让任性的我实现一个愿望
 Oh Ruby Red Crimson who guides the locus of my dreams\nWon’t you grant me just one moment of selfishness?=在梦中引导着奇迹成真的红宝石\n能否让任性的我实现一个愿望
 Make it so everyone will look at me=让所有人的目光都落在我身上
-Make everyone look at me\nEven if just once, let me shine brighter than anyone else.=不管是谁都希望他们能注视我\n即使只有这一次\n也希望能比其他人都要耀眼
+Make everyone look at me\nEven if just once, let me shine brighter than anyone else.=不管是谁都希望他们能注视我\n即使只有这一次，也希望能比其他人都要耀眼
 For once and one time only, \nlet me shine brighter than anyone else.=就这一次，仅此一次，\n让我比任何人都更加耀眼。
-Hey, look at me more, more=呐～\n更多……更多……
-look at me, look at me, look at me,\nLOOK AT ME LOOK AT ME=向我这边……\n更多……\n看过来\n看过来\n看过来\n看过来
+Hey, look at me more, more=呐～更多……更多……
+look at me, look at me, look at me,\nLOOK AT ME LOOK AT ME=向我这边……，更多……，看过来，看过来，看过来，看过来
 Hey, look at me…=拜托多看看我吧！
 That dream again...=又是那个梦……
 I'd best get up and head to town...=我最好起身进村去……
@@ -24248,7 +24248,7 @@ What can I do for you today, dearie?=今天想要点什么呀，乖丫头？
 Tell me if you need anything else, dearie!=还要别的就跟我说，乖丫头！
 “No more!”=「再也不要了！」
 A carefree life where I’m in charge is much more fitting to me, right?=由自己掌控的无忧无虑的生活才更适合我，对吧？
-Every year, no matter by whom or how many times I was adorned=每一年\n无论我被谁多少次装饰得多么光鲜亮丽
+Every year, no matter by whom or how many times I was adorned=每一年，无论我被谁多少次装饰得多么光鲜亮丽
 Each day has Six time periods,\nbut only Three are working periods:\nMorning\nAfternoon\nDusk=每天有<b><color=#E1402C>6</color></b>个时段，\n但只有<b><color=#E1402C>3</color></b>个是<color=#2F9FF3><b>劳作时段</b></color>：\n<b>上午</b>\n<b>下午</b>\n<b>黄昏</b>
 Time Periods=<b>时段</b>
 All Story Events are marked with the  icon!\nIf marked by the  icon, they'll skip one time period.=所有<color=#30C973><b>剧情事件</b></color>都标有<sprite="balloonicons" name="book_open">符号！\n若标着<sprite="balloonicons" name="hourglass">符号，则会<b><color=#E1402C>跳过</color>1个时段</b>。

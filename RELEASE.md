@@ -98,7 +98,8 @@
 - [ ] `BepInEx/LogOutput.log` 无 `NullReferenceException`、无
       `GuardHits` 超限告警（C6 护栏日志上限 50 次）
 - [ ] 发布验收脚本通过：`python tools/verify_release.py --stage <发布树> --csv <译本>`
-      （v1.3.32 起必须带全参数 `--stage --version --live --csv --diag`，共 **50 项**；
+      （v1.3.32 起必须带全参数 `--stage --version --live --csv --diag`，共 **51 项**
+      （2026-11-14 起；此前 50 项，新增「PV/字幕行数不超过源文」）；
       rc 必须为 0 —— 1 = 有 FAIL，2 = 有 SKIP 或检查项没跑全）
 - [ ] **零 Unity 依赖自检通过**（v1.3.33 起）：`python tools/selftest.py`，
       报告 `tools/acceptance/selftest_v<版本>.txt` 存在、`RESULT=PASS`、
