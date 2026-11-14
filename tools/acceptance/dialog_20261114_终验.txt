@@ -1,0 +1,418 @@
+17:32:26.101  GRIDLY Cutscenes|CUT_8_END_L_F_01_018  ->  那走吧？回基弗伯格？
+17:32:26.102  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[芙蕾雅]
+17:32:26.103  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[那走吧？回基弗伯格？]
+17:32:26.103  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[那走吧？回基弗伯格？]
+17:32:28.217  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:32:28.218  GRIDLY Cutscenes|CUT_8_END_L_F_01_019  ->  你想去哪儿都行，芙蕾雅。
+17:32:28.218  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:32:28.220  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[你想去哪儿都行，芙蕾雅。]
+17:32:28.221  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[你想去哪儿都行，芙蕾雅。]
+17:32:30.063  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[]
+17:32:30.063  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:32:31.629  GRIDLY Dialogue|DLG_8_3_VIN_07_003  ->  打起精神乐一乐呀，伊莉丝！
+17:32:31.630  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[埃尔玛]
+17:32:31.631  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[打起精神乐一乐呀，伊莉丝！]
+17:32:31.633  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[打起精神乐一乐呀，伊莉丝！]
+17:32:32.562  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:32:32.563  GRIDLY Dialogue|DLG_8_3_VIN_07_004  ->  可不是，今天<i>正是</i>节庆的日子呀！
+17:32:32.564  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[罗蕾莱]
+17:32:32.566  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[可不是，今天<i>正是</i>节庆的日子呀！]
+17:32:32.568  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[可不是，今天<i>正是</i>节庆的日子呀！]
+17:32:33.447  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:32:33.449  GRIDLY Dialogue|DLG_8_3_VIN_07_005  ->  说得是，埃尔玛太太。
+17:32:33.449  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:32:33.449  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[说得是，埃尔玛太太。]
+17:32:33.451  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[说得是，埃尔玛太太。]
+17:32:33.995  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:32:33.996  GRIDLY Dialogue|DLG_8_3_VIN_07_006  ->  唉，不瞒你说，那事真叫人臊得慌！
+17:32:33.997  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[贝尔塔]
+17:32:33.999  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[唉，不瞒你说，那事真叫人臊得慌！]
+17:32:34.001  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[唉，不瞒你说，那事真叫人臊得慌！]
+17:32:34.511  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:32:34.513  GRIDLY Dialogue|DLG_8_3_VIN_07_007  ->  什么事？
+17:32:34.513  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:32:34.515  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[什么事？]
+17:32:34.516  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[什么事？]
+17:32:34.828  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:32:34.830  GRIDLY Dialogue|DLG_8_3_VIN_07_008  ->  就是闹<color=#934494><b>女巫</b></color>那一场风波呀，伊莉丝！
+17:32:34.831  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[贝尔塔]
+17:32:34.832  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[就是闹<color=#934494><b>女巫</b></color>那一场风波呀，伊莉丝！]
+17:32:34.833  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[就是闹<color=#934494><b>女巫</b></color>那一场风波呀，伊莉丝！]
+17:32:35.379  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:32:35.380  GRIDLY Dialogue|DLG_8_3_VIN_07_009  ->  基弗伯格实在不该闹出那么多争端。
+17:32:35.380  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[罗蕾莱]
+17:32:35.380  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[基弗伯格实在不该闹出那么多争端。]
+17:32:35.382  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[基弗伯格实在不该闹出那么多争端。]
+17:32:35.895  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:32:35.896  GRIDLY Dialogue|DLG_8_3_VIN_07_010  ->  ……
+17:32:35.896  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:32:35.897  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[……]
+17:32:35.899  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[……]
+17:32:36.230  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:32:36.231  GRIDLY Dialogue|DLG_8_3_VIN_07_011  ->  大伙儿绷得太久了……
+17:32:36.232  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[埃尔玛]
+17:32:36.233  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[大伙儿绷得太久了……]
+17:32:36.234  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[大伙儿绷得太久了……]
+17:32:36.695  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:32:36.696  GRIDLY Dialogue|DLG_8_3_VIN_07_012  ->  咱们怎么又扯起这些胡话来了？！
+17:32:36.697  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[贝尔塔]
+17:32:36.698  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[咱们怎么又扯起这些胡话来了？！]
+17:32:36.699  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[咱们怎么又扯起这些胡话来了？！]
+17:32:37.128  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:32:37.129  GRIDLY Dialogue|DLG_8_3_VIN_07_013  ->  可不是，咱们该乐呵乐呵才对！
+17:32:37.130  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[罗蕾莱]
+17:32:37.130  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[可不是，咱们该乐呵乐呵才对！]
+17:32:37.132  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[可不是，咱们该乐呵乐呵才对！]
+17:32:37.578  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:32:37.580  GRIDLY Dialogue|DLG_8_3_VIN_07_014  ->  啊，恕我失陪……
+17:32:37.580  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:32:37.581  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[啊，恕我失陪……]
+17:32:37.583  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[啊，恕我失陪……]
+17:32:38.028  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:32:38.030  GRIDLY Dialogue|DLG_8_3_VIN_07_015  ->  结局好便一切都好，你说是不是？
+17:32:38.030  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[贝尔塔]
+17:32:38.032  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[结局好便一切都好，你说是不是？]
+17:32:38.033  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[结局好便一切都好，你说是不是？]
+17:32:38.429  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:32:38.430  GRIDLY Dialogue|DLG_8_3_VIN_07_016  ->  咱们得谢谢圣瓦尔普加！
+17:32:38.431  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[埃尔玛]
+17:32:38.432  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[咱们得谢谢圣瓦尔普加！]
+17:32:38.433  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[咱们得谢谢圣瓦尔普加！]
+17:32:38.845  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:32:38.846  GRIDLY Dialogue|DLG_8_3_VIN_07_017  ->  真是的！
+17:32:38.847  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:32:38.848  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[真是的！]
+17:32:38.849  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[真是的！]
+17:32:40.130  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[]
+17:32:40.131  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:08.346  TMP  DialogueWindow/Dialogue/DialogueBackground/SettingsPanel/AutoToggle/Button/Toggle/Inputs Container/horizontal layout/Select/Text (TMP)
+     SHOWN=[选择]
+17:33:08.351  TMP  DialogueWindow/Dialogue/DialogueBackground/Auto Skip/AutoLabel/text Auto
+     SHOWN=[自动]
+17:33:08.353  TMP  DialogueWindow/Dialogue/DialogueBackground/Auto Skip/SkipLabel/text skip
+     SHOWN=[跳过]
+17:33:08.355  TMP  DialogueWindow/Dialogue/DialogueBackground/SettingsPanel/LogButton/Button/Toggle/Inputs Container_2/horizontal layout/Select/Text (TMP)
+     SHOWN=[选择]
+17:33:08.357  TMP  PauseMenu/ConfigMenu/AudioMenu/SettingsAudioContent/Scroll View/Viewport/Content/Dialogue_SliderOptionSetting_3/Label
+     SHOWN=[对话]
+17:33:08.357  TMP  DialogueWindow/Dialogue/DialogueBackground/SettingsPanel/SkipToggle/Button/Toggle/Inputs Container_1/horizontal layout/Select/Text (TMP)
+     SHOWN=[选择]
+17:33:08.360  TMP  PauseMenu/ConfigMenu/Controls Panel/Labels/Skip Dialogue
+     SHOWN=[跳过对话\n]
+17:33:09.816  TMP  DialogueWindow/Dialogue/DialogueBackground/SettingsPanel/SkipToggle/Button/Toggle/Inputs Container_1/horizontal layout/Select/Text (TMP)
+     SHOWN=[跳过]
+17:33:09.817  TMP  DialogueWindow/Dialogue/DialogueBackground/SettingsPanel/AutoToggle/Button/Toggle/Inputs Container/horizontal layout/Select/Text (TMP)
+     SHOWN=[自动]
+17:33:09.818  TMP  DialogueWindow/Dialogue/DialogueBackground/SettingsPanel/LogButton/Button/Toggle/Inputs Container_2/horizontal layout/Select/Text (TMP)
+     SHOWN=[日志]
+17:33:11.027  TMP  DialogueWindow/Dialogue/DialogueBackground/SettingsPanel/SkipToggle/Button/Toggle/Inputs Container_1/horizontal layout/Select/Text (TMP)
+     SHOWN=[跳过]
+17:33:11.028  TMP  DialogueWindow/Dialogue/DialogueBackground/SettingsPanel/AutoToggle/Button/Toggle/Inputs Container/horizontal layout/Select/Text (TMP)
+     SHOWN=[自动]
+17:33:11.029  TMP  DialogueWindow/Dialogue/DialogueBackground/SettingsPanel/LogButton/Button/Toggle/Inputs Container_2/horizontal layout/Select/Text (TMP)
+     SHOWN=[日志]
+17:33:11.063  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:43.535  GRIDLY Dialogue|DLG_8_3_VIN_07_002  ->  你在这儿啊……算是吧……
+17:33:43.535  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:33:43.592  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[你在这儿啊……算是吧……]
+17:33:43.598  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[你在这儿啊……算是吧……]
+17:33:45.578  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:45.580  GRIDLY Dialogue|DLG_8_3_VIN_07_003  ->  打起精神乐一乐呀，伊莉丝！
+17:33:45.581  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[埃尔玛]
+17:33:45.583  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[打起精神乐一乐呀，伊莉丝！]
+17:33:45.583  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[打起精神乐一乐呀，伊莉丝！]
+17:33:46.177  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:46.178  GRIDLY Dialogue|DLG_8_3_VIN_07_004  ->  可不是，今天<i>正是</i>节庆的日子呀！
+17:33:46.178  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[罗蕾莱]
+17:33:46.182  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[可不是，今天<i>正是</i>节庆的日子呀！]
+17:33:46.184  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[可不是，今天<i>正是</i>节庆的日子呀！]
+17:33:46.727  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:46.728  GRIDLY Dialogue|DLG_8_3_VIN_07_005  ->  说得是，埃尔玛太太。
+17:33:46.728  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:33:46.729  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[说得是，埃尔玛太太。]
+17:33:46.731  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[说得是，埃尔玛太太。]
+17:33:47.160  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:47.160  GRIDLY Dialogue|DLG_8_3_VIN_07_006  ->  唉，不瞒你说，那事真叫人臊得慌！
+17:33:47.161  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[贝尔塔]
+17:33:47.162  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[唉，不瞒你说，那事真叫人臊得慌！]
+17:33:47.164  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[唉，不瞒你说，那事真叫人臊得慌！]
+17:33:47.779  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:47.781  GRIDLY Dialogue|DLG_8_3_VIN_07_007  ->  什么事？
+17:33:47.781  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:33:47.782  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[什么事？]
+17:33:47.783  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[什么事？]
+17:33:47.977  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:47.978  GRIDLY Dialogue|DLG_8_3_VIN_07_008  ->  就是闹<color=#934494><b>女巫</b></color>那一场风波呀，伊莉丝！
+17:33:47.978  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[贝尔塔]
+17:33:47.980  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[就是闹<color=#934494><b>女巫</b></color>那一场风波呀，伊莉丝！]
+17:33:47.982  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[就是闹<color=#934494><b>女巫</b></color>那一场风波呀，伊莉丝！]
+17:33:48.393  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:48.394  GRIDLY Dialogue|DLG_8_3_VIN_07_009  ->  基弗伯格实在不该闹出那么多争端。
+17:33:48.395  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[罗蕾莱]
+17:33:48.395  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[基弗伯格实在不该闹出那么多争端。]
+17:33:48.397  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[基弗伯格实在不该闹出那么多争端。]
+17:33:48.793  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:48.793  GRIDLY Dialogue|DLG_8_3_VIN_07_010  ->  ……
+17:33:48.794  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:33:48.796  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[……]
+17:33:48.797  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[……]
+17:33:49.010  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:49.010  GRIDLY Dialogue|DLG_8_3_VIN_07_011  ->  大伙儿绷得太久了……
+17:33:49.012  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[埃尔玛]
+17:33:49.013  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[大伙儿绷得太久了……]
+17:33:49.014  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[大伙儿绷得太久了……]
+17:33:49.443  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:49.444  GRIDLY Dialogue|DLG_8_3_VIN_07_012  ->  咱们怎么又扯起这些胡话来了？！
+17:33:49.445  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[贝尔塔]
+17:33:49.445  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[咱们怎么又扯起这些胡话来了？！]
+17:33:49.448  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[咱们怎么又扯起这些胡话来了？！]
+17:33:49.877  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:49.878  GRIDLY Dialogue|DLG_8_3_VIN_07_013  ->  可不是，咱们该乐呵乐呵才对！
+17:33:49.879  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[罗蕾莱]
+17:33:49.879  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[可不是，咱们该乐呵乐呵才对！]
+17:33:49.880  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[可不是，咱们该乐呵乐呵才对！]
+17:33:50.326  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:50.328  GRIDLY Dialogue|DLG_8_3_VIN_07_014  ->  啊，恕我失陪……
+17:33:50.328  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:33:50.329  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[啊，恕我失陪……]
+17:33:50.330  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[啊，恕我失陪……]
+17:33:50.743  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:50.744  GRIDLY Dialogue|DLG_8_3_VIN_07_015  ->  结局好便一切都好，你说是不是？
+17:33:50.745  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[贝尔塔]
+17:33:50.746  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[结局好便一切都好，你说是不是？]
+17:33:50.748  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[结局好便一切都好，你说是不是？]
+17:33:51.176  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:51.177  GRIDLY Dialogue|DLG_8_3_VIN_07_016  ->  咱们得谢谢圣瓦尔普加！
+17:33:51.178  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[埃尔玛]
+17:33:51.178  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[咱们得谢谢圣瓦尔普加！]
+17:33:51.180  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[咱们得谢谢圣瓦尔普加！]
+17:33:51.577  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:51.578  GRIDLY Dialogue|DLG_8_3_VIN_07_017  ->  真是的！
+17:33:51.579  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:33:51.580  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[真是的！]
+17:33:51.581  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[真是的！]
+17:33:52.594  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[]
+17:33:52.595  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:54.226  GRIDLY Cutscenes|CUT_7_2_VIN_01_031  ->  谅你也不敢，穆迪！
+17:33:54.226  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:33:54.228  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[谅你也不敢，穆迪！]
+17:33:54.231  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[谅你也不敢，穆迪！]
+17:33:55.656  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:55.658  GRIDLY Cutscenes|CUT_7_2_VIN_01_032  ->  呀！
+17:33:55.658  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[穆菲]
+17:33:55.661  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[呀！]
+17:33:55.663  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[呀！]
+17:33:56.104  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:33:56.105  GRIDLY Cutscenes|CUT_7_2_VIN_01_033  ->  （我可没工夫陪她胡闹！）
+17:33:56.105  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:33:56.106  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[<color=#7D6690>（我可没工夫陪她胡闹！）</color>]
+17:33:56.106  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[<color=#7D6690>（我可没工夫陪她胡闹！）</color>]
+17:33:57.561  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[]
+17:33:57.562  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:34:00.128  GRIDLY Dialogue|DLG_2_3_OLH_04_021  ->  好你个小鬼……！
+17:34:00.129  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:34:00.130  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[好你个小鬼……！]
+17:34:00.131  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[好你个小鬼……！]
+17:34:01.010  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:34:01.010  GRIDLY Dialogue|DLG_2_3_OLH_04_022  ->  呀！
+17:34:01.010  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[穆菲]
+17:34:01.011  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[呀！]
+17:34:01.013  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[呀！]
+17:34:01.530  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:34:01.531  GRIDLY Dialogue|DLG_2_3_OLH_04_023  ->  我这就去告诉多萝特娅太太，你给我等着！
+17:34:01.531  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:34:01.532  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[我这就去告诉多萝特娅太太，你给我等着！]
+17:34:01.533  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[我这就去告诉多萝特娅太太，你给我等着！]
+17:34:02.962  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[]
+17:34:02.962  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:34:04.534  GRIDLY Cutscenes|CUT_8_END_L_F_01_017  ->  你呀……！
+17:34:04.534  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:34:04.534  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[你呀……！]
+17:34:04.535  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[你呀……！]
+17:34:05.234  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:34:05.236  GRIDLY Cutscenes|CUT_8_END_L_F_01_018  ->  那走吧？回基弗伯格？
+17:34:05.236  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonNPC/AuthorPlayer
+     SHOWN=[芙蕾雅]
+17:34:05.237  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[那走吧？回基弗伯格？]
+17:34:05.238  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[那走吧？回基弗伯格？]
+17:34:05.752  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
+17:34:05.753  GRIDLY Cutscenes|CUT_8_END_L_F_01_019  ->  你想去哪儿都行，芙蕾雅。
+17:34:05.753  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[伊莉丝]
+17:34:05.754  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[你想去哪儿都行，芙蕾雅。]
+17:34:05.754  TMP  LogMenu/LogMenu Canvas/LogPanel/Paper/Scroll View/Viewport/Content/DialogueField
+     SHOWN=[你想去哪儿都行，芙蕾雅。]
+17:34:06.794  TMP  DialogueWindow/Dialogue/DialogueBackground/AuthorRibbonPlayer/AuthorPlayer
+     SHOWN=[]
+17:34:06.795  TMP  DialogueWindow/Dialogue/DialogueBackground/DialogueText
+     SHOWN=[]
