@@ -45,11 +45,19 @@ TAG_RE = re.compile(r"<[/#a-zA-Z][^>]*>")
 WS_RE = re.compile(r"\s+")
 NB = chr(92) + "n"
 
-# 资产里只有内部 ID、没有显示名的说话人。能在译本里找到「裸名行」的不用列在这里。
+# 资产里只有内部 ID、没有显示名的说话人。**这里写了就以这里为准**，否则才去译本裸名行找。
 AUTHOR_NOTES = {
-    "Player": "主角（伊莉丝）",
+    # 游戏侧用 Player 表示玩家角色（伊莉丝），译本里没有 "Player" 这个裸名行
+    "Player": "伊莉丝",
     "FlavourText": "环境/旁白（非人物）",
     "GoldenGirl": "金发女孩（过场）",
+    # Lebkuchen 是「名字/食品」同形：作人物是斯佩尔特，作食品(ITM_F_N_08)才是姜饼。
+    # 裸名行会取到食品那个「姜饼」，所以必须在这里钉住（同 NAME_GUARD/NAME_OVERRIDE 的口径）。
+    "Lebkuchen": "斯佩尔特",
+    # 资产写 ASCII "Grune"，译文里是 Grüne → 格吕妮（117 行）
+    "Grune": "格吕妮",
+    "Murim": "穆里姆",
+    "?????": "未标注（资产未填）",
 }
 
 
@@ -177,7 +185,7 @@ def build_edges(nodes):
 
 
 def build_name_table(rows, authors):
-    """显示名：只认译本里的「裸名行」(英文原文 == 说话人 ID)，其余留空或走 AUTHOR_NOTES。"""
+    """显示名：AUTHOR_NOTES 优先（同形异义必须钉住），其余只用译本「裸名行」(英文原文 == ID)。"""
     by_norm = defaultdict(Counter)
     for r in rows:
         e, z = norm(r["英文原文"]), (r["中文译文"] or "").strip()
@@ -185,8 +193,11 @@ def build_name_table(rows, authors):
             by_norm[e][z] += 1
     names = {}
     for a in authors:
+        if a in AUTHOR_NOTES:
+            names[a] = AUTHOR_NOTES[a]
+            continue
         c = by_norm.get(a)
-        names[a] = c.most_common(1)[0][0] if c else AUTHOR_NOTES.get(a, "")
+        names[a] = c.most_common(1)[0][0] if c else ""
     return names
 
 

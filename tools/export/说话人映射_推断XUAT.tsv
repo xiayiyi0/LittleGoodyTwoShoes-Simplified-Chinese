@@ -1,10 +1,10 @@
 记录键	推断说话人ID	说话人显示名	依据(同文的当前键)	该键的说话人	同场人物	置信度	英文原文
 XUAT_00002	Rozenmarine	萝森玛琳	CUT_5_1_HBY_01_041	Rozenmarine	Player,Rozenmarine	中	"Gifts for the host - food, drink and good company!"
-XUAT_00005	Lebkuchen	姜饼	CUT_8_END_SB_L_004	Lebkuchen	Freya,Gretel,Heinrich,Lebkuchen,Player	中	"I will, Granny don't you worry about me!"
+XUAT_00005	Lebkuchen	斯佩尔特	CUT_8_END_SB_L_004	Lebkuchen	Freya,Gretel,Heinrich,Lebkuchen,Player	中	"I will, Granny don't you worry about me!"
 XUAT_00008	Player	伊莉丝	CUT_8_END_SB_F_015	Player	Apfel,Freya,Grune,Gustav,Player	中	"Never mind the sign we need to get you a proper shop first!"
 XUAT_00014	Player	伊莉丝	CUT_8_END_SB_F_021	Player	Apfel,Freya,Grune,Gustav,Player	中	"We ought to hurry, Freya we open in an hour!"
 XUAT_00027	Player	伊莉丝	CSM_3_2_OCR_01_002	Player	FlavourText,Player	中	(Another prayer...)
-XUAT_00028	Lebkuchen	姜饼	LVE_3_4_VCH_L_061	Lebkuchen	Lebkuchen,Player	中	(Anyhow...)
+XUAT_00028	Lebkuchen	斯佩尔特	LVE_3_4_VCH_L_061	Lebkuchen	Lebkuchen,Player	中	(Anyhow...)
 XUAT_00032	Player	伊莉丝	FLV_2_2_VCH_4_001	Player	FlavourText,Player	中	(As much as I dislike Sunday mass, I have to admit I feel at peace here.)
 XUAT_00034	Player	伊莉丝	CUT_5_1_VWM_01_019	Player	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine	中	(Because he was stolen from, or because he has no horses to steal the grain with...?)
 XUAT_00039	Player	伊莉丝	CUT_1_5_HGR_02_014	Player	Player,Rozenmarine	中	(Coins and weeds…?)
@@ -20,7 +20,7 @@ XUAT_00087	Player	伊莉丝	CUT_D_WSN-J_01_001	Player	Aziel,Freya,Lebkuchen,Play
 XUAT_00102	Player	伊莉丝	DLG_D_WSN-F_08_004	Player	?????,Player	中	(I have my doubts as to whether you'll keep yours...)
 XUAT_00104	Player	伊莉丝	FLV_2_3_VSQ_2_001	Player	Player	中	(I know she meant no harm, but I have more to spend my time on than Mrs Mechtilde's lectures!)
 XUAT_00111	Player	伊莉丝	DLG_2_1_OLH_01_010	Player	Gretel,Player	中	(I remember when granny Gretel used to come visit every day...)
-XUAT_00117	Lebkuchen	姜饼	DLG_4_1_VIN_04_022 | DLG_4_5_WCR_C_04_004 | DLG_4_5_WCR_C_05_057 | DLG_5_1_VWM_01_027	Lebkuchen	Freya,Lebkuchen,Player,Rozenmarine	中	(I suppose not...)
+XUAT_00117	Lebkuchen	斯佩尔特	DLG_4_1_VIN_04_022 | DLG_4_5_WCR_C_04_004 | DLG_4_5_WCR_C_05_057 | DLG_5_1_VWM_01_027	Lebkuchen	Freya,Lebkuchen,Player,Rozenmarine	中	(I suppose not...)
 XUAT_00118	Player	伊莉丝	DLG_7_3_VCH_02_010	Player	Ariane,Player	中	(I suppose she's feeling guilty, huh...)
 XUAT_00146	Player	伊莉丝	DLG_7_5_OLH_01_021	Player	Lebkuchen,Player	中	(I'm rather calm, huh...)
 XUAT_00147	Player	伊莉丝	DLG_4_1_VIN_04_021	Player	Freya,Lebkuchen,Player,Rozenmarine	中	(I'm saved...!)
@@ -76,7 +76,7 @@ XUAT_00483	Player	伊莉丝	DLG_4_1_VIN_03_002	Player	Loreley,Marlen,Player,Roze
 XUAT_00486	Marlen	玛尔伦	DLG_5_1_VST_01_011	Marlen	Jakob,Marlen,Player,Rozenmarine	中	Absolutely not, Jakob - and that's final!
 XUAT_00494	Elma	埃尔玛	DLG_7_2_VSQ_04_002	Elma	Elma,Player	中	After all that trouble I had yesterday...!
 XUAT_00501			Afternoon | AfternoonAbv			高（依据键无对话节点）	Afternoon
-XUAT_00504	Grune		CHR_014_002 | CHR_018_001 | LVE_2_3_OVP_F_001 | LVE_7_3_OGR_F_001	Grune	Grune,Jakob,Player	中	Ah! Elise!
+XUAT_00504	Grune	格吕妮	CHR_014_002 | CHR_018_001 | LVE_2_3_OVP_F_001 | LVE_7_3_OGR_F_001	Grune	Grune,Jakob,Player	中	Ah! Elise!
 XUAT_00512	Rozenmarine	萝森玛琳	DLG_3_3_VCH_01_019	Rozenmarine	Lebkuchen,Player,Rozenmarine	中	Ah! Not yet!
 XUAT_00514	Player	伊莉丝	DLG_3_3_VSQ_03_011	Player	Player,Rozenmarine,Tristan	中	Ah! This is my cousin, Rosmarine.
 XUAT_00518	Elma	埃尔玛	CHR_004_001	Elma	Elma,Player	中	Ah! You come by just in time, Elise!
@@ -96,7 +96,7 @@ XUAT_00602	Player	伊莉丝	DLG_2_4_VST_01_015	Player	Eugen,Player	中	All right
 XUAT_00603	Player	伊莉丝	DLG_8_3_VIN_08_007	Player	Odilie,Player	中	All right, Mrs Odilie.
 XUAT_00604	Player	伊莉丝	CUT_WCW_B_INTRO_03_004	Player	Crow,Player	中	All right, all right - I get it!
 XUAT_00615	Linda	琳达	DLG_5_2_VIN_02_006	Linda	Ariane,Freya,Linda,Player,Wilma	中	All that's keeping me in good spirits is the festival, if I'm honest.
-XUAT_00616	?????		CUT_WCW_E_PITFALLS_02_012	?????	?????,Apfel,Crow,Murim,Player	中	All that's rightfully mine... My progeny...
+XUAT_00616	?????	未标注（资产未填）	CUT_WCW_E_PITFALLS_02_012	?????	?????,Apfel,Crow,Murim,Player	中	All that's rightfully mine... My progeny...
 XUAT_00618	Player	伊莉丝	CUT_1_5_OCR_01_011	Player	?????,Bernhard,Heinrich,Ludwig,Player	中	All the steak I could ever want, all the shiny dresses...!
 XUAT_00619	Odilie	奥蒂莉	CUT_7_3_VSQ_01_106	Odilie	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	All the things she's said and done, too...!
 XUAT_00620	Eugen	欧根	CUT_4_1_VST_01_031	Eugen	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine	中	All there was when I got here this morning was Bernhard's pig in a saddle...!
@@ -104,14 +104,14 @@ XUAT_00621	Odilie	奥蒂莉	DLG_5_1_VBA_01_010	Odilie	Odilie,Player	中	All thes
 XUAT_00655	Wilma	威尔玛	DLG_6_2_VWW_01_007	Wilma	Bernhard,Ludwig,Player,Wilma	中	An absolute nightmare - that's what this is!
 XUAT_00657			ITM_N_D_17			中（依据键无对话节点）	An expensive-looking rosary bearing a heavy silver cross and big shiny pearls.\nFetches a moderate price.
 XUAT_00660			ITM_N_D_16			中（依据键无对话节点）	An old rosary threaded with mismatched beads and bearing a mangled wooden cross.\nMay be worth selling.
-XUAT_00665	Lebkuchen	姜饼	CUT_7_3_VSQ_01_190	Lebkuchen	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player	中	And I didn't, Father...!
+XUAT_00665	Lebkuchen	斯佩尔特	CUT_7_3_VSQ_01_190	Lebkuchen	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player	中	And I didn't, Father...!
 XUAT_00666	Freya	芙蕾雅	CUT_7_3_VSQ_01_187	Freya	Freya,Gustav,Hans,Jochen,Odilie,Player	中	And I didn't...!
 XUAT_00667	Player	伊莉丝	DLG_3_2_HFY_01_002	Player	Player,Rozenmarine	中	And I was!
 XUAT_00672	Player	伊莉丝	CUT_2_5_HLR_01_034	Player	Muffy,Player,Rozenmarine	中	And don't come back! Or else!
 XUAT_00692	Muffy	穆菲	DLG_5_3_VSQ_04_045	Muffy	Muffy,Player	中	And you'll th-throw me deep into the well! Y-Yes ma'am!
 XUAT_00707	Player	伊莉丝	CUT_1_5_HGR_02_049	Player	Player,Rozenmarine	中	Anyhow! You work for me and I'll give you a place to stay!
 XUAT_00718			CUT_2_1_HLR_02_013			中（依据键无对话节点）	Anyhow, you're to sleep up in the attic from now on!
-XUAT_00719	Lebkuchen	姜饼	LVE_3_4_VCH_L_061	Lebkuchen	Lebkuchen,Player	中	Anyhow...
+XUAT_00719	Lebkuchen	斯佩尔特	LVE_3_4_VCH_L_061	Lebkuchen	Lebkuchen,Player	中	Anyhow...
 XUAT_00725	Jakob	雅各布	DLG_2_2_VIN_01_009 | DLG_2_5_OLH_01_006 | DLG_3_2_VSQ_01_020 | DLG_3_4_VIN_01_007	Jakob	Apfel,Jakob,Player	中	Apfel
 XUAT_00729	Player	伊莉丝	CUT_7_3_VSQ_01_152	Player	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	Apfel is clearly confused, Mr Bernhard!
 XUAT_00731	Jakob	雅各布	DLG_5_4_VIN_01_023	Jakob	Grune,Jakob,Player	中	Apfel said Mrs Lisbeth isn't feeling so well...
@@ -130,7 +130,7 @@ XUAT_00797	Player	伊莉丝	DLG_5_4_VWM_01_003	Player	Ludwig,Player,Tristan	中	
 XUAT_00806	Player	伊莉丝	DLG_2_4_VIN_01_002	Player	Gustav,Player	中	As I do, Mr Gustav.
 XUAT_00810	Rozenmarine	萝森玛琳	LVE_3_4_HAT_R_019	Rozenmarine	Player,Rozenmarine	中	As I thought, your lines are very telling of who you are.
 XUAT_00832	Player	伊莉丝	DLG_7_2_VIN_02_012	Player	Lebkuchen,Player	中	As long as you don't push it!
-XUAT_00837	Lebkuchen	姜饼	DLG_7_5_OLH_01_007	Lebkuchen	Lebkuchen,Player	中	As though there's a false sense of calm...
+XUAT_00837	Lebkuchen	斯佩尔特	DLG_7_5_OLH_01_007	Lebkuchen	Lebkuchen,Player	中	As though there's a false sense of calm...
 XUAT_00846	Player	伊莉丝	DLG_7_3_VST_01_004	Player	Eugen,Player	中	At a crossroads, Mr Eugen?
 XUAT_00856			ATTEND_SUNDAY_MASS			中（依据键无对话节点）	Attend Sunday Mass.
 XUAT_00858			Auto			高（依据键无对话节点）	Auto
@@ -145,7 +145,7 @@ XUAT_00935	Jakob	雅各布	DLG_7_3_VST_02_001	Jakob	Bernhard,Grune,Jakob,Player	
 XUAT_00937	Player	伊莉丝	CUT_5_1_HBY_01_039	Player	Player,Rozenmarine	中	But it's... Hair...
 XUAT_00938	Freya	芙蕾雅	CUT_7_3_VSQ_01_185	Freya	Freya,Gustav,Hans,Jochen,Odilie,Player,Rozenmarine	中	But papa...!
 XUAT_00940	Player	伊莉丝	FLV_WCW_A_HOUSE_01_002	Player	FlavourText,Player	中	But what's this creature in the center...?
-XUAT_00942	Grune		CHR_014_019 | CHR_021_014 | DLG_6_2_VSQ_02_013 | CUT_3_3_VSQ_02_085	Grune	Grune,Jakob,Player	中	But, Elise...!
+XUAT_00942	Grune	格吕妮	CHR_014_019 | CHR_021_014 | DLG_6_2_VSQ_02_013 | CUT_3_3_VSQ_02_085	Grune	Grune,Jakob,Player	中	But, Elise...!
 XUAT_00955	Aziel		CUT_D_WSN-J_01_007	Aziel	Aziel,Freya,Lebkuchen,Player,Rozenmarine	中	Can you feel it? This venom of mine reaching down to your fingertips...
 XUAT_00956	Rozenmarine	萝森玛琳	CUT_4_5_WCR_D_02_011	Rozenmarine	Player,Rozenmarine	中	Can you hear it...?
 XUAT_00971	Player	伊莉丝	DLG_7_5_VWW_01_007	Player	Muffy,Player	中	Can't you stay put for one moment, Molly...
@@ -170,7 +170,7 @@ XUAT_01119	Player	伊莉丝	DLG_5_1_VST_01_007	Player	Jakob,Marlen,Player,Rozenm
 XUAT_01120	Player	伊莉丝	DLG_2_5_VSQ_01_009	Player	Eugen,Heinrich,Player	中	Do you mean Mrs Odilie and Old Jochen?
 XUAT_01146			SmallObjective			高（依据键无对话节点）	Don't forget!
 XUAT_01149	Player	伊莉丝	DLG_2_4_VBA_01_027	Player	Freya,Grune,Mariele,Player	中	Don't get Mrs Mariele in trouble now, Grüne.
-XUAT_01150	Lebkuchen	姜饼	FLV_2_5_OLH_2_009	Lebkuchen	Lebkuchen,Player	中	Don't get caught by Mr Bernhard again today, Elise.
+XUAT_01150	Lebkuchen	斯佩尔特	FLV_2_5_OLH_2_009	Lebkuchen	Lebkuchen,Player	中	Don't get caught by Mr Bernhard again today, Elise.
 XUAT_01154	Bernhard	伯恩哈德	CUT_4_1_VST_01_032	Bernhard	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine	中	Don't rope me into this, lad.
 XUAT_01156	Dorothea	多萝特娅	DLG_7_3_VIN_04_012	Dorothea	Brunhilde,Dorothea,Player	中	Don't say such a thing, Elise...
 XUAT_01164	Lisbeth	莉丝贝特	DLG_3_2_VSQ_01_010	Lisbeth	Apfel,Grune,Lisbeth,Player	中	Don't you start, Apfel.
@@ -206,9 +206,9 @@ XUAT_01340	Rozenmarine	萝森玛琳	LVE_5_2_OVP_R_001 | CUT_2_1_HBY_01_002 | CUT
 XUAT_01348	Freya	芙蕾雅	DLG_6_2_VBA_01_004	Freya	Freya,Player	中	Folks are already upset enough as is, Elise...
 XUAT_01352	Elma	埃尔玛	DLG_7_3_VBA_02_023	Elma	Elma,Linda,Player	中	Folks are frightened, Elise - especially after what Apfel said.
 XUAT_01359	Jochen	约亨	DLG_5_3_VBA_01_006	Jochen	Jochen,Ludwig,Player	中	Folks are making merry amongst these crows like it's nothing...!
-XUAT_01374	Lebkuchen	姜饼	DLG_5_3_VWW_01_004	Lebkuchen	Lebkuchen,Player	中	Folks have been hounding me all day, is all...
+XUAT_01374	Lebkuchen	斯佩尔特	DLG_5_3_VWW_01_004	Lebkuchen	Lebkuchen,Player	中	Folks have been hounding me all day, is all...
 XUAT_01381	Heinrich	海因里希	CUT_5_5_OCR_02_012	Heinrich	Apfel,Ariane,Dorothea,Fynn,Grune,Gustav,Hans,Heinrich,Lisbeth,Player,Wilma	中	Folks told us all about it - we were about to set off after you!
-XUAT_01387	Murim		DLG_4_5_WCR_C_05_007	Murim	Murim,Player,Rozenmarine	中	Follow your instinct, lass - pay no heed to this creature you've brought along!
+XUAT_01387	Murim	穆里姆	DLG_4_5_WCR_C_05_007	Murim	Murim,Player,Rozenmarine	中	Follow your instinct, lass - pay no heed to this creature you've brought along!
 XUAT_01390	Player	伊莉丝	CUT_D_WSN-D_01_001	Player	Player	中	For Heaven's sake...!
 XUAT_01394	Elma	埃尔玛	DLG_7_2_VSQ_04_006	Elma	Elma,Player	中	For goodness' sake - what have we done to deserve this?
 XUAT_01395	Marlen	玛尔伦	DLG_2_3_VIN_02_011	Marlen	Marlen,Odilie,Player	中	For goodness' sake! Old Stefan was on his deathbed!
@@ -300,7 +300,7 @@ XUAT_01902	Rozenmarine	萝森玛琳	CUT_5_1_HBY_01_014	Rozenmarine	Player,Rozenm
 XUAT_01910	Player	伊莉丝	DLG_3_2_VSQ_03_003 | CUT_8_END_SAC_R_A_018	Player	Mechtilde,Player	中	I did...!
 XUAT_01917	Player	伊莉丝	CUT_7_3_VSQ_01_072	Player	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	I didn't meet anyone in the woods, I swear...!
 XUAT_01919	Player	伊莉丝	DLG_6_2_VWW_01_027	Player	Bernhard,Ludwig,Player,Wilma	中	I didn't say anything...?
-XUAT_01926	Lebkuchen	姜饼	CUT_7_3_VSQ_01_122	Lebkuchen	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	I didn't...!
+XUAT_01926	Lebkuchen	斯佩尔特	CUT_7_3_VSQ_01_122	Lebkuchen	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	I didn't...!
 XUAT_01934	Freya	芙蕾雅	DLG_6_3_VBA_01_007	Freya	Freya,Player	中	I do hate it, Elise...
 XUAT_01941	Player	伊莉丝	LVE_4_2_OCR_R_048	Player	Player,Rozenmarine	中	I do, I do...!
 XUAT_01950	Player	伊莉丝	CUT_4_5_WCR_D_02_015	Player	Player,Rozenmarine	中	I don't have time for this nonsense, Rosmarine...
@@ -313,14 +313,14 @@ XUAT_01991	Apfel	阿普菲尔	CUT_WCW_AW_PATHS_01_007	Apfel	Apfel,Player	中	I f
 XUAT_02006	Player	伊莉丝	CUT_2_1_HLR_01_006	Player	Player,Rozenmarine	中	I get it already, no need to tell me.
 XUAT_02012	Mariele	玛丽勒	DLG_5_2_VSQ_01_007	Mariele	Brunhilde,Mariele,Player	中	I had a word with Mrs Lisbeth early this morning...
 XUAT_02027	Lisbeth	莉丝贝特	DLG_6_3_VIN_04_002	Lisbeth	Lisbeth,Mariele,Player	中	I have much to thank you for, Mrs Mariele.
-XUAT_02037	Lebkuchen	姜饼	DLG_4_4_VCH_02_023	Lebkuchen	Lebkuchen,Player	中	I have, um... Matters to attend to, so...
-XUAT_02057	Lebkuchen	姜饼	DLG_5_3_VWW_01_010	Lebkuchen	Lebkuchen,Player	中	I know you do, Elise; it doesn't matter anymore.
+XUAT_02037	Lebkuchen	斯佩尔特	DLG_4_4_VCH_02_023	Lebkuchen	Lebkuchen,Player	中	I have, um... Matters to attend to, so...
+XUAT_02057	Lebkuchen	斯佩尔特	DLG_5_3_VWW_01_010	Lebkuchen	Lebkuchen,Player	中	I know you do, Elise; it doesn't matter anymore.
 XUAT_02059	Freya	芙蕾雅	LVE_3_4_VWW_F_058	Freya	Freya,Player	中	I know, Elise, I know...
 XUAT_02060	Player	伊莉丝	DLG_5_2_VSQ_02_007 | DLG_5_2_VSQ_02_020 | DLG_8_3_OCR_01_054 | CUT_8_1_HLR_01_011	Player	Player,Rozenmarine	中	I know, I know!
 XUAT_02062	Player	伊莉丝	DLG_5_2_VSQ_02_007 | DLG_5_2_VSQ_02_020 | DLG_8_3_OCR_01_054 | CUT_8_1_HLR_01_011	Player	Player,Rozenmarine	中	I know, I know...!
 XUAT_02068	Freya	芙蕾雅	DLG_5_5_VSQ_07_027	Freya	Ariane,Freya,Lebkuchen,Mechtilde,Player	中	I know...! I know, but...!
 XUAT_02086	Player	伊莉丝	DLG_7_1_OLH_01_003	Player	Gretel,Player,Rozenmarine	中	I mean it, granny - this can't be good for you!
-XUAT_02087	Lebkuchen	姜饼	DLG_5_5_OLH_01_013	Lebkuchen	Lebkuchen,Player	中	I meant it, Elise - you don't have to tell me.
+XUAT_02087	Lebkuchen	斯佩尔特	DLG_5_5_OLH_01_013	Lebkuchen	Lebkuchen,Player	中	I meant it, Elise - you don't have to tell me.
 XUAT_02088	Player	伊莉丝	CUT_7_3_VSQ_01_150	Player	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	I met Freya just earlier...!
 XUAT_02091	Player	伊莉丝	DLG_7_3_VIN_01_022	Player	Loreley,Player,Wilma	中	I most certainly did, Mrs Loreley - a tremendous waste of time on her part!
 XUAT_02110	Player	伊莉丝	DLG_6_2_OLH_01_019	Player	Lisbeth,Mariele,Player	中	I ought to be careful...
@@ -328,7 +328,7 @@ XUAT_02115	Player	伊莉丝	CUT_1_5_HLR_01_002	Player	Player	中	I ought to find
 XUAT_02136	Linda	琳达	DLG_7_1_VBA_01_004	Linda	Jakob,Linda,Player,Rozenmarine	中	I said no, Jakob - you're staying home until this rain leaves us!
 XUAT_02140	Player	伊莉丝	DLG_6_2_VSQ_02_009	Player	Jakob,Linda,Player	中	I saw no such thing, Mrs Linda...
 XUAT_02144	Apfel	阿普菲尔	CUT_7_3_VSQ_01_091	Apfel	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	I saw you, Lebkuchen...!
-XUAT_02183	Lebkuchen	姜饼	DLG_5_2_VCH_01_007	Lebkuchen	Lebkuchen,Player	中	I think so too...
+XUAT_02183	Lebkuchen	斯佩尔特	DLG_5_2_VCH_01_007	Lebkuchen	Lebkuchen,Player	中	I think so too...
 XUAT_02194	Player	伊莉丝	DLG_5_1_VSQ_01_005	Player	Bertha,Elma,Player,Rozenmarine	中	I told everyone I'd seen them yesterday, Mrs Elma.
 XUAT_02200	GoldenGirl	金发女孩（过场）	CSM_GG_02_004	GoldenGirl	GoldenGirl,Player	中	I too longed for glory, for a chance at happiness - just like you.
 XUAT_02213	Player	伊莉丝	DLG_4_4_VST_01_016 | DLG_4_5_VSQ_01_023	Player	Eugen,Player	中	I understand, Mr Eugen...
@@ -338,7 +338,7 @@ XUAT_02224	Muffy	穆菲	DLG_7_5_VWW_01_008	Muffy	Muffy,Player	中	I w-was hungry
 XUAT_02229	Rozenmarine	萝森玛琳	CUT_2_1_HLR_01_004	Rozenmarine	Player,Rozenmarine	中	I wanted to assure you I meant no harm, Elise.
 XUAT_02251	Apfel	阿普菲尔	CUT_5_5_OCR_02_004	Apfel	Apfel,Ariane,Dorothea,Fynn,Grune,Gustav,Hans,Heinrich,Lisbeth,Player,Wilma	中	I was so scared, Mama...!
 XUAT_02257	Rozenmarine	萝森玛琳	DLG_5_1_HFY_01_027	Rozenmarine	Player,Rozenmarine	中	I was the one who thought of that - it's not really his name!
-XUAT_02258	Lebkuchen	姜饼	DLG_7_3_VCH_01_018	Lebkuchen	Lebkuchen,Player	中	I was there, Elise - it's all right.
+XUAT_02258	Lebkuchen	斯佩尔特	DLG_7_3_VCH_01_018	Lebkuchen	Lebkuchen,Player	中	I was there, Elise - it's all right.
 XUAT_02260	Freya	芙蕾雅	DLG_3_4_VBA_02_009	Freya	Freya,Player,Tristan	中	I was thinking why not a cape instead?
 XUAT_02276	Snake	蛇	DLG_D_WSN-A_01_009	Snake	Player,Snake	中	I will give you nothing less than what you seek...
 XUAT_02278	Hans		CUT_3_4_VSQ_01_012	Hans	Hans,Lisbeth,Player	中	I will see to it, Mrs Lisbeth.
@@ -366,8 +366,8 @@ XUAT_02434	Player	伊莉丝	DLG_5_5_VSQ_03_011	Player	Bertha,Hans,Lisbeth,Mariel
 XUAT_02442	Player	伊莉丝	DLG_2_4_VBA_01_025	Player	Freya,Grune,Mariele,Player	中	I'll see what I can do. Thank you, Mrs Mariele.
 XUAT_02443	Tristan	特里斯坦	DLG_6_2_VIN_02_007	Tristan	Brunhilde,Player,Tristan	中	I'll see what I can do...
 XUAT_02445	Rozenmarine	萝森玛琳	CUT_3_4_VSQ_02_007	Rozenmarine	Player,Rozenmarine	中	I'll see you at home, then...?
-XUAT_02448	Lebkuchen	姜饼	DLG_3_2_VCH_02_004	Lebkuchen	Lebkuchen,Player	中	I'll spare you, Elise - you're aware you've said too much.
-XUAT_02456	Lebkuchen	姜饼	CUT_6_1_VCH_01_006	Lebkuchen	Ariane,Dorothea,Elma,Lebkuchen,Linda,Player,Wilma	中	I'll tighten it for you, Mrs Ariane, but first I ought to...
+XUAT_02448	Lebkuchen	斯佩尔特	DLG_3_2_VCH_02_004	Lebkuchen	Lebkuchen,Player	中	I'll spare you, Elise - you're aware you've said too much.
+XUAT_02456	Lebkuchen	斯佩尔特	CUT_6_1_VCH_01_006	Lebkuchen	Ariane,Dorothea,Elma,Lebkuchen,Linda,Player,Wilma	中	I'll tighten it for you, Mrs Ariane, but first I ought to...
 XUAT_02462	Player	伊莉丝	CHR_010_010	Player	Lisbeth,Player	中	I'm a little busy, Mrs Lisbeth...
 XUAT_02463	Rozenmarine	萝森玛琳	DLG_7_3_VSQ_01_003	Rozenmarine	Player,Rozenmarine	中	I'm a little frightened, still... That's all...
 XUAT_02464	Jakob	雅各布	DLG_5_5_VSQ_04_003	Jakob	Jakob,Linda,Marlen,Player	中	I'm a man, too! Apfel needs us, granny!
@@ -408,7 +408,7 @@ XUAT_02840	Player	伊莉丝	DLG_2_5_VBA_01_003	Player	Odilie,Player	中	Is every
 XUAT_02841	Player	伊莉丝	DLG_3_4_VIN_04_002 | DLG_4_2_VSQ_01_003 | DLG_5_3_VBA_03_003 | DLG_5_5_VBA_01_002	Player	Mariele,Mechtilde,Player	中	Is everything all right...?
 XUAT_02842	Player	伊莉丝	DLG_5_5_VIN_07_006	Player	Marlen,Player,Tristan	中	Is he all right, Mrs Marlen?
 XUAT_02843	Rozenmarine	萝森玛琳	DLG_5_1_OLH_01_006	Rozenmarine	Gretel,Player,Rozenmarine	中	Is he all right...?
-XUAT_02847	?????		CUT_WCW_E_PITFALLS_02_023	?????	?????,Apfel,Crow,Murim,Player	中	Is she the one your heart desires...?
+XUAT_02847	?????	未标注（资产未填）	CUT_WCW_E_PITFALLS_02_023	?????	?????,Apfel,Crow,Murim,Player	中	Is she the one your heart desires...?
 XUAT_02860	Player	伊莉丝	CUT_4_5_WCR_D_01_022	Player	Crow,Player,Rozenmarine	中	Is this... The flesh...
 XUAT_02862	Player	伊莉丝	DLG_7_4_OLH_01_006	Player	Fynn,Guido,Player	中	Isn't Mrs Brunhilde from Primeldorf?
 XUAT_02863	Player	伊莉丝	DLG_3_5_VIN_01_002	Player	Mechtilde,Player	中	Isn't it quite late for you too, Mrs Mechtilde?
@@ -416,7 +416,7 @@ XUAT_02866	Player	伊莉丝	DLG_7_5_VSQ_01_002	Player	Odilie,Player	中	Isn't th
 XUAT_02878	Player	伊莉丝	CUT_7_1_VIN_01_010	Player	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma	中	It could have been the rain, Mrs Bertha.
 XUAT_02883	Lisbeth	莉丝贝特	CUT_5_1_VCH_01_023	Lisbeth	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine	中	It doesn't explain his hands, or what happened to my goats...!
 XUAT_02885	Player	伊莉丝	DLG_5_2_VIN_02_005	Player	Ariane,Freya,Linda,Player,Wilma	中	It doesn't matter anymore, Mrs Ariane.
-XUAT_02887	Grune		DLG_5_4_VIN_01_002	Grune	Grune,Jakob,Player	中	It doesn't matter, Jakob - it's dead!
+XUAT_02887	Grune	格吕妮	DLG_5_4_VIN_01_002	Grune	Grune,Jakob,Player	中	It doesn't matter, Jakob - it's dead!
 XUAT_02896	Muffy	穆菲	DLG_7_3_VIN_03_013	Muffy	Mariele,Muffy,Player	中	It is! It truly is, M-Mrs Mariele...!
 XUAT_02902	Lisbeth	莉丝贝特	DLG_2_5_OLH_01_008	Lisbeth	Apfel,Grune,Lisbeth,Player	中	It may be best to head inside for now, my darling.
 XUAT_02903	Hans		DLG_5_3_VBA_03_002	Hans	Hans,Mariele,Odilie,Player	中	It may be best to rest for the day, Mrs Odilie.
@@ -431,7 +431,7 @@ XUAT_02981	Jochen	约亨	CUT_7_3_VSQ_01_021	Jochen	?????,Apfel,Bernhard,Bertha,B
 XUAT_02982	Eugen	欧根	DLG_5_3_VIN_02_001	Eugen	Bernhard,Eugen,Lisbeth,Player	中	It's a good thing Apfel's feeling better, Lisbeth...
 XUAT_02984	Rozenmarine	萝森玛琳	DLG_5_4_VSQ_01_001	Rozenmarine	Player,Rozenmarine,Wilhelm	中	It's a matter of harmony, Mr Wilhelm!
 XUAT_02987	Rozenmarine	萝森玛琳	DLG_3_3_VSQ_04_007	Rozenmarine	Bertha,Marlen,Player,Rozenmarine	中	It's a pleasure to meet you, I'm Rozenmarine.
-XUAT_02995	Lebkuchen	姜饼	DLG_7_2_VIN_02_007	Lebkuchen	Lebkuchen,Player	中	It's all right, Elise - I'm feeling rather well rested.
+XUAT_02995	Lebkuchen	斯佩尔特	DLG_7_2_VIN_02_007	Lebkuchen	Lebkuchen,Player	中	It's all right, Elise - I'm feeling rather well rested.
 XUAT_02996	Dorothea	多萝特娅	CUT_5_1_VCH_01_025	Dorothea	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine	中	It's all right, Mrs Lisbeth - we're all here for you, it's all right...
 XUAT_03000	Rozenmarine	萝森玛琳	DLG_7_1_HFY_01_005	Rozenmarine	Player,Rozenmarine	中	It's as granny always used to say, Elise.
 XUAT_03001	Lisbeth	莉丝贝特	CUT_5_1_VCH_01_019	Lisbeth	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine	中	It's as if they were pecked at by something, I can't explain it...!
@@ -473,11 +473,11 @@ XUAT_03292	Player	伊莉丝	LVE_6_2_BLR_L_023	Player	Lebkuchen,Player	中	Let go
 XUAT_03294	Player	伊莉丝	CUT_5_5_VSQ_01_023	Player	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player	中	Let me be the one to go, Mrs Lisbeth.
 XUAT_03315			SUB_001_007			中（依据键无对话节点）	Like a rose who couldn’t bloom on her own, \nI was overshadowed.
 XUAT_03318	Freya	芙蕾雅	CUT_7_3_VSQ_01_219	Freya	Freya,Gustav,Hans,Jochen,Player,Wilma	中	Like the family we are - the family we've always been!
-XUAT_03327	Lebkuchen	姜饼	CUT_7_3_VSQ_01_140 | CUT_7_3_VSQ_01_167	Lebkuchen	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	Listen to yourselves...!
+XUAT_03327	Lebkuchen	斯佩尔特	CUT_7_3_VSQ_01_140 | CUT_7_3_VSQ_01_167	Lebkuchen	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	Listen to yourselves...!
 XUAT_03332			Load			高（依据键无对话节点）	Load
 XUAT_03334			Log			高（依据键无对话节点）	Log
-XUAT_03343	Grune		DLG_4_4_VBA_01_029	Grune	Dorothea,Freya,Grune,Player	中	Look! Look! I think I did it!
-XUAT_03345	Grune		CUT_3_3_VSQ_02_015	Grune	Ariane,Grune,Jakob,Linda,Lisbeth,Mechtilde,Muffy,Player,Rozenmarine	中	Look, mama! She has a tiny scarecrow!
+XUAT_03343	Grune	格吕妮	DLG_4_4_VBA_01_029	Grune	Dorothea,Freya,Grune,Player	中	Look! Look! I think I did it!
+XUAT_03345	Grune	格吕妮	CUT_3_3_VSQ_02_015	Grune	Ariane,Grune,Jakob,Linda,Lisbeth,Mechtilde,Muffy,Player,Rozenmarine	中	Look, mama! She has a tiny scarecrow!
 XUAT_03375	Bertha	贝尔塔	DLG_4_2_VIN_03_015	Bertha	Bertha,Ludwig,Player,Wilhelm	中	Ludwig
 XUAT_03379	Muffy	穆菲	DLG_7_5_VWW_01_012	Muffy	Muffy,Player	中	M-Move to Primeldorf, even...! Oh, Elise...!
 XUAT_03380	Muffy	穆菲	DLG_7_5_VWW_01_004	Muffy	Muffy,Player	中	M-My auntie...! Sh-She's...!
@@ -485,14 +485,14 @@ XUAT_03381			Morning | MorningAbv			中（依据键无对话节点）	MORNING
 XUAT_03383	Rozenmarine	萝森玛琳	CUT_1_5_HGR_02_034	Rozenmarine	Player,Rozenmarine	中	Ma'am...?
 XUAT_03389			SUB_001_010			中（依据键无对话节点）	Make everyone look at me\nEven if just once, let me shine brighter than anyone else.
 XUAT_03399	Jakob	雅各布	DLG_5_5_VSQ_04_011 | CUT_5_5_OCR_02_001 | CUT_5_5_VSQ_01_009	Jakob	Jakob,Linda,Marlen,Player	中	Mama...!
-XUAT_03400	Grune		CUT_5_5_OCR_02_003	Grune	Apfel,Ariane,Dorothea,Fynn,Grune,Gustav,Hans,Heinrich,Lisbeth,Player,Wilma	中	Mama...! Apfel...!
+XUAT_03400	Grune	格吕妮	CUT_5_5_OCR_02_003	Grune	Apfel,Ariane,Dorothea,Fynn,Grune,Gustav,Hans,Heinrich,Lisbeth,Player,Wilma	中	Mama...! Apfel...!
 XUAT_03402			Map			高（依据键无对话节点）	Map
 XUAT_03408	Odilie	奥蒂莉	DLG_3_4_VIN_03_040	Odilie	Jochen,Marlen,Odilie,Player	中	Marlen
 XUAT_03433	Rozenmarine	萝森玛琳	CUT_1_5_HGR_02_034	Rozenmarine	Player,Rozenmarine	中	Ma’am!
-XUAT_03435	Lebkuchen	姜饼	CUT_7_3_VSQ_01_031	Lebkuchen	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	Me, Mrs Brunhilde?
+XUAT_03435	Lebkuchen	斯佩尔特	CUT_7_3_VSQ_01_031	Lebkuchen	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	Me, Mrs Brunhilde?
 XUAT_03436	Player	伊莉丝	FLV_8_3_VCS_10_007 | CHR_012_002 | LVE_2_3_OVP_F_010 | DLG_4_1_HFY_01_022	Player	FlavourText,Player	中	Me...!
 XUAT_03437	Player	伊莉丝	CUT_7_6_VSQ_01_021	Player	Bernhard,Doroteha,Gustav,Heinrich,Marlen,Odilie,Player,Rozenmarine	中	Meaning...?
-XUAT_03439	Murim		CUT_4_5_WCR_A_04_010	Murim	Crow,Player,Rozenmarine	中	Meet me in the wheatfield - show me your resolution!
+XUAT_03439	Murim	穆里姆	CUT_4_5_WCR_A_04_010	Murim	Crow,Player,Rozenmarine	中	Meet me in the wheatfield - show me your resolution!
 XUAT_03455	Player	伊莉丝	DLG_6_2_VST_01_017	Player	Fynn,Guido,Player	中	Miss what, Mr Fynn?
 XUAT_03456			Profile1			高（依据键无对话节点）	Modern
 XUAT_03459			Mon			中（依据键无对话节点）	Mon
@@ -506,7 +506,7 @@ XUAT_03491	Gustav	古斯塔夫	CUT_7_3_VSQ_01_227	Gustav	Freya,Gustav,Hans,Joche
 XUAT_03497	Player	伊莉丝	DLG_5_3_VIN_02_004	Player	Bernhard,Eugen,Lisbeth,Player	中	Mr Bernhard is right, Mrs Lisbeth...
 XUAT_03499	Freya	芙蕾雅	DLG_4_1_VIN_04_014	Freya	Freya,Lebkuchen,Player,Rozenmarine	中	Mr Eugen was so invested in his business, too...
 XUAT_03500	Player	伊莉丝	DLG_4_4_VST_01_001 | DLG_4_5_VSQ_01_006 | DLG_5_5_VIN_03_009 | DLG_6_4_VSQ_02_008	Player	Eugen,Player	中	Mr Eugen!
-XUAT_03501	Grune		DLG_4_1_VSQ_01_002	Grune	Grune,Jakob,Mariele,Player,Rozenmarine	中	Mr Eugen's horses got stolen!
+XUAT_03501	Grune	格吕妮	DLG_4_1_VSQ_01_002	Grune	Grune,Jakob,Mariele,Player,Rozenmarine	中	Mr Eugen's horses got stolen!
 XUAT_03502	Freya	芙蕾雅	DLG_4_1_VIN_04_005	Freya	Freya,Lebkuchen,Player,Rozenmarine	中	Mr Eugen's horses were taken, Elise.
 XUAT_03503	Freya	芙蕾雅	DLG_6_2_VBA_01_008	Freya	Freya,Player	中	Mr Eugen's leaving and now Lebkuchen, too...
 XUAT_03505	Player	伊莉丝	DLG_8_1_VSQ_02_011	Player	Eugen,Player,Rozenmarine	中	Mr Eugen, I...
@@ -520,7 +520,7 @@ XUAT_03516	Player	伊莉丝	DLG_6_2_VBA_02_007	Player	Loreley,Mechtilde,Player	�
 XUAT_03517	Player	伊莉丝	CUT_3_5_VSQ_01_056	Player	Brunhilde,Player	中	Mrs Brunhilde, that's not...
 XUAT_03520	Apfel	阿普菲尔	DLG_3_4_VIN_01_012	Apfel	Apfel,Grune,Jakob,Player	中	Mrs Dorothea was also in a temper!
 XUAT_03521	Player	伊莉丝	DLG_2_3_OLH_04_009	Player	Muffy,Player	中	Mrs Dorothea's looking for you, Molly.
-XUAT_03523	Lebkuchen	姜饼	DLG_5_4_VSQ_03_007	Lebkuchen	Lebkuchen,Muffy,Player	中	Mrs Elma had me give Molly here a good earful.
+XUAT_03523	Lebkuchen	斯佩尔特	DLG_5_4_VSQ_03_007	Lebkuchen	Lebkuchen,Muffy,Player	中	Mrs Elma had me give Molly here a good earful.
 XUAT_03524	Player	伊莉丝	DLG_4_3_VIN_01_024	Player	Elma,Player,Rozenmarine	中	Mrs Elma, you ought to understand
 XUAT_03525	Linda	琳达	DLG_7_3_VBA_02_015	Linda	Elma,Linda,Player	中	Mrs Elma...
 XUAT_03526	Player	伊莉丝	FLV_2_3_VSQ_4_001	Player	FlavourText,Player	中	Mrs Linda sure likes her flowers, huh...
@@ -528,8 +528,8 @@ XUAT_03527	Freya	芙蕾雅	DLG_7_2_VBA_01_009	Freya	Freya,Player	中	Mrs Linda w
 XUAT_03529	Brunhilde	布伦希尔德	DLG_5_5_VSQ_06_002	Brunhilde	Brunhilde,Dorothea,Loreley,Player	中	Mrs Lisbeth looks horrified, I can't even imagine...
 XUAT_03532	Player	伊莉丝	DLG_5_2_VCH_01_004	Player	Lebkuchen,Player	中	Mrs Lisbeth said he was mumbling to himself...
 XUAT_03534	Player	伊莉丝	CHR_040_053 | DLG_4_3_OLH_01_002 | DLG_5_3_VIN_02_015 | DLG_7_2_VSQ_03_012	Player	Lisbeth,Player	中	Mrs Lisbeth!
-XUAT_03545	Grune		DLG_2_4_VBA_01_005	Grune	Freya,Grune,Mariele,Player	中	Mrs Mariele is teaching me how to sew the aprons and Freya's teaching me how to embroider!
-XUAT_03546	Grune		DLG_2_5_OLH_01_007	Grune	Apfel,Grune,Lisbeth,Player	中	Mrs Mariele said she made it for me, it even had a ribbon on it...
+XUAT_03545	Grune	格吕妮	DLG_2_4_VBA_01_005	Grune	Freya,Grune,Mariele,Player	中	Mrs Mariele is teaching me how to sew the aprons and Freya's teaching me how to embroider!
+XUAT_03546	Grune	格吕妮	DLG_2_5_OLH_01_007	Grune	Apfel,Grune,Lisbeth,Player	中	Mrs Mariele said she made it for me, it even had a ribbon on it...
 XUAT_03547	Tristan	特里斯坦	DLG_3_4_VBA_02_001	Tristan	Freya,Player,Tristan	中	Mrs Mariele, you say...
 XUAT_03551	Linda	琳达	DLG_4_2_VBA_01_006	Linda	Linda,Marlen,Odilie,Player	中	Mrs Odilie insists the horses were hag-ridden, Elise...
 XUAT_03552	Player	伊莉丝	DLG_5_1_VBA_01_001 | DLG_5_5_VIN_05_011	Player	Odilie,Player	中	Mrs Odilie!
@@ -537,7 +537,7 @@ XUAT_03558	Player	伊莉丝	DLG_5_1_VBA_01_001 | DLG_5_5_VIN_05_011	Player	Odili
 XUAT_03563	Freya	芙蕾雅	DLG_5_2_VIN_02_028	Freya	Ariane,Freya,Linda,Player,Wilma	中	Mrs Wilma...
 XUAT_03571	Player	伊莉丝	CHR_001_012	Player	Ariane,Player	中	My apologies, Mrs Ariane.
 XUAT_03572	Player	伊莉丝	DLG_4_3_VIN_01_041	Player	Elma,Player,Rozenmarine	中	My apologies, Mrs Elma.
-XUAT_03573	?????		CUT_WCW_E_PITFALLS_02_018 | CUT_7_3_VSQ_01_046 | CUT_7_3_VSQ_01_048 | CUT_7_3_VSQ_01_050	?????	?????,Apfel,Crow,Murim,Player	中	My beloved... Daughter...
+XUAT_03573	?????	未标注（资产未填）	CUT_WCW_E_PITFALLS_02_018 | CUT_7_3_VSQ_01_046 | CUT_7_3_VSQ_01_048 | CUT_7_3_VSQ_01_050	?????	?????,Apfel,Crow,Murim,Player	中	My beloved... Daughter...
 XUAT_03581	Lisbeth	莉丝贝特	CHR_010_023	Lisbeth	Lisbeth,Player	中	My goodness, Elise...!
 XUAT_03584	Rozenmarine	萝森玛琳	DLG_4_3_VIN_01_006	Rozenmarine	Elma,Player,Rozenmarine	中	My granny taught me that
 XUAT_03595	Freya	芙蕾雅	DLG_3_3_VIN_03_004	Freya	Freya,Player,Rozenmarine	中	My name is Freya - I'm a friend of Elise's here in Kieferberg!
@@ -557,7 +557,7 @@ XUAT_03670	Player	伊莉丝	DLG_2_4_VSQ_09_013	Player	Lebkuchen,Player	中	No mo
 XUAT_03683			NO_TASKS_AVAILABLE			中（依据键无对话节点）	No tasks available!
 XUAT_03684	Rozenmarine	萝森玛琳	DLG_4_3_VIN_01_002	Rozenmarine	Elma,Player,Rozenmarine	中	No two ways about it, Mrs Elma.
 XUAT_03705	Freya	芙蕾雅	CUT_7_3_VSQ_01_183	Freya	Freya,Gustav,Hans,Jochen,Odilie,Player,Rozenmarine	中	No, Father - they didn't do it!
-XUAT_03706	Lebkuchen	姜饼	CUT_7_3_VSQ_01_197	Lebkuchen	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player	中	No, Father...! Are you listening to yourself...?
+XUAT_03706	Lebkuchen	斯佩尔特	CUT_7_3_VSQ_01_197	Lebkuchen	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player	中	No, Father...! Are you listening to yourself...?
 XUAT_03707	Freya	芙蕾雅	CUT_7_3_VSQ_01_196	Freya	Freya,Gustav,Hans,Jochen,Odilie,Player	中	No, Father...! You can't take Elise away...!
 XUAT_03714	Hans		DLG_7_3_VSQ_03_005	Hans	Hans,Marlen,Odilie,Player	中	No, I'd say Mrs Odilie is the one who ought to take a moment to herself.
 XUAT_03717	Player	伊莉丝	DLG_6_2_VBA_02_010	Player	Loreley,Mechtilde,Player	中	No, Mrs Loreley... I didn't...
@@ -592,10 +592,10 @@ XUAT_03870			SUB_001_008			中（依据键无对话节点）	Oh ruby red who gui
 XUAT_03871	Freya	芙蕾雅	LVE_2_3_OVP_F_028 | DLG_4_1_HFY_01_010 | DLG_5_3_VSQ_01_030	Freya	Freya,Player	中	Oh! I didn't mean...!
 XUAT_03874	Rozenmarine	萝森玛琳	CUT_2_1_HBY_01_004	Rozenmarine	Player,Rozenmarine	中	Oh! I'm so relieved to see you!
 XUAT_03875	Rozenmarine	萝森玛琳	DLG_2_3_HBR_01_014 | CUT_3_OWC_01_013	Rozenmarine	Player,Rozenmarine	中	Oh! I'm so sorry, Elise!
-XUAT_03876	Grune		DLG_3_3_VBA_01_014 | DLG_5_3_VSQ_01_019 | DLG_5_4_VSQ_01_006	Grune	Grune,Player,Rozenmarine	中	Oh! I'm sorry!
+XUAT_03876	Grune	格吕妮	DLG_3_3_VBA_01_014 | DLG_5_3_VSQ_01_019 | DLG_5_4_VSQ_01_006	Grune	Grune,Player,Rozenmarine	中	Oh! I'm sorry!
 XUAT_03877	Rozenmarine	萝森玛琳	DLG_3_3_VIN_03_005	Rozenmarine	Freya,Player,Rozenmarine	中	Oh! I'm, um... Ro-Rozenmarine!
 XUAT_03887	Rozenmarine	萝森玛琳	DLG_5_1_HFY_01_044	Rozenmarine	Player,Rozenmarine	中	Oh! This is from an old blanket of mine!
-XUAT_03891	Grune		CUT_5_5_OCR_02_006	Grune	Apfel,Ariane,Dorothea,Fynn,Grune,Gustav,Hans,Heinrich,Lisbeth,Player,Wilma	中	Oh, Apfel! I thought I'd never see you again...!
+XUAT_03891	Grune	格吕妮	CUT_5_5_OCR_02_006	Grune	Apfel,Ariane,Dorothea,Fynn,Grune,Gustav,Hans,Heinrich,Lisbeth,Player,Wilma	中	Oh, Apfel! I thought I'd never see you again...!
 XUAT_03892	Lisbeth	莉丝贝特	CUT_7_3_VSQ_01_054	Lisbeth	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	Oh, Apfel...!
 XUAT_03893	Odilie	奥蒂莉	DLG_5_4_VBA_01_001	Odilie	Ariane,Odilie,Player,Wilhelm	中	Oh, Ariane...! It's too late for me...!
 XUAT_03896	Rozenmarine	萝森玛琳	CUT_3_5_HLR_01_037 | CUT_5_1_HBY_01_035	Rozenmarine	Player,Rozenmarine	中	Oh, Elise - that's wonderful!
@@ -606,7 +606,7 @@ XUAT_03905	Rozenmarine	萝森玛琳	DLG_7_4_VIN_01_012	Rozenmarine	Player,Rozenm
 XUAT_03906	Odilie	奥蒂莉	CUT_6_3_VSQ_01_013	Odilie	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma	中	Oh, Father - but who is to carry out our nightly prayers?
 XUAT_03909	Brunhilde	布伦希尔德	DLG_5_2_VSQ_01_012	Brunhilde	Brunhilde,Mariele,Player	中	Oh, I can only hope none of this misfortune gets sent my way...!
 XUAT_03912	Freya	芙蕾雅	DLG_5_2_VIN_02_011	Freya	Ariane,Freya,Linda,Player,Wilma	中	Oh, I can't bring myself to smile on days like these...
-XUAT_03913	Grune		DLG_2_5_OLH_01_001	Grune	Apfel,Grune,Lisbeth,Player	中	Oh, I can't find it...!
+XUAT_03913	Grune	格吕妮	DLG_2_5_OLH_01_001	Grune	Apfel,Grune,Lisbeth,Player	中	Oh, I can't find it...!
 XUAT_03916	Freya	芙蕾雅	DLG_5_4_VIN_03_006	Freya	Freya,Player	中	Oh, I can't help it...!
 XUAT_03921	Elma	埃尔玛	DLG_5_2_VIN_03_001	Elma	Bertha,Elma,Odilie,Player	中	Oh, I haven't had a proper night's sleep since Friday...
 XUAT_03923	Freya	芙蕾雅	DLG_6_3_VBA_01_005	Freya	Freya,Player	中	Oh, I know all that...!
@@ -675,7 +675,7 @@ XUAT_04199	Jochen	约亨	DLG_5_4_VIN_02_009	Jochen	Jochen,Mechtilde,Player	中	O
 XUAT_04206	Mechtilde	梅希蒂尔德	DLG_5_5_VIN_08_007	Mechtilde	Jochen,Mechtilde,Player,Wilhelm	中	Old Wilhelm's right - we ought to be glad nothing happened!
 XUAT_04217	Odilie	奥蒂莉	DLG_7_2_VST_01_009	Odilie	Marlen,Mechtilde,Odilie,Player	中	On the contrary, lass - it's never been this bad!
 XUAT_04220	Player	伊莉丝	DLG_4_5_WCR_C_05_034	Player	Murim,Player,Rozenmarine	中	On the night of the full moon...?
-XUAT_04221	Lebkuchen	姜饼	LVE_5_3_OLH_L_011	Lebkuchen	Lebkuchen,Player	中	On the swing, I mean.
+XUAT_04221	Lebkuchen	斯佩尔特	LVE_5_3_OLH_L_011	Lebkuchen	Lebkuchen,Player	中	On the swing, I mean.
 XUAT_04231	Elma	埃尔玛	DLG_7_2_VSQ_04_005	Elma	Elma,Player	中	Only for it to overflow and now this rain, too...!
 XUAT_04238	Rozenmarine	萝森玛琳	DLG_4_5_WCR_B_08_015	Rozenmarine	Player,Rozenmarine	中	Or even anything you see in these woods...
 XUAT_04242	Player	伊莉丝	DLG_5_2_VIN_03_023	Player	Bertha,Elma,Odilie,Player	中	Or what, Mrs Odilie?
@@ -690,7 +690,7 @@ XUAT_04501			PartyTalk			中（依据键无对话节点）	Party Talk
 XUAT_04502			PartyTalk			高（依据键无对话节点）	Party Talk!
 XUAT_04503			PAST			高（依据键无对话节点）	Past
 XUAT_04511	Elma	埃尔玛	CHR_004_025	Elma	Elma,Player	中	Perfect, Elise.
-XUAT_04534	Grune		DLG_7_3_VST_02_014	Grune	Bernhard,Grune,Jakob,Player	中	Please, Mr Bernhard...!
+XUAT_04534	Grune	格吕妮	DLG_7_3_VST_02_014	Grune	Bernhard,Grune,Jakob,Player	中	Please, Mr Bernhard...!
 XUAT_04539	Linda	琳达	DLG_7_3_VBA_02_024	Linda	Elma,Linda,Player	中	Poor Apfel... He's so clearly troubled...
 XUAT_04553	Gustav	古斯塔夫	CUT_5_5_OCR_02_015	Gustav	Apfel,Ariane,Dorothea,Fynn,Grune,Gustav,Hans,Heinrich,Lisbeth,Player,Wilma	中	Prepare us a feast, Wilma - we're drinking to Elise tonight!
 XUAT_04558	Guido	吉多	DLG_7_4_OLH_01_001	Guido	Fynn,Guido,Player	中	Primeldorf can't be our only option, Fynn...!
@@ -716,7 +716,7 @@ XUAT_04661			Sunday			中（依据键无对话节点）	SUNDAY
 XUAT_04672			One | Sat			中（依据键无对话节点）	Sat
 XUAT_04673			One | Sat			高（依据键无对话节点）	Sat.
 XUAT_04684			Saturday			高（依据键无对话节点）	Saturday
-XUAT_04693	Grune		DLG_3_3_VBA_01_008	Grune	Grune,Player,Rozenmarine	中	Say, kooky lass!
+XUAT_04693	Grune	格吕妮	DLG_3_3_VBA_01_008	Grune	Grune,Player,Rozenmarine	中	Say, kooky lass!
 XUAT_04696			CUT_WSV-J_01_013			中（依据键无对话节点）	Scorn, contempt... Ever since granny Holle passed, I've been nothing but a stray...
 XUAT_04698	Player	伊莉丝	DLG_2_2_VSQ_03_006	Player	Mariele,Odilie,Player	中	See what, Mrs Odilie?
 XUAT_04708			Select			高（依据键无对话节点）	Select
@@ -729,7 +729,7 @@ XUAT_04734	Muffy	穆菲	DLG_5_5_OLH_02_005	Muffy	Muffy,Player	中	She a-always w
 XUAT_04741	Player	伊莉丝	DLG_5_4_VSQ_03_010	Player	Lebkuchen,Muffy,Player	中	She doesn't...?
 XUAT_04767	Player	伊莉丝	CUT_3_5_OLH_01_019	Player	Lebkuchen,Player	中	She won't tell me much herself...
 XUAT_04768	Player	伊莉丝	CUT_7_3_VSQ_01_093	Player	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	She wouldn't know anything...!
-XUAT_04770	Grune		DLG_3_3_VBA_01_006	Grune	Grune,Player,Rozenmarine	中	She's Mrs Linda's! Her name is Lila!
+XUAT_04770	Grune	格吕妮	DLG_3_3_VBA_01_006	Grune	Grune,Player,Rozenmarine	中	She's Mrs Linda's! Her name is Lila!
 XUAT_04772	Player	伊莉丝	DLG_5_4_VSQ_01_025	Player	Player,Rozenmarine,Wilhelm	中	She's a humble lass, Mr Wilhelm.
 XUAT_04773	Player	伊莉丝	DLG_5_4_VSQ_01_013	Player	Player,Rozenmarine,Wilhelm	中	She's always been like this - a bit kooky, is all!
 XUAT_04774	Player	伊莉丝	CUT_7_3_VSQ_01_102	Player	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	She's anything but, Mr Bernhard!
@@ -758,7 +758,7 @@ XUAT_04908	Player	伊莉丝	CSM_3_2_CSM2_05_002	Player	FlavourText,Player	中	St
 XUAT_04909			STABLES			高（依据键无对话节点）	Stables
 XUAT_04917	Player	伊莉丝	DLG_4_5_WCR_B_08_027	Player	Player,Rozenmarine	中	Stay where? Here...?
 XUAT_04919			SUB_002_011			中（依据键无对话节点）	Step by step by step, I keep on this relentless march,\nWalking on, to the rhythm of the song heralded to me by the bell of the heavenly oracle.
-XUAT_04936	Lebkuchen	姜饼	DLG_4_1_VIN_04_007	Lebkuchen	Freya,Lebkuchen,Player,Rozenmarine	中	Stolen, essentially... They vanished overnight without a trace...
+XUAT_04936	Lebkuchen	斯佩尔特	DLG_4_1_VIN_04_007	Lebkuchen	Freya,Lebkuchen,Player,Rozenmarine	中	Stolen, essentially... They vanished overnight without a trace...
 XUAT_04939	Player	伊莉丝	DLG_5_2_VBA_01_002	Player	Heinrich,Player,Tristan	中	Struggling, Mr Tristan?
 XUAT_04949	Player	伊莉丝	CHR_039_043 | LVE_6_3_VWM_R_017 | DLG_4_3_VIN_01_045 | DLG_5_1_HFY_01_022	Player	Ariane,Player	中	Such as...?
 XUAT_04954			Sun			中（依据键无对话节点）	Sun
@@ -769,7 +769,7 @@ XUAT_04974			Suspicion			高（依据键无对话节点）	Suspicion
 XUAT_04976			Title			中（依据键无对话节点）	TITLE
 XUAT_04983	Player	伊莉丝	DLG_4_1_VIN_04_006	Player	Freya,Lebkuchen,Player,Rozenmarine	中	Taken...?
 XUAT_04984	Heinrich	海因里希	DLG_4_1_VIN_02_001	Heinrich	Heinrich,Player,Rozenmarine,Tristan	中	Taking Eugen's horses was too cruel...
-XUAT_04989	Lebkuchen	姜饼	DLG_5_4_VSQ_03_031	Lebkuchen	Lebkuchen,Muffy,Player	中	Tell her I sent you, she'll give you anything you want.
+XUAT_04989	Lebkuchen	斯佩尔特	DLG_5_4_VSQ_03_031	Lebkuchen	Lebkuchen,Muffy,Player	中	Tell her I sent you, she'll give you anything you want.
 XUAT_04993	Player	伊莉丝	DLG_WCW_B_INTRO_04_009	Player	Crow,Player	中	Tell me right this instant, or else...!
 XUAT_04994	Player	伊莉丝	DLG_WCW_B_INTRO_04_007	Player	Crow,Player	中	Tell me where you're keeping him - right now!
 XUAT_04996	Elma	埃尔玛	CHR_004_040	Elma	Elma,Player	中	Tell me, Elise - what is this?
@@ -807,7 +807,7 @@ XUAT_05155	Elma	埃尔玛	CUT_6_1_VCH_01_005	Elma	Ariane,Dorothea,Elma,Lebkuchen
 XUAT_05165	Lisbeth	莉丝贝特	CHR_010_021	Lisbeth	Lisbeth,Player	中	That's quite all right, my dear - I understand.
 XUAT_05167	Player	伊莉丝	DLG_7_4_VCH_01_003	Player	Elma,Mechtilde,Player	中	That's rich coming from you, Mrs Elma.
 XUAT_05168	Guido	吉多	CUT_7_3_VSQ_01_041	Guido	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	That's right - this all started the day she got here...!
-XUAT_05172	Lebkuchen	姜饼	CUT_5_1_VCH_01_021	Lebkuchen	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine	中	That's right, Mrs Lisbeth... Take deep breaths...
+XUAT_05172	Lebkuchen	斯佩尔特	CUT_5_1_VCH_01_021	Lebkuchen	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine	中	That's right, Mrs Lisbeth... Take deep breaths...
 XUAT_05173	Mariele	玛丽勒	DLG_5_3_VBA_03_014	Mariele	Hans,Mariele,Odilie,Player	中	That's right, Odilie - you can't get swayed by whatever Old Jochen says!
 XUAT_05179	Rozenmarine	萝森玛琳	CUT_4_5_WCR_A_02_002	Rozenmarine	Crow,Player,Rozenmarine	中	That's that crow's...
 XUAT_05186	Wilhelm	威廉	DLG_5_4_VBA_01_007	Wilhelm	Ariane,Odilie,Player,Wilhelm	中	That's what I'm saying, lass - she isn't!
@@ -902,12 +902,12 @@ XUAT_05759	Jochen	约亨	DLG_7_3_VBA_03_009	Jochen	Guido,Jochen,Ludwig,Player	�
 XUAT_05764	Heinrich	海因里希	DLG_7_4_VBA_01_010	Heinrich	Eugen,Heinrich,Ludwig,Player	中	We ought to make it special for Eugen's sake, too!
 XUAT_05777	Lisbeth	莉丝贝特	DLG_6_3_VIN_04_004	Lisbeth	Lisbeth,Mariele,Player	中	We spent a couple hours at Mrs Mariele's you see?
 XUAT_05785	Mechtilde	梅希蒂尔德	DLG_5_3_VIN_03_001	Mechtilde	Brunhilde,Mechtilde,Player	中	We were just talking about you, dearie.
-XUAT_05786	Grune		DLG_5_4_VIN_01_009	Grune	Grune,Jakob,Player	中	We were playing and it fell from the sky, I swear...!
+XUAT_05786	Grune	格吕妮	DLG_5_4_VIN_01_009	Grune	Grune,Jakob,Player	中	We were playing and it fell from the sky, I swear...!
 XUAT_05805	Player	伊莉丝	CUT_3_3_VSQ_02_059	Player	Ariane,Grune,Jakob,Linda,Lisbeth,Mechtilde,Muffy,Player,Rozenmarine	中	We'll be on our way, then! Come, Rosmarine!
 XUAT_05807	Hans		CUT_5_1_VCH_01_035	Hans	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine	中	We'll make certain you and the children don't go without, Mrs Lisbeth.
 XUAT_05811	Freya	芙蕾雅	DLG_5_4_VIN_03_010	Freya	Freya,Player	中	We're all grumpy enough as is - I can't make it even worse!
 XUAT_05815	Heinrich	海因里希	DLG_4_2_VST_01_005	Heinrich	Eugen,Heinrich,Player	中	We're at a bit of a loss, you see...
-XUAT_05820	Murim		CUT_WCW_E_PITFALLS_02_035	Murim	?????,Apfel,Crow,Murim,Player	中	We're not about to waste a hearty meal...!
+XUAT_05820	Murim	穆里姆	CUT_WCW_E_PITFALLS_02_035	Murim	?????,Apfel,Crow,Murim,Player	中	We're not about to waste a hearty meal...!
 XUAT_05821	Crow	乌鸦	DLG_4_5_WCR_02_003	Crow	Crow,Player	中	We're not only predators - we're scavengers as well!
 XUAT_05836	Gustav	古斯塔夫	CUT_6_1_VSQ_01_008	Gustav	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player	中	We've discussed this, old lad.
 XUAT_05842	Player	伊莉丝	CSM_GG_12_010	Player	GoldenGirl,Player	中	We...?
@@ -925,7 +925,7 @@ XUAT_05900	Player	伊莉丝	DLG_5_5_OLH_01_004	Player	Lebkuchen,Player	中	What 
 XUAT_05902	Lisbeth	莉丝贝特	CUT_3_4_VSQ_01_014	Lisbeth	Hans,Lisbeth,Player	中	What am I to do?
 XUAT_05905	Player	伊莉丝	CUT_WCW_B_INTRO_03_007	Player	Crow,Player	中	What are they going on about now?
 XUAT_05914	Player	伊莉丝	DLG_4_3_VIN_02_016	Player	Player,Rozenmarine	中	What are you doing wasting your bread on some sparrows, Rosmarine!
-XUAT_05916	Lebkuchen	姜饼	CUT_7_3_VSQ_01_063	Lebkuchen	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	What are you insinuating...?
+XUAT_05916	Lebkuchen	斯佩尔特	CUT_7_3_VSQ_01_063	Lebkuchen	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	What are you insinuating...?
 XUAT_05918	Player	伊莉丝	DLG_7_3_VIN_03_003	Player	Mariele,Muffy,Player	中	What are you pestering Mrs Mariele for, Molly?
 XUAT_05920	Player	伊莉丝	CUT_4_5_WCR_D_02_004	Player	Player,Rozenmarine	中	What are you saying, Rosmarine...?
 XUAT_05921	Wilma	威尔玛	CUT_6_1_VCH_01_009	Wilma	Ariane,Dorothea,Elma,Lebkuchen,Linda,Player,Wilma	中	What are you saying, lassie!
@@ -989,7 +989,7 @@ XUAT_06186	Player	伊莉丝	DLG_4_5_WCR_B_07_008	Player	Crow,Player,Rozenmarine	
 XUAT_06192	Linda	琳达	CUT_7_3_VSQ_01_020	Linda	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	Whoever is out there - they're taking our children, compromising our livelihoods...!
 XUAT_06203	Player	伊莉丝	DLG_4_5_WCR_B_08_020	Player	Player,Rozenmarine	中	Why are you telling me this now, Rosmarine...?
 XUAT_06208	Player	伊莉丝	DLG_2_5_VSQ_01_012	Player	Eugen,Heinrich,Player	中	Why do you say that, Mr Eugen?
-XUAT_06216	Lebkuchen	姜饼	DLG_5_4_VSQ_03_030	Lebkuchen	Lebkuchen,Muffy,Player	中	Why don't you go ask granny Gretel?
+XUAT_06216	Lebkuchen	斯佩尔特	DLG_5_4_VSQ_03_030	Lebkuchen	Lebkuchen,Muffy,Player	中	Why don't you go ask granny Gretel?
 XUAT_06223	Player	伊莉丝	DLG_4_2_VIN_02_016	Player	Freya,Player	中	Why don't you make something for Mr Eugen?
 XUAT_06231	Player	伊莉丝	DLG_5_2_VBA_02_008	Player	Ludwig,Player	中	Why don't you visit more often, Mr Ludwig?
 XUAT_06249	Player	伊莉丝	DLG_5_4_VBA_01_006	Player	Ariane,Odilie,Player,Wilhelm	中	Why would Mrs Odilie be headed to Hell, Mr Wilhelm?
@@ -1032,7 +1032,7 @@ XUAT_06444	Wilma	威尔玛	CUT_7_3_VSQ_01_058	Wilma	?????,Apfel,Bernhard,Bertha,
 XUAT_06445	Wilma	威尔玛	CUT_7_3_VSQ_01_059	Wilma	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	You and Lebkuchen are the ones who've been making our lives Hell...!
 XUAT_06448	Wilma	威尔玛	CUT_7_3_VSQ_01_057	Wilma	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	You and your cousin are the ones who've been making our lives Hell...!
 XUAT_06456	Ludwig	路德维希	DLG_5_2_VBA_02_019	Ludwig	Ludwig,Player	中	You bring good news, I'm certain.
-XUAT_06458	Lebkuchen	姜饼	DLG_5_5_VSQ_07_003	Lebkuchen	Ariane,Freya,Lebkuchen,Mechtilde,Player	中	You can always change your mind, Elise.
+XUAT_06458	Lebkuchen	斯佩尔特	DLG_5_5_VSQ_07_003	Lebkuchen	Ariane,Freya,Lebkuchen,Mechtilde,Player	中	You can always change your mind, Elise.
 XUAT_06468	Player	伊莉丝	CUT_7_3_VSQ_01_118	Player	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma	中	You can't be serious, Apfel...!
 XUAT_06470	Player	伊莉丝	DLG_5_3_VIN_04_005	Player	Bertha,Marlen,Player	中	You can't be talking about Mrs Lisbeth...
 XUAT_06479	Freya	芙蕾雅	CUT_7_3_VSQ_01_212	Freya	Freya,Gustav,Hans,Jochen,Player,Wilma	中	You clearly don't, Father - nobody does!
@@ -1088,13 +1088,13 @@ XUAT_06893	Player	伊莉丝	CUT_3_5_VSQ_01_008	Player	Brunhilde,Player	中	You'v
 XUAT_06903	Player	伊莉丝	CUT_4_5_WCR_B_01_009	Player	Crow,Player,Rozenmarine	中	You've got the wrong lass, crows - now let us through!
 XUAT_06905	Freya	芙蕾雅	DLG_5_2_VIN_02_007	Freya	Ariane,Freya,Linda,Player,Wilma	中	You've heard about Apfel, Elise.
 XUAT_06910	Bertha	贝尔塔	DLG_3_4_VIN_05_007	Bertha	Bertha,Player,Rozenmarine	中	You've heard all about it from your cousin haven't you, Elise?
-XUAT_06913	Lebkuchen	姜饼	DLG_4_1_VIN_04_003	Lebkuchen	Freya,Lebkuchen,Player,Rozenmarine	中	You've heard, I'm assuming...
+XUAT_06913	Lebkuchen	斯佩尔特	DLG_4_1_VIN_04_003	Lebkuchen	Freya,Lebkuchen,Player,Rozenmarine	中	You've heard, I'm assuming...
 XUAT_06927	Player	伊莉丝	DLG_6_3_VIN_03_006	Player	Fynn,Heinrich,Player	中	You, Mr Heinrich?
 XUAT_06928	Player	伊莉丝	DLG_6_3_VIN_04_007	Player	Lisbeth,Mariele,Player	中	You, Mrs Mariele?
 XUAT_06934	Player	伊莉丝	CUT_WSV-D_01_006 | CUT_END_GG_03_017	Player	Aziel,Player	中	You?
 XUAT_06938	Player	伊莉丝	CHR_004_041	Player	Elma,Player	中	Your apples, Mrs Elma?
 XUAT_06943	Player	伊莉丝	DLG_5_2_VBA_02_013	Player	Ludwig,Player	中	Your cabbages, Mr Ludwig?
-XUAT_06950	?????		CUT_WCW_E_PITFALLS_02_011	?????	?????,Apfel,Crow,Murim,Player	中	Your flesh, your blood... Your love...
+XUAT_06950	?????	未标注（资产未填）	CUT_WCW_E_PITFALLS_02_011	?????	?????,Apfel,Crow,Murim,Player	中	Your flesh, your blood... Your love...
 XUAT_06957	Freya	芙蕾雅	LVE_3_4_VWW_F_003	Freya	Freya,Player	中	Your legs are so long - it's like you were made for those shoes!
 XUAT_06961	Rozenmarine	萝森玛琳	LVE_5_2_OVP_R_019	Rozenmarine	Flocke,Player,Rozenmarine	中	Your path will become clearer and clearer, you'll see.
 XUAT_06973			ZOOM			高（依据键无对话节点）	Zoom
