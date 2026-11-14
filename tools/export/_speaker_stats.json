@@ -1,0 +1,15 @@
+{
+ "conversations": 1261,
+ "nodes": 20163,
+ "keys_covered": 16461,
+ "csv_keys": 28248,
+ "multi_node_keys": 289,
+ "multi_author_keys": 9,
+ "node_text_not_key": 593,
+ "skip_json": 3,
+ "skip_nonconv": 3,
+ "authors": 52,
+ "bridge_rows": 1102,
+ "bridge_with_node": 983,
+ "nearest_rows": 2494
+}

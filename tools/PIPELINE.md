@@ -109,6 +109,41 @@ python tools/reachability.py --csv "docs/xxx.csv" --all
 一次全记。所以兜底行能靠一次实机跑逐键结案，直取行只能靠 `[GRIDLY PASS BY PREFIX]` 断言
 「该前缀零漏」。别把「表里全绿」说成「实机验证过」。
 
+### 说话人映射导出（给译者补 speaker 列）
+
+译本底表没有「说话人／上一句」两列，外评里「laddies 指不指女孩」「them 指谁」「您还是你」
+这类问题都要靠它判。**游戏对白资产本来就带 speaker，不用进游戏也不用猜**：
+
+`data.unity3d` 的 TextAsset 里有 1,261 个对白文件，
+`{"ID":"DLG_5_3_VSQ_04","Participants":["Player","Muffy"],"Conversation":{"1":{"Author":"Player","Text":"DLG_5_3_VSQ_04_001","Next":[2]}}}`。
+节点的 `Text` 就是游戏拿去 Gridly 取词的 recordID（= 译本记录键），`Author` 是说话人，
+`Participants` 是同场人物。对应 `StorySystem.Models.Nodes.Node` 与
+`IntermediateConversation`。**这层关系是资产自带的**：不管键→正文最后来自 Gridly 还是 I2，
+「显示键 K 那行时是谁在说」都等于 `node(K).Author`。
+
+```bash
+python tools/extract_textassets.py --out <dir>          # 一次, ~6 min, 只读游戏文件(6.2 GB)
+python tools/speaker_export.py --assets <dir> --csv "docs/<译本>.csv" \
+       --gridly <gridly_en_current.json> --i2 <i2_terms_en_current.json>
+python tools/verify_speaker_export.py                   # 字段数/键归属/空说话人
+```
+
+产物在 `tools/export/`：`说话人映射.tsv`（键 × 节点直证，16,461 键 / 16,915 行）、
+`说话人映射_推断XUAT.tsv`（同文反推 1,102 行）、`说话人映射_旧串对照.tsv`（近似 2,495 行）。
+
+口径（改之前先看这几条）：
+
+- **键 × 节点，不是键 × 行**：一个键被多个分支复用时导多行（289 键），备注列标「同键多作者」（9 键）。
+- **XUAT 行不是节点**。它们是 XUnity 在**更早版本**抓的屏上英文；现行表里键号已重排/改写，
+  只能靠「英文串与现行 Gridly 某键正文相同」反推（同文可信、近似要人工确认），
+  反推不到就留空 —— 不按邻近序号或邻行猜。
+- **没有节点就是没有**：ITM/TUT/NARR/SUB/STG/TASK 全族 + 部分 DLG/CUT（Timeline 直接播的行）
+  在资产里没有 Author，非 XUAT 键里有 4,728 个属于这种。
+- **I2 的键不能当证据**：I2 Dialogue 与 Gridly 共有的 5,736 个键里只有 18% 正文相同，
+  个别对话整体错位（`CUT_2_1_OLH_01` 是 I2 `_00N` ↔ Gridly `_00(N+1)`）。I2 只在近似行做交叉印证。
+- 导出必须**逐字节可复算**：`nearest()` 里所有排序都要显式定序，否则字符串哈希随机化会让两次
+  导出差几百字节（踩过一次）。
+
 ## 关键约定
 
 **两条取词路径（2026-11-12 查清并启用）。**
