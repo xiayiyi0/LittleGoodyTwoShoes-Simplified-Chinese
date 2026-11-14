@@ -5,7 +5,7 @@ plugin_ver=1.3.33
 csc=csc.exe
 --- 用例 (Case.cs 纯函数) ---
 PASS ParseFlatJson 扫完 lgts_zh_by_refkey.json (21189 条)  | 条数 21189; 条数与内容由 json 比对负责
-PASS ParseFlatJson 扫完 lgts_display.json (25318 条)  | 条数 25318; 条数与内容由 json 比对负责
+PASS ParseFlatJson 扫完 lgts_display.json (25323 条)  | 条数 25323; 条数与内容由 json 比对负责
 PASS ParseFlatJson 扫完 lgts_item_names.json (79 条)  | 条数 79; 条数与内容由 json 比对负责
 PASS VER 形如 x.y.z  | 1.3.33
 PASS 阈值: display 下限 >= 20000  | 20000
@@ -133,8 +133,8 @@ PASS DumpFlat 按键序号排序
 RESULT=PASS cases=126 fail=0
 
 --- 词典等价 (Core.ParseFlatJson vs json) ---
-PASS lgts_zh_by_refkey.json C#解析 == json 解析 (21189 键 / 1309142 B)
-PASS lgts_display.json C#解析 == json 解析 (25318 键 / 2264394 B)
-PASS lgts_item_names.json C#解析 == json 解析 (79 键 / 4482 B)
+PASS lgts_zh_by_refkey.json C#解析 == json 解析 (21189 键 / 1309124 B)
+PASS lgts_display.json C#解析 == json 解析 (25323 键 / 2264437 B)
+PASS lgts_item_names.json C#解析 == json 解析 (79 键 / 4485 B)
 
 RESULT=PASS cases=126 fail=0

@@ -126,7 +126,7 @@ def main():
     ap.add_argument("--zip", default=None, help="默认取发布树内唯一 zip")
     ap.add_argument("--expect-entries", type=int, default=71)
     ap.add_argument("--expect-refkey", type=int, default=21189)
-    ap.add_argument("--expect-display", type=int, default=25318)
+    ap.add_argument("--expect-display", type=int, default=25323)
     ap.add_argument("--expect-item", type=int, default=79)
     ap.add_argument("--expect-at", type=int, default=24700)
     ap.add_argument("--expect-ui", type=int, default=536)
@@ -427,6 +427,9 @@ def main():
         # display / AT 里有几千条英文串不在译本中, 旧译文会把错叫名写成真名。
         # 规则见 apply_translation.NAME_GUARD。
         # mercy 小写是"仁慈", 只有大写 Mercy 才是人名。
+        # 2026-11-14 (译者工单 #11): 真名/错叫名**两套词条允许并存** —— 游戏原文两种写法都有
+        # (Rozenmarine 111 行是真名 / Rosmarine 711 行是叫错的), 只在「英文与中文交叉错配」
+        # 时才算错; 译本这一层也要查, 不只查产物。实测交叉错配 0 行。
         NAME_GUARD = [("Rosmarine", "萝森玛琳", re.I), ("Rozenmarine", "萝丝玛琳", re.I),
                       ("Mercy", "梅西", 0), ("Macy", "默茜", 0)]
         ng = {}
@@ -437,10 +440,17 @@ def main():
                 for en, wrong, flags in NAME_GUARD:
                     if wrong in v and re.search(r"\b" + en + r"\b", k, flags):
                         ng[name + ":" + en] = ng.get(name + ":" + en, 0) + 1
+        for r in rows:
+            en, zv = r["英文原文"] or "", r["中文译文"] or ""
+            for en_pat, wrong, flags in NAME_GUARD:
+                if wrong in zv and re.search(r"\b" + en_pat + r"\b", en, flags):
+                    ng["csv:" + en_pat] = ng.get("csv:" + en_pat, 0) + 1
         check("display/AT 错叫名未串名", not ng, str(ng))
 
         # 半角括号/冒号/分号只该出现在遗留层, 已由工具规范化。UI_System 是
         # display.json 缺失才走的退回路径, 不在本检查范围。
+        # 2026-11-14 (译者工单 #12): 改成「源文差集法」—— 源文自带的 [C] / {0} / FPS: / 英文括号
+        # 不是错, 只拦「译文凭空多出来的半角」。指针行(英文为空)与中英逐字相同行(制作名单)放行。
         HALF = re.compile(r"\([^()]*[一-鿿][^()]*\)"
                           r"|(?<=[一-鿿])[:;]|[:;](?=[一-鿿])")
         hp = {}
@@ -448,7 +458,31 @@ def main():
             for v in m.values():
                 if isinstance(v, str) and HALF.search(v):
                     hp[name] = hp.get(name, 0) + 1
-        check("四层无半角括号/冒号/分号", not hp, str(hp))
+        HALF_CHARS = re.compile(r"[()!?:;]")
+        PH = [re.compile(r"\{[^}]*\}"), re.compile(r"\[[^\]]*\]"),
+              re.compile(r"FPS\s*:", re.I), re.compile(r"<[/#a-zA-Z][^>]*>")]
+
+        def _strip_ph(s):
+            for p in PH:
+                s = p.sub("", s)
+            return s
+
+        added, src_half = [], 0
+        for r in rows:
+            zv, en = r["中文译文"] or "", r["英文原文"] or ""
+            if not zv.strip() or (r["状态"] or "").startswith("指针行免译"):
+                continue
+            if zv.strip() == en.strip():
+                continue
+            z2, e2 = _strip_ph(zv), _strip_ph(en)
+            hz, he = len(HALF_CHARS.findall(z2)), len(HALF_CHARS.findall(e2))
+            if he:
+                src_half += 1
+            if hz > he:
+                added.append(r["记录键"])
+        check("四层无半角括号/冒号/分号", not hp and not added,
+              "层:%s | 译文多出半角:%d %s | 源文自带半角(豁免):%d 行"
+              % (hp, len(added), added[:5], src_half))
 
         tagbad = 0
         for v in list(rkey.values()) + list(disp.values()):

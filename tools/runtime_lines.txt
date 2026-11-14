@@ -67,3 +67,10 @@ Deuteranope	绿色盲	# 同上
 Protanope	红色盲	# 同上
 Tritanope	蓝色盲	# 同上
 Keep these settings? (Will default to previous values in 10 seconds.)	保留这些设置吗？（10 秒内不操作将恢复为之前的设置。）	# GraphicsConfigMenu.cs:253 弹窗字面量; 10 秒是代码里写死的, 用精确键即可(若日后改成动态数字, 走数字模板)
+# 2026-11-14: 说话人名牌。名牌文本是资产 Author 直接上屏(与 XUAT_01303 "Father Hans" 同源),
+# 这几个名字在 Gridly/I2 两张表里都没有对应记录, 只能补在兜底层 —— 不往译本 CSV 加行。
+Aziel	阿兹尔	# 名牌; 恶魔领主之一(与 Murim 同场, DLG_4_5_WCR_*)
+Ozzy	奥兹	# 名牌; 结局过场 CUT_8_END_SAC_01
+Murim	穆里姆	# 名牌; 恶魔领主之一
+Valerie	瓦莱丽	# 名牌; CUT_END_GG_03
+Demon	恶魔	# 名牌; 序章 CUT_1_6_OCR_01 赐「金色的祝福」的那位

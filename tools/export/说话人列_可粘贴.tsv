@@ -174,13 +174,13 @@ DLG_2_2_OLH_04_001	Player	伊莉丝	Player
 DLG_2_2_VCH_01_001	Gustav	古斯塔夫	Gustav,Hans,Player
 DLG_2_2_VCH_01_002	Gustav	古斯塔夫	Gustav,Hans,Player
 DLG_2_2_VCH_01_003	Player	伊莉丝	Gustav,Hans,Player
-DLG_2_2_VCH_01_004	Hans	汉斯	Gustav,Hans,Player
+DLG_2_2_VCH_01_004	Hans	汉斯神父	Gustav,Hans,Player
 DLG_2_2_VCH_01_005	Gustav	古斯塔夫	Gustav,Hans,Player
 DLG_2_2_VCH_01_006	Gustav	古斯塔夫	Gustav,Hans,Player
 DLG_2_2_VCH_01_007	Player	伊莉丝	Gustav,Hans,Player
-DLG_2_2_VCH_01_008	Hans	汉斯	Gustav,Hans,Player
+DLG_2_2_VCH_01_008	Hans	汉斯神父	Gustav,Hans,Player
 DLG_2_2_VCH_01_009	Player	伊莉丝	Gustav,Hans,Player
-DLG_2_2_VCH_01_010	Hans	汉斯	Gustav,Hans,Player
+DLG_2_2_VCH_01_010	Hans	汉斯神父	Gustav,Hans,Player
 DLG_2_2_VCH_01_011	Player	伊莉丝	Gustav,Hans,Player
 DLG_2_2_VCH_01_012	Gustav	古斯塔夫	Gustav,Hans,Player
 DLG_2_2_VCH_01_013	Gustav	古斯塔夫	Gustav,Hans,Player
@@ -1423,15 +1423,15 @@ DLG_3_2_VBA_04_036
 DLG_3_2_VBA_04_037			
 DLG_3_2_VBA_04_038			
 DLG_3_2_VCH_01_001	Player	伊莉丝	Hans,Jochen,Player
-DLG_3_2_VCH_01_002	Hans	汉斯	Hans,Jochen,Player
+DLG_3_2_VCH_01_002	Hans	汉斯神父	Hans,Jochen,Player
 DLG_3_2_VCH_01_003	Jochen	约亨	Hans,Jochen,Player
 DLG_3_2_VCH_01_004	Jochen	约亨	Hans,Jochen,Player
 DLG_3_2_VCH_01_005	Player	伊莉丝	Hans,Jochen,Player
 DLG_3_2_VCH_01_006	Jochen	约亨	Hans,Jochen,Player
-DLG_3_2_VCH_01_007	Hans	汉斯	Hans,Jochen,Player
-DLG_3_2_VCH_01_008	Hans	汉斯	Hans,Jochen,Player
+DLG_3_2_VCH_01_007	Hans	汉斯神父	Hans,Jochen,Player
+DLG_3_2_VCH_01_008	Hans	汉斯神父	Hans,Jochen,Player
 DLG_3_2_VCH_01_009	Player	伊莉丝	Hans,Jochen,Player
-DLG_3_2_VCH_01_010	Hans	汉斯	Hans,Jochen,Player
+DLG_3_2_VCH_01_010	Hans	汉斯神父	Hans,Jochen,Player
 DLG_3_2_VCH_01_011	Jochen	约亨	Hans,Jochen,Player
 DLG_3_2_VCH_01_012	Player	伊莉丝	Hans,Jochen,Player
 DLG_3_2_VCH_01_013	Player	伊莉丝	Hans,Jochen,Player
@@ -1711,9 +1711,9 @@ DLG_3_3_OCR_01_012	Player	伊莉丝	Player,Rozenmarine
 DLG_3_3_OCR_01_013			
 DLG_3_3_OLH_01_001	Mechtilde	梅希蒂尔德	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_003	Ludwig	路德维希	Hans,Ludwig,Mechtilde,Player,Rozenmarine
-DLG_3_3_OLH_01_006	Hans	汉斯	Hans,Ludwig,Mechtilde,Player,Rozenmarine
+DLG_3_3_OLH_01_006	Hans	汉斯神父	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_007	Rozenmarine	萝森玛琳	Hans,Ludwig,Mechtilde,Player,Rozenmarine
-DLG_3_3_OLH_01_008	Hans	汉斯	Hans,Ludwig,Mechtilde,Player,Rozenmarine
+DLG_3_3_OLH_01_008	Hans	汉斯神父	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_011	Ludwig	路德维希	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_012	Player	伊莉丝	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_013	Rozenmarine	萝森玛琳	Hans,Ludwig,Mechtilde,Player,Rozenmarine
@@ -1727,9 +1727,9 @@ DLG_3_3_OLH_01_020	Player	伊莉丝	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_021	Mechtilde	梅希蒂尔德	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_022	Mechtilde	梅希蒂尔德	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_023	Player	伊莉丝	Hans,Ludwig,Mechtilde,Player,Rozenmarine
-DLG_3_3_OLH_01_024	Hans	汉斯	Hans,Ludwig,Mechtilde,Player,Rozenmarine
+DLG_3_3_OLH_01_024	Hans	汉斯神父	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_025	Ludwig	路德维希	Hans,Ludwig,Mechtilde,Player,Rozenmarine
-DLG_3_3_OLH_01_028	Hans	汉斯	Hans,Ludwig,Mechtilde,Player,Rozenmarine
+DLG_3_3_OLH_01_028	Hans	汉斯神父	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_030	Mechtilde	梅希蒂尔德	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_031	Rozenmarine	萝森玛琳	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_032	Player	伊莉丝	Hans,Ludwig,Mechtilde,Player,Rozenmarine
@@ -1738,13 +1738,13 @@ DLG_3_3_OLH_01_035	Mechtilde	梅希蒂尔德	Hans,Ludwig,Mechtilde,Player,Rozenm
 DLG_3_3_OLH_01_036	Mechtilde	梅希蒂尔德	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_037	Ludwig	路德维希	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_038	Player	伊莉丝	Hans,Ludwig,Mechtilde,Player,Rozenmarine
-DLG_3_3_OLH_01_039	Hans	汉斯	Hans,Ludwig,Mechtilde,Player,Rozenmarine
+DLG_3_3_OLH_01_039	Hans	汉斯神父	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_041	Rozenmarine	萝森玛琳	Hans,Ludwig,Mechtilde,Player,Rozenmarine
-DLG_3_3_OLH_01_043	Hans	汉斯	Hans,Ludwig,Mechtilde,Player,Rozenmarine
-DLG_3_3_OLH_01_049	Hans	汉斯	Hans,Ludwig,Mechtilde,Player,Rozenmarine
+DLG_3_3_OLH_01_043	Hans	汉斯神父	Hans,Ludwig,Mechtilde,Player,Rozenmarine
+DLG_3_3_OLH_01_049	Hans	汉斯神父	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_050	Rozenmarine	萝森玛琳	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_051	Player	伊莉丝	Hans,Ludwig,Mechtilde,Player,Rozenmarine
-DLG_3_3_OLH_01_052	Hans	汉斯	Hans,Ludwig,Mechtilde,Player,Rozenmarine
+DLG_3_3_OLH_01_052	Hans	汉斯神父	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_055	Player	伊莉丝	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_056	Rozenmarine	萝森玛琳	Hans,Ludwig,Mechtilde,Player,Rozenmarine
 DLG_3_3_OLH_01_057	Player	伊莉丝	Hans,Ludwig,Mechtilde,Player,Rozenmarine
@@ -3349,34 +3349,34 @@ DLG_4_2_VSQ_01_033
 DLG_4_2_VSQ_01_034			
 DLG_4_2_VSQ_01_035			
 DLG_4_2_VSQ_01_036			
-DLG_4_2_VSQ_02_001	Hans	汉斯	Gustav,Hans,Jochen,Player
+DLG_4_2_VSQ_02_001	Hans	汉斯神父	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_002	Gustav	古斯塔夫	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_003			
 DLG_4_2_VSQ_02_004			
 DLG_4_2_VSQ_02_005	Gustav	古斯塔夫	Gustav,Hans,Jochen,Player
-DLG_4_2_VSQ_02_006	Hans	汉斯	Gustav,Hans,Jochen,Player
+DLG_4_2_VSQ_02_006	Hans	汉斯神父	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_007	Jochen	约亨	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_008	Player	伊莉丝	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_009	Player	伊莉丝	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_010	Jochen	约亨	Gustav,Hans,Jochen,Player
-DLG_4_2_VSQ_02_011	Hans	汉斯	Gustav,Hans,Jochen,Player
+DLG_4_2_VSQ_02_011	Hans	汉斯神父	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_012	Gustav	古斯塔夫	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_013	Gustav	古斯塔夫	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_014	Player	伊莉丝	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_015	Gustav	古斯塔夫	Gustav,Hans,Jochen,Player
-DLG_4_2_VSQ_02_016	Hans	汉斯	Gustav,Hans,Jochen,Player
+DLG_4_2_VSQ_02_016	Hans	汉斯神父	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_017	Gustav	古斯塔夫	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_018	Player	伊莉丝	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_019	Player	伊莉丝	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_020	Player	伊莉丝	Gustav,Hans,Jochen,Player
-DLG_4_2_VSQ_02_021	Hans	汉斯	Gustav,Hans,Jochen,Player
+DLG_4_2_VSQ_02_021	Hans	汉斯神父	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_022	Jochen	约亨	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_023	Player	伊莉丝	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_024	Gustav	古斯塔夫	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_025	Jochen	约亨	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_026	Player	伊莉丝	Gustav,Hans,Jochen,Player
-DLG_4_2_VSQ_02_027	Hans	汉斯	Gustav,Hans,Jochen,Player
-DLG_4_2_VSQ_02_028	Hans	汉斯	Gustav,Hans,Jochen,Player
+DLG_4_2_VSQ_02_027	Hans	汉斯神父	Gustav,Hans,Jochen,Player
+DLG_4_2_VSQ_02_028	Hans	汉斯神父	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_029	Player	伊莉丝	Gustav,Hans,Jochen,Player
 DLG_4_2_VSQ_02_030			
 DLG_4_2_VSQ_02_031			
@@ -3693,7 +3693,7 @@ DLG_4_3_VIN_02_024
 DLG_4_3_VIN_02_025			
 DLG_4_3_VIN_02_026			
 DLG_4_3_VIN_02_027			
-DLG_4_3_VIN_03_001	Hans	汉斯	Hans,Marlen,Player,Wilhelm
+DLG_4_3_VIN_03_001	Hans	汉斯神父	Hans,Marlen,Player,Wilhelm
 DLG_4_3_VIN_03_002			
 DLG_4_3_VIN_03_003			
 DLG_4_3_VIN_03_004			
@@ -3711,11 +3711,11 @@ DLG_4_3_VIN_03_015	Player	伊莉丝	Hans,Marlen,Player,Wilhelm
 DLG_4_3_VIN_03_016	Marlen	玛尔伦	Hans,Marlen,Player,Wilhelm
 DLG_4_3_VIN_03_017	Player	伊莉丝	Hans,Marlen,Player,Wilhelm
 DLG_4_3_VIN_03_018	Wilhelm	威廉	Hans,Marlen,Player,Wilhelm
-DLG_4_3_VIN_03_019	Hans	汉斯	Hans,Marlen,Player,Wilhelm
+DLG_4_3_VIN_03_019	Hans	汉斯神父	Hans,Marlen,Player,Wilhelm
 DLG_4_3_VIN_03_020	Marlen	玛尔伦	Hans,Marlen,Player,Wilhelm
 DLG_4_3_VIN_03_021	Player	伊莉丝	Hans,Marlen,Player,Wilhelm
 DLG_4_3_VIN_03_022	Wilhelm	威廉	Hans,Marlen,Player,Wilhelm
-DLG_4_3_VIN_03_023	Hans	汉斯	Hans,Marlen,Player,Wilhelm
+DLG_4_3_VIN_03_023	Hans	汉斯神父	Hans,Marlen,Player,Wilhelm
 DLG_4_3_VIN_03_024	Wilhelm	威廉	Hans,Marlen,Player,Wilhelm
 DLG_4_3_VIN_03_025	Player	伊莉丝	Hans,Marlen,Player,Wilhelm
 DLG_4_3_VIN_03_026			
@@ -4007,25 +4007,25 @@ DLG_4_4_VBA_01_044
 DLG_4_4_VBA_01_045			
 DLG_4_4_VBA_01_046			
 DLG_4_4_VCH_01_001	Apfel	阿普菲尔	Apfel,Hans,Lisbeth,Player
-DLG_4_4_VCH_01_002	Hans	汉斯	Apfel,Hans,Lisbeth,Player
+DLG_4_4_VCH_01_002	Hans	汉斯神父	Apfel,Hans,Lisbeth,Player
 DLG_4_4_VCH_01_003			
 DLG_4_4_VCH_01_004	Lisbeth	莉丝贝特	Apfel,Hans,Lisbeth,Player
 DLG_4_4_VCH_01_005	Player	伊莉丝	Apfel,Hans,Lisbeth,Player
-DLG_4_4_VCH_01_006	Hans	汉斯	Apfel,Hans,Lisbeth,Player
-DLG_4_4_VCH_01_007	Hans	汉斯	Apfel,Hans,Lisbeth,Player
+DLG_4_4_VCH_01_006	Hans	汉斯神父	Apfel,Hans,Lisbeth,Player
+DLG_4_4_VCH_01_007	Hans	汉斯神父	Apfel,Hans,Lisbeth,Player
 DLG_4_4_VCH_01_008	Lisbeth	莉丝贝特	Apfel,Hans,Lisbeth,Player
 DLG_4_4_VCH_01_009	Player	伊莉丝	Apfel,Hans,Lisbeth,Player
 DLG_4_4_VCH_01_010	Apfel	阿普菲尔	Apfel,Hans,Lisbeth,Player
 DLG_4_4_VCH_01_011	Apfel	阿普菲尔	Apfel,Hans,Lisbeth,Player
 DLG_4_4_VCH_01_012	Lisbeth	莉丝贝特	Apfel,Hans,Lisbeth,Player
-DLG_4_4_VCH_01_013	Hans	汉斯	Apfel,Hans,Lisbeth,Player
+DLG_4_4_VCH_01_013	Hans	汉斯神父	Apfel,Hans,Lisbeth,Player
 DLG_4_4_VCH_01_014			
 DLG_4_4_VCH_01_015			
 DLG_4_4_VCH_01_016			
 DLG_4_4_VCH_01_017			
 DLG_4_4_VCH_01_018			
-DLG_4_4_VCH_01_019	Hans	汉斯	Apfel,Hans,Lisbeth,Player
-DLG_4_4_VCH_01_020	Hans	汉斯	Apfel,Hans,Lisbeth,Player
+DLG_4_4_VCH_01_019	Hans	汉斯神父	Apfel,Hans,Lisbeth,Player
+DLG_4_4_VCH_01_020	Hans	汉斯神父	Apfel,Hans,Lisbeth,Player
 DLG_4_4_VCH_01_021	Lisbeth	莉丝贝特	Apfel,Hans,Lisbeth,Player
 DLG_4_4_VCH_01_022	Player	伊莉丝	Apfel,Hans,Lisbeth,Player
 DLG_4_4_VCH_01_023	Lisbeth	莉丝贝特	Apfel,Hans,Lisbeth,Player
@@ -5650,7 +5650,7 @@ DLG_5_3_VBA_02_044
 DLG_5_3_VBA_02_045			
 DLG_5_3_VBA_02_046			
 DLG_5_3_VBA_03_001	Mariele	玛丽勒	Hans,Mariele,Odilie,Player
-DLG_5_3_VBA_03_002	Hans	汉斯	Hans,Mariele,Odilie,Player
+DLG_5_3_VBA_03_002	Hans	汉斯神父	Hans,Mariele,Odilie,Player
 DLG_5_3_VBA_03_003	Player	伊莉丝	Hans,Mariele,Odilie,Player
 DLG_5_3_VBA_03_004	Odilie	奥蒂莉	Hans,Mariele,Odilie,Player
 DLG_5_3_VBA_03_005	Player	伊莉丝	Hans,Mariele,Odilie,Player
@@ -5660,13 +5660,13 @@ DLG_5_3_VBA_03_008	Player	伊莉丝	Hans,Mariele,Odilie,Player
 DLG_5_3_VBA_03_009	Mariele	玛丽勒	Hans,Mariele,Odilie,Player
 DLG_5_3_VBA_03_010	Mariele	玛丽勒	Hans,Mariele,Odilie,Player
 DLG_5_3_VBA_03_011	Odilie	奥蒂莉	Hans,Mariele,Odilie,Player
-DLG_5_3_VBA_03_012	Hans	汉斯	Hans,Mariele,Odilie,Player
-DLG_5_3_VBA_03_013	Hans	汉斯	Hans,Mariele,Odilie,Player
+DLG_5_3_VBA_03_012	Hans	汉斯神父	Hans,Mariele,Odilie,Player
+DLG_5_3_VBA_03_013	Hans	汉斯神父	Hans,Mariele,Odilie,Player
 DLG_5_3_VBA_03_014	Mariele	玛丽勒	Hans,Mariele,Odilie,Player
 DLG_5_3_VBA_03_015	Player	伊莉丝	Hans,Mariele,Odilie,Player
 DLG_5_3_VBA_03_016	Odilie	奥蒂莉	Hans,Mariele,Odilie,Player
 DLG_5_3_VBA_03_017	Player	伊莉丝	Hans,Mariele,Odilie,Player
-DLG_5_3_VBA_03_018	Hans	汉斯	Hans,Mariele,Odilie,Player
+DLG_5_3_VBA_03_018	Hans	汉斯神父	Hans,Mariele,Odilie,Player
 DLG_5_3_VBA_03_019	Mariele	玛丽勒	Hans,Mariele,Odilie,Player
 DLG_5_3_VBA_03_020	Player	伊莉丝	Hans,Mariele,Odilie,Player
 DLG_5_3_VBA_03_021			
@@ -6143,39 +6143,39 @@ DLG_5_4_VBA_02_021
 DLG_5_4_VBA_02_022			
 DLG_5_4_VBA_02_023			
 DLG_5_4_VBA_02_024			
-DLG_5_4_VCH_01_001	Hans	汉斯	Hans,Player
-DLG_5_4_VCH_01_002	Hans	汉斯	Hans,Player
+DLG_5_4_VCH_01_001	Hans	汉斯神父	Hans,Player
+DLG_5_4_VCH_01_002	Hans	汉斯神父	Hans,Player
 DLG_5_4_VCH_01_003	Player	伊莉丝	Hans,Player
-DLG_5_4_VCH_01_004	Hans	汉斯	Hans,Player
+DLG_5_4_VCH_01_004	Hans	汉斯神父	Hans,Player
 DLG_5_4_VCH_01_005	Player	伊莉丝	Hans,Player
-DLG_5_4_VCH_01_006	Hans	汉斯	Hans,Player
+DLG_5_4_VCH_01_006	Hans	汉斯神父	Hans,Player
 DLG_5_4_VCH_01_007	Player	伊莉丝	Hans,Player
 DLG_5_4_VCH_01_008	Player	伊莉丝	Hans,Player
-DLG_5_4_VCH_01_009	Hans	汉斯	Hans,Player
-DLG_5_4_VCH_01_010	Hans	汉斯	Hans,Player
+DLG_5_4_VCH_01_009	Hans	汉斯神父	Hans,Player
+DLG_5_4_VCH_01_010	Hans	汉斯神父	Hans,Player
 DLG_5_4_VCH_01_011	Player	伊莉丝	Hans,Player
-DLG_5_4_VCH_01_012	Hans	汉斯	Hans,Player
+DLG_5_4_VCH_01_012	Hans	汉斯神父	Hans,Player
 DLG_5_4_VCH_01_013	Player	伊莉丝	Hans,Player
-DLG_5_4_VCH_01_014	Hans	汉斯	Hans,Player
+DLG_5_4_VCH_01_014	Hans	汉斯神父	Hans,Player
 DLG_5_4_VCH_01_015	Player	伊莉丝	Hans,Player
 DLG_5_4_VCH_01_016	Player	伊莉丝	Hans,Player
-DLG_5_4_VCH_01_017	Hans	汉斯	Hans,Player
+DLG_5_4_VCH_01_017	Hans	汉斯神父	Hans,Player
 DLG_5_4_VCH_01_018	Player	伊莉丝	Hans,Player
-DLG_5_4_VCH_01_019	Hans	汉斯	Hans,Player
+DLG_5_4_VCH_01_019	Hans	汉斯神父	Hans,Player
 DLG_5_4_VCH_01_020	Player	伊莉丝	Hans,Player
 DLG_5_4_VCH_01_021	Player	伊莉丝	Hans,Player
 DLG_5_4_VCH_01_022	Player	伊莉丝	Hans,Player
-DLG_5_4_VCH_01_023	Hans	汉斯	Hans,Player
+DLG_5_4_VCH_01_023	Hans	汉斯神父	Hans,Player
 DLG_5_4_VCH_01_024	Player	伊莉丝	Hans,Player
-DLG_5_4_VCH_01_025	Hans	汉斯	Hans,Player
+DLG_5_4_VCH_01_025	Hans	汉斯神父	Hans,Player
 DLG_5_4_VCH_01_026	Player	伊莉丝	Hans,Player
 DLG_5_4_VCH_01_027	Player	伊莉丝	Hans,Player
-DLG_5_4_VCH_01_028	Hans	汉斯	Hans,Player
+DLG_5_4_VCH_01_028	Hans	汉斯神父	Hans,Player
 DLG_5_4_VCH_01_029	Player	伊莉丝	Hans,Player
 DLG_5_4_VCH_01_030	Player	伊莉丝	Hans,Player
-DLG_5_4_VCH_01_031	Hans	汉斯	Hans,Player
+DLG_5_4_VCH_01_031	Hans	汉斯神父	Hans,Player
 DLG_5_4_VCH_01_032	Player	伊莉丝	Hans,Player
-DLG_5_4_VCH_01_033	Hans	汉斯	Hans,Player
+DLG_5_4_VCH_01_033	Hans	汉斯神父	Hans,Player
 DLG_5_4_VCH_01_034	Player	伊莉丝	Hans,Player
 DLG_5_4_VCH_01_035			
 DLG_5_4_VCH_01_036			
@@ -6615,13 +6615,13 @@ DLG_5_5_VIN_02_001	Gustav	古斯塔夫	Bernhard,Gustav,Hans,Player
 DLG_5_5_VIN_02_002	Bernhard	伯恩哈德	Bernhard,Gustav,Hans,Player
 DLG_5_5_VIN_02_003	Bernhard	伯恩哈德	Bernhard,Gustav,Hans,Player
 DLG_5_5_VIN_02_004	Player	伊莉丝	Bernhard,Gustav,Hans,Player
-DLG_5_5_VIN_02_005	Hans	汉斯	Bernhard,Gustav,Hans,Player
+DLG_5_5_VIN_02_005	Hans	汉斯神父	Bernhard,Gustav,Hans,Player
 DLG_5_5_VIN_02_006			
 DLG_5_5_VIN_02_008			
 DLG_5_5_VIN_02_009	Gustav	古斯塔夫	Bernhard,Gustav,Hans,Player
 DLG_5_5_VIN_02_010	Bernhard	伯恩哈德	Bernhard,Gustav,Hans,Player
 DLG_5_5_VIN_02_011			
-DLG_5_5_VIN_02_012	Hans	汉斯	Bernhard,Gustav,Hans,Player
+DLG_5_5_VIN_02_012	Hans	汉斯神父	Bernhard,Gustav,Hans,Player
 DLG_5_5_VIN_02_013			
 DLG_5_5_VIN_02_014	Player	伊莉丝	Bernhard,Gustav,Hans,Player
 DLG_5_5_VIN_02_015	Gustav	古斯塔夫	Bernhard,Gustav,Hans,Player
@@ -6630,7 +6630,7 @@ DLG_5_5_VIN_02_017	Bernhard	伯恩哈德	Bernhard,Gustav,Hans,Player
 DLG_5_5_VIN_02_018	Gustav	古斯塔夫	Bernhard,Gustav,Hans,Player
 DLG_5_5_VIN_02_019	Gustav	古斯塔夫	Bernhard,Gustav,Hans,Player
 DLG_5_5_VIN_02_020			
-DLG_5_5_VIN_02_021	Hans	汉斯	Bernhard,Gustav,Hans,Player
+DLG_5_5_VIN_02_021	Hans	汉斯神父	Bernhard,Gustav,Hans,Player
 DLG_5_5_VIN_02_022	Gustav	古斯塔夫	Bernhard,Gustav,Hans,Player
 DLG_5_5_VIN_02_023	Gustav	古斯塔夫	Bernhard,Gustav,Hans,Player
 DLG_5_5_VIN_02_024	Player	伊莉丝	Bernhard,Gustav,Hans,Player
@@ -6894,10 +6894,10 @@ DLG_5_5_VSQ_02_030
 DLG_5_5_VSQ_02_031			
 DLG_5_5_VSQ_03_001	Mariele	玛丽勒	Bertha,Hans,Lisbeth,Mariele,Player
 DLG_5_5_VSQ_03_002	Lisbeth	莉丝贝特	Bertha,Hans,Lisbeth,Mariele,Player
-DLG_5_5_VSQ_03_003	Hans	汉斯	Bertha,Hans,Lisbeth,Mariele,Player
+DLG_5_5_VSQ_03_003	Hans	汉斯神父	Bertha,Hans,Lisbeth,Mariele,Player
 DLG_5_5_VSQ_03_004	Player	伊莉丝	Bertha,Hans,Lisbeth,Mariele,Player
-DLG_5_5_VSQ_03_005	Hans	汉斯	Bertha,Hans,Lisbeth,Mariele,Player
-DLG_5_5_VSQ_03_006	Hans	汉斯	Bertha,Hans,Lisbeth,Mariele,Player
+DLG_5_5_VSQ_03_005	Hans	汉斯神父	Bertha,Hans,Lisbeth,Mariele,Player
+DLG_5_5_VSQ_03_006	Hans	汉斯神父	Bertha,Hans,Lisbeth,Mariele,Player
 DLG_5_5_VSQ_03_007	Bertha	贝尔塔	Bertha,Hans,Lisbeth,Mariele,Player
 DLG_5_5_VSQ_03_008	Bertha	贝尔塔	Bertha,Hans,Lisbeth,Mariele,Player
 DLG_5_5_VSQ_03_009	Mariele	玛丽勒	Bertha,Hans,Lisbeth,Mariele,Player
@@ -7322,10 +7322,10 @@ DLG_6_2_VCH_01_001	Gustav	古斯塔夫	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_002	Jochen	约亨	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_003	Gustav	古斯塔夫	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_004	Player	伊莉丝	Gustav,Hans,Jochen,Player
-DLG_6_2_VCH_01_005	Hans	汉斯	Gustav,Hans,Jochen,Player
+DLG_6_2_VCH_01_005	Hans	汉斯神父	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_006	Gustav	古斯塔夫	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_007	Jochen	约亨	Gustav,Hans,Jochen,Player
-DLG_6_2_VCH_01_008	Hans	汉斯	Gustav,Hans,Jochen,Player
+DLG_6_2_VCH_01_008	Hans	汉斯神父	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_009			
 DLG_6_2_VCH_01_010	Jochen	约亨	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_011	Jochen	约亨	Gustav,Hans,Jochen,Player
@@ -7334,7 +7334,7 @@ DLG_6_2_VCH_01_013	Player	伊莉丝	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_014	Gustav	古斯塔夫	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_015	Gustav	古斯塔夫	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_016	Jochen	约亨	Gustav,Hans,Jochen,Player
-DLG_6_2_VCH_01_017	Hans	汉斯	Gustav,Hans,Jochen,Player
+DLG_6_2_VCH_01_017	Hans	汉斯神父	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_018	Jochen	约亨	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_019	Gustav	古斯塔夫	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_020	Jochen	约亨	Gustav,Hans,Jochen,Player
@@ -7343,13 +7343,13 @@ DLG_6_2_VCH_01_022	Player	伊莉丝	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_023	Player	伊莉丝	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_024	Player	伊莉丝	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_025	Gustav	古斯塔夫	Gustav,Hans,Jochen,Player
-DLG_6_2_VCH_01_026	Hans	汉斯	Gustav,Hans,Jochen,Player
+DLG_6_2_VCH_01_026	Hans	汉斯神父	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_027	Jochen	约亨	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_028	Player	伊莉丝	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_029	Gustav	古斯塔夫	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_030	Jochen	约亨	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_031	Jochen	约亨	Gustav,Hans,Jochen,Player
-DLG_6_2_VCH_01_032	Hans	汉斯	Gustav,Hans,Jochen,Player
+DLG_6_2_VCH_01_032	Hans	汉斯神父	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_033	Player	伊莉丝	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_034	Gustav	古斯塔夫	Gustav,Hans,Jochen,Player
 DLG_6_2_VCH_01_035	Player	伊莉丝	Gustav,Hans,Jochen,Player
@@ -7727,30 +7727,30 @@ DLG_6_3_VIN_04_011	Player	伊莉丝	Lisbeth,Mariele,Player
 DLG_6_3_VIN_04_012	Mariele	玛丽勒	Lisbeth,Mariele,Player
 DLG_6_3_VIN_04_013	Mariele	玛丽勒	Lisbeth,Mariele,Player
 DLG_6_3_VIN_04_014	Player	伊莉丝	Lisbeth,Mariele,Player
-DLG_6_3_VSQ_01_001	Hans	汉斯	Hans,Player
+DLG_6_3_VSQ_01_001	Hans	汉斯神父	Hans,Player
 DLG_6_3_VSQ_01_002	Player	伊莉丝	Hans,Player
-DLG_6_3_VSQ_01_003	Hans	汉斯	Hans,Player
+DLG_6_3_VSQ_01_003	Hans	汉斯神父	Hans,Player
 DLG_6_3_VSQ_01_004	Player	伊莉丝	Hans,Player
-DLG_6_3_VSQ_01_005	Hans	汉斯	Hans,Player
-DLG_6_3_VSQ_01_006	Hans	汉斯	Hans,Player
+DLG_6_3_VSQ_01_005	Hans	汉斯神父	Hans,Player
+DLG_6_3_VSQ_01_006	Hans	汉斯神父	Hans,Player
 DLG_6_3_VSQ_01_007	Player	伊莉丝	Hans,Player
 DLG_6_3_VSQ_01_008	Player	伊莉丝	Hans,Player
-DLG_6_3_VSQ_01_009	Hans	汉斯	Hans,Player
-DLG_6_3_VSQ_01_010	Hans	汉斯	Hans,Player
+DLG_6_3_VSQ_01_009	Hans	汉斯神父	Hans,Player
+DLG_6_3_VSQ_01_010	Hans	汉斯神父	Hans,Player
 DLG_6_3_VSQ_01_011	Player	伊莉丝	Hans,Player
 DLG_6_3_VSQ_01_012	Player	伊莉丝	Hans,Player
-DLG_6_3_VSQ_01_013	Hans	汉斯	Hans,Player
+DLG_6_3_VSQ_01_013	Hans	汉斯神父	Hans,Player
 DLG_6_3_VSQ_01_014	Player	伊莉丝	Hans,Player
 DLG_6_3_VSQ_01_015	Player	伊莉丝	Hans,Player
 DLG_6_3_VSQ_01_016	Player	伊莉丝	Hans,Player
-DLG_6_3_VSQ_01_017	Hans	汉斯	Hans,Player
+DLG_6_3_VSQ_01_017	Hans	汉斯神父	Hans,Player
 DLG_6_3_VSQ_01_018	Player	伊莉丝	Hans,Player
-DLG_6_3_VSQ_01_019	Hans	汉斯	Hans,Player
+DLG_6_3_VSQ_01_019	Hans	汉斯神父	Hans,Player
 DLG_6_3_VSQ_01_020	Player	伊莉丝	Hans,Player
 DLG_6_3_VSQ_01_021	Player	伊莉丝	Hans,Player
-DLG_6_3_VSQ_01_022	Hans	汉斯	Hans,Player
+DLG_6_3_VSQ_01_022	Hans	汉斯神父	Hans,Player
 DLG_6_3_VSQ_01_023	Player	伊莉丝	Hans,Player
-DLG_6_3_VSQ_01_024	Hans	汉斯	Hans,Player
+DLG_6_3_VSQ_01_024	Hans	汉斯神父	Hans,Player
 DLG_6_3_VSQ_01_025	Player	伊莉丝	Hans,Player
 DLG_6_3_VSQ_01_026			
 DLG_6_3_VSQ_01_027			
@@ -8006,7 +8006,7 @@ DLG_6_4_VIN_04_012	Player	伊莉丝	Grune,Jakob,Player
 DLG_6_4_VIN_04_013	Grune	格吕妮	Grune,Jakob,Player
 DLG_6_4_VIN_04_014	Jakob	雅各布	Grune,Jakob,Player
 DLG_6_4_VIN_04_015	Player	伊莉丝	Grune,Jakob,Player
-DLG_6_4_VSQ_01_001	Hans	汉斯	Guido,Hans,Heinrich,Player,Wilhelm
+DLG_6_4_VSQ_01_001	Hans	汉斯神父	Guido,Hans,Heinrich,Player,Wilhelm
 DLG_6_4_VSQ_01_002	Player	伊莉丝	Guido,Hans,Heinrich,Player,Wilhelm
 DLG_6_4_VSQ_01_003	Guido	吉多	Guido,Hans,Heinrich,Player,Wilhelm
 DLG_6_4_VSQ_01_004	Wilhelm	威廉	Guido,Hans,Heinrich,Player,Wilhelm
@@ -8016,15 +8016,15 @@ DLG_6_4_VSQ_01_007	Guido	吉多	Guido,Hans,Heinrich,Player,Wilhelm
 DLG_6_4_VSQ_01_008	Heinrich	海因里希	Guido,Hans,Heinrich,Player,Wilhelm
 DLG_6_4_VSQ_01_009	Wilhelm	威廉	Guido,Hans,Heinrich,Player,Wilhelm
 DLG_6_4_VSQ_01_010	Player	伊莉丝	Guido,Hans,Heinrich,Player,Wilhelm
-DLG_6_4_VSQ_01_011	Hans	汉斯	Guido,Hans,Heinrich,Player,Wilhelm
+DLG_6_4_VSQ_01_011	Hans	汉斯神父	Guido,Hans,Heinrich,Player,Wilhelm
 DLG_6_4_VSQ_01_012	Player	伊莉丝	Guido,Hans,Heinrich,Player,Wilhelm
 DLG_6_4_VSQ_01_013	Guido	吉多	Guido,Hans,Heinrich,Player,Wilhelm
-DLG_6_4_VSQ_01_014	Hans	汉斯	Guido,Hans,Heinrich,Player,Wilhelm
+DLG_6_4_VSQ_01_014	Hans	汉斯神父	Guido,Hans,Heinrich,Player,Wilhelm
 DLG_6_4_VSQ_01_015	Wilhelm	威廉	Guido,Hans,Heinrich,Player,Wilhelm
 DLG_6_4_VSQ_01_016	Guido	吉多	Guido,Hans,Heinrich,Player,Wilhelm
 DLG_6_4_VSQ_01_017	Heinrich	海因里希	Guido,Hans,Heinrich,Player,Wilhelm
-DLG_6_4_VSQ_01_018	Hans	汉斯	Guido,Hans,Heinrich,Player,Wilhelm
-DLG_6_4_VSQ_01_019	Hans	汉斯	Guido,Hans,Heinrich,Player,Wilhelm
+DLG_6_4_VSQ_01_018	Hans	汉斯神父	Guido,Hans,Heinrich,Player,Wilhelm
+DLG_6_4_VSQ_01_019	Hans	汉斯神父	Guido,Hans,Heinrich,Player,Wilhelm
 DLG_6_4_VSQ_01_020	Wilhelm	威廉	Guido,Hans,Heinrich,Player,Wilhelm
 DLG_6_4_VSQ_01_021	Player	伊莉丝	Guido,Hans,Heinrich,Player,Wilhelm
 DLG_6_4_VSQ_02_001	Wilma	威尔玛	Ariane,Linda,Marlen,Player,Wilma
@@ -8198,18 +8198,18 @@ DLG_6_5_VBA_02_008	Eugen	欧根	Eugen,Player,Tristan
 DLG_6_5_VBA_02_009	Tristan	特里斯坦	Eugen,Player,Tristan
 DLG_6_5_VBA_02_010	Player	伊莉丝	Eugen,Player,Tristan
 DLG_6_5_VBA_02_011	Player	伊莉丝	Eugen,Player,Tristan
-DLG_6_5_VSQ_01_001	Hans	汉斯	Gustav,Hans,Player
+DLG_6_5_VSQ_01_001	Hans	汉斯神父	Gustav,Hans,Player
 DLG_6_5_VSQ_01_002	Gustav	古斯塔夫	Gustav,Hans,Player
-DLG_6_5_VSQ_01_003	Hans	汉斯	Gustav,Hans,Player
+DLG_6_5_VSQ_01_003	Hans	汉斯神父	Gustav,Hans,Player
 DLG_6_5_VSQ_01_004	Player	伊莉丝	Gustav,Hans,Player
 DLG_6_5_VSQ_01_005	Gustav	古斯塔夫	Gustav,Hans,Player
 DLG_6_5_VSQ_01_006	Player	伊莉丝	Gustav,Hans,Player
 DLG_6_5_VSQ_01_007	Gustav	古斯塔夫	Gustav,Hans,Player
-DLG_6_5_VSQ_01_008	Hans	汉斯	Gustav,Hans,Player
+DLG_6_5_VSQ_01_008	Hans	汉斯神父	Gustav,Hans,Player
 DLG_6_5_VSQ_01_009	Player	伊莉丝	Gustav,Hans,Player
 DLG_6_5_VSQ_01_010	Gustav	古斯塔夫	Gustav,Hans,Player
 DLG_6_5_VSQ_01_011	Player	伊莉丝	Gustav,Hans,Player
-DLG_6_5_VSQ_01_012	Hans	汉斯	Gustav,Hans,Player
+DLG_6_5_VSQ_01_012	Hans	汉斯神父	Gustav,Hans,Player
 DLG_6_5_VSQ_01_013	Player	伊莉丝	Gustav,Hans,Player
 DLG_6_5_VSQ_01_014	Player	伊莉丝	Gustav,Hans,Player
 DLG_6_5_VSQ_02_001	Wilhelm	威廉	Player,Wilhelm
@@ -8566,10 +8566,10 @@ DLG_7_2_VSQ_02_010	Player	伊莉丝	Bernhard,Gustav,Hans,Jochen,Ludwig,Player
 DLG_7_2_VSQ_02_011	Ludwig	路德维希	Bernhard,Gustav,Hans,Jochen,Ludwig,Player
 DLG_7_2_VSQ_02_012	Ludwig	路德维希	Bernhard,Gustav,Hans,Jochen,Ludwig,Player
 DLG_7_2_VSQ_02_013	Jochen	约亨	Bernhard,Gustav,Hans,Jochen,Ludwig,Player
-DLG_7_2_VSQ_02_014	Hans	汉斯	Bernhard,Gustav,Hans,Jochen,Ludwig,Player
+DLG_7_2_VSQ_02_014	Hans	汉斯神父	Bernhard,Gustav,Hans,Jochen,Ludwig,Player
 DLG_7_2_VSQ_02_015	Gustav	古斯塔夫	Bernhard,Gustav,Hans,Jochen,Ludwig,Player
 DLG_7_2_VSQ_02_016	Gustav	古斯塔夫	Bernhard,Gustav,Hans,Jochen,Ludwig,Player
-DLG_7_2_VSQ_02_017	Hans	汉斯	Bernhard,Gustav,Hans,Jochen,Ludwig,Player
+DLG_7_2_VSQ_02_017	Hans	汉斯神父	Bernhard,Gustav,Hans,Jochen,Ludwig,Player
 DLG_7_2_VSQ_02_018	Player	伊莉丝	Bernhard,Gustav,Hans,Jochen,Ludwig,Player
 DLG_7_2_VSQ_02_019	Player	伊莉丝	Bernhard,Gustav,Hans,Jochen,Ludwig,Player
 DLG_7_2_VSQ_02_020	Player	伊莉丝	Bernhard,Gustav,Hans,Jochen,Ludwig,Player
@@ -8905,31 +8905,31 @@ DLG_7_3_VSQ_03_001	Odilie	奥蒂莉	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_002	Marlen	玛尔伦	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_003	Player	伊莉丝	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_004	Player	伊莉丝	Hans,Marlen,Odilie,Player
-DLG_7_3_VSQ_03_005	Hans	汉斯	Hans,Marlen,Odilie,Player
+DLG_7_3_VSQ_03_005	Hans	汉斯神父	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_006	Marlen	玛尔伦	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_007	Odilie	奥蒂莉	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_008	Player	伊莉丝	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_009	Player	伊莉丝	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_010	Marlen	玛尔伦	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_011	Odilie	奥蒂莉	Hans,Marlen,Odilie,Player
-DLG_7_3_VSQ_03_012	Hans	汉斯	Hans,Marlen,Odilie,Player
-DLG_7_3_VSQ_03_013	Hans	汉斯	Hans,Marlen,Odilie,Player
+DLG_7_3_VSQ_03_012	Hans	汉斯神父	Hans,Marlen,Odilie,Player
+DLG_7_3_VSQ_03_013	Hans	汉斯神父	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_014	Marlen	玛尔伦	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_015	Odilie	奥蒂莉	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_016	Player	伊莉丝	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_017	Player	伊莉丝	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_018	Player	伊莉丝	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_019	Odilie	奥蒂莉	Hans,Marlen,Odilie,Player
-DLG_7_3_VSQ_03_020	Hans	汉斯	Hans,Marlen,Odilie,Player
+DLG_7_3_VSQ_03_020	Hans	汉斯神父	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_021	Odilie	奥蒂莉	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_022	Odilie	奥蒂莉	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_023	Player	伊莉丝	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_024	Marlen	玛尔伦	Hans,Marlen,Odilie,Player
-DLG_7_3_VSQ_03_025	Hans	汉斯	Hans,Marlen,Odilie,Player
+DLG_7_3_VSQ_03_025	Hans	汉斯神父	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_026	Odilie	奥蒂莉	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_027	Player	伊莉丝	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_028	Odilie	奥蒂莉	Hans,Marlen,Odilie,Player
-DLG_7_3_VSQ_03_029	Hans	汉斯	Hans,Marlen,Odilie,Player
+DLG_7_3_VSQ_03_029	Hans	汉斯神父	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_030	Marlen	玛尔伦	Hans,Marlen,Odilie,Player
 DLG_7_3_VSQ_03_031	Player	伊莉丝	Hans,Marlen,Odilie,Player
 DLG_7_3_VST_01_001	Eugen	欧根	Eugen,Player
@@ -9053,16 +9053,16 @@ DLG_7_4_VIN_01_013	Player	伊莉丝	Player,Rozenmarine
 DLG_7_4_VIN_01_014	Player	伊莉丝	Player,Rozenmarine
 DLG_7_4_VIN_01_015			
 DLG_7_4_VIN_02_001	Lebkuchen	斯佩尔特	Hans,Lebkuchen,Player
-DLG_7_4_VIN_02_002	Hans	汉斯	Hans,Lebkuchen,Player
+DLG_7_4_VIN_02_002	Hans	汉斯神父	Hans,Lebkuchen,Player
 DLG_7_4_VIN_02_003	Player	伊莉丝	Hans,Lebkuchen,Player
-DLG_7_4_VIN_02_004	Hans	汉斯	Hans,Lebkuchen,Player
+DLG_7_4_VIN_02_004	Hans	汉斯神父	Hans,Lebkuchen,Player
 DLG_7_4_VIN_02_005	Player	伊莉丝	Hans,Lebkuchen,Player
 DLG_7_4_VIN_02_006	Lebkuchen	斯佩尔特	Hans,Lebkuchen,Player
 DLG_7_4_VIN_02_007	Player	伊莉丝	Hans,Lebkuchen,Player
 DLG_7_4_VIN_02_008	Lebkuchen	斯佩尔特	Hans,Lebkuchen,Player
-DLG_7_4_VIN_02_009	Hans	汉斯	Hans,Lebkuchen,Player
+DLG_7_4_VIN_02_009	Hans	汉斯神父	Hans,Lebkuchen,Player
 DLG_7_4_VIN_02_010	Player	伊莉丝	Hans,Lebkuchen,Player
-DLG_7_4_VIN_02_011	Hans	汉斯	Hans,Lebkuchen,Player
+DLG_7_4_VIN_02_011	Hans	汉斯神父	Hans,Lebkuchen,Player
 DLG_7_4_VIN_02_012	Player	伊莉丝	Hans,Lebkuchen,Player
 DLG_7_4_VIN_02_013	Lebkuchen	斯佩尔特	Hans,Lebkuchen,Player
 DLG_7_4_VIN_02_014	Player	伊莉丝	Hans,Lebkuchen,Player
@@ -9974,15 +9974,15 @@ DLG_8_3_VSQ_01_009	Wilhelm	威廉	Player,Wilhelm
 DLG_8_3_VSQ_01_010	Player	伊莉丝	Player,Wilhelm
 DLG_8_3_VSQ_01_011	Wilhelm	威廉	Player,Wilhelm
 DLG_8_3_VSQ_01_012	Player	伊莉丝	Player,Wilhelm
-DLG_8_3_VSQ_02_001	Hans	汉斯	Hans,Player
+DLG_8_3_VSQ_02_001	Hans	汉斯神父	Hans,Player
 DLG_8_3_VSQ_02_002	Player	伊莉丝	Hans,Player
-DLG_8_3_VSQ_02_003	Hans	汉斯	Hans,Player
-DLG_8_3_VSQ_02_004	Hans	汉斯	Hans,Player
+DLG_8_3_VSQ_02_003	Hans	汉斯神父	Hans,Player
+DLG_8_3_VSQ_02_004	Hans	汉斯神父	Hans,Player
 DLG_8_3_VSQ_02_005	Player	伊莉丝	Hans,Player
-DLG_8_3_VSQ_02_006	Hans	汉斯	Hans,Player
-DLG_8_3_VSQ_02_007	Hans	汉斯	Hans,Player
+DLG_8_3_VSQ_02_006	Hans	汉斯神父	Hans,Player
+DLG_8_3_VSQ_02_007	Hans	汉斯神父	Hans,Player
 DLG_8_3_VSQ_02_008	Player	伊莉丝	Hans,Player
-DLG_8_3_VSQ_02_009	Hans	汉斯	Hans,Player
+DLG_8_3_VSQ_02_009	Hans	汉斯神父	Hans,Player
 DLG_8_3_VSQ_02_010	Player	伊莉丝	Hans,Player
 DLG_8_3_VSQ_11_001	Traveler	旅人	Player,Traveler
 DLG_8_3_VSQ_11_002	Traveler	旅人	Player,Traveler
@@ -10695,19 +10695,19 @@ CUT_2_1_VCH_01_015
 CUT_2_1_VCH_01_016			
 CUT_2_1_VCH_01_017			
 CUT_2_1_VCH_01_018			
-CUT_2_1_VCH_03_001	Hans	汉斯	Hans,Player
-CUT_2_1_VCH_03_002	Hans	汉斯	Hans,Player
+CUT_2_1_VCH_03_001	Hans	汉斯神父	Hans,Player
+CUT_2_1_VCH_03_002	Hans	汉斯神父	Hans,Player
 CUT_2_1_VCH_03_003	Crowd	人群	Hans,Player
-CUT_2_1_VCH_03_004	Hans	汉斯	Hans,Player
-CUT_2_1_VCH_03_005	Hans	汉斯	Hans,Player
-CUT_2_1_VCH_03_006	Hans	汉斯	Hans,Player
-CUT_2_1_VCH_03_007	Hans	汉斯	Hans,Player
-CUT_2_1_VCH_03_008	Hans	汉斯	Hans,Player
-CUT_2_1_VCH_03_009	Hans	汉斯	Hans,Player
-CUT_2_1_VCH_03_010	Hans	汉斯	Hans,Player
-CUT_2_1_VCH_03_011	Hans	汉斯	Hans,Player
-CUT_2_1_VCH_03_012	Hans	汉斯	Hans,Player
-CUT_2_1_VCH_03_013	Hans	汉斯	Hans,Player
+CUT_2_1_VCH_03_004	Hans	汉斯神父	Hans,Player
+CUT_2_1_VCH_03_005	Hans	汉斯神父	Hans,Player
+CUT_2_1_VCH_03_006	Hans	汉斯神父	Hans,Player
+CUT_2_1_VCH_03_007	Hans	汉斯神父	Hans,Player
+CUT_2_1_VCH_03_008	Hans	汉斯神父	Hans,Player
+CUT_2_1_VCH_03_009	Hans	汉斯神父	Hans,Player
+CUT_2_1_VCH_03_010	Hans	汉斯神父	Hans,Player
+CUT_2_1_VCH_03_011	Hans	汉斯神父	Hans,Player
+CUT_2_1_VCH_03_012	Hans	汉斯神父	Hans,Player
+CUT_2_1_VCH_03_013	Hans	汉斯神父	Hans,Player
 CUT_2_1_VCH_03_014			
 CUT_2_1_VCH_03_015			
 CUT_2_1_VCH_03_016			
@@ -10791,31 +10791,31 @@ CUT_2_3_VSQ_01_025
 CUT_2_3_VSQ_01_026			
 CUT_2_3_VSQ_01_027			
 CUT_2_3_VSQ_01_028			
-CUT_2_4_VSQ_01_001	Hans	汉斯	Hans,Player
-CUT_2_4_VSQ_01_002	Hans	汉斯	Hans,Player
+CUT_2_4_VSQ_01_001	Hans	汉斯神父	Hans,Player
+CUT_2_4_VSQ_01_002	Hans	汉斯神父	Hans,Player
 CUT_2_4_VSQ_01_003	Player	伊莉丝	Hans,Player
-CUT_2_4_VSQ_01_004	Hans	汉斯	Hans,Player
+CUT_2_4_VSQ_01_004	Hans	汉斯神父	Hans,Player
 CUT_2_4_VSQ_01_005	Player	伊莉丝	Hans,Player
-CUT_2_4_VSQ_01_006	Hans	汉斯	Hans,Player
+CUT_2_4_VSQ_01_006	Hans	汉斯神父	Hans,Player
 CUT_2_4_VSQ_01_007	Player	伊莉丝	Hans,Player
 CUT_2_4_VSQ_01_008	Player	伊莉丝	Hans,Player
-CUT_2_4_VSQ_01_009	Hans	汉斯	Hans,Player
-CUT_2_4_VSQ_01_010	Hans	汉斯	Hans,Player
+CUT_2_4_VSQ_01_009	Hans	汉斯神父	Hans,Player
+CUT_2_4_VSQ_01_010	Hans	汉斯神父	Hans,Player
 CUT_2_4_VSQ_01_011	Player	伊莉丝	Hans,Player
-CUT_2_4_VSQ_01_012	Hans	汉斯	Hans,Player
+CUT_2_4_VSQ_01_012	Hans	汉斯神父	Hans,Player
 CUT_2_4_VSQ_01_013	Player	伊莉丝	Hans,Player
-CUT_2_4_VSQ_01_014	Hans	汉斯	Hans,Player
+CUT_2_4_VSQ_01_014	Hans	汉斯神父	Hans,Player
 CUT_2_4_VSQ_01_015	Player	伊莉丝	Hans,Player
 CUT_2_4_VSQ_01_016	Player	伊莉丝	Hans,Player
 CUT_2_4_VSQ_01_017	Player	伊莉丝	Hans,Player
 CUT_2_4_VSQ_01_018	Player	伊莉丝	Hans,Player
-CUT_2_4_VSQ_01_019	Hans	汉斯	Hans,Player
+CUT_2_4_VSQ_01_019	Hans	汉斯神父	Hans,Player
 CUT_2_4_VSQ_01_020	Player	伊莉丝	Hans,Player
-CUT_2_4_VSQ_01_021	Hans	汉斯	Hans,Player
+CUT_2_4_VSQ_01_021	Hans	汉斯神父	Hans,Player
 CUT_2_4_VSQ_01_022	Player	伊莉丝	Hans,Player
-CUT_2_4_VSQ_01_023	Hans	汉斯	Hans,Player
+CUT_2_4_VSQ_01_023	Hans	汉斯神父	Hans,Player
 CUT_2_4_VSQ_01_024	Player	伊莉丝	Hans,Player
-CUT_2_4_VSQ_01_025	Hans	汉斯	Hans,Player
+CUT_2_4_VSQ_01_025	Hans	汉斯神父	Hans,Player
 CUT_2_4_VSQ_01_026	Player	伊莉丝	Hans,Player
 CUT_2_4_VSQ_01_027	Player	伊莉丝	Hans,Player
 CUT_2_4_VSQ_01_028			
@@ -11079,41 +11079,41 @@ CUT_3_1_HLR_01_047
 CUT_3_1_HLR_01_048			
 CUT_3_1_HLR_01_049			
 CUT_3_1_HLR_01_070			
-CUT_3_1_VSQ_01_001	Hans	汉斯	Hans,Jochen,Player,Witch
-CUT_3_1_VSQ_01_004	Hans	汉斯	Hans,Jochen,Player,Witch
+CUT_3_1_VSQ_01_001	Hans	汉斯神父	Hans,Jochen,Player,Witch
+CUT_3_1_VSQ_01_004	Hans	汉斯神父	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_006	Player	伊莉丝	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_008	Jochen	约亨	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_010	Jochen	约亨	Hans,Jochen,Player,Witch
-CUT_3_1_VSQ_01_011	Hans	汉斯	Hans,Jochen,Player,Witch
+CUT_3_1_VSQ_01_011	Hans	汉斯神父	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_012	Jochen	约亨	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_013	Jochen	约亨	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_014	Player	伊莉丝	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_015			
 CUT_3_1_VSQ_01_016	Jochen	约亨	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_017	Player	伊莉丝	Hans,Jochen,Player,Witch
-CUT_3_1_VSQ_01_019	Hans	汉斯	Hans,Jochen,Player,Witch
+CUT_3_1_VSQ_01_019	Hans	汉斯神父	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_022			
 CUT_3_1_VSQ_01_025			
 CUT_3_1_VSQ_01_026			
-CUT_3_1_VSQ_01_028	Hans	汉斯	Hans,Jochen,Player,Witch
-CUT_3_1_VSQ_01_029	Hans	汉斯	Hans,Jochen,Player,Witch
+CUT_3_1_VSQ_01_028	Hans	汉斯神父	Hans,Jochen,Player,Witch
+CUT_3_1_VSQ_01_029	Hans	汉斯神父	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_031	Player	伊莉丝	Hans,Jochen,Player,Witch
-CUT_3_1_VSQ_01_032	Hans	汉斯	Hans,Jochen,Player,Witch
-CUT_3_1_VSQ_01_033	Hans	汉斯	Hans,Jochen,Player,Witch
+CUT_3_1_VSQ_01_032	Hans	汉斯神父	Hans,Jochen,Player,Witch
+CUT_3_1_VSQ_01_033	Hans	汉斯神父	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_034	Player	伊莉丝	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_035	Player	伊莉丝	Hans,Jochen,Player,Witch
-CUT_3_1_VSQ_01_036	Hans	汉斯	Hans,Jochen,Player,Witch
-CUT_3_1_VSQ_01_037	Hans	汉斯	Hans,Jochen,Player,Witch
+CUT_3_1_VSQ_01_036	Hans	汉斯神父	Hans,Jochen,Player,Witch
+CUT_3_1_VSQ_01_037	Hans	汉斯神父	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_040	Player	伊莉丝	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_042	Player	伊莉丝	Hans,Jochen,Player,Witch
-CUT_3_1_VSQ_01_043	Hans	汉斯	Hans,Jochen,Player,Witch
+CUT_3_1_VSQ_01_043	Hans	汉斯神父	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_044	Player	伊莉丝	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_045	Player	伊莉丝	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_046	Player	伊莉丝	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_047	Jochen	约亨	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_048	Player	伊莉丝	Hans,Jochen,Player,Witch
-CUT_3_1_VSQ_01_049	Hans	汉斯	Hans,Jochen,Player,Witch
-CUT_3_1_VSQ_01_050	Hans	汉斯	Hans,Jochen,Player,Witch
+CUT_3_1_VSQ_01_049	Hans	汉斯神父	Hans,Jochen,Player,Witch
+CUT_3_1_VSQ_01_050	Hans	汉斯神父	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_051	Player	伊莉丝	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_052	Player	伊莉丝	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_053			
@@ -11121,12 +11121,12 @@ CUT_3_1_VSQ_01_054
 CUT_3_1_VSQ_01_055	Player	伊莉丝	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_056	Player	伊莉丝	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_057	Player	伊莉丝	Hans,Jochen,Player,Witch
-CUT_3_1_VSQ_01_058	Hans	汉斯	Hans,Jochen,Player,Witch
+CUT_3_1_VSQ_01_058	Hans	汉斯神父	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_059	Player	伊莉丝	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_060	Player	伊莉丝	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_061	Player	伊莉丝	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_063	Player	伊莉丝	Hans,Jochen,Player,Witch
-CUT_3_1_VSQ_01_064	Hans	汉斯	Hans,Jochen,Player,Witch
+CUT_3_1_VSQ_01_064	Hans	汉斯神父	Hans,Jochen,Player,Witch
 CUT_3_1_VSQ_01_065			
 CUT_3_1_VSQ_01_066			
 CUT_3_1_VSQ_01_067			
@@ -11643,24 +11643,24 @@ CUT_3_4_VIN_01_082
 CUT_3_4_VSQ_01_001	Lisbeth	莉丝贝特	Hans,Lisbeth,Player
 CUT_3_4_VSQ_01_002	Player	伊莉丝	Hans,Lisbeth,Player
 CUT_3_4_VSQ_01_003	Lisbeth	莉丝贝特	Hans,Lisbeth,Player
-CUT_3_4_VSQ_01_004	Hans	汉斯	Hans,Lisbeth,Player
+CUT_3_4_VSQ_01_004	Hans	汉斯神父	Hans,Lisbeth,Player
 CUT_3_4_VSQ_01_005	Player	伊莉丝	Hans,Lisbeth,Player
 CUT_3_4_VSQ_01_007	Lisbeth	莉丝贝特	Hans,Lisbeth,Player
-CUT_3_4_VSQ_01_008	Hans	汉斯	Hans,Lisbeth,Player
+CUT_3_4_VSQ_01_008	Hans	汉斯神父	Hans,Lisbeth,Player
 CUT_3_4_VSQ_01_009	Lisbeth	莉丝贝特	Hans,Lisbeth,Player
 CUT_3_4_VSQ_01_010	Lisbeth	莉丝贝特	Hans,Lisbeth,Player
 CUT_3_4_VSQ_01_011	Player	伊莉丝	Hans,Lisbeth,Player
-CUT_3_4_VSQ_01_012	Hans	汉斯	Hans,Lisbeth,Player
-CUT_3_4_VSQ_01_013	Hans	汉斯	Hans,Lisbeth,Player
+CUT_3_4_VSQ_01_012	Hans	汉斯神父	Hans,Lisbeth,Player
+CUT_3_4_VSQ_01_013	Hans	汉斯神父	Hans,Lisbeth,Player
 CUT_3_4_VSQ_01_014	Lisbeth	莉丝贝特	Hans,Lisbeth,Player
 CUT_3_4_VSQ_01_015	Lisbeth	莉丝贝特	Hans,Lisbeth,Player
 CUT_3_4_VSQ_01_016	Lisbeth	莉丝贝特	Hans,Lisbeth,Player
-CUT_3_4_VSQ_01_017	Hans	汉斯	Hans,Lisbeth,Player
-CUT_3_4_VSQ_01_018	Hans	汉斯	Hans,Lisbeth,Player
+CUT_3_4_VSQ_01_017	Hans	汉斯神父	Hans,Lisbeth,Player
+CUT_3_4_VSQ_01_018	Hans	汉斯神父	Hans,Lisbeth,Player
 CUT_3_4_VSQ_01_020	Lisbeth	莉丝贝特	Hans,Lisbeth,Player
 CUT_3_4_VSQ_01_022	Player	伊莉丝	Hans,Lisbeth,Player
 CUT_3_4_VSQ_01_023	Lisbeth	莉丝贝特	Hans,Lisbeth,Player
-CUT_3_4_VSQ_01_025	Hans	汉斯	Hans,Lisbeth,Player
+CUT_3_4_VSQ_01_025	Hans	汉斯神父	Hans,Lisbeth,Player
 CUT_3_4_VSQ_01_028	Player	伊莉丝	Hans,Lisbeth,Player
 CUT_3_4_VSQ_01_029	Player	伊莉丝	Hans,Lisbeth,Player
 CUT_3_4_VSQ_02_001	Player	伊莉丝	Player,Rozenmarine
@@ -11948,7 +11948,7 @@ CUT_3_OWC_01_001	?????	未标注（资产未填）	?????,Bernhard,Freya,Gustav,H
 CUT_3_OWC_01_002	Player	伊莉丝	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_003	?????	未标注（资产未填）	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_004	Player	伊莉丝	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
-CUT_3_OWC_01_005	Hans	汉斯	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
+CUT_3_OWC_01_005	Hans	汉斯神父	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_006	Player	伊莉丝	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_007	Jochen	约亨	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_008	Rozenmarine	萝森玛琳	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
@@ -11957,17 +11957,17 @@ CUT_3_OWC_01_010	Player	伊莉丝	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuc
 CUT_3_OWC_01_011	Ludwig	路德维希	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_012	Bernhard	伯恩哈德	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_013	Rozenmarine	萝森玛琳	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
-CUT_3_OWC_01_014	Hans	汉斯	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
+CUT_3_OWC_01_014	Hans	汉斯神父	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_015	Player	伊莉丝	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_016	Jochen	约亨	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
-CUT_3_OWC_01_017	Hans	汉斯	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
+CUT_3_OWC_01_017	Hans	汉斯神父	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_018	Player	伊莉丝	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
-CUT_3_OWC_01_019	Hans	汉斯	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
+CUT_3_OWC_01_019	Hans	汉斯神父	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_020	Jochen	约亨	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_021	Player	伊莉丝	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_022	Gustav	古斯塔夫	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_023	Player	伊莉丝	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
-CUT_3_OWC_01_024	Hans	汉斯	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
+CUT_3_OWC_01_024	Hans	汉斯神父	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_025	Rozenmarine	萝森玛琳	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_026	Rozenmarine	萝森玛琳	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_027	Player	伊莉丝	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
@@ -11975,16 +11975,16 @@ CUT_3_OWC_01_028	Jochen	约亨	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen
 CUT_3_OWC_01_029	Player	伊莉丝	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_030	Player	伊莉丝	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_031	Freya	芙蕾雅	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
-CUT_3_OWC_01_032	Hans	汉斯	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
+CUT_3_OWC_01_032	Hans	汉斯神父	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_033	Player	伊莉丝	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_034	Lebkuchen	斯佩尔特	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
-CUT_3_OWC_01_035	Hans	汉斯	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
-CUT_3_OWC_01_036	Hans	汉斯	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
-CUT_3_OWC_01_037	Hans	汉斯	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
+CUT_3_OWC_01_035	Hans	汉斯神父	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
+CUT_3_OWC_01_036	Hans	汉斯神父	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
+CUT_3_OWC_01_037	Hans	汉斯神父	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_038	Player	伊莉丝	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_039	Gustav	古斯塔夫	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_040	Player	伊莉丝	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
-CUT_3_OWC_01_041	Hans	汉斯	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
+CUT_3_OWC_01_041	Hans	汉斯神父	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_042	Player	伊莉丝	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_043	Rozenmarine	萝森玛琳	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
 CUT_3_OWC_01_044	Player	伊莉丝	?????,Bernhard,Freya,Gustav,Hans,Jochen,Lebkuchen,Ludwig,Player,Rozenmarine
@@ -12038,15 +12038,15 @@ CUT_4_1_VSQ_01_004	Player	伊莉丝	Player,Rozenmarine
 CUT_4_1_VSQ_01_005	Rozenmarine	萝森玛琳	Player,Rozenmarine
 CUT_4_1_VST_01_001	Gustav	古斯塔夫	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_002	Player	伊莉丝	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
-CUT_4_1_VST_01_003	Hans	汉斯	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
+CUT_4_1_VST_01_003	Hans	汉斯神父	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_004	Player	伊莉丝	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_005	Gustav	古斯塔夫	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_006	Bernhard	伯恩哈德	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_007	Player	伊莉丝	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_008	Player	伊莉丝	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_009	Eugen	欧根	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
-CUT_4_1_VST_01_010	Hans	汉斯	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
-CUT_4_1_VST_01_011	Hans	汉斯	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
+CUT_4_1_VST_01_010	Hans	汉斯神父	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
+CUT_4_1_VST_01_011	Hans	汉斯神父	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_012	Player	伊莉丝	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_013	Gustav	古斯塔夫	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_014	Jochen	约亨	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
@@ -12054,15 +12054,15 @@ CUT_4_1_VST_01_015	Eugen	欧根	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenma
 CUT_4_1_VST_01_016	Jochen	约亨	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_017	Player	伊莉丝	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_018	Player	伊莉丝	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
-CUT_4_1_VST_01_019	Hans	汉斯	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
+CUT_4_1_VST_01_019	Hans	汉斯神父	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_020	Player	伊莉丝	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_021	Player	伊莉丝	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_022	Bernhard	伯恩哈德	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_023	Jochen	约亨	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_024	Jochen	约亨	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_025	Rozenmarine	萝森玛琳	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
-CUT_4_1_VST_01_026	Hans	汉斯	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
-CUT_4_1_VST_01_027	Hans	汉斯	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
+CUT_4_1_VST_01_026	Hans	汉斯神父	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
+CUT_4_1_VST_01_027	Hans	汉斯神父	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_028	Gustav	古斯塔夫	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_029	Gustav	古斯塔夫	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_030	Eugen	欧根	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
@@ -12070,7 +12070,7 @@ CUT_4_1_VST_01_031	Eugen	欧根	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenma
 CUT_4_1_VST_01_032	Bernhard	伯恩哈德	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_033	Bernhard	伯恩哈德	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_034	Eugen	欧根	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
-CUT_4_1_VST_01_035	Hans	汉斯	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
+CUT_4_1_VST_01_035	Hans	汉斯神父	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_036	Eugen	欧根	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_037	Gustav	古斯塔夫	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
 CUT_4_1_VST_01_038	Gustav	古斯塔夫	Bernhard,Eugen,Gustav,Hans,Jochen,Player,Rozenmarine
@@ -12174,18 +12174,18 @@ CUT_4_4_OLH_01_018	Bernhard	伯恩哈德	Bernhard,Eugen,Guido,Gustav,Hans,Heinri
 CUT_4_4_OLH_01_019	Bernhard	伯恩哈德	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
 CUT_4_4_OLH_01_020	Jochen	约亨	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
 CUT_4_4_OLH_01_021	Jochen	约亨	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
-CUT_4_4_OLH_01_022	Hans	汉斯	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
+CUT_4_4_OLH_01_022	Hans	汉斯神父	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
 CUT_4_4_OLH_01_023	Jochen	约亨	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
 CUT_4_4_OLH_01_024	Marlen	玛尔伦	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
 CUT_4_4_OLH_01_025	Gustav	古斯塔夫	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
 CUT_4_4_OLH_01_026	Jochen	约亨	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
 CUT_4_4_OLH_01_027	Jochen	约亨	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
 CUT_4_4_OLH_01_028	Jochen	约亨	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
-CUT_4_4_OLH_01_029	Hans	汉斯	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
+CUT_4_4_OLH_01_029	Hans	汉斯神父	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
 CUT_4_4_OLH_01_030	Jochen	约亨	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
 CUT_4_4_OLH_01_031	Gustav	古斯塔夫	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
 CUT_4_4_OLH_01_032	Marlen	玛尔伦	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
-CUT_4_4_OLH_01_033	Hans	汉斯	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
+CUT_4_4_OLH_01_033	Hans	汉斯神父	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
 CUT_4_4_OLH_01_034	Player	伊莉丝	Bernhard,Eugen,Guido,Gustav,Hans,Heinrich,Jochen,Marlen,Player,Wilhelm
 CUT_4_4_OLH_01_035			
 CUT_4_4_OLH_01_036			
@@ -12222,13 +12222,13 @@ CUT_4_4_OLH_01_066
 CUT_4_4_OLH_01_067			
 CUT_4_4_OLH_01_068			
 CUT_4_4_VSQ_01_001	Player	伊莉丝	Bernhard,Eugen,Guido,Gustav,Hans,Jochen,Marlen,Muffy,Player
-CUT_4_4_VSQ_01_002	Hans	汉斯	Bernhard,Eugen,Guido,Gustav,Hans,Jochen,Marlen,Muffy,Player
+CUT_4_4_VSQ_01_002	Hans	汉斯神父	Bernhard,Eugen,Guido,Gustav,Hans,Jochen,Marlen,Muffy,Player
 CUT_4_4_VSQ_01_003	Gustav	古斯塔夫	Bernhard,Eugen,Guido,Gustav,Hans,Jochen,Marlen,Muffy,Player
 CUT_4_4_VSQ_01_004	Bernhard	伯恩哈德	Bernhard,Eugen,Guido,Gustav,Hans,Jochen,Marlen,Muffy,Player
 CUT_4_4_VSQ_01_005	Bernhard	伯恩哈德	Bernhard,Eugen,Guido,Gustav,Hans,Jochen,Marlen,Muffy,Player
 CUT_4_4_VSQ_01_006	Jochen	约亨	Bernhard,Eugen,Guido,Gustav,Hans,Jochen,Marlen,Muffy,Player
 CUT_4_4_VSQ_01_007	Jochen	约亨	Bernhard,Eugen,Guido,Gustav,Hans,Jochen,Marlen,Muffy,Player
-CUT_4_4_VSQ_01_008	Hans	汉斯	Bernhard,Eugen,Guido,Gustav,Hans,Jochen,Marlen,Muffy,Player
+CUT_4_4_VSQ_01_008	Hans	汉斯神父	Bernhard,Eugen,Guido,Gustav,Hans,Jochen,Marlen,Muffy,Player
 CUT_4_4_VSQ_01_009			
 CUT_4_4_VSQ_01_010	Eugen	欧根	Bernhard,Eugen,Guido,Gustav,Hans,Jochen,Marlen,Muffy,Player
 CUT_4_4_VSQ_01_011	Eugen	欧根	Bernhard,Eugen,Guido,Gustav,Hans,Jochen,Marlen,Muffy,Player
@@ -12361,7 +12361,7 @@ CUT_4_5_OCR_01_034	Player	伊莉丝	Crow,Player
 CUT_4_5_OCR_01_035	Player	伊莉丝	Crow,Player
 CUT_4_5_OCR_02_001	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_002	Ariane	阿丽亚娜	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
-CUT_4_5_OCR_02_003	Hans	汉斯	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
+CUT_4_5_OCR_02_003	Hans	汉斯神父	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_004	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_005	Eugen	欧根	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_006	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
@@ -12385,29 +12385,29 @@ CUT_4_5_OCR_02_023	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Lo
 CUT_4_5_OCR_02_024	Jochen	约亨	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_025	Jochen	约亨	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_026	Jochen	约亨	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
-CUT_4_5_OCR_02_027	Hans	汉斯	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
-CUT_4_5_OCR_02_028	Hans	汉斯	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
+CUT_4_5_OCR_02_027	Hans	汉斯神父	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
+CUT_4_5_OCR_02_028	Hans	汉斯神父	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_029	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_030	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_031	Jochen	约亨	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_032	Gustav	古斯塔夫	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_033	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_034	Jochen	约亨	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
-CUT_4_5_OCR_02_035	Hans	汉斯	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
+CUT_4_5_OCR_02_035	Hans	汉斯神父	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_036	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_037	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_038	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_039	Jochen	约亨	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_040	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_041	Gustav	古斯塔夫	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
-CUT_4_5_OCR_02_042	Hans	汉斯	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
+CUT_4_5_OCR_02_042	Hans	汉斯神父	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_043	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_044	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_045	Lebkuchen	斯佩尔特	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_046	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_047	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_048	Jochen	约亨	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
-CUT_4_5_OCR_02_049	Hans	汉斯	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
+CUT_4_5_OCR_02_049	Hans	汉斯神父	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_050	Jochen	约亨	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_051	Jochen	约亨	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_052	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
@@ -12419,12 +12419,12 @@ CUT_4_5_OCR_02_057	Lebkuchen	斯佩尔特	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuc
 CUT_4_5_OCR_02_058	Jochen	约亨	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_059	Gustav	古斯塔夫	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_060	Gustav	古斯塔夫	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
-CUT_4_5_OCR_02_061	Hans	汉斯	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
-CUT_4_5_OCR_02_062	Hans	汉斯	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
+CUT_4_5_OCR_02_061	Hans	汉斯神父	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
+CUT_4_5_OCR_02_062	Hans	汉斯神父	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_063	Gustav	古斯塔夫	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
-CUT_4_5_OCR_02_064	Hans	汉斯	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
+CUT_4_5_OCR_02_064	Hans	汉斯神父	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_065	Lebkuchen	斯佩尔特	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
-CUT_4_5_OCR_02_066	Hans	汉斯	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
+CUT_4_5_OCR_02_066	Hans	汉斯神父	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_067	Player	伊莉丝	Ariane,Eugen,Gustav,Hans,Jochen,Lebkuchen,Loreley,Player,Tristan
 CUT_4_5_OCR_02_068			
 CUT_4_5_OCR_02_069			
@@ -13043,7 +13043,7 @@ CUT_5_1_VCH_01_016	Lisbeth	莉丝贝特	Dorothea,Hans,Lebkuchen,Lisbeth,Player,R
 CUT_5_1_VCH_01_017	Lisbeth	莉丝贝特	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
 CUT_5_1_VCH_01_018	Lisbeth	莉丝贝特	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
 CUT_5_1_VCH_01_019	Lisbeth	莉丝贝特	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
-CUT_5_1_VCH_01_020	Hans	汉斯	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
+CUT_5_1_VCH_01_020	Hans	汉斯神父	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
 CUT_5_1_VCH_01_021	Lebkuchen	斯佩尔特	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
 CUT_5_1_VCH_01_022	Lisbeth	莉丝贝特	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
 CUT_5_1_VCH_01_023	Lisbeth	莉丝贝特	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
@@ -13055,16 +13055,16 @@ CUT_5_1_VCH_01_028	Dorothea	多萝特娅	Dorothea,Hans,Lebkuchen,Lisbeth,Player,
 CUT_5_1_VCH_01_029	Dorothea	多萝特娅	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
 CUT_5_1_VCH_01_030	Dorothea	多萝特娅	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
 CUT_5_1_VCH_01_031	Dorothea	多萝特娅	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
-CUT_5_1_VCH_01_032	Hans	汉斯	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
-CUT_5_1_VCH_01_033	Hans	汉斯	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
+CUT_5_1_VCH_01_032	Hans	汉斯神父	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
+CUT_5_1_VCH_01_033	Hans	汉斯神父	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
 CUT_5_1_VCH_01_034	Lisbeth	莉丝贝特	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
-CUT_5_1_VCH_01_035	Hans	汉斯	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
+CUT_5_1_VCH_01_035	Hans	汉斯神父	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
 CUT_5_1_VCH_01_036	Dorothea	多萝特娅	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
 CUT_5_1_VCH_01_037	Lisbeth	莉丝贝特	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
 CUT_5_1_VCH_01_038	Lebkuchen	斯佩尔特	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
 CUT_5_1_VCH_01_039	Lebkuchen	斯佩尔特	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
 CUT_5_1_VCH_01_040	Lisbeth	莉丝贝特	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
-CUT_5_1_VCH_01_041	Hans	汉斯	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
+CUT_5_1_VCH_01_041	Hans	汉斯神父	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
 CUT_5_1_VCH_01_042	Rozenmarine	萝森玛琳	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
 CUT_5_1_VCH_01_043	Player	伊莉丝	Dorothea,Hans,Lebkuchen,Lisbeth,Player,Rozenmarine
 CUT_5_1_VCH_01_044			
@@ -13077,11 +13077,11 @@ CUT_5_1_VSQ_01_001	Player	伊莉丝	Player,Rozenmarine
 CUT_5_1_VSQ_01_002	Rozenmarine	萝森玛琳	Player,Rozenmarine
 CUT_5_1_VSQ_01_003	Player	伊莉丝	Player,Rozenmarine
 CUT_5_1_VWM_01_001	Eugen	欧根	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
-CUT_5_1_VWM_01_002	Hans	汉斯	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
+CUT_5_1_VWM_01_002	Hans	汉斯神父	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
 CUT_5_1_VWM_01_003	Heinrich	海因里希	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
 CUT_5_1_VWM_01_004	Player	伊莉丝	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
 CUT_5_1_VWM_01_005	Jochen	约亨	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
-CUT_5_1_VWM_01_006	Hans	汉斯	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
+CUT_5_1_VWM_01_006	Hans	汉斯神父	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
 CUT_5_1_VWM_01_007	Gustav	古斯塔夫	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
 CUT_5_1_VWM_01_008	Gustav	古斯塔夫	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
 CUT_5_1_VWM_01_009	Bernhard	伯恩哈德	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
@@ -13101,9 +13101,9 @@ CUT_5_1_VWM_01_022	Gustav	古斯塔夫	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,
 CUT_5_1_VWM_01_023	Gustav	古斯塔夫	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
 CUT_5_1_VWM_01_024	Heinrich	海因里希	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
 CUT_5_1_VWM_01_025	Gustav	古斯塔夫	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
-CUT_5_1_VWM_01_026	Hans	汉斯	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
+CUT_5_1_VWM_01_026	Hans	汉斯神父	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
 CUT_5_1_VWM_01_027	Fynn	芬恩	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
-CUT_5_1_VWM_01_028	Hans	汉斯	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
+CUT_5_1_VWM_01_028	Hans	汉斯神父	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
 CUT_5_1_VWM_01_029	Gustav	古斯塔夫	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
 CUT_5_1_VWM_01_030	Player	伊莉丝	Bernhard,Eugen,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player,Rozenmarine
 CUT_5_1_VWM_01_032			
@@ -13158,7 +13158,7 @@ CUT_5_5_OCR_02_013
 CUT_5_5_OCR_02_014	Gustav	古斯塔夫	Apfel,Ariane,Dorothea,Fynn,Grune,Gustav,Hans,Heinrich,Lisbeth,Player,Wilma
 CUT_5_5_OCR_02_015	Gustav	古斯塔夫	Apfel,Ariane,Dorothea,Fynn,Grune,Gustav,Hans,Heinrich,Lisbeth,Player,Wilma
 CUT_5_5_OCR_02_016	Wilma	威尔玛	Apfel,Ariane,Dorothea,Fynn,Grune,Gustav,Hans,Heinrich,Lisbeth,Player,Wilma
-CUT_5_5_OCR_02_017	Hans	汉斯	Apfel,Ariane,Dorothea,Fynn,Grune,Gustav,Hans,Heinrich,Lisbeth,Player,Wilma
+CUT_5_5_OCR_02_017	Hans	汉斯神父	Apfel,Ariane,Dorothea,Fynn,Grune,Gustav,Hans,Heinrich,Lisbeth,Player,Wilma
 CUT_5_5_OCR_02_018	Heinrich	海因里希	Apfel,Ariane,Dorothea,Fynn,Grune,Gustav,Hans,Heinrich,Lisbeth,Player,Wilma
 CUT_5_5_OCR_02_019	Fynn	芬恩	Apfel,Ariane,Dorothea,Fynn,Grune,Gustav,Hans,Heinrich,Lisbeth,Player,Wilma
 CUT_5_5_OCR_02_020	Gustav	古斯塔夫	Apfel,Ariane,Dorothea,Fynn,Grune,Gustav,Hans,Heinrich,Lisbeth,Player,Wilma
@@ -13215,7 +13215,7 @@ CUT_5_5_VIN_02_001	Gustav	古斯塔夫	Bernhard,Fynn,Guido,Gustav,Hans,Heinrich,
 CUT_5_5_VIN_02_002	Bernhard	伯恩哈德	Bernhard,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Player
 CUT_5_5_VIN_02_003	Bernhard	伯恩哈德	Bernhard,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Player
 CUT_5_5_VIN_02_004	Player	伊莉丝	Bernhard,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Player
-CUT_5_5_VIN_02_005	Hans	汉斯	Bernhard,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Player
+CUT_5_5_VIN_02_005	Hans	汉斯神父	Bernhard,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Player
 CUT_5_5_VIN_02_006	Heinrich	海因里希	Bernhard,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Player
 CUT_5_5_VIN_02_007	Gustav	古斯塔夫	Bernhard,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Player
 CUT_5_5_VIN_02_008	Gustav	古斯塔夫	Bernhard,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Player
@@ -13234,12 +13234,12 @@ CUT_5_5_VSQ_01_001	Dorothea	多萝特娅	Bertha,Dorothea,Grune,Hans,Jochen,Linda
 CUT_5_5_VSQ_01_002	Linda	琳达	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_003	Player	伊莉丝	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_004	Lisbeth	莉丝贝特	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
-CUT_5_5_VSQ_01_005	Hans	汉斯	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
-CUT_5_5_VSQ_01_006	Hans	汉斯	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
+CUT_5_5_VSQ_01_005	Hans	汉斯神父	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
+CUT_5_5_VSQ_01_006	Hans	汉斯神父	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_007	Linda	琳达	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_008	Lisbeth	莉丝贝特	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_009	Grune	格吕妮	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
-CUT_5_5_VSQ_01_010	Hans	汉斯	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
+CUT_5_5_VSQ_01_010	Hans	汉斯神父	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_011	Lisbeth	莉丝贝特	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_012	Lisbeth	莉丝贝特	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_013	Jochen	约亨	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
@@ -13247,19 +13247,19 @@ CUT_5_5_VSQ_01_014	Player	伊莉丝	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisb
 CUT_5_5_VSQ_01_015	Jochen	约亨	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_016	Linda	琳达	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_017	Player	伊莉丝	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
-CUT_5_5_VSQ_01_018	Hans	汉斯	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
+CUT_5_5_VSQ_01_018	Hans	汉斯神父	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_019	Dorothea	多萝特娅	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_020	Jochen	约亨	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_021	Lisbeth	莉丝贝特	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_022	Player	伊莉丝	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_023	Player	伊莉丝	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
-CUT_5_5_VSQ_01_024	Hans	汉斯	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
+CUT_5_5_VSQ_01_024	Hans	汉斯神父	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_025	Lisbeth	莉丝贝特	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_026	Bertha	贝尔塔	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_027	Dorothea	多萝特娅	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_028	Player	伊莉丝	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_029	Lisbeth	莉丝贝特	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
-CUT_5_5_VSQ_01_030	Hans	汉斯	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
+CUT_5_5_VSQ_01_030	Hans	汉斯神父	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_031	Lisbeth	莉丝贝特	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_032	Lisbeth	莉丝贝特	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
 CUT_5_5_VSQ_01_033	Linda	琳达	Bertha,Dorothea,Grune,Hans,Jochen,Linda,Lisbeth,Mariele,Player
@@ -13410,10 +13410,10 @@ CUT_6_1_VSQ_01_008	Gustav	古斯塔夫	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen
 CUT_6_1_VSQ_01_009	Heinrich	海因里希	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
 CUT_6_1_VSQ_01_010	Fynn	芬恩	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
 CUT_6_1_VSQ_01_011	Ludwig	路德维希	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
-CUT_6_1_VSQ_01_012	Hans	汉斯	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
-CUT_6_1_VSQ_01_013	Hans	汉斯	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
+CUT_6_1_VSQ_01_012	Hans	汉斯神父	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
+CUT_6_1_VSQ_01_013	Hans	汉斯神父	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
 CUT_6_1_VSQ_01_014	Gustav	古斯塔夫	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
-CUT_6_1_VSQ_01_015	Hans	汉斯	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
+CUT_6_1_VSQ_01_015	Hans	汉斯神父	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
 CUT_6_1_VSQ_01_016	Heinrich	海因里希	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
 CUT_6_1_VSQ_01_017	Player	伊莉丝	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
 CUT_6_1_VSQ_01_018	Ludwig	路德维希	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
@@ -13422,7 +13422,7 @@ CUT_6_1_VSQ_01_020	Gustav	古斯塔夫	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen
 CUT_6_1_VSQ_01_021	Heinrich	海因里希	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
 CUT_6_1_VSQ_01_022	Bernhard	伯恩哈德	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
 CUT_6_1_VSQ_01_023	Jochen	约亨	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
-CUT_6_1_VSQ_01_024	Hans	汉斯	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
+CUT_6_1_VSQ_01_024	Hans	汉斯神父	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
 CUT_6_1_VSQ_01_025	Jochen	约亨	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
 CUT_6_1_VSQ_01_026	Gustav	古斯塔夫	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
 CUT_6_1_VSQ_01_027	Ludwig	路德维希	Bernhard,Fynn,Gustav,Hans,Heinrich,Jochen,Ludwig,Player
@@ -13476,20 +13476,20 @@ CUT_6_2_VWW_04_004	Player	伊莉丝	Player
 CUT_6_2_VWW_05_001	Player	伊莉丝	Player
 CUT_6_2_VWW_05_002	Player	伊莉丝	Player
 CUT_6_2_VWW_05_003	Player	伊莉丝	Player
-CUT_6_3_VSQ_01_001	Hans	汉斯	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
+CUT_6_3_VSQ_01_001	Hans	汉斯神父	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
 CUT_6_3_VSQ_01_002	Odilie	奥蒂莉	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
-CUT_6_3_VSQ_01_003	Hans	汉斯	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
-CUT_6_3_VSQ_01_004	Hans	汉斯	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
+CUT_6_3_VSQ_01_003	Hans	汉斯神父	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
+CUT_6_3_VSQ_01_004	Hans	汉斯神父	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
 CUT_6_3_VSQ_01_005	Guido	吉多	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
-CUT_6_3_VSQ_01_006	Hans	汉斯	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
+CUT_6_3_VSQ_01_006	Hans	汉斯神父	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
 CUT_6_3_VSQ_01_007	Ludwig	路德维希	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
 CUT_6_3_VSQ_01_008	Gustav	古斯塔夫	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
-CUT_6_3_VSQ_01_009	Hans	汉斯	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
+CUT_6_3_VSQ_01_009	Hans	汉斯神父	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
 CUT_6_3_VSQ_01_010	Bernhard	伯恩哈德	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
-CUT_6_3_VSQ_01_011	Hans	汉斯	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
+CUT_6_3_VSQ_01_011	Hans	汉斯神父	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
 CUT_6_3_VSQ_01_012	Elma	埃尔玛	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
 CUT_6_3_VSQ_01_013	Odilie	奥蒂莉	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
-CUT_6_3_VSQ_01_014	Hans	汉斯	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
+CUT_6_3_VSQ_01_014	Hans	汉斯神父	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
 CUT_6_3_VSQ_01_015	Wilma	威尔玛	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
 CUT_6_3_VSQ_01_016	Heinrich	海因里希	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
 CUT_6_3_VSQ_01_017	Odilie	奥蒂莉	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
@@ -13511,11 +13511,11 @@ CUT_6_3_VSQ_01_032	Player	伊莉丝	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Han
 CUT_6_3_VSQ_01_033	Ludwig	路德维希	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
 CUT_6_3_VSQ_01_034	Odilie	奥蒂莉	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
 CUT_6_3_VSQ_01_035	Wilma	威尔玛	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
-CUT_6_3_VSQ_01_036	Hans	汉斯	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
-CUT_6_3_VSQ_01_037	Hans	汉斯	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
+CUT_6_3_VSQ_01_036	Hans	汉斯神父	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
+CUT_6_3_VSQ_01_037	Hans	汉斯神父	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
 CUT_6_3_VSQ_01_038	Odilie	奥蒂莉	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
-CUT_6_3_VSQ_01_039	Hans	汉斯	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
-CUT_6_3_VSQ_01_040	Hans	汉斯	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
+CUT_6_3_VSQ_01_039	Hans	汉斯神父	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
+CUT_6_3_VSQ_01_040	Hans	汉斯神父	Bernhard,Dorothea,Elma,Fynn,Guido,Gustav,Hans,Heinrich,Ludwig,Odilie,Player,Wilma
 CUT_6_3_VSQ_01_041			
 CUT_6_3_VSQ_01_042			
 CUT_6_3_VSQ_01_043			
@@ -13653,7 +13653,7 @@ CUT_7_1_VIN_01_003	Player	伊莉丝	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Roze
 CUT_7_1_VIN_01_004	Player	伊莉丝	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
 CUT_7_1_VIN_01_005	Bertha	贝尔塔	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
 CUT_7_1_VIN_01_006	Rozenmarine	萝森玛琳	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
-CUT_7_1_VIN_01_007	Hans	汉斯	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
+CUT_7_1_VIN_01_007	Hans	汉斯神父	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
 CUT_7_1_VIN_01_008	Elma	埃尔玛	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
 CUT_7_1_VIN_01_009	Bertha	贝尔塔	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
 CUT_7_1_VIN_01_010	Player	伊莉丝	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
@@ -13661,10 +13661,10 @@ CUT_7_1_VIN_01_011	Heinrich	海因里希	Bertha,Elma,Hans,Heinrich,Ludwig,Player
 CUT_7_1_VIN_01_012	Heinrich	海因里希	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
 CUT_7_1_VIN_01_013	Ludwig	路德维希	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
 CUT_7_1_VIN_01_014	Elma	埃尔玛	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
-CUT_7_1_VIN_01_015	Hans	汉斯	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
-CUT_7_1_VIN_01_016	Hans	汉斯	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
+CUT_7_1_VIN_01_015	Hans	汉斯神父	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
+CUT_7_1_VIN_01_016	Hans	汉斯神父	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
 CUT_7_1_VIN_01_017	Wilma	威尔玛	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
-CUT_7_1_VIN_01_018	Hans	汉斯	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
+CUT_7_1_VIN_01_018	Hans	汉斯神父	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
 CUT_7_1_VIN_01_019	Ludwig	路德维希	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
 CUT_7_1_VIN_01_020	Player	伊莉丝	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
 CUT_7_1_VIN_01_021	Player	伊莉丝	Bertha,Elma,Hans,Heinrich,Ludwig,Player,Rozenmarine,Wilma
@@ -13709,23 +13709,23 @@ CUT_7_2_VIN_01_033	Player	伊莉丝	Muffy,Player
 CUT_7_2_VWW_01_001	Player	伊莉丝	Player
 CUT_7_2_VWW_01_002	Player	伊莉丝	Player
 CUT_7_2_VWW_01_003	Player	伊莉丝	Player
-CUT_7_3_VSQ_01_001	Hans	汉斯	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
-CUT_7_3_VSQ_01_002	Hans	汉斯	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
+CUT_7_3_VSQ_01_001	Hans	汉斯神父	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
+CUT_7_3_VSQ_01_002	Hans	汉斯神父	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_003	Elma	埃尔玛	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_004	Ludwig	路德维希	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_005	Guido	吉多	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
-CUT_7_3_VSQ_01_006	Hans	汉斯	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
+CUT_7_3_VSQ_01_006	Hans	汉斯神父	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_007	Wilma	威尔玛	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_008	Gustav	古斯塔夫	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_009	Elma	埃尔玛	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
-CUT_7_3_VSQ_01_010	Hans	汉斯	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
-CUT_7_3_VSQ_01_011	Hans	汉斯	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
+CUT_7_3_VSQ_01_010	Hans	汉斯神父	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
+CUT_7_3_VSQ_01_011	Hans	汉斯神父	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_012	Guido	吉多	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_013	Loreley	罗蕾莱	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_014	Gustav	古斯塔夫	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_015	Gustav	古斯塔夫	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_016	Dorothea	多萝特娅	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
-CUT_7_3_VSQ_01_017	Hans	汉斯	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
+CUT_7_3_VSQ_01_017	Hans	汉斯神父	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_018	Odilie	奥蒂莉	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_019	Linda	琳达	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_020	Linda	琳达	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
@@ -13773,9 +13773,9 @@ CUT_7_3_VSQ_01_061	Rozenmarine	萝森玛琳	?????,Apfel,Bernhard,Bertha,Brunhild
 CUT_7_3_VSQ_01_062	Freya	芙蕾雅	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_063	Lebkuchen	斯佩尔特	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_064	Jochen	约亨	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
-CUT_7_3_VSQ_01_065	Hans	汉斯	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
-CUT_7_3_VSQ_01_066	Hans	汉斯	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
-CUT_7_3_VSQ_01_067	Hans	汉斯	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
+CUT_7_3_VSQ_01_065	Hans	汉斯神父	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
+CUT_7_3_VSQ_01_066	Hans	汉斯神父	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
+CUT_7_3_VSQ_01_067	Hans	汉斯神父	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_068	Player	伊莉丝	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_069	Player	伊莉丝	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_070	Player	伊莉丝	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
@@ -13784,7 +13784,7 @@ CUT_7_3_VSQ_01_072	Player	伊莉丝	?????,Apfel,Bernhard,Bertha,Brunhilde,Doroth
 CUT_7_3_VSQ_01_073	Brunhilde	布伦希尔德	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_074	Jochen	约亨	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_075	Wilma	威尔玛	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
-CUT_7_3_VSQ_01_076	Hans	汉斯	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
+CUT_7_3_VSQ_01_076	Hans	汉斯神父	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_077	Apfel	阿普菲尔	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_078	Jochen	约亨	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_079	Rozenmarine	萝森玛琳	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
@@ -13823,7 +13823,7 @@ CUT_7_3_VSQ_01_111	Elma	埃尔玛	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea
 CUT_7_3_VSQ_01_112	Player	伊莉丝	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_113	Player	伊莉丝	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_114	Player	伊莉丝	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
-CUT_7_3_VSQ_01_115	Hans	汉斯	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
+CUT_7_3_VSQ_01_115	Hans	汉斯神父	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_116	Jochen	约亨	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_117	Jochen	约亨	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_118	Player	伊莉丝	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
@@ -13849,7 +13849,7 @@ CUT_7_3_VSQ_01_137	Player	伊莉丝	?????,Apfel,Bernhard,Bertha,Brunhilde,Doroth
 CUT_7_3_VSQ_01_138	Player	伊莉丝	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_139	Jochen	约亨	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_140	Lebkuchen	斯佩尔特	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
-CUT_7_3_VSQ_01_141	Hans	汉斯	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
+CUT_7_3_VSQ_01_141	Hans	汉斯神父	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_142	Jochen	约亨	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_143	Jochen	约亨	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_144	Player	伊莉丝	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
@@ -13878,18 +13878,18 @@ CUT_7_3_VSQ_01_166	Player	伊莉丝	?????,Apfel,Bernhard,Bertha,Brunhilde,Doroth
 CUT_7_3_VSQ_01_167	Player	伊莉丝	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_168	Player	伊莉丝	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_169	Jochen	约亨	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
-CUT_7_3_VSQ_01_170	Hans	汉斯	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
+CUT_7_3_VSQ_01_170	Hans	汉斯神父	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_171	Jochen	约亨	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_172	Jochen	约亨	?????,Apfel,Bernhard,Bertha,Brunhilde,Dorothea,Elma,Freya,Guido,Gustav,Hans,Jochen,Lebkuchen,Linda,Lisbeth,Loreley,Ludwig,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_173	Gustav	古斯塔夫	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_174	Freya	芙蕾雅	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_175	Freya	芙蕾雅	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine,Wilma
 CUT_7_3_VSQ_01_176	Freya	芙蕾雅	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine,Wilma
-CUT_7_3_VSQ_01_177	Hans	汉斯	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine
+CUT_7_3_VSQ_01_177	Hans	汉斯神父	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine
 CUT_7_3_VSQ_01_178	Freya	芙蕾雅	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine
-CUT_7_3_VSQ_01_179	Hans	汉斯	Freya,Gustav,Hans,Jochen,Odilie,Player
-CUT_7_3_VSQ_01_180	Hans	汉斯	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player
-CUT_7_3_VSQ_01_181	Hans	汉斯	Freya,Gustav,Hans,Jochen,Odilie,Player,Rozenmarine
+CUT_7_3_VSQ_01_179	Hans	汉斯神父	Freya,Gustav,Hans,Jochen,Odilie,Player
+CUT_7_3_VSQ_01_180	Hans	汉斯神父	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player
+CUT_7_3_VSQ_01_181	Hans	汉斯神父	Freya,Gustav,Hans,Jochen,Odilie,Player,Rozenmarine
 CUT_7_3_VSQ_01_182	Player	伊莉丝	Freya,Gustav,Hans,Jochen,Odilie,Player,Rozenmarine
 CUT_7_3_VSQ_01_183	Freya	芙蕾雅	Freya,Gustav,Hans,Jochen,Odilie,Player,Rozenmarine
 CUT_7_3_VSQ_01_184	Gustav	古斯塔夫	Freya,Gustav,Hans,Jochen,Odilie,Player,Rozenmarine
@@ -13900,8 +13900,8 @@ CUT_7_3_VSQ_01_188	Gustav	古斯塔夫	Freya,Gustav,Hans,Jochen,Odilie,Player
 CUT_7_3_VSQ_01_189	Jochen	约亨	Freya,Gustav,Hans,Jochen,Odilie,Player
 CUT_7_3_VSQ_01_190	Lebkuchen	斯佩尔特	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player
 CUT_7_3_VSQ_01_191	Jochen	约亨	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player
-CUT_7_3_VSQ_01_192	Hans	汉斯	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine
-CUT_7_3_VSQ_01_193	Hans	汉斯	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine
+CUT_7_3_VSQ_01_192	Hans	汉斯神父	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine
+CUT_7_3_VSQ_01_193	Hans	汉斯神父	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine
 CUT_7_3_VSQ_01_194	Player	伊莉丝	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine
 CUT_7_3_VSQ_01_195	Rozenmarine	萝森玛琳	Freya,Gustav,Hans,Jochen,Odilie,Player,Rozenmarine
 CUT_7_3_VSQ_01_196	Freya	芙蕾雅	Freya,Gustav,Hans,Jochen,Odilie,Player
@@ -13910,8 +13910,8 @@ CUT_7_3_VSQ_01_198	Gustav	古斯塔夫	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie
 CUT_7_3_VSQ_01_199	Odilie	奥蒂莉	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine
 CUT_7_3_VSQ_01_200	Odilie	奥蒂莉	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine
 CUT_7_3_VSQ_01_201	Player	伊莉丝	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine
-CUT_7_3_VSQ_01_202	Hans	汉斯	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine
-CUT_7_3_VSQ_01_203	Hans	汉斯	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine
+CUT_7_3_VSQ_01_202	Hans	汉斯神父	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine
+CUT_7_3_VSQ_01_203	Hans	汉斯神父	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine
 CUT_7_3_VSQ_01_204	Player	伊莉丝	Freya,Gustav,Hans,Jochen,Lebkuchen,Odilie,Player,Rozenmarine
 CUT_7_3_VSQ_01_205	Rozenmarine	萝森玛琳	Freya,Gustav,Hans,Jochen,Odilie,Player,Rozenmarine
 CUT_7_3_VSQ_01_206	Freya	芙蕾雅	Freya,Gustav,Hans,Jochen,Odilie,Player
@@ -13919,7 +13919,7 @@ CUT_7_3_VSQ_01_207	Lebkuchen	斯佩尔特	Freya,Gustav,Hans,Jochen,Lebkuchen,Odi
 CUT_7_3_VSQ_01_208	Jochen	约亨	Freya,Gustav,Hans,Jochen,Player,Wilma
 CUT_7_3_VSQ_01_209	Freya	芙蕾雅	Freya,Gustav,Hans,Jochen,Player,Wilma
 CUT_7_3_VSQ_01_210	Freya	芙蕾雅	Freya,Gustav,Hans,Jochen,Player,Wilma
-CUT_7_3_VSQ_01_211	Hans	汉斯	Freya,Gustav,Hans,Jochen,Player,Wilma
+CUT_7_3_VSQ_01_211	Hans	汉斯神父	Freya,Gustav,Hans,Jochen,Player,Wilma
 CUT_7_3_VSQ_01_212	Freya	芙蕾雅	Freya,Gustav,Hans,Jochen,Player,Wilma
 CUT_7_3_VSQ_01_213	Freya	芙蕾雅	Freya,Gustav,Hans,Jochen,Player,Wilma
 CUT_7_3_VSQ_01_214	Freya	芙蕾雅	Freya,Gustav,Hans,Jochen,Player,Wilma
@@ -13934,7 +13934,7 @@ CUT_7_3_VSQ_01_222	Freya	芙蕾雅	Freya,Gustav,Hans,Jochen,Player,Wilma
 CUT_7_3_VSQ_01_223	Freya	芙蕾雅	Freya,Gustav,Hans,Jochen,Player,Wilma
 CUT_7_3_VSQ_01_224	Gustav	古斯塔夫	Freya,Gustav,Hans,Jochen,Player,Wilma
 CUT_7_3_VSQ_01_225	Gustav	古斯塔夫	Freya,Gustav,Hans,Jochen,Player,Wilma
-CUT_7_3_VSQ_01_226	Hans	汉斯	Freya,Gustav,Hans,Jochen,Player,Wilma
+CUT_7_3_VSQ_01_226	Hans	汉斯神父	Freya,Gustav,Hans,Jochen,Player,Wilma
 CUT_7_3_VSQ_01_227	Gustav	古斯塔夫	Freya,Gustav,Hans,Jochen,Player,Wilma
 CUT_7_3_VSQ_01_228	Gustav	古斯塔夫	Freya,Gustav,Hans,Jochen,Player,Wilma
 CUT_7_3_VSQ_02_001	Player	伊莉丝	Player
@@ -14046,13 +14046,13 @@ CUT_7_6_VCH_02_002	Player	伊莉丝	Hans,Player,Snake
 CUT_7_6_VCH_02_003	Player	伊莉丝	Hans,Player,Snake
 CUT_7_6_VCH_02_004	Player	伊莉丝	Hans,Player,Snake
 CUT_7_6_VCH_02_005	Player	伊莉丝	Hans,Player,Snake
-CUT_7_6_VCH_02_006	Hans	汉斯	Hans,Player,Snake
+CUT_7_6_VCH_02_006	Hans	汉斯神父	Hans,Player,Snake
 CUT_7_6_VCH_02_007	Player	伊莉丝	Hans,Player,Snake
-CUT_7_6_VCH_02_008	Hans	汉斯	Hans,Player,Snake
+CUT_7_6_VCH_02_008	Hans	汉斯神父	Hans,Player,Snake
 CUT_7_6_VCH_02_009	Player	伊莉丝	Hans,Player,Snake
-CUT_7_6_VCH_02_010	Hans	汉斯	Hans,Player,Snake
+CUT_7_6_VCH_02_010	Hans	汉斯神父	Hans,Player,Snake
 CUT_7_6_VCH_02_011	Player	伊莉丝	Hans,Player,Snake
-CUT_7_6_VCH_02_012	Hans	汉斯	Hans,Player,Snake
+CUT_7_6_VCH_02_012	Hans	汉斯神父	Hans,Player,Snake
 CUT_7_6_VCH_02_item			
 CUT_7_6_VCH_03_001	Player	伊莉丝	Player
 CUT_7_6_VCH_03_002	Player	伊莉丝	Player
@@ -14111,18 +14111,18 @@ CUT_8_1_HLR_01_015	Rozenmarine	萝森玛琳	Flocke,Player,Rozenmarine
 CUT_8_1_HLR_01_016			
 CUT_8_1_VCH_01_001	Dorothea	多萝特娅	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
 CUT_8_1_VCH_01_002	Rozenmarine	萝森玛琳	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
-CUT_8_1_VCH_01_003	Hans	汉斯	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
+CUT_8_1_VCH_01_003	Hans	汉斯神父	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
 CUT_8_1_VCH_01_004	Odilie	奥蒂莉	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
 CUT_8_1_VCH_01_005	Player	伊莉丝	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
 CUT_8_1_VCH_01_006	Ludwig	路德维希	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
 CUT_8_1_VCH_01_007	Rozenmarine	萝森玛琳	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
-CUT_8_1_VCH_01_008	Hans	汉斯	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
+CUT_8_1_VCH_01_008	Hans	汉斯神父	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
 CUT_8_1_VCH_01_009	Dorothea	多萝特娅	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
 CUT_8_1_VCH_01_010	Ludwig	路德维希	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
 CUT_8_1_VCH_01_011	Rozenmarine	萝森玛琳	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
 CUT_8_1_VCH_01_012	Player	伊莉丝	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
 CUT_8_1_VCH_01_013	Dorothea	多萝特娅	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
-CUT_8_1_VCH_01_014	Hans	汉斯	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
+CUT_8_1_VCH_01_014	Hans	汉斯神父	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
 CUT_8_1_VCH_01_015	Odilie	奥蒂莉	Dorothea,Hans,Ludwig,Odilie,Player,Rozenmarine
 CUT_8_3_VCC_01_001	Player	伊莉丝	Player
 CUT_8_3_VCC_01_002	Player	伊莉丝	Player
@@ -14286,26 +14286,26 @@ CUT_8_END_B_F_043	Guido	吉多	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Lud
 CUT_8_END_B_F_044	Guido	吉多	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_045	Bernhard	伯恩哈德	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_046	Player	伊莉丝	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
-CUT_8_END_B_F_047	Hans	汉斯	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
+CUT_8_END_B_F_047	Hans	汉斯神父	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_048	Freya	芙蕾雅	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_049	Player	伊莉丝	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_050	Gustav	古斯塔夫	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
-CUT_8_END_B_F_051	Hans	汉斯	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
-CUT_8_END_B_F_052	Hans	汉斯	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
+CUT_8_END_B_F_051	Hans	汉斯神父	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
+CUT_8_END_B_F_052	Hans	汉斯神父	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_053	Freya	芙蕾雅	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_054	Freya	芙蕾雅	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_055	Player	伊莉丝	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
-CUT_8_END_B_F_056	Hans	汉斯	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
-CUT_8_END_B_F_057	Hans	汉斯	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
+CUT_8_END_B_F_056	Hans	汉斯神父	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
+CUT_8_END_B_F_057	Hans	汉斯神父	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_058	Freya	芙蕾雅	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_059	Jochen	约亨	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_060	Freya	芙蕾雅	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_061	Crowd	人群	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_062	Freya	芙蕾雅	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
-CUT_8_END_B_F_063	Hans	汉斯	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
+CUT_8_END_B_F_063	Hans	汉斯神父	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_064	Freya	芙蕾雅	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
-CUT_8_END_B_F_065	Hans	汉斯	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
-CUT_8_END_B_F_066	Hans	汉斯	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
+CUT_8_END_B_F_065	Hans	汉斯神父	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
+CUT_8_END_B_F_066	Hans	汉斯神父	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_067	Freya	芙蕾雅	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_068	Crowd	人群	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
 CUT_8_END_B_F_069	Player	伊莉丝	Bernhard,Crowd,Freya,Guido,Gustav,Hans,Jochen,Ludwig,Player
@@ -14349,10 +14349,10 @@ CUT_8_END_B_L_031	Player	伊莉丝	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Lu
 CUT_8_END_B_L_032	Lebkuchen	斯佩尔特	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_033	Lebkuchen	斯佩尔特	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_034	Player	伊莉丝	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
-CUT_8_END_B_L_035	Hans	汉斯	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
+CUT_8_END_B_L_035	Hans	汉斯神父	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_036	Lebkuchen	斯佩尔特	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_037	Bernhard	伯恩哈德	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
-CUT_8_END_B_L_038	Hans	汉斯	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
+CUT_8_END_B_L_038	Hans	汉斯神父	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_039	Ludwig	路德维希	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_040	Ludwig	路德维希	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_041	Player	伊莉丝	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
@@ -14360,26 +14360,26 @@ CUT_8_END_B_L_042	Guido	吉多	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig
 CUT_8_END_B_L_043	Guido	吉多	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_044	Bernhard	伯恩哈德	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_045	Player	伊莉丝	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
-CUT_8_END_B_L_046	Hans	汉斯	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
+CUT_8_END_B_L_046	Hans	汉斯神父	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_047	Lebkuchen	斯佩尔特	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_048	Player	伊莉丝	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_049	Jochen	约亨	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
-CUT_8_END_B_L_050	Hans	汉斯	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
-CUT_8_END_B_L_051	Hans	汉斯	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
+CUT_8_END_B_L_050	Hans	汉斯神父	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
+CUT_8_END_B_L_051	Hans	汉斯神父	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_052	Lebkuchen	斯佩尔特	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_053	Lebkuchen	斯佩尔特	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_054	Player	伊莉丝	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
-CUT_8_END_B_L_055	Hans	汉斯	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
-CUT_8_END_B_L_056	Hans	汉斯	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
+CUT_8_END_B_L_055	Hans	汉斯神父	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
+CUT_8_END_B_L_056	Hans	汉斯神父	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_057	Lebkuchen	斯佩尔特	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_058	Jochen	约亨	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_059	Lebkuchen	斯佩尔特	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_060	Crowd	人群	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_061	Lebkuchen	斯佩尔特	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
-CUT_8_END_B_L_062	Hans	汉斯	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
+CUT_8_END_B_L_062	Hans	汉斯神父	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_063	Lebkuchen	斯佩尔特	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
-CUT_8_END_B_L_064	Hans	汉斯	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
-CUT_8_END_B_L_065	Hans	汉斯	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
+CUT_8_END_B_L_064	Hans	汉斯神父	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
+CUT_8_END_B_L_065	Hans	汉斯神父	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_066	Lebkuchen	斯佩尔特	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_067	Crowd	人群	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
 CUT_8_END_B_L_068	Player	伊莉丝	Bernhard,Crowd,Guido,Hans,Jochen,Lebkuchen,Ludwig,Player
@@ -15047,45 +15047,45 @@ CUT_8_END_W_3_006	Player	伊莉丝	Bernhard,Heinrich,Ludwig,Player
 CUT_8_END_W_3_007	Heinrich	海因里希	Bernhard,Heinrich,Ludwig,Player
 CUT_8_END_W_3_008	Heinrich	海因里希	Bernhard,Heinrich,Ludwig,Player
 CUT_8_END_W_3_009	Player	伊莉丝	Bernhard,Heinrich,Ludwig,Player
-CUT_8_VCC_CSM_001	Hans	汉斯	Hans,Player,Witch
+CUT_8_VCC_CSM_001	Hans	汉斯神父	Hans,Player,Witch
 CUT_8_VCC_CSM_002	Player	伊莉丝	Hans,Player,Witch
-CUT_8_VCC_CSM_003	Hans	汉斯	Hans,Player,Witch
+CUT_8_VCC_CSM_003	Hans	汉斯神父	Hans,Player,Witch
 CUT_8_VCC_CSM_004	Player	伊莉丝	Hans,Player,Witch
 CUT_8_VCC_CSM_005	Player	伊莉丝	Hans,Player,Witch
-CUT_8_VCC_CSM_006	Hans	汉斯	Hans,Player,Witch
+CUT_8_VCC_CSM_006	Hans	汉斯神父	Hans,Player,Witch
 CUT_8_VCC_CSM_007	Player	伊莉丝	Hans,Player,Witch
-CUT_8_VCC_CSM_008	Hans	汉斯	Hans,Player,Witch
+CUT_8_VCC_CSM_008	Hans	汉斯神父	Hans,Player,Witch
 CUT_8_VCC_CSM_009	Player	伊莉丝	Hans,Player,Witch
-CUT_8_VCC_CSM_010	Hans	汉斯	Hans,Player,Witch
-CUT_8_VCC_CSM_011	Hans	汉斯	Hans,Player,Witch
+CUT_8_VCC_CSM_010	Hans	汉斯神父	Hans,Player,Witch
+CUT_8_VCC_CSM_011	Hans	汉斯神父	Hans,Player,Witch
 CUT_8_VCC_CSM_012	Player	伊莉丝	Hans,Player,Witch
-CUT_8_VCC_CSM_013	Hans	汉斯	Hans,Player,Witch
+CUT_8_VCC_CSM_013	Hans	汉斯神父	Hans,Player,Witch
 CUT_8_VCC_CSM_014	Player	伊莉丝	Hans,Player,Witch
-CUT_8_VCC_CSM_015	Hans	汉斯	Hans,Player,Witch
-CUT_8_VCC_CSM_016	Hans	汉斯	Hans,Player,Witch
-CUT_8_VCC_CSM_017	Hans	汉斯	Hans,Player,Witch
-CUT_8_VCC_CSM_018	Hans	汉斯	Hans,Player,Witch
-CUT_8_VCC_CSM_019	Hans	汉斯	Hans,Player,Witch
-CUT_8_VCC_CSM_020	Hans	汉斯	Hans,Player,Witch
-CUT_8_VCC_CSM_021	Hans	汉斯	Hans,Player,Witch
-CUT_8_VCC_CSM_022	Hans	汉斯	Hans,Player,Witch
-CUT_8_VCC_CSM_023	Hans	汉斯	Hans,Player,Witch
+CUT_8_VCC_CSM_015	Hans	汉斯神父	Hans,Player,Witch
+CUT_8_VCC_CSM_016	Hans	汉斯神父	Hans,Player,Witch
+CUT_8_VCC_CSM_017	Hans	汉斯神父	Hans,Player,Witch
+CUT_8_VCC_CSM_018	Hans	汉斯神父	Hans,Player,Witch
+CUT_8_VCC_CSM_019	Hans	汉斯神父	Hans,Player,Witch
+CUT_8_VCC_CSM_020	Hans	汉斯神父	Hans,Player,Witch
+CUT_8_VCC_CSM_021	Hans	汉斯神父	Hans,Player,Witch
+CUT_8_VCC_CSM_022	Hans	汉斯神父	Hans,Player,Witch
+CUT_8_VCC_CSM_023	Hans	汉斯神父	Hans,Player,Witch
 CUT_8_VCC_CSM_024	Player	伊莉丝	Hans,Player,Witch
-CUT_8_VCC_CSM_025	Hans	汉斯	Hans,Player,Witch
-CUT_8_VCC_CSM_026	Hans	汉斯	Hans,Player,Witch
+CUT_8_VCC_CSM_025	Hans	汉斯神父	Hans,Player,Witch
+CUT_8_VCC_CSM_026	Hans	汉斯神父	Hans,Player,Witch
 CUT_8_VCC_CSM_027	Player	伊莉丝	Hans,Player,Witch
-CUT_8_VCC_CSM_028	Hans	汉斯	Hans,Player,Witch
-CUT_8_VCC_CSM_029	Hans	汉斯	Hans,Player,Witch
+CUT_8_VCC_CSM_028	Hans	汉斯神父	Hans,Player,Witch
+CUT_8_VCC_CSM_029	Hans	汉斯神父	Hans,Player,Witch
 CUT_8_VCC_CSM_030	Player	伊莉丝	Hans,Player,Witch
-CUT_8_VCC_CSM_031	Hans	汉斯	Hans,Player,Witch
-CUT_8_VCC_CSM_032	Hans	汉斯	Hans,Player,Witch
+CUT_8_VCC_CSM_031	Hans	汉斯神父	Hans,Player,Witch
+CUT_8_VCC_CSM_032	Hans	汉斯神父	Hans,Player,Witch
 CUT_8_VCC_CSM_033	Player	伊莉丝	Hans,Player,Witch
-CUT_8_VCC_CSM_034	Hans	汉斯	Hans,Player,Witch
+CUT_8_VCC_CSM_034	Hans	汉斯神父	Hans,Player,Witch
 CUT_8_VCC_CSM_035	Player	伊莉丝	Hans,Player,Witch
-CUT_8_VCC_CSM_036	Hans	汉斯	Hans,Player,Witch
-CUT_8_VCC_CSM_037	Hans	汉斯	Hans,Player,Witch
+CUT_8_VCC_CSM_036	Hans	汉斯神父	Hans,Player,Witch
+CUT_8_VCC_CSM_037	Hans	汉斯神父	Hans,Player,Witch
 CUT_8_VCC_CSM_038	Player	伊莉丝	Hans,Player,Witch
-CUT_8_VCC_CSM_039	Hans	汉斯	Hans,Player,Witch
+CUT_8_VCC_CSM_039	Hans	汉斯神父	Hans,Player,Witch
 CUT_8_VCC_CSM_040	Player	伊莉丝	Hans,Player,Witch
 CUT_8_VCC_CSM_041	Player	伊莉丝	Hans,Player,Witch
 CUT_8_VCC_CSM_042	Player	伊莉丝	Hans,Player,Witch

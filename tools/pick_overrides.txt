@@ -7,7 +7,7 @@
 (This old hag...!)	CHR_013_012
 ...	DLG_2_4_OLH_01_018
 Ah, good day!	DLG_3_3_VBA_02_066
-Anything else?	DLG_6_3_VBA_02_015
+Anything else?	ShopChoiceText_7
 Eek!	DLG_2_3_OLH_04_022
 Eek...!	DLG_2_3_OLH_04_002
 Folks are too preoccupied with this witch nonsense!	DLG_7_2_VIN_03_006
