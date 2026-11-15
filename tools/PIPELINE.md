@@ -66,12 +66,15 @@ python tools/check_localization.py --live "<游戏根目录>"  # 查实机安装
 |---|---|
 | **G1 请求可满足** | 译本每一行都能取到值（TMP 层规则+词典，或 XUAT 的 AT 层）；存档时间串必须是「日期 …」/「时间 …」两行、不得在「时/间」中间断开，且发布 DLL 里确实是分行实现（G1.6/G1.7）；`runtime_lines` 全部已并入 display；非 XUAT 的已译行都进了 by_refkey（Gridly 精确路径）；item_names 无空值；规则/模板/拼串形态（`x23`、`ROUND 12`、`(5T)`、`DATE … TIME …`、`Unlock for 30`、恋人弹窗）都能命中 |
 | **G2 无英文回退** | 值 == 原文的行必须在审查备注里写明免译理由（免译/人名/名单/图片路径/测试/指针行）；已译行不得空译文 |
-| **G3 标签/换行一致** | 原文的 `<sprite>/<color>/<size>/<i>/<b>/<br>` 计数，译文不许少；原文有换行的不许压成一行；译文的标签开闭必须配对。例外只走 `tools/check_allow.txt`（当前 4 + 2 条，逐条注明理由） |
+| **G3 标签/换行一致** | 原文的 `<sprite>/<color>/<size>/<i>/<b>/<br>` 计数，译文不许少；原文有换行的不许压成一行；译文的标签开闭必须配对。例外只走 `tools/check_allow.txt`（当前 5 + 2 条，逐条注明理由） |
 | **G4 键未归并** | 同一个归一键有多条不同译文时，必须被 `pick_overrides.txt` 钉住；override 不得指向不存在的记录、不得陈旧 |
 
 **它自己也要能被验证。** 在临时副本上注入 5 类缺陷——删 display 键 / 把一行改成未译 /
 删掉译文里的 `<b>` / 压掉译文换行 / 造一条一键两译——每类都必须让对应门 FAIL。改了校验器或
 白名单之后应重跑这套变异测试，否则"全绿"没有意义。
+2026-11-15 第二轮已把变异测试扩到 `check_localization.py` 全部 21 项与 `verify_release.py`
+全部 53 项；发现并修复 3 项死检查：G1.6（原先只测 Python 规则、不读发布树）、
+G3.5/G3.6（原先按行解析后不可能看到真换行，孤立续行被静默吞掉）。
 
 `verify_release.py` 的 `--live` / `--csv` 可省略，省略时对应检查记为 SKIP。
 字形检查需要 `UnityPy` + `numpy`，缺失同样记 SKIP 而非 FAIL。
@@ -357,7 +360,7 @@ System.*`，不得出现 UnityEngine / BepInEx / Harmony），同一份源码由
 覆盖到老路径就能骗过）。所以报告里必须留**内容哈希**，验收侧现算现比。
 
 **顺带修掉的两处"文档与代码不符"**：① `EXPECTED_CHECKS` 注释里 G 组写成 6 项（实为 7 项），
-导致不带 `--diag` 跑时"应跑数"少算 1，自断言自己误报；② `build.cmd` 起 4 个文件
+导致不带 `--diag` 跑时"应跑数"少算 1，自断言自己误报；② `build.cmd` 改为编译 2 个文件
 （`Plugin.cs` + `Core.cs`）之后，`csproj` 必须 `<Compile Remove="selftest\**" />`，
 否则 `dotnet build` 会把带 `Main` 的自检程序一起编进插件 DLL。
 
@@ -435,11 +438,11 @@ System.*`，不得出现 UnityEngine / BepInEx / Harmony），同一份源码由
 
 ## 已知缺口
 
-- **没有自动化测试。** `ParseFlatJson` 的畸形输入处理（孤立尾部反斜杠、不足 4 位的
-  `\u`）在 v1.3.17 是手工验证的，仓库里没有对应用例。`verify_release.py` 校验的是
-  **数据与产物**，不是 C# 逻辑。若要补，最划算的是把 `Norm` / `ParseFlatJson` /
-  `TryNumTemplate` 这几个纯函数抽成可编译的断言程序 —— 但它们依赖
-  `UnityEngine` 类型，不能简单地跑在无 Unity 的 CI 上。
+- **Core 之外的 C# 逻辑没有完整自动化测试。** `Core.cs` 已有 126 条自检 + 三本词典解析等价
+  （I 组），但 `ParseFlatJson` 的畸形输入（孤立尾部反斜杠、不足 4 位 `\u`、缺少 `\b`/`\f`
+  转义分支等）目前只在 2026-11-15 的第二轮结构审查中做过模糊测试，仓库里还没有常驻用例；
+  `Plugin.cs` 的 Harmony 接线仍需游戏 DLL，不能进 CI。第二轮报告：
+  `tools/acceptance/第三方结构审查_第二轮_处置_20261115.md`。
 - **没有 CI。** 编译需要游戏本体的 `LGTS_Data/Managed/*.dll`，属付费资产，不能进
   runner。这一步只能人工跑 `build.cmd`。
 - `rebuild_at.py` 的"模糊"一级只在唯一解时采用；出现歧义会退回机械规范化。

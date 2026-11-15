@@ -191,13 +191,17 @@ def main():
               not any(x == ".git" or x.startswith(".git/") or x.startswith("source/") for x in names))
         check("zip 无 SHA256SUMS (自身不可入包)", "SHA256SUMS.txt" not in names)
         check("zip 含字体 arialuni_sdf_u2019", "arialuni_sdf_u2019" in names)
-        zsha = {rel: hashlib.sha256(z.read(rel)).hexdigest() for rel in FILES}
-        dll = z.read(FILES[0])
+        zsha = {}
+        for rel in FILES:
+            zsha[rel] = hashlib.sha256(z.read(rel)).hexdigest() if rel in name_set else None
+        # 2026-11-15 (第二轮结构审查 V07): 缺条目时 A 组会先报 FAIL, 但后面的 z.read 不能
+        # 再抛 KeyError 把整份验收打断 —— 否则看不到最终汇总, 也无法区分"检查失败"和"脚本崩了"。
+        dll = z.read(FILES[0]) if FILES[0] in name_set else b""
         check("DLL 含版本串 %s" % ver,
               ver.encode("ascii") in dll and (ver + ".0").encode("utf-16-le") in dll)
-        chg = z.read("changelog.txt").decode("utf-8")
+        chg = z.read("changelog.txt").decode("utf-8") if "changelog.txt" in name_set else ""
         check("changelog 有 v%s 段" % ver, ("v%s (" % ver) in chg)
-        readme = z.read("安装说明_README.txt").decode("utf-8")
+        readme = z.read("安装说明_README.txt").decode("utf-8") if "安装说明_README.txt" in name_set else ""
         check("安装说明正文为 v%s" % ver, ver in readme)
         # v1.3.27 (S2): 顶层文件也要与发布树逐字节一致, 否则"改 stage 不重打包"无人发现。
         top_bad = [f for f in SHIPPED_TOP
@@ -207,22 +211,27 @@ def main():
         check("stage==zip 顶层发布文件 (%d)" % len(SHIPPED_TOP), not top_bad, str(top_bad))
 
     sums_path = os.path.join(stage, "SHA256SUMS.txt")
-    sums = [l for l in rd(sums_path).splitlines() if l.strip()]
-    check("SHA256SUMS %d 行" % EXPECT_SUMS, len(sums) == EXPECT_SUMS, str(len(sums)))
-    ok = True
-    covered = set()
-    for line in sums:
-        h, rel = line.split(" ", 1)
-        covered.add(rel)
-        p = os.path.join(stage, rel.replace("/", os.sep))
-        if not os.path.exists(p) or sha256(p) != h:
-            ok = False
-    check("SHA256SUMS 自举一致", ok)
-    # 覆盖性: 必须是"精确相等"而不是"至少覆盖"。多一行(陈旧路径)或少一行都 FAIL ——
-    # 只证 covered ⊇ need 的话, SUMS 里可以塞任意无关行, 且 zip 本体是否被覆盖也看不出来。
-    need = set(FILES) | set(SHIPPED_TOP) | {os.path.basename(zip_path)}
-    check("SHA256SUMS 覆盖全部发布文件", covered == need,
-          "缺 %s / 多 %s" % (sorted(need - covered), sorted(covered - need)))
+    if not os.path.exists(sums_path):
+        check("SHA256SUMS %d 行" % EXPECT_SUMS, False, "缺文件")
+        check("SHA256SUMS 自举一致", False, "缺文件")
+        check("SHA256SUMS 覆盖全部发布文件", False, "缺文件")
+    else:
+        sums = [l for l in rd(sums_path).splitlines() if l.strip()]
+        check("SHA256SUMS %d 行" % EXPECT_SUMS, len(sums) == EXPECT_SUMS, str(len(sums)))
+        ok = True
+        covered = set()
+        for line in sums:
+            h, rel = line.split(" ", 1)
+            covered.add(rel)
+            p = os.path.join(stage, rel.replace("/", os.sep))
+            if not os.path.exists(p) or sha256(p) != h:
+                ok = False
+        check("SHA256SUMS 自举一致", ok)
+        # 覆盖性: 必须是"精确相等"而不是"至少覆盖"。多一行(陈旧路径)或少一行都 FAIL ——
+        # 只证 covered ⊇ need 的话, SUMS 里可以塞任意无关行, 且 zip 本体是否被覆盖也看不出来。
+        need = set(FILES) | set(SHIPPED_TOP) | {os.path.basename(zip_path)}
+        check("SHA256SUMS 覆盖全部发布文件", covered == need,
+              "缺 %s / 多 %s" % (sorted(need - covered), sorted(covered - need)))
 
     print("\n---------- B 三树一致 ----------")
     # 2026-11-15 (F4): 先证明 zip 的每一个条目都与发布树逐字节相同(全部 71 项),
@@ -232,6 +241,9 @@ def main():
     zip_bad = []
     with zipfile.ZipFile(zip_path) as z:
         for rel in sorted(expected_entries):
+            if rel not in name_set:
+                zip_bad.append(rel + "(zip缺)")
+                continue
             sf = os.path.join(stage, rel.replace("/", os.sep))
             if hashlib.sha256(z.read(rel)).hexdigest() != sha256(sf):
                 zip_bad.append(rel)
@@ -637,8 +649,11 @@ def main():
         except Exception as e:
             dtext, derr = None, e
         if derr is not None:
+            # 2026-11-15 (V08): 这里必须与下面正常分支的 7 项一一对应;
+            # 旧版漏了「DIAG Gridly 精确取词已生效」, 还会让 53/52 自断言误报。
             for name in ("DIAG 行数 > 20", "DIAG 无 [TMP MISS]", "DIAG 无未登记 [DEGRADE]",
-                         "DIAG 首行版本绑定", "DIAG DLL 绑定 (sha256)", "DIAG TMP 钩子已挂"):
+                         "DIAG 首行版本绑定", "DIAG DLL 绑定 (sha256)",
+                         "DIAG Gridly 精确取词已生效", "DIAG TMP 钩子已挂"):
                 check(name, False, "DIAG 不可读")
         else:
             # 行数门槛只防"空文件/刚启动"，不再是证据强度指标（v1.3.32 起改用下面的绑定断言）
