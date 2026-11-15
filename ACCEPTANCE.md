@@ -6,6 +6,27 @@
 （2026-11-04 外部结构审查把它列为"不可证实清单 #1"：38 PASS 只存在于聊天记录里，
 没有归档，参数（是否带 `--live` / `--csv`）事后无法复考。本文件就是补这个洞。）
 
+## v1.3.34 发布后 — 第三方结构审查处置（2026-11-15，不改发布资产）
+
+外部结构审查（gpt-6.1-sol）对 v1.3.34 快照提出 6 条发现（F1–F6）。逐条处置：
+
+| 项 | 处置 | 结果 |
+|---|---|---|
+| F1 display 同英文多译文 | 复核：29 组 / 483 行；其中 70 行译文与 display 值不同，但 70 行**全部是非 XUAT、全部有 by_refkey 直取路径**，29 组也已全部由 `pick_overrides.txt` 钉死。只有 6 条 XUAT 折键遮蔽（`XUAT_00496/00574/00578/00580/01281/01409`），属 PIPELINE 已记录的 47 行字面 `\n` 已知项。 | 维持设计，文档补记 |
+| F2 钩子异常可观测性 | `HookErr<20` 截断、Gridly postfix 裸 `catch{}`、`PatchGridlyProbe` 的"只观测"陈旧注释，均属要改 DLL 的项；v1.3.34 二进制不动。 | 记入 PIPELINE「待下个版本」 |
+| F3 "44 PASS" 被读成全绿 | `verify_release.py` 新增 `--release`：强制 `--live/--csv/--diag`，任一 SKIP 按不可发布返回 1；普通运行在汇总后打印"不是发布模式"。 | 已改（工具） |
+| F4 包完整性只查 6 文件 | zip 文件集与 repack 白名单**双向精确比对**；`stage==zip 全部发布文件`（71 项）逐字节；`live==stage 运行树`（62 项，不含会被运行期改写的 `BepInEx/config`）；`SHA256SUMS` 覆盖改为精确相等。 | 已改（工具） |
+| F5 `--scratch` 要求旧文件在场 | `apply_translation.py` / `rebuild_at.py` 改为可在**空目录**重建；空目录实测四本词典与 stage 逐字节相同。 | 已改 + 实测 |
+| F6 文档把主路径写成 I2 | `BUILDING.md` / `check_localization.py` / `pick_overrides.txt` 统一为 **Gridly 精确主路径 + I2/TMP 兜底**。 | 已改 |
+
+**复跑**：`verify_release.py --stage … --version 1.3.34 --live --csv`（未带 `--diag`）
+→ **46 PASS / 0 FAIL / 0 SKIP，rc=0**（当前共 53 项，G 组 7 项因无新 DIAG 不执行）。
+下一次进游戏生成新 DIAG 后应改用 `--release` 复跑（53 PASS 才是发布门槛）。
+原始回执见 `tools/acceptance/gate_20261115_v1.3.34_结构审查后.txt` 与
+`tools/acceptance/check_localization_20261115.txt`；逐条处置见
+`tools/acceptance/第三方结构审查_处置_20261115.md`。
+发布资产（zip / DLL / 四本词典）**未改动**，哈希仍为下方 v1.3.34 小节所列值。
+
 ## v1.3.34 — 定版（2026-11-14 17:4x，批号 `2026-11-14#4`）
 
 **内容 = `2026-11-14#3` 的 528 行改值 + 版本号 1.3.33 → 1.3.34。**
@@ -660,8 +681,8 @@ PASS DIAG 无未登记 [DEGRADE]   | 未登记 0 条 [] / 良性 1 条
 ## 约定
 
 1. 每次发布后，把该次回执**追加到本文件顶部**（最新的在最上）。
-2. 发布门槛必须带全参数：`--live` / `--csv` / `--diag` 缺一不可；
-   省略参数会让检查项整块不执行，`verify_release.py` 会以 `rc=1` 或 `rc=2` 拒绝。
+2. 发布门槛必须带全参数并用发布模式：`--release --live --csv --diag` 缺一不可；
+   省略参数或出现任何 SKIP，`verify_release.py` 会拒绝（rc=1/2）。
 3. 退出码语义：`0` 全绿 / `1` 有 FAIL / `2` 有 SKIP 或检查未跑全。**未完成的验收不算通过。**
 4. **每次同版替换都要记完整 zip sha256（64 位）到本文件对应小节**。
    第三次替换只留了 `99a7f806…` 前 8 位，资产被 GitHub 覆盖后已无法复原，

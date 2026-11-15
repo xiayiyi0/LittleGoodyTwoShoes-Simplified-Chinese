@@ -6,7 +6,8 @@
 
 --live 与 --csv 可省略, 但省略即视为"验收未完成": 省略 --live 时三树一致降级为 stage↔zip,
 省略 --csv 时译本相关的 15 项检查根本不执行 (连 SKIP 都不记; 实测 42 项只跑 27 项)。
-因此发布门槛必须带全参数跑。
+因此发布门槛必须带全参数跑。**发布一律用 `--release`**: 它强制要求 --live/--csv/--diag,
+且任一 SKIP 都按"不可发布"返回 1。
 字形检查需要 UnityPy + numpy, 缺失时记为 SKIP 而不是 FAIL。
 
 退出码 (2026-11-04 起): 0 = 全绿; 1 = 有 FAIL (含"应跑/实跑 检查项数不符");
@@ -86,9 +87,18 @@ FILES = [
     "BepInEx/Translation/zh/Text/UI_System.txt",
 ]
 
+# repack.py 的完整顶层白名单(10 项) —— 2026-11-15 起用于 zip 文件集的精确比对。
+# 直接复用 repack.TOP, 避免"打包白名单改了、验收白名单没改"的静默漂移。
+try:
+    from repack import TOP as PACK_TOP
+except Exception:
+    PACK_TOP = [".doorstop_version", ".gitignore", "LICENSE", "LICENSE-NOTICE.txt", "README.md",
+                "arialuni_sdf_u2019", "changelog.txt", "doorstop_config.ini", "winhttp.dll",
+                "安装说明_README.txt"]
+# 其中纳入 SHA256SUMS 的 8 项。.doorstop_version / .gitignore 是 doorstop 样板文件,
+# 不单独入 SUMS, 但仍在 zip 文件集与全树逐字节比对范围内。
 # v1.3.27 (审计 S2): 顶层发布文件纳入 SHA256SUMS 与 stage↔zip 比对。
-SHIPPED_TOP = ["LICENSE", "LICENSE-NOTICE.txt", "README.md", "arialuni_sdf_u2019",
-               "changelog.txt", "doorstop_config.ini", "winhttp.dll", "安装说明_README.txt"]
+SHIPPED_TOP = [x for x in PACK_TOP if x not in (".doorstop_version", ".gitignore")]
 EXPECT_SUMS = 1 + len(FILES) + len(SHIPPED_TOP)
 
 # 2026-11-04 (外部审查 F-03): 检查项总数的自断言。缺 --csv/--live 时会有检查项
@@ -98,7 +108,11 @@ EXPECT_SUMS = 1 + len(FILES) + len(SHIPPED_TOP)
 # v1.3.32 结构侧: 42 → 47 (G 组加入 DIAG 与资产的绑定断言: 首行版本 / DLL sha256 / TMP 钩子已挂;
 #                行数门槛从 >100 降到 >20, 那一项已不再是证据强度指标)。
 # v1.3.33 结构侧: 47 → 50 (新增 I 组 3 项: 零 Unity 依赖自检报告的 存在/源码绑定/用例数)。
-EXPECTED_CHECKS = 51
+# v1.3.34 发布时: 51。
+# 2026-11-15 (第三方结构审查 F4): 51 → 53。
+#   B 组新增「stage==zip 全部发布文件」(71 项) 与「live==stage 运行树」两条;
+#   这两条在 --live 有无时各占 1 项(缺 --live 时记 SKIP), 所以应跑总数不变。
+EXPECTED_CHECKS = 53
 
 # G 组(运行时诊断)确实是 7 项, 而不是注释里写的 6 项 —— v1.3.33 修正了这个字面量,
 # 此前"不带 --diag 跑"会把应跑数算少 1, 自断言本身误报。
@@ -124,6 +138,8 @@ def main():
     ap.add_argument("--diag", default=None,
                     help="实机 DIAG.txt (可选; 给出则检查运行时诊断: 无 [TMP MISS] / 无未登记 [DEGRADE])")
     ap.add_argument("--zip", default=None, help="默认取发布树内唯一 zip")
+    ap.add_argument("--release", action="store_true",
+                    help="发布门槛: 必须同时提供 --live/--csv/--diag; 任一 SKIP 都视为不可发布")
     ap.add_argument("--expect-entries", type=int, default=71)
     ap.add_argument("--expect-refkey", type=int, default=21189)
     ap.add_argument("--expect-display", type=int, default=25323)
@@ -131,6 +147,14 @@ def main():
     ap.add_argument("--expect-at", type=int, default=24700)
     ap.add_argument("--expect-ui", type=int, default=536)
     args = ap.parse_args()
+
+    # 2026-11-15 (第三方结构审查 F3): 把"发布门槛必须带全参数"从文档约定变成硬约束。
+    # 以前 44 PASS (不含 --diag) 也返回 0, 很容易被读成"51 项全绿"。
+    if args.release:
+        _missing = [n for n, v in (("--live", args.live), ("--csv", args.csv),
+                                   ("--diag", args.diag)) if not v]
+        if _missing:
+            sys.exit("--release 需要完整参数, 缺少: " + " ".join(_missing))
 
     stage = os.path.abspath(args.stage)
     ver = args.version
@@ -142,9 +166,27 @@ def main():
         zip_path = cands[0]
 
     print("---------- A 包结构 ----------")
+    # 2026-11-15 (第三方结构审查 F4): 条目数相等不等于文件集相等 —— 同样是 71 条,
+    # 可以少一个核心词典、多一个杂物而数量不变。按 repack.py 的打包范围(BepInEx 全树
+    # + 10 个顶层白名单)构造"应有文件集", 与 zip 实际条目双向比对。
+    expected_entries = set()
+    for root, dirs, files in os.walk(os.path.join(stage, "BepInEx")):
+        dirs[:] = [d for d in dirs if d != "__pycache__"]
+        for fn in files:
+            full = os.path.join(root, fn)
+            expected_entries.add(os.path.relpath(full, stage).replace("\\", "/"))
+    expected_entries |= set(PACK_TOP)
+
     with zipfile.ZipFile(zip_path) as z:
         names = [x for x in z.namelist() if not x.endswith("/")]
-        check("zip 条目 %d" % args.expect_entries, len(names) == args.expect_entries, str(len(names)))
+        name_set = set(names)
+        missing = sorted(expected_entries - name_set)
+        extra = sorted(name_set - expected_entries)
+        check("zip 文件集与发布树精确一致 (%d)" % len(expected_entries),
+              len(names) == args.expect_entries and not missing and not extra,
+              "条目 %d/预期 %d | 缺 %d %s | 多 %d %s"
+              % (len(names), args.expect_entries, len(missing), missing[:5],
+                 len(extra), extra[:5]))
         check("zip 无 source/ 与 .git",
               not any(x == ".git" or x.startswith(".git/") or x.startswith("source/") for x in names))
         check("zip 无 SHA256SUMS (自身不可入包)", "SHA256SUMS.txt" not in names)
@@ -176,25 +218,55 @@ def main():
         if not os.path.exists(p) or sha256(p) != h:
             ok = False
     check("SHA256SUMS 自举一致", ok)
-    # 覆盖性: 发布树里每个要发出去的文件都必须在 SUMS 里, 不能只覆盖 6 个词典/DLL。
-    need = set(FILES) | set(SHIPPED_TOP)
-    check("SHA256SUMS 覆盖全部发布文件", need <= covered, str(sorted(need - covered)))
+    # 覆盖性: 必须是"精确相等"而不是"至少覆盖"。多一行(陈旧路径)或少一行都 FAIL ——
+    # 只证 covered ⊇ need 的话, SUMS 里可以塞任意无关行, 且 zip 本体是否被覆盖也看不出来。
+    need = set(FILES) | set(SHIPPED_TOP) | {os.path.basename(zip_path)}
+    check("SHA256SUMS 覆盖全部发布文件", covered == need,
+          "缺 %s / 多 %s" % (sorted(need - covered), sorted(covered - need)))
 
     print("\n---------- B 三树一致 ----------")
+    # 2026-11-15 (F4): 先证明 zip 的每一个条目都与发布树逐字节相同(全部 71 项),
+    # 再证明本机运行树的运行时文件与发布树相同。live 是"玩家的安装目录", 不是交付物:
+    # BepInEx/config 会被游戏运行期改写, 顶层 README/LICENSE 也不一定解压安装 ——
+    # 所以 live 只比"运行树"(BepInEx 全树除 config + 4 个运行时顶层文件), 文档不比。
+    zip_bad = []
+    with zipfile.ZipFile(zip_path) as z:
+        for rel in sorted(expected_entries):
+            sf = os.path.join(stage, rel.replace("/", os.sep))
+            if hashlib.sha256(z.read(rel)).hexdigest() != sha256(sf):
+                zip_bad.append(rel)
+    check("stage==zip 全部发布文件 (%d)" % len(expected_entries), not zip_bad,
+          "%d 处不一致 %s" % (len(zip_bad), zip_bad[:5]))
+
+    LIVE_TOP = [".doorstop_version", "arialuni_sdf_u2019", "doorstop_config.ini", "winhttp.dll"]
+    live_entries = [rel for rel in sorted(expected_entries)
+                    if not rel.startswith("BepInEx/config/")
+                    and (rel.startswith("BepInEx/") or rel in LIVE_TOP)]
+
     if args.live:
         for rel in FILES:
             live = sha256(os.path.join(args.live, rel.replace("/", os.sep)))
             stg = sha256(os.path.join(stage, rel.replace("/", os.sep)))
             check("live==stage==zip " + os.path.basename(rel),
                   live == stg == zsha[rel], live[:12])
+        live_bad = []
+        for rel in live_entries:
+            lf = os.path.join(args.live, rel.replace("/", os.sep))
+            sf = os.path.join(stage, rel.replace("/", os.sep))
+            if not os.path.exists(lf):
+                live_bad.append(rel + "(live缺)")
+            elif sha256(lf) != sha256(sf):
+                live_bad.append(rel + "(live≠stage)")
+        check("live==stage 运行树 (%d, 不含 config)" % len(live_entries), not live_bad,
+              "%d 处不一致 %s" % (len(live_bad), live_bad[:5]))
     else:
         for rel in FILES:
             check("stage==zip " + os.path.basename(rel),
                   sha256(os.path.join(stage, rel.replace("/", os.sep))) == zsha[rel])
-        check("live 比对", True, "未提供 --live, 跳过", skipped=True)
+        check("live 运行树比对", True, "未提供 --live, 跳过", skipped=True)
 
     # ---------- H 仓库 ↔ 发布树 漂移 (v1.3.32 结构侧) ----------
-    # 三树比对只覆盖 6 个关键文件 + 8 个顶层文件, 仓库与 stage 之间没有任何断言:
+    # 三树/zip 比对自 2026-11-15 起覆盖全部发布文件, 但"仓库 ↔ stage"仍是独立的一问:
     # 2026-11-04 就出现过"仓库改了 BUILDING.md、stage 还是旧版、验收照样全绿"。
     # 这里对两边都存在的文件做逐字节比对(仓库独有的 docs/ tools/ 不参与)。
     print("\n---------- H 仓库 ↔ 发布树 ----------")
@@ -631,10 +703,11 @@ def main():
                   "找到 %d 行；缺它就是「钩子没挂上」的强信号" % len(hi))
 
     # 2026-11-04 (外部审查 F-03): 验收器自身也要被验收。
-    # 省略 --live 时 "live 比对" 这一项会以 SKIP 记录 (比全参数多 1 条), 基线相应 +1;
+    # 2026-11-15: B 组两条分支现在都是 8 项(6 件套 + stage==zip 全树 + live 运行树/SKIP),
+    # 所以 --live 的有无不再改变应跑总数。
     # 省略 --diag 时 G 组整体不执行, 基线相应 -G_CHECKS。
     n_ran = len(RESULTS)
-    expected = EXPECTED_CHECKS + (0 if args.live else 1) - (0 if args.diag else G_CHECKS)
+    expected = EXPECTED_CHECKS - (0 if args.diag else G_CHECKS)
     if n_ran != expected:
         check("应跑检查项 %d (实跑 %d)" % (expected, n_ran), False,
               "差 %d 项未执行, 多半是缺 --csv (译本相关检查整块不跑); 发布门槛必须带全参数重跑"
@@ -643,11 +716,15 @@ def main():
     skipped = [r for r in RESULTS if r[1] == "SKIP"]
     _out("\n=== %d PASS / %d FAIL / %d SKIP ==="
          % (len(RESULTS) - len(failed) - len(skipped), len(failed), len(skipped)))
+    if not args.release:
+        _out("提示: 本次不是发布模式 (未带 --release); 上面的 PASS 数只代表已执行的检查项,")
+        _out("      不代表发布门槛。发布必须: --release --live --csv --diag, 且 rc=0。")
     _out("退出码 0=全绿 / 1=有 FAIL / 2=有 SKIP 或检查未跑全 (未完成的验收不算通过)")
     if failed:
         return 1
     if skipped or n_ran != expected:
-        return 2
+        # 发布模式下 SKIP 等于"不可发布", 用 1 区分于普通模式下的 2。
+        return 1 if args.release else 2
     return 0
 
 

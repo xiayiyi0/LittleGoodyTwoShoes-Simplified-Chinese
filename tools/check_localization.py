@@ -301,7 +301,7 @@ def main():
     rk_bad = [r["记录键"] for r in rows
               if r["状态"] == "已译" and r["中文译文"].strip()
               and not r["记录键"].startswith("XUAT_") and r["记录键"] not in L.refkey]
-    report(not rk_bad, "G1.3 非 XUAT 的已译行都进了 by_refkey(I2 路径)", "缺 %d" % len(rk_bad))
+    report(not rk_bad, "G1.3 非 XUAT 的已译行都进了 by_refkey(Gridly 精确路径)", "缺 %d" % len(rk_bad))
     for k in rk_bad[:args.show]:
         print("    - %s" % k)
 

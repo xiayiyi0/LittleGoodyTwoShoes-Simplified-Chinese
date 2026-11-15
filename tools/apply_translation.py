@@ -152,6 +152,11 @@ def load_runtime_lines(path):
 
 
 def backup(path, suffix):
+    # 2026-11-15 (第三方结构审查 F5): --scratch 要能真的"文件全删后重建"。
+    # 旧版在目标不存在时 shutil.copy2 直接抛 FileNotFoundError, 所以 scratch 名义上
+    # 从零重建、实际仍要求旧文件在场。缺文件时跳过备份即可。
+    if not os.path.exists(path):
+        return None
     dst = path + suffix
     if not os.path.exists(dst):
         shutil.copy2(path, dst)
@@ -178,6 +183,7 @@ def main():
     repo = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     tran = os.path.join(args.live, r"BepInEx\plugins\LGTSChinese\translation") if args.live \
         else os.path.join(repo, "BepInEx", "plugins", "LGTSChinese", "translation")
+    os.makedirs(tran, exist_ok=True)   # --scratch 到空目录时也能落盘
 
     rows = list(csv.DictReader(open(args.csv, encoding="utf-8-sig")))
     cols = rows[0].keys() if rows else []
@@ -288,11 +294,13 @@ def main():
     print("display: %d 键, 改值 %d (含运行时逐行字幕层 %d 条)" % (len(disp), dchg, len(rt)))
 
     ip = os.path.join(tran, "lgts_item_names.json")
-    if os.path.exists(ip):
+    itp = os.path.join(repo, "tools", "keys_item.txt")
+    # 2026-11-15 (F5): 旧版 item_names 只在"目标文件已存在"时重建, 空目录 scratch 会
+    # 静默少一本词典。现在只要键集清单在, 文件不在也照建。
+    if os.path.exists(ip) or os.path.exists(itp):
         backup(ip, args.backup_suffix)
-        itn = {} if args.scratch else json.load(open(ip, encoding="utf-8"))
+        itn = {} if args.scratch or not os.path.exists(ip) else json.load(open(ip, encoding="utf-8"))
         old_itn = dict(itn)
-        itp = os.path.join(repo, "tools", "keys_item.txt")
         order_it = ([ln.rstrip("\r\n") for ln in open(itp, encoding="utf-8") if ln.strip()]
                     if os.path.exists(itp) else list(itn))
         ichg = miss = 0

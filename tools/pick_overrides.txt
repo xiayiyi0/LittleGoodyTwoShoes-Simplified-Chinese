@@ -25,8 +25,8 @@ What... are you...?	CUT_2_1_DMP_01_006
 Of course, Mr. Ludwig.	DLG_3_4_OLH_01_011
 
 # 2026-11-12 第 10 批：译者做语域细化后，同英文出现多档译法（说话人/对象/场景不同）。
-#   display 按英文归一只存一条，这里固定取哪条；by_refkey 仍各存各的（I2 路径不受影响）。
-#   根本解法见 PIPELINE「同英文多语域」：需要按 RefKey/组件路径分流（DLL 改动）。
+#   display 按英文归一只存一条，这里固定取哪条；by_refkey 各存各的（Gridly 精确路径不受影响）。
+#   根本解法已在 v1.3.32 落地：Gridly GetStringData(recordID) 命中 by_refkey，按行取专属译文。
 I suppose...	DLG_2_1_VSQ_01_012
 Why, you...!	DLG_2_3_VIN_01_015
 (That old hag...!)	DLG_3_3_VBA_02_040
