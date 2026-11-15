@@ -12,7 +12,7 @@
 
 | 项 | 处置 | 结果 |
 |---|---|---|
-| F1 display 同英文多译文 | 复核：29 组 / 483 行；其中 70 行译文与 display 值不同，但 70 行**全部是非 XUAT、全部有 by_refkey 直取路径**，29 组也已全部由 `pick_overrides.txt` 钉死。只有 6 条 XUAT 折键遮蔽（`XUAT_00496/00574/00578/00580/01281/01409`），属 PIPELINE 已记录的 47 行字面 `\n` 已知项。 | 维持设计，文档补记 |
+| F1 display 同英文多译文 | 复核：29 组 / 483 行；其中 70 行译文与 display 值不同，但 70 行**全部是非 XUAT、全部有 by_refkey 直取路径**，29 组也已全部由 `pick_overrides.txt` 钉死。只有 6 条 XUAT 折键遮蔽（`XUAT_00496/00574/00578/00580/01281/01409`），属 PIPELINE 已记录的 47 行字面 `\n` 已知项；逐条比对 display 值语义一致（仅 `<br>` vs 真换行表示差异）。 | 维持设计，文档补记 |
 | F2 钩子异常可观测性 | `HookErr<20` 截断、Gridly postfix 裸 `catch{}`、`PatchGridlyProbe` 的"只观测"陈旧注释，均属要改 DLL 的项；v1.3.34 二进制不动。 | 记入 PIPELINE「待下个版本」 |
 | F3 "44 PASS" 被读成全绿 | `verify_release.py` 新增 `--release`：强制 `--live/--csv/--diag`，任一 SKIP 按不可发布返回 1；普通运行在汇总后打印"不是发布模式"。 | 已改（工具） |
 | F4 包完整性只查 6 文件 | zip 文件集与 repack 白名单**双向精确比对**；`stage==zip 全部发布文件`（71 项）逐字节；`live==stage 运行树`（62 项，不含会被运行期改写的 `BepInEx/config`）；`SHA256SUMS` 覆盖改为精确相等。 | 已改（工具） |
