@@ -1,0 +1,16 @@
+== V07 rc=1
+no traceback
+FAIL zip 文件集与发布树精确一致 (71)  | 条目 70/预期 71 | 缺 1 ['BepInEx/plugins/LGTSChinese/translation/lgts_item_names.json'] | 多 0 []
+FAIL SHA256SUMS 覆盖全部发布文件  | 缺 ['missing_item.zip'] / 多 ['LGTS-SimplifiedChinese-v1.3.34.zip']
+FAIL stage==zip 全部发布文件 (71)  | 1 处不一致 ['BepInEx/plugins/LGTSChinese/translation/lgts_item_names.json(zip缺)']
+FAIL live==stage==zip lgts_item_names.json  | 7af1284db547
+=== 42 PASS / 4 FAIL / 0 SKIP ===
+== V08 rc=1
+FAIL DIAG 行数 > 20  | DIAG 不可读
+FAIL DIAG 无 [TMP MISS]  | DIAG 不可读
+FAIL DIAG 无未登记 [DEGRADE]  | DIAG 不可读
+FAIL DIAG 首行版本绑定  | DIAG 不可读
+FAIL DIAG DLL 绑定 (sha256)  | DIAG 不可读
+FAIL DIAG Gridly 精确取词已生效  | DIAG 不可读
+FAIL DIAG TMP 钩子已挂  | DIAG 不可读
+=== 46 PASS / 7 FAIL / 0 SKIP ===

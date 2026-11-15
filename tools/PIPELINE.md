@@ -443,6 +443,8 @@ System.*`，不得出现 UnityEngine / BepInEx / Harmony），同一份源码由
   转义分支等）目前只在 2026-11-15 的第二轮结构审查中做过模糊测试，仓库里还没有常驻用例；
   `Plugin.cs` 的 Harmony 接线仍需游戏 DLL，不能进 CI。第二轮报告：
   `tools/acceptance/第三方结构审查_第二轮_处置_20261115.md`。
+  构建侧已加保险：`apply_translation.py` 的 `dump()` 拒收 `\b`/`\f` 与 U+001C..U+001F，
+  避免生成 `ParseFlatJson` 读不对或与 Python 空白集合不一致的 JSON。
 - **没有 CI。** 编译需要游戏本体的 `LGTS_Data/Managed/*.dll`，属付费资产，不能进
   runner。这一步只能人工跑 `build.cmd`。
 - `rebuild_at.py` 的"模糊"一级只在唯一解时采用；出现歧义会退回机械规范化。

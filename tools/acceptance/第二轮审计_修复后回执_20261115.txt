@@ -22,7 +22,7 @@ PASS live==stage==zip UI_System.txt  | dc96d6c787cf
 PASS live==stage 运行树 (62, 不含 config)  | 0 处不一致 []
 
 ---------- H 仓库 ↔ 发布树 ----------
-PASS 仓库==发布树 共有文件一致  | 130 个共有文件, 漂移 0 []
+PASS 仓库==发布树 共有文件一致  | 132 个共有文件, 漂移 0 []
 
 ---------- I 零 Unity 依赖自检 ----------
 PASS 自检报告 v1.3.34 存在且 PASS  | plugin_ver='1.3.34' RESULT='RESULT=PASS cases=126 fail=0'

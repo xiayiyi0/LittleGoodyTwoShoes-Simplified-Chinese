@@ -165,6 +165,17 @@ def backup(path, suffix):
 
 
 def dump(obj, path):
+    # 2026-11-15 (第二轮结构审查 V04/V06): Core.ParseFlatJson 目前没有 \b/\f 分支,
+    # 且 .NET 与 Python 的 \s 对 U+001C..U+001F 判断不同。构建侧先拦住这些字符,
+    # 保证将来即使译本里出现它们, 也不会悄悄生成插件读不对的 JSON。
+    bad = set("\x08\x0c") | {chr(c) for c in range(0x1c, 0x20)}
+    for k, v in obj.items():
+        for s in (k, v):
+            if isinstance(s, str):
+                for ch in s:
+                    if ch in bad:
+                        raise SystemExit("%s 含 ParseFlatJson 不支持的字符 U+%04X: %r"
+                                         % (os.path.basename(path), ord(ch), s[:40]))
     with open(path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(obj, f, ensure_ascii=False, indent=None, separators=(", ", ": "))
 
