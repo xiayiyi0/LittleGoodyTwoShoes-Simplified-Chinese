@@ -53,7 +53,7 @@ Loaded fallback font for TextMesh Pro: arialuni_sdf_u2019
    选“属性”→“详细信息”，文件版本应为 1.3.34.0。
 2. 诊断日志首行：用记事本打开 BepInEx/plugins/LGTSChinese/DIAG.txt（运行过一次
    游戏后生成），首行应为 “=== LGTS DIAG v1.3.34 启动 ===”。
-3. 文件完整性：对照发布包内的 SHA256SUMS.txt，可用命令
+3. 文件完整性：对照发布页附件的 SHA256SUMS.txt，可用命令
    certutil -hashfile "文件路径" SHA256
    逐条核对（至少核对 LGTSChinese.dll 与三个 translation 词典（display / by_refkey / item_names））。
 
@@ -127,7 +127,7 @@ BepInEx 需要通过 winhttp.dll 将插件注入 Unity 游戏。请检查杀毒�
 注意：本补丁只在 GitHub 仓库的 Release 页发布
 （https://github.com/xiayiyi0/LittleGoodyTwoShoes-Simplified-Chinese/releases）。
 “加信任列表”这一步本身是正常的，但第三方转载的“整合版”“绿色版”可以照抄这段说明，
-让玩家为真正有害的文件放行。放行之前请先确认压缩包来源，并按包内 SHA256SUMS.txt
+让玩家为真正有害的文件放行。放行之前请先确认压缩包来源，并按发布页附件 SHA256SUMS.txt
 校验 LGTSChinese.dll 与三个词典文件；来源不明时不要加信任，直接删掉重下。
 
 5. Steam 验证文件后补丁失效

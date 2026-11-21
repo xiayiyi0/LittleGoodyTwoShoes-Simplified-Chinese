@@ -14,7 +14,7 @@ Notion在线双语译本https://app.notion.com/p/3ffaa7b537c180ea95aed0126e29327
 原因：本补丁依赖 winhttp.dll 把插件注入游戏进程（BepInEx 的标准做法）。代理 DLL 是杀毒软件
 的常见误报对象，因此安装说明里有“把游戏目录加入信任列表”这一步——这一步是正常的，但也正
 因为如此，改过包的恶意版本可以照抄同一套说辞骗玩家放行。请只从上面这个 Release 页下载，
-并在解压后按包内 SHA256SUMS.txt 校验 LGTSChinese.dll 与三个词典文件。
+并在解压后按发布页附件 SHA256SUMS.txt 校验 LGTSChinese.dll 与三个词典文件。
 
 安装方法
 

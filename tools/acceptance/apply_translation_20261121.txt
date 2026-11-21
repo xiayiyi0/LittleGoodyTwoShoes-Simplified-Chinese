@@ -1,0 +1,8 @@
+译本列集: 9 列 (9 列格式)
+CSV 行 28248 | refkey 映射 21189 | 英文归一键 25311 | 跳过 {'empty_zh': 21, 'empty_en': 40}
+  备份 lgts_zh_by_refkey.json.bak_pre_20261121
+by_refkey: 21189 -> 21189 (改值 124, 新增 0)
+  备份 lgts_display.json.bak_pre_20261121
+display: 25323 键, 改值 125 (含运行时逐行字幕层 69 条)
+  备份 lgts_item_names.json.bak_pre_20261121
+item_names: 79 条, 改值 0, 未匹配 0
