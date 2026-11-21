@@ -59,7 +59,7 @@ V04/V05/V06（Core.cs）、V09/V10/V11（Plugin.cs）、V12 zip 内措辞、V16 
 | `UI_System.txt` | 34,198 B / 536 键（未改）/ `dc96d6c787cf5fcd50132fcbefcf084df6447835ce7459d0fbb4885f2f4a7107` |
 | `LGTSChinese.dll` | 47,104 B / 1.3.34.0（未改）/ `e30176255b83a439645df62eeb9f14c39f3a0ecae037c7009ca8693484d05cd4` |
 | zip | **31,693,520 B / `46fcffef4ddded36b88f37d6fd95269e27cb8a4793f6ed692cacea5ce63d0a39`**（71 条目） |
-| 包内 `SHA256SUMS.txt` | 1,463 B / **`6cd05b30330c301a1c18e0a4ffdbda7f5756bd92a5bb547dc312c58d9ace91f3`** |
+| `SHA256SUMS.txt`（发布页附件） | 1,463 B / **`6cd05b30330c301a1c18e0a4ffdbda7f5756bd92a5bb547dc312c58d9ace91f3`** |
 
 **验收**：`verify_release.py --stage … --version 1.3.34 --live … --csv …`（未带 `--diag`）
 → **46 PASS / 0 FAIL / 0 SKIP，rc=0**；`check_localization.py --stage/--live` 均 **21/21 PASS**；
