@@ -1,0 +1,35 @@
+========== 本地化交付自检 ==========
+词典根: D:\steam\steamapps\common\Little Goody Two Shoes\temp_work_result\dist\stage_v1334
+译本  : D:\steam\steamapps\common\Little Goody Two Shoes\temp_work_result\dist\stage_v1334\docs\Little_Goody_Two_Shoes_汉化_双语译本版本11.csv
+层规模: display 25323 / by_refkey 21189 / item 79 / AT 24700
+
+---------- G1 请求可满足 ----------
+PASS G1.1 译本每一行都能取到值  | 28187 / 28187 行命中，来源分布 {'dict': 27736, 'noise': 332, 'at': 47, 'rule': 72}
+PASS G1.2 runtime_lines 每条都已并入 display  | 69 条，缺 0
+PASS G1.3 非 XUAT 的已译行都进了 by_refkey(Gridly 精确路径)  | 缺 0
+PASS G1.4 item_names 无空值  | 79 键，空 0
+PASS G1.5 规则/模板/拼串形态都能取到值  | 49 条合成请求，缺 0
+PASS G1.6 存档位「日期/时间」两行且不被切断（含 DLL 绑定）  | 5 个日期样本，问题 0
+PASS G1.7 发布 DLL 用的是「日期/时间」分行实现  | 含 \n时间 =1，旧形态 ' 时间 ' =0
+
+---------- G2 无英文回退 ----------
+PASS G2.1 译文==原文的行都已标注免译理由  | 未标注 0
+PASS G2.2 已译行没有空译文  | 空 0
+
+---------- G3 标签/换行与原文一致 ----------
+PASS G3.1 原文的富文本标签没有丢  | 丢 0 行（白名单 5）
+PASS G3.2 原文有换行的，译文不许压成一行  | 违反 0 行（白名单 2）
+PASS G3.3 译文里标签开闭配对  | 不配对 0 行
+PASS G3.4 display 值不含字面 \n（否则 TMP 把反斜杠+n 当正文显示）  | 0 条
+PASS G3.5 AT 值不含真换行（XUAT 按行解析会把一条拆成两条）  | 0 条；孤立续行 0 条 []
+PASS G3.6 UI_System 值不含真换行（同上）  | 0 条；孤立续行 0 条 []
+
+---------- G4 键未归并 ----------
+PASS G4.1 一归一键多译文都已用 pick_overrides 钉住  | 未钉 0 组
+PASS G4.2 pick_overrides 指向的记录都存在且键真有碰撞  | 悬空 0
+PASS G4.3 pick_overrides 没有陈旧条目  | 陈旧 0
+PASS G4.4 记录键层(by_refkey) 与译本译值一致  | 0 条滞后
+PASS G4.5 兜底层(AT) 与译本候选一致  | 0 条滞后
+PASS G4.6 display 值来自译本候选/runtime_lines/NAME_OVERRIDE  | 0 条不一致
+
+========== 全部通过 ==========
